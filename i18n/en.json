@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"bs-distribution-yourdomainname": "Your domain",
+	"bs-distribution-tag-categorytree-desc": "Displays a dynamic tree structure on the category system in the wiki. Between the tags the root category has to be indicated.",
+	"bs-distribution-tag-ref-desc": "Marks the text between the tags as footnote.",
+	"bs-distribution-tag-references-desc": "Displays the list of footnotes which were inserted into the articles.",
+	"bs-distribution-tag-quiz-desc": "Adds simple quiz questions to an article.",
+	"bs-distribution-tag-embedvideo-desc": "Embeds video clips from popular sharing platforms.",
+	"bs-distribution-tag-dynamicpagelist-desc": "Generates a dynamic list of articles based on various parameters."
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"bs-distribution-yourdomainname": "Deine Domain",
+	"bs-distribution-tag-categorytree-desc": "Stellt eine dynamische Baumansicht für die Kategorien im Wiki bereit. In der Mitte steht die jeweilige Kategorie, von der ausgegangen werden soll.",
+	"bs-distribution-tag-ref-desc": "Markiert den Text zwischen dem 'ref' Tag als Fußnote.",
+	"bs-distribution-tag-references-desc": "Zeigt den Text aller durch 'ref' Tags markierten Stellen bis zu diesem Punkt der Seite an.",
+	"bs-distribution-tag-quiz-desc": "Fügt einem Artikel einfache quizartige Fragen inklusive vorgegebener Auswertung hinzu.",
+	"bs-distribution-tag-embedvideo-desc": "Bettet Video-Clips von populären Video-Sharing-Diensten ein.",
+	"bs-distribution-tag-dynamicpagelist-desc": "Erzeugt eine dynamische Liste von Seiten basierend auf verschiedenen Parametern."
+}

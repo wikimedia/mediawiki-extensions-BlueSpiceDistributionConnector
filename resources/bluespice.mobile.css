@@ -1,0 +1,6 @@
+#mw-mf-page-left ul{
+	background-color: rgba(62, 83, 137, 0.439216);
+}
+#mw-mf-page-left ul li:hover{
+	border-left-color: #FFAE00;
+}
