@@ -23,9 +23,6 @@
 				"mobile"
 			],
 			"position": "bottom"
-		},
-		"ext.bluespice.wikicategorytagcloud": {
-			"styles": "bluespice.wikicategorytagcloud.css"
 		}
 	},
 	"ResourceFileModulePaths": {
