@@ -1,0 +1,48 @@
+{
+	"name": "BlueSpiceDistributionConnector",
+	"version": "2.27.0",
+	"url": "https://help.bluespice.com/index.php/BlueSpiceDistributionConnector",
+	"author": [
+		"Robert Vogel"
+	],
+	"descriptionmsg": "bs-distributionconnector-extension-description",
+	"type": "bluespice",
+	"MessagesDirs": {
+		"BlueSpiceDistributionConnector": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"BlueSpiceDistributionHooks": "includes/BlueSpiceDistributionHooks.php",
+		"BSUserLoginMobileTemplate": "includes/skins/BSUserLoginMobileTemplate.php"
+	},
+	"ResourceModules": {
+		"ext.bluespice.distribution": {
+			"scripts": "bluespice.distribution.js",
+			"targets": [
+				"mobile"
+			],
+			"position": "bottom"
+		},
+		"ext.bluespice.wikicategorytagcloud": {
+			"styles": "bluespice.wikicategorytagcloud.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceDistributionConnector/resources"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "BlueSpiceDistributionHooks::onBeforePageDisplay",
+		"MinervaPreRender": "BlueSpiceDistributionHooks::onMinervaPreRender",
+		"UserLoginForm": "BlueSpiceDistributionHooks::onUserLoginForm",
+		"BSInsertMagicAjaxGetData": [
+			"BlueSpiceDistributionHooks::onBSInsertMagicAjaxGetDataCategoryTree",
+			"BlueSpiceDistributionHooks::onBSInsertMagicAjaxGetDataCite",
+			"BlueSpiceDistributionHooks::onBSInsertMagicAjaxGetDataQuiz",
+			"BlueSpiceDistributionHooks::onBSInsertMagicAjaxGetDataEmbedVideo",
+			"BlueSpiceDistributionHooks::onBSInsertMagicAjaxGetDataDynamicPageList"
+		]
+	},
+	"manifest_version": 1
+}

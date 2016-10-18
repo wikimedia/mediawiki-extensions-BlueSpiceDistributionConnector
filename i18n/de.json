@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": []
 	},
+	"bs-distributionconnector-extension-description": "Verbindet BlueSpice mit verschiedenen Erweiterungen",
 	"bs-distribution-yourdomainname": "Deine Domain",
 	"bs-distribution-tag-categorytree-desc": "Stellt eine dynamische Baumansicht für die Kategorien im Wiki bereit. In der Mitte steht die jeweilige Kategorie, von der ausgegangen werden soll.",
 	"bs-distribution-tag-ref-desc": "Markiert den Text zwischen dem 'ref' Tag als Fußnote.",
