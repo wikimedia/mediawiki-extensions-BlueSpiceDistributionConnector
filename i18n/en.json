@@ -2,7 +2,7 @@
 	"@metadata": {
 		"authors": []
 	},
-	"bs-distributionconnector-extension-description": "Connects BlueSpice to various extensions",
+	"bs-distributionconnector-extension-description": "Connects BlueSpice to various MediaWiki extensions",
 	"bs-distribution-yourdomainname": "Your domain",
 	"bs-distribution-tag-categorytree-desc": "Displays a dynamic tree structure on the category system in the wiki. Between the tags the root category has to be indicated.",
 	"bs-distribution-tag-ref-desc": "Marks the text between the tags as footnote.",
