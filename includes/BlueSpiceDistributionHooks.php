@@ -207,4 +207,51 @@ It is very useful to use footnotes <ref>A note can provide an author's comments 
 
 		return true;
 	}
+
+	/**
+	 * @param BaseTemplate $baseTemplate
+	 * @param array $toolbox
+	 * @return boolean
+	 */
+	public static function onBaseTemplateToolbox( BaseTemplate $baseTemplate, array &$toolbox ) {
+		global $wgHooks;
+
+		//Move duplicater toolbox link from legacy hook to
+		//SkinTemplateToolboxEnd
+		$iPosDuplicatior = array_search(
+			'efDuplicatorToolbox',
+			$wgHooks['SkinTemplateToolboxEnd']
+		);
+
+		if( $iPosDuplicatior !== false && !empty( $baseTemplate->data['nav_urls']['duplicator']['href'] ) ) {
+			unset( $wgHooks['SkinTemplateToolboxEnd'][$iPosDuplicatior] );
+			$toolbox['duplicator'] = [
+				"id" => "t-duplicator",
+				"href" => htmlspecialchars( $baseTemplate->data['nav_urls']['duplicator']['href'] ),
+				"text" => wfMessage( 'duplicator-toolbox' )->plain(),
+			];
+		}
+
+		//Move cite toolbox link from legacy hook to SkinTemplateToolboxEnd
+		//Move duplicater toolbox link from legacy hook to
+		//SkinTemplateToolboxEnd
+		$iPosCiteThisPage = array_search(
+			"CiteThisPageHooks::onSkinTemplateToolboxEnd",
+			$wgHooks['SkinTemplateToolboxEnd']
+		);
+
+		if( $iPosCiteThisPage !== false && !empty( $baseTemplate->data['nav_urls']['citeThisPage'] ) ) {
+			unset( $wgHooks['SkinTemplateToolboxEnd'][$iPosCiteThisPage] );
+			$toolbox['citethispage'] = array_merge(
+				[
+					"id" => "t-cite",
+					"href" => SpecialPage::getTitleFor( 'CiteThisPage' )->getLocalURL( $baseTemplate->data['nav_urls']['citeThisPage']['args'] ),
+					"text" => wfMessage( 'citethispage-link' )->escaped(),
+				],
+				Linker::tooltipAndAccessKeyAttribs( 'citethispage' )
+			);
+		}
+
+		return true;
+	}
 }
