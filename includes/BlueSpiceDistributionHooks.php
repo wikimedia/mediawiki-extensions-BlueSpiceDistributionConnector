@@ -227,7 +227,7 @@ It is very useful to use footnotes <ref>A note can provide an author's comments 
 			unset( $wgHooks['SkinTemplateToolboxEnd'][$iPosDuplicatior] );
 			$toolbox['duplicator'] = [
 				"id" => "t-duplicator",
-				"href" => htmlspecialchars( $baseTemplate->data['nav_urls']['duplicator']['href'] ),
+				"href" => $baseTemplate->data['nav_urls']['duplicator']['href'],
 				"text" => wfMessage( 'duplicator-toolbox' )->plain(),
 			];
 		}
