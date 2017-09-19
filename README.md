@@ -1,3 +1,3 @@
 # BlueSpiceDistributionConnector
 
-Connect BlueSpice
+Connect BlueSpice with Free Extensions
