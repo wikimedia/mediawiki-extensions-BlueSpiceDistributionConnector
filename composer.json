@@ -1,0 +1,12 @@
+{
+  "name": "mediawiki/blue-spice-distribution-connector",
+  "type": "mediawiki-extension",
+  "require": {
+    "composer/installers": "~1.0"
+  },
+  "autoload": {
+    "files": [
+      "BlueSpiceDistributionConnector.php"
+    ]
+  }
+}
