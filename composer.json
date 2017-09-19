@@ -1,6 +1,7 @@
 {
   "name": "mediawiki/blue-spice-distribution-connector",
   "type": "mediawiki-extension",
+  "description": "Connect BlueSpice with some extensions",
   "require": {
     "composer/installers": "~1.0"
   },
