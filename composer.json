@@ -4,10 +4,5 @@
   "description": "Connect BlueSpice with some extensions",
   "require": {
     "composer/installers": "~1.0"
-  },
-  "autoload": {
-    "files": [
-      "BlueSpiceDistributionConnector.php"
-    ]
   }
 }
