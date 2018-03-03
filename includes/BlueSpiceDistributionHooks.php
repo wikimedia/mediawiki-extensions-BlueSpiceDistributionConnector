@@ -34,11 +34,9 @@ class BlueSpiceDistributionHooks {
 	}
 
 	public static function onUserLoginForm( &$template ) {
-		wfProfileIn( __METHOD__ );
 		if ( $template instanceof UserLoginMobileTemplate ) {
 			$template = new BSUserLoginMobileTemplate( $template );
 		}
-		wfProfileOut( __METHOD__ );
 		return true;
 	}
 
