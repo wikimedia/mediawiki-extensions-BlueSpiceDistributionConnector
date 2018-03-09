@@ -20,9 +20,6 @@
 	"ResourceModules": {
 		"ext.bluespice.distribution": {
 			"scripts": "bluespice.distribution.js",
-			"targets": [
-				"mobile"
-			],
 			"position": "bottom"
 		}
 	},
