@@ -12,6 +12,7 @@
 		"BlueSpiceFoundation": {
 			"PermissionRegistry": {
 				"editwidgets": {
+					"type": "global",
 					"roles": [
 						"admin"
 					]
