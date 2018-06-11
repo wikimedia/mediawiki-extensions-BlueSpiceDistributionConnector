@@ -8,6 +8,21 @@
 	],
 	"descriptionmsg": "bs-distributionconnector-extension-description",
 	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"PermissionRegistry": {
+				"editwidgets": {
+					"type": "namespace",
+					"roles": [
+						"admin"
+					]
+				}
+			}
+		}
+	},
+	"AvailableRights": [
+		"editwidgets"
+	],
 	"MessagesDirs": {
 		"BlueSpiceDistributionConnector": [
 			"i18n"
