@@ -209,6 +209,57 @@ It is very useful to use footnotes <ref>A note can provide an author's comments 
 	}
 
 	/**
+	 * Inject Syntaxhighlight tag into InsertMagic
+	 * @param Object $oResponse reference
+	 * $param String $type
+	 * @return always true to keep hook running
+	 */
+	public static function onBSInsertMagicAjaxGetDataSyntaxHighlight( &$oResponse, $type ) {
+		if ( $type != 'tags' ) return true;
+
+		$oResponse->result[] = array(
+			'id' => 'syntaxhighlight',
+			'type' => 'tag',
+			'name' => 'syntaxhighlight',
+			'desc' => wfMessage( 'bs-distribution-tag-syntaxhighlight-desc' )->plain(),
+			'code' => '<syntaxhighlight></syntaxhighlight>',
+			'examples' => array(
+                                array(
+                                        'label' => wfMessage( 'bs-distribution-tag-syntaxhighlight-example-1' )->escaped(),
+                                        'code' => '<syntaxhighlight lang="{lang}"></syntaxhighlight>'
+                                ),
+                                array(
+                                        'label' => wfMessage( 'bs-distribution-tag-syntaxhighlight-example-2' )->escaped(),
+                                        'code' => '<syntaxhighlight line="{line}"></syntaxhighlight>'
+                                ),
+                                array(
+                                        'label' => wfMessage( 'bs-distribution-tag-syntaxhighlight-example-3' )->escaped(),
+                                        'code' => '<syntaxhighlight start="{start}"></syntaxhighlight>'
+                                ),
+                                array(
+                                        'label' => wfMessage( 'bs-distribution-tag-syntaxhighlight-example-4' )->escaped(),
+                                        'code' => '<syntaxhighlight highlight="{highlight}"></syntaxhighlight>'
+                                ),
+                                array(
+                                        'label' => wfMessage( 'bs-distribution-tag-syntaxhighlight-example-5' )->escaped(),
+                                        'code' => '<syntaxhighlight inline="{inline}"></syntaxhighlight>'
+                                ),
+                                array(
+                                        'label' => wfMessage( 'bs-distribution-tag-syntaxhighlight-example-6' )->escaped(),
+                                        'code' => '<syntaxhighlight class="{class}"></syntaxhighlight>'
+                                ),
+                                array(
+                                        'label' => wfMessage( 'bs-distribution-tag-syntaxhighlight-example-7' )->escaped(),
+                                        'code' => '<syntaxhighlight style="{style}"></syntaxhighlight>'
+                                )
+			),
+			'helplink' => 'https://help.bluespice.com/index.php/CSyntaxHighlight'
+		);
+
+		return true;
+	}
+
+	/**
 	 * @param BaseTemplate $baseTemplate
 	 * @param array $toolbox
 	 * @return boolean

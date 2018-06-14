@@ -40,7 +40,8 @@
 			"BlueSpiceDistributionHooks::onBSInsertMagicAjaxGetDataCite",
 			"BlueSpiceDistributionHooks::onBSInsertMagicAjaxGetDataQuiz",
 			"BlueSpiceDistributionHooks::onBSInsertMagicAjaxGetDataEmbedVideo",
-			"BlueSpiceDistributionHooks::onBSInsertMagicAjaxGetDataDynamicPageList"
+			"BlueSpiceDistributionHooks::onBSInsertMagicAjaxGetDataDynamicPageList",
+			"BlueSpiceDistributionHooks::onBSInsertMagicAjaxGetDataSyntaxHighlight"
 		]
 	},
 	"manifest_version": 1
