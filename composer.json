@@ -1,7 +1,7 @@
 {
   "name": "mediawiki/blue-spice-distribution-connector",
   "type": "mediawiki-extension",
-  "license": "GPL-3.0",
+  "license": "GPL-3.0-only",
   "description": "Connect BlueSpice with some extensions",
   "require": {
     "composer/installers": "~1.0"
