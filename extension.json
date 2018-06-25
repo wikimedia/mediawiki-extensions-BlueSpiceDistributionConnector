@@ -18,8 +18,14 @@
 					]
 				}
 			}
+		},
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.bluespice.distribution.categoryTree.visualEditor"
+			]
 		}
 	},
+
 	"MessagesDirs": {
 		"BlueSpiceDistributionConnector": [
 			"i18n"
@@ -33,6 +39,32 @@
 		"ext.bluespice.distribution": {
 			"scripts": "bluespice.distribution.js",
 			"position": "bottom"
+		},
+		"ext.bluespice.distribution.categoryTree.visualEditor": {
+			"scripts": [
+				"ve/ve.ce.CategoryTreeNode.js",
+				"ve/ve.dm.CategoryTreeNode.js",
+				"ve/ve.ui.CategoryTreeInspector.js",
+				"ve/ve.ui.CategoryTreeInspectorTool.js"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"messages": [
+				"bs-distribution-ve-categorytreeinpector-title",
+				"bs-distribution-ve-categorytree-title",
+				"bs-distribution-ve-categorytreeinspector-dd-mode",
+				"bs-distribution-ve-categorytreeinspector-tb-depth",
+				"bs-distribution-ve-categorytreeinspector-tb-hideroot",
+				"bs-distribution-ve-categorytreeinspector-tb-showcount",
+				"bs-distribution-ve-categorytreeinspector-dd-hideprefix",
+				"bs-distribution-ve-categorytreeinspector-tb-namespace",
+				"bs-distribution-ve-categorytreeinspector-tb-style"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwcore"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {

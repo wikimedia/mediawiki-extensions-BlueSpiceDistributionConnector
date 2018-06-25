@@ -9,5 +9,14 @@
 	"bs-distribution-tag-references-desc": "Displays the list of footnotes which were inserted into the articles.",
 	"bs-distribution-tag-quiz-desc": "Adds simple quiz questions to an article.",
 	"bs-distribution-tag-embedvideo-desc": "Embeds video clips from popular sharing platforms.",
-	"bs-distribution-tag-dynamicpagelist-desc": "Generates a dynamic list of articles based on various parameters."
+	"bs-distribution-tag-dynamicpagelist-desc": "Generates a dynamic list of articles based on various parameters.",
+	"bs-distribution-ve-categorytreeinpector-title": "CategoryTree",
+	"bs-distribution-ve-categorytree-title": "CategoryTree",
+	"bs-distribution-ve-categorytreeinspector-dd-mode": "Mode",
+	"bs-distribution-ve-categorytreeinspector-tb-depth": "Depth",
+	"bs-distribution-ve-categorytreeinspector-tb-hideroot": "Hide root",
+	"bs-distribution-ve-categorytreeinspector-tb-showcount": "Show count",
+	"bs-distribution-ve-categorytreeinspector-dd-hideprefix": "Hide prefix",
+	"bs-distribution-ve-categorytreeinspector-tb-namespace": "Namespace",
+	"bs-distribution-ve-categorytreeinspector-tb-style": "CSS style tag"
 }
