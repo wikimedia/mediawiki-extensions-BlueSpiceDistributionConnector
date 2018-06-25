@@ -9,5 +9,13 @@
 	"bs-distribution-tag-references-desc": "Zeigt den Text aller durch 'ref' Tags markierten Stellen bis zu diesem Punkt der Seite an.",
 	"bs-distribution-tag-quiz-desc": "Fügt einem Artikel einfache quizartige Fragen inklusive vorgegebener Auswertung hinzu.",
 	"bs-distribution-tag-embedvideo-desc": "Bettet Video-Clips von populären Video-Sharing-Diensten ein.",
-	"bs-distribution-tag-dynamicpagelist-desc": "Erzeugt eine dynamische Liste von Seiten basierend auf verschiedenen Parametern."
+	"bs-distribution-tag-dynamicpagelist-desc": "Erzeugt eine dynamische Liste von Seiten basierend auf verschiedenen Parametern.",
+	"bs-distribution-tag-syntaxhighlight-desc": "Ergänzt das Tag CSyntaxHighlight, das zur Anzeige formatierter Codeschnipsel verwendet wird.",
+	"bs-distribution-tag-syntaxhighlight-example-1": "Auswahl der Sprache",
+	"bs-distribution-tag-syntaxhighlight-example-2": "Mögliche Anzahl an Zeilen",
+	"bs-distribution-tag-syntaxhighlight-example-3": "Nummer der ersten Zeile",
+	"bs-distribution-tag-syntaxhighlight-example-4": "Hervorgehobene Zeilen",
+	"bs-distribution-tag-syntaxhighlight-example-5": "Quelltext als Teil innerhalb eines Absatzes",
+	"bs-distribution-tag-syntaxhighlight-example-6": "Klassen definieren",
+	"bs-distribution-tag-syntaxhighlight-example-7": "CSS einbinden"
 }

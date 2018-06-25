@@ -9,5 +9,13 @@
 	"bs-distribution-tag-references-desc": "Displays the list of footnotes which were inserted into the articles.",
 	"bs-distribution-tag-quiz-desc": "Adds simple quiz questions to an article.",
 	"bs-distribution-tag-embedvideo-desc": "Embeds video clips from popular sharing platforms.",
-	"bs-distribution-tag-dynamicpagelist-desc": "Generates a dynamic list of articles based on various parameters."
+	"bs-distribution-tag-dynamicpagelist-desc": "Generates a dynamic list of articles based on various parameters.",
+	"bs-distribution-tag-syntaxhighlight-desc": "Inserts CSyntaxHighlight tag, used to display formatted code snippets.",
+	"bs-distribution-tag-syntaxhighlight-example-1": "Selection of language",
+	"bs-distribution-tag-syntaxhighlight-example-2": "Enabled numbers of line",
+	"bs-distribution-tag-syntaxhighlight-example-3": "Number of first line",
+	"bs-distribution-tag-syntaxhighlight-example-4": "Highlighted lines",
+	"bs-distribution-tag-syntaxhighlight-example-5": "Source code inline as part of a paragraph",
+	"bs-distribution-tag-syntaxhighlight-example-6": "Define class",
+	"bs-distribution-tag-syntaxhighlight-example-7": "Include CSS"
 }
