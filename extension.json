@@ -1,7 +1,7 @@
 {
 	"name": "BlueSpiceDistributionConnector",
 	"license-name": "GPL-3.0-only",
-	"version": "3.0.0-alpha",
+	"version": "3.0.0-beta",
 	"url": "https://help.bluespice.com/index.php/BlueSpiceDistributionConnector",
 	"author": [
 		"Robert Vogel"
