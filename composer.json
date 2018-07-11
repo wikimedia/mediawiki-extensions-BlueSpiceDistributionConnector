@@ -1,5 +1,5 @@
 {
-  "name": "mediawiki/blue-spice-distribution-connector",
+  "name": "bluespice/distributionconnector",
   "type": "mediawiki-extension",
   "description": "Connect BlueSpice with some extensions",
   "require": {
@@ -9,5 +9,8 @@
     "files": [
       "BlueSpiceDistributionConnector.php"
     ]
+  },
+  "extra": {
+    "installer-name": "BlueSpiceDistributionConnector"
   }
 }
