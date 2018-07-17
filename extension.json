@@ -16,6 +16,24 @@
 					"roles": [
 						"admin"
 					]
+				},
+				"duplicate": {
+					"type": "global",
+					"roles": [
+						"admin"
+					]
+				},
+				"replacetext": {
+					"type": "global",
+					"roles": [
+						"admin"
+					]
+				},
+				"generatepages": {
+					"type": "global",
+					"roles": [
+						"admin"
+					]
 				}
 			}
 		},
@@ -25,7 +43,14 @@
 			]
 		}
 	},
-
+	"GroupPermissions": {
+		"sysop": {
+			"editwidgets": true,
+			"duplicate": true,
+			"replacetext": true,
+			"generatepages": true
+		}
+	},
 	"MessagesDirs": {
 		"BlueSpiceDistributionConnector": [
 			"i18n"
