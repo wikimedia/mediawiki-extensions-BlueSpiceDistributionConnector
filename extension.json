@@ -10,6 +10,12 @@
 	"type": "bluespice",
 	"attributes": {
 		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceDistributionConnector": {
+					"className": "DistributionConnector",
+					"extPath": "/BlueSpiceDistributionConnector"
+				}
+			},
 			"PermissionRegistry": {
 				"editwidgets": {
 					"type": "global",
@@ -65,6 +71,7 @@
 		]
 	},
 	"AutoloadClasses": {
+		"DistributionConnector": "DistributionConnector.class.php",
 		"BlueSpiceDistributionHooks": "includes/BlueSpiceDistributionHooks.php",
 		"BSUserLoginMobileTemplate": "includes/skins/BSUserLoginMobileTemplate.php"
 	},

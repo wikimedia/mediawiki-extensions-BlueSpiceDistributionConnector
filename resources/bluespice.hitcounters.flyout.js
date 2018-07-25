@@ -1,12 +1,10 @@
 Ext.onReady( function () {
 	Ext.Loader.setPath(
 			'BS.HitCounters',
-			"/bluespice/extensions/BlueSpiceDistributionConnector" +
-			//not set? 
-			//
+			bs.em.paths.get( 'BlueSpiceDistributionConnector' ) +
 			'/resources/BS.HitCounters'
 			);
-	console.log( bs.em.paths.get( 'BlueSpiceDistributionConnector' ) );
+	
 } );
 ( function ( mw, $, bs, undefined ) {
 	bs.util.registerNamespace( 'bs.hitcounters.flyout' );
