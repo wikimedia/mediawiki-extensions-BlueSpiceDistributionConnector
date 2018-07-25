@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"bs-distributionconnector-extension-description": "description of distributionconnector extensio",
+	"bs-distribution-yourdomainname": "Inputfield for domain on Userlogin for mobiletemplate",
+	"bs-distribution-tag-categorytree-desc": "Description of field to insert tag to insert a categorytree.",
+	"bs-distribution-tag-ref-desc": "Description of field to insert tag for references.",
+	"bs-distribution-tag-references-desc": "Description of the field description to insert tag to reference.",
+	"bs-distribution-tag-quiz-desc": "Description of field to insert tag to simple quiz.",
+	"bs-distribution-tag-embedvideo-desc": "Description of field to insert tag for embedded video.",
+	"bs-distribution-tag-dynamicpagelist-desc": "escription of field to insert tag for dynamic list of articles.",
+	"bs-distribution-flyout-hitcounters-text": "The Text for number of times the page has been viewed.",
+	"bs-distribution-ve-categorytreeinpector-title": "Title of the Inspector for CategoryTree",
+	"bs-distribution-ve-categorytree-title": "Title of the Inspector for CategoryTree",
+	"bs-distribution-ve-categorytreeinspector-dd-mode": "Form label for CategorTree Mode",
+	"bs-distribution-ve-categorytreeinspector-tb-depth": "Form label for CategorTree Depth",
+	"bs-distribution-ve-categorytreeinspector-tb-hideroot": "Form label for CategorTree Hide root",
+	"bs-distribution-ve-categorytreeinspector-tb-showcount": "Form label for CategorTree Show count",
+	"bs-distribution-ve-categorytreeinspector-dd-hideprefix": "Form label for CategorTree Hide prefix",
+	"bs-distribution-ve-categorytreeinspector-tb-namespace": "Form label for CategorTree Namespace",
+	"bs-distribution-ve-categorytreeinspector-tb-style": "Form label for CategorTree CSS style tag"
+}

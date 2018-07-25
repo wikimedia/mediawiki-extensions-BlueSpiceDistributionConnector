@@ -10,6 +10,7 @@
 	"bs-distribution-tag-quiz-desc": "Adds simple quiz questions to an article.",
 	"bs-distribution-tag-embedvideo-desc": "Embeds video clips from popular sharing platforms.",
 	"bs-distribution-tag-dynamicpagelist-desc": "Generates a dynamic list of articles based on various parameters.",
+	"bs-distribution-flyout-hitcounters-text": "Number of views",
 	"bs-distribution-ve-categorytreeinpector-title": "CategoryTree",
 	"bs-distribution-ve-categorytree-title": "CategoryTree",
 	"bs-distribution-ve-categorytreeinspector-dd-mode": "Mode",

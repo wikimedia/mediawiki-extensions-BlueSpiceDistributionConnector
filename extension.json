@@ -41,6 +41,14 @@
 			"PluginModules": [
 				"ext.bluespice.distribution.categoryTree.visualEditor"
 			]
+		},
+		"BlueSpiceArticleInfo": {
+			"FlyoutModules": {
+				"hitcounters": {
+					"module": "ext.bluespice.hitcounters.flyout",
+					"make-items-callback": "bs.hitcounters.flyout.makeItems"
+				}
+			}
 		}
 	},
 	"GroupPermissions": {
@@ -64,6 +72,18 @@
 		"ext.bluespice.distribution": {
 			"scripts": "bluespice.distribution.js",
 			"position": "bottom"
+		},
+		"ext.bluespice.hitcounters.flyout": {
+			"scripts": [
+				"bluespice.hitcounters.flyout.js"
+			],
+			"messages": [
+				"bs-distribution-flyout-hitcounters-text"
+			],
+			"dependencies": [
+				"ext.bluespice",
+				"ext.bluespice.extjs"
+			]
 		},
 		"ext.bluespice.distribution.categoryTree.visualEditor": {
 			"scripts": [
@@ -96,8 +116,14 @@
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpiceDistributionConnector/resources"
 	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\DistributionConnector\\": "src/"
+	},
 	"Hooks": {
-		"BeforePageDisplay": "BlueSpiceDistributionHooks::onBeforePageDisplay",
+		"BeforePageDisplay": [
+			"BlueSpiceDistributionHooks::onBeforePageDisplay",
+			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddHitCounters::callback"
+		],
 		"MinervaPreRender": "BlueSpiceDistributionHooks::onMinervaPreRender",
 		"UserLoginForm": "BlueSpiceDistributionHooks::onUserLoginForm",
 		"BaseTemplateToolbox": "BlueSpiceDistributionHooks::onBaseTemplateToolbox",
