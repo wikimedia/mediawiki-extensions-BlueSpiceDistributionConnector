@@ -12,7 +12,7 @@
 		"BlueSpiceFoundation": {
 			"Extensions": {
 				"BlueSpiceDistributionConnector": {
-					"className": "DistributionConnector",
+					"className": "\\BlueSpice\\DistributionConnector\\Extension",
 					"extPath": "/BlueSpiceDistributionConnector"
 				}
 			},
@@ -70,8 +70,10 @@
 			"i18n"
 		]
 	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\DistributionConnector\\" : "src/"
+	},
 	"AutoloadClasses": {
-		"DistributionConnector": "DistributionConnector.class.php",
 		"BlueSpiceDistributionHooks": "includes/BlueSpiceDistributionHooks.php",
 		"BSUserLoginMobileTemplate": "includes/skins/BSUserLoginMobileTemplate.php"
 	},
