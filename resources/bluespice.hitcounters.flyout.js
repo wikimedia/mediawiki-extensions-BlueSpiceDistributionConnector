@@ -24,4 +24,3 @@ Ext.onReady( function () {
 	};
 
 } )( mediaWiki, jQuery, blueSpice );
-console.log( mw.message( 'bs-distribution-flyout-hitcounters-text' ).text() );
