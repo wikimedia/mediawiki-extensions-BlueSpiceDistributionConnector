@@ -17,28 +17,76 @@
 				}
 			},
 			"PermissionRegistry": {
-				"editwidgets": {
+				"dpl_param_delete_rules": {
 					"type": "global",
 					"roles": [
-						"admin"
+						"admin",
+						"editor",
+						"maintenanceadmin"
+					]
+				},
+				"dpl_param_update_rules": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"editor",
+						"maintenanceadmin"
 					]
 				},
 				"duplicate": {
 					"type": "global",
 					"roles": [
-						"admin"
+						"admin",
+						"author",
+						"editor",
+						"maintenanceadmin"
 					]
 				},
-				"replacetext": {
+				"editwidgets": {
 					"type": "global",
 					"roles": [
-						"admin"
+						"admin",
+						"maintenanceadmin",
+						"structuremanager"
 					]
 				},
 				"generatepages": {
 					"type": "global",
 					"roles": [
-						"admin"
+						"admin",
+						"maintenanceadmin"
+					]
+				},
+				"nuke": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"maintenanceadmin",
+						"structuremanager"
+					]
+				},
+				"renameuser": {
+					"type": "global",
+					"roles": [
+						"accountmanager",
+						"admin",
+						"maintenanceadmin"
+					]
+				},
+				"replacetext": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"maintenanceadmin",
+						"structuremanager"
+					]
+				},
+				"usermerge": {
+					"type": "global",
+					"roles": [
+						"accountmanager",
+						"admin",
+						"maintenanceadmin"
 					]
 				}
 			}
