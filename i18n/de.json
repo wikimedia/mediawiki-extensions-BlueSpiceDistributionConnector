@@ -9,5 +9,15 @@
 	"bs-distribution-tag-references-desc": "Zeigt den Text aller durch 'ref' Tags markierten Stellen bis zu diesem Punkt der Seite an.",
 	"bs-distribution-tag-quiz-desc": "Fügt einem Artikel einfache quizartige Fragen inklusive vorgegebener Auswertung hinzu.",
 	"bs-distribution-tag-embedvideo-desc": "Bettet Video-Clips von populären Video-Sharing-Diensten ein.",
-	"bs-distribution-tag-dynamicpagelist-desc": "Erzeugt eine dynamische Liste von Seiten basierend auf verschiedenen Parametern."
+	"bs-distribution-tag-dynamicpagelist-desc": "Erzeugt eine dynamische Liste von Seiten basierend auf verschiedenen Parametern.",
+	"bs-distribution-flyout-hitcounters-text": "Anzahl der Aufrufe",
+	"bs-distribution-ve-categorytreeinpector-title": "Kategoriebaum",
+	"bs-distribution-ve-categorytree-title": "Kategoriebaum",
+	"bs-distribution-ve-categorytreeinspector-dd-mode": "Modus",
+	"bs-distribution-ve-categorytreeinspector-tb-depth": "Tiefe",
+	"bs-distribution-ve-categorytreeinspector-tb-hideroot": "Wurzelelement verbergen",
+	"bs-distribution-ve-categorytreeinspector-tb-showcount": "Anzahl anzeigen",
+	"bs-distribution-ve-categorytreeinspector-dd-hideprefix": "Prefix verbergen",
+	"bs-distribution-ve-categorytreeinspector-tb-namespace": "Namensraum",
+	"bs-distribution-ve-categorytreeinspector-tb-style": "CSS Style Tag"
 }
