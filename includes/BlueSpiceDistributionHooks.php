@@ -72,7 +72,7 @@ class BlueSpiceDistributionHooks {
 					'code' => '<categorytree mode=pages>Manual</categorytree>'
 				)
 			),
-			'helplink' => 'https://help.bluespice.com/index.php/CategoryTree'
+			'helplink' => 'https://en.wiki.bluespice.com/wiki/Reference:CategoryTree'
 		);
 
 		return true;
@@ -103,7 +103,7 @@ It is very useful to use footnotes <ref>A note can provide an author's comments 
 "
 				)
 			),
-			'helplink' => 'https://help.bluespice.com/index.php/Cite'
+			'helplink' => 'https://en.wiki.bluespice.com/wiki/Reference:Cite'
 		);
 
 		$oResponse->result[] = array(
@@ -122,7 +122,7 @@ It is very useful to use footnotes <ref>A note can provide an author's comments 
 "
 				)
 			),
-			'helplink' => 'https://help.bluespice.com/index.php/Cite'
+			'helplink' => 'https://en.wiki.bluespice.com/wiki/Reference:Cite'
 		);
 
 		return true;
@@ -148,7 +148,7 @@ It is very useful to use footnotes <ref>A note can provide an author's comments 
 					'code' => "<quiz>\n{ Your question }\n+ correct answer\n- incorrect answer\n</quiz>"
 				)
 			),
-			'helplink' => 'https://help.bluespice.com/index.php/Quiz'
+			'helplink' => 'https://en.wiki.bluespice.com/wiki/Reference:Quiz'
 		);
 
 		return true;
@@ -174,7 +174,7 @@ It is very useful to use footnotes <ref>A note can provide an author's comments 
 					'code' => "<embedvideo service=\"youtube\">https://www.youtube.com/watch?v=o3wZxqPZxyo</embedvideo>"
 				)
 			),
-			'helplink' => 'https://www.mediawiki.org/wiki/Extension:EmbedVideo'
+			'helplink' => 'https://en.wiki.bluespice.com/wiki/Reference:EmbedVideo'
 		);
 
 		return true;
