@@ -190,6 +190,9 @@
 			"BlueSpiceDistributionHooks::onBSInsertMagicAjaxGetDataQuiz",
 			"BlueSpiceDistributionHooks::onBSInsertMagicAjaxGetDataEmbedVideo",
 			"BlueSpiceDistributionHooks::onBSInsertMagicAjaxGetDataDynamicPageList"
+		],
+		"SkinTemplateOutputPageBeforeExec": [
+			"\\BlueSpice\\DistributionConnector\\Hook\\SkinTemplateOutputPageBeforeExec\\ModifySidebar::callback"
 		]
 	},
 	"manifest_version": 2
