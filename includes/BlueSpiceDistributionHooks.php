@@ -215,6 +215,11 @@ It is very useful to use footnotes <ref>A note can provide an author's comments 
 	public static function onBaseTemplateToolbox( BaseTemplate $baseTemplate, array &$toolbox ) {
 		global $wgHooks;
 
+		// Hook might not be set. If this is the case, skip the rest of the function
+		if ( !isset( $wgHooks['SkinTemplateToolboxEnd'] ) ) {
+			return true;
+		}
+
 		//Move duplicater toolbox link from legacy hook to
 		//SkinTemplateToolboxEnd
 		$iPosDuplicatior = array_search(
