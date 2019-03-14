@@ -9,7 +9,7 @@ class ModifySidebar extends SkinTemplateOutputPageBeforeExec {
 
 	protected function doProcess() {
 
-		if ( \SpecialPageFactory::exists( 'Duplicator' ) ) {
+		if ( isset( $this->template->data['nav_urls']['duplicator'] ) ) {
 			$this->appendSkinDataArray( SkinData::TOOLBOX_BLACKLIST, 'duplicator' );
 			$this->mergeSkinDataArray( SkinData::EDIT_MENU, [
 					'duplicator' => [
