@@ -1,4 +1,4 @@
-Ext.define( 'BS.HitCounters.panel.HitCounters', {
+Ext.define( 'BS.DistributionConnector.HitCounter.panel.HitCounters', {
 	extend: 'Ext.Panel',
 	cls: 'bs-hitcounters-flyout-hitcounters',
 	text: '',
