@@ -103,6 +103,11 @@
 					"make-items-callback": "bs.hitcounters.flyout.makeItems"
 				}
 			}
+		},
+		"BlueSpiceSMWConnector": {
+			"ExtraPropertyRegistry": {
+				"hitcountersfields": "\\BlueSpice\\DistributionConnector\\HitCountersPropertyValueProvider::factory"
+			}
 		}
 	},
 	"GroupPermissions": {
@@ -172,9 +177,6 @@
 	"ResourceFileModulePaths": {
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpiceDistributionConnector/resources"
-	},
-	"AutoloadNamespaces": {
-		"BlueSpice\\DistributionConnector\\": "src/"
 	},
 	"Hooks": {
 		"BeforePageDisplay": [
