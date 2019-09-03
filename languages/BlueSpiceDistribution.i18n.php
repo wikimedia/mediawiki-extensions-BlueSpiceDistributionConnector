@@ -15,7 +15,7 @@ if ( !function_exists( 'wfJsonI18nShimfe33ed37f650899f' ) ) {
 	function wfJsonI18nShimfe33ed37f650899f( $cache, $code, &$cachedData ) {
 		$codeSequence = array_merge( array( $code ), $cachedData['fallbackSequence'] );
 		foreach ( $codeSequence as $csCode ) {
-			$fileName = dirname( __FILE__ ) . "/extensions/BlueSpiceDistribution/BSDistConnector/i18n/$csCode.json";
+			$fileName = dirname( __FILE__ ) . "/extensions/BlueSpiceDistributionConnector/i18n/$csCode.json";
 			if ( is_readable( $fileName ) ) {
 				$data = FormatJson::decode( file_get_contents( $fileName ), true );
 				foreach ( array_keys( $data ) as $key ) {

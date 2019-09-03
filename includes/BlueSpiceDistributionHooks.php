@@ -5,7 +5,7 @@ class BlueSpiceDistributionHooks {
 	public static function onBeforePageDisplay( $out, $skin ) {
 		global $wgScriptPath;
 		if ( class_exists( "MobileContext" ) && MobileContext::singleton()->isMobileDevice() ) {
-			$out->addHeadItem( 'bluespice.mobile', "<link rel='stylesheet' href='" . $wgScriptPath . "/extensions/BlueSpiceDistribution/BSDistConnector/resources/bluespice.mobile.css'>" );
+			$out->addHeadItem( 'bluespice.mobile', "<link rel='stylesheet' href='" . $wgScriptPath . "/extensions/BlueSpiceDistributionConnector/resources/bluespice.mobile.css'>" );
 		}
 		$out->addModules( 'ext.bluespice.distribution' );
 		return true;
