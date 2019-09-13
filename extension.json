@@ -133,6 +133,7 @@
 	"ResourceModules": {
 		"ext.bluespice.distribution": {
 			"scripts": "bluespice.distribution.js",
+			"styles": "bluespice.distribution.less",
 			"position": "bottom"
 		},
 		"ext.bluespice.hitcounters.flyout": {
