@@ -19,5 +19,7 @@
 	"bs-distribution-ve-categorytreeinspector-tb-showcount": "Anzahl anzeigen",
 	"bs-distribution-ve-categorytreeinspector-dd-hideprefix": "Prefix verbergen",
 	"bs-distribution-ve-categorytreeinspector-tb-namespace": "Namensraum",
-	"bs-distribution-ve-categorytreeinspector-tb-style": "CSS Style Tag"
+	"bs-distribution-ve-categorytreeinspector-tb-style": "CSS Style Tag",
+	"hitcounters-sesp-alias": "Zugriffszähler",
+	"hitcounters-sesp-desc": "Zugriffszähler"
 }
