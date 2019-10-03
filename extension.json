@@ -89,6 +89,14 @@
 						"maintenanceadmin"
 					]
 				}
+			},
+			"EntityRegistry": {
+				"hitcounter": "\\BlueSpice\\DistributionConnector\\EntityConfig\\Collection\\HitCounter"
+			}
+		},
+		"BlueSpiceExtendedStatistics": {
+			"SnapshotDataCollectorRegistry": {
+				"hitcounter": "\\BlueSpice\\DistributionConnector\\DataCollector\\StoreSourced\\HitCounter::factory"
 			}
 		},
 		"VisualEditor": {
