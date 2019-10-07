@@ -13,6 +13,35 @@ class HitCounter extends Collection {
 	 *
 	 * @return string
 	 */
+	protected function get_TypeMessageKey() {
+		return 'bs-distributionconnector-collection-type-hitcounter';
+	}
+
+	/**
+	 *
+	 * @return array
+	 */
+	protected function get_VarMessageKeys() {
+		return array_merge( parent::get_VarMessageKeys(), [
+			Entity::ATTR_PAGE_TITLE => 'bs-distributionconnector-collection-var-pagetitle',
+			Entity::ATTR_NUMBER_HITS => 'bs-distributionconnector-collection-var-numberhits',
+		] );
+	}
+
+	/**
+	 *
+	 * @return string[]
+	 */
+	protected function get_Modules() {
+		return array_merge( parent::get_Modules(), [
+			'ext.bluespice.distributionconnector.collection.hitcounter',
+		] );
+	}
+
+	/**
+	 *
+	 * @return string
+	 */
 	protected function get_EntityClass() {
 		return "\\BlueSpice\\DistributionConnector\\Entity\\Collection\\HitCounter";
 	}

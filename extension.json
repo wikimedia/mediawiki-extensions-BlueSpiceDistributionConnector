@@ -181,6 +181,13 @@
 			"dependencies": [
 				"ext.visualEditor.mwcore"
 			]
+		},
+		"ext.bluespice.distributionconnector.collection.hitcounter": {
+			"messages": [
+				"bs-distributionconnector-collection-type-hitcounter",
+				"bs-distributionconnector-collection-var-pagetitle",
+				"bs-distributionconnector-collection-var-numberhits"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {
