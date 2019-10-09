@@ -31,6 +31,14 @@ class HitCounter extends EntityConfig {
 
 	/**
 	 *
+	 * @return string
+	 */
+	protected function get_StoreClass() {
+		return $this->getConfig()->get( 'StoreClass' );
+	}
+
+	/**
+	 *
 	 * @return array
 	 */
 	protected function get_PrimaryAttributeDefinitions() {
