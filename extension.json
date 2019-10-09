@@ -91,7 +91,7 @@
 				}
 			},
 			"EntityRegistry": {
-				"hitcounter": "\\BlueSpice\\DistributionConnector\\EntityConfig\\Collection\\HitCounter"
+				"hitcounter": "\\BlueSpice\\DistributionConnector\\EntityConfig\\Collection\\HitCounter::factory"
 			}
 		},
 		"BlueSpiceExtendedStatistics": {

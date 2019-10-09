@@ -2,12 +2,42 @@
 
 namespace BlueSpice\DistributionConnector\EntityConfig\Collection;
 
+use Config;
+use BlueSpice\Services;
 use BlueSpice\ExtendedStatistics\Data\Entity\Collection\Schema;
 use BlueSpice\Data\FieldType;
+use BlueSpice\EntityConfig;
 use BlueSpice\ExtendedStatistics\EntityConfig\Collection;
 use BlueSpice\DistributionConnector\Entity\Collection\HitCounter as Entity;
 
-class HitCounter extends Collection {
+class HitCounter extends EntityConfig {
+
+	/**
+	 *
+	 * @param Config $config
+	 * @param string $key
+	 * @param Services $services
+	 * @return EntityConfig
+	 */
+	public static function factory( $config, $key, $services ) {
+		$extension = $services->getBSExtensionFactory()->getExtension(
+			'BlueSpiceExtendedStatistics'
+		);
+		if ( !$extension ) {
+			return null;
+		}
+		return new static( new Collection( $config ), $key );
+	}
+
+	/**
+	 *
+	 * @return array
+	 */
+	protected function get_PrimaryAttributeDefinitions() {
+		return array_filter( $this->get_AttributeDefinitions(), function ( $e ) {
+			return isset( $e[Schema::PRIMARY] ) && $e[Schema::PRIMARY] === true;
+		} );
+	}
 
 	/**
 	 *
@@ -22,7 +52,7 @@ class HitCounter extends Collection {
 	 * @return array
 	 */
 	protected function get_VarMessageKeys() {
-		return array_merge( parent::get_VarMessageKeys(), [
+		return array_merge( $this->getConfig()->get( 'VarMessageKeys' ), [
 			Entity::ATTR_PAGE_TITLE => 'bs-distributionconnector-collection-var-pagetitle',
 			Entity::ATTR_NUMBER_HITS => 'bs-distributionconnector-collection-var-numberhits',
 		] );
@@ -33,7 +63,7 @@ class HitCounter extends Collection {
 	 * @return string[]
 	 */
 	protected function get_Modules() {
-		return array_merge( parent::get_Modules(), [
+		return array_merge( $this->getConfig()->get( 'Modules' ), [
 			'ext.bluespice.distributionconnector.collection.hitcounter',
 		] );
 	}
@@ -51,7 +81,7 @@ class HitCounter extends Collection {
 	 * @return array
 	 */
 	protected function get_AttributeDefinitions() {
-		$attributes = array_merge( parent::get_AttributeDefinitions(), [
+		$attributes = array_merge( $this->config->get( 'AttributeDefinitions' ), [
 			Entity::ATTR_PAGE_TITLE => [
 				Schema::FILTERABLE => true,
 				Schema::SORTABLE => true,
