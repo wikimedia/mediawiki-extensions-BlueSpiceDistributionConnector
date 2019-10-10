@@ -21,5 +21,8 @@
 	"bs-distribution-ve-categorytreeinspector-tb-namespace": "Namensraum",
 	"bs-distribution-ve-categorytreeinspector-tb-style": "CSS Style Tag",
 	"hitcounters-sesp-alias": "Zugriffszähler",
-	"hitcounters-sesp-desc": "Zugriffszähler"
+	"hitcounters-sesp-desc": "Zugriffszähler",
+	"bs-distributionconnector-collection-type-hitcounter": "Seitenaufrufe",
+	"bs-distributionconnector-collection-var-pagetitle": "Seitentitel",
+	"bs-distributionconnector-collection-var-numberhits": "Aufrufe"
 }
