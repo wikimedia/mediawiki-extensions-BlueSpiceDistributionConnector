@@ -1,7 +1,7 @@
 {
 	"name": "BlueSpiceDistributionConnector",
 	"license-name": "GPL-3.0-only",
-	"version": "3.0.0",
+	"version": "3.1.0",
 	"url": "https://en.wiki.bluespice.com/wiki/Reference:BlueSpiceDistributionConnector",
 	"author": [
 		"Robert Vogel"
@@ -103,6 +103,11 @@
 					"make-items-callback": "bs.hitcounters.flyout.makeItems"
 				}
 			}
+		},
+		"BlueSpiceSMWConnector": {
+			"ExtraPropertyRegistry": {
+				"hitcountersfields": "\\BlueSpice\\DistributionConnector\\HitCountersPropertyValueProvider::factory"
+			}
 		}
 	},
 	"GroupPermissions": {
@@ -128,6 +133,7 @@
 	"ResourceModules": {
 		"ext.bluespice.distribution": {
 			"scripts": "bluespice.distribution.js",
+			"styles": "bluespice.distribution.less",
 			"position": "bottom"
 		},
 		"ext.bluespice.hitcounters.flyout": {
@@ -172,9 +178,6 @@
 	"ResourceFileModulePaths": {
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpiceDistributionConnector/resources"
-	},
-	"AutoloadNamespaces": {
-		"BlueSpice\\DistributionConnector\\": "src/"
 	},
 	"Hooks": {
 		"BeforePageDisplay": [
