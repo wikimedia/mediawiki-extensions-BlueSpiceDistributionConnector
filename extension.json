@@ -89,6 +89,14 @@
 						"maintenanceadmin"
 					]
 				}
+			},
+			"EntityRegistry": {
+				"hitcounter": "\\BlueSpice\\DistributionConnector\\EntityConfig\\Collection\\HitCounter::factory"
+			}
+		},
+		"BlueSpiceExtendedStatistics": {
+			"SnapshotDataCollectorRegistry": {
+				"hitcounter": "\\BlueSpice\\DistributionConnector\\DataCollector\\StoreSourced\\HitCounter::factory"
 			}
 		},
 		"VisualEditor": {
@@ -172,6 +180,13 @@
 			],
 			"dependencies": [
 				"ext.visualEditor.mwcore"
+			]
+		},
+		"ext.bluespice.distributionconnector.collection.hitcounter": {
+			"messages": [
+				"bs-distributionconnector-collection-type-hitcounter",
+				"bs-distributionconnector-collection-var-pagetitle",
+				"bs-distributionconnector-collection-var-numberhits"
 			]
 		}
 	},
