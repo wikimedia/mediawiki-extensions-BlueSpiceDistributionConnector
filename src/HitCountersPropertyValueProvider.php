@@ -9,14 +9,14 @@ class HitCountersPropertyValueProvider extends PropertyValueProvider {
 	 * @return string
 	 */
 	public function getAliasMessageKey() {
-		return "hitcounters-sesp-alias";
+		return "bs-distributionconnector-hitcounters-sesp-alias";
 	}
 	/**
 	 *
 	 * @return string
 	 */
 	public function getDescriptionMessageKey() {
-		return "hitcounters-sesp-desc";
+		return "bs-distributionconnector-hitcounters-sesp-desc";
 	}
 	/**
 	 *
