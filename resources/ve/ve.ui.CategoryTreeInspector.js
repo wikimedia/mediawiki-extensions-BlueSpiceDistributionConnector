@@ -11,7 +11,7 @@ OO.inheritClass( ve.ui.CategoryTreeInspector, ve.ui.MWLiveExtensionInspector );
 
 ve.ui.CategoryTreeInspector.static.name = 'categoryTreeInspector';
 
-ve.ui.CategoryTreeInspector.static.title = OO.ui.deferMsg( 'bs-distribution-ve-categorytreeinpector-title' );
+ve.ui.CategoryTreeInspector.static.title = OO.ui.deferMsg( 'bs-distributionconnector-ve-categorytreeinpector-title' );
 
 ve.ui.CategoryTreeInspector.static.modelClasses = [ ve.dm.CategoryTreeNode ];
 
@@ -119,31 +119,31 @@ ve.ui.CategoryTreeInspector.prototype.createFields = function() {
 ve.ui.CategoryTreeInspector.prototype.setLayouts = function() {
 	this.modeLayout = new OO.ui.FieldLayout( this.modeInput, {
 		align: 'right',
-		label: ve.msg( 'bs-distribution-ve-categorytreeinspector-dd-mode' )
+		label: ve.msg( 'bs-distributionconnector-ve-categorytreeinspector-dd-mode' )
 	} );
 	this.depthLayout = new OO.ui.FieldLayout( this.depthInput, {
 		align: 'right',
-		label: ve.msg( 'bs-distribution-ve-categorytreeinspector-tb-depth' )
+		label: ve.msg( 'bs-distributionconnector-ve-categorytreeinspector-tb-depth' )
 	} );
 	this.hideRootLayout = new OO.ui.FieldLayout( this.hideRootInput, {
 		align: 'right',
-		label: ve.msg( 'bs-distribution-ve-categorytreeinspector-tb-hideroot' )
+		label: ve.msg( 'bs-distributionconnector-ve-categorytreeinspector-tb-hideroot' )
 	} );
 	this.hidePrefixLayout = new OO.ui.FieldLayout( this.hidePrefixInput, {
 		align: 'right',
-		label: ve.msg( 'bs-distribution-ve-categorytreeinspector-dd-hideprefix' )
+		label: ve.msg( 'bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix' )
 	} );
 	this.showCountLayout = new OO.ui.FieldLayout( this.showCountInput, {
 		align: 'right',
-		label: ve.msg( 'bs-distribution-ve-categorytreeinspector-tb-showcount' )
+		label: ve.msg( 'bs-distributionconnector-ve-categorytreeinspector-tb-showcount' )
 	} );
 	this.namespaceLayout = new OO.ui.FieldLayout( this.namespaceInput, {
 		align: 'right',
-		label: ve.msg( 'bs-distribution-ve-categorytreeinspector-tb-namespace' )
+		label: ve.msg( 'bs-distributionconnector-ve-categorytreeinspector-tb-namespace' )
 	} );
 	this.styleLayout = new OO.ui.FieldLayout( this.styleInput, {
 		align: 'right',
-		label: ve.msg( 'bs-distribution-ve-categorytreeinspector-tb-style' )
+		label: ve.msg( 'bs-distributionconnector-ve-categorytreeinspector-tb-style' )
 	} );
 }
 

@@ -65,7 +65,7 @@ class BlueSpiceDistributionHooks {
 			'id' => 'categorytree',
 			'type' => 'tag',
 			'name' => 'categorytree',
-			'desc' => wfMessage( 'bs-distribution-tag-categorytree-desc' )->plain(),
+			'desc' => wfMessage( 'bs-distributionconnector-tag-categorytree-desc' )->plain(),
 			'mwvecommand' => 'categoryTreeCommand',
 			'code' => '<categorytree>Top_Level</categorytree>',
 			'examples' => array(
@@ -92,7 +92,7 @@ class BlueSpiceDistributionHooks {
 			'id' => 'ref',
 			'type' => 'tag',
 			'name' => 'ref',
-			'desc' => wfMessage( 'bs-distribution-tag-ref-desc' )->plain(),
+			'desc' => wfMessage( 'bs-distributionconnector-tag-ref-desc' )->plain(),
 			'code' => '<ref>Footnote text</ref>',
 			'examples' => array(
 				array(
@@ -111,7 +111,7 @@ It is very useful to use footnotes <ref>A note can provide an author's comments 
 			'id' => 'references',
 			'type' => 'tag',
 			'name' => 'references',
-			'desc' => wfMessage( 'bs-distribution-tag-references-desc' )->plain(),
+			'desc' => wfMessage( 'bs-distributionconnector-tag-references-desc' )->plain(),
 			'code' => '<references />',
 			'examples' => array(
 				array(
@@ -142,7 +142,7 @@ It is very useful to use footnotes <ref>A note can provide an author's comments 
 			'id' => 'quiz',
 			'type' => 'tag',
 			'name' => 'quiz',
-			'desc' => wfMessage( 'bs-distribution-tag-quiz-desc' )->plain(),
+			'desc' => wfMessage( 'bs-distributionconnector-tag-quiz-desc' )->plain(),
 			'code' => "<quiz>\n{ Your question }\n+ correct answer\n- incorrect answer\n</quiz>",
 			'examples' => array(
 				array(
@@ -168,7 +168,7 @@ It is very useful to use footnotes <ref>A note can provide an author's comments 
 			'id' => 'embedvideo',
 			'type' => 'tag',
 			'name' => 'embedvideo',
-			'desc' => wfMessage( 'bs-distribution-tag-embedvideo-desc' )->plain(),
+			'desc' => wfMessage( 'bs-distributionconnector-tag-embedvideo-desc' )->plain(),
 			'code' => '<embedvideo service="supported service">Link to video</embedvideo>',
 			'examples' => array(
 				array(
@@ -194,7 +194,7 @@ It is very useful to use footnotes <ref>A note can provide an author's comments 
 			'id' => 'dynamicpagelist',
 			'type' => 'tag',
 			'name' => 'dynamicpagelist',
-			'desc' => wfMessage( 'bs-distribution-tag-dynamicpagelist-desc' )->plain(),
+			'desc' => wfMessage( 'bs-distributionconnector-tag-dynamicpagelist-desc' )->plain(),
 			'code' => "<DynamicPageList>\ncategory = Demo\n</DynamicPageList>",
 			'examples' => array(
 				array(

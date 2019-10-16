@@ -110,14 +110,6 @@
 			}
 		}
 	},
-	"GroupPermissions": {
-		"sysop": {
-			"editwidgets": true,
-			"duplicate": true,
-			"replacetext": true,
-			"generatepages": true
-		}
-	},
 	"MessagesDirs": {
 		"BlueSpiceDistributionConnector": [
 			"i18n"
@@ -141,7 +133,7 @@
 				"bluespice.hitcounters.flyout.js"
 			],
 			"messages": [
-				"bs-distribution-flyout-hitcounters-text"
+				"bs-distributionconnector-flyout-hitcounters-text"
 			],
 			"dependencies": [
 				"ext.bluespice",
@@ -160,18 +152,15 @@
 				"mobile"
 			],
 			"messages": [
-				"bs-distribution-ve-categorytreeinpector-title",
-				"bs-distribution-ve-categorytree-title",
-				"bs-distribution-ve-categorytreeinspector-dd-mode",
-				"bs-distribution-ve-categorytreeinspector-tb-depth",
-				"bs-distribution-ve-categorytreeinspector-tb-hideroot",
-				"bs-distribution-ve-categorytreeinspector-tb-showcount",
-				"bs-distribution-ve-categorytreeinspector-dd-hideprefix",
-				"bs-distribution-ve-categorytreeinspector-tb-namespace",
-				"bs-distribution-ve-categorytreeinspector-tb-style"
-			],
-			"dependencies": [
-				"ext.visualEditor.mwcore"
+				"bs-distributionconnector-ve-categorytreeinpector-title",
+				"bs-distributionconnector-ve-categorytree-title",
+				"bs-distributionconnector-ve-categorytreeinspector-dd-mode",
+				"bs-distributionconnector-ve-categorytreeinspector-tb-depth",
+				"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot",
+				"bs-distributionconnector-ve-categorytreeinspector-tb-showcount",
+				"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix",
+				"bs-distributionconnector-ve-categorytreeinspector-tb-namespace",
+				"bs-distributionconnector-ve-categorytreeinspector-tb-style"
 			]
 		}
 	},
