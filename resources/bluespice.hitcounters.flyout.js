@@ -6,7 +6,7 @@
 				top: [
 					Ext.create( 'BS.DistributionConnector.HitCounter.panel.HitCounters', {
 						counts: mw.config.get( 'bsgHitCountersSitetools' ),
-						text: mw.message( 'bs-distribution-flyout-hitcounters-text' ).text()
+						text: mw.message( 'bs-distributionconnector-flyout-hitcounters-text' ).text()
 					} )
 				]
 			}
