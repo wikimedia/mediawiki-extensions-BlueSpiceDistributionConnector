@@ -142,7 +142,7 @@ class HitCounter extends StoreSourced {
 			);
 		}
 		foreach ( $res->getRecords() as $record ) {
-			if( !empty( $this->namespaces[(int)$record->get( Record::NS )] ) ) {
+			if ( !empty( $this->namespaces[(int)$record->get( Record::NS )] ) ) {
 				$record->set(
 					Record::TITLE,
 					$this->namespaces[(int)$record->get( Record::NS )] . ':' . $record->get( Record::TITLE )
@@ -182,7 +182,7 @@ class HitCounter extends StoreSourced {
 			$snapshot->get( Snapshot::ATTR_COLLECTION ),
 			function ( BaseCollection $e ) {
 			return $e instanceof Collection;
-		} );
+		 } );
 		return $this->lastCollection;
 	}
 }
