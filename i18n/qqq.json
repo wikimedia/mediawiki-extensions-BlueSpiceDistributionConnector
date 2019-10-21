@@ -1,7 +1,5 @@
 {
-	"@metadata": {
-		"authors": []
-	},
+	"@metadata": [],
 	"bs-distributionconnector-extension-description": "description of distributionconnector extensio",
 	"bs-distributionconnector-yourdomainname": "Inputfield for domain on Userlogin for mobiletemplate",
 	"bs-distributionconnector-tag-categorytree-desc": "Description of field to insert tag to insert a categorytree.",

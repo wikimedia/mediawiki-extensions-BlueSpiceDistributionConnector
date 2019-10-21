@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail"
+		]
+	},
+	"bs-distributionconnector-yourdomainname": "Twoja domena",
+	"bs-distributionconnector-flyout-hitcounters-text": "Liczba wyświetleń",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "Drzewo kategorii",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Ukryj przedrostek",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Przestrzeń nazw",
+	"bs-distributionconnector-collection-var-pagetitle": "Tytuł strony"
+}

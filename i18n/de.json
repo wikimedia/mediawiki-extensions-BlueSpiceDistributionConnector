@@ -1,7 +1,5 @@
 {
-	"@metadata": {
-		"authors": []
-	},
+	"@metadata": [],
 	"bs-distributionconnector-extension-description": "Verbindet BlueSpice mit verschiedenen MediaWiki-Erweiterungen",
 	"bs-distributionconnector-yourdomainname": "Deine Domain",
 	"bs-distributionconnector-tag-categorytree-desc": "Stellt eine dynamische Baumansicht für die Kategorien im Wiki bereit. In der Mitte steht die jeweilige Kategorie, von der ausgegangen werden soll.",
