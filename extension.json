@@ -127,8 +127,7 @@
 		"BlueSpice\\DistributionConnector\\" : "src/"
 	},
 	"AutoloadClasses": {
-		"BlueSpiceDistributionHooks": "includes/BlueSpiceDistributionHooks.php",
-		"BSUserLoginMobileTemplate": "includes/skins/BSUserLoginMobileTemplate.php"
+		"BlueSpiceDistributionHooks": "includes/BlueSpiceDistributionHooks.php"
 	},
 	"ResourceModules": {
 		"ext.bluespice.distribution": {
@@ -188,8 +187,6 @@
 			"BlueSpiceDistributionHooks::onBeforePageDisplay",
 			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddHitCounters::callback"
 		],
-		"MinervaPreRender": "BlueSpiceDistributionHooks::onMinervaPreRender",
-		"UserLoginForm": "BlueSpiceDistributionHooks::onUserLoginForm",
 		"BaseTemplateToolbox": "BlueSpiceDistributionHooks::onBaseTemplateToolbox",
 		"BSInsertMagicAjaxGetData": [
 			"BlueSpiceDistributionHooks::onBSInsertMagicAjaxGetDataCategoryTree",
