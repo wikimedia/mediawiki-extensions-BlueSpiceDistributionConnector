@@ -64,6 +64,7 @@ class PrimaryDataProvider extends PageDataProvider {
 	/**
 	 *
 	 * @param ReaderParams $params
+	 * @return array
 	 */
 	protected function getJoinConds( ReaderParams $params ) {
 		$prefix = $this->context->getConfig()->get( 'DBprefix' );
