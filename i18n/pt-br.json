@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bs-distributionconnector-extension-description": "Conecta o BlueSpice a várias extensões do MediaWiki",
+	"bs-distributionconnector-yourdomainname": "Seu domínio",
+	"bs-distributionconnector-tag-categorytree-desc": "Exibe uma estrutura de árvore dinâmica no sistema de categorias na wiki. Entre as tags, a categoria raiz deve ser indicada.",
+	"bs-distributionconnector-tag-ref-desc": "Marca o texto entre as etiquetas como nota de rodapé.",
+	"bs-distributionconnector-tag-references-desc": "Exibe a lista de notas de rodapé que foram inseridas nos artigos.",
+	"bs-distributionconnector-tag-quiz-desc": "Adiciona perguntas simples a um artigo.",
+	"bs-distributionconnector-tag-embedvideo-desc": "Incorpora videoclipes de plataformas populares de compartilhamento.",
+	"bs-distributionconnector-tag-dynamicpagelist-desc": "Gera uma lista dinâmica de artigos com base em vários parâmetros.",
+	"bs-distributionconnector-flyout-hitcounters-text": "Número de visualizações",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "CategoryTree",
+	"bs-distributionconnector-ve-categorytree-title": "CategoryTree",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Modo",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Profundidade",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Ocultar raiz",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Mostrar contagem",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Ocultar prefixo",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Espaço nominal",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Etiqueta de estilo CSS",
+	"bs-distributionconnector-collection-type-hitcounter": "Visualização de páginas",
+	"bs-distributionconnector-collection-var-pagetitle": "Título da página"
+}

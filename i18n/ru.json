@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"PlushBoy"
+		]
+	},
+	"bs-distributionconnector-yourdomainname": "Ваш домен",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "Дерево категорий",
+	"bs-distributionconnector-ve-categorytree-title": "Дерево категорий",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Режим",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Глубина",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Пространство имён",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Тег CSS",
+	"bs-distributionconnector-collection-var-pagetitle": "Заголовок страницы"
+}
