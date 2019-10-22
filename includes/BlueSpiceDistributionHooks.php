@@ -9,54 +9,7 @@ class BlueSpiceDistributionHooks {
 	 * @return bool
 	 */
 	public static function onBeforePageDisplay( $out, $skin ) {
-		if ( class_exists( "MobileContext" ) && MobileContext::singleton()->isMobileDevice() ) {
-			$out->addHeadItem(
-				'bluespice.mobile',
-				"<link rel='stylesheet' href='"
-					. $skin->getConfig()->get( 'ScriptPath' )
-					. "/extensions/BlueSpiceDistribution/BSDistConnector/resources/bluespice.mobile.css'>"
-			);
-		}
 		$out->addModules( 'ext.bluespice.distribution' );
-		return true;
-	}
-
-	/**
-	 *
-	 * @param MinervaTemplate $template
-	 * @return bool
-	 */
-	public static function onMinervaPreRender( MinervaTemplate $template ) {
-		foreach ( $template->data['sidebar'] as $key => $val ) {
-			if ( !is_array( $val ) ) {
-				continue;
-			}
-			foreach ( $val as $key2 => $val2 ) {
-				if ( strpos( $val2['text'], "|" ) ) {
-					$aVal2 = explode( "|", $val2['text'] );
-					$val2['text'] = $aVal2[0];
-				}
-				$template->data['discovery_urls'][$val2['id']] = $val2;
-			}
-		}
-		$template->data['discovery_urls']['n-specialpages'] = [
-			'text' => wfMessage( "specialpages" )->plain(),
-			'href' => SpecialPage::getSafeTitleFor( "Specialpages" )->getFullURL(),
-			'id' => 'n-specialpages',
-			'active' => false
-		];
-		return true;
-	}
-
-	/**
-	 *
-	 * @param UsercreateTemplate|UserLoginMobileTemplate &$template
-	 * @return bool
-	 */
-	public static function onUserLoginForm( &$template ) {
-		if ( $template instanceof UserLoginMobileTemplate ) {
-			$template = new BSUserLoginMobileTemplate( $template );
-		}
 		return true;
 	}
 
