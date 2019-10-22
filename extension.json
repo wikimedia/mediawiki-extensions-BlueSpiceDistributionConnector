@@ -130,6 +130,7 @@
 			}
 		}
 	},
+	"callback": "\\BlueSpice\\DistributionConnector\\Extension::onRegistration",
 	"MessagesDirs": {
 		"BlueSpiceDistributionConnector": [
 			"i18n"
