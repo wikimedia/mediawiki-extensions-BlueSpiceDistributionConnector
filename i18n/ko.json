@@ -5,7 +5,11 @@
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "내 도메인",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "분류트리",
+	"bs-distributionconnector-ve-categorytree-title": "분류트리",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "모드",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "깊이",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "이름공간",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS 스타일 태그",
 	"bs-distributionconnector-collection-var-pagetitle": "문서 제목"
 }

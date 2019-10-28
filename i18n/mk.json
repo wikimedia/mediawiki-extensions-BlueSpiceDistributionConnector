@@ -4,5 +4,13 @@
 			"Vlad5250"
 		]
 	},
+	"bs-distributionconnector-yourdomainname": "Вашиот домен",
+	"bs-distributionconnector-flyout-hitcounters-text": "Број на посети",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Прикажи број",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Скриј претставка",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Именски простор",
+	"bs-distributionconnector-hitcounters-sesp-alias": "Бројач на посети",
+	"bs-distributionconnector-hitcounters-sesp-desc": "Бројач на посети",
+	"bs-distributionconnector-collection-var-pagetitle": "Наслов на страницата",
 	"bs-distributionconnector-collection-var-numberhits": "Погодоци"
 }
