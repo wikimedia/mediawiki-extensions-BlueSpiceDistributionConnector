@@ -4,7 +4,13 @@
 	"version": "3.1.0",
 	"url": "https://en.wiki.bluespice.com/wiki/Reference:BlueSpiceDistributionConnector",
 	"author": [
-		"Robert Vogel"
+		"Robert Vogel",
+		"Leonid Verhovskij",
+		"Markus Glaser",
+		"Daniel Vogel",
+		"Dejan Savuljesku",
+		"Peter Boehm",
+		"Patric Wirth"
 	],
 	"descriptionmsg": "bs-distributionconnector-extension-description",
 	"type": "bluespice",
