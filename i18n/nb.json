@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-distributionconnector-extension-description": "Kobler BlueSpice til diverse MediaWiki-utvidelser",
+	"bs-distributionconnector-yourdomainname": "Ditt domene",
+	"bs-distributionconnector-tag-categorytree-desc": "Viser en dynamisk trestruktur i kategorisystemet på wikien. Mellom taggene må rotkategorien være angitt.",
+	"bs-distributionconnector-tag-ref-desc": "Merker teksten mellom taggene som fotnote.",
+	"bs-distributionconnector-tag-references-desc": "Viser lista over fotnoter som har blitt satt inn i artiklene.",
+	"bs-distributionconnector-tag-quiz-desc": "Legger til enkle kvisspørsmål i en artikkel.",
+	"bs-distributionconnector-tag-embedvideo-desc": "Bygger inn videoklipp fra populære delingsplattformer.",
+	"bs-distributionconnector-tag-dynamicpagelist-desc": "Generer ei dynamisk liste over artikler basert på diverse parametre.",
+	"bs-distributionconnector-flyout-hitcounters-text": "Antall visninger",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "Kategoritre",
+	"bs-distributionconnector-ve-categorytree-title": "Kategoritre",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Modus",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Dybde",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Skjul rot",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Vis antall",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Skjul prefiks",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Navnerom",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS-stiltagg",
+	"bs-distributionconnector-hitcounters-sesp-alias": "Treffteller",
+	"bs-distributionconnector-hitcounters-sesp-desc": "Treffteller",
+	"bs-distributionconnector-collection-type-hitcounter": "Sidevisninger",
+	"bs-distributionconnector-collection-var-pagetitle": "Sidetittel",
+	"bs-distributionconnector-collection-var-numberhits": "Treff"
+}

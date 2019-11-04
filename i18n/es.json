@@ -9,5 +9,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Profundidad",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Ocultar prefijo",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Espacio de nombres",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Etiqueta de estilo CSS"
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Etiqueta de estilo CSS",
+	"bs-distributionconnector-collection-var-pagetitle": "Título de página"
 }
