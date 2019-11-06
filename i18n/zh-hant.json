@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"bs-distributionconnector-extension-description": "連接 BlueSpice 至各種 MediaWiki 擴充套件",
+	"bs-distributionconnector-yourdomainname": "您的網域",
+	"bs-distributionconnector-tag-categorytree-desc": "在 wiki 的分類系統顯示動態樹狀架構。標籤之間需指示出根分類。",
+	"bs-distributionconnector-tag-ref-desc": "標記腳註標籤之間的文字。",
+	"bs-distributionconnector-tag-references-desc": "顯示插入在條目的腳註清單。",
+	"bs-distributionconnector-tag-quiz-desc": "添加簡易測驗到條目裡。",
+	"bs-distributionconnector-tag-embedvideo-desc": "從熱門分享平台來內嵌影片段落",
+	"bs-distributionconnector-tag-dynamicpagelist-desc": "基於各項參數產生動態條目清單。",
+	"bs-distributionconnector-flyout-hitcounters-text": "檢視次數",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "分類樹",
+	"bs-distributionconnector-ve-categorytree-title": "分類樹",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "模式",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "層度",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "隱藏根層級",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "顯示計數",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "隱藏字首",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "命名空間",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS 樣式標籤",
+	"bs-distributionconnector-hitcounters-sesp-alias": "相符計數器",
+	"bs-distributionconnector-hitcounters-sesp-desc": "相符計數器",
+	"bs-distributionconnector-collection-type-hitcounter": "頁面檢視",
+	"bs-distributionconnector-collection-var-pagetitle": "頁面標題",
+	"bs-distributionconnector-collection-var-numberhits": "相符"
+}

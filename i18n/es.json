@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"bs-distributionconnector-tag-references-desc": "Muestra la lista de notas al pie insertadas en los artículos.",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Modo",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Profundidad",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Ocultar prefijo",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Espacio de nombres",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Etiqueta de estilo CSS",
+	"bs-distributionconnector-collection-var-pagetitle": "Título de página"
+}
