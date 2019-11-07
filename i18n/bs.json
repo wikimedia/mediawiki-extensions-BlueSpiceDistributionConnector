@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Semina x"
+		]
+	},
+	"bs-distributionconnector-yourdomainname": "Vaša domena",
+	"bs-distributionconnector-tag-ref-desc": "Označava tekst između oznaka kao futnotu.",
+	"bs-distributionconnector-tag-references-desc": "Pokazuje listu futnota koje su zbačene u članke.",
+	"bs-distributionconnector-tag-quiz-desc": "Dodaje jednostavna kviz pitanja na članak.",
+	"bs-distributionconnector-tag-embedvideo-desc": "Ugrađuje video klipove sa popularnih platformi za dijeljenje.",
+	"bs-distributionconnector-tag-dynamicpagelist-desc": "Generira dinamičnu listu članaka na osnovu raznih parametara.",
+	"bs-distributionconnector-flyout-hitcounters-text": "Broj pregleda",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Režim:",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Dubina",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Sakrij root",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Pokaži brojač",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Sakrij prefiks",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Imenski prostor",
+	"bs-distributionconnector-hitcounters-sesp-alias": "Brojač pregleda",
+	"bs-distributionconnector-hitcounters-sesp-desc": "Brojač pregleda",
+	"bs-distributionconnector-collection-type-hitcounter": "Pregledi stranice",
+	"bs-distributionconnector-collection-var-pagetitle": "Naslov stranice"
+}

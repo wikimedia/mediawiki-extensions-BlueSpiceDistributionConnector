@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Vlad5250"
+		]
 	},
 	"bs-distributionconnector-extension-description": "description of distributionconnector extensio",
 	"bs-distributionconnector-yourdomainname": "Inputfield for domain on Userlogin for mobiletemplate",
@@ -9,7 +11,7 @@
 	"bs-distributionconnector-tag-references-desc": "Description of the field description to insert tag to reference.",
 	"bs-distributionconnector-tag-quiz-desc": "Description of field to insert tag to simple quiz.",
 	"bs-distributionconnector-tag-embedvideo-desc": "Description of field to insert tag for embedded video.",
-	"bs-distributionconnector-tag-dynamicpagelist-desc": "escription of field to insert tag for dynamic list of articles.",
+	"bs-distributionconnector-tag-dynamicpagelist-desc": "Description of field to insert tag for dynamic list of articles.",
 	"bs-distributionconnector-flyout-hitcounters-text": "The Text for number of times the page has been viewed.",
 	"bs-distributionconnector-ve-categorytreeinpector-title": "Title of the Inspector for CategoryTree",
 	"bs-distributionconnector-ve-categorytree-title": "Title of the Inspector for CategoryTree",

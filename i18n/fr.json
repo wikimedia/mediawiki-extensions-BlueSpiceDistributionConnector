@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Verdy p",
+			"Vega"
+		]
+	},
+	"bs-distributionconnector-extension-description": "Connecte BlueSpice à diverses extensions de MediaWiki",
+	"bs-distributionconnector-yourdomainname": "Votre domaine",
+	"bs-distributionconnector-tag-categorytree-desc": "Affiche une structure dynamique en arbre du système de catégories dans le wiki. La catégorie racine doit être indiquée entre les deux balises.",
+	"bs-distributionconnector-tag-ref-desc": "Marque le texte entre les balises comme une note de bas de page.",
+	"bs-distributionconnector-tag-references-desc": "Affiche la liste des notes de bas de pages qui ont été insérées dans les articles.",
+	"bs-distributionconnector-tag-quiz-desc": "Ajoute des questions simples de quiz à un article.",
+	"bs-distributionconnector-tag-embedvideo-desc": "Encapsule des clips vidéos hébergés sur des plateformes de partages populaires.",
+	"bs-distributionconnector-tag-dynamicpagelist-desc": "Génère une liste dynamique d’articles selon divers paramètres.",
+	"bs-distributionconnector-flyout-hitcounters-text": "Nombre de vues",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "ArbreDeCatégories",
+	"bs-distributionconnector-ve-categorytree-title": "ArbreDeCatégories",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Mode",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Profondeur",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Masquer la racine",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Afficher le compteur",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Masquer le préfixe",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Espace de noms",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "balise de style CSS",
+	"bs-distributionconnector-hitcounters-sesp-alias": "Compteur de vues uniques",
+	"bs-distributionconnector-hitcounters-sesp-desc": "Compteur de vues uniques",
+	"bs-distributionconnector-collection-type-hitcounter": "Pages vues",
+	"bs-distributionconnector-collection-var-pagetitle": "Titre de page",
+	"bs-distributionconnector-collection-var-numberhits": "Vues uniques"
+}

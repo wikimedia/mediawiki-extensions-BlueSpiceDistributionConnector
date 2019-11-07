@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-distributionconnector-extension-description": "Colleghe BlueSpice a le diverse estenziune de MediaUicchi",
+	"bs-distributionconnector-yourdomainname": "'U dominie tune",
+	"bs-distributionconnector-tag-categorytree-desc": "Face 'ndrucà 'n'arvule dinameche sus a 'u sisteme de le categorije jndr'à uicchi. 'Mbrà le tag 'a cetegorije radice adda essere indicate.",
+	"bs-distributionconnector-tag-ref-desc": "Signe 'u teste 'mbrà le tag cumme 'na note a piè de pàgene.",
+	"bs-distributionconnector-tag-references-desc": "Face 'ndrucà l'elenghe de le note a piè de pàgene ca avèrene state sckaffate jndr'à le vôsce.",
+	"bs-distributionconnector-tag-quiz-desc": "Aggiunge de le dumande de quiz facile facile a 'na vôsce.",
+	"bs-distributionconnector-tag-embedvideo-desc": "Video 'ngapsulate da le piattaforme de condivisione famose.",
+	"bs-distributionconnector-tag-dynamicpagelist-desc": "Genere 'n'elenghe dinameche de vôsce ca se base sus a diverse parametre.",
+	"bs-distributionconnector-flyout-hitcounters-text": "Numere de 'ndrucaminde",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "Arvule de le categorije",
+	"bs-distributionconnector-ve-categorytree-title": "Arvule de le categorije",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Mode",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Profunnetà",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Scunne 'a radice",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Fà 'ndrucà 'u condegge",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Scunne 'u prefisse",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Namespace",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Tag de stile CSS",
+	"bs-distributionconnector-hitcounters-sesp-alias": "Condatore de le cazzaminde",
+	"bs-distributionconnector-hitcounters-sesp-desc": "Condatore de le cazzaminde",
+	"bs-distributionconnector-collection-type-hitcounter": "'Ndrucamiende d'a pàgene",
+	"bs-distributionconnector-collection-var-pagetitle": "Titole d'a pàgene",
+	"bs-distributionconnector-collection-var-numberhits": "Cazzaminde"
+}

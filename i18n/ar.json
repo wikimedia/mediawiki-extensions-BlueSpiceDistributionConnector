@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bs-distributionconnector-extension-description": "يربط BlueSpice بامتدادات ميدياويكي المختلفة",
+	"bs-distributionconnector-yourdomainname": "نطاقك",
+	"bs-distributionconnector-tag-categorytree-desc": "يعرض بنية شجرة ديناميكية على نظام التصنيفات في الويكي، بين الوسوم تجب الإشارة إلى تصنيف الجذر.",
+	"bs-distributionconnector-tag-ref-desc": "يعلم النص بين الوسوم كحاشية سفلية.",
+	"bs-distributionconnector-tag-references-desc": "يعرض قائمة الحواشي السفلية التي تم إدراجها في المقالات.",
+	"bs-distributionconnector-tag-quiz-desc": "يضيف أسئلة مسابقة بسيطة لمقالة.",
+	"bs-distributionconnector-tag-embedvideo-desc": "يدمج مقاطع الفيديو من منصات المشاركة الشائعة.",
+	"bs-distributionconnector-tag-dynamicpagelist-desc": "يولد قائمة ديناميكية من المقالات على أساس الوسائط المختلفة.",
+	"bs-distributionconnector-flyout-hitcounters-text": "عدد المشاهدات",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "شجرة تصنيفات",
+	"bs-distributionconnector-ve-categorytree-title": "شجرة تصنيفات",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "الوضع",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "العمق",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "إخفاء الجذر",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "عرض العد",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "إخفاء البادئة",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "النطاق",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "وسم نمط CSS",
+	"bs-distributionconnector-hitcounters-sesp-alias": "عداد الضربات",
+	"bs-distributionconnector-hitcounters-sesp-desc": "عداد الضربات",
+	"bs-distributionconnector-collection-type-hitcounter": "مشاهدات الصفحة",
+	"bs-distributionconnector-collection-var-pagetitle": "عنوان الصفحة",
+	"bs-distributionconnector-collection-var-numberhits": "الضربات"
+}

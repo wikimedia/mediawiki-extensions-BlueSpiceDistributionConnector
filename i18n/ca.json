@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jlrb+"
+		]
+	},
+	"bs-distributionconnector-extension-description": "Connecta BlueSpice a diverses extensions MediaWiki",
+	"bs-distributionconnector-yourdomainname": "El teu domini",
+	"bs-distributionconnector-tag-categorytree-desc": "Mostra una estructura d'arbre dinàmica en el sistema de categoria en el wiki. Cal indicar la categoria arrel entren els signes",
+	"bs-distributionconnector-tag-ref-desc": "Marca el text entre els signes com una nota al peu de pàgina",
+	"bs-distributionconnector-tag-references-desc": "Mostra la llista de notes al peu inserides en els articles",
+	"bs-distributionconnector-tag-quiz-desc": "Afegeix preguntes test senzilles a un article.",
+	"bs-distributionconnector-tag-embedvideo-desc": "Incrusta vídeos de plataformes de compartició populars",
+	"bs-distributionconnector-flyout-hitcounters-text": "Nombre de visualitzacions",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Mode",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Profunditat",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Amaga l'arrel",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Amaga el prefix",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Estil de marca CSS",
+	"bs-distributionconnector-hitcounters-sesp-alias": "Comptador de visites",
+	"bs-distributionconnector-collection-type-hitcounter": "Visualitzacions de la pàgina",
+	"bs-distributionconnector-collection-var-pagetitle": "Títol de la pàgina",
+	"bs-distributionconnector-collection-var-numberhits": "Visites"
+}

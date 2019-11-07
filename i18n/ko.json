@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"bs-distributionconnector-yourdomainname": "내 도메인",
+	"bs-distributionconnector-tag-quiz-desc": "단순 퀴즈 질문을 문서에 추가합니다.",
+	"bs-distributionconnector-tag-embedvideo-desc": "대중적인 공유 플랫폼의 동영상 클립을 임베드합니다.",
+	"bs-distributionconnector-flyout-hitcounters-text": "조회수",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "분류트리",
+	"bs-distributionconnector-ve-categorytree-title": "분류트리",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "모드",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "깊이",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "루트 숨기기",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "개수 표시",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "이름공간",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS 스타일 태그",
+	"bs-distributionconnector-hitcounters-sesp-alias": "히트 카운터",
+	"bs-distributionconnector-hitcounters-sesp-desc": "히트 카운터",
+	"bs-distributionconnector-collection-type-hitcounter": "문서 조회수",
+	"bs-distributionconnector-collection-var-pagetitle": "문서 제목"
+}

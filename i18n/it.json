@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"bs-distributionconnector-yourdomainname": "Il tuo dominio",
+	"bs-distributionconnector-flyout-hitcounters-text": "Numero di visualizzazioni",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Nascondi prefisso",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Namespace",
+	"bs-distributionconnector-collection-var-pagetitle": "Titolo della pagina"
+}
