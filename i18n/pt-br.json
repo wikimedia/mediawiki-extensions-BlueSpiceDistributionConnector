@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eduardo Addad de Oliveira"
+			"Eduardo Addad de Oliveira",
+			"Dianakc"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Conecta o BlueSpice a várias extensões do MediaWiki",
@@ -23,5 +24,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Espaço nominal",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Etiqueta de estilo CSS",
 	"bs-distributionconnector-collection-type-hitcounter": "Visualização de páginas",
-	"bs-distributionconnector-collection-var-pagetitle": "Título da página"
+	"bs-distributionconnector-collection-var-pagetitle": "Título da página",
+	"bs-distributionconnector-collection-var-numberhits": "Visitas"
 }
