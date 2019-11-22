@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mjälten"
+		]
+	},
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Läge",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Djup",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Dölj roten",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Visa antal",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Dölj prefix",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Namnrymd",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS-stiltagg",
+	"bs-distributionconnector-hitcounters-sesp-alias": "Redigeringsräknare",
+	"bs-distributionconnector-hitcounters-sesp-desc": "Träffräknare",
+	"bs-distributionconnector-collection-type-hitcounter": "Sidvisningar",
+	"bs-distributionconnector-collection-var-pagetitle": "Sidtitel",
+	"bs-distributionconnector-collection-var-numberhits": "Träff"
+}
