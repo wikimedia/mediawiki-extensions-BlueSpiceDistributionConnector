@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mansil alfalb"
+			"Mansil alfalb",
+			"Hamilton Abreu"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "O seu domínio",
-	"bs-distributionconnector-flyout-hitcounters-text": "Número de visualizações",
-	"bs-distributionconnector-ve-categorytreeinpector-title": "Árvore de Categoria",
-	"bs-distributionconnector-ve-categorytree-title": "Árvore de Categoria",
+	"bs-distributionconnector-flyout-hitcounters-text": "Número de visitas",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "Árvore de Categorias",
+	"bs-distributionconnector-ve-categorytree-title": "Árvore de Categorias",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Modo",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Profundidade",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Ocultar raiz",
@@ -15,9 +16,9 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Ocultar prefixo",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Espaço nominal",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Etiqueta de estilo CSS",
-	"bs-distributionconnector-hitcounters-sesp-alias": "Contador de Edições",
-	"bs-distributionconnector-hitcounters-sesp-desc": "Contador de Edições",
-	"bs-distributionconnector-collection-type-hitcounter": "Visualizações de página",
+	"bs-distributionconnector-hitcounters-sesp-alias": "Contador de visitas",
+	"bs-distributionconnector-hitcounters-sesp-desc": "Contador de visitas",
+	"bs-distributionconnector-collection-type-hitcounter": "Visitas à página",
 	"bs-distributionconnector-collection-var-pagetitle": "Título da página",
 	"bs-distributionconnector-collection-var-numberhits": "Visitas"
 }
