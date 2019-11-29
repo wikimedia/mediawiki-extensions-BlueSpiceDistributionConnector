@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Steeve815"
+			"Steeve815",
+			"Amire80"
 		]
 	},
+	"bs-distributionconnector-yourdomainname": "התחום שלך",
 	"bs-distributionconnector-flyout-hitcounters-text": "מספר צפיות",
 	"bs-distributionconnector-ve-categorytreeinpector-title": "עץ קטגוריות"
 }
