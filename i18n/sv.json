@@ -5,6 +5,9 @@
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "Din domän:",
+	"bs-distributionconnector-flyout-hitcounters-text": "Antal visningar",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "Kategoriträd",
+	"bs-distributionconnector-ve-categorytree-title": "Kategoriträd",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Läge",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Djup",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Dölj roten",
