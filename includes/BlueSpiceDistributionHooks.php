@@ -3,17 +3,6 @@
 class BlueSpiceDistributionHooks {
 
 	/**
-	 *
-	 * @param OutputPage $out
-	 * @param Skin $skin
-	 * @return bool
-	 */
-	public static function onBeforePageDisplay( $out, $skin ) {
-		$out->addModules( 'ext.bluespice.distribution' );
-		return true;
-	}
-
-	/**
 	 * This is an optional hook handler that needs to be enabled within BlueSpiceDistribution.php
 	 * See https://www.mediawiki.org/wiki/Extension:LDAP_Authentication/Configuration_Options#Auto_authentication_options
 	 * @param string &$LDAPUsername

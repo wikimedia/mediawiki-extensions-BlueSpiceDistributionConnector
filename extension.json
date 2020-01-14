@@ -197,7 +197,7 @@
 	},
 	"Hooks": {
 		"BeforePageDisplay": [
-			"BlueSpiceDistributionHooks::onBeforePageDisplay",
+			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddResources::callback",
 			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddHitCounters::callback"
 		],
 		"BaseTemplateToolbox": "BlueSpiceDistributionHooks::onBaseTemplateToolbox",
