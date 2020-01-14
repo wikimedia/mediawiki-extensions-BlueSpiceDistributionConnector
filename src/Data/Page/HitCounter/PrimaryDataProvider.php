@@ -2,10 +2,10 @@
 
 namespace BlueSpice\DistributionConnector\Data\Page\HitCounter;
 
+use BlueSpice\Data\Page\PrimaryDataProvider as PageDataProvider;
+use BlueSpice\Data\ReaderParams;
 use Hooks;
 use Title;
-use BlueSpice\Data\ReaderParams;
-use BlueSpice\Data\Page\PrimaryDataProvider as PageDataProvider;
 
 class PrimaryDataProvider extends PageDataProvider {
 

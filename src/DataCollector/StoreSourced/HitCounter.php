@@ -2,19 +2,19 @@
 
 namespace BlueSpice\DistributionConnector\DataCollector\StoreSourced;
 
-use Config;
-use RequestContext;
-use BlueSpice\Services;
 use BlueSpice\Data\IRecord;
 use BlueSpice\Data\IStore;
+use BlueSpice\DistributionConnector\Data\Page\HitCounter\Record;
+use BlueSpice\DistributionConnector\Data\Page\HitCounter\Store;
+use BlueSpice\DistributionConnector\Entity\Collection\HitCounter as Collection;
 use BlueSpice\EntityFactory;
-use BlueSpice\ExtendedStatistics\SnapshotFactory;
-use BlueSpice\ExtendedStatistics\Entity\Snapshot;
 use BlueSpice\ExtendedStatistics\DataCollector\StoreSourced;
 use BlueSpice\ExtendedStatistics\Entity\Collection as BaseCollection;
-use BlueSpice\DistributionConnector\Data\Page\HitCounter\Store;
-use BlueSpice\DistributionConnector\Data\Page\HitCounter\Record;
-use BlueSpice\DistributionConnector\Entity\Collection\HitCounter as Collection;
+use BlueSpice\ExtendedStatistics\Entity\Snapshot;
+use BlueSpice\ExtendedStatistics\SnapshotFactory;
+use BlueSpice\Services;
+use Config;
+use RequestContext;
 
 class HitCounter extends StoreSourced {
 

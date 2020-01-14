@@ -2,10 +2,10 @@
 
 namespace BlueSpice\DistributionConnector\Data\Page\HitCounter;
 
+use BlueSpice\Data\Page\Reader as PageReader;
+use BlueSpice\Data\ReaderParams;
 use IContextSource;
 use Wikimedia\Rdbms\LoadBalancer;
-use BlueSpice\Data\ReaderParams;
-use BlueSpice\Data\Page\Reader as PageReader;
 
 class Reader extends PageReader {
 	/**

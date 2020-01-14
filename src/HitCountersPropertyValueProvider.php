@@ -1,9 +1,9 @@
 <?php
 namespace BlueSpice\DistributionConnector;
 
+use \HitCounters\HitCounters;
 use BlueSpice\SMWConnector\PropertyValueProvider;
 use SMWDataItem;
-use \HitCounters\HitCounters;
 
 class HitCountersPropertyValueProvider extends PropertyValueProvider {
 	/**
