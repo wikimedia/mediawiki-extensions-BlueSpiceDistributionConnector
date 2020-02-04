@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"bs-distributionconnector-extension-description": "BlueSpice'i çeşitli MediaWiki uzantılarına bağlar",
+	"bs-distributionconnector-yourdomainname": "Alanınız",
+	"bs-distributionconnector-tag-categorytree-desc": "Wikideki kategori sisteminde dinamik bir ağaç yapısı görüntüler. Etiketler arasında kök kategorisi belirtilmelidir.",
+	"bs-distributionconnector-tag-ref-desc": "Etiketler arasındaki metni dipnot olarak işaretler.",
+	"bs-distributionconnector-tag-references-desc": "Makalelere eklenen dipnotların listesini görüntüler.",
+	"bs-distributionconnector-tag-quiz-desc": "Bir makaleye basit sınav soruları ekler.",
+	"bs-distributionconnector-tag-embedvideo-desc": "Popüler paylaşım platformlarından video klipler gömer.",
+	"bs-distributionconnector-tag-dynamicpagelist-desc": "Çeşitli parametrelere dayalı dinamik bir makale listesi oluşturur.",
+	"bs-distributionconnector-flyout-hitcounters-text": "Görüntülenme sayısı",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "CategoryTree",
+	"bs-distributionconnector-ve-categorytree-title": "CategoryTree",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Mod",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Derinlik",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Kökü gizle",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Sayımı göster",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Öneki gizle",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Ad alanı",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS stil etiketi",
+	"bs-distributionconnector-hitcounters-sesp-alias": "İsabet Sayacı",
+	"bs-distributionconnector-hitcounters-sesp-desc": "İsabet Sayacı",
+	"bs-distributionconnector-collection-type-hitcounter": "Sayfa görüntülenmesi",
+	"bs-distributionconnector-collection-var-pagetitle": "Sayfa başlığı",
+	"bs-distributionconnector-collection-var-numberhits": "İsabetler"
+}

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fitoschido"
+			"Fitoschido",
+			"Joanmp17"
 		]
 	},
 	"bs-distributionconnector-tag-references-desc": "Muestra la lista de notas al pie insertadas en los artículos.",
@@ -10,5 +11,8 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Ocultar prefijo",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Espacio de nombres",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Etiqueta de estilo CSS",
-	"bs-distributionconnector-collection-var-pagetitle": "Título de página"
+	"bs-distributionconnector-collection-var-pagetitle": "Título de página",
+	"bs-distributionconnector-yourdomainname": "Tu dominio",
+	"bs-distributionconnector-flyout-hitcounters-text": "Número de vistas",
+	"bs-distributionconnector-collection-type-hitcounter": "Vistas de página"
 }

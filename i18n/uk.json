@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ата"
+		]
+	},
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Режим",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Глибина",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Приховати префікс",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Простір назв",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Тег стилю CSS"
+}
