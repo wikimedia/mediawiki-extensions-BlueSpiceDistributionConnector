@@ -4,5 +4,9 @@
 			"Mainframe98"
 		]
 	},
-	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Naamruimte"
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Naamruimte",
+	"bs-distributionconnector-yourdomainname": "Uw domein",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Modus",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Voorvoegsel verbergen",
+	"bs-distributionconnector-collection-var-pagetitle": "Paginanaam"
 }

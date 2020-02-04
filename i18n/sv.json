@@ -15,5 +15,9 @@
 	"bs-distributionconnector-hitcounters-sesp-desc": "Träffräknare",
 	"bs-distributionconnector-collection-type-hitcounter": "Sidvisningar",
 	"bs-distributionconnector-collection-var-pagetitle": "Sidtitel",
-	"bs-distributionconnector-collection-var-numberhits": "Träff"
+	"bs-distributionconnector-collection-var-numberhits": "Träff",
+	"bs-distributionconnector-yourdomainname": "Din domän:",
+	"bs-distributionconnector-flyout-hitcounters-text": "Antal visningar",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "Kategoriträd",
+	"bs-distributionconnector-ve-categorytree-title": "Kategoriträd"
 }

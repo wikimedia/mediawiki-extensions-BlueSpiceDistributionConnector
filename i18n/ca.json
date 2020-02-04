@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jlrb+"
+			"Jlrb+",
+			"Fitoschido"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Connecta BlueSpice a diverses extensions MediaWiki",
-	"bs-distributionconnector-yourdomainname": "El teu domini",
+	"bs-distributionconnector-yourdomainname": "El vostre domini",
 	"bs-distributionconnector-tag-categorytree-desc": "Mostra una estructura d'arbre dinàmica en el sistema de categoria en el wiki. Cal indicar la categoria arrel entren els signes",
 	"bs-distributionconnector-tag-ref-desc": "Marca el text entre els signes com una nota al peu de pàgina",
 	"bs-distributionconnector-tag-references-desc": "Mostra la llista de notes al peu inserides en els articles",
