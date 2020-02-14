@@ -143,10 +143,15 @@
 		"BlueSpiceDistributionHooks": "includes/BlueSpiceDistributionHooks.php"
 	},
 	"ResourceModules": {
-		"ext.bluespice.distribution": {
-			"scripts": "bluespice.distribution.js",
-			"styles": "bluespice.distribution.less",
-			"position": "bottom"
+		"ext.bluespice.distribution.styles": {
+			"styles": [
+				"bluespice.distribution.less"
+			]
+		},
+		"ext.bluespice.distribution.ldap": {
+			"scripts": [
+				"bluespice.distribution.ldap.js"
+			]
 		},
 		"ext.bluespice.hitcounters.flyout": {
 			"scripts": [
