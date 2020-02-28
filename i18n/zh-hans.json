@@ -3,11 +3,13 @@
 		"authors": [
 			"沈澄心",
 			"Dimension",
-			"铁桶"
+			"铁桶",
+			"VulpesVulpes825"
 		]
 	},
 	"bs-distributionconnector-flyout-hitcounters-text": "查看次数",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "模式",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "深度",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "名字空间",
 	"bs-distributionconnector-collection-var-pagetitle": "页面标题"
 }
