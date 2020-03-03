@@ -1,12 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ата"
+			"Ата",
+			"Piramidion"
 		]
 	},
+	"bs-distributionconnector-extension-description": "Під'єднує BlueSpice до різних розширень MediaWiki",
+	"bs-distributionconnector-yourdomainname": "Ваш домен",
+	"bs-distributionconnector-tag-categorytree-desc": "Показує динамічну деревоподібну структуру в системі категорій у вікі. Між тегами слід зазначити корінну категорію.",
+	"bs-distributionconnector-tag-ref-desc": "Позначає текст між тегами як виноску.",
+	"bs-distributionconnector-tag-references-desc": "Показує список виносок, які було вставлено в статті.",
+	"bs-distributionconnector-tag-quiz-desc": "Додає прості запитання з опитування до статті.",
+	"bs-distributionconnector-tag-embedvideo-desc": "Вбудовує відеокліпи з популярних платформ обміну.",
+	"bs-distributionconnector-tag-dynamicpagelist-desc": "Генерує динамічний список статей на основі різних параметрів.",
+	"bs-distributionconnector-flyout-hitcounters-text": "Кількість переглядів",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "Дерево категорій",
+	"bs-distributionconnector-ve-categorytree-title": "Дерево категорій",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Режим",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Глибина",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Приховати корінь",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Показати кількість",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Приховати префікс",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Простір назв",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Тег стилю CSS"
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Тег стилю CSS",
+	"bs-distributionconnector-hitcounters-sesp-alias": "Лічильник спрацьовувань",
+	"bs-distributionconnector-hitcounters-sesp-desc": "Лічильник спрацьовувань",
+	"bs-distributionconnector-collection-type-hitcounter": "Перегляди сторінки",
+	"bs-distributionconnector-collection-var-pagetitle": "Назва сторінки",
+	"bs-distributionconnector-collection-var-numberhits": "Спрацьовування"
 }
