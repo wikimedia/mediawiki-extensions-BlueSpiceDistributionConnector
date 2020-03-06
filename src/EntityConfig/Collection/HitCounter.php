@@ -20,7 +20,7 @@ class HitCounter extends EntityConfig {
 	 * @return EntityConfig
 	 */
 	public static function factory( $config, $key, $services ) {
-		$extension = $services->getBSExtensionFactory()->getExtension(
+		$extension = $services->getService( 'BSExtensionFactory' )->getExtension(
 			'BlueSpiceExtendedStatistics'
 		);
 		if ( !$extension ) {
