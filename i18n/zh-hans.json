@@ -5,9 +5,11 @@
 			"Dimension",
 			"铁桶",
 			"VulpesVulpes825",
-			"A Chinese Wikipedian"
+			"A Chinese Wikipedian",
+			"500000000006城"
 		]
 	},
+	"bs-distributionconnector-yourdomainname": "您的域名",
 	"bs-distributionconnector-tag-embedvideo-desc": "包括来自热门共享平台的视频剪辑。",
 	"bs-distributionconnector-tag-dynamicpagelist-desc": "基于各种参数生成动态文章列表。",
 	"bs-distributionconnector-flyout-hitcounters-text": "查看次数",
