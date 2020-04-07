@@ -1,4 +1,6 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"bs-distributionconnector-yourdomainname": "Ihre Domain"
 }
