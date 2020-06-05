@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Conky77"
+			"Conky77",
+			"Fierodelveneto"
 		]
 	},
-	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Scondi prefiso"
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Scondi prefiso",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Spasio-nome"
 }

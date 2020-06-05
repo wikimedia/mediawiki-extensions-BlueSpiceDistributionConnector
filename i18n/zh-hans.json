@@ -5,6 +5,7 @@
 			"A Chinese Wikipedian",
 			"Dimension",
 			"VulpesVulpes825",
+			"列维劳德",
 			"沈澄心",
 			"铁桶"
 		]
@@ -17,5 +18,10 @@
 	"bs-distributionconnector-yourdomainname": "您的域名",
 	"bs-distributionconnector-tag-embedvideo-desc": "包括来自热门共享平台的视频剪辑。",
 	"bs-distributionconnector-tag-dynamicpagelist-desc": "基于各种参数生成动态文章列表。",
-	"bs-distributionconnector-collection-type-hitcounter": "页面查看次数"
+	"bs-distributionconnector-collection-type-hitcounter": "页面查看次数",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "展示数",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "隐藏前缀",
+	"bs-distributionconnector-hitcounters-sesp-alias": "命中计数器",
+	"bs-distributionconnector-hitcounters-sesp-desc": "命中计数器",
+	"bs-distributionconnector-collection-var-numberhits": "命中"
 }
