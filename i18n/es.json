@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Agusbou2015",
 			"Fitoschido",
 			"Joanmp17"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Conecta BlueSpice con varias extensiones para MediaWiki",
 	"bs-distributionconnector-yourdomainname": "Tu dominio",
+	"bs-distributionconnector-tag-categorytree-desc": "Muestra una estructura de árbol dinámico en el sistema de categorías del wiki. Entre las etiquetas se debe indicar la categoría raíz.",
 	"bs-distributionconnector-tag-ref-desc": "Marca el texto entre las etiquetas como pie de página.",
 	"bs-distributionconnector-tag-references-desc": "Muestra la lista de notas al pie insertadas en los artículos.",
 	"bs-distributionconnector-tag-dynamicpagelist-desc": "Genera una lista dinámica de artículos en función de varios parámetros.",
