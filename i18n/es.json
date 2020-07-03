@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Agusbou2015",
 			"Fitoschido",
 			"Joanmp17"
 		]
@@ -21,5 +22,6 @@
 	"bs-distributionconnector-ve-categorytreeinpector-title": "Árbol de categorías",
 	"bs-distributionconnector-ve-categorytree-title": "Árbol de categorías",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Ocultar raíz",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Mostrar recuento"
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Mostrar recuento",
+	"bs-distributionconnector-tag-categorytree-desc": "Muestra una estructura de árbol dinámico en el sistema de categorías del wiki. Entre las etiquetas se debe indicar la categoría raíz."
 }

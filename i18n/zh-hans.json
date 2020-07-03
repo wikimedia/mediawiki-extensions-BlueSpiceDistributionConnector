@@ -23,5 +23,8 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "隐藏前缀",
 	"bs-distributionconnector-hitcounters-sesp-alias": "命中计数器",
 	"bs-distributionconnector-hitcounters-sesp-desc": "命中计数器",
-	"bs-distributionconnector-collection-var-numberhits": "命中"
+	"bs-distributionconnector-collection-var-numberhits": "命中",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "分类树",
+	"bs-distributionconnector-ve-categorytree-title": "分类树",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS样式标签"
 }
