@@ -214,8 +214,8 @@
 			"\\BlueSpice\\DistributionConnector\\Hook\\BSInsertMagicAjaxGetData\\EmbedVideo::callback",
 			"\\BlueSpice\\DistributionConnector\\Hook\\BSInsertMagicAjaxGetData\\DynamicPageList::callback"
 		],
-		"SkinTemplateOutputPageBeforeExec": [
-			"\\BlueSpice\\DistributionConnector\\Hook\\SkinTemplateOutputPageBeforeExec\\ModifySidebar::callback"
+		"ChameleonSkinTemplateOutputPageBeforeExec": [
+			"\\BlueSpice\\DistributionConnector\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\ModifySidebar::callback"
 		]
 	},
 	"manifest_version": 2
