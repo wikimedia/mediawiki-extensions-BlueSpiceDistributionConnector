@@ -14,10 +14,14 @@ class ModifySidebar extends SkinTemplateOutputPageBeforeExec {
 	protected function skipProcessing() {
 		$duplicator = \SpecialPage::getTitleFor( 'Duplicator' );
 
-		if ( !$duplicator->isKnown()
-			|| !$this->skin->getTitle()->isContentPage()
-			|| !$this->skin->getUser()->isAllowed( 'duplicate' ) ) {
-
+		$isAllowed = $this->getServices()->getPermissionManager()->userHasRight(
+			$this->skin->getUser(),
+			'duplicate'
+		);
+		if ( !$isAllowed ) {
+			return true;
+		}
+		if ( !$duplicator->isKnown() || !$this->skin->getTitle()->isContentPage() ) {
 			return true;
 		}
 
