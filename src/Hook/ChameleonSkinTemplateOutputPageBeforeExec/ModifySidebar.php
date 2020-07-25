@@ -1,11 +1,11 @@
 <?php
 
-namespace BlueSpice\DistributionConnector\Hook\SkinTemplateOutputPageBeforeExec;
+namespace BlueSpice\DistributionConnector\Hook\ChameleonSkinTemplateOutputPageBeforeExec;
 
-use BlueSpice\Hook\SkinTemplateOutputPageBeforeExec;
+use BlueSpice\Calumma\Hook\ChameleonSkinTemplateOutputPageBeforeExec;
 use BlueSpice\SkinData;
 
-class ModifySidebar extends SkinTemplateOutputPageBeforeExec {
+class ModifySidebar extends ChameleonSkinTemplateOutputPageBeforeExec {
 
 	/**
 	 *
