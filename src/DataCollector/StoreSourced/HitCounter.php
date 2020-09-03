@@ -12,8 +12,8 @@ use BlueSpice\ExtendedStatistics\DataCollector\StoreSourced;
 use BlueSpice\ExtendedStatistics\Entity\Collection as BaseCollection;
 use BlueSpice\ExtendedStatistics\Entity\Snapshot;
 use BlueSpice\ExtendedStatistics\SnapshotFactory;
-use BlueSpice\Services;
 use Config;
+use MediaWiki\MediaWikiServices;
 use RequestContext;
 
 class HitCounter extends StoreSourced {
@@ -57,7 +57,7 @@ class HitCounter extends StoreSourced {
 	/**
 	 *
 	 * @param string $type
-	 * @param Services $services
+	 * @param MediaWikiServices $services
 	 * @param Snapshot $snapshot
 	 * @param Config|null $config
 	 * @param EntityFactory|null $factory
@@ -66,7 +66,7 @@ class HitCounter extends StoreSourced {
 	 * @param array|null $namespaces
 	 * @return DataCollector
 	 */
-	public static function factory( $type, Services $services, Snapshot $snapshot,
+	public static function factory( $type, MediaWikiServices $services, Snapshot $snapshot,
 		Config $config = null, EntityFactory $factory = null, IStore $store = null,
 		SnapshotFactory $snapshotFactory = null, array $namespaces = null ) {
 		if ( !$config ) {
