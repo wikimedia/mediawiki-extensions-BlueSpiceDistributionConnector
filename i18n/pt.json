@@ -20,5 +20,12 @@
 	"bs-distributionconnector-hitcounters-sesp-desc": "Contador de visitas",
 	"bs-distributionconnector-collection-type-hitcounter": "Visitas à página",
 	"bs-distributionconnector-collection-var-pagetitle": "Título da página",
-	"bs-distributionconnector-collection-var-numberhits": "Visitas"
+	"bs-distributionconnector-collection-var-numberhits": "Visitas",
+	"bs-distributionconnector-extension-description": "Liga o BlueSpice a várias extensões do MediaWiki",
+	"bs-distributionconnector-tag-categorytree-desc": "Apresenta uma estrutura de árvore dinâmica no sistema de categorias da wiki. A categoria de raiz tem de ser indicada entre as etiquetas.",
+	"bs-distributionconnector-tag-ref-desc": "Marca o texto entre as etiquetas como nota de rodapé.",
+	"bs-distributionconnector-tag-references-desc": "Apresenta a lista de notas de rodapé que foram inseridas nos artigos.",
+	"bs-distributionconnector-tag-quiz-desc": "Acrescenta perguntas simples de teste a um artigo.",
+	"bs-distributionconnector-tag-embedvideo-desc": "Incorpora clipes de vídeo de plataformas de partilha populares.",
+	"bs-distributionconnector-tag-dynamicpagelist-desc": "Gera uma lista dinâmica de artigos com base em vários parâmetros."
 }
