@@ -1,4 +1,5 @@
 <?php
+
 namespace BlueSpice\DistributionConnector;
 
 interface ISettingPaths {

@@ -25,7 +25,15 @@
 			"Extensions": {
 				"BlueSpiceDistributionConnector": {
 					"className": "\\BlueSpice\\DistributionConnector\\Extension",
-					"extPath": "/BlueSpiceDistributionConnector"
+					"extPath": "/BlueSpiceDistributionConnector",
+					"configDefinitions": {
+						"DistributionConnectorOpenIDConnectConfig": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\Config::getInstance",
+						"DistributionConnectorOpenIDConnectUseRealNameAsUserName": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\UseRealNameAsUserName::getInstance",
+						"DistributionConnectorOpenIDConnectUseEmailNameAsUserName": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\UseEmailNameAsUserName::getInstance",
+						"DistributionConnectorOpenIDConnectMigrateUsersByUserName": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\MigrateUsersByUserName::getInstance",
+						"DistributionConnectorOpenIDConnectMigrateUsersByEmail": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\MigrateUsersByEmail::getInstance",
+						"DistributionConnectorOpenIDConnectForceLogout": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\ForceLogout::getInstance"
+					}
 				}
 			},
 			"PermissionRegistry": {
@@ -202,6 +210,39 @@
 	"ResourceFileModulePaths": {
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpiceDistributionConnector/resources"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"DistributionConnectorOpenIDConnectConfig": {
+			"value": [],
+			"descriptionmsg": "bs-distributionconnector-pref-openidconnect-config",
+			"public": true
+		},
+		"DistributionConnectorOpenIDConnectUseRealNameAsUserName": {
+			"value": false,
+			"descriptionmsg": "bs-distributionconnector-pref-openidconnect-userealnameasusername",
+			"public": true
+		},
+		"DistributionConnectorOpenIDConnectUseEmailNameAsUserName": {
+			"value": false,
+			"descriptionmsg": "bs-distributionconnector-pref-openidconnect-useemailasusername",
+			"public": true
+		},
+		"DistributionConnectorOpenIDConnectMigrateUsersByUserName": {
+			"value": false,
+			"descriptionmsg": "bs-distributionconnector-pref-openidconnect-migrateusersbyusername",
+			"public": true
+		},
+		"DistributionConnectorOpenIDConnectMigrateUsersByEmail": {
+			"value": false,
+			"descriptionmsg": "bs-distributionconnector-pref-openidconnect-migrateusersbyemail",
+			"public": true
+		},
+		"DistributionConnectorOpenIDConnectForceLogout": {
+			"value": false,
+			"descriptionmsg": "bs-distributionconnector-pref-openidconnect-forcelogout",
+			"public": true
+		}
 	},
 	"Hooks": {
 		"BeforePageDisplay": [
