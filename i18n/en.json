@@ -25,5 +25,22 @@
 	"bs-distributionconnector-collection-type-hitcounter": "Page views",
 	"bs-distributionconnector-collection-var-pagetitle": "Page title",
 	"bs-distributionconnector-collection-var-numberhits": "Hits",
-	"bs-distributionconnector-setting-path-authentication": "Authentication"
+	"bs-distributionconnector-setting-path-authentication": "Authentication",
+	"bs-distributionconnector-pref-openidconnect-config": "Provider",
+	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Use real name as user name",
+	"bs-distributionconnector-pref-openidconnect-useemailasusername": "Use email address as user name",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyusername": "Migrate users by user name",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "Migrate users by email",
+	"bs-distributionconnector-pref-openidconnect-forcelogout": "Force logout",
+	"bs-distributionconnector-pref-openidconnect-config-key": "URL of the issuer",
+	"bs-distributionconnector-pref-openidconnect-config-clientid": "Client ID",
+	"bs-distributionconnector-pref-openidconnect-config-clientsecret": "Client secret",
+	"bs-distributionconnector-pref-openidconnect-config-name": "Display name",
+	"bs-distributionconnector-pref-openidconnect-config-icon": "Icon URL",
+	"bs-distributionconnector-pref-openidconnect-config-proxy": "Proxy URL",
+	"bs-distributionconnector-pref-openidconnect-config-scope": "Scope",
+	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "Preferred username",
+	"bs-distributionconnector-pref-openidconnect-config-authparam": "Authentication parameters (JSON)",
+	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "Verify host",
+	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "Verify peer"
 }
