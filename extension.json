@@ -32,7 +32,12 @@
 						"DistributionConnectorOpenIDConnectUseEmailNameAsUserName": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\UseEmailNameAsUserName::getInstance",
 						"DistributionConnectorOpenIDConnectMigrateUsersByUserName": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\MigrateUsersByUserName::getInstance",
 						"DistributionConnectorOpenIDConnectMigrateUsersByEmail": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\MigrateUsersByEmail::getInstance",
-						"DistributionConnectorOpenIDConnectForceLogout": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\ForceLogout::getInstance"
+						"DistributionConnectorOpenIDConnectForceLogout": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\ForceLogout::getInstance",
+						"DistributionConnectorSimpleSAMLphpEmailAttribute": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\EmailAttribute::getInstance",
+						"DistributionConnectorSimpleSAMLphpGroupAttributeDelimiter": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\GroupAttributeDelimiter::getInstance",
+						"DistributionConnectorSimpleSAMLphpRealNameAttribute": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\RealNameAttribute::getInstance",
+						"DistributionConnectorSimpleSAMLphpSyncAllGroupsGroupAttributeName": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\SyncAllGroupsGroupAttributeName::getInstance",
+						"DistributionConnectorSimpleSAMLphpUsernameAttribute": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\UsernameAttribute::getInstance"
 					}
 				}
 			},
@@ -241,6 +246,31 @@
 		"DistributionConnectorOpenIDConnectForceLogout": {
 			"value": false,
 			"descriptionmsg": "bs-distributionconnector-pref-openidconnect-forcelogout",
+			"public": true
+		},
+		"DistributionConnectorSimpleSAMLphpEmailAttribute": {
+			"value": [],
+			"descriptionmsg": "bs-distributionconnector-pref-simplesamlphp-emailattribute",
+			"public": true
+		},
+		"DistributionConnectorSimpleSAMLphpGroupAttributeDelimiter": {
+			"value": [],
+			"descriptionmsg": "bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter",
+			"public": true
+		},
+		"DistributionConnectorSimpleSAMLphpRealNameAttribute": {
+			"value": [],
+			"descriptionmsg": "bs-distributionconnector-pref-simplesamlphp-realnameattribute",
+			"public": true
+		},
+		"DistributionConnectorSimpleSAMLphpSyncAllGroupsGroupAttributeName": {
+			"value": [],
+			"descriptionmsg": "bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename",
+			"public": true
+		},
+		"DistributionConnectorSimpleSAMLphpUsernameAttribute": {
+			"value": [],
+			"descriptionmsg": "bs-distributionconnector-pref-simplesamlphp-usernameattribute",
 			"public": true
 		}
 	},

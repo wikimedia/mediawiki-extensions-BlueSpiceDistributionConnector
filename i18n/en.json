@@ -42,5 +42,10 @@
 	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "Preferred username",
 	"bs-distributionconnector-pref-openidconnect-config-authparam": "Authentication parameters (JSON)",
 	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "Verify host",
-	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "Verify peer"
+	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "Verify peer",
+	"bs-distributionconnector-pref-simplesamlphp-emailattribute": "Attribute name for \"email\"",
+	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Delimiter for a single-value \"group\" attribute",
+	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Attribute name for \"realname\"",
+	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Attribute name for \"groups\"",
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Attribute name for \"username\""
 }
