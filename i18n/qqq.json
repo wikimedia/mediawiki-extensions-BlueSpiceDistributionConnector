@@ -44,5 +44,10 @@
 	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "Subkey for \"DistributionConnectorOpenIDConnectConfig\" variable",
 	"bs-distributionconnector-pref-openidconnect-config-authparam": "Subkey for \"DistributionConnectorOpenIDConnectConfig\" variable",
 	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "Subkey for \"DistributionConnectorOpenIDConnectConfig\" variable",
-	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "Subkey for \"DistributionConnectorOpenIDConnectConfig\" variable"
+	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "Subkey for \"DistributionConnectorOpenIDConnectConfig\" variable",
+	"bs-distributionconnector-pref-simplesamlphp-emailattribute": "Label for config variable \"wgSimpleSAMLphp_EmailAttribute\"",
+	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Label for config variable \"wgSimpleSAMLphp_GroupAttributeDelimiter\"",
+	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Label for config variable \"wgSimpleSAMLphp_RealNameAttribute\"",
+	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Label for config variable \"wgSimpleSAMLphp_SyncAllGroups_GroupAttributeName\"",
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Label for config variable \"wgSimpleSAMLphp_UsernameAttribute\""
 }
