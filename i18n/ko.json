@@ -19,5 +19,6 @@
 	"bs-distributionconnector-hitcounters-sesp-alias": "히트 카운터",
 	"bs-distributionconnector-hitcounters-sesp-desc": "히트 카운터",
 	"bs-distributionconnector-collection-type-hitcounter": "문서 조회수",
-	"bs-distributionconnector-collection-var-pagetitle": "문서 제목"
+	"bs-distributionconnector-collection-var-pagetitle": "문서 제목",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "접두사 숨기기"
 }
