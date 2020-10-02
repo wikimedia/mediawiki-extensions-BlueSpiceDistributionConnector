@@ -290,7 +290,9 @@
 		],
 		"ChameleonSkinTemplateOutputPageBeforeExec": [
 			"\\BlueSpice\\DistributionConnector\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\ModifySidebar::callback"
-		]
+		],
+		"LoadExtensionSchemaUpdates": "BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\AddTemplateUserPageStandardContent::callback"
 	},
 	"manifest_version": 2
 }
+
