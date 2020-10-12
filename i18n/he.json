@@ -2,10 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"Steeve815"
+			"Steeve815",
+			"YaronSh"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "התחום שלך",
 	"bs-distributionconnector-flyout-hitcounters-text": "מספר צפיות",
-	"bs-distributionconnector-ve-categorytreeinpector-title": "עץ קטגוריות"
+	"bs-distributionconnector-ve-categorytreeinpector-title": "עץ קטגוריות",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "מצב",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "עומק",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "מרחב שם"
 }
