@@ -104,6 +104,9 @@
 			},
 			"EntityRegistry": {
 				"hitcounter": "\\BlueSpice\\DistributionConnector\\EntityConfig\\Collection\\HitCounter::factory"
+			},
+			"SettingPathRegistry": {
+				"authentication": "bs-distributionconnector-setting-path-authentication"
 			}
 		},
 		"BlueSpiceExtendedStatistics": {

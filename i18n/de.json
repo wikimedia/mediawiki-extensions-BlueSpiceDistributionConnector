@@ -26,5 +26,6 @@
 	"bs-distributionconnector-hitcounters-sesp-desc": "Bearbeitungszähler",
 	"bs-distributionconnector-collection-type-hitcounter": "Seitenaufrufe",
 	"bs-distributionconnector-collection-var-pagetitle": "Seitentitel",
-	"bs-distributionconnector-collection-var-numberhits": "Aufrufe"
+	"bs-distributionconnector-collection-var-numberhits": "Aufrufe",
+	"bs-distributionconnector-setting-path-authentication": "Authentifizierung"
 }
