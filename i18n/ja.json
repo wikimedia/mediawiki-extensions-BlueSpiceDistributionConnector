@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"A2y4",
 			"Aefgh39622"
 		]
 	},
@@ -9,6 +10,7 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "モード",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "接頭辞を非表示",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "名前空間",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS スタイルタグ",
 	"bs-distributionconnector-collection-type-hitcounter": "ページ閲覧回数",
 	"bs-distributionconnector-collection-var-pagetitle": "ページタイトル"
 }
