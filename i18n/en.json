@@ -24,5 +24,6 @@
 	"bs-distributionconnector-hitcounters-sesp-desc": "Hit Counter",
 	"bs-distributionconnector-collection-type-hitcounter": "Page views",
 	"bs-distributionconnector-collection-var-pagetitle": "Page title",
-	"bs-distributionconnector-collection-var-numberhits": "Hits"
+	"bs-distributionconnector-collection-var-numberhits": "Hits",
+	"bs-distributionconnector-setting-path-authentication": "Authentication"
 }
