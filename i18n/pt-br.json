@@ -27,5 +27,6 @@
 	"bs-distributionconnector-hitcounters-sesp-desc": "Contador de edições",
 	"bs-distributionconnector-collection-type-hitcounter": "Visualização de páginas",
 	"bs-distributionconnector-collection-var-pagetitle": "Título da página",
-	"bs-distributionconnector-collection-var-numberhits": "Visitas"
+	"bs-distributionconnector-collection-var-numberhits": "Visitas",
+	"bs-distributionconnector-setting-path-authentication": "Autenticação"
 }

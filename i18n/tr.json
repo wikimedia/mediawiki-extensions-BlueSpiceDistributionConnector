@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
 		]
 	},
 	"bs-distributionconnector-extension-description": "BlueSpice'i çeşitli MediaWiki uzantılarına bağlar",
@@ -26,5 +27,6 @@
 	"bs-distributionconnector-hitcounters-sesp-desc": "İsabet Sayacı",
 	"bs-distributionconnector-collection-type-hitcounter": "Sayfa görüntülenmesi",
 	"bs-distributionconnector-collection-var-pagetitle": "Sayfa başlığı",
-	"bs-distributionconnector-collection-var-numberhits": "İsabetler"
+	"bs-distributionconnector-collection-var-numberhits": "İsabetler",
+	"bs-distributionconnector-setting-path-authentication": "Kimlik doğrulama"
 }

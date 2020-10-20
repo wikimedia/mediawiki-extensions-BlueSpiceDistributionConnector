@@ -27,5 +27,6 @@
 	"bs-distributionconnector-hitcounters-sesp-desc": "Compteur de vues uniques",
 	"bs-distributionconnector-collection-type-hitcounter": "Pages vues",
 	"bs-distributionconnector-collection-var-pagetitle": "Titre de page",
-	"bs-distributionconnector-collection-var-numberhits": "Vues uniques"
+	"bs-distributionconnector-collection-var-numberhits": "Vues uniques",
+	"bs-distributionconnector-setting-path-authentication": "Authentification"
 }
