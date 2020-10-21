@@ -11,5 +11,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Nascondi prefisso",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Namespace",
 	"bs-distributionconnector-collection-type-hitcounter": "Visualizzazioni di pagina",
-	"bs-distributionconnector-collection-var-pagetitle": "Titolo della pagina"
+	"bs-distributionconnector-collection-var-pagetitle": "Titolo della pagina",
+	"bs-distributionconnector-setting-path-authentication": "Autenticazione"
 }
