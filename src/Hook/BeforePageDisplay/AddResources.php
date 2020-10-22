@@ -6,14 +6,21 @@ use BlueSpice\Hook\BeforePageDisplay;
 
 class AddResources extends BeforePageDisplay {
 
+	/**
+	 *
+	 * @return bool
+	 */
 	protected function doProcess() {
 		$this->out->addModules( 'ext.bluespice.distribution.styles' );
-		$userLogin = \MediaWiki\MediaWikiServices::getInstance()
-			->getSpecialPageFactory()
-			->getPage( 'UserLogin' );
+		$spFactory = $this->getServices()->getSpecialPageFactory();
+		if ( !$spFactory->exists( 'Userlogin' ) ) {
+			return true;
+		}
+		$userLogin = $spFactory->getPage( 'Userlogin' );
 		if ( $this->out->getTitle()->equals( $userLogin->getPageTitle() ) ) {
 			$this->out->addModules( 'ext.bluespice.distribution.ldap' );
 		}
+		return true;
 	}
 
 }
