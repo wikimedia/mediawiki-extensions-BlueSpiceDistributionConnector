@@ -26,5 +26,6 @@
 	"bs-distributionconnector-hitcounters-sesp-desc": "相符計數器",
 	"bs-distributionconnector-collection-type-hitcounter": "頁面檢視",
 	"bs-distributionconnector-collection-var-pagetitle": "頁面標題",
-	"bs-distributionconnector-collection-var-numberhits": "相符"
+	"bs-distributionconnector-collection-var-numberhits": "相符",
+	"bs-distributionconnector-setting-path-authentication": "認證"
 }

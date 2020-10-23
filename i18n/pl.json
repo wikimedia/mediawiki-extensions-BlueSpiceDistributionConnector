@@ -9,5 +9,8 @@
 	"bs-distributionconnector-ve-categorytreeinpector-title": "Drzewo kategorii",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Ukryj przedrostek",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Przestrzeń nazw",
-	"bs-distributionconnector-collection-var-pagetitle": "Tytuł strony"
+	"bs-distributionconnector-collection-var-pagetitle": "Tytuł strony",
+	"bs-distributionconnector-pref-openidconnect-config-clientsecret": "Sekret klienta",
+	"bs-distributionconnector-pref-openidconnect-config-icon": "URL ikony",
+	"bs-distributionconnector-pref-openidconnect-config-scope": "Zakres"
 }
