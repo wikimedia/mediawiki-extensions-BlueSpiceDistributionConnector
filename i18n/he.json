@@ -11,5 +11,15 @@
 	"bs-distributionconnector-ve-categorytreeinpector-title": "עץ קטגוריות",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "מצב",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "עומק",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "מרחב שם"
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "מרחב שם",
+	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "להשתמש בשם האמתי כשם המשתמש",
+	"bs-distributionconnector-pref-openidconnect-useemailasusername": "להשתמש בכתובת הדוא״ל כשם משתמש",
+	"bs-distributionconnector-pref-openidconnect-forcelogout": "אילוץ יציאה",
+	"bs-distributionconnector-pref-openidconnect-config-key": "כתובת המנפיק",
+	"bs-distributionconnector-pref-openidconnect-config-clientid": "מזהה לקוח",
+	"bs-distributionconnector-pref-openidconnect-config-icon": "כתובת סמל",
+	"bs-distributionconnector-pref-openidconnect-config-proxy": "כתובת מתווך",
+	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "שם משתמש מועדף",
+	"bs-distributionconnector-pref-openidconnect-config-authparam": "משתני אימות (JSON)",
+	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "אימות מארח"
 }

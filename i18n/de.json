@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Laurinm",
 			"Mglaser"
 		]
 	},
@@ -27,5 +28,13 @@
 	"bs-distributionconnector-collection-type-hitcounter": "Seitenaufrufe",
 	"bs-distributionconnector-collection-var-pagetitle": "Seitentitel",
 	"bs-distributionconnector-collection-var-numberhits": "Aufrufe",
-	"bs-distributionconnector-setting-path-authentication": "Authentifizierung"
+	"bs-distributionconnector-setting-path-authentication": "Authentifizierung",
+	"bs-distributionconnector-pref-openidconnect-config": "Anbieter",
+	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Nutze Klarname als Nutzername",
+	"bs-distributionconnector-pref-openidconnect-useemailasusername": "Nutze Mailadresse als Nutzername",
+	"bs-distributionconnector-pref-openidconnect-forcelogout": "Abmeldung erzwingen",
+	"bs-distributionconnector-pref-openidconnect-config-clientid": "Client ID",
+	"bs-distributionconnector-pref-openidconnect-config-name": "Anzeigename",
+	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "Bevorzugter Nutzername",
+	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "Verifiziere Host"
 }

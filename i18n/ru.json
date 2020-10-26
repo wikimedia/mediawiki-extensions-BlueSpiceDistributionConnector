@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Megakott",
 			"PlushBoy"
 		]
 	},
@@ -11,5 +12,27 @@
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Глубина",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Пространство имён",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Тег CSS",
-	"bs-distributionconnector-collection-var-pagetitle": "Заголовок страницы"
+	"bs-distributionconnector-collection-var-pagetitle": "Заголовок страницы",
+	"bs-distributionconnector-pref-openidconnect-config": "Провайдер",
+	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Использовать настоящее имя в качестве имени участника",
+	"bs-distributionconnector-pref-openidconnect-useemailasusername": "Использовать адрес электронной почты в качестве имени участника",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyusername": "Перенос пользователей по имени участника",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "Перенос пользователей по адресу электронной почты",
+	"bs-distributionconnector-pref-openidconnect-forcelogout": "Принудительный выход",
+	"bs-distributionconnector-pref-openidconnect-config-key": "URL эмитента",
+	"bs-distributionconnector-pref-openidconnect-config-clientid": "ID клиента",
+	"bs-distributionconnector-pref-openidconnect-config-clientsecret": "Секрет клиента",
+	"bs-distributionconnector-pref-openidconnect-config-name": "Отображаемое имя",
+	"bs-distributionconnector-pref-openidconnect-config-icon": "URL значка",
+	"bs-distributionconnector-pref-openidconnect-config-proxy": "URL прокси",
+	"bs-distributionconnector-pref-openidconnect-config-scope": "Сфера",
+	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "Предпочтительное имя участника",
+	"bs-distributionconnector-pref-openidconnect-config-authparam": "Параметры аутентификации (JSON)",
+	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "Проверить узел",
+	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "Проверить пир",
+	"bs-distributionconnector-pref-simplesamlphp-emailattribute": "Имя атрибута для \"email\"",
+	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Разделитель для однозначного атрибута \"group\"",
+	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Имя атрибута для \"realname\"",
+	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Имя атрибута для \"groups\"",
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Имя атрибута для \"username\""
 }
