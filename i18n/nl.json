@@ -1,12 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mainframe98"
+			"Aranka",
+			"Mainframe98",
+			"Optilete"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "Uw domein",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Modus",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Voorvoegsel verbergen",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Naamruimte",
-	"bs-distributionconnector-collection-var-pagetitle": "Paginanaam"
+	"bs-distributionconnector-collection-var-pagetitle": "Paginanaam",
+	"bs-distributionconnector-pref-openidconnect-config-icon": "Icon URL",
+	"bs-distributionconnector-pref-openidconnect-config-scope": "Bereik"
 }
