@@ -4,7 +4,7 @@ namespace BlueSpice\DistributionConnector\Data\Page\HitCounter;
 
 use BlueSpice\Data\Page\PrimaryDataProvider as PageDataProvider;
 use BlueSpice\Data\ReaderParams;
-use Hooks;
+use MediaWiki\MediaWikiServices;
 use Title;
 
 class PrimaryDataProvider extends PageDataProvider {
@@ -42,11 +42,14 @@ class PrimaryDataProvider extends PageDataProvider {
 			$data[ $key ] = $row->{$key};
 		}
 		$record = new Record( (object)$data );
-		Hooks::run( 'BSPageStoreDataProviderBeforeAppendRow', [
-			$this,
-			$record,
-			$title,
-		] );
+		MediaWikiServices::getInstance()->getHookContainer()->run(
+			'BSPageStoreDataProviderBeforeAppendRow',
+			[
+				$this,
+				$record,
+				$title,
+			]
+		);
 		if ( !$record ) {
 			return;
 		}
