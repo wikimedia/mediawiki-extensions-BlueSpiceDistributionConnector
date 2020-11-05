@@ -10,5 +10,7 @@
 	"bs-distributionconnector-flyout-hitcounters-text": "Antal visninger",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Dybde",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Tilstand",
-	"bs-distributionconnector-collection-type-hitcounter": "Sidevisninger"
+	"bs-distributionconnector-collection-type-hitcounter": "Sidevisninger",
+	"bs-distributionconnector-pref-openidconnect-config": "Udbyder",
+	"bs-distributionconnector-pref-openidconnect-config-clientid": "Klient-ID"
 }

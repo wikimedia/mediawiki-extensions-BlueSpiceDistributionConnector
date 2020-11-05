@@ -26,5 +26,16 @@
 	"bs-distributionconnector-hitcounters-sesp-desc": "相符計數器",
 	"bs-distributionconnector-collection-type-hitcounter": "頁面檢視",
 	"bs-distributionconnector-collection-var-pagetitle": "頁面標題",
-	"bs-distributionconnector-collection-var-numberhits": "相符"
+	"bs-distributionconnector-collection-var-numberhits": "相符",
+	"bs-distributionconnector-setting-path-authentication": "認證",
+	"bs-distributionconnector-pref-openidconnect-config": "提供者",
+	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "採用真實名稱作為使用者名稱",
+	"bs-distributionconnector-pref-openidconnect-useemailasusername": "採用電子郵件位址作為使用者名稱",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyusername": "透過使用者名稱遷移使用者",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "透過電子郵件遷移使用者",
+	"bs-distributionconnector-pref-openidconnect-forcelogout": "強制登出",
+	"bs-distributionconnector-pref-openidconnect-config-clientid": "客戶端 ID",
+	"bs-distributionconnector-pref-openidconnect-config-name": "顯示名稱",
+	"bs-distributionconnector-pref-openidconnect-config-proxy": "代理 URL",
+	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "驗證主機"
 }
