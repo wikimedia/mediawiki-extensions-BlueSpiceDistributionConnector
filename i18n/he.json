@@ -3,7 +3,8 @@
 		"authors": [
 			"Amire80",
 			"Steeve815",
-			"YaronSh"
+			"YaronSh",
+			"ישראל קלר"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "התחום שלך",
@@ -12,6 +13,8 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "מצב",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "עומק",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "מרחב שם",
+	"bs-distributionconnector-collection-var-numberhits": "מופיעות",
+	"bs-distributionconnector-setting-path-authentication": "אימות",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "להשתמש בשם האמתי כשם המשתמש",
 	"bs-distributionconnector-pref-openidconnect-useemailasusername": "להשתמש בכתובת הדוא״ל כשם משתמש",
 	"bs-distributionconnector-pref-openidconnect-forcelogout": "אילוץ יציאה",
