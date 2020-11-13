@@ -106,7 +106,7 @@ class Config extends ArraySetting implements ISettingPaths, IOverwriteGlobal {
 					)->text(),
 				],
 				'scope' => [
-					'type' => KeyObjectInputWidget::TYPE_TEXT,
+					'type' => KeyObjectInputWidget::TYPE_JSON,
 					'widget' => [
 						'required' => false
 					],
