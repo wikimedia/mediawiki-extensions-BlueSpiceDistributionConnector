@@ -3,7 +3,8 @@
 		"authors": [
 			"Beta16",
 			"Dansita",
-			"Gianfranco"
+			"Gianfranco",
+			"TheRukk"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Connette BlueSpice a diverse estensioni MediaWiki",
@@ -27,8 +28,10 @@
 	"bs-distributionconnector-pref-openidconnect-config": "Provider",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Usa il nome vero come nome utente",
 	"bs-distributionconnector-pref-openidconnect-useemailasusername": "Usa l'indirizzo email come nome utente",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "Migra gli utenti via email",
 	"bs-distributionconnector-pref-openidconnect-forcelogout": "Forza disconnessione",
 	"bs-distributionconnector-pref-openidconnect-config-clientid": "ID cliente",
+	"bs-distributionconnector-pref-openidconnect-config-clientsecret": "Segreto del client",
 	"bs-distributionconnector-pref-openidconnect-config-name": "Mostra nome",
 	"bs-distributionconnector-pref-openidconnect-config-icon": "URL icona",
 	"bs-distributionconnector-pref-openidconnect-config-proxy": "URL proxy",
@@ -36,5 +39,9 @@
 	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "Nome utente preferito",
 	"bs-distributionconnector-pref-openidconnect-config-authparam": "Parametri di autenticazione (JSON)",
 	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "Verifica host",
-	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "Verifica peer"
+	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "Verifica peer",
+	"bs-distributionconnector-pref-simplesamlphp-emailattribute": "Nome dell'attributo per \"email\"",
+	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Nome dell'attributo per \"realname\"",
+	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Nome dell'attributo per \"gruppi\"",
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Nome dell'attributo per \"username\""
 }
