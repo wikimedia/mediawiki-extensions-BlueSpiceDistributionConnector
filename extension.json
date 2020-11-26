@@ -216,7 +216,10 @@
 		],
 		"SkinTemplateOutputPageBeforeExec": [
 			"\\BlueSpice\\DistributionConnector\\Hook\\SkinTemplateOutputPageBeforeExec\\ModifySidebar::callback"
-		]
+		],
+		"WikiExplorer::getFieldDefinitions": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onGetFieldDefinitions",
+		"WikiExplorer::getColumnDefinitions": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onGetColumnDefinitions",
+		"WikiExplorer::buildDataSets": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onBuildDataSets"
 	},
 	"manifest_version": 2
 }
