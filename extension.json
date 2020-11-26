@@ -291,7 +291,10 @@
 		"ChameleonSkinTemplateOutputPageBeforeExec": [
 			"\\BlueSpice\\DistributionConnector\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\ModifySidebar::callback"
 		],
-		"LoadExtensionSchemaUpdates": "BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\AddTemplateUserPageStandardContent::callback"
+		"LoadExtensionSchemaUpdates": "BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\AddTemplateUserPageStandardContent::callback",
+		"WikiExplorer::getFieldDefinitions": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onGetFieldDefinitions",
+		"WikiExplorer::getColumnDefinitions": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onGetColumnDefinitions",
+		"WikiExplorer::buildDataSets": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onBuildDataSets"
 	},
 	"manifest_version": 2
 }

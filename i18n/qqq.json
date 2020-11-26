@@ -49,5 +49,6 @@
 	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Label for config variable \"wgSimpleSAMLphp_GroupAttributeDelimiter\"",
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Label for config variable \"wgSimpleSAMLphp_RealNameAttribute\"",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Label for config variable \"wgSimpleSAMLphp_SyncAllGroups_GroupAttributeName\"",
-	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Label for config variable \"wgSimpleSAMLphp_UsernameAttribute\""
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Label for config variable \"wgSimpleSAMLphp_UsernameAttribute\"",
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Header for \"Page hits\" column in BSWikiExplorer grid"
 }
