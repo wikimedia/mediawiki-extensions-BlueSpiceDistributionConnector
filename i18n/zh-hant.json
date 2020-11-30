@@ -36,6 +36,14 @@
 	"bs-distributionconnector-pref-openidconnect-forcelogout": "強制登出",
 	"bs-distributionconnector-pref-openidconnect-config-clientid": "客戶端 ID",
 	"bs-distributionconnector-pref-openidconnect-config-name": "顯示名稱",
+	"bs-distributionconnector-pref-openidconnect-config-icon": "圖標 URL",
 	"bs-distributionconnector-pref-openidconnect-config-proxy": "代理 URL",
-	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "驗證主機"
+	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "首選使用者名稱",
+	"bs-distributionconnector-pref-openidconnect-config-authparam": "驗證參數（JSON）",
+	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "驗證主機",
+	"bs-distributionconnector-pref-simplesamlphp-emailattribute": "用於「email」屬性名稱",
+	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "用於「realname」屬性名稱",
+	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "用於「groups」屬性名稱",
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "用於「username」屬性名稱",
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "頁面點擊數"
 }
