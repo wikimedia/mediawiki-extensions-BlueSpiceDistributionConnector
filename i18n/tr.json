@@ -50,5 +50,6 @@
 	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Tek değerli \"group\" özelliği için sınırlayıcı",
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "\"realname\" için öznitelik adı",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "\"groups\" için öznitelik adı",
-	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "\"username\" için öznitelik adı"
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "\"username\" için öznitelik adı",
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Sayfa sayıları"
 }

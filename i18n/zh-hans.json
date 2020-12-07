@@ -4,6 +4,7 @@
 			"500000000006城",
 			"A Chinese Wikipedian",
 			"Dimension",
+			"Func",
 			"VulpesVulpes825",
 			"列维劳德",
 			"沈澄心",
@@ -26,5 +27,13 @@
 	"bs-distributionconnector-collection-var-numberhits": "命中",
 	"bs-distributionconnector-ve-categorytreeinpector-title": "分类树",
 	"bs-distributionconnector-ve-categorytree-title": "分类树",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS样式标签"
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS样式标签",
+	"bs-distributionconnector-pref-openidconnect-config": "提供者",
+	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "使用真实姓名作为用户名",
+	"bs-distributionconnector-pref-openidconnect-useemailasusername": "使用邮箱地址作为用户名",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyusername": "按用户名迁移用户",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "按电子邮箱迁移用户",
+	"bs-distributionconnector-pref-openidconnect-forcelogout": "强制退出账号",
+	"bs-distributionconnector-pref-openidconnect-config-icon": "图标链接",
+	"bs-distributionconnector-pref-openidconnect-config-proxy": "代理链接"
 }

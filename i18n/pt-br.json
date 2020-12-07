@@ -50,5 +50,6 @@
 	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Delimitador para um atributo de \"group\" de valor único",
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Nome do atributo para \"realname\"",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Nome do atributo para \"groups\"",
-	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Nome do atributo para \"username\""
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Nome do atributo para \"username\"",
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Acessos de página"
 }

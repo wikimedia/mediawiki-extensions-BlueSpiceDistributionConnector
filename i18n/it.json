@@ -3,7 +3,8 @@
 		"authors": [
 			"Beta16",
 			"Dansita",
-			"Gianfranco"
+			"Gianfranco",
+			"TheRukk"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "Il tuo dominio",
@@ -36,5 +37,11 @@
 	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "Nome utente preferito",
 	"bs-distributionconnector-pref-openidconnect-config-authparam": "Parametri di autenticazione (JSON)",
 	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "Verifica host",
-	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "Verifica peer"
+	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "Verifica peer",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "Migra gli utenti via email",
+	"bs-distributionconnector-pref-openidconnect-config-clientsecret": "Segreto del client",
+	"bs-distributionconnector-pref-simplesamlphp-emailattribute": "Nome dell'attributo per \"email\"",
+	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Nome dell'attributo per \"realname\"",
+	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Nome dell'attributo per \"gruppi\"",
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Nome dell'attributo per \"username\""
 }

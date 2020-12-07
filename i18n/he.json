@@ -3,7 +3,8 @@
 		"authors": [
 			"Amire80",
 			"Steeve815",
-			"YaronSh"
+			"YaronSh",
+			"ישראל קלר"
 		]
 	},
 	"bs-distributionconnector-flyout-hitcounters-text": "מספר צפיות",
@@ -21,5 +22,7 @@
 	"bs-distributionconnector-pref-openidconnect-config-proxy": "כתובת מתווך",
 	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "שם משתמש מועדף",
 	"bs-distributionconnector-pref-openidconnect-config-authparam": "משתני אימות (JSON)",
-	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "אימות מארח"
+	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "אימות מארח",
+	"bs-distributionconnector-collection-var-numberhits": "מופיעות",
+	"bs-distributionconnector-setting-path-authentication": "אימות"
 }

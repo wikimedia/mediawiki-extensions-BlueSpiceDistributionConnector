@@ -51,5 +51,6 @@
 	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Délimiteur pour un attribut « groupe » à valeur unique",
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Nom d'attribut pour « e-mail »",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Nom d'attribut pour « groupes »",
-	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Nom d'attribut pour « nom d'utilisateur »"
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Nom d'attribut pour « nom d'utilisateur »",
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Visites de page"
 }
