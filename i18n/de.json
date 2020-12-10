@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Laurinm",
-			"Mglaser"
+			"Mglaser",
+			"Pittigrilli"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Verbindet BlueSpice mit verschiedenen MediaWiki-Erweiterungen",
@@ -50,5 +51,6 @@
 	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Trennzeichen für einen Einzelwert des \"group\"-Attributs",
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Attributname für \"realname\"",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Attributname für \"groups\"",
-	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Attributname für \"username\""
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Attributname für \"username\"",
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Seitenaufrufe"
 }
