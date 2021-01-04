@@ -28,6 +28,7 @@
 	"bs-distributionconnector-pref-openidconnect-migrateusersbyusername": "사용자 이름별로 사용자 이관",
 	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "이메일별로 사용자 이관",
 	"bs-distributionconnector-pref-openidconnect-forcelogout": "강제 로그아웃",
+	"bs-distributionconnector-pref-openidconnect-config-key": "발행자 URL",
 	"bs-distributionconnector-pref-openidconnect-config-clientid": "클라이언트 ID",
 	"bs-distributionconnector-pref-openidconnect-config-name": "표시 이름",
 	"bs-distributionconnector-pref-openidconnect-config-icon": "아이콘 URL",
@@ -35,9 +36,12 @@
 	"bs-distributionconnector-pref-openidconnect-config-scope": "범위",
 	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "선호하는 사용자 이름",
 	"bs-distributionconnector-pref-openidconnect-config-authparam": "인증 변수 (JSON)",
+	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "호스트 확인",
+	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "피어 확인",
 	"bs-distributionconnector-pref-simplesamlphp-emailattribute": "\"email\" 속성 이름",
 	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "단일 값 \"group\" 속성 구분자",
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "\"realname\" 속성 이름",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "\"groups\" 속성 이름",
-	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "\"username\" 속성 이름"
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "\"username\" 속성 이름",
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "페이지 조회수"
 }
