@@ -49,5 +49,6 @@
 	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Avgrenser for «gruppe»-attributtet",
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Attributtnavn for «realname»",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Attributtnavn for «groups»",
-	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Attributtnavn for «username»"
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Attributtnavn for «username»",
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Sidetreff"
 }
