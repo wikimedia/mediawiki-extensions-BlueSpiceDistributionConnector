@@ -284,7 +284,6 @@
 			"\\BlueSpice\\DistributionConnector\\Hook\\BSInsertMagicAjaxGetData\\CategoryTree::callback",
 			"\\BlueSpice\\DistributionConnector\\Hook\\BSInsertMagicAjaxGetData\\Ref::callback",
 			"\\BlueSpice\\DistributionConnector\\Hook\\BSInsertMagicAjaxGetData\\References::callback",
-			"\\BlueSpice\\DistributionConnector\\Hook\\BSInsertMagicAjaxGetData\\Quiz::callback",
 			"\\BlueSpice\\DistributionConnector\\Hook\\BSInsertMagicAjaxGetData\\EmbedVideo::callback",
 			"\\BlueSpice\\DistributionConnector\\Hook\\BSInsertMagicAjaxGetData\\DynamicPageList::callback"
 		],

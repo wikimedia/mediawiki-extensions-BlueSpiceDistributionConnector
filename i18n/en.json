@@ -7,7 +7,6 @@
 	"bs-distributionconnector-tag-categorytree-desc": "Displays a dynamic tree structure on the category system in the wiki. Between the tags the root category has to be indicated.",
 	"bs-distributionconnector-tag-ref-desc": "Marks the text between the tags as footnote.",
 	"bs-distributionconnector-tag-references-desc": "Displays the list of footnotes which were inserted into the articles.",
-	"bs-distributionconnector-tag-quiz-desc": "Adds simple quiz questions to an article.",
 	"bs-distributionconnector-tag-embedvideo-desc": "Embeds video clips from popular sharing platforms.",
 	"bs-distributionconnector-tag-dynamicpagelist-desc": "Generates a dynamic list of articles based on various parameters.",
 	"bs-distributionconnector-flyout-hitcounters-text": "Number of views",
