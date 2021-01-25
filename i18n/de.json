@@ -11,7 +11,6 @@
 	"bs-distributionconnector-tag-categorytree-desc": "Stellt eine dynamische Baumansicht für die Kategorien im Wiki bereit. In der Mitte steht die jeweilige Kategorie, von der ausgegangen werden soll.",
 	"bs-distributionconnector-tag-ref-desc": "Markiert den Text zwischen dem 'ref' Tag als Fußnote.",
 	"bs-distributionconnector-tag-references-desc": "Zeigt den Text aller durch 'ref' Tags markierten Stellen bis zu diesem Punkt der Seite an.",
-	"bs-distributionconnector-tag-quiz-desc": "Fügt einem Artikel einfache quizartige Fragen inklusive vorgegebener Auswertung hinzu.",
 	"bs-distributionconnector-tag-embedvideo-desc": "Bettet Video-Clips von populären Video-Sharing-Diensten ein.",
 	"bs-distributionconnector-tag-dynamicpagelist-desc": "Erzeugt eine dynamische Liste von Seiten basierend auf verschiedenen Parametern.",
 	"bs-distributionconnector-flyout-hitcounters-text": "Anzahl der Aufrufe",

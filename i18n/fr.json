@@ -11,7 +11,6 @@
 	"bs-distributionconnector-tag-categorytree-desc": "Affiche une structure dynamique en arbre du système de catégories dans le wiki. La catégorie racine doit être indiquée entre les deux balises.",
 	"bs-distributionconnector-tag-ref-desc": "Marque le texte entre les balises comme une note de bas de page.",
 	"bs-distributionconnector-tag-references-desc": "Affiche la liste des notes de bas de pages qui ont été insérées dans les articles.",
-	"bs-distributionconnector-tag-quiz-desc": "Ajoute des questions simples de quiz à un article.",
 	"bs-distributionconnector-tag-embedvideo-desc": "Encapsule des clips vidéos hébergés sur des plateformes de partages populaires.",
 	"bs-distributionconnector-tag-dynamicpagelist-desc": "Génère une liste dynamique d’articles selon divers paramètres.",
 	"bs-distributionconnector-flyout-hitcounters-text": "Nombre de vues",

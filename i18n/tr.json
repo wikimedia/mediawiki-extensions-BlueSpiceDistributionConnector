@@ -10,7 +10,6 @@
 	"bs-distributionconnector-tag-categorytree-desc": "Vikideki kategori sisteminde dinamik bir ağaç yapısı görüntüler. Etiketler arasında kök kategorisi belirtilmelidir.",
 	"bs-distributionconnector-tag-ref-desc": "Etiketler arasındaki metni dipnot olarak işaretler.",
 	"bs-distributionconnector-tag-references-desc": "Maddelere eklenen dipnotların listesini görüntüler.",
-	"bs-distributionconnector-tag-quiz-desc": "Bir maddeye basit sınav soruları ekler.",
 	"bs-distributionconnector-tag-embedvideo-desc": "Popüler paylaşım platformlarından video klipler gömer.",
 	"bs-distributionconnector-tag-dynamicpagelist-desc": "Çeşitli parametrelere dayalı dinamik bir madde listesi oluşturur.",
 	"bs-distributionconnector-flyout-hitcounters-text": "Görüntülenme sayısı",

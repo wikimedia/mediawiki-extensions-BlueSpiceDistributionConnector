@@ -10,7 +10,6 @@
 	"bs-distributionconnector-tag-categorytree-desc": "Exibe uma estrutura de árvore dinâmica no sistema de categorias na wiki. Entre as tags, a categoria raiz deve ser indicada.",
 	"bs-distributionconnector-tag-ref-desc": "Marca o texto entre as etiquetas como nota de rodapé.",
 	"bs-distributionconnector-tag-references-desc": "Exibe a lista de notas de rodapé que foram inseridas nos artigos.",
-	"bs-distributionconnector-tag-quiz-desc": "Adiciona perguntas simples a um artigo.",
 	"bs-distributionconnector-tag-embedvideo-desc": "Incorpora videoclipes de plataformas populares de compartilhamento.",
 	"bs-distributionconnector-tag-dynamicpagelist-desc": "Gera uma lista dinâmica de artigos com base em vários parâmetros.",
 	"bs-distributionconnector-flyout-hitcounters-text": "Número de visualizações",

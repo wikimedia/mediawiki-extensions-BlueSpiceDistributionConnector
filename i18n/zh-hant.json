@@ -9,7 +9,6 @@
 	"bs-distributionconnector-tag-categorytree-desc": "在 wiki 的分類系統顯示動態樹狀架構。標籤之間需指示出根分類。",
 	"bs-distributionconnector-tag-ref-desc": "標記腳註標籤之間的文字。",
 	"bs-distributionconnector-tag-references-desc": "顯示插入在條目的腳註清單。",
-	"bs-distributionconnector-tag-quiz-desc": "添加簡易測驗到條目裡。",
 	"bs-distributionconnector-tag-embedvideo-desc": "從熱門分享平台來內嵌影片段落",
 	"bs-distributionconnector-tag-dynamicpagelist-desc": "基於各項參數產生動態條目清單。",
 	"bs-distributionconnector-flyout-hitcounters-text": "檢視次數",

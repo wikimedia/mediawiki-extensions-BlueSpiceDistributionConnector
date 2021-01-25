@@ -10,7 +10,6 @@
 	"bs-distributionconnector-tag-categorytree-desc": "Показує динамічну деревоподібну структуру в системі категорій у вікі. Між тегами слід зазначити корінну категорію.",
 	"bs-distributionconnector-tag-ref-desc": "Позначає текст між тегами як виноску.",
 	"bs-distributionconnector-tag-references-desc": "Показує список виносок, які було вставлено в статті.",
-	"bs-distributionconnector-tag-quiz-desc": "Додає прості запитання з опитування до статті.",
 	"bs-distributionconnector-tag-embedvideo-desc": "Вбудовує відеокліпи з популярних платформ обміну.",
 	"bs-distributionconnector-tag-dynamicpagelist-desc": "Генерує динамічний список статей на основі різних параметрів.",
 	"bs-distributionconnector-flyout-hitcounters-text": "Кількість переглядів",
