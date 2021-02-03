@@ -1,12 +1,39 @@
 {
 	"@metadata": {
 		"authors": [
+			"500000000006城",
+			"A Chinese Wikipedian",
+			"Dimension",
+			"Func",
+			"VulpesVulpes825",
+			"列维劳德",
 			"沈澄心",
-			"Dimension"
+			"铁桶"
 		]
 	},
-	"bs-distributionconnector-flyout-hitcounters-text": "浏览量",
+	"bs-distributionconnector-flyout-hitcounters-text": "查看次数",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "模式",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "深度",
-	"bs-distributionconnector-collection-var-pagetitle": "页面标题"
+	"bs-distributionconnector-collection-var-pagetitle": "页面标题",
+	"bs-distributionconnector-yourdomainname": "您的域名",
+	"bs-distributionconnector-tag-embedvideo-desc": "包括来自热门共享平台的视频剪辑。",
+	"bs-distributionconnector-tag-dynamicpagelist-desc": "基于各种参数生成动态文章列表。",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "分类树",
+	"bs-distributionconnector-ve-categorytree-title": "分类树",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "展示数",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "隐藏前缀",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "名字空间",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS样式标签",
+	"bs-distributionconnector-hitcounters-sesp-alias": "命中计数器",
+	"bs-distributionconnector-hitcounters-sesp-desc": "命中计数器",
+	"bs-distributionconnector-collection-type-hitcounter": "页面查看次数",
+	"bs-distributionconnector-collection-var-numberhits": "命中",
+	"bs-distributionconnector-pref-openidconnect-config": "提供者",
+	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "使用真实姓名作为用户名",
+	"bs-distributionconnector-pref-openidconnect-useemailasusername": "使用邮箱地址作为用户名",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyusername": "按用户名迁移用户",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "按电子邮箱迁移用户",
+	"bs-distributionconnector-pref-openidconnect-forcelogout": "强制退出账号",
+	"bs-distributionconnector-pref-openidconnect-config-icon": "图标链接",
+	"bs-distributionconnector-pref-openidconnect-config-proxy": "代理链接"
 }

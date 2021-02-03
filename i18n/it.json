@@ -2,7 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"Dansita"
+			"Dansita",
+			"Gianfranco",
+			"TheRukk"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "Il tuo dominio",
@@ -11,5 +13,35 @@
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Namespace",
 	"bs-distributionconnector-collection-var-pagetitle": "Titolo della pagina",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Modalità",
-	"bs-distributionconnector-collection-type-hitcounter": "Visualizzazioni di pagina"
+	"bs-distributionconnector-collection-type-hitcounter": "Visualizzazioni di pagina",
+	"bs-distributionconnector-extension-description": "Connette BlueSpice a diverse estensioni MediaWiki",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "AlberoDelleCategorie",
+	"bs-distributionconnector-ve-categorytree-title": "AlberoDelleCategorie",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Profondità",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Nascondi radice",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Mostra conteggio",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Etichetta di stile CSS",
+	"bs-distributionconnector-hitcounters-sesp-alias": "Contatore viste uniche",
+	"bs-distributionconnector-hitcounters-sesp-desc": "Contatore viste uniche",
+	"bs-distributionconnector-collection-var-numberhits": "Viste uniche",
+	"bs-distributionconnector-setting-path-authentication": "Autenticazione",
+	"bs-distributionconnector-pref-openidconnect-config": "Provider",
+	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Usa il nome vero come nome utente",
+	"bs-distributionconnector-pref-openidconnect-useemailasusername": "Usa l'indirizzo email come nome utente",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "Migra gli utenti via email",
+	"bs-distributionconnector-pref-openidconnect-forcelogout": "Forza disconnessione",
+	"bs-distributionconnector-pref-openidconnect-config-clientid": "ID cliente",
+	"bs-distributionconnector-pref-openidconnect-config-clientsecret": "Segreto del client",
+	"bs-distributionconnector-pref-openidconnect-config-name": "Mostra nome",
+	"bs-distributionconnector-pref-openidconnect-config-icon": "URL icona",
+	"bs-distributionconnector-pref-openidconnect-config-proxy": "URL proxy",
+	"bs-distributionconnector-pref-openidconnect-config-scope": "Scopo",
+	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "Nome utente preferito",
+	"bs-distributionconnector-pref-openidconnect-config-authparam": "Parametri di autenticazione (JSON)",
+	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "Verifica host",
+	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "Verifica peer",
+	"bs-distributionconnector-pref-simplesamlphp-emailattribute": "Nome dell'attributo per \"email\"",
+	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Nome dell'attributo per \"realname\"",
+	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Nome dell'attributo per \"gruppi\"",
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Nome dell'attributo per \"username\""
 }

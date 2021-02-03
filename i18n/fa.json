@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajam",
+			"FarsiNevis",
+			"Jeeputer"
+		]
+	},
+	"bs-distributionconnector-yourdomainname": "دامنهٔ شما",
+	"bs-distributionconnector-flyout-hitcounters-text": "شمار بازدیدها",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "حالت",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "عمق",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "پنهان‌سازی ریشه",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "نمایش تعداد",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "نهفتن پیشوند",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "فضای نام",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "برچسب استایل سی‌اس‌اس",
+	"bs-distributionconnector-hitcounters-sesp-alias": "شمارندهٔ فشردن",
+	"bs-distributionconnector-hitcounters-sesp-desc": "شمارندهٔ فشردن",
+	"bs-distributionconnector-collection-type-hitcounter": "بازدیدهای صفحه",
+	"bs-distributionconnector-collection-var-pagetitle": "عنوان صفحه",
+	"bs-distributionconnector-collection-var-numberhits": "برخوردها",
+	"bs-distributionconnector-pref-openidconnect-config": "ارائه‌دهنده",
+	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "استفاده از نام واقعی به‌عنوان نام کاربری",
+	"bs-distributionconnector-pref-openidconnect-useemailasusername": "استفاده از نشانی ایمیل به‌عنوان نام کاربری",
+	"bs-distributionconnector-pref-openidconnect-config-icon": "نشانی آیکون",
+	"bs-distributionconnector-pref-openidconnect-config-proxy": "نشانی پروکسی"
+}

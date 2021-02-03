@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eduardo Addad de Oliveira",
-			"Dianakc"
+			"Dianakc",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Conecta o BlueSpice a várias extensões do MediaWiki",
@@ -27,5 +27,29 @@
 	"bs-distributionconnector-collection-var-pagetitle": "Título da página",
 	"bs-distributionconnector-hitcounters-sesp-alias": "Contador de edições",
 	"bs-distributionconnector-hitcounters-sesp-desc": "Contador de edições",
-	"bs-distributionconnector-collection-var-numberhits": "Visitas"
+	"bs-distributionconnector-collection-var-numberhits": "Visitas",
+	"bs-distributionconnector-setting-path-authentication": "Autenticação",
+	"bs-distributionconnector-pref-openidconnect-config": "Fornecedor",
+	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Use o nome real como nome de usuário",
+	"bs-distributionconnector-pref-openidconnect-useemailasusername": "Use o nome real como nome de usuário",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyusername": "Migrar usuários por nome de usuário",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "Migrar usuários por e-mail",
+	"bs-distributionconnector-pref-openidconnect-forcelogout": "Forçar sair",
+	"bs-distributionconnector-pref-openidconnect-config-key": "URL do problema",
+	"bs-distributionconnector-pref-openidconnect-config-clientid": "ID do cliente",
+	"bs-distributionconnector-pref-openidconnect-config-clientsecret": "Segredo do cliente",
+	"bs-distributionconnector-pref-openidconnect-config-name": "Nome de exibição",
+	"bs-distributionconnector-pref-openidconnect-config-icon": "URL do ícone",
+	"bs-distributionconnector-pref-openidconnect-config-proxy": "URL de proxy",
+	"bs-distributionconnector-pref-openidconnect-config-scope": "Alcance",
+	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "Nome de usuário preferido",
+	"bs-distributionconnector-pref-openidconnect-config-authparam": "Parâmetros de autenticação (JSON)",
+	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "Verificar host",
+	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "Verificar par",
+	"bs-distributionconnector-pref-simplesamlphp-emailattribute": "Nome do atributo para \"email\"",
+	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Delimitador para um atributo de \"group\" de valor único",
+	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Nome do atributo para \"realname\"",
+	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Nome do atributo para \"groups\"",
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Nome do atributo para \"username\"",
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Acessos de página"
 }

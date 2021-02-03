@@ -6,5 +6,11 @@
 	},
 	"bs-distributionconnector-yourdomainname": "Dit domæne",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Navnerum",
-	"bs-distributionconnector-collection-var-pagetitle": "Sidetitel"
+	"bs-distributionconnector-collection-var-pagetitle": "Sidetitel",
+	"bs-distributionconnector-flyout-hitcounters-text": "Antal visninger",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Tilstand",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Dybde",
+	"bs-distributionconnector-collection-type-hitcounter": "Sidevisninger",
+	"bs-distributionconnector-pref-openidconnect-config": "Udbyder",
+	"bs-distributionconnector-pref-openidconnect-config-clientid": "Klient-ID"
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Agusbou2015",
 			"Fitoschido",
 			"Joanmp17"
 		]
@@ -14,5 +15,26 @@
 	"bs-distributionconnector-collection-var-pagetitle": "Título de página",
 	"bs-distributionconnector-yourdomainname": "Tu dominio",
 	"bs-distributionconnector-flyout-hitcounters-text": "Número de vistas",
-	"bs-distributionconnector-collection-type-hitcounter": "Vistas de página"
+	"bs-distributionconnector-collection-type-hitcounter": "Vistas de página",
+	"bs-distributionconnector-extension-description": "Conecta BlueSpice con varias extensiones para MediaWiki",
+	"bs-distributionconnector-tag-categorytree-desc": "Muestra una estructura de árbol dinámico en el sistema de categorías del wiki. Entre las etiquetas se debe indicar la categoría raíz.",
+	"bs-distributionconnector-tag-ref-desc": "Marca el texto entre las etiquetas como pie de página.",
+	"bs-distributionconnector-tag-dynamicpagelist-desc": "Genera una lista dinámica de artículos en función de varios parámetros.",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "Árbol de categorías",
+	"bs-distributionconnector-ve-categorytree-title": "Árbol de categorías",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Ocultar raíz",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Mostrar recuento",
+	"bs-distributionconnector-setting-path-authentication": "Autenticación",
+	"bs-distributionconnector-pref-openidconnect-config": "Proveedor",
+	"bs-distributionconnector-pref-openidconnect-config-clientid": "Identificador de cliente",
+	"bs-distributionconnector-pref-openidconnect-config-scope": "Ámbito",
+	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "Nombre de usuario preferido",
+	"bs-distributionconnector-pref-openidconnect-config-authparam": "Parámetros de autenticación (JSON)",
+	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "Verificar anfitrión",
+	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "Verificar par",
+	"bs-distributionconnector-pref-simplesamlphp-emailattribute": "Nombre de atributo para «email»",
+	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Delimitador para un atributo de «group» de un solo valor",
+	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Nombre de atributo para «realname»",
+	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Nombre de atributo para «groups»",
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Nombre de atributo para «username»"
 }
