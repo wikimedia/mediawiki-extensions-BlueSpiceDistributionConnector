@@ -148,11 +148,6 @@
 				"bluespice.distribution.less"
 			]
 		},
-		"ext.bluespice.distribution.ldap": {
-			"scripts": [
-				"bluespice.distribution.ldap.js"
-			]
-		},
 		"ext.bluespice.hitcounters.flyout": {
 			"scripts": [
 				"bluespice.hitcounters.flyout.js"

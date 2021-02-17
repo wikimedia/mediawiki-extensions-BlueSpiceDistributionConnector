@@ -3,18 +3,6 @@
 class BlueSpiceDistributionHooks {
 
 	/**
-	 * This is an optional hook handler that needs to be enabled within BlueSpiceDistribution.php
-	 * See https://www.mediawiki.org/wiki/Extension:LDAP_Authentication/Configuration_Options#Auto_authentication_options
-	 * @param string &$LDAPUsername
-	 * @param array $info
-	 * @return bool
-	 */
-	public static function onSetUsernameAttribute( &$LDAPUsername, $info ) {
-		$LDAPUsername = str_replace( '_', ' ', $info[0]['samaccountname'][0] );
-		return true;
-	}
-
-	/**
 	 * @param BaseTemplate $baseTemplate
 	 * @param array &$toolbox
 	 * @return bool
