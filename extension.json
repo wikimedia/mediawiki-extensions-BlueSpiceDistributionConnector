@@ -153,7 +153,7 @@
 		]
 	},
 	"AutoloadNamespaces": {
-		"BlueSpice\\DistributionConnector\\" : "src/"
+		"BlueSpice\\DistributionConnector\\": "src/"
 	},
 	"AutoloadClasses": {
 		"BlueSpiceDistributionHooks": "includes/BlueSpiceDistributionHooks.php"
