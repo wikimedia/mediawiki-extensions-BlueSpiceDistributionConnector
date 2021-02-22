@@ -28,6 +28,7 @@
 	"bs-distributionconnector-collection-type-hitcounter": "页面查看次数",
 	"bs-distributionconnector-collection-var-pagetitle": "页面标题",
 	"bs-distributionconnector-collection-var-numberhits": "命中",
+	"bs-distributionconnector-setting-path-authentication": "认证",
 	"bs-distributionconnector-pref-openidconnect-config": "提供者",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "使用真实姓名作为用户名",
 	"bs-distributionconnector-pref-openidconnect-useemailasusername": "使用邮箱地址作为用户名",
