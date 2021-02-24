@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Omda4wady",
 			"ديفيد"
 		]
 	},
@@ -25,5 +26,13 @@
 	"bs-distributionconnector-hitcounters-sesp-desc": "عداد الضربات",
 	"bs-distributionconnector-collection-type-hitcounter": "مشاهدات الصفحة",
 	"bs-distributionconnector-collection-var-pagetitle": "عنوان الصفحة",
-	"bs-distributionconnector-collection-var-numberhits": "الضربات"
+	"bs-distributionconnector-collection-var-numberhits": "الضربات",
+	"bs-distributionconnector-pref-openidconnect-forcelogout": "فرض الخروج",
+	"bs-distributionconnector-pref-openidconnect-config-icon": "رابط الأيقونة",
+	"bs-distributionconnector-pref-openidconnect-config-proxy": "رابط البروكسي",
+	"bs-distributionconnector-pref-openidconnect-config-scope": "نطاق",
+	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "اسم المستخدم المفضل",
+	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "تحقق من المضيف",
+	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "تحقق من القرين",
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "نقرات الصفحة"
 }
