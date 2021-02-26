@@ -23,6 +23,22 @@ class GroupAttributeDelimiter extends StringSetting implements ISettingPaths, IO
 
 	/**
 	 *
+	 * @return mixed
+	 */
+	public function getValue() {
+		$returnValue = parent::getValue();
+
+		// As ConfigManager can not "enable/disable" certain configs we must
+		// fall back to the default in Extension:SimpleSAMLphp manually
+		if ( empty( $returnValue ) ) {
+			$returnValue = null;
+		}
+
+		return $returnValue;
+	}
+
+	/**
+	 *
 	 * @return string
 	 */
 	public function getLabelMessageKey() {

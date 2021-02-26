@@ -23,6 +23,21 @@ class RealNameAttribute extends StringSetting implements ISettingPaths, IOverwri
 
 	/**
 	 *
+	 * @return mixed
+	 */
+	public function getValue() {
+		$returnValue = parent::getValue();
+
+		// Initially the value is an empty array for some reason
+		if ( empty( $returnValue ) ) {
+			$returnValue = '';
+		}
+
+		return $returnValue;
+	}
+
+	/**
+	 *
 	 * @return string
 	 */
 	public function getLabelMessageKey() {
