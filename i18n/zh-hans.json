@@ -5,6 +5,7 @@
 			"A Chinese Wikipedian",
 			"Dimension",
 			"Func",
+			"Lakejason0",
 			"VulpesVulpes825",
 			"列维劳德",
 			"沈澄心",
@@ -35,6 +36,9 @@
 	"bs-distributionconnector-pref-openidconnect-migrateusersbyusername": "按用户名迁移用户",
 	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "按电子邮箱迁移用户",
 	"bs-distributionconnector-pref-openidconnect-forcelogout": "强制退出账号",
+	"bs-distributionconnector-pref-openidconnect-config-clientid": "客户端 ID",
+	"bs-distributionconnector-pref-openidconnect-config-name": "显示名称",
 	"bs-distributionconnector-pref-openidconnect-config-icon": "图标链接",
-	"bs-distributionconnector-pref-openidconnect-config-proxy": "代理链接"
+	"bs-distributionconnector-pref-openidconnect-config-proxy": "代理链接",
+	"bs-distributionconnector-pref-openidconnect-config-authparam": "验证参数（JSON）"
 }
