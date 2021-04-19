@@ -25,21 +25,21 @@
 			"Extensions": {
 				"BlueSpiceDistributionConnector": {
 					"className": "\\BlueSpice\\DistributionConnector\\Extension",
-					"extPath": "/BlueSpiceDistributionConnector",
-					"configDefinitions": {
-						"DistributionConnectorOpenIDConnectConfig": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\Config::getInstance",
-						"DistributionConnectorOpenIDConnectUseRealNameAsUserName": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\UseRealNameAsUserName::getInstance",
-						"DistributionConnectorOpenIDConnectUseEmailNameAsUserName": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\UseEmailNameAsUserName::getInstance",
-						"DistributionConnectorOpenIDConnectMigrateUsersByUserName": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\MigrateUsersByUserName::getInstance",
-						"DistributionConnectorOpenIDConnectMigrateUsersByEmail": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\MigrateUsersByEmail::getInstance",
-						"DistributionConnectorOpenIDConnectForceLogout": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\ForceLogout::getInstance",
-						"DistributionConnectorSimpleSAMLphpEmailAttribute": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\EmailAttribute::getInstance",
-						"DistributionConnectorSimpleSAMLphpGroupAttributeDelimiter": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\GroupAttributeDelimiter::getInstance",
-						"DistributionConnectorSimpleSAMLphpRealNameAttribute": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\RealNameAttribute::getInstance",
-						"DistributionConnectorSimpleSAMLphpSyncAllGroupsGroupAttributeName": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\SyncAllGroupsGroupAttributeName::getInstance",
-						"DistributionConnectorSimpleSAMLphpUsernameAttribute": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\UsernameAttribute::getInstance"
-					}
+					"extPath": "/BlueSpiceDistributionConnector"
 				}
+			},
+			"ConfigDefinitionRegistry": {
+				"DistributionConnectorOpenIDConnectConfig": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\Config::getInstance",
+				"DistributionConnectorOpenIDConnectUseRealNameAsUserName": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\UseRealNameAsUserName::getInstance",
+				"DistributionConnectorOpenIDConnectUseEmailNameAsUserName": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\UseEmailNameAsUserName::getInstance",
+				"DistributionConnectorOpenIDConnectMigrateUsersByUserName": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\MigrateUsersByUserName::getInstance",
+				"DistributionConnectorOpenIDConnectMigrateUsersByEmail": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\MigrateUsersByEmail::getInstance",
+				"DistributionConnectorOpenIDConnectForceLogout": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\ForceLogout::getInstance",
+				"DistributionConnectorSimpleSAMLphpEmailAttribute": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\EmailAttribute::getInstance",
+				"DistributionConnectorSimpleSAMLphpGroupAttributeDelimiter": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\GroupAttributeDelimiter::getInstance",
+				"DistributionConnectorSimpleSAMLphpRealNameAttribute": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\RealNameAttribute::getInstance",
+				"DistributionConnectorSimpleSAMLphpSyncAllGroupsGroupAttributeName": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\SyncAllGroupsGroupAttributeName::getInstance",
+				"DistributionConnectorSimpleSAMLphpUsernameAttribute": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\UsernameAttribute::getInstance"
 			},
 			"PermissionRegistry": {
 				"dpl_param_delete_rules": {
