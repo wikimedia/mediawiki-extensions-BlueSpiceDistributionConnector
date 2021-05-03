@@ -180,7 +180,7 @@ class HitCounter extends StoreSourced {
 		}
 		$this->lastCollection = array_filter(
 			$snapshot->get( Snapshot::ATTR_COLLECTION ),
-			function ( BaseCollection $e ) {
+			static function ( BaseCollection $e ) {
 				return $e instanceof Collection;
 			}
 		);
