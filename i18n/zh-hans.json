@@ -13,6 +13,8 @@
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "您的域名",
+	"bs-distributionconnector-tag-ref-desc": "标记标签之间的文本为脚注。",
+	"bs-distributionconnector-tag-references-desc": "显示插入到文章中脚注的列表。",
 	"bs-distributionconnector-tag-embedvideo-desc": "包括来自热门共享平台的视频剪辑。",
 	"bs-distributionconnector-tag-dynamicpagelist-desc": "基于各种参数生成动态文章列表。",
 	"bs-distributionconnector-flyout-hitcounters-text": "查看次数",
@@ -20,6 +22,7 @@
 	"bs-distributionconnector-ve-categorytree-title": "分类树",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "模式",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "深度",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "隐藏根层级",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "展示数",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "隐藏前缀",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "名字空间",
