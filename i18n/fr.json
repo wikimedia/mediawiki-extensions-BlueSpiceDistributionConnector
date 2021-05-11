@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Florian COLLIN",
+			"Thibaut120094",
 			"Vega",
 			"Verdy p"
 		]
@@ -49,7 +50,7 @@
 	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "Vérifier le pair",
 	"bs-distributionconnector-pref-simplesamlphp-emailattribute": "Nom d’attribut pour « courriel »",
 	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Délimiteur pour un attribut « groupe » à valeur unique",
-	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Nom d’attribut pour « nom réel »",
+	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Nom d’attribut pour « vrai nom »",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Nom d’attribut pour « groupes »",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Nom d’attribut pour « nom d’utilisateur »",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Visites de page"

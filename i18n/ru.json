@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Megakott",
+			"Okras",
 			"PlushBoy"
 		]
 	},
@@ -34,5 +35,8 @@
 	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Разделитель для однозначного атрибута \"group\"",
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Имя атрибута для \"realname\"",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Имя атрибута для \"groups\"",
-	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Имя атрибута для \"username\""
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Имя атрибута для \"username\"",
+	"bs-distributionconnector-flyout-hitcounters-text": "Количество просмотров",
+	"bs-distributionconnector-collection-type-hitcounter": "Просмотров страниц",
+	"bs-distributionconnector-setting-path-authentication": "Аутентификация"
 }

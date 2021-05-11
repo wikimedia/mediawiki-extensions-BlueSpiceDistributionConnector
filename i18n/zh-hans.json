@@ -5,6 +5,7 @@
 			"A Chinese Wikipedian",
 			"Dimension",
 			"Func",
+			"Lakejason0",
 			"VulpesVulpes825",
 			"列维劳德",
 			"沈澄心",
@@ -36,5 +37,11 @@
 	"bs-distributionconnector-pref-openidconnect-forcelogout": "强制退出账号",
 	"bs-distributionconnector-pref-openidconnect-config-icon": "图标链接",
 	"bs-distributionconnector-pref-openidconnect-config-proxy": "代理链接",
-	"bs-distributionconnector-setting-path-authentication": "认证"
+	"bs-distributionconnector-setting-path-authentication": "认证",
+	"bs-distributionconnector-tag-ref-desc": "标记标签之间的文本为脚注。",
+	"bs-distributionconnector-tag-references-desc": "显示插入到文章中脚注的列表。",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "隐藏根层级",
+	"bs-distributionconnector-pref-openidconnect-config-clientid": "客户端 ID",
+	"bs-distributionconnector-pref-openidconnect-config-name": "显示名称",
+	"bs-distributionconnector-pref-openidconnect-config-authparam": "验证参数（JSON）"
 }
