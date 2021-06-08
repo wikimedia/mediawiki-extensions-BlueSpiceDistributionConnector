@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joquliina"
+		]
+	},
+	"bs-distributionconnector-yourdomainname": "Verkkotunnuksesi",
+	"bs-distributionconnector-collection-var-pagetitle": "Sivun otsikko",
+	"bs-distributionconnector-pref-openidconnect-forcelogout": "Pakota uloskirjautuminen"
+}
