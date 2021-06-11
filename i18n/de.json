@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Laurinm",
-			"Mglaser"
+			"Mglaser",
+			"Pittigrilli"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Verbindet BlueSpice mit verschiedenen MediaWiki-Erweiterungen",
@@ -36,5 +37,20 @@
 	"bs-distributionconnector-pref-openidconnect-config-clientid": "Client ID",
 	"bs-distributionconnector-pref-openidconnect-config-name": "Anzeigename",
 	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "Bevorzugter Nutzername",
-	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "Verifiziere Host"
+	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "Verifiziere Host",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyusername": "Nutzer nach Benutzernamen migrieren",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "Nutzer nach E-Mail migrieren",
+	"bs-distributionconnector-pref-openidconnect-config-key": "URL des Providers",
+	"bs-distributionconnector-pref-openidconnect-config-clientsecret": "Client-Geheimnis",
+	"bs-distributionconnector-pref-openidconnect-config-icon": "URL des Icons",
+	"bs-distributionconnector-pref-openidconnect-config-proxy": "URL des Proxys",
+	"bs-distributionconnector-pref-openidconnect-config-scope": "Scope",
+	"bs-distributionconnector-pref-openidconnect-config-authparam": "Authentifizierungsparameter (JSON)",
+	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "Peer verifizieren",
+	"bs-distributionconnector-pref-simplesamlphp-emailattribute": "Attributname für \"email\"",
+	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Trennzeichen für einen Einzelwert des \"group\"-Attributs",
+	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Attributname für \"realname\"",
+	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Attributname für \"groups\"",
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Attributname für \"username\"",
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Seitenaufrufe"
 }
