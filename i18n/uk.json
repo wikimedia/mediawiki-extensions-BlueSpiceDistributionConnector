@@ -26,5 +26,9 @@
 	"bs-distributionconnector-hitcounters-sesp-desc": "Лічильник спрацьовувань",
 	"bs-distributionconnector-collection-type-hitcounter": "Перегляди сторінки",
 	"bs-distributionconnector-collection-var-pagetitle": "Назва сторінки",
-	"bs-distributionconnector-collection-var-numberhits": "Спрацьовування"
+	"bs-distributionconnector-collection-var-numberhits": "Спрацьовування",
+	"bs-distributionconnector-setting-path-authentication": "Автентифікація",
+	"bs-distributionconnector-pref-openidconnect-config": "Провайдер",
+	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Використовувати справжнє ім'я як ім'я користувача",
+	"bs-distributionconnector-pref-openidconnect-useemailasusername": "Використовувати електронну пошту як ім'я користувача"
 }
