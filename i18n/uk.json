@@ -30,5 +30,19 @@
 	"bs-distributionconnector-setting-path-authentication": "Автентифікація",
 	"bs-distributionconnector-pref-openidconnect-config": "Провайдер",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Використовувати справжнє ім'я як ім'я користувача",
-	"bs-distributionconnector-pref-openidconnect-useemailasusername": "Використовувати електронну пошту як ім'я користувача"
+	"bs-distributionconnector-pref-openidconnect-useemailasusername": "Використовувати електронну пошту як ім'я користувача",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyusername": "Перенести користувачів за іменем користувача",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "Перенести користувачів за електронною поштою",
+	"bs-distributionconnector-pref-openidconnect-forcelogout": "Примусовий вихід з системи",
+	"bs-distributionconnector-pref-openidconnect-config-key": "URL емітента",
+	"bs-distributionconnector-pref-openidconnect-config-clientid": "ID клієнта",
+	"bs-distributionconnector-pref-openidconnect-config-clientsecret": "Секрет клієнта",
+	"bs-distributionconnector-pref-openidconnect-config-name": "Показуване ім'я",
+	"bs-distributionconnector-pref-openidconnect-config-icon": "URL піктограми",
+	"bs-distributionconnector-pref-openidconnect-config-proxy": "URL проксі",
+	"bs-distributionconnector-pref-openidconnect-config-scope": "Сфера",
+	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "Бажане ім'я користувача",
+	"bs-distributionconnector-pref-openidconnect-config-authparam": "Параметри автентифікації (JSON)",
+	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "Перевірити вузол",
+	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "Перевірити пір"
 }
