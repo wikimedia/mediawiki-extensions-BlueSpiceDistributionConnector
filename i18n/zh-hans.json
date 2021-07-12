@@ -40,6 +40,7 @@
 	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "按电子邮箱迁移用户",
 	"bs-distributionconnector-pref-openidconnect-forcelogout": "强制退出账号",
 	"bs-distributionconnector-pref-openidconnect-config-clientid": "客户端 ID",
+	"bs-distributionconnector-pref-openidconnect-config-clientsecret": "客户端密钥",
 	"bs-distributionconnector-pref-openidconnect-config-name": "显示名称",
 	"bs-distributionconnector-pref-openidconnect-config-icon": "图标链接",
 	"bs-distributionconnector-pref-openidconnect-config-proxy": "代理链接",

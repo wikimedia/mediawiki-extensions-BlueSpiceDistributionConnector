@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DDPAT",
 			"Piramidion",
 			"Ата"
 		]
@@ -44,5 +45,11 @@
 	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "Бажане ім'я користувача",
 	"bs-distributionconnector-pref-openidconnect-config-authparam": "Параметри автентифікації (JSON)",
 	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "Перевірити вузол",
-	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "Перевірити пір"
+	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "Перевірити пір",
+	"bs-distributionconnector-pref-simplesamlphp-emailattribute": "Назва атрибута для \"електронної пошти\"",
+	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Роздільник для однозначного атрибута \"group\"",
+	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Ім'я атрибута для \"realname\"",
+	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Назва атрибута для \"groups\"",
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Назва атрибута для \"username\"",
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Звернення сторінок"
 }
