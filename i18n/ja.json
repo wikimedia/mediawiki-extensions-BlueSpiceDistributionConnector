@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"A2y4",
-			"Aefgh39622"
+			"Aefgh39622",
+			"Ajeje Brazorf"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "あなたのドメイン",
@@ -12,5 +13,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "名前空間",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS スタイルタグ",
 	"bs-distributionconnector-collection-type-hitcounter": "ページ閲覧回数",
-	"bs-distributionconnector-collection-var-pagetitle": "ページタイトル"
+	"bs-distributionconnector-collection-var-pagetitle": "ページタイトル",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "深さ"
 }

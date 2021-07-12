@@ -43,5 +43,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "隐藏根层级",
 	"bs-distributionconnector-pref-openidconnect-config-clientid": "客户端 ID",
 	"bs-distributionconnector-pref-openidconnect-config-name": "显示名称",
-	"bs-distributionconnector-pref-openidconnect-config-authparam": "验证参数（JSON）"
+	"bs-distributionconnector-pref-openidconnect-config-authparam": "验证参数（JSON）",
+	"bs-distributionconnector-pref-openidconnect-config-clientsecret": "客户端密钥"
 }
