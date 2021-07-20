@@ -3,6 +3,7 @@
 		"authors": [
 			"500000000006城",
 			"A Chinese Wikipedian",
+			"Dianliang233",
 			"Dimension",
 			"Func",
 			"Lakejason0",
@@ -43,5 +44,12 @@
 	"bs-distributionconnector-pref-openidconnect-config-name": "显示名称",
 	"bs-distributionconnector-pref-openidconnect-config-icon": "图标链接",
 	"bs-distributionconnector-pref-openidconnect-config-proxy": "代理链接",
-	"bs-distributionconnector-pref-openidconnect-config-authparam": "验证参数（JSON）"
+	"bs-distributionconnector-pref-openidconnect-config-authparam": "验证参数（JSON）",
+	"bs-distributionconnector-pref-openidconnect-config-clientsecret": "客户端密钥",
+	"bs-distributionconnector-pref-openidconnect-config-scope": "范围",
+	"bs-distributionconnector-pref-simplesamlphp-emailattribute": "“email”的属性名",
+	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "“realname”的属性名",
+	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "“groups”的属性名",
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "“username”的属性名",
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "页面点击量"
 }

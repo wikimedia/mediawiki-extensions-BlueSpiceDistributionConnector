@@ -3,7 +3,8 @@
 		"authors": [
 			"Aranka",
 			"Mainframe98",
-			"Optilete"
+			"Optilete",
+			"Romaine"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "Uw domein",
@@ -12,5 +13,14 @@
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Naamruimte",
 	"bs-distributionconnector-collection-var-pagetitle": "Paginanaam",
 	"bs-distributionconnector-pref-openidconnect-config-icon": "Icon URL",
-	"bs-distributionconnector-pref-openidconnect-config-scope": "Bereik"
+	"bs-distributionconnector-pref-openidconnect-config-scope": "Bereik",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Diepte",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Aantal weergeven",
+	"bs-distributionconnector-setting-path-authentication": "Authenticatie",
+	"bs-distributionconnector-pref-openidconnect-config": "Provider",
+	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Gebruik echte naam als gebruikersnaam",
+	"bs-distributionconnector-pref-openidconnect-useemailasusername": "Gebruik e-mailadres als gebruikersnaam",
+	"bs-distributionconnector-pref-openidconnect-forcelogout": "Afmelden forceren",
+	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "Host verifiëren",
+	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "Peer verifiëren"
 }
