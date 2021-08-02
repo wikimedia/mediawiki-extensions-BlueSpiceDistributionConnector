@@ -51,5 +51,6 @@
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "“realname”的属性名",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "“groups”的属性名",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "“username”的属性名",
-	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "页面点击量"
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "页面点击量",
+	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "验证主机"
 }
