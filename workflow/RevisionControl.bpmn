@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wf="http://hallowelt.com/schema/bpmn/wf" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_0pa0etv" targetNamespace="http://bpmn.io/schema/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="8.7.1">
+
+<!-- Process part -->
+<bpmn:process id="Process_Revision_Control" isExecutable="false">
+    <bpmn:extensionElements>
+		<wf:context>
+			<wf:contextItem name="pageId"/>
+			<wf:contextItem name="revision"/>
+		</wf:context>
+	</bpmn:extensionElements>
+    <!-- StartEvent -->
+    <bpmn:startEvent id="TheStart">
+        <bpmn:outgoing>FromTheStartToCollectData</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:sequenceFlow id="FromTheStartToCollectData" sourceRef="TheStart" targetRef="CollectData" />
+
+    <!-- CollectData -->
+    <bpmn:task id="CollectData" name="Collect Data">
+         <bpmn:extensionElements>
+            <wf:type>custom_form</wf:type>
+            <wf:form>MediaWiki:Workflows/CollectDataForRevisionControl.form</wf:form>
+            <wf:initializer>true</wf:initializer>
+        </bpmn:extensionElements>
+
+        <bpmn:property name="assigned_user" default="{{{WorkflowContext.originator}}}" />
+
+        <bpmn:property name="usernameExpert">{{#show:{{NAMESPACE}}|?Expert}}</bpmn:property>
+        <bpmn:property name="instructionsExpert"></bpmn:property>
+
+        <bpmn:property name="usernameHead">{{#show:{{NAMESPACE}}|?Head}}</bpmn:property>
+        <bpmn:property name="instructionsHead"></bpmn:property>
+
+        <bpmn:property name="reportrecipient">qm@company.com</bpmn:property>
+
+        <bpmn:incoming>FromTheStartToCollectData</bpmn:incoming>
+        <bpmn:outgoing>FromCollectDataToUserVoteExpert</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="FromCollectDataToUserVoteExpert" sourceRef="CollectData" targetRef="UserVoteExpert" />
+
+    <!-- Ask the expert -->
+    <bpmn:task id="UserVoteExpert" name="UserVote">
+        <bpmn:extensionElements>
+            <wf:type>user_vote</wf:type>
+        </bpmn:extensionElements>
+
+        <bpmn:property name="assigned_user">{{{CollectData.usernameExpert}}}</bpmn:property>
+        <bpmn:property name="instructions">{{{CollectData.instructionsExpert}}}</bpmn:property>
+
+        <bpmn:incoming>FromCollectDataToUserVoteExpert</bpmn:incoming>
+        <bpmn:outgoing>FromUserVoteExpertToGatewayExpert</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="FromUserVoteExpertToGatewayExpert" sourceRef="UserVoteExpert" targetRef="GatewayExpert" />
+
+    <!-- Check on vote expert -->
+    <bpmn:exclusiveGateway id="GatewayExpert" name="UserVoteExpert.vote">
+        <bpmn:incoming>FromUserVoteExpertToGatewayExpert</bpmn:incoming>
+        <bpmn:outgoing>FromGatewayExpertToUserVoteHead</bpmn:outgoing>
+        <bpmn:outgoing>FromGatewayExpertToTheEnd</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:sequenceFlow id="FromGatewayExpertToUserVoteHead" name="YES" sourceRef="GatewayExpert" targetRef="UserVoteHead" />
+    <bpmn:sequenceFlow id="FromGatewayExpertToTheEnd" name="NO" sourceRef="GatewayExpert" targetRef="TheEnd" />
+
+    <!-- Ask the boss -->
+    <bpmn:task id="UserVoteHead" name="UserVote">
+        <bpmn:extensionElements>
+            <wf:type>user_vote</wf:type>
+        </bpmn:extensionElements>
+
+        <bpmn:property name="assigned_user">{{{CollectData.usernameHead}}}</bpmn:property>
+        <bpmn:property name="instructions">{{{CollectData.instructionsHead}}}</bpmn:property>
+
+        <bpmn:incoming>FromGatewayExpertToUserVoteHead</bpmn:incoming>
+        <bpmn:outgoing>FromUserVoteHeadToGatewayHead</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="FromUserVoteHeadToGatewayHead" sourceRef="UserVoteHead" targetRef="GatewayHead" />
+
+    <!-- Check on vote head -->
+    <bpmn:exclusiveGateway id="GatewayHead" name="UserVoteHead.vote">
+        <bpmn:incoming>FromUserVoteHeadToGatewayHead</bpmn:incoming>
+        <bpmn:outgoing>FromGatewayHeadToApproveRevision</bpmn:outgoing>
+        <bpmn:outgoing>FromGatewayHeadToTheEnd</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:sequenceFlow id="FromGatewayHeadToApproveRevision" name="YES" sourceRef="GatewayHead" targetRef="ApproveRevision" />
+    <bpmn:sequenceFlow id="FromGatewayHeadToTheEnd" name="NO" sourceRef="GatewayHead" targetRef="TheEnd" />
+
+    <!-- Approve revision -->
+    <bpmn:task id="ApproveRevision" name="ApproveRevision">
+        <bpmn:extensionElements>
+            <wf:type>approve_revision</wf:type>
+        </bpmn:extensionElements>
+
+        <bpmn:property name="revisionid">{{{UserVoteHead.revisionid}}}</bpmn:property>
+        <bpmn:property name="comment">{{{UserVoteHead.username}}}: {{{UserVoteHead.comment}}}</bpmn:property>
+
+        <bpmn:incoming>FromGatewayHeadToApproveRevision</bpmn:incoming>
+        <bpmn:outgoing>FromApproveRevisionToSendMail</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="FromApproveRevisionToSendMail" sourceRef="ApproveRevision" targetRef="SendMail" />
+
+    <!-- Send mail -->
+    <bpmn:task id="SendMail" name="Send Mail">
+        <bpmn:extensionElements>
+            <wf:type>send_mail</wf:type>
+        </bpmn:extensionElements>
+
+        <bpmn:property name="recipient" default="{{{CollectData.reportrecipient}}}" />
+        <bpmn:property name="subject">{{int:workflow-default-revision-control-report-subject|{{{WorkflowContext.pagetitle}}}}}</bpmn:property>
+        <bpmn:property name="body">{{int:workflow-default-revision-control-report-body|
+            * {{{UserVoteExpert.username}}} (Expert): {{{UserVoteExpert.comment}}}
+            * {{{UserVoteHead.username}}} (Head): {{{UserVoteHead.comment}}}}}
+        </bpmn:property>
+
+        <bpmn:incoming>FromApproveRevisionToSendMail</bpmn:incoming>
+        <bpmn:outgoing>FromSendMailToTheEnd</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="FromSendMailToTheEnd" sourceRef="SendMail" targetRef="TheEnd" />
+
+    <!-- The end -->
+    <bpmn:endEvent id="TheEnd">
+        <bpmn:incoming>FromSendMailToTheEnd</bpmn:incoming>
+        <bpmn:incoming>FromGatewayExpertToTheEnd</bpmn:incoming>
+        <bpmn:incoming>FromGatewayHeadToTheEnd</bpmn:incoming>
+    </bpmn:endEvent>
+</bpmn:process>
+
+<!-- Visual part -->
+<bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_19f606g">
+
+        <bpmndi:BPMNEdge id="FromGatewayHeadToApproveRevision_di" bpmnElement="FromGatewayHeadToApproveRevision">
+            <di:waypoint x="825" y="120" />
+            <di:waypoint x="900" y="120" />
+                <bpmndi:BPMNLabel>
+                    <dc:Bounds x="852" y="102" width="22" height="14" />
+                </bpmndi:BPMNLabel>
+        </bpmndi:BPMNEdge>
+
+        <bpmndi:BPMNEdge id="FromGatewayHeadToTheEnd_di" bpmnElement="FromGatewayHeadToTheEnd">
+            <di:waypoint x="800" y="145" />
+            <di:waypoint x="800" y="270" />
+            <di:waypoint x="1280" y="270" />
+            <di:waypoint x="1280" y="138" />
+                <bpmndi:BPMNLabel>
+                    <dc:Bounds x="811" y="153" width="17" height="14" />
+                </bpmndi:BPMNLabel>
+        </bpmndi:BPMNEdge>
+
+        <bpmndi:BPMNEdge id="FromGatewayExpertToTheEnd_di" bpmnElement="FromGatewayExpertToTheEnd">
+            <di:waypoint x="540" y="145" />
+            <di:waypoint x="540" y="270" />
+            <di:waypoint x="1280" y="270" />
+            <di:waypoint x="1280" y="138" />
+                <bpmndi:BPMNLabel>
+                    <dc:Bounds x="551" y="153" width="17" height="14" />
+                </bpmndi:BPMNLabel>
+        </bpmndi:BPMNEdge>
+
+        <bpmndi:BPMNEdge id="FromSendMailToTheEnd_di" bpmnElement="FromSendMailToTheEnd">
+            <di:waypoint x="1180" y="120" />
+            <di:waypoint x="1262" y="120" />
+        </bpmndi:BPMNEdge>
+
+        <bpmndi:BPMNEdge id="FromApproveRevisionToSendMail_di" bpmnElement="FromApproveRevisionToSendMail">
+            <di:waypoint x="1000" y="120" />
+            <di:waypoint x="1080" y="120" />
+        </bpmndi:BPMNEdge>
+
+        <bpmndi:BPMNEdge id="FromUserVoteHeadToGatewayHead_di" bpmnElement="FromUserVoteHeadToGatewayHead">
+            <di:waypoint x="720" y="120" />
+            <di:waypoint x="775" y="120" />
+        </bpmndi:BPMNEdge>
+
+        <bpmndi:BPMNEdge id="FromGatewayExpertToUserVoteHead_di" bpmnElement="FromGatewayExpertToUserVoteHead">
+            <di:waypoint x="565" y="120" />
+            <di:waypoint x="620" y="120" />
+                <bpmndi:BPMNLabel>
+                    <dc:Bounds x="582" y="102" width="22" height="14" />
+                </bpmndi:BPMNLabel>
+        </bpmndi:BPMNEdge>
+
+        <bpmndi:BPMNEdge id="FromUserVoteExpertToGatewayExpert_di" bpmnElement="FromUserVoteExpertToGatewayExpert">
+            <di:waypoint x="480" y="120" />
+            <di:waypoint x="515" y="120" />
+        </bpmndi:BPMNEdge>
+
+        <bpmndi:BPMNEdge id="FromCollectDataToUserVoteExpert_di" bpmnElement="FromCollectDataToUserVoteExpert">
+            <di:waypoint x="310" y="120" />
+            <di:waypoint x="380" y="120" />
+        </bpmndi:BPMNEdge>
+
+        <bpmndi:BPMNEdge id="FromTheStartToCollectData_di" bpmnElement="FromTheStartToCollectData">
+            <di:waypoint x="158" y="120" />
+            <di:waypoint x="210" y="120" />
+        </bpmndi:BPMNEdge>
+
+        <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="TheStart">
+            <dc:Bounds x="122" y="102" width="36" height="36" />
+        </bpmndi:BPMNShape>
+
+        <bpmndi:BPMNShape id="CollectData_di" bpmnElement="CollectData">
+            <dc:Bounds x="210" y="80" width="100" height="80" />
+        </bpmndi:BPMNShape>
+
+        <bpmndi:BPMNShape id="UserVoteExpert_di" bpmnElement="UserVoteExpert">
+            <dc:Bounds x="380" y="80" width="100" height="80" />
+        </bpmndi:BPMNShape>
+
+        <bpmndi:BPMNShape id="GatewayExpert_di" bpmnElement="GatewayExpert" isMarkerVisible="true">
+            <dc:Bounds x="515" y="95" width="50" height="50" />
+        </bpmndi:BPMNShape>
+
+        <bpmndi:BPMNShape id="UserVoteHead_di" bpmnElement="UserVoteHead">
+            <dc:Bounds x="620" y="80" width="100" height="80" />
+        </bpmndi:BPMNShape>
+
+        <bpmndi:BPMNShape id="GatewayHead_di" bpmnElement="GatewayHead" isMarkerVisible="true">
+            <dc:Bounds x="775" y="95" width="50" height="50" />
+        </bpmndi:BPMNShape>
+
+        <bpmndi:BPMNShape id="ApproveRevision_di" bpmnElement="ApproveRevision">
+            <dc:Bounds x="900" y="80" width="100" height="80" />
+        </bpmndi:BPMNShape>
+
+        <bpmndi:BPMNShape id="SendMail_di" bpmnElement="SendMail">
+            <dc:Bounds x="1080" y="80" width="100" height="80" />
+        </bpmndi:BPMNShape>
+
+        <bpmndi:BPMNShape id="TheEnd_di" bpmnElement="TheEnd">
+            <dc:Bounds x="1262" y="102" width="36" height="36" />
+        </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+</bpmndi:BPMNDiagram>
+</bpmn:definitions>
