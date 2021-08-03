@@ -49,5 +49,17 @@
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Label for config variable \"wgSimpleSAMLphp_RealNameAttribute\"",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Label for config variable \"wgSimpleSAMLphp_SyncAllGroups_GroupAttributeName\"",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Label for config variable \"wgSimpleSAMLphp_UsernameAttribute\"",
-	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Header for \"Page hits\" column in BSWikiExplorer grid"
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Header for \"Page hits\" column in BSWikiExplorer grid",
+	"workflow-default-editorial-review-report-subject": "Mail subject line for when a editorial review finishes.\n$1 - Page name",
+	"workflow-default-editorial-review-report-body": "Mail body text for when a editorial review finishes.\n$1 - Summary of votes",
+	"workflows-file-repository-definition-data-collector": "Label in a select dropdown",
+	"workflows-file-repository-definition-editorial-review": "Label in a select dropdown",
+	"workflows-file-repository-definition-four-eye-principle": "Label in a select dropdown",
+	"workflows-file-repository-definition-group-approval": "Label in a select dropdown",
+	"workflows-file-repository-definition-group-control": "Label in a select dropdown",
+	"workflows-file-repository-definition-revision-control": "Label in a select dropdown",
+	"workflows-file-repository-definition-three-stage-feedback-collection": "Label in a select dropdown",
+	"workflows-file-repository-definition-three-step-approval": "Label in a select dropdown",
+	"workflows-file-repository-definition-user-approval": "Label in a select dropdown",
+	"workflows-file-repository-definition-user-control": "Label in a select dropdown"
 }
