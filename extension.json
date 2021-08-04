@@ -158,6 +158,20 @@
 			"ExtraPropertyRegistry": {
 				"hitcountersfields": "\\BlueSpice\\DistributionConnector\\HitCountersPropertyValueProvider::factory"
 			}
+		},
+		"Workflows": {
+			"WorkflowDefinitions": {
+				"data-collector": "BlueSpiceDistributionConnector/workflow/DataCollector.bpmn",
+				"editorial-review": "BlueSpiceDistributionConnector/workflow/EditorialReview.bpmn",
+				"four-eye-principle": "BlueSpiceDistributionConnector/workflow/FourEyePrinciple.bpmn",
+				"group-approval": "BlueSpiceDistributionConnector/workflow/GroupApproval.bpmn",
+				"group-control": "BlueSpiceDistributionConnector/workflow/GroupControl.bpmn",
+				"revision-control": "BlueSpiceDistributionConnector/workflow/RevisionControl.bpmn",
+				"three-stage-feedback-collection": "BlueSpiceDistributionConnector/workflow/ThreeStageFeedbackCollection.bpmn",
+				"three-step-approval": "BlueSpiceDistributionConnector/workflow/ThreeStepApproval.bpmn",
+				"user-approval": "BlueSpiceDistributionConnector/workflow/UserApproval.bpmn",
+				"user-control": "BlueSpiceDistributionConnector/workflow/UserControl.bpmn"
+			}
 		}
 	},
 	"callback": "\\BlueSpice\\DistributionConnector\\Extension::onRegistration",
