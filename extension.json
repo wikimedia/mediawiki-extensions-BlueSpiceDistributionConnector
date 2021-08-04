@@ -113,6 +113,20 @@
 						"admin",
 						"maintenanceadmin"
 					]
+				},
+				"gadgets-edit": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"maintenanceadmin"
+					]
+				},
+				"gadgets-definition-edit": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"maintenanceadmin"
+					]
 				}
 			},
 			"EntityRegistry": {
