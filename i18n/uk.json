@@ -51,5 +51,17 @@
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Ім'я атрибута для \"realname\"",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Назва атрибута для \"groups\"",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Назва атрибута для \"username\"",
-	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Звернення сторінок"
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Звернення сторінок",
+	"workflow-default-editorial-review-report-subject": "Редакційний огляд \"$1\" завершено!",
+	"workflow-default-editorial-review-report-body": "Це звіт про робочий процес редакційного огляду: $1",
+	"workflows-file-repository-definition-data-collector": "Збірник даних",
+	"workflows-file-repository-definition-editorial-review": "Редакційний огляд",
+	"workflows-file-repository-definition-four-eye-principle": "Принцип чотирьох очей",
+	"workflows-file-repository-definition-group-approval": "Затвердження групи",
+	"workflows-file-repository-definition-group-control": "Груповий контроль",
+	"workflows-file-repository-definition-revision-control": "Ревізійний контроль",
+	"workflows-file-repository-definition-three-stage-feedback-collection": "Триступеневий збір зворотного зв'язку",
+	"workflows-file-repository-definition-three-step-approval": "Триетапне схвалення",
+	"workflows-file-repository-definition-user-approval": "Схвалення користувача",
+	"workflows-file-repository-definition-user-control": "Контроль користувача"
 }

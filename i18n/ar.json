@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Michel Bakni",
 			"Omda4wady",
 			"ديفيد"
 		]
@@ -27,6 +28,7 @@
 	"bs-distributionconnector-collection-type-hitcounter": "مشاهدات الصفحة",
 	"bs-distributionconnector-collection-var-pagetitle": "عنوان الصفحة",
 	"bs-distributionconnector-collection-var-numberhits": "الضربات",
+	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "استعمل اسماً حقيقياً ليكون اسم المُستخدم",
 	"bs-distributionconnector-pref-openidconnect-forcelogout": "فرض الخروج",
 	"bs-distributionconnector-pref-openidconnect-config-icon": "رابط الأيقونة",
 	"bs-distributionconnector-pref-openidconnect-config-proxy": "رابط البروكسي",

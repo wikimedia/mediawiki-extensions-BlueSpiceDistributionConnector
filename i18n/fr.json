@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Florian COLLIN",
+			"Gomoko",
 			"Thibaut120094",
 			"Vega",
 			"Verdy p"
@@ -52,5 +53,17 @@
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Nom d’attribut pour « vrai nom »",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Nom d’attribut pour « groupes »",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Nom d’attribut pour « nom d’utilisateur »",
-	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Visites de page"
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Visites de page",
+	"workflow-default-editorial-review-report-subject": "Relecture éditoriale de '$1' terminée !",
+	"workflow-default-editorial-review-report-body": "C’est un rapport sur le processus de relecture éditoriale : $1",
+	"workflows-file-repository-definition-data-collector": "Collecteur de données",
+	"workflows-file-repository-definition-editorial-review": "Relecture éditoriale",
+	"workflows-file-repository-definition-four-eye-principle": "Principe des quatre yeux",
+	"workflows-file-repository-definition-group-approval": "Approbation du groupe",
+	"workflows-file-repository-definition-group-control": "Contrôle du groupe",
+	"workflows-file-repository-definition-revision-control": "Contrôle de la révision",
+	"workflows-file-repository-definition-three-stage-feedback-collection": "Collection d’avis en trois étapes",
+	"workflows-file-repository-definition-three-step-approval": "Approbation en trois étapes",
+	"workflows-file-repository-definition-user-approval": "Approbation utilisateur",
+	"workflows-file-repository-definition-user-control": "Contrôle utilisateur"
 }
