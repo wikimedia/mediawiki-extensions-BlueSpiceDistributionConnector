@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Impartial just",
 			"Kly"
 		]
 	},
@@ -45,5 +46,6 @@
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "用於「realname」屬性名稱",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "用於「groups」屬性名稱",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "用於「username」屬性名稱",
-	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "頁面點擊數"
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "頁面點擊數",
+	"workflows-file-repository-definition-user-control": "使用者控制"
 }

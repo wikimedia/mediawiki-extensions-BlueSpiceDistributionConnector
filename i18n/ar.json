@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Michel Bakni",
 			"Omda4wady",
 			"ديفيد"
 		]
@@ -35,5 +36,6 @@
 	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "اسم المستخدم المفضل",
 	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "تحقق من المضيف",
 	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "تحقق من القرين",
-	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "نقرات الصفحة"
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "نقرات الصفحة",
+	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "استعمل اسماً حقيقياً ليكون اسم المُستخدم"
 }

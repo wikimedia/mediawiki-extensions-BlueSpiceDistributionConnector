@@ -43,5 +43,6 @@
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "\"realname\" 속성 이름",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "\"groups\" 속성 이름",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "\"username\" 속성 이름",
-	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "페이지 조회수"
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "페이지 조회수",
+	"workflows-file-repository-definition-user-approval": "사용자 승인"
 }
