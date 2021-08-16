@@ -49,5 +49,13 @@
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Nomine de attributo pro \"realname\"",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Nomine de attributo pro \"groups\"",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Nomine de attributo pro \"username\"",
-	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Visitas de pagina"
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Visitas de pagina",
+	"workflow-default-editorial-review-report-subject": "Revision editorial de '$1' finite!",
+	"workflow-default-editorial-review-report-body": "Isto es un reporto sur le processo de revision editorial: $1",
+	"workflows-file-repository-definition-data-collector": "Collector de datos",
+	"workflows-file-repository-definition-editorial-review": "Revision editorial",
+	"workflows-file-repository-definition-four-eye-principle": "Principio de quatro oculos",
+	"workflows-file-repository-definition-group-approval": "Approbation del gruppo",
+	"workflows-file-repository-definition-group-control": "Controlo del gruppo",
+	"workflows-file-repository-definition-revision-control": "Controlo de versiones"
 }
