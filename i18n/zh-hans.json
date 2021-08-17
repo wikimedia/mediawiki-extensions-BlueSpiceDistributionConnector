@@ -8,6 +8,7 @@
 			"Func",
 			"Lakejason0",
 			"VulpesVulpes825",
+			"Zhang8569",
 			"列维劳德",
 			"沈澄心",
 			"铁桶"
@@ -52,5 +53,10 @@
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "“realname”的属性名",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "“groups”的属性名",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "“username”的属性名",
-	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "页面点击量"
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "页面点击量",
+	"workflow-default-editorial-review-report-subject": "‘$1’的编辑复查评论已经完成！",
+	"workflows-file-repository-definition-data-collector": "数据收集器",
+	"workflows-file-repository-definition-editorial-review": "编辑审查评论",
+	"workflows-file-repository-definition-group-approval": "群组支持",
+	"workflows-file-repository-definition-user-control": "用户控制"
 }
