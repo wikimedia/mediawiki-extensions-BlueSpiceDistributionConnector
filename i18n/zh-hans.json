@@ -55,8 +55,13 @@
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "“username”的属性名",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "页面点击量",
 	"workflow-default-editorial-review-report-subject": "‘$1’的编辑复查评论已经完成！",
+	"workflow-default-editorial-review-report-body": "有一个关于编辑审查的工作流：$1",
 	"workflows-file-repository-definition-data-collector": "数据收集器",
 	"workflows-file-repository-definition-editorial-review": "编辑审查评论",
+	"workflows-file-repository-definition-four-eye-principle": "四眼原则",
 	"workflows-file-repository-definition-group-approval": "群组支持",
+	"workflows-file-repository-definition-group-control": "群组控制",
+	"workflows-file-repository-definition-revision-control": "修订控制",
+	"workflows-file-repository-definition-user-approval": "用户许可",
 	"workflows-file-repository-definition-user-control": "用户控制"
 }
