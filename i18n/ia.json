@@ -57,5 +57,9 @@
 	"workflows-file-repository-definition-four-eye-principle": "Principio de quatro oculos",
 	"workflows-file-repository-definition-group-approval": "Approbation del gruppo",
 	"workflows-file-repository-definition-group-control": "Controlo del gruppo",
-	"workflows-file-repository-definition-revision-control": "Controlo de versiones"
+	"workflows-file-repository-definition-revision-control": "Controlo de versiones",
+	"workflows-file-repository-definition-three-stage-feedback-collection": "Collection de avisos in tres stadios",
+	"workflows-file-repository-definition-three-step-approval": "Approbation in tres passos",
+	"workflows-file-repository-definition-user-approval": "Approbation del usator",
+	"workflows-file-repository-definition-user-control": "Controlo del usator"
 }
