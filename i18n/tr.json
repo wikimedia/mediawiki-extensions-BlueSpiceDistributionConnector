@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Hedda",
 			"Jelican9",
 			"MuratTheTurkish"
 		]
@@ -52,10 +53,16 @@
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "\"groups\" için öznitelik adı",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "\"username\" için öznitelik adı",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Sayfa sayıları",
+	"workflow-default-editorial-review-report-subject": "'$1' için editoryal inceleme tamamlandı!",
+	"workflow-default-editorial-review-report-body": "Bu, editoryal inceleme iş akışıyla ilgili bir rapordur: $1",
 	"workflows-file-repository-definition-data-collector": "Veri koleksiyonu",
 	"workflows-file-repository-definition-editorial-review": "Editoryal inceleme",
+	"workflows-file-repository-definition-four-eye-principle": "Dört göz ilkesi",
 	"workflows-file-repository-definition-group-approval": "Grup onayı",
 	"workflows-file-repository-definition-group-control": "Grup kontrolü",
 	"workflows-file-repository-definition-revision-control": "Değişiklik kontrolü",
+	"workflows-file-repository-definition-three-stage-feedback-collection": "Üç aşamalı geri bildirim derlemesi",
+	"workflows-file-repository-definition-three-step-approval": "Üç aşamalı onay",
+	"workflows-file-repository-definition-user-approval": "Kullanıcı onayı",
 	"workflows-file-repository-definition-user-control": "Kullanıcı kontrol"
 }
