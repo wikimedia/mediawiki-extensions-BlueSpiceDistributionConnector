@@ -233,6 +233,31 @@
 				"bs-distributionconnector-collection-var-pagetitle",
 				"bs-distributionconnector-collection-var-numberhits"
 			]
+		},
+		"ext.bluespice.distributionconnector.workflows.forms": {
+			"scripts": [
+				"workflows/GroupCollectDataForm.js",
+				"workflows/UserCollectDataForm.js",
+				"workflows/EditorialReviewCollectDataForm.js",
+				"workflows/RevisionControlCollectDataForm.js",
+				"workflows/ThreeStepApprovalCollectDataForm.js"
+			],
+			"messages": [
+				"bs-distributionconnector-workflows-form-groupname",
+				"bs-distributionconnector-workflows-form-instructions",
+				"bs-distributionconnector-workflows-form-username",
+				"bs-distributionconnector-workflows-form-step-one-user",
+				"bs-distributionconnector-workflows-form-step-one-group",
+				"bs-distributionconnector-workflows-form-step-one-instructions",
+				"bs-distributionconnector-workflows-form-step-two-user",
+				"bs-distributionconnector-workflows-form-step-two-instructions",
+				"bs-distributionconnector-workflows-form-step-three-user",
+				"bs-distributionconnector-workflows-form-step-three-instructions"
+			],
+			"dependencies": [
+				"ext.bluespice",
+				"ext.oOJSPlus.userPicker"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {

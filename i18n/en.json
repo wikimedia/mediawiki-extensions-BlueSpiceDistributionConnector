@@ -69,5 +69,17 @@
 	"workflows-file-repository-definition-user-approval-title": "User approval",
 	"workflows-file-repository-definition-user-approval-desc": "Ask a user for reviewing and approving a page. Once the voting is complete, you'll get notified by email concerning the voting result",
 	"workflows-file-repository-definition-user-control-title": "User feedback",
-	"workflows-file-repository-definition-user-control-desc": "Ask a user for feedback while reviewing a page. Once the voting is complete, you'll get notified by email concerning the result"
+	"workflows-file-repository-definition-user-control-desc": "Ask a user for feedback while reviewing a page. Once the voting is complete, you'll get notified by email concerning the result",
+	"bs-distributionconnector-workflows-form-groupname": "Group",
+	"bs-distributionconnector-workflows-form-instructions": "Instructions",
+	"bs-distributionconnector-workflows-form-username": "User",
+	"bs-distributionconnector-workflows-form-step-one-user": "Step 1: User",
+	"bs-distributionconnector-workflows-form-step-one-group": "Step 1: Group",
+	"bs-distributionconnector-workflows-form-step-one-instructions": "Step 1: Instructions",
+	"bs-distributionconnector-workflows-form-step-two-user": "Step 2: User",
+	"bs-distributionconnector-workflows-form-step-two-instructions": "Step 2: Instructions",
+	"bs-distributionconnector-workflows-form-step-three-user": "Step 3: User",
+	"bs-distributionconnector-workflows-form-step-three-instructions": "Step 3: Instructions",
+	"bs-distributionconnector-workflows-form-comment": "Comment",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Comment"
 }
