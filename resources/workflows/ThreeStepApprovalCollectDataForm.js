@@ -10,36 +10,41 @@
 		return [
 			{
 				name: 'groupname',
-				label: mw.message( 'bs-distributionconnector-workflows-form-step-one-group' ).text(),
+				label: mw.message( 'bs-distributionconnector-workflows-form-groupname' ).text(),
 				type: 'group_picker',
 				required: true
 			},
 			{
 				name: 'instructionsGroup',
-				label: mw.message( 'bs-distributionconnector-workflows-form-step-one-instructions' ).text(),
-				type: 'textarea',
+				label: mw.message( 'bs-distributionconnector-workflows-form-group-instructions' ).text(),
+				type: 'wikitext',
 			},
 			{
 				name: 'usernameExpert',
-				label: mw.message( 'bs-distributionconnector-workflows-form-step-two-user' ).text(),
+				label: mw.message( 'bs-distributionconnector-workflows-form-expert-user' ).text(),
 				type: 'user_picker',
 				required: true
 			},
 			{
 				name: 'instructionsExpert',
-				label: mw.message( 'bs-distributionconnector-workflows-form-step-two-instructions' ).text(),
-				type: 'textarea'
+				label: mw.message( 'bs-distributionconnector-workflows-form-expert-instructions' ).text(),
+				type: 'wikitext'
 			},
 			{
 				name: 'usernameHead',
-				label: mw.message( 'bs-distributionconnector-workflows-form-step-three-user' ).text(),
+				label: mw.message( 'bs-distributionconnector-workflows-form-head-user' ).text(),
 				type: 'user_picker',
 				required: true
 			},
 			{
 				name: 'instructionsHead',
-				label: mw.message( 'bs-distributionconnector-workflows-form-step-three-instructions' ).text(),
-				type: 'textarea'
+				label: mw.message( 'bs-distributionconnector-workflows-form-head-instructions' ).text(),
+				type: 'wikitext'
+			},
+			{
+				name: 'reportrecipient',
+				label: mw.message( 'bs-distributionconnector-workflows-form-reportrecipient' ).text(),
+				type: 'text'
 			}
 		];
 	};

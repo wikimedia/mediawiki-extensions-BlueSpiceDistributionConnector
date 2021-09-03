@@ -17,35 +17,43 @@
     <bpmn:sequenceFlow id="FromTheStartToCollectData" sourceRef="TheStart" targetRef="CollectData" />
 
     <!-- CollectData -->
-    <bpmn:task id="CollectData" name="CollectData">
+    <bpmn:userTask id="CollectData" name="CollectData">
         <bpmn:extensionElements>
             <wf:type>custom_form</wf:type>
-            <wf:form>MediaWiki:Workflows/CollectDataForUserApproval.form</wf:form>
+            <wf:formModule>
+				<wf:module>ext.bluespice.distributionconnector.workflows.forms</wf:module>
+				<wf:class>bs.distributionConnector.workflows.form.UserCollectData</wf:class>
+			</wf:formModule>
             <wf:initializer>true</wf:initializer>
         </bpmn:extensionElements>
 
-        <bpmn:property name="assigned_user" default="{{{CollectData.originator}}}" />
-        <bpmn:property name="username">{{#show:{{NAMESPACE}}|?Process_owner}}</bpmn:property>
+        <bpmn:property name="username"></bpmn:property>
         <bpmn:property name="instructions"></bpmn:property>
-        <bpmn:property name="reportrecipient">qm@company.com</bpmn:property>
+        <bpmn:property name="reportrecipient"></bpmn:property>
 
         <bpmn:incoming>FromTheStartToCollectData</bpmn:incoming>
         <bpmn:outgoing>FromCollectDataToUserVote</bpmn:outgoing>
-    </bpmn:task>
+    </bpmn:userTask>
     <bpmn:sequenceFlow id="FromCollectDataToUserVote" sourceRef="CollectData" targetRef="UserVote" />
 
     <!-- Collect user vote -->
-    <bpmn:task id="UserVote" name="UserVote">
+    <bpmn:userTask id="UserVote" name="UserVote">
         <bpmn:extensionElements>
             <wf:type>user_vote</wf:type>
         </bpmn:extensionElements>
 
-        <bpmn:property name="assigned_user">{{{CollectData.username}}}</bpmn:property>
         <bpmn:property name="instructions">{{{CollectData.instructions}}}</bpmn:property>
+        <bpmn:property name="vote"></bpmn:property>
+        <bpmn:property name="comment"></bpmn:property>
+        <bpmn:property name="delegate_to"></bpmn:property>
+        <bpmn:property name="delegate_comment"></bpmn:property>
+        <!-- Hidden -->
+        <bpmn:property name="assigned_user">{{{CollectData.username}}}</bpmn:property>
+        <bpmn:property name="action"></bpmn:property>
 
         <bpmn:incoming>FromCollectDataToUserVote</bpmn:incoming>
         <bpmn:outgoing>FromUserVoteToGateway</bpmn:outgoing>
-    </bpmn:task>
+    </bpmn:userTask>
     <bpmn:sequenceFlow id="FromUserVoteToGateway" sourceRef="UserVote" targetRef="Gateway" />
 
     <!-- Check on voting -->
@@ -54,8 +62,8 @@
         <bpmn:outgoing>FromGatewayToApproveRevision</bpmn:outgoing>
         <bpmn:outgoing>FromGatewayToTheEnd</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:sequenceFlow id="FromGatewayToApproveRevision" name="YES" sourceRef="Gateway" targetRef="ApproveRevision" />
-    <bpmn:sequenceFlow id="FromGatewayToTheEnd" name="NO" sourceRef="Gateway" targetRef="TheEnd" />
+    <bpmn:sequenceFlow id="FromGatewayToApproveRevision" name="yes" sourceRef="Gateway" targetRef="ApproveRevision" />
+    <bpmn:sequenceFlow id="FromGatewayToTheEnd" name="no" sourceRef="Gateway" targetRef="TheEnd" />
 
     <!-- Approve revision -->
     <bpmn:task id="ApproveRevision" name="ApproveRevision">
@@ -63,7 +71,6 @@
 			<wf:type>approve_revision</wf:type>
 		</bpmn:extensionElements>
 
-		<bpmn:property name="revisionid">{{{UserVote.revisionid}}}</bpmn:property>
 		<bpmn:property name="comment">{{{UserVote.comment}}}</bpmn:property>
 
     <bpmn:incoming>FromGatewayToApproveRevision</bpmn:incoming>
@@ -78,8 +85,8 @@
 		</bpmn:extensionElements>
 
 		<bpmn:property name="recipient" default="{{{CollectData.reportrecipient}}}"/>
-		<bpmn:property name="subject">{{{intl:workflow-default-user-approval-report-subject}}}</bpmn:property>
-		<bpmn:property name="body">{{{intl:workflow-default-user-approval-report-body}}}</bpmn:property>
+		<bpmn:property name="subject">{{{int:workflow-default-user-approval-report-subject}}}</bpmn:property>
+		<bpmn:property name="body">{{{int:workflow-default-user-approval-report-body}}}</bpmn:property>
 
       <bpmn:incoming>FromApproveRevisionToSendMail</bpmn:incoming>
       <bpmn:outgoing>FromSendMailToTheEnd</bpmn:outgoing>

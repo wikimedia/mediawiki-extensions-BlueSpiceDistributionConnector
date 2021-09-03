@@ -10,42 +10,60 @@
 			<wf:contextItem name="revision"/>
 		</wf:context>
 	</bpmn:extensionElements>
-    <!-- startEvent -->
+
+    <!-- StartEvent -->
     <bpmn:startEvent id="TheStart">
         <bpmn:outgoing>FromTheStartToCollectData</bpmn:outgoing>
     </bpmn:startEvent>
     <bpmn:sequenceFlow id="FromTheStartToCollectData" sourceRef="TheStart" targetRef="CollectData" />
 
     <!-- CollectData -->
-    <bpmn:task id="CollectData" name="CollectData">
+    <bpmn:userTask id="CollectData" name="CollectData">
          <bpmn:extensionElements>
             <wf:type>custom_form</wf:type>
-            <wf:form>MediaWiki:Workflows/CollectDataForGroupApproval.form</wf:form>
+			<wf:formModule>
+				<wf:module>ext.bluespice.distributionconnector.workflows.forms</wf:module>
+				<wf:class>bs.distributionConnector.workflows.form.GroupCollectData</wf:class>
+			</wf:formModule>
             <wf:initializer>true</wf:initializer>
         </bpmn:extensionElements>
 
-        <bpmn:property name="assigned_user" default="{{{CollectData.originator}}}" />
-        <bpmn:property name="groupname">{{#show:{{NAMESPACE}}|?Process_owner}}</bpmn:property>
+        <bpmn:property name="groupname"></bpmn:property>
         <bpmn:property name="instructions"></bpmn:property>
-        <bpmn:property name="reportrecipient">qm@company.com</bpmn:property>
+        <bpmn:property name="reportrecipient"></bpmn:property>
 
         <bpmn:incoming>FromTheStartToCollectData</bpmn:incoming>
         <bpmn:outgoing>FromCollectDataToGroupVote</bpmn:outgoing>
-    </bpmn:task>
+    </bpmn:userTask>
     <bpmn:sequenceFlow id="FromCollectDataToGroupVote" sourceRef="CollectData" targetRef="GroupVote" />
 
     <!-- Collect group vote -->
-    <bpmn:task id="GroupVote" name="GroupVote">
+    <bpmn:userTask id="GroupVote" name="GroupVote">
         <bpmn:extensionElements>
             <wf:type>group_vote</wf:type>
+            <!--<wf:threshold>
+            	<wf:accept>
+            		<wf:value>50</wf:value>
+            		<wf:unit>percent</wf:unit>
+            	</wf:accept>
+           		<wf:decline>
+					<wf:value>1</wf:value>
+					<wf:unit>user</wf:unit>
+				</wf:decline>
+            </wf:threshold>-->
         </bpmn:extensionElements>
 
         <bpmn:property name="assigned_group">{{{CollectData.groupname}}}</bpmn:property>
         <bpmn:property name="instructions">{{{CollectData.instructions}}}</bpmn:property>
+        <bpmn:property name="comment"></bpmn:property>
+        <bpmn:property name="users_voted"></bpmn:property>
+        <bpmn:property name="vote_summary"></bpmn:property>
+        <bpmn:property name="vote"></bpmn:property>
 
         <bpmn:incoming>FromCollectDataToGroupVote</bpmn:incoming>
         <bpmn:outgoing>FromGroupVoteToGateway</bpmn:outgoing>
-    </bpmn:task>
+        <bpmn:standardLoopCharacteristics />
+    </bpmn:userTask>
     <bpmn:sequenceFlow id="FromGroupVoteToGateway" sourceRef="GroupVote" targetRef="Gateway" />
 
     <!-- Check on voting -->
@@ -54,8 +72,8 @@
       <bpmn:outgoing>FromGatewayToApproveRevision</bpmn:outgoing>
       <bpmn:outgoing>FromGatewayToTheEnd</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:sequenceFlow id="FromGatewayToApproveRevision" name="YES" sourceRef="Gateway" targetRef="ApproveRevision" />
-    <bpmn:sequenceFlow id="FromGatewayToTheEnd" name="NO" sourceRef="Gateway" targetRef="TheEnd" />
+    <bpmn:sequenceFlow id="FromGatewayToApproveRevision" name="yes" sourceRef="Gateway" targetRef="ApproveRevision" />
+    <bpmn:sequenceFlow id="FromGatewayToTheEnd" name="no" sourceRef="Gateway" targetRef="TheEnd" />
 
     <!-- Approve revision -->
     <bpmn:task id="ApproveRevision" name="ApproveRevision">
@@ -78,8 +96,8 @@
 		</bpmn:extensionElements>
 
 		<bpmn:property name="recipient" default="{{{CollectData.reportrecipient}}}"/>
-		<bpmn:property name="subject">{{{intl:workflow-default-group-approval-report-subject}}}</bpmn:property>
-		<bpmn:property name="body">{{{intl:workflow-default-group-approval-report-body}}}</bpmn:property>
+		<bpmn:property name="subject">{{{int:workflow-default-group-approval-report-subject}}}</bpmn:property>
+		<bpmn:property name="body">{{{int:workflow-default-group-approval-report-body}}}</bpmn:property>
 
       <bpmn:incoming>FromApproveRevisionToSendMail</bpmn:incoming>
       <bpmn:outgoing>FromSendMailToTheEnd</bpmn:outgoing>
