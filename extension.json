@@ -153,16 +153,15 @@
 		},
 		"Workflows": {
 			"WorkflowDefinitions": {
-				"data-collector": "BlueSpiceDistributionConnector/workflow/DataCollector.bpmn",
 				"editorial-review": "BlueSpiceDistributionConnector/workflow/EditorialReview.bpmn",
 				"four-eye-principle": "BlueSpiceDistributionConnector/workflow/FourEyePrinciple.bpmn",
 				"group-approval": "BlueSpiceDistributionConnector/workflow/GroupApproval.bpmn",
-				"group-control": "BlueSpiceDistributionConnector/workflow/GroupControl.bpmn",
+				"group-feedback": "BlueSpiceDistributionConnector/workflow/GroupFeedback.bpmn",
 				"revision-control": "BlueSpiceDistributionConnector/workflow/RevisionControl.bpmn",
-				"three-stage-feedback-collection": "BlueSpiceDistributionConnector/workflow/ThreeStageFeedbackCollection.bpmn",
+				"six-eyes-principle": "BlueSpiceDistributionConnector/workflow/SixEyesPrinciple.bpmn",
 				"three-step-approval": "BlueSpiceDistributionConnector/workflow/ThreeStepApproval.bpmn",
 				"user-approval": "BlueSpiceDistributionConnector/workflow/UserApproval.bpmn",
-				"user-control": "BlueSpiceDistributionConnector/workflow/UserControl.bpmn"
+				"user-feedback": "BlueSpiceDistributionConnector/workflow/UserFeedback.bpmn"
 			}
 		},
 		"BlueSpiceExtendedStatistics": {
@@ -254,24 +253,28 @@
 				"workflows/GroupCollectDataForm.js",
 				"workflows/UserCollectDataForm.js",
 				"workflows/EditorialReviewCollectDataForm.js",
+				"workflows/FourEyesPrincipleCollectDataForm.js",
 				"workflows/RevisionControlCollectDataForm.js",
-				"workflows/ThreeStepApprovalCollectDataForm.js"
+				"workflows/ThreeStepApprovalCollectDataForm.js",
+				"workflows/Feedback.js"
 			],
 			"messages": [
 				"bs-distributionconnector-workflows-form-groupname",
 				"bs-distributionconnector-workflows-form-instructions",
 				"bs-distributionconnector-workflows-form-username",
-				"bs-distributionconnector-workflows-form-step-one-user",
-				"bs-distributionconnector-workflows-form-step-one-group",
-				"bs-distributionconnector-workflows-form-step-one-instructions",
-				"bs-distributionconnector-workflows-form-step-two-user",
-				"bs-distributionconnector-workflows-form-step-two-instructions",
-				"bs-distributionconnector-workflows-form-step-three-user",
-				"bs-distributionconnector-workflows-form-step-three-instructions"
+				"bs-distributionconnector-workflows-form-expert-user",
+				"bs-distributionconnector-workflows-form-expert-instructions",
+				"bs-distributionconnector-workflows-form-tw-user",
+				"bs-distributionconnector-workflows-form-tw-instructions",
+				"bs-distributionconnector-workflows-form-head-user",
+				"bs-distributionconnector-workflows-form-head-instructions",
+				"bs-distributionconnector-workflows-form-reportrecipient",
+				"bs-distributionconnector-workflows-form-feedback",
+				"bs-distributionconnector-workflows-form-group-instructions"
 			],
 			"dependencies": [
 				"ext.bluespice",
-				"ext.oOJSPlus.userPicker"
+				"ext.oOJSPlus.formelements"
 			]
 		}
 	},

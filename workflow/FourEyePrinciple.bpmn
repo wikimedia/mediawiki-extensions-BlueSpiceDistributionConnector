@@ -10,6 +10,7 @@
 			<wf:contextItem name="revision"/>
 		</wf:context>
 	</bpmn:extensionElements>
+
     <!-- StartEvent -->
     <bpmn:startEvent id="TheStart">
         <bpmn:outgoing>FromTheStartToCollectData</bpmn:outgoing>
@@ -17,54 +18,67 @@
     <bpmn:sequenceFlow id="FromTheStartToCollectData" sourceRef="TheStart" targetRef="CollectData" />
 
     <!-- CollectData -->
-    <bpmn:task id="CollectData" name="Collect Data">
+    <bpmn:userTask id="CollectData" name="Collect Data">
          <bpmn:extensionElements>
             <wf:type>custom_form</wf:type>
-            <wf:form>MediaWiki:Workflows/CollectDataForEditorialReview.form</wf:form>
+            <wf:formModule>
+				<wf:module>ext.bluespice.distributionconnector.workflows.forms</wf:module>
+				<wf:class>bs.distributionConnector.workflows.form.FourEyesPrincipleCollectData</wf:class>
+			</wf:formModule>
             <wf:initializer>true</wf:initializer>
         </bpmn:extensionElements>
 
-        <bpmn:property name="assigned_user" default="{{{WorkflowContext.originator}}}"/>
-
-        <bpmn:property name="usernameExpert">{{#show:{{NAMESPACE}}|?Expert}}</bpmn:property>
+        <bpmn:property name="usernameExpert"></bpmn:property>
         <bpmn:property name="instructionsExpert"></bpmn:property>
 
-        <bpmn:property name="usernameHead">{{#show:{{NAMESPACE}}|?Head}}</bpmn:property>
+        <bpmn:property name="usernameHead"></bpmn:property>
         <bpmn:property name="instructionsHead"></bpmn:property>
 
-        <bpmn:property name="reportrecipient">qm@company.com</bpmn:property>
+        <bpmn:property name="reportrecipient"></bpmn:property>
 
         <bpmn:incoming>FromTheStartToCollectData</bpmn:incoming>
         <bpmn:outgoing>FromCollectDataToUserVoteExpert</bpmn:outgoing>
-    </bpmn:task>
+    </bpmn:userTask>
     <bpmn:sequenceFlow id="FromCollectDataToUserVoteExpert" sourceRef="CollectData" targetRef="UserVoteExpert" />
 
     <!-- Ask the expert -->
-    <bpmn:task id="UserVoteExpert" name="UserVote">
+    <bpmn:userTask id="UserVoteExpert" name="UserVote">
         <bpmn:extensionElements>
-            <wf:type>user_vote</wf:type>
+            <wf:type>custom_form</wf:type>
+            <wf:formModule>
+				<wf:module>ext.bluespice.distributionconnector.workflows.forms</wf:module>
+				<wf:class>bs.distributionConnector.workflows.form.Feedback</wf:class>
+			</wf:formModule>
         </bpmn:extensionElements>
 
-        <bpmn:property name="assigned_user">{{{CollectData.usernameExpert}}}</bpmn:property>
-        <bpmn:property name="instructions">{{{CollectData.instructionsExpert}}}</bpmn:property>
+        <bpmn:property name="instructions" default="{{{CollectData.instructionsExpert}}}" />
+		<bpmn:property name="comment"></bpmn:property>
+		<!-- Hidden -->
+		<bpmn:property name="assigned_user" default="{{{CollectData.usernameExpert}}}" />
 
         <bpmn:incoming>FromCollectDataToUserVoteExpert</bpmn:incoming>
         <bpmn:outgoing>FromUserVoteExpertToUserVoteHead</bpmn:outgoing>
-    </bpmn:task>
+    </bpmn:userTask>
     <bpmn:sequenceFlow id="FromUserVoteExpertToUserVoteHead" sourceRef="UserVoteExpert" targetRef="UserVoteHead" />
 
     <!-- Ask the boss -->
-    <bpmn:task id="UserVoteHead" name="UserVote">
+    <bpmn:userTask id="UserVoteHead" name="UserVote">
          <bpmn:extensionElements>
-            <wf:type>user_vote</wf:type>
-        </bpmn:extensionElements>
+			 <wf:type>custom_form</wf:type>
+			 <wf:formModule>
+				<wf:module>ext.bluespice.distributionconnector.workflows.forms</wf:module>
+				<wf:class>bs.distributionConnector.workflows.form.Feedback</wf:class>
+			</wf:formModule>
+		 </bpmn:extensionElements>
 
-        <bpmn:property name="assigned_user">{{{CollectData.usernameHead}}}</bpmn:property>
-        <bpmn:property name="instructions">{{{CollectData.instructionsHead}}}</bpmn:property>
+		<bpmn:property name="instructions" default="{{{CollectData.instructionsHead}}}" />
+		<bpmn:property name="comment"></bpmn:property>
+		<!-- Hidden -->
+		<bpmn:property name="assigned_user" default="{{{CollectData.usernameHead}}}" />
 
         <bpmn:incoming>FromUserVoteExpertToUserVoteHead</bpmn:incoming>
         <bpmn:outgoing>FromUserVoteHeadToSendMail</bpmn:outgoing>
-    </bpmn:task>
+    </bpmn:userTask>
     <bpmn:sequenceFlow id="FromUserVoteHeadToSendMail" sourceRef="UserVoteHead" targetRef="SendMail" />
 
     <!-- Send mail -->
@@ -74,7 +88,7 @@
         </bpmn:extensionElements>
 
         <bpmn:property name="recipient">{{{CollectData.reportrecipient}}}</bpmn:property>
-        <bpmn:property name="subject">{{int:workflow-default-feedback-four-eyes-principle-report-subject|{{{WorkflowContext.pagetitle}}}}}</bpmn:property>
+        <bpmn:property name="subject">{{int:workflow-default-feedback-four-eyes-principle-report-subject|}}</bpmn:property>
         <bpmn:property name="body">{{int:workflow-default-feedback-four-eyes-principle-review-report-body|
             * {{{UserVoteExpert.username}}} (Expert): {{{UserVoteExpert.comment}}}
             * {{{UserVoteHead.username}}} (Head): {{{UserVoteHead.comment}}}}}

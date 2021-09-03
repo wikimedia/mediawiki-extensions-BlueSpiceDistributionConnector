@@ -1,13 +1,12 @@
 ( function ( mw, $, bs ) {
 	bs.util.registerNamespace( 'bs.distributionConnector.workflows.form' );
-
-	bs.distributionConnector.workflows.form.RevisionControlCollectData = function( cfg, activity ) {
-		bs.distributionConnector.workflows.form.RevisionControlCollectData.parent.call( this, cfg, activity );
+	bs.distributionConnector.workflows.form.FourEyesPrincipleCollectData = function( cfg, activity ) {
+		bs.distributionConnector.workflows.form.FourEyesPrincipleCollectData.parent.call( this, cfg, activity );
 	};
 
-	OO.inheritClass( bs.distributionConnector.workflows.form.RevisionControlCollectData, workflows.object.form.Form );
+	OO.inheritClass( bs.distributionConnector.workflows.form.FourEyesPrincipleCollectData, workflows.object.form.Form );
 
-	bs.distributionConnector.workflows.form.RevisionControlCollectData.prototype.getDefinitionItems = function() {
+	bs.distributionConnector.workflows.form.FourEyesPrincipleCollectData.prototype.getDefinitionItems = function() {
 		return [
 			{
 				name: 'usernameExpert',
@@ -29,7 +28,7 @@
 			{
 				name: 'instructionsHead',
 				label: mw.message( 'bs-distributionconnector-workflows-form-head-instructions' ).text(),
-				type: 'wikitext'
+				type: 'wikitext',
 			},
 			{
 				name: 'reportrecipient',

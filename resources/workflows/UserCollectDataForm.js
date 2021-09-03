@@ -17,7 +17,12 @@
 			{
 				name: 'instructions',
 				label: mw.message( 'bs-distributionconnector-workflows-form-instructions' ).text(),
-				type: 'textarea'
+				type: 'wikitext'
+			},
+			{
+				name: 'reportrecipient',
+				label: mw.message( 'bs-distributionconnector-workflows-form-reportrecipient' ).text(),
+				type: 'text'
 			}
 		];
 	};
