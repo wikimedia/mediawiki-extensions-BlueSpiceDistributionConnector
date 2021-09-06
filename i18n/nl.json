@@ -58,12 +58,12 @@
 	"workflow-default-editorial-review-report-body": "Dit is een rapport over het werkproces voor redactionele beoordelingen: $1",
 	"workflows-file-repository-definition-data-collector-title": "Gegevensverzamelaar",
 	"workflows-file-repository-definition-editorial-review-title": "Redactionele beoordeling",
-	"workflows-file-repository-definition-four-eye-principle-title": "Vier-ogen-principe",
+	"workflows-file-repository-definition-four-eye-principle-title": "Vierogenprincipe",
 	"workflows-file-repository-definition-group-approval-title": "Groepsgoedkeuring",
-	"workflows-file-repository-definition-group-control-title": "Groepsbeheer",
+	"workflows-file-repository-definition-group-control-title": "Groepsfeedback",
 	"workflows-file-repository-definition-revision-control-title": "Versiebeheer",
-	"workflows-file-repository-definition-three-stage-feedback-collection-title": "Inzameling van feedback in drie fasen",
+	"workflows-file-repository-definition-three-stage-feedback-collection-title": "Zesogenprincipe",
 	"workflows-file-repository-definition-three-step-approval-title": "Goedkeuring in drie stappen",
 	"workflows-file-repository-definition-user-approval-title": "Gebruikersgoedkeuring",
-	"workflows-file-repository-definition-user-control-title": "Gebruikersbeheer"
+	"workflows-file-repository-definition-user-control-title": "Gebruikersfeedback"
 }

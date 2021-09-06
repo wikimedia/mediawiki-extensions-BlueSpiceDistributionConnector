@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ajam",
+			"Darafsh",
 			"FarsiNevis",
 			"Jeeputer"
 		]
@@ -24,5 +25,6 @@
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "استفاده از نام واقعی به‌عنوان نام کاربری",
 	"bs-distributionconnector-pref-openidconnect-useemailasusername": "استفاده از نشانی ایمیل به‌عنوان نام کاربری",
 	"bs-distributionconnector-pref-openidconnect-config-icon": "نشانی آیکون",
-	"bs-distributionconnector-pref-openidconnect-config-proxy": "نشانی پروکسی"
+	"bs-distributionconnector-pref-openidconnect-config-proxy": "نشانی پروکسی",
+	"workflows-file-repository-definition-user-control-title": "بازخورد کاربر"
 }

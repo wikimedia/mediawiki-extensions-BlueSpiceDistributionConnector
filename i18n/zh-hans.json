@@ -7,6 +7,7 @@
 			"Dianliang233",
 			"Dimension",
 			"Func",
+			"GuoPC",
 			"Lakejason0",
 			"VulpesVulpes825",
 			"Zhang8569",
@@ -65,10 +66,10 @@
 	"workflows-file-repository-definition-editorial-review-title": "编辑审查评论",
 	"workflows-file-repository-definition-four-eye-principle-title": "四眼原则",
 	"workflows-file-repository-definition-group-approval-title": "群组支持",
-	"workflows-file-repository-definition-group-control-title": "群组控制",
+	"workflows-file-repository-definition-group-control-title": "群组反馈",
 	"workflows-file-repository-definition-revision-control-title": "修订控制",
-	"workflows-file-repository-definition-three-stage-feedback-collection-title": "三阶段反馈收集",
+	"workflows-file-repository-definition-three-stage-feedback-collection-title": "六眼原则",
 	"workflows-file-repository-definition-three-step-approval-title": "三步审批",
 	"workflows-file-repository-definition-user-approval-title": "用户许可",
-	"workflows-file-repository-definition-user-control-title": "用户控制"
+	"workflows-file-repository-definition-user-control-title": "用户反馈"
 }

@@ -3,7 +3,10 @@
 		"authors": [
 			"Agusbou2015",
 			"Fitoschido",
-			"Joanmp17"
+			"Ihojose",
+			"Joanmp17",
+			"Mnivar",
+			"Warming Hearth"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Conecta BlueSpice con varias extensiones para MediaWiki",
@@ -22,11 +25,18 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Ocultar prefijo",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Espacio de nombres",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Etiqueta de estilo CSS",
+	"bs-distributionconnector-hitcounters-sesp-alias": "Contador de ediciones",
+	"bs-distributionconnector-hitcounters-sesp-desc": "Contador de ediciones",
 	"bs-distributionconnector-collection-type-hitcounter": "Vistas de página",
 	"bs-distributionconnector-collection-var-pagetitle": "Título de página",
+	"bs-distributionconnector-collection-var-numberhits": "Vistas",
 	"bs-distributionconnector-setting-path-authentication": "Autenticación",
 	"bs-distributionconnector-pref-openidconnect-config": "Proveedor",
+	"bs-distributionconnector-pref-openidconnect-forcelogout": "Forzar cierre de sesión",
 	"bs-distributionconnector-pref-openidconnect-config-clientid": "Identificador de cliente",
+	"bs-distributionconnector-pref-openidconnect-config-name": "Nombre a mostrar",
+	"bs-distributionconnector-pref-openidconnect-config-icon": "URL de icono",
+	"bs-distributionconnector-pref-openidconnect-config-proxy": "URL de proxy",
 	"bs-distributionconnector-pref-openidconnect-config-scope": "Ámbito",
 	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "Nombre de usuario preferido",
 	"bs-distributionconnector-pref-openidconnect-config-authparam": "Parámetros de autenticación (JSON)",
@@ -36,5 +46,19 @@
 	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Delimitador para un atributo de «group» de un solo valor",
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Nombre de atributo para «realname»",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Nombre de atributo para «groups»",
-	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Nombre de atributo para «username»"
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Nombre de atributo para «username»",
+	"workflows-file-repository-definition-data-collector-desc": "Solicita comentarios a un grupo de usuarios y a dos usuarios individuales mientras revisan una página. Al finalizar la votación, serás notificado por email del resultado de la misma.",
+	"workflows-file-repository-definition-editorial-review-desc": "Solicita a tres usuarios que, independientemente, revisen y aprueben una página. Al finalizar la votación, serás notificado por email el resultado de la misma.",
+	"workflows-file-repository-definition-four-eye-principle-title": "Principio de los cuatro ojos",
+	"workflows-file-repository-definition-four-eye-principle-desc": "Solicita comentarios a un usuario mientras revisan una página. Una vez la votación haya finalizado, serás notificado por email el resultado de la misma.",
+	"workflows-file-repository-definition-group-approval-desc": "Solicita a un grupo de usuarios que revisen y aprueben una página. Al finalizar la votación, serás notificado por email del resultado de la misma.",
+	"workflows-file-repository-definition-group-control-title": "Comentarios del grupo",
+	"workflows-file-repository-definition-group-control-desc": "Solicita comentarios a un usuario mientras revisan una página. Una vez la votación haya finalizado, serás notificado por email el resultado de la misma.",
+	"workflows-file-repository-definition-revision-control-desc": "Solicita a dos usuarios que, independientemente, revisen y aprueben una página. Al finalizar la votación, serás notificado por email del resultado de la misma.",
+	"workflows-file-repository-definition-three-stage-feedback-collection-title": "Principio de los seis ojos",
+	"workflows-file-repository-definition-three-stage-feedback-collection-desc": "Pide a tres usuarios comentarios mientras revisan una pagina. Al final la votación, serás notificado por email del resultado de la misma.",
+	"workflows-file-repository-definition-three-step-approval-desc": "Solicite a un grupo de usuarios y dos usuarios, independientemente entre sí, para revisar y aprovar la página. Al finalizar la votación, serás notificado por email el resultado de la misma.",
+	"workflows-file-repository-definition-user-approval-desc": "Solicita a un usuario que revise y apruebe una página. Al finalizar la votación, serás notificado por email del resultado de la misma.",
+	"workflows-file-repository-definition-user-control-title": "Comentarios del usuario",
+	"workflows-file-repository-definition-user-control-desc": "Solicita comentarios a un usuario mientras revisan una página. Una vez la votación haya finalizado, serás notificado por email el resultado de la misma."
 }
