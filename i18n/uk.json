@@ -73,5 +73,17 @@
 	"workflows-file-repository-definition-user-approval-title": "Схвалення користувача",
 	"workflows-file-repository-definition-user-approval-desc": "Попросіть користувача переглянути та схвалити сторінку. Після завершення голосування ви отримаєте повідомлення електронною поштою щодо результатів голосування",
 	"workflows-file-repository-definition-user-control-title": "Відгук користувача",
-	"workflows-file-repository-definition-user-control-desc": "Попросіть користувача отримати відгук під час перегляду сторінки. Після завершення голосування ви отримаєте електронним листом повідомлення про результат"
+	"workflows-file-repository-definition-user-control-desc": "Попросіть користувача отримати відгук під час перегляду сторінки. Після завершення голосування ви отримаєте електронним листом повідомлення про результат",
+	"bs-distributionconnector-workflows-form-groupname": "Група",
+	"bs-distributionconnector-workflows-form-instructions": "Інструкції",
+	"bs-distributionconnector-workflows-form-username": "Користувач",
+	"bs-distributionconnector-workflows-form-step-one-user": "Крок 1: Користувач",
+	"bs-distributionconnector-workflows-form-step-one-group": "Крок 1: Група",
+	"bs-distributionconnector-workflows-form-step-one-instructions": "Крок 1: Інструкції",
+	"bs-distributionconnector-workflows-form-step-two-user": "Крок 2: Користувач",
+	"bs-distributionconnector-workflows-form-step-two-instructions": "Крок 2: Інструкції",
+	"bs-distributionconnector-workflows-form-step-three-user": "Крок 3: Користувач",
+	"bs-distributionconnector-workflows-form-step-three-instructions": "Крок 3: Інструкції",
+	"bs-distributionconnector-workflows-form-comment": "Коментар",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Коментар"
 }

@@ -75,5 +75,17 @@
 	"workflows-file-repository-definition-user-approval-title": "Gebruikersgoedkeuring",
 	"workflows-file-repository-definition-user-approval-desc": "Vraag een gebruiker om een pagina te beoordelen en goed te keuren. Zodra de stemming is voltooid, ontvangt u per e-mail een melding over het stemresultaat.",
 	"workflows-file-repository-definition-user-control-title": "Gebruikersfeedback",
-	"workflows-file-repository-definition-user-control-desc": "Vraag een gebruiker om feedback tijdens het beoordelen van een pagina. Zodra de stemming is voltooid, ontvangt u per e-mail bericht over het resultaat."
+	"workflows-file-repository-definition-user-control-desc": "Vraag een gebruiker om feedback tijdens het beoordelen van een pagina. Zodra de stemming is voltooid, ontvangt u per e-mail bericht over het resultaat.",
+	"bs-distributionconnector-workflows-form-groupname": "Groep",
+	"bs-distributionconnector-workflows-form-instructions": "Instructies",
+	"bs-distributionconnector-workflows-form-username": "Gebruiker",
+	"bs-distributionconnector-workflows-form-step-one-user": "Stap 1: Gebruiker",
+	"bs-distributionconnector-workflows-form-step-one-group": "Stap 1: Groep",
+	"bs-distributionconnector-workflows-form-step-one-instructions": "Stap 1: Instructies",
+	"bs-distributionconnector-workflows-form-step-two-user": "Stap 2: Gebruiker",
+	"bs-distributionconnector-workflows-form-step-two-instructions": "Stap 2: Instructies",
+	"bs-distributionconnector-workflows-form-step-three-user": "Stap 3: Gebruiker",
+	"bs-distributionconnector-workflows-form-step-three-instructions": "Stap 3: Instructies",
+	"bs-distributionconnector-workflows-form-comment": "Opmerking",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Opmerking"
 }

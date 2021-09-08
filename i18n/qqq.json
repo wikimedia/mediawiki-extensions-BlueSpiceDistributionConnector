@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Robby",
 			"Vlad5250"
 		]
 	},
@@ -72,9 +73,9 @@
 	"workflows-file-repository-definition-user-approval-desc": "Description for an option in a select dropdown",
 	"workflows-file-repository-definition-user-control-title": "Label in a select dropdown",
 	"workflows-file-repository-definition-user-control-desc": "Description for an option in a select dropdown",
-	"bs-distributionconnector-workflows-form-groupname": "Label in a form",
+	"bs-distributionconnector-workflows-form-groupname": "Label in a form\n{{identical|Group}}",
 	"bs-distributionconnector-workflows-form-instructions": "Label in a form",
-	"bs-distributionconnector-workflows-form-username": "Label in a form",
+	"bs-distributionconnector-workflows-form-username": "Label in a form\n{{identical|User}}",
 	"bs-distributionconnector-workflows-form-step-one-user": "Label in a form",
 	"bs-distributionconnector-workflows-form-step-one-group": "Label in a form",
 	"bs-distributionconnector-workflows-form-step-one-instructions": "Label in a form",
@@ -82,6 +83,6 @@
 	"bs-distributionconnector-workflows-form-step-two-instructions": "Label in a form",
 	"bs-distributionconnector-workflows-form-step-three-user": "Label in a form",
 	"bs-distributionconnector-workflows-form-step-three-instructions": "Label in a form",
-	"bs-distributionconnector-workflows-form-comment": "Label in a form",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "Placeholder in a form input field"
+	"bs-distributionconnector-workflows-form-comment": "Label in a form\n{{identical|Comment}}",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Placeholder in a form input field\n{{identical|Comment}}"
 }
