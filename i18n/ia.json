@@ -61,5 +61,8 @@
 	"workflows-file-repository-definition-three-stage-feedback-collection-title": "Principio de sex oculos",
 	"workflows-file-repository-definition-three-step-approval-title": "Approbation in tres passos",
 	"workflows-file-repository-definition-user-approval-title": "Approbation del usator",
-	"workflows-file-repository-definition-user-control-title": "Commentarios de usator"
+	"workflows-file-repository-definition-user-control-title": "Commentarios de usator",
+	"bs-distributionconnector-workflows-form-groupname": "Gruppo",
+	"bs-distributionconnector-workflows-form-instructions": "Instructiones",
+	"bs-distributionconnector-workflows-form-username": "Usator"
 }
