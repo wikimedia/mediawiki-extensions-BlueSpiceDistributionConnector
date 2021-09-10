@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hanna Tardos"
+		]
+	},
+	"bs-distributionconnector-workflows-form-groupname": "Csoport",
+	"bs-distributionconnector-workflows-form-username": "Felhasználó",
+	"bs-distributionconnector-workflows-form-comment": "Megjegyzés",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Megjegyzés"
+}

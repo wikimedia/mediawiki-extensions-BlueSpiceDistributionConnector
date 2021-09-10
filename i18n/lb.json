@@ -6,5 +6,18 @@
 	},
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Nummraum",
 	"bs-distributionconnector-collection-var-pagetitle": "Titel vun der Säit",
-	"workflows-file-repository-definition-user-control": "Benotzerkontroll"
+	"workflows-file-repository-definition-user-control": "Benotzerkontroll",
+	"workflows-file-repository-definition-user-control-title": "Benotzer-Feedback",
+	"bs-distributionconnector-workflows-form-groupname": "Grupp",
+	"bs-distributionconnector-workflows-form-instructions": "Instruktiounen",
+	"bs-distributionconnector-workflows-form-username": "Benotzer",
+	"bs-distributionconnector-workflows-form-step-one-user": "Schrëtt 1: Benotzer",
+	"bs-distributionconnector-workflows-form-step-one-group": "Schrëtt 1: Grupp",
+	"bs-distributionconnector-workflows-form-step-one-instructions": "Schrëtt 1:Instruktiounen",
+	"bs-distributionconnector-workflows-form-step-two-user": "Schrëtt 2: Benotzer",
+	"bs-distributionconnector-workflows-form-step-two-instructions": "Schrëtt 2:Instruktiounen",
+	"bs-distributionconnector-workflows-form-step-three-user": "Schrëtt 3: Benotzer",
+	"bs-distributionconnector-workflows-form-step-three-instructions": "Schrëtt 3: Instruktiounen",
+	"bs-distributionconnector-workflows-form-comment": "Bemierkung",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Bemierkung"
 }

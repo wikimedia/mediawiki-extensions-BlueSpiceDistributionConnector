@@ -3,11 +3,14 @@
 		"authors": [
 			"500000000006城",
 			"A Chinese Wikipedian",
+			"AYZ04",
 			"Dianliang233",
 			"Dimension",
 			"Func",
+			"GuoPC",
 			"Lakejason0",
 			"VulpesVulpes825",
+			"Zhang8569",
 			"列维劳德",
 			"沈澄心",
 			"铁桶"
@@ -52,5 +55,21 @@
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "“realname”的属性名",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "“groups”的属性名",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "“username”的属性名",
-	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "页面点击量"
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "页面点击量",
+	"bs-distributionconnector-extension-description": "将BlueSpice连接到各种MediaWiki的扩展",
+	"bs-distributionconnector-pref-openidconnect-config-key": "发行人的网址",
+	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "首选的用户名",
+	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "验证同行",
+	"workflow-default-editorial-review-report-subject": "‘$1’的编辑复查评论已经完成！",
+	"workflow-default-editorial-review-report-body": "有一个关于编辑审查的工作流：$1",
+	"workflows-file-repository-definition-data-collector-title": "数据收集器",
+	"workflows-file-repository-definition-editorial-review-title": "编辑审查评论",
+	"workflows-file-repository-definition-four-eye-principle-title": "四眼原则",
+	"workflows-file-repository-definition-group-approval-title": "群组支持",
+	"workflows-file-repository-definition-group-control-title": "群组反馈",
+	"workflows-file-repository-definition-revision-control-title": "修订控制",
+	"workflows-file-repository-definition-three-stage-feedback-collection-title": "六眼原则",
+	"workflows-file-repository-definition-three-step-approval-title": "三步审批",
+	"workflows-file-repository-definition-user-approval-title": "用户许可",
+	"workflows-file-repository-definition-user-control-title": "用户反馈"
 }

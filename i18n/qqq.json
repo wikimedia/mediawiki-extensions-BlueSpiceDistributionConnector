@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Robby",
 			"Vlad5250"
 		]
 	},
@@ -62,5 +63,37 @@
 	"workflows-file-repository-definition-three-stage-feedback-collection": "Label in a select dropdown",
 	"workflows-file-repository-definition-three-step-approval": "Label in a select dropdown",
 	"workflows-file-repository-definition-user-approval": "Label in a select dropdown",
-	"workflows-file-repository-definition-user-control": "Label in a select dropdown"
+	"workflows-file-repository-definition-user-control": "Label in a select dropdown",
+	"workflows-file-repository-definition-data-collector-title": "Label in a select dropdown",
+	"workflows-file-repository-definition-data-collector-desc": "Description for an option in a select dropdown",
+	"workflows-file-repository-definition-editorial-review-title": "Label in a select dropdown",
+	"workflows-file-repository-definition-editorial-review-desc": "Description for an option in a select dropdown",
+	"workflows-file-repository-definition-four-eye-principle-title": "Label in a select dropdown",
+	"workflows-file-repository-definition-four-eye-principle-desc": "Description for an option in a select dropdown",
+	"workflows-file-repository-definition-group-approval-title": "Label in a select dropdown",
+	"workflows-file-repository-definition-group-approval-desc": "Description for an option in a select dropdown",
+	"workflows-file-repository-definition-group-control-title": "Label in a select dropdown",
+	"workflows-file-repository-definition-group-control-desc": "Description for an option in a select dropdown",
+	"workflows-file-repository-definition-revision-control-title": "Label in a select dropdown",
+	"workflows-file-repository-definition-revision-control-desc": "Description for an option in a select dropdown",
+	"workflows-file-repository-definition-three-stage-feedback-collection-title": "Label in a select dropdown",
+	"workflows-file-repository-definition-three-stage-feedback-collection-desc": "Description for an option in a select dropdown",
+	"workflows-file-repository-definition-three-step-approval-title": "Label in a select dropdown",
+	"workflows-file-repository-definition-three-step-approval-desc": "Description for an option in a select dropdown",
+	"workflows-file-repository-definition-user-approval-title": "Label in a select dropdown",
+	"workflows-file-repository-definition-user-approval-desc": "Description for an option in a select dropdown",
+	"workflows-file-repository-definition-user-control-title": "Label in a select dropdown",
+	"workflows-file-repository-definition-user-control-desc": "Description for an option in a select dropdown",
+	"bs-distributionconnector-workflows-form-groupname": "Label in a form\n{{identical|Group}}",
+	"bs-distributionconnector-workflows-form-instructions": "Label in a form",
+	"bs-distributionconnector-workflows-form-username": "Label in a form\n{{identical|User}}",
+	"bs-distributionconnector-workflows-form-step-one-user": "Label in a form",
+	"bs-distributionconnector-workflows-form-step-one-group": "Label in a form",
+	"bs-distributionconnector-workflows-form-step-one-instructions": "Label in a form",
+	"bs-distributionconnector-workflows-form-step-two-user": "Label in a form",
+	"bs-distributionconnector-workflows-form-step-two-instructions": "Label in a form",
+	"bs-distributionconnector-workflows-form-step-three-user": "Label in a form",
+	"bs-distributionconnector-workflows-form-step-three-instructions": "Label in a form",
+	"bs-distributionconnector-workflows-form-comment": "Label in a form\n{{identical|Comment}}",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Placeholder in a form input field\n{{identical|Comment}}"
 }
