@@ -1,10 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Joquliina"
+			"Joquliina",
+			"MITO"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "Verkkotunnuksesi",
 	"bs-distributionconnector-collection-var-pagetitle": "Sivun otsikko",
-	"bs-distributionconnector-pref-openidconnect-forcelogout": "Pakota uloskirjautuminen"
+	"bs-distributionconnector-pref-openidconnect-forcelogout": "Pakota uloskirjautuminen",
+	"bs-distributionconnector-workflows-form-groupname": "Ryhmä",
+	"bs-distributionconnector-workflows-form-instructions": "Ohjeet",
+	"bs-distributionconnector-workflows-form-username": "Käyttäjä",
+	"bs-distributionconnector-workflows-form-step-one-user": "Vaihe 1: Käyttäjä",
+	"bs-distributionconnector-workflows-form-step-one-group": "Vaihe 1: Ryhmä",
+	"bs-distributionconnector-workflows-form-step-one-instructions": "Vaihe 1: Ohjeet",
+	"bs-distributionconnector-workflows-form-step-two-user": "Vaihe 2: Käyttäjä",
+	"bs-distributionconnector-workflows-form-step-two-instructions": "Vaihe 2: Ohjeet",
+	"bs-distributionconnector-workflows-form-step-three-user": "Vaihe 3: Käyttäjä",
+	"bs-distributionconnector-workflows-form-step-three-instructions": "Vaihe 3: Ohjeet",
+	"bs-distributionconnector-workflows-form-comment": "Kommentti",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Kommentti"
 }
