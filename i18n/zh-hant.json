@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Impartial just",
-			"Kly"
+			"Kly",
+			"Winston Sung"
 		]
 	},
 	"bs-distributionconnector-extension-description": "連接 BlueSpice 至各種 MediaWiki 擴充套件",
@@ -46,5 +47,10 @@
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "用於「groups」屬性名稱",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "用於「username」屬性名稱",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "頁面點擊數",
-	"workflows-file-repository-definition-user-control-title": "使用者控制"
+	"workflows-file-repository-definition-revision-control-title": "修訂控制",
+	"workflows-file-repository-definition-user-control-title": "使用者回饋",
+	"bs-distributionconnector-workflows-form-groupname": "群組",
+	"bs-distributionconnector-workflows-form-username": "使用者",
+	"bs-distributionconnector-workflows-form-comment": "評論",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "評論"
 }
