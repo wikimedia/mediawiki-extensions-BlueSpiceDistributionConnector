@@ -81,5 +81,8 @@
 	"bs-distributionconnector-workflows-form-step-three-user": "Step 3: User",
 	"bs-distributionconnector-workflows-form-step-three-instructions": "Step 3: Instructions",
 	"bs-distributionconnector-workflows-form-comment": "Comment",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "Comment"
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Comment",
+	"bs-distributionconnector-statistics-report-page-hits": "Visits per page",
+	"bs-distributionconnector-statistics-report-page-trends": "Visit trends per page",
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% growth"
 }

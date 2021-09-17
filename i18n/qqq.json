@@ -84,5 +84,8 @@
 	"bs-distributionconnector-workflows-form-step-three-user": "Label in a form",
 	"bs-distributionconnector-workflows-form-step-three-instructions": "Label in a form",
 	"bs-distributionconnector-workflows-form-comment": "Label in a form\n{{identical|Comment}}",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "Placeholder in a form input field\n{{identical|Comment}}"
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Placeholder in a form input field\n{{identical|Comment}}",
+	"bs-distributionconnector-statistics-report-page-hits": "Statistics report name",
+	"bs-distributionconnector-statistics-report-page-trends": "Statistics report name",
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "Label for the \"value\" axis"
 }
