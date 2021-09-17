@@ -61,5 +61,8 @@
 	"workflows-file-repository-definition-three-stage-feedback-collection-title": "Label in a select dropdown",
 	"workflows-file-repository-definition-three-step-approval-title": "Label in a select dropdown",
 	"workflows-file-repository-definition-user-approval-title": "Label in a select dropdown",
-	"workflows-file-repository-definition-user-control-title": "Label in a select dropdown"
+	"workflows-file-repository-definition-user-control-title": "Label in a select dropdown",
+	"bs-distributionconnector-statistics-report-page-hits": "Statistics report name",
+	"bs-distributionconnector-statistics-report-page-trends": "Statistics report name",
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "Label for the \"value\" axis"
 }

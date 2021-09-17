@@ -59,5 +59,8 @@
 	"workflows-file-repository-definition-three-stage-feedback-collection-title": "Three-stage feedback collection",
 	"workflows-file-repository-definition-three-step-approval-title": "Three-step approval",
 	"workflows-file-repository-definition-user-approval-title": "User approval",
-	"workflows-file-repository-definition-user-control-title": "User control"
+	"workflows-file-repository-definition-user-control-title": "User control",
+	"bs-distributionconnector-statistics-report-page-hits": "Visits per page",
+	"bs-distributionconnector-statistics-report-page-trends": "Visit trends per page",
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% growth"
 }
