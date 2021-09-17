@@ -115,14 +115,6 @@
 						"maintenanceadmin"
 					]
 				}
-			},
-			"EntityRegistry": {
-				"hitcounter": "\\BlueSpice\\DistributionConnector\\EntityConfig\\Collection\\HitCounter::factory"
-			}
-		},
-		"BlueSpiceExtendedStatistics": {
-			"SnapshotDataCollectorRegistry": {
-				"hitcounter": "\\BlueSpice\\DistributionConnector\\DataCollector\\StoreSourced\\HitCounter::factory"
 			}
 		},
 		"VisualEditor": {
@@ -141,6 +133,22 @@
 		"BlueSpiceSMWConnector": {
 			"ExtraPropertyRegistry": {
 				"hitcountersfields": "\\BlueSpice\\DistributionConnector\\HitCountersPropertyValueProvider::factory"
+			}
+		},
+		"BlueSpiceExtendedStatistics": {
+			"SnapshotProviders": {
+				"dc-pagehits": {
+					"class": "\\BlueSpice\\DistributionConnector\\Statistics\\SnapshotProvider\\PageHits",
+					"services": [ "DBLoadBalancer", "ExtendedStatisticsSnapshotStore" ]
+				}
+			},
+			"Reports": {
+				"dc-pagehits": {
+					"class": "\\BlueSpice\\DistributionConnector\\Statistics\\Report\\PageHits"
+				},
+				"dc-pagetrends": {
+					"class": "\\BlueSpice\\DistributionConnector\\Statistics\\Report\\PageTrends"
+				}
 			}
 		}
 	},
@@ -197,11 +205,18 @@
 				"bs-distributionconnector-ve-categorytreeinspector-tb-style"
 			]
 		},
-		"ext.bluespice.distributionconnector.collection.hitcounter": {
+		"ext.bluespice.distributionconnector.statistics": {
+			"scripts": [
+				"statistics/PageHits.js",
+				"statistics/PageTrends.js"
+			],
+			"dependencies": [
+				"ext.bluespice"
+			],
 			"messages": [
-				"bs-distributionconnector-collection-type-hitcounter",
-				"bs-distributionconnector-collection-var-pagetitle",
-				"bs-distributionconnector-collection-var-numberhits"
+				"bs-distributionconnector-statistics-report-page-hits",
+				"bs-distributionconnector-statistics-report-page-trends",
+				"bs-distributionconnector-statistics-report-page-trends-axis-value"
 			]
 		}
 	},
