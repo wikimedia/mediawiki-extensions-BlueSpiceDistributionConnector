@@ -6,6 +6,7 @@
 			"Ihojose",
 			"Joanmp17",
 			"Mnivar",
+			"Reverse88",
 			"Warming Hearth"
 		]
 	},
@@ -60,5 +61,6 @@
 	"workflows-file-repository-definition-three-step-approval-desc": "Solicite a un grupo de usuarios y dos usuarios, independientemente entre sí, para revisar y aprovar la página. Al finalizar la votación, serás notificado por email el resultado de la misma.",
 	"workflows-file-repository-definition-user-approval-desc": "Solicita a un usuario que revise y apruebe una página. Al finalizar la votación, serás notificado por email del resultado de la misma.",
 	"workflows-file-repository-definition-user-control-title": "Comentarios del usuario",
-	"workflows-file-repository-definition-user-control-desc": "Solicita comentarios a un usuario mientras revisan una página. Una vez la votación haya finalizado, serás notificado por email el resultado de la misma."
+	"workflows-file-repository-definition-user-control-desc": "Solicita comentarios a un usuario mientras revisan una página. Una vez la votación haya finalizado, serás notificado por email el resultado de la misma.",
+	"bs-distributionconnector-workflows-form-username": "Usuario"
 }

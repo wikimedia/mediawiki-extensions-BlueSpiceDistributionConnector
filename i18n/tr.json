@@ -65,5 +65,17 @@
 	"workflows-file-repository-definition-three-stage-feedback-collection-title": "Üç aşamalı geri bildirim derlemesi",
 	"workflows-file-repository-definition-three-step-approval-title": "Üç aşamalı onay",
 	"workflows-file-repository-definition-user-approval-title": "Kullanıcı onayı",
-	"workflows-file-repository-definition-user-control-title": "Kullanıcı kontrol"
+	"workflows-file-repository-definition-user-control-title": "Kullanıcı kontrol",
+	"bs-distributionconnector-workflows-form-groupname": "Grup",
+	"bs-distributionconnector-workflows-form-instructions": "Talimatlar",
+	"bs-distributionconnector-workflows-form-username": "Kullanıcı",
+	"bs-distributionconnector-workflows-form-step-one-user": "Adım 1: Kullanıcı",
+	"bs-distributionconnector-workflows-form-step-one-group": "Adım 1: Grup",
+	"bs-distributionconnector-workflows-form-step-one-instructions": "Adım 1: Talimatlar",
+	"bs-distributionconnector-workflows-form-step-two-user": "Adım 2: Kullanıcı",
+	"bs-distributionconnector-workflows-form-step-two-instructions": "Adım 2: Talimatlar",
+	"bs-distributionconnector-workflows-form-step-three-user": "Adım 3: Kullanıcı",
+	"bs-distributionconnector-workflows-form-step-three-instructions": "Adım 3: Talimatlar",
+	"bs-distributionconnector-workflows-form-comment": "Yorum",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Yorum"
 }

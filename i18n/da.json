@@ -13,6 +13,8 @@
 	"bs-distributionconnector-collection-var-pagetitle": "Sidetitel",
 	"bs-distributionconnector-pref-openidconnect-config": "Udbyder",
 	"bs-distributionconnector-pref-openidconnect-config-clientid": "Klient-ID",
+	"bs-distributionconnector-workflows-form-groupname": "Gruppe",
+	"bs-distributionconnector-workflows-form-instructions": "Instruktioner",
 	"bs-distributionconnector-workflows-form-username": "Bruger",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Kommentar"
 }
