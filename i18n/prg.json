@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nertiks"
+		]
+	},
+	"bs-distributionconnector-workflows-form-groupname": "Gruppi",
+	"bs-distributionconnector-workflows-form-instructions": "Instrukciōnis",
+	"bs-distributionconnector-workflows-form-username": "Tērpautajs",
+	"bs-distributionconnector-workflows-form-step-one-user": "Zāngan 1: Tērpautajs",
+	"bs-distributionconnector-workflows-form-step-one-group": "Zāngan 1: Gruppi",
+	"bs-distributionconnector-workflows-form-step-one-instructions": "Zāngan 1: Instrukciōnis",
+	"bs-distributionconnector-workflows-form-step-two-user": "Zāngan 2: Tērpautajs",
+	"bs-distributionconnector-workflows-form-step-two-instructions": "Zāngan 2: Instrukciōnis",
+	"bs-distributionconnector-workflows-form-step-three-user": "Zāngan 2: Tērpautajs",
+	"bs-distributionconnector-workflows-form-step-three-instructions": "Zāngan 3: Instrukciōnis",
+	"bs-distributionconnector-workflows-form-comment": "Kumentārs",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Kumentārs"
+}
