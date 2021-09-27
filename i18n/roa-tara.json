@@ -52,14 +52,13 @@
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Visite sus 'a pàgene",
 	"workflow-default-editorial-review-report-subject": "Revisitazione de l'editoriale de '$1' spicciate!",
 	"workflow-default-editorial-review-report-body": "Quiste jè 'nu riepiloghe sus a 'u flusse de fatìe d'a revisitazione de l'editoriale: $1",
-	"workflows-file-repository-definition-data-collector-title": "Collettore d'a date",
-	"workflows-file-repository-definition-editorial-review-title": "Revisitaziune de l'editoriale",
-	"workflows-file-repository-definition-four-eye-principle-title": "Pringipie de le quattre uecchije",
-	"workflows-file-repository-definition-group-approval-title": "Approvazione d'u gruppe",
-	"workflows-file-repository-definition-group-control-title": "Condrolle d'u gruppe",
-	"workflows-file-repository-definition-revision-control-title": "Condrolle d'a revisione",
-	"workflows-file-repository-definition-three-stage-feedback-collection-title": "Collezzione d'a segnalazione a tre stuèzze",
-	"workflows-file-repository-definition-three-step-approval-title": "Approvazione 'a tre stuèzze",
-	"workflows-file-repository-definition-user-approval-title": "Approvazione de l'utende",
-	"workflows-file-repository-definition-user-control-title": "Condrolle de l'utende"
+	"workflows-workflow-file-definition-editorial-review-title": "Revisitaziune de l'editoriale",
+	"workflows-workflow-file-definition-four-eye-principle-title": "Pringipie de le quattre uecchije",
+	"workflows-workflow-file-definition-group-approval-title": "Approvazione d'u gruppe",
+	"workflows-workflow-file-definition-group-feedback-title": "Condrolle d'u gruppe",
+	"workflows-workflow-file-definition-revision-control-title": "Condrolle d'a revisione",
+	"workflows-workflow-file-definition-six-eyes-principle-title": "Collezzione d'a segnalazione a tre stuèzze",
+	"workflows-workflow-file-definition-three-step-approval-title": "Approvazione 'a tre stuèzze",
+	"workflows-workflow-file-definition-user-approval-title": "Approvazione de l'utende",
+	"workflows-workflow-file-definition-user-feedback-title": "Condrolle de l'utende"
 }

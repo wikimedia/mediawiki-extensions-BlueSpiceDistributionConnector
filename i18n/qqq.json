@@ -75,7 +75,6 @@
 	"bs-distributionconnector-workflows-form-instructions": "Label in a form",
 	"bs-distributionconnector-workflows-form-username": "Label in a form\n{{identical|User}}",
 	"bs-distributionconnector-workflows-form-expert-user": "Label in a form",
-	"bs-distributionconnector-workflows-form-group-instructions": "Label in a form",
 	"bs-distributionconnector-workflows-form-expert-instructions": "Label in a form",
 	"bs-distributionconnector-workflows-form-tw-user": "Label in a form",
 	"bs-distributionconnector-workflows-form-tw-instructions": "Label in a form",
@@ -85,6 +84,7 @@
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Placeholder in a form input field\n{{identical|Comment}}",
 	"bs-distributionconnector-workflows-form-reportrecipient": "Label for the workflow form field",
 	"bs-distributionconnector-workflows-form-feedback": "Label for the workflow form field",
+	"bs-distributionconnector-workflows-form-group-instructions": "Label in a form",
 	"bs-distributionconnector-statistics-report-page-hits": "Statistics report name",
 	"bs-distributionconnector-statistics-report-page-trends": "Statistics report name",
 	"bs-distributionconnector-statistics-report-page-trends-axis-value": "Label for the \"value\" axis"

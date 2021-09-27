@@ -49,6 +49,5 @@
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Attributtnavn for «realname»",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Attributtnavn for «groups»",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Attributtnavn for «username»",
-	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Sidetreff",
-	"workflows-file-repository-definition-data-collector-title": "Datainnsamler"
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Sidetreff"
 }

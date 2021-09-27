@@ -53,17 +53,14 @@
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Attributname für \"groups\"",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Attributname für \"username\"",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Seitenaufrufe",
-	"workflows-file-repository-definition-four-eye-principle-title": "Vier-Augen-Prinzip",
+	"workflows-workflow-file-definition-four-eye-principle-title": "Vier-Augen-Prinzip",
+	"workflows-workflow-file-definition-six-eyes-principle-title": "Sechs-Augen-Prinzip",
 	"bs-distributionconnector-workflows-form-groupname": "Gruppe",
 	"bs-distributionconnector-workflows-form-instructions": "Anleitungen",
 	"bs-distributionconnector-workflows-form-username": "Benutzer",
-	"bs-distributionconnector-workflows-form-step-one-user": "Schritt 1: Benutzer",
-	"bs-distributionconnector-workflows-form-step-one-group": "Schritt 1: Gruppe",
-	"bs-distributionconnector-workflows-form-step-one-instructions": "Schrit 1: Anleitungen",
-	"bs-distributionconnector-workflows-form-step-two-user": "Schritt 2: Benutzer",
-	"bs-distributionconnector-workflows-form-step-two-instructions": "Schritt 2: Anleitungen",
-	"bs-distributionconnector-workflows-form-step-three-user": "Schritt 3: Benutzer",
-	"bs-distributionconnector-workflows-form-step-three-instructions": "Schrit 3: Anleitungen",
+	"bs-distributionconnector-workflows-form-tw-user": "Technischer Redakteur",
 	"bs-distributionconnector-workflows-form-comment": "Kommentar",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "Kommentar"
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Kommentar",
+	"bs-distributionconnector-statistics-report-page-hits": "Besuche pro Seite",
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% Zunahme"
 }

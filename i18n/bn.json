@@ -7,13 +7,6 @@
 	"bs-distributionconnector-workflows-form-groupname": "দল",
 	"bs-distributionconnector-workflows-form-instructions": "নির্দেশাবলী",
 	"bs-distributionconnector-workflows-form-username": "ব্যবহারকারী",
-	"bs-distributionconnector-workflows-form-step-one-user": "ধাপ ১: ব্যবহারকারী",
-	"bs-distributionconnector-workflows-form-step-one-group": "ধাপ ১: দল",
-	"bs-distributionconnector-workflows-form-step-one-instructions": "ধাপ ১: নির্দেশাবলী",
-	"bs-distributionconnector-workflows-form-step-two-user": "ধাপ ২: ব্যবহারকারী",
-	"bs-distributionconnector-workflows-form-step-two-instructions": "ধাপ ২: নির্দেশাবলী",
-	"bs-distributionconnector-workflows-form-step-three-user": "ধাপ ৩: ব্যবহারকারী",
-	"bs-distributionconnector-workflows-form-step-three-instructions": "ধাপ ৩: নির্দেশাবলী",
 	"bs-distributionconnector-workflows-form-comment": "মন্তব্য",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "মন্তব্য"
 }
