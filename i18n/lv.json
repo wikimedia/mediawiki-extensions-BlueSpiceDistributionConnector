@@ -6,5 +6,6 @@
 	},
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Režīms",
 	"bs-distributionconnector-collection-type-hitcounter": "Lapu skatījumi",
-	"bs-distributionconnector-collection-var-pagetitle": "Lapas nosaukums"
+	"bs-distributionconnector-collection-var-pagetitle": "Lapas nosaukums",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Komentārs"
 }

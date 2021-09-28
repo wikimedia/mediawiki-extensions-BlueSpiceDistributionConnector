@@ -6,6 +6,7 @@
 			"Ihojose",
 			"Joanmp17",
 			"Mnivar",
+			"Reverse88",
 			"Warming Hearth"
 		]
 	},
@@ -60,5 +61,19 @@
 	"workflows-file-repository-definition-three-step-approval-desc": "Solicite a un grupo de usuarios y dos usuarios, independientemente entre sí, para revisar y aprovar la página. Al finalizar la votación, serás notificado por email el resultado de la misma.",
 	"workflows-file-repository-definition-user-approval-desc": "Solicita a un usuario que revise y apruebe una página. Al finalizar la votación, serás notificado por email del resultado de la misma.",
 	"workflows-file-repository-definition-user-control-title": "Comentarios del usuario",
-	"workflows-file-repository-definition-user-control-desc": "Solicita comentarios a un usuario mientras revisan una página. Una vez la votación haya finalizado, serás notificado por email el resultado de la misma."
+	"workflows-file-repository-definition-user-control-desc": "Solicita comentarios a un usuario mientras revisan una página. Una vez la votación haya finalizado, serás notificado por email el resultado de la misma.",
+	"workflows-workflow-file-definition-editorial-review-desc": "Solicita a tres usuarios que, independientemente, revisen y aprueben una página. Al finalizar la votación, serás notificado por email el resultado de la misma.",
+	"workflows-workflow-file-definition-four-eye-principle-title": "Principio de los cuatro ojos",
+	"workflows-workflow-file-definition-four-eye-principle-desc": "Solicita comentarios a un usuario mientras revisan una página. Una vez la votación haya finalizado, serás notificado por email el resultado de la misma.",
+	"workflows-workflow-file-definition-group-approval-desc": "Solicita a un grupo de usuarios que revisen y aprueben una página. Al finalizar la votación, serás notificado por email del resultado de la misma.",
+	"workflows-workflow-file-definition-group-feedback-title": "Comentarios del grupo",
+	"workflows-workflow-file-definition-group-feedback-desc": "Solicita comentarios a un usuario mientras revisan una página. Una vez la votación haya finalizado, serás notificado por email el resultado de la misma.",
+	"workflows-workflow-file-definition-revision-control-desc": "Solicita a dos usuarios que, independientemente, revisen y aprueben una página. Al finalizar la votación, serás notificado por email del resultado de la misma.",
+	"workflows-workflow-file-definition-six-eyes-principle-title": "Principio de los seis ojos",
+	"workflows-workflow-file-definition-six-eyes-principle-desc": "Pide a tres usuarios comentarios mientras revisan una pagina. Al final la votación, serás notificado por email del resultado de la misma.",
+	"workflows-workflow-file-definition-three-step-approval-desc": "Solicite a un grupo de usuarios y dos usuarios, independientemente entre sí, para revisar y aprovar la página. Al finalizar la votación, serás notificado por email el resultado de la misma.",
+	"workflows-workflow-file-definition-user-approval-desc": "Solicita a un usuario que revise y apruebe una página. Al finalizar la votación, serás notificado por email del resultado de la misma.",
+	"workflows-workflow-file-definition-user-feedback-title": "Comentarios del usuario",
+	"workflows-workflow-file-definition-user-feedback-desc": "Solicita comentarios a un usuario mientras revisan una página. Una vez la votación haya finalizado, serás notificado por email el resultado de la misma.",
+	"bs-distributionconnector-workflows-form-username": "Usuario"
 }
