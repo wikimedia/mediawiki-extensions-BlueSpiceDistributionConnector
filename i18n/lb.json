@@ -12,5 +12,7 @@
 	"bs-distributionconnector-workflows-form-username": "Benotzer",
 	"bs-distributionconnector-workflows-form-expert-user": "Expert",
 	"bs-distributionconnector-workflows-form-comment": "Bemierkung",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "Bemierkung"
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Bemierkung",
+	"bs-distributionconnector-workflows-form-group-instructions": "Instruktioune fir de Grupp",
+	"bs-distributionconnector-statistics-report-page-hits": "Besicher pro Säit"
 }

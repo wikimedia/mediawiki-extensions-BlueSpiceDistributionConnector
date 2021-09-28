@@ -3,6 +3,7 @@
 		"authors": [
 			"Laurinm",
 			"Mglaser",
+			"Mschlindwein",
 			"Pittigrilli",
 			"Umlaut"
 		]
@@ -62,5 +63,6 @@
 	"bs-distributionconnector-workflows-form-comment": "Kommentar",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Kommentar",
 	"bs-distributionconnector-statistics-report-page-hits": "Besuche pro Seite",
+	"bs-distributionconnector-statistics-report-page-trends": "Aufrufsentwicklung pro Seite",
 	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% Zunahme"
 }

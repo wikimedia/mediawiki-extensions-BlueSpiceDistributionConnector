@@ -86,5 +86,11 @@
 	"bs-distributionconnector-workflows-form-head-user": "Chef de département",
 	"bs-distributionconnector-workflows-form-head-instructions": "Instructions pour le chef de département.",
 	"bs-distributionconnector-workflows-form-comment": "Commentaire",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "Commentaire"
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Commentaire",
+	"bs-distributionconnector-workflows-form-reportrecipient": "Envoyer le rapport à (email ou nom d'utilisateur valide)",
+	"bs-distributionconnector-workflows-form-feedback": "Entrez votre commentaire...",
+	"bs-distributionconnector-workflows-form-group-instructions": "Instructions pour le groupe",
+	"bs-distributionconnector-statistics-report-page-hits": "Visites par page",
+	"bs-distributionconnector-statistics-report-page-trends": "Tendances des visites par page",
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% de croissance"
 }
