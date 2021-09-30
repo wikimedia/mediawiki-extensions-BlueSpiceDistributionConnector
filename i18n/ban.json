@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Carma Citrawati",
 			"Chinamoonroll",
 			"Joseagush"
 		]
@@ -8,7 +9,7 @@
 	"bs-distributionconnector-flyout-hitcounters-text": "Akéh sané nyingakin",
 	"bs-distributionconnector-collection-type-hitcounter": "Cingakan kaca",
 	"bs-distributionconnector-workflows-form-groupname": "Seka",
-	"bs-distributionconnector-workflows-form-instructions": "Patunjuk",
+	"bs-distributionconnector-workflows-form-instructions": "tata cara nganggén",
 	"bs-distributionconnector-workflows-form-username": "Sang anganggé",
 	"bs-distributionconnector-workflows-form-comment": "Panampen",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Panampen"
