@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DDPAT",
 			"Megakott",
 			"Okras",
 			"PlushBoy"
@@ -12,10 +13,16 @@
 	"bs-distributionconnector-ve-categorytree-title": "Дерево категорий",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Режим",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Глубина",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Скрыть корень",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Показать корень",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Скрыть префикс",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Пространство имён",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Тег CSS",
+	"bs-distributionconnector-hitcounters-sesp-alias": "Счетчик посещений",
+	"bs-distributionconnector-hitcounters-sesp-desc": "Счетчик посещений",
 	"bs-distributionconnector-collection-type-hitcounter": "Просмотров страниц",
 	"bs-distributionconnector-collection-var-pagetitle": "Заголовок страницы",
+	"bs-distributionconnector-collection-var-numberhits": "Счетчики",
 	"bs-distributionconnector-setting-path-authentication": "Аутентификация",
 	"bs-distributionconnector-pref-openidconnect-config": "Провайдер",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Использовать настоящее имя в качестве имени участника",
@@ -38,5 +45,15 @@
 	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Разделитель для однозначного атрибута \"group\"",
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Имя атрибута для \"realname\"",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Имя атрибута для \"groups\"",
-	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Имя атрибута для \"username\""
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Имя атрибута для \"username\"",
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Счетчик страниц",
+	"workflows-workflow-file-definition-group-approval-title": "Утверждение группы",
+	"workflows-workflow-file-definition-group-approval-desc": "Попросите группу пользователей просмотреть и утвердить страницу. После завершения голосования вы получите уведомление по электронной почте о результатах голосования.",
+	"bs-distributionconnector-workflows-form-groupname": "Группа",
+	"bs-distributionconnector-workflows-form-instructions": "Инструкции (поддерживается викитекст)",
+	"bs-distributionconnector-workflows-form-username": "Участник",
+	"bs-distributionconnector-workflows-form-expert-user": "Эксперт",
+	"bs-distributionconnector-workflows-form-head-user": "Глава департамента",
+	"bs-distributionconnector-workflows-form-comment": "Комментарий",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Комментарий"
 }
