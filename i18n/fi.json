@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Joquliina",
-			"MITO"
+			"MITO",
+			"Rönttönen"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "Verkkotunnuksesi",
 	"bs-distributionconnector-collection-var-pagetitle": "Sivun otsikko",
 	"bs-distributionconnector-pref-openidconnect-forcelogout": "Pakota uloskirjautuminen",
 	"bs-distributionconnector-workflows-form-groupname": "Ryhmä",
-	"bs-distributionconnector-workflows-form-instructions": "Ohjeet",
+	"bs-distributionconnector-workflows-form-instructions": "Ohjeet (wikitekstiä tuetaan)",
 	"bs-distributionconnector-workflows-form-username": "Käyttäjä",
 	"bs-distributionconnector-workflows-form-comment": "Kommentti",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Kommentti"

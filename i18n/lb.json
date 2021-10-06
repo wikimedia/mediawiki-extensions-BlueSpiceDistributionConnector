@@ -23,5 +23,7 @@
 	"workflows-workflow-file-definition-user-feedback-title": "Benotzer-Feedback",
 	"bs-distributionconnector-workflows-form-expert-user": "Expert",
 	"bs-distributionconnector-workflows-form-group-instructions": "Instruktioune fir de Grupp",
-	"bs-distributionconnector-statistics-report-page-hits": "Besicher pro Säit"
+	"bs-distributionconnector-statistics-report-page-hits": "Besicher pro Säit",
+	"bs-distributionconnector-workflows-form-head-user": "Chef vum Service",
+	"bs-distributionconnector-workflows-form-feedback": "Gitt Äre Feedback an..."
 }
