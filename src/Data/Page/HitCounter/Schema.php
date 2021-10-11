@@ -6,8 +6,8 @@ use BlueSpice\Data\FieldType;
 use BlueSpice\Data\Page\Schema as PageSchema;
 
 class Schema extends \BlueSpice\Data\Schema {
-	const TABLE_NAME = PageSchema::TABLE_NAME;
-	const TABLE_NAME_JOIN = 'hit_counter';
+	public const TABLE_NAME = PageSchema::TABLE_NAME;
+	public const TABLE_NAME_JOIN = 'hit_counter';
 
 	public function __construct() {
 		parent::__construct( array_merge( (array)( new PageSchema ), [
