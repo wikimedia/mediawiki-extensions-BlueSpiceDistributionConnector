@@ -153,15 +153,10 @@
 		},
 		"Workflows": {
 			"WorkflowDefinitions": {
-				"editorial-review": "BlueSpiceDistributionConnector/workflow/EditorialReview.bpmn",
-				"four-eye-principle": "BlueSpiceDistributionConnector/workflow/FourEyePrinciple.bpmn",
-				"group-approval": "BlueSpiceDistributionConnector/workflow/GroupApproval.bpmn",
 				"group-feedback": "BlueSpiceDistributionConnector/workflow/GroupFeedback.bpmn",
-				"revision-control": "BlueSpiceDistributionConnector/workflow/RevisionControl.bpmn",
-				"six-eyes-principle": "BlueSpiceDistributionConnector/workflow/SixEyesPrinciple.bpmn",
-				"three-step-approval": "BlueSpiceDistributionConnector/workflow/ThreeStepApproval.bpmn",
 				"user-approval": "BlueSpiceDistributionConnector/workflow/UserApproval.bpmn",
-				"user-feedback": "BlueSpiceDistributionConnector/workflow/UserFeedback.bpmn"
+				"user-feedback": "BlueSpiceDistributionConnector/workflow/UserFeedback.bpmn",
+				"document-control": "BlueSpiceDistributionConnector/workflow/DocumentControl.bpmn"
 			}
 		},
 		"BlueSpiceExtendedStatistics": {
@@ -252,10 +247,7 @@
 			"scripts": [
 				"workflows/GroupCollectDataForm.js",
 				"workflows/UserCollectDataForm.js",
-				"workflows/EditorialReviewCollectDataForm.js",
-				"workflows/FourEyesPrincipleCollectDataForm.js",
-				"workflows/RevisionControlCollectDataForm.js",
-				"workflows/ThreeStepApprovalCollectDataForm.js",
+				"workflows/DocumentControlCollectDataForm.js",
 				"workflows/Feedback.js"
 			],
 			"messages": [
