@@ -14,7 +14,7 @@
 				noLayout: true
 			},
 			{
-				name: 'feedback',
+				name: 'comment',
 				placeholder: mw.message( 'bs-distributionconnector-workflows-form-feedback' ).text(),
 				noLayout: true,
 				type: 'wikitext',
