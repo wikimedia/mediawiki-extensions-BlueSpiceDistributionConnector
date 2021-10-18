@@ -5,6 +5,7 @@
 			"Mainframe98",
 			"McDutchie",
 			"Optilete",
+			"Robin van der Vliet",
 			"Romaine"
 		]
 	},
@@ -77,6 +78,12 @@
 	"bs-distributionconnector-workflows-form-groupname": "Groep",
 	"bs-distributionconnector-workflows-form-instructions": "Instructies (wikitekst ondersteund)",
 	"bs-distributionconnector-workflows-form-username": "Gebruiker",
+	"bs-distributionconnector-workflows-form-expert-user": "Export",
+	"bs-distributionconnector-workflows-form-expert-instructions": "Instructies voor de expert",
+	"bs-distributionconnector-workflows-form-head-user": "Afdelingshoofd",
+	"bs-distributionconnector-workflows-form-head-instructions": "Instructies voor het afdelingshoofd",
 	"bs-distributionconnector-workflows-form-comment": "Opmerking",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "Opmerking"
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Opmerking",
+	"bs-distributionconnector-workflows-form-group-instructions": "Instructies voor groep",
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% groei"
 }

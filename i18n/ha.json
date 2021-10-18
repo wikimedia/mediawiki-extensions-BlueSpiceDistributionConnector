@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Salihu aliyu",
+			"Umar-askirason"
+		]
+	},
+	"bs-distributionconnector-workflows-form-instructions": "Ka'idoji (wikitext supported)",
+	"bs-distributionconnector-workflows-form-expert-user": "Gwani",
+	"bs-distributionconnector-workflows-form-expert-instructions": "Ka'idojin da suka shafi wanda ya kware",
+	"bs-distributionconnector-workflows-form-head-user": "Jagoran sashe",
+	"bs-distributionconnector-workflows-form-head-instructions": "Ka'idojin shugabancin ma'aikata",
+	"bs-distributionconnector-workflows-form-reportrecipient": "Aika rahoto zuwa ga (valid email or usewrname)",
+	"bs-distributionconnector-workflows-form-feedback": "Shiga feedback dinka...",
+	"bs-distributionconnector-workflows-form-group-instructions": "Ka'idojin group"
+}

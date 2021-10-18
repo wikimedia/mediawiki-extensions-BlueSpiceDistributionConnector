@@ -52,7 +52,11 @@
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Nome do atributo para \"groups\"",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Nome do atributo para \"username\"",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Acessos de página",
+	"workflow-default-editorial-review-report-subject": "Revisão editorial de '$1' concluída!",
+	"workflows-workflow-file-definition-revision-control-title": "Controle de revisão",
 	"bs-distributionconnector-workflows-form-groupname": "Grupo",
 	"bs-distributionconnector-workflows-form-instructions": "Instruções (wikitexto suportado)",
-	"bs-distributionconnector-workflows-form-username": "Usuário"
+	"bs-distributionconnector-workflows-form-username": "Usuário",
+	"bs-distributionconnector-workflows-form-comment": "Comentário",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Comentário"
 }
