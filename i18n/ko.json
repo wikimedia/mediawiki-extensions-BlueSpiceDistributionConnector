@@ -43,5 +43,22 @@
 	"bs-distributionconnector-pref-openidconnect-config-key": "발행자 URL",
 	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "호스트 확인",
 	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "피어 확인",
-	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "페이지 조회수"
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "페이지 조회수",
+	"workflow-default-editorial-review-report-subject": "'$1'의 편집 검토가 끝났습니다!",
+	"workflow-default-editorial-review-report-body": "편집 검토 워크플로에 관한 보고서입니다: $1",
+	"workflows-workflow-file-definition-editorial-review-title": "편집 검토",
+	"workflows-workflow-file-definition-group-feedback-title": "그룹 피드백",
+	"workflows-workflow-file-definition-user-approval-title": "사용자 승인",
+	"workflows-workflow-file-definition-user-feedback-title": "사용자 피드백",
+	"bs-distributionconnector-workflows-form-groupname": "그룹",
+	"bs-distributionconnector-workflows-form-instructions": "안내 (위키텍스트 지원)",
+	"bs-distributionconnector-workflows-form-username": "사용자",
+	"bs-distributionconnector-workflows-form-expert-user": "전문가",
+	"bs-distributionconnector-workflows-form-expert-instructions": "전문가를 위한 안내",
+	"bs-distributionconnector-workflows-form-tw-user": "테크니컬 라이터",
+	"bs-distributionconnector-workflows-form-tw-instructions": "테크니컬 라이터를 위한 안내",
+	"bs-distributionconnector-workflows-form-comment": "의견",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "의견",
+	"bs-distributionconnector-workflows-form-group-instructions": "그룹을 위한 안내",
+	"bs-distributionconnector-statistics-report-page-hits": "문서 당 방문 수"
 }

@@ -2,6 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Hedda",
+			"Jelican9",
+			"Melissadilara",
 			"MuratTheTurkish"
 		]
 	},
@@ -51,5 +54,30 @@
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "\"realname\" için öznitelik adı",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "\"groups\" için öznitelik adı",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "\"username\" için öznitelik adı",
-	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Sayfa sayıları"
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Sayfa sayıları",
+	"workflow-default-editorial-review-report-subject": "'$1' için editoryal inceleme tamamlandı!",
+	"workflow-default-editorial-review-report-body": "Bu, editoryal inceleme iş akışıyla ilgili bir rapordur: $1",
+	"workflows-workflow-file-definition-editorial-review-title": "Editoryal inceleme",
+	"workflows-workflow-file-definition-four-eye-principle-title": "Dört göz ilkesi",
+	"workflows-workflow-file-definition-group-approval-title": "Grup onayı",
+	"workflows-workflow-file-definition-group-feedback-title": "Grup Geribildirimi",
+	"workflows-workflow-file-definition-revision-control-title": "Değişiklik kontrolü",
+	"workflows-workflow-file-definition-six-eyes-principle-title": "Üç aşamalı geri bildirim derlemesi",
+	"workflows-workflow-file-definition-three-step-approval-title": "Üç aşamalı onay",
+	"workflows-workflow-file-definition-user-approval-title": "Kullanıcı onayı",
+	"workflows-workflow-file-definition-user-feedback-title": "Kullanıcı geri bildirimi",
+	"bs-distributionconnector-workflows-form-groupname": "Grup",
+	"bs-distributionconnector-workflows-form-instructions": "Talimatlar",
+	"bs-distributionconnector-workflows-form-username": "Kullanıcı",
+	"bs-distributionconnector-workflows-form-expert-instructions": "Uzmanlar için talimatlar",
+	"bs-distributionconnector-workflows-form-tw-user": "Teknik yazar",
+	"bs-distributionconnector-workflows-form-tw-instructions": "Teknik yazarlar için talimatlar",
+	"bs-distributionconnector-workflows-form-head-user": "Bölüm yöneticisi",
+	"bs-distributionconnector-workflows-form-head-instructions": "Bölüm yöneticisi için talimatlar",
+	"bs-distributionconnector-workflows-form-comment": "Yorum",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Yorum",
+	"bs-distributionconnector-workflows-form-feedback": "Geri bildiriminizi yazın...",
+	"bs-distributionconnector-workflows-form-group-instructions": "Grup için talimatlar",
+	"bs-distributionconnector-statistics-report-page-hits": "Sayfa başı ziyaretler",
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "büyüme %"
 }

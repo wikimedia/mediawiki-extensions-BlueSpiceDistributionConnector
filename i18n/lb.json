@@ -5,5 +5,17 @@
 		]
 	},
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Nummraum",
-	"bs-distributionconnector-collection-var-pagetitle": "Titel vun der Säit"
+	"bs-distributionconnector-collection-var-pagetitle": "Titel vun der Säit",
+	"workflows-workflow-file-definition-user-feedback-title": "Benotzer-Feedback",
+	"bs-distributionconnector-workflows-form-groupname": "Grupp",
+	"bs-distributionconnector-workflows-form-instructions": "Instruktiounen (Wikitext ënnerstëtzt)",
+	"bs-distributionconnector-workflows-form-username": "Benotzer",
+	"bs-distributionconnector-workflows-form-expert-user": "Expert",
+	"bs-distributionconnector-workflows-form-expert-instructions": "Instruktioune fir den Expert",
+	"bs-distributionconnector-workflows-form-head-user": "Chef vum Service",
+	"bs-distributionconnector-workflows-form-comment": "Bemierkung",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Bemierkung",
+	"bs-distributionconnector-workflows-form-feedback": "Gitt Äre Feedback an...",
+	"bs-distributionconnector-workflows-form-group-instructions": "Instruktioune fir de Grupp",
+	"bs-distributionconnector-statistics-report-page-hits": "Besicher pro Säit"
 }

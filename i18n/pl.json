@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Mruczek",
 			"Rail"
 		]
 	},
@@ -12,5 +13,6 @@
 	"bs-distributionconnector-collection-var-pagetitle": "Tytuł strony",
 	"bs-distributionconnector-pref-openidconnect-config-clientsecret": "Sekret klienta",
 	"bs-distributionconnector-pref-openidconnect-config-icon": "URL ikony",
-	"bs-distributionconnector-pref-openidconnect-config-scope": "Zakres"
+	"bs-distributionconnector-pref-openidconnect-config-scope": "Zakres",
+	"bs-distributionconnector-workflows-form-expert-user": "Ekspert"
 }

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nertiks"
+		]
+	},
+	"bs-distributionconnector-workflows-form-groupname": "Gruppi",
+	"bs-distributionconnector-workflows-form-instructions": "Instrukciōnis",
+	"bs-distributionconnector-workflows-form-username": "Tērpautajs",
+	"bs-distributionconnector-workflows-form-comment": "Kumentārs",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Kumentārs"
+}
