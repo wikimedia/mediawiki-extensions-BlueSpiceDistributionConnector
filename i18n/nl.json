@@ -5,6 +5,7 @@
 			"Mainframe98",
 			"McDutchie",
 			"Optilete",
+			"Robin van der Vliet",
 			"Romaine"
 		]
 	},
@@ -105,5 +106,11 @@
 	"workflows-workflow-file-definition-user-approval-title": "Gebruikersgoedkeuring",
 	"workflows-workflow-file-definition-user-approval-desc": "Vraag een gebruiker om een pagina te beoordelen en goed te keuren. Zodra de stemming is voltooid, ontvangt u per e-mail een melding over het stemresultaat.",
 	"workflows-workflow-file-definition-user-feedback-title": "Gebruikersfeedback",
-	"workflows-workflow-file-definition-user-feedback-desc": "Vraag een gebruiker om feedback tijdens het beoordelen van een pagina. Zodra de stemming is voltooid, ontvangt u per e-mail bericht over het resultaat."
+	"workflows-workflow-file-definition-user-feedback-desc": "Vraag een gebruiker om feedback tijdens het beoordelen van een pagina. Zodra de stemming is voltooid, ontvangt u per e-mail bericht over het resultaat.",
+	"bs-distributionconnector-workflows-form-expert-user": "Export",
+	"bs-distributionconnector-workflows-form-expert-instructions": "Instructies voor de expert",
+	"bs-distributionconnector-workflows-form-head-user": "Afdelingshoofd",
+	"bs-distributionconnector-workflows-form-head-instructions": "Instructies voor het afdelingshoofd",
+	"bs-distributionconnector-workflows-form-group-instructions": "Instructies voor groep",
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% groei"
 }

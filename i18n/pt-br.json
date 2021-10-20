@@ -55,5 +55,9 @@
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Acessos de página",
 	"bs-distributionconnector-workflows-form-groupname": "Grupo",
 	"bs-distributionconnector-workflows-form-instructions": "Instruções (wikitexto suportado)",
-	"bs-distributionconnector-workflows-form-username": "Usuário"
+	"bs-distributionconnector-workflows-form-username": "Usuário",
+	"workflow-default-editorial-review-report-subject": "Revisão editorial de '$1' concluída!",
+	"workflows-workflow-file-definition-revision-control-title": "Controle de revisão",
+	"bs-distributionconnector-workflows-form-comment": "Comentário",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Comentário"
 }

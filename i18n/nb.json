@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abuluntu",
 			"Jon Harald Søby"
 		]
 	},
@@ -50,5 +51,16 @@
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Attributtnavn for «realname»",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Attributtnavn for «groups»",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Attributtnavn for «username»",
-	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Sidetreff"
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Sidetreff",
+	"workflow-default-editorial-review-report-subject": "Redigeringene av '$1' er gjennomgått!",
+	"workflow-default-editorial-review-report-body": "Dette er en rapport om gjennomgangens arbeidsflyt: $1",
+	"workflows-workflow-file-definition-editorial-review-title": "Gjennomgang",
+	"bs-distributionconnector-workflows-form-comment": "Kommentar",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Kommentar",
+	"bs-distributionconnector-workflows-form-reportrecipient": "Send rapport til (gyldig e-post eller brukernavn)",
+	"bs-distributionconnector-workflows-form-feedback": "Skriv inn tilbakemeldingen din …",
+	"bs-distributionconnector-workflows-form-group-instructions": "Instruksjoner for gruppa",
+	"bs-distributionconnector-statistics-report-page-hits": "Besøk per side",
+	"bs-distributionconnector-statistics-report-page-trends": "Besøkstrender per side",
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "vekst i %"
 }

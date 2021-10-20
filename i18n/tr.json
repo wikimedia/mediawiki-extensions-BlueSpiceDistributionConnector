@@ -81,10 +81,19 @@
 	"workflows-workflow-file-definition-six-eyes-principle-title": "Üç aşamalı geri bildirim derlemesi",
 	"workflows-workflow-file-definition-three-step-approval-title": "Üç aşamalı onay",
 	"workflows-workflow-file-definition-user-approval-title": "Kullanıcı onayı",
-	"workflows-workflow-file-definition-user-feedback-title": "Kullanıcı kontrol",
+	"workflows-workflow-file-definition-user-feedback-title": "Kullanıcı geri bildirimi",
 	"bs-distributionconnector-workflows-form-groupname": "Grup",
 	"bs-distributionconnector-workflows-form-instructions": "Talimatlar",
 	"bs-distributionconnector-workflows-form-username": "Kullanıcı",
 	"bs-distributionconnector-workflows-form-comment": "Yorum",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "Yorum"
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Yorum",
+	"bs-distributionconnector-workflows-form-expert-instructions": "Uzmanlar için talimatlar",
+	"bs-distributionconnector-workflows-form-tw-user": "Teknik yazar",
+	"bs-distributionconnector-workflows-form-tw-instructions": "Teknik yazarlar için talimatlar",
+	"bs-distributionconnector-workflows-form-head-user": "Bölüm yöneticisi",
+	"bs-distributionconnector-workflows-form-head-instructions": "Bölüm yöneticisi için talimatlar",
+	"bs-distributionconnector-workflows-form-feedback": "Geri bildiriminizi yazın...",
+	"bs-distributionconnector-workflows-form-group-instructions": "Grup için talimatlar",
+	"bs-distributionconnector-statistics-report-page-hits": "Sayfa başı ziyaretler",
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "büyüme %"
 }
