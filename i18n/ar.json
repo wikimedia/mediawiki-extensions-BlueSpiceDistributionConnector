@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Michel Bakni",
 			"Omda4wady",
-			"ديفيد"
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
 		]
 	},
 	"bs-distributionconnector-extension-description": "يربط BlueSpice بامتدادات ميدياويكي المختلفة",
@@ -35,5 +37,9 @@
 	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "اسم المستخدم المفضل",
 	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "تحقق من المضيف",
 	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "تحقق من القرين",
-	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "نقرات الصفحة"
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "نقرات الصفحة",
+	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "استعمل اسماً حقيقياً ليكون اسم المُستخدم",
+	"bs-distributionconnector-workflows-form-groupname": "المجموعة",
+	"bs-distributionconnector-workflows-form-username": "المستخدم",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "التعليق"
 }

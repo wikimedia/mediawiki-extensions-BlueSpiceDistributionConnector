@@ -1,7 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kly"
+			"Impartial just",
+			"Kly",
+			"Weather Top Wizard",
+			"Winston Sung"
 		]
 	},
 	"bs-distributionconnector-extension-description": "連接 BlueSpice 至各種 MediaWiki 擴充套件",
@@ -45,5 +48,16 @@
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "用於「realname」屬性名稱",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "用於「groups」屬性名稱",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "用於「username」屬性名稱",
-	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "頁面點擊數"
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "頁面點擊數",
+	"bs-distributionconnector-pref-openidconnect-config-scope": "範圍",
+	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "驗證同行",
+	"workflows-workflow-file-definition-revision-control-title": "修訂控制",
+	"workflows-workflow-file-definition-user-feedback-title": "使用者回饋",
+	"bs-distributionconnector-workflows-form-groupname": "群組",
+	"bs-distributionconnector-workflows-form-username": "使用者",
+	"bs-distributionconnector-workflows-form-expert-user": "匯出",
+	"bs-distributionconnector-workflows-form-expert-instructions": "匯出指引",
+	"bs-distributionconnector-workflows-form-comment": "評論",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "評論",
+	"bs-distributionconnector-workflows-form-feedback": "輸入您的反饋意見……"
 }
