@@ -6,7 +6,6 @@
 	<bpmn:extensionElements>
 		<wf:context>
 			<wf:contextItem name="pageId" />
-			<wf:contextItem name="revision" />
 		</wf:context>
 	</bpmn:extensionElements>
 
