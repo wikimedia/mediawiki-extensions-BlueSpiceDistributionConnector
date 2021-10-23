@@ -31,6 +31,7 @@
         <bpmn:property name="groupname"></bpmn:property>
         <bpmn:property name="instructions"></bpmn:property>
         <bpmn:property name="reportrecipient"></bpmn:property>
+		<bpmn:property name="due_date"></bpmn:property>
 
         <bpmn:incoming>FromTheStartToCollectData</bpmn:incoming>
         <bpmn:outgoing>FromCollectDataToGroupFeedback</bpmn:outgoing>
@@ -39,29 +40,20 @@
 
     <!-- Collect group vote -->
     <bpmn:userTask id="GroupFeedback" name="GroupFeedback">
-        <bpmn:extensionElements>
-            <!-- Quite a workaround to be able to use group_vote for feeback-->
-           <wf:type>group_vote</wf:type>
-           <wf:formModule>
-				<wf:module>ext.bluespice.distributionconnector.workflows.forms</wf:module>
-				<wf:class>bs.distributionConnector.workflows.form.Feedback</wf:class>
-			</wf:formModule>
-            <wf:threshold>
-            	<wf:accept>
-            		<wf:value>100</wf:value>
-            		<wf:unit>percent</wf:unit>
-            	</wf:accept>
+		<bpmn:extensionElements>
+		   <wf:type>group_feedback</wf:type>
+           <wf:threshold>
+           		<wf:type>complete</wf:type>
+				<wf:value>3</wf:value>
+				<wf:unit>user</wf:unit>
             </wf:threshold>
-            <wf:feedback>true</wf:feedback>
         </bpmn:extensionElements>
 
         <bpmn:property name="assigned_group">{{{CollectData.groupname}}}</bpmn:property>
         <bpmn:property name="instructions">{{{CollectData.instructions}}}</bpmn:property>
         <bpmn:property name="comment"></bpmn:property>
-        <bpmn:property name="users_voted"></bpmn:property>
-        <bpmn:property name="vote_summary"></bpmn:property>
-        <bpmn:property name="vote" default="yes" />
-
+        <bpmn:property name="users_feedbacks"></bpmn:property>
+        <bpmn:property name="due_date">{{#time:YmdHis|{{{CollectData.due_date}}} + 7days}}</bpmn:property>
 
         <bpmn:incoming>FromCollectDataToGroupFeedback</bpmn:incoming>
         <bpmn:outgoing>FromGroupFeedbackToSendMail</bpmn:outgoing>
@@ -78,7 +70,12 @@
 		<bpmn:property name="recipient" default="{{{CollectData.reportrecipient}}}"/>
 		<bpmn:property name="subject">{{int:workflow-default-group-feedback-report-subject|{{PAGENAME}}}}</bpmn:property>
 		<bpmn:property name="body">{{int:workflow-default-group-feedback-body|
-		* {{{CollectData.groupname}}}: "{{{GroupFeedback.comment}}}"}}
+<![CDATA[{{#loop: i
+ | 0
+ | {{{GroupFeedback.users_feedbacks._length}}}
+ | <nowiki />
+* {{{GroupFeedback.users_feedbacks.{{#var:i}}.userName}}}: {{{GroupFeedback.users_feedbacks.{{#var:i}}.feedback}}}
+}}]]>}}
 		</bpmn:property>
 
         <bpmn:incoming>FromGroupFeedbackToSendMail</bpmn:incoming>

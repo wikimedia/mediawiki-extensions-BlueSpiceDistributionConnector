@@ -26,10 +26,6 @@
             <wf:initializer>true</wf:initializer>
         </bpmn:extensionElements>
 
-		<bpmn:incoming>FromTheStartToCollectData</bpmn:incoming>
-		<bpmn:outgoing>FromCollectDataToCheckoutPage_1</bpmn:outgoing>
-
-		<bpmn:property name="workflow_originator" default="{{{WorkflowContext.originator}}}" />
 		<bpmn:property name="usernameEditor" />
 		<bpmn:property name="instructionsEditor" />
 		<bpmn:property name="usernameReviewer" />
@@ -37,6 +33,10 @@
 		<bpmn:property name="usernameApprover" />
 		<bpmn:property name="instructionsApprover" />
 		<bpmn:property name="reportrecipient" />
+		<bpmn:property name="due_date" />
+
+		<bpmn:incoming>FromTheStartToCollectData</bpmn:incoming>
+		<bpmn:outgoing>FromCollectDataToCheckoutPage_1</bpmn:outgoing>
 	</bpmn:userTask>
 	<bpmn:sequenceFlow id="FromCollectDataToCheckoutPage_1" sourceRef="CollectData" targetRef="CheckoutPage_1" />
 
@@ -61,6 +61,7 @@
 
 		<bpmn:property name="assigned_user">{{{CollectData.usernameEditor}}}</bpmn:property>
 		<bpmn:property name="instructions">{{{CollectData.instructionsEditor}}}</bpmn:property>
+		<bpmn:property name="due_date">{{#time:YmdHis|{{{CollectData.due_date}}} + 7days}}</bpmn:property>
 
 		<bpmn:incoming>FromCheckoutPage_1ToRequestPageEdit</bpmn:incoming>
 		<bpmn:incoming>FromGatewayReviewToRequestPageEdit</bpmn:incoming>
@@ -83,6 +84,7 @@
         <bpmn:property name="comment"></bpmn:property>
         <bpmn:property name="delegate_to"></bpmn:property>
         <bpmn:property name="delegate_comment"></bpmn:property>
+		<bpmn:property name="due_date">{{#time:YmdHis|{{{RequestPageEdit.due_date}}} + 7days}}</bpmn:property>
         <!-- Hidden -->
 		<bpmn:property name="assigned_user">{{{CollectData.usernameReviewer}}}</bpmn:property>
 		<bpmn:property name="action"></bpmn:property>
@@ -139,6 +141,7 @@
         <bpmn:property name="comment"></bpmn:property>
         <bpmn:property name="delegate_to"></bpmn:property>
         <bpmn:property name="delegate_comment"></bpmn:property>
+		<bpmn:property name="due_date">{{#time:YmdHis|{{{UserVoteReview.due_date}}} + 7days}}</bpmn:property>
         <!-- Hidden -->
 		<bpmn:property name="assigned_user">{{{CollectData.usernameApprover}}}</bpmn:property>
 		<bpmn:property name="action"></bpmn:property>
