@@ -30,6 +30,7 @@
         <bpmn:property name="username"></bpmn:property>
         <bpmn:property name="instructions"></bpmn:property>
         <bpmn:property name="reportrecipient"></bpmn:property>
+		<bpmn:property name="due_date"></bpmn:property>
 
         <bpmn:incoming>FromTheStartToCollectData</bpmn:incoming>
         <bpmn:outgoing>FromCollectDataToUserFeedback</bpmn:outgoing>
@@ -39,16 +40,13 @@
     <!-- Collect user vote -->
     <bpmn:userTask id="UserFeedback" name="UserFeedback">
          <bpmn:extensionElements>
-           <wf:type>custom_form</wf:type>
-            <wf:formModule>
-				<wf:module>ext.bluespice.distributionconnector.workflows.forms</wf:module>
-				<wf:class>bs.distributionConnector.workflows.form.Feedback</wf:class>
-			</wf:formModule>
+           <wf:type>user_feedback</wf:type>
         </bpmn:extensionElements>
 
         <bpmn:property name="assigned_user">{{{CollectData.username}}}</bpmn:property>
         <bpmn:property name="instructions">{{{CollectData.instructions}}}</bpmn:property>
         <bpmn:property name="comment"></bpmn:property>
+		<bpmn:property name="due_date">{{#time:YmdHis|{{{CollectData.due_date}}} + 7days}}</bpmn:property>
 
         <bpmn:incoming>FromCollectDataToUserFeedback</bpmn:incoming>
         <bpmn:outgoing>FromUserFeedbackToSendMail</bpmn:outgoing>
