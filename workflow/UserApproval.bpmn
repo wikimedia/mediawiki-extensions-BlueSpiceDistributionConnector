@@ -101,8 +101,8 @@
 		</bpmn:extensionElements>
 
 		<bpmn:property name="recipient" default="{{{CollectData.reportrecipient}}}"/>
-		<bpmn:property name="subject">{{int:workflow-default-simple-user-approval-report-subject|{{PAGENAME}}}}</bpmn:property>
-		<bpmn:property name="body">{{int:workflow-default-simple-user-approval-report-body|
+		<bpmn:property name="subject">{{int:workflow-default-user-approval-report-subject|{{PAGENAME}}}}</bpmn:property>
+		<bpmn:property name="body">{{int:workflow-default-user-approval-report-body|
 		* {{{UserVote.assigned_user}}} (Reviewer): "{{{UserVote.comment}}}", vote: "{{{UserVote.vote}}}"}}</bpmn:property>
 
 		<bpmn:incoming>FromApproveRevisiontoSendMail</bpmn:incoming>
