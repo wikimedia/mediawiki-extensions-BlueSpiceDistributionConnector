@@ -84,5 +84,11 @@
 	"bs-distributionconnector-workflows-form-group-instructions": "Instructions for group",
 	"bs-distributionconnector-statistics-report-page-hits": "Visits per page",
 	"bs-distributionconnector-statistics-report-page-trends": "Visit trends per page",
-	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% growth"
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% growth",
+	"bs-sandbox-page": "Sandbox",
+	"bs-sandbox": "Sandbox",
+	"bs-helpdesk-page": "https://en.wiki.bluespice.com",
+	"bs-helpdesk": "Helpdesk",
+	"bs-support-page": "https://bluespice.com/services/technical-support/",
+	"bs-support": "Support"
 }
