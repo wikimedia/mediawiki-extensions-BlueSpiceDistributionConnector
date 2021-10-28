@@ -4,5 +4,11 @@
 			"Ajeje Brazorf"
 		]
 	},
-	"bs-distributionconnector-workflows-form-groupname": "Gruppu"
+	"bs-distributionconnector-workflows-form-groupname": "Gruppu",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "ÀrvuluDîCatigurìi",
+	"bs-distributionconnector-ve-categorytree-title": "ÀrvuluDîCatigurìi",
+	"bs-distributionconnector-collection-var-pagetitle": "Tìtulu dâ pàggina",
+	"bs-distributionconnector-workflows-form-username": "Utenti",
+	"bs-distributionconnector-workflows-form-comment": "Cummentu",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Cummentu"
 }
