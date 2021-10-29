@@ -65,10 +65,7 @@
 	"bs-distributionconnector-statistics-report-page-hits": "Besuche pro Seite",
 	"bs-distributionconnector-statistics-report-page-trends": "Aufrufsentwicklung pro Seite",
 	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% Zunahme",
-	"bs-sandbox-page": "Sandkasten",
 	"bs-sandbox": "Sandkasten",
-	"bs-helpdesk-page": "https://de.wiki.bluespice.com",
 	"bs-helpdesk": "Helpdesk",
-	"bs-support-page": "https://bluespice.com/services/technical-support/",
 	"bs-support": "Support"
 }

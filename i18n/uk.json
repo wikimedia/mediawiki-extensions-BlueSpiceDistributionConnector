@@ -88,5 +88,8 @@
 	"bs-distributionconnector-workflows-form-group-instructions": "Інструкція для групи",
 	"bs-distributionconnector-statistics-report-page-hits": "Відвідувань на сторінку",
 	"bs-distributionconnector-statistics-report-page-trends": "Відвідайте тенденції на сторінці",
-	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% зростання"
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% зростання",
+	"bs-sandbox": "Чернетка",
+	"bs-helpdesk": "Служба підтримки",
+	"bs-support": "Підтримка"
 }

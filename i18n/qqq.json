@@ -89,7 +89,7 @@
 	"bs-distributionconnector-statistics-report-page-trends": "Statistics report name",
 	"bs-distributionconnector-statistics-report-page-trends-axis-value": "Label for the \"value\" axis",
 	"bs-sandbox-page": "{{ignored}}",
-	"bs-sandbox": "Link text for a link to sandbox",
+	"bs-sandbox": "Link text for a link to sandbox\n{{identical|Sandbox}}",
 	"bs-helpdesk-page": "{{ignored}}",
 	"bs-helpdesk": "Link text for a link to helpdesk",
 	"bs-support-page": "{{ignored}}",
