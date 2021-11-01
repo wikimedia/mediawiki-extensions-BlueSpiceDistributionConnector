@@ -92,5 +92,8 @@
 	"bs-distributionconnector-workflows-form-group-instructions": "Instructions pour le groupe",
 	"bs-distributionconnector-statistics-report-page-hits": "Visites par page",
 	"bs-distributionconnector-statistics-report-page-trends": "Tendances des visites par page",
-	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% de croissance"
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% de croissance",
+	"bs-sandbox": "Bac à sable",
+	"bs-helpdesk": "Service d'assistance",
+	"bs-support": "Assistance"
 }

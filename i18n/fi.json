@@ -13,5 +13,8 @@
 	"bs-distributionconnector-workflows-form-instructions": "Ohjeet (wikitekstiä tuetaan)",
 	"bs-distributionconnector-workflows-form-username": "Käyttäjä",
 	"bs-distributionconnector-workflows-form-comment": "Kommentti",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "Kommentti"
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Kommentti",
+	"bs-sandbox": "Hiekkalaatikko",
+	"bs-helpdesk": "Tukikeskus",
+	"bs-support": "Tuki"
 }

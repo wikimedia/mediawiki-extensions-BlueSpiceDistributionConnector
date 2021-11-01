@@ -86,5 +86,8 @@
 	"bs-distributionconnector-workflows-form-group-instructions": "Instructiones pro gruppo",
 	"bs-distributionconnector-statistics-report-page-hits": "Visitas per pagina",
 	"bs-distributionconnector-statistics-report-page-trends": "Tendentias de visitas per pagina",
-	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% crescentia"
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% crescentia",
+	"bs-sandbox": "Sabliera",
+	"bs-helpdesk": "Servicio de adjuta",
+	"bs-support": "Assistentia"
 }

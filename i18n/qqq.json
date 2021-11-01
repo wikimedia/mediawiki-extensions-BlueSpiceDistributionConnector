@@ -93,5 +93,5 @@
 	"bs-helpdesk-page": "{{ignored}}",
 	"bs-helpdesk": "Link text for a link to helpdesk",
 	"bs-support-page": "{{ignored}}",
-	"bs-support": "Link text for a link to support"
+	"bs-support": "Link text for a link to support\n{{identical|Support}}"
 }
