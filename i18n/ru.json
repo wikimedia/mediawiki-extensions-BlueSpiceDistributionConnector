@@ -4,6 +4,7 @@
 			"DDPAT",
 			"Megakott",
 			"Okras",
+			"Pacha Tchernof",
 			"PlushBoy"
 		]
 	},
@@ -56,5 +57,8 @@
 	"bs-distributionconnector-workflows-form-expert-user": "Эксперт",
 	"bs-distributionconnector-workflows-form-head-user": "Глава департамента",
 	"bs-distributionconnector-workflows-form-comment": "Комментарий",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "Комментарий"
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Комментарий",
+	"bs-sandbox": "Песочница",
+	"bs-helpdesk": "Помощь",
+	"bs-support": "Поддержка"
 }
