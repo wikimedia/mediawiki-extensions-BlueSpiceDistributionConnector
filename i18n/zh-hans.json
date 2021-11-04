@@ -96,5 +96,8 @@
 	"bs-distributionconnector-workflows-form-placeholder-comment": "评论",
 	"bs-distributionconnector-workflows-form-feedback": "输入您的反馈意见……",
 	"bs-distributionconnector-statistics-report-page-hits": "每页结果",
-	"bs-distributionconnector-statistics-report-page-trends-axis-value": "%的成长"
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "%的成长",
+	"bs-sandbox": "沙盒",
+	"bs-helpdesk": "服务台",
+	"bs-support": "支持"
 }
