@@ -254,15 +254,15 @@
 				"bs-distributionconnector-workflows-form-groupname",
 				"bs-distributionconnector-workflows-form-instructions",
 				"bs-distributionconnector-workflows-form-username",
-				"bs-distributionconnector-workflows-form-expert-user",
-				"bs-distributionconnector-workflows-form-expert-instructions",
-				"bs-distributionconnector-workflows-form-tw-user",
-				"bs-distributionconnector-workflows-form-tw-instructions",
-				"bs-distributionconnector-workflows-form-head-user",
-				"bs-distributionconnector-workflows-form-head-instructions",
 				"bs-distributionconnector-workflows-form-reportrecipient",
 				"bs-distributionconnector-workflows-form-feedback",
-				"bs-distributionconnector-workflows-form-group-instructions"
+				"bs-distributionconnector-workflows-form-group-instructions",
+				"bs-distributionconnector-workflows-form-label-editor",
+				"bs-distributionconnector-workflows-form-instructions-editor",
+				"bs-distributionconnector-workflows-form-label-reviewer",
+				"bs-distributionconnector-workflows-form-instructions-reviewer",
+				"bs-distributionconnector-workflows-form-label-approver",
+				"bs-distributionconnector-workflows-form-instructions-approver"
 			],
 			"dependencies": [
 				"ext.bluespice",
