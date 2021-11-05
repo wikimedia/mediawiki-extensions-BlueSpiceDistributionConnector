@@ -10,35 +10,35 @@
 		return [
 			{
 				name: 'usernameEditor',
-				label: mw.message( 'bs-distributionconnector-workflows-form-expert-user' ).text(),
+				label: mw.message( 'bs-distributionconnector-workflows-form-label-editor' ).text(),
 				type: 'user_picker',
 				required: true
 			},
 			{
 				name: 'instructionsEditor',
-				label: mw.message( 'bs-distributionconnector-workflows-form-expert-instructions' ).text(),
+				label: mw.message( 'bs-distributionconnector-workflows-form-instructions-editor' ).text(),
 				type: 'wikitext',
 			},
 			{
 				name: 'usernameReviewer',
-				label: mw.message( 'bs-distributionconnector-workflows-form-tw-user' ).text(),
+				label: mw.message( 'bs-distributionconnector-workflows-form-label-reviewer' ).text(),
 				type: 'user_picker',
 				required: true
 			},
 			{
 				name: 'instructionsReviewer',
-				label: mw.message( 'bs-distributionconnector-workflows-form-tw-instructions' ).text(),
+				label: mw.message( 'bs-distributionconnector-workflows-form-instructions-reviewer' ).text(),
 				type: 'wikitext'
 			},
 			{
 				name: 'usernameApprover',
-				label: mw.message( 'bs-distributionconnector-workflows-form-head-user' ).text(),
+				label: mw.message( 'bs-distributionconnector-workflows-form-label-approver' ).text(),
 				type: 'user_picker',
 				required: true
 			},
 			{
 				name: 'instructionsApprover',
-				label: mw.message( 'bs-distributionconnector-workflows-form-head-instructions' ).text(),
+				label: mw.message( 'bs-distributionconnector-workflows-form-instructions-reviewer' ).text(),
 				type: 'wikitext'
 			},
 			{
