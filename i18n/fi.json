@@ -14,6 +14,12 @@
 	"bs-distributionconnector-workflows-form-username": "Käyttäjä",
 	"bs-distributionconnector-workflows-form-comment": "Kommentti",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Kommentti",
+	"bs-distributionconnector-workflows-form-label-editor": "Muokkaaja",
+	"bs-distributionconnector-workflows-form-instructions-editor": "Ohjeet muokkaajalle",
+	"bs-distributionconnector-workflows-form-label-reviewer": "Sisällöntarkastaja",
+	"bs-distributionconnector-workflows-form-instructions-reviewer": "Ohjeet sisällöntarkastajalle",
+	"bs-distributionconnector-workflows-form-label-approver": "Hyväksyjä",
+	"bs-distributionconnector-workflows-form-instructions-approver": "Ohjeet hyväksyjälle",
 	"bs-sandbox": "Hiekkalaatikko",
 	"bs-helpdesk": "Tukikeskus",
 	"bs-support": "Tuki"
