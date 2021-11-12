@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Underbaaar",
 			"Ykhwong"
 		]
 	},
@@ -59,6 +60,7 @@
 	"bs-distributionconnector-workflows-form-comment": "의견",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "의견",
 	"bs-distributionconnector-workflows-form-group-instructions": "그룹을 위한 안내",
+	"bs-distributionconnector-workflows-form-label-editor": "편집자",
 	"bs-distributionconnector-statistics-report-page-hits": "문서 당 방문 수",
 	"bs-sandbox": "연습장",
 	"bs-helpdesk": "질문방",
