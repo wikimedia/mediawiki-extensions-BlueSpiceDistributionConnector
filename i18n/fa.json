@@ -67,5 +67,7 @@
 	"bs-distributionconnector-workflows-form-reportrecipient": "ارسال گزارش به (ایمیل یا نام کاربری معتبر)",
 	"bs-distributionconnector-workflows-form-feedback": "بازخورد خود را وارد کنید...",
 	"bs-distributionconnector-workflows-form-group-instructions": "راهنما برای گروه",
+	"bs-distributionconnector-workflows-form-label-editor": "ویرایشگر",
+	"bs-distributionconnector-workflows-form-label-reviewer": "بازبینی‌کننده",
 	"bs-distributionconnector-statistics-report-page-hits": "بازدیدها به ازای هر صفحه"
 }

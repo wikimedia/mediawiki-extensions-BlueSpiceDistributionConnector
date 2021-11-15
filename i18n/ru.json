@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"DDPAT",
+			"Kareyac",
 			"Megakott",
 			"Okras",
 			"Pacha Tchernof",
@@ -58,6 +59,7 @@
 	"bs-distributionconnector-workflows-form-head-user": "Глава департамента",
 	"bs-distributionconnector-workflows-form-comment": "Комментарий",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Комментарий",
+	"bs-distributionconnector-workflows-form-label-editor": "Редактор",
 	"bs-sandbox": "Песочница",
 	"bs-helpdesk": "Помощь",
 	"bs-support": "Поддержка"
