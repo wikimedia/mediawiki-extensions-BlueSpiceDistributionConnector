@@ -8,7 +8,8 @@
 			"Joanmp17",
 			"Mnivar",
 			"Reverse88",
-			"Warming Hearth"
+			"Warming Hearth",
+			"Whovian Biologist"
 		]
 	},
 	"bs-distributionconnector-tag-references-desc": "Muestra la lista de notas al pie insertadas en los artículos.",
@@ -106,5 +107,13 @@
 	"bs-distributionconnector-workflows-form-group-instructions": "Instrucciones para el grupo",
 	"bs-distributionconnector-statistics-report-page-hits": "Visitas por página",
 	"bs-distributionconnector-statistics-report-page-trends": "Tendencias de visita por página",
-	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% crecimiento"
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% crecimiento",
+	"bs-distributionconnector-workflows-form-label-editor": "Editor",
+	"bs-distributionconnector-workflows-form-instructions-editor": "Instrucciones para el editor",
+	"bs-distributionconnector-workflows-form-label-reviewer": "Revisor",
+	"bs-distributionconnector-workflows-form-instructions-reviewer": "Instrucciones para el revisor",
+	"bs-distributionconnector-workflows-form-label-approver": "Aprobador",
+	"bs-distributionconnector-workflows-form-instructions-approver": "Instrucciones para el aprovador",
+	"bs-sandbox": "Zona de pruebas",
+	"bs-support": "Asistencia"
 }

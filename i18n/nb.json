@@ -52,7 +52,7 @@
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Attributtnavn for «groups»",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Attributtnavn for «username»",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Sidetreff",
-	"workflow-default-editorial-review-report-subject": "Redigeringene av '$1' er gjennomgått!",
+	"workflow-default-editorial-review-report-subject": "Redigeringene av «$1» er gjennomgått!",
 	"workflow-default-editorial-review-report-body": "Dette er en rapport om gjennomgangens arbeidsflyt: $1",
 	"workflows-workflow-file-definition-editorial-review-title": "Gjennomgang",
 	"bs-distributionconnector-workflows-form-comment": "Kommentar",

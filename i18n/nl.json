@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aranka",
+			"Danieldegroot2",
 			"Mainframe98",
 			"McDutchie",
 			"Optilete",
@@ -112,5 +113,8 @@
 	"bs-distributionconnector-workflows-form-head-user": "Afdelingshoofd",
 	"bs-distributionconnector-workflows-form-head-instructions": "Instructies voor het afdelingshoofd",
 	"bs-distributionconnector-workflows-form-group-instructions": "Instructies voor groep",
-	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% groei"
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% groei",
+	"bs-sandbox": "Kladblok",
+	"bs-helpdesk": "Helpdesk",
+	"bs-support": "Ondersteuning"
 }

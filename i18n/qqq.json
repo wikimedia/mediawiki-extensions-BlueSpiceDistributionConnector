@@ -125,5 +125,17 @@
 	"bs-distributionconnector-workflows-form-head-instructions": "Label in a form",
 	"bs-distributionconnector-workflows-form-reportrecipient": "Label for the workflow form field",
 	"bs-distributionconnector-workflows-form-feedback": "Label for the workflow form field",
-	"bs-distributionconnector-workflows-form-group-instructions": "Label in a form"
+	"bs-distributionconnector-workflows-form-group-instructions": "Label in a form",
+	"bs-distributionconnector-workflows-form-label-editor": "Label for the form field",
+	"bs-distributionconnector-workflows-form-instructions-editor": "Label for the form field",
+	"bs-distributionconnector-workflows-form-label-reviewer": "Label for the form field",
+	"bs-distributionconnector-workflows-form-instructions-reviewer": "Label for the form field",
+	"bs-distributionconnector-workflows-form-label-approver": "Label for the form field",
+	"bs-distributionconnector-workflows-form-instructions-approver": "Label for the form field",
+	"bs-sandbox-page": "{{ignored}}",
+	"bs-sandbox": "Link text for a link to sandbox\n{{identical|Sandbox}}",
+	"bs-helpdesk-page": "{{ignored}}",
+	"bs-helpdesk": "Link text for a link to helpdesk",
+	"bs-support-page": "{{ignored}}",
+	"bs-support": "Link text for a link to support\n{{identical|Support}}"
 }

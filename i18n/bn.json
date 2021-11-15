@@ -15,5 +15,7 @@
 	"bs-distributionconnector-workflows-form-step-three-user": "ধাপ ৩: ব্যবহারকারী",
 	"bs-distributionconnector-workflows-form-step-three-instructions": "ধাপ ৩: নির্দেশাবলী",
 	"bs-distributionconnector-workflows-form-comment": "মন্তব্য",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "মন্তব্য"
+	"bs-distributionconnector-workflows-form-placeholder-comment": "মন্তব্য",
+	"bs-sandbox": "খেলাঘর",
+	"bs-helpdesk": "সাহায্যকেন্দ্র"
 }

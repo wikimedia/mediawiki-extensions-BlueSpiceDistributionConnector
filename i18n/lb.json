@@ -26,5 +26,11 @@
 	"bs-distributionconnector-statistics-report-page-hits": "Besicher pro Säit",
 	"bs-distributionconnector-workflows-form-head-user": "Chef vum Service",
 	"bs-distributionconnector-workflows-form-feedback": "Gitt Äre Feedback an...",
-	"bs-distributionconnector-workflows-form-expert-instructions": "Instruktioune fir den Expert"
+	"bs-distributionconnector-workflows-form-expert-instructions": "Instruktioune fir den Expert",
+	"bs-distributionconnector-workflows-form-label-editor": "Editeur",
+	"bs-distributionconnector-workflows-form-instructions-reviewer": "Instruktioune fir deen deen et nokuckt",
+	"bs-distributionconnector-workflows-form-label-approver": "Zoustëmmer",
+	"bs-sandbox": "Sandkëscht",
+	"bs-helpdesk": "Helpdesk",
+	"bs-support": "Ënnerstëtzung"
 }

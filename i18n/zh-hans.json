@@ -106,5 +106,8 @@
 	"workflows-workflow-file-definition-three-step-approval-desc": "分别让一组和两名用户巡查并核准一个页面。一旦投票完成，你将会被邮件通知投票结果。",
 	"workflows-workflow-file-definition-user-approval-desc": "让一名用户巡查并核准一个页面。一旦投票完成，你将会被邮件通知投票结果。",
 	"workflows-workflow-file-definition-user-feedback-desc": "当巡查一个页面时向一名用户询问反馈意见。一旦投票结束，您将会被邮件通知结果。",
-	"bs-distributionconnector-statistics-report-page-trends-axis-value": "%的成长"
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "%的成长",
+	"bs-sandbox": "沙盒",
+	"bs-helpdesk": "服务台",
+	"bs-support": "支持"
 }

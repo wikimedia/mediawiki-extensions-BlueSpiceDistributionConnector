@@ -14,5 +14,7 @@
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS スタイルタグ",
 	"bs-distributionconnector-collection-type-hitcounter": "ページ閲覧回数",
 	"bs-distributionconnector-collection-var-pagetitle": "ページタイトル",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "深さ"
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "深さ",
+	"bs-sandbox": "サンドボックス",
+	"bs-support": "サポート"
 }

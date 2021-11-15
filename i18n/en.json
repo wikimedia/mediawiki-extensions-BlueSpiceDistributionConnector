@@ -122,5 +122,17 @@
 	"bs-distributionconnector-workflows-form-head-instructions": "Instructions for the head of department",
 	"bs-distributionconnector-workflows-form-reportrecipient": "Send report to (valid email or username)",
 	"bs-distributionconnector-workflows-form-feedback": "Enter your feedback...",
-	"bs-distributionconnector-workflows-form-group-instructions": "Instructions for group"
+	"bs-distributionconnector-workflows-form-group-instructions": "Instructions for group",
+	"bs-distributionconnector-workflows-form-label-editor": "Editor",
+	"bs-distributionconnector-workflows-form-instructions-editor": "Instructions for the editor",
+	"bs-distributionconnector-workflows-form-label-reviewer": "Reviewer",
+	"bs-distributionconnector-workflows-form-instructions-reviewer": "Instructions for the reviewer",
+	"bs-distributionconnector-workflows-form-label-approver": "Approver",
+	"bs-distributionconnector-workflows-form-instructions-approver": "Instructions for the approver",
+	"bs-sandbox-page": "Sandbox",
+	"bs-sandbox": "Sandbox",
+	"bs-helpdesk-page": "https://en.wiki.bluespice.com",
+	"bs-helpdesk": "Helpdesk",
+	"bs-support-page": "https://bluespice.com/services/technical-support/",
+	"bs-support": "Support"
 }

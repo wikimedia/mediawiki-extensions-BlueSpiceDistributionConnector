@@ -130,5 +130,14 @@
 	"bs-distributionconnector-workflows-form-group-instructions": "Instructions pour le groupe",
 	"bs-distributionconnector-statistics-report-page-hits": "Visites par page",
 	"bs-distributionconnector-statistics-report-page-trends": "Tendances des visites par page",
-	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% de croissance"
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% de croissance",
+	"bs-distributionconnector-workflows-form-label-editor": "Éditeur",
+	"bs-distributionconnector-workflows-form-instructions-editor": "Instructions pour l’éditeur",
+	"bs-distributionconnector-workflows-form-label-reviewer": "Relecteur",
+	"bs-distributionconnector-workflows-form-instructions-reviewer": "Instructions pour le relecteur",
+	"bs-distributionconnector-workflows-form-label-approver": "Approbateur",
+	"bs-distributionconnector-workflows-form-instructions-approver": "Instructions pour l’approbateur",
+	"bs-sandbox": "Bac à sable",
+	"bs-helpdesk": "Service d'assistance",
+	"bs-support": "Assistance"
 }
