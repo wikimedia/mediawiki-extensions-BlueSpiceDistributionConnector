@@ -6,5 +6,10 @@
 	},
 	"bs-distributionconnector-workflows-form-username": "အသုံးပြုသူ",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "မှတ်ချက်",
-	"bs-distributionconnector-statistics-report-page-hits": "စာမျက်နှာအလိုက် လည်ပတ်မှုများ"
+	"bs-distributionconnector-workflows-form-label-editor": "တည်းဖြတ်သူ",
+	"bs-distributionconnector-workflows-form-label-reviewer": "ပြန်လည်ဆန်းစစ်သူ",
+	"bs-distributionconnector-statistics-report-page-hits": "စာမျက်နှာအလိုက် လည်ပတ်မှုများ",
+	"bs-sandbox": "သဲပုံး",
+	"bs-helpdesk": "အကူညီစားပွဲ",
+	"bs-support": "ထောက်ပံ့မှု"
 }
