@@ -38,7 +38,7 @@
 			},
 			{
 				name: 'instructionsApprover',
-				label: mw.message( 'bs-distributionconnector-workflows-form-instructions-reviewer' ).text(),
+				label: mw.message( 'bs-distributionconnector-workflows-form-instructions-approver' ).text(),
 				type: 'wikitext'
 			},
 			{
