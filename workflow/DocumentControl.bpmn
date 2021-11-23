@@ -1,373 +1,312 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:wf="http://hallowelt.com/schema/bpmn/wf" id="Definitions_1h4onoe" targetNamespace="http://bpmn.io/schema/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="8.7.2">
-
-<!-- Process part -->
-  <bpmn:process id="Document_control_process" isExecutable="false">
-	<bpmn:extensionElements>
-		<wf:context>
-			<wf:contextItem name="pageId" />
-		</wf:context>
-	</bpmn:extensionElements>
-
-    <!-- StartEvent -->
-	<bpmn:startEvent id="TheStart">
-		<bpmn:outgoing>FromTheStartToCollectData</bpmn:outgoing>
-    </bpmn:startEvent>
-    <bpmn:sequenceFlow id="FromTheStartToCollectData" sourceRef="TheStart" targetRef="CollectData" />
-
-    <!-- CollectData -->
-	<bpmn:userTask id="CollectData" name="CollectData">
-        <bpmn:extensionElements>
-            <wf:type>custom_form</wf:type>
-            <wf:formModule>
-				<wf:module>ext.bluespice.distributionconnector.workflows.forms</wf:module>
-				<wf:class>bs.distributionConnector.workflows.form.DocumentControlCollectDataForm</wf:class>
-			</wf:formModule>
-            <wf:initializer>true</wf:initializer>
-        </bpmn:extensionElements>
-
-		<bpmn:property name="usernameEditor" />
-		<bpmn:property name="instructionsEditor" />
-		<bpmn:property name="usernameReviewer" />
-		<bpmn:property name="instructionsReviewer" />
-		<bpmn:property name="usernameApprover" />
-		<bpmn:property name="instructionsApprover" />
-		<bpmn:property name="reportrecipient" />
-		<bpmn:property name="due_date" />
-
-		<bpmn:incoming>FromTheStartToCollectData</bpmn:incoming>
-		<bpmn:outgoing>FromCollectDataToCheckoutPage_1</bpmn:outgoing>
-	</bpmn:userTask>
-	<bpmn:sequenceFlow id="FromCollectDataToCheckoutPage_1" sourceRef="CollectData" targetRef="CheckoutPage_1" />
-
-	<!-- Checkout -->
-	<bpmn:task id="CheckoutPage_1" name="CheckoutPage">
+	<!-- Process part -->
+	<bpmn:process id="Document_control_process" isExecutable="false">
 		<bpmn:extensionElements>
-		  <wf:type>page_checkout</wf:type>
+			<wf:context>
+				<wf:contextItem name="pageId"/>
+			</wf:context>
 		</bpmn:extensionElements>
-
-	    <bpmn:property name="user" default="{{{CollectData.usernameEditor}}}"></bpmn:property>
-
-		<bpmn:incoming>FromCollectDataToCheckoutPage_1</bpmn:incoming>
-		<bpmn:outgoing>FromCheckoutPage_1ToRequestPageEdit</bpmn:outgoing>
-    </bpmn:task>
-    <bpmn:sequenceFlow id="FromCheckoutPage_1ToRequestPageEdit" sourceRef="CheckoutPage_1" targetRef="RequestPageEdit" />
-
-	<!-- Request page edit -->
-	<bpmn:userTask id="RequestPageEdit" name="RequestPageEdit">
-		<bpmn:extensionElements>
-			<wf:type>edit_request</wf:type>
-		</bpmn:extensionElements>
-
-		<bpmn:property name="assigned_user">{{{CollectData.usernameEditor}}}</bpmn:property>
-		<bpmn:property name="instructions">{{{CollectData.instructionsEditor}}}</bpmn:property>
-		<bpmn:property name="due_date">{{#time:YmdHis|{{{CollectData.due_date}}} + 7days}}</bpmn:property>
-
-		<bpmn:incoming>FromCheckoutPage_1ToRequestPageEdit</bpmn:incoming>
-		<bpmn:incoming>FromGatewayReviewToRequestPageEdit</bpmn:incoming>
-		<bpmn:outgoing>FromRequestPageEditToUserVoteReview</bpmn:outgoing>
-
-    </bpmn:userTask>
-    <bpmn:sequenceFlow id="FromRequestPageEditToUserVoteReview" sourceRef="RequestPageEdit" targetRef="UserVoteReview" />
-
-	<!-- Reviewer vote -->
-	<bpmn:userTask id="UserVoteReview" name="UserVoteReview">
-		<bpmn:extensionElements>
-			<wf:type>user_vote</wf:type>
-		</bpmn:extensionElements>
-
-		<bpmn:incoming>FromRequestPageEditToUserVoteReview</bpmn:incoming>
-		<bpmn:outgoing>FromUserVoteReviewToGatewayReview</bpmn:outgoing>
-
-        <bpmn:property name="instructions">{{{CollectData.instructionsReviewer}}}</bpmn:property>
-        <bpmn:property name="vote"></bpmn:property>
-        <bpmn:property name="comment"></bpmn:property>
-        <bpmn:property name="delegate_to"></bpmn:property>
-        <bpmn:property name="delegate_comment"></bpmn:property>
-		<bpmn:property name="due_date">{{#time:YmdHis|{{{RequestPageEdit.due_date}}} + 7days}}</bpmn:property>
-        <!-- Hidden -->
-		<bpmn:property name="assigned_user">{{{CollectData.usernameReviewer}}}</bpmn:property>
-		<bpmn:property name="action"></bpmn:property>
-
-    </bpmn:userTask>
-    <bpmn:sequenceFlow id="FromUserVoteReviewToGatewayReview" sourceRef="UserVoteReview" targetRef="GatewayReview" />
-
-	<!-- Reviewer vote gateway  -->
-	<bpmn:exclusiveGateway id="GatewayReview" name="UserVoteReview.vote">
-		<bpmn:incoming>FromUserVoteReviewToGatewayReview</bpmn:incoming>
-		<bpmn:outgoing>FromGatewayReviewtoCheckinPage_1</bpmn:outgoing>
-		<bpmn:outgoing>FromGatewayReviewToRequestPageEdit</bpmn:outgoing>
-    </bpmn:exclusiveGateway>
-    <bpmn:sequenceFlow id="FromGatewayReviewtoCheckinPage_1" name="yes" sourceRef="GatewayReview" targetRef="CheckinPage_1" />
-    <bpmn:sequenceFlow id="FromGatewayReviewToRequestPageEdit" name="no" sourceRef="GatewayReview" targetRef="RequestPageEdit" />
-
-	<!-- Check-in -->
-	<bpmn:task id="CheckinPage_1" name="CheckinPage">
-	    <bpmn:extensionElements>
-		  <wf:type>page_checkin</wf:type>
-	    </bpmn:extensionElements>
-
-	    <bpmn:property name="user" default="{{{CollectData.usernameEditor}}}"></bpmn:property>
-
-		<bpmn:incoming>FromGatewayReviewtoCheckinPage_1</bpmn:incoming>
-		<bpmn:outgoing>FromCheckinPage_1ToCheckoutPage_2</bpmn:outgoing>
-    </bpmn:task>
-    <bpmn:sequenceFlow id="FromCheckinPage_1ToCheckoutPage_2" sourceRef="CheckinPage_1" targetRef="CheckoutPage_2" />
-
-	<!-- Checkout -->
-   <bpmn:task id="CheckoutPage_2" name="CheckoutPage">
-   	    <bpmn:extensionElements>
-   		  <wf:type>page_checkout</wf:type>
-   	    </bpmn:extensionElements>
-
-   	    <bpmn:property name="user">Mediawiki default</bpmn:property>
-
-		<bpmn:incoming>FromCheckinPage_1ToCheckoutPage_2</bpmn:incoming>
-		<bpmn:outgoing>FromCheckoutPage_2ToUserVoteApproval</bpmn:outgoing>
-    </bpmn:task>
-    <bpmn:sequenceFlow id="FromCheckoutPage_2ToUserVoteApproval" sourceRef="CheckoutPage_2" targetRef="UserVoteApproval" />
-
-	<!-- Approver vote -->
-	<bpmn:userTask id="UserVoteApproval" name="UserVoteApproval">
-		<bpmn:extensionElements>
-			<wf:type>user_vote</wf:type>
-		</bpmn:extensionElements>
-
-		<bpmn:incoming>FromCheckoutPage_2ToUserVoteApproval</bpmn:incoming>
-		<bpmn:outgoing>FromUserVoteApprovalToGatewayApproval</bpmn:outgoing>
-
-        <bpmn:property name="instructions">{{{CollectData.instructionsApprover}}}</bpmn:property>
-        <bpmn:property name="vote"></bpmn:property>
-        <bpmn:property name="comment"></bpmn:property>
-        <bpmn:property name="delegate_to"></bpmn:property>
-        <bpmn:property name="delegate_comment"></bpmn:property>
-		<bpmn:property name="due_date">{{#time:YmdHis|{{{UserVoteReview.due_date}}} + 7days}}</bpmn:property>
-        <!-- Hidden -->
-		<bpmn:property name="assigned_user">{{{CollectData.usernameApprover}}}</bpmn:property>
-		<bpmn:property name="action"></bpmn:property>
-
-    </bpmn:userTask>
-    <bpmn:sequenceFlow id="FromUserVoteApprovalToGatewayApproval" sourceRef="UserVoteApproval" targetRef="GatewayApproval" />
-
-	<!-- Approver vote gateway -->
-	<bpmn:exclusiveGateway id="GatewayApproval" name="UserVoteApproval.vote">
-		<bpmn:incoming>FromUserVoteApprovalToGatewayApproval</bpmn:incoming>
-		<bpmn:outgoing>FromGatewayApprovalToApproveRevision</bpmn:outgoing>
-		<bpmn:outgoing>FromGatewayApprovalToSendMail</bpmn:outgoing>
-	</bpmn:exclusiveGateway>
-    <bpmn:sequenceFlow id="FromGatewayApprovalToApproveRevision" name="yes" sourceRef="GatewayApproval" targetRef="ApproveRevision" />
-    <bpmn:sequenceFlow id="FromGatewayApprovalToSendMail" name="no" sourceRef="GatewayApproval" targetRef="SendMail" />
-
-	<!-- Approve revision -->
-	<bpmn:task id="ApproveRevision" name="ApproveRevision">
-		<bpmn:extensionElements>
-			<wf:type>approve_revision</wf:type>
-		</bpmn:extensionElements>
-
-		<bpmn:incoming>FromGatewayApprovalToApproveRevision</bpmn:incoming>
-		<bpmn:outgoing>FromApproveRevisionToSendMail</bpmn:outgoing>
-
-		<bpmn:property name="comment">{{{UserVoteApproval.comment}}}</bpmn:property>
-
-    </bpmn:task>
-    <bpmn:sequenceFlow id="FromApproveRevisionToSendMail" sourceRef="ApproveRevision" targetRef="SendMail" />
-
-	<!-- Send mail -->
-	<bpmn:task id="SendMail" name="SendMail">
-		<bpmn:extensionElements>
-			<wf:type>send_mail</wf:type>
-		</bpmn:extensionElements>
-
-		<bpmn:incoming>FromGatewayApprovalToSendMail</bpmn:incoming>
-		<bpmn:incoming>FromApproveRevisionToSendMail</bpmn:incoming>
-		<bpmn:outgoing>FromSendMailToCheckinPage_2</bpmn:outgoing>
-
-		<bpmn:property name="recipient" default="{{{CollectData.reportrecipient}}}"/>
-		<bpmn:property name="subject">{{int:workflow-default-document-control-report-subject|{{PAGENAME}}}}</bpmn:property>
-		<bpmn:property name="body">{{int:workflow-default-document-control-report-body|
-* {{{UserVoteReview.assigned_user}}} (Reviewer): "{{{UserVoteReview.comment}}}", vote: "{{{UserVoteReview.vote}}}"
-* {{{UserVoteApproval.assigned_user}}} (Head): "{{{UserVoteApproval.comment}}}", vote: "{{{UserVoteApproval.vote}}}"}}
+		<!-- StartEvent -->
+		<bpmn:startEvent id="TheStart">
+			<bpmn:outgoing>FromTheStartToCollectData</bpmn:outgoing>
+		</bpmn:startEvent>
+		<bpmn:sequenceFlow id="FromTheStartToCollectData" sourceRef="TheStart" targetRef="CollectData"/>
+		<!-- CollectData -->
+		<bpmn:userTask id="CollectData" name="CollectData">
+			<bpmn:extensionElements>
+				<wf:type>custom_form</wf:type>
+				<wf:formModule>
+					<wf:module>ext.bluespice.distributionconnector.workflows.forms</wf:module>
+					<wf:class>bs.distributionConnector.workflows.form.DocumentControlCollectDataForm</wf:class>
+				</wf:formModule>
+				<wf:initializer>true</wf:initializer>
+			</bpmn:extensionElements>
+			<bpmn:property name="usernameEditor"/>
+			<bpmn:property name="instructionsEditor"/>
+			<bpmn:property name="usernameReviewer"/>
+			<bpmn:property name="instructionsReviewer"/>
+			<bpmn:property name="usernameApprover"/>
+			<bpmn:property name="instructionsApprover"/>
+			<bpmn:property name="reportrecipient"/>
+			<bpmn:property name="due_date"/>
+			<bpmn:incoming>FromTheStartToCollectData</bpmn:incoming>
+			<bpmn:outgoing>FromCollectDataToCheckoutPage_1</bpmn:outgoing>
+		</bpmn:userTask>
+		<bpmn:sequenceFlow id="FromCollectDataToCheckoutPage_1" sourceRef="CollectData" targetRef="CheckoutPage_1"/>
+		<!-- Checkout -->
+		<bpmn:task id="CheckoutPage_1" name="CheckoutPage">
+			<bpmn:extensionElements>
+				<wf:type>page_checkout</wf:type>
+			</bpmn:extensionElements>
+			<bpmn:property name="user" default="{{{CollectData.usernameEditor}}}"/>
+			<bpmn:incoming>FromCollectDataToCheckoutPage_1</bpmn:incoming>
+			<bpmn:outgoing>FromCheckoutPage_1ToRequestPageEdit</bpmn:outgoing>
+		</bpmn:task>
+		<bpmn:sequenceFlow id="FromCheckoutPage_1ToRequestPageEdit" sourceRef="CheckoutPage_1" targetRef="RequestPageEdit"/>
+		<!-- Request page edit -->
+		<bpmn:userTask id="RequestPageEdit" name="RequestPageEdit">
+			<bpmn:extensionElements>
+				<wf:type>edit_request</wf:type>
+			</bpmn:extensionElements>
+			<bpmn:property name="assigned_user">{{{CollectData.usernameEditor}}}</bpmn:property>
+			<bpmn:property name="instructions">{{{CollectData.instructionsEditor}}}</bpmn:property>
+			<bpmn:property name="due_date">{{#time:YmdHis|{{{CollectData.due_date}}} + 7days}}</bpmn:property>
+			<bpmn:incoming>FromCheckoutPage_1ToRequestPageEdit</bpmn:incoming>
+			<bpmn:incoming>FromGatewayReviewToRequestPageEdit</bpmn:incoming>
+			<bpmn:outgoing>FromRequestPageEditToUserVoteReview</bpmn:outgoing>
+		</bpmn:userTask>
+		<bpmn:sequenceFlow id="FromRequestPageEditToUserVoteReview" sourceRef="RequestPageEdit" targetRef="UserVoteReview"/>
+		<!-- Reviewer vote -->
+		<bpmn:userTask id="UserVoteReview" name="UserVoteReview">
+			<bpmn:extensionElements>
+				<wf:type>user_vote</wf:type>
+			</bpmn:extensionElements>
+			<bpmn:incoming>FromRequestPageEditToUserVoteReview</bpmn:incoming>
+			<bpmn:outgoing>FromUserVoteReviewToGatewayReview</bpmn:outgoing>
+			<bpmn:property name="instructions">{{{CollectData.instructionsReviewer}}}</bpmn:property>
+			<bpmn:property name="vote"/>
+			<bpmn:property name="comment"/>
+			<bpmn:property name="delegate_to"/>
+			<bpmn:property name="delegate_comment"/>
+			<bpmn:property name="due_date">{{#time:YmdHis|{{{RequestPageEdit.due_date}}} + 7days}}</bpmn:property>
+			<!-- Hidden -->
+			<bpmn:property name="assigned_user">{{{CollectData.usernameReviewer}}}</bpmn:property>
+			<bpmn:property name="action"/>
+		</bpmn:userTask>
+		<bpmn:sequenceFlow id="FromUserVoteReviewToGatewayReview" sourceRef="UserVoteReview" targetRef="GatewayReview"/>
+		<!-- Reviewer vote gateway	-->
+		<bpmn:exclusiveGateway id="GatewayReview" name="UserVoteReview.vote">
+			<bpmn:incoming>FromUserVoteReviewToGatewayReview</bpmn:incoming>
+			<bpmn:outgoing>FromGatewayReviewtoCheckinPage_1</bpmn:outgoing>
+			<bpmn:outgoing>FromGatewayReviewToRequestPageEdit</bpmn:outgoing>
+		</bpmn:exclusiveGateway>
+		<bpmn:sequenceFlow id="FromGatewayReviewtoCheckinPage_1" name="yes" sourceRef="GatewayReview" targetRef="CheckinPage_1"/>
+		<bpmn:sequenceFlow id="FromGatewayReviewToRequestPageEdit" name="no" sourceRef="GatewayReview" targetRef="RequestPageEdit"/>
+		<!-- Check-in -->
+		<bpmn:task id="CheckinPage_1" name="CheckinPage">
+			<bpmn:extensionElements>
+				<wf:type>page_checkin</wf:type>
+			</bpmn:extensionElements>
+			<bpmn:property name="user" default="{{{CollectData.usernameEditor}}}"/>
+			<bpmn:incoming>FromGatewayReviewtoCheckinPage_1</bpmn:incoming>
+			<bpmn:outgoing>FromCheckinPage_1ToCheckoutPage_2</bpmn:outgoing>
+		</bpmn:task>
+		<bpmn:sequenceFlow id="FromCheckinPage_1ToCheckoutPage_2" sourceRef="CheckinPage_1" targetRef="CheckoutPage_2"/>
+		<!-- Checkout -->
+		<bpmn:task id="CheckoutPage_2" name="CheckoutPage">
+			<bpmn:extensionElements>
+				<wf:type>page_checkout</wf:type>
+			</bpmn:extensionElements>
+			<bpmn:property name="user">Mediawiki default</bpmn:property>
+			<bpmn:incoming>FromCheckinPage_1ToCheckoutPage_2</bpmn:incoming>
+			<bpmn:outgoing>FromCheckoutPage_2ToUserVoteApproval</bpmn:outgoing>
+		</bpmn:task>
+		<bpmn:sequenceFlow id="FromCheckoutPage_2ToUserVoteApproval" sourceRef="CheckoutPage_2" targetRef="UserVoteApproval"/>
+		<!-- Approver vote -->
+		<bpmn:userTask id="UserVoteApproval" name="UserVoteApproval">
+			<bpmn:extensionElements>
+				<wf:type>user_vote</wf:type>
+			</bpmn:extensionElements>
+			<bpmn:incoming>FromCheckoutPage_2ToUserVoteApproval</bpmn:incoming>
+			<bpmn:outgoing>FromUserVoteApprovalToGatewayApproval</bpmn:outgoing>
+			<bpmn:property name="instructions">{{{CollectData.instructionsApprover}}}</bpmn:property>
+			<bpmn:property name="vote"/>
+			<bpmn:property name="comment"/>
+			<bpmn:property name="delegate_to"/>
+			<bpmn:property name="delegate_comment"/>
+			<bpmn:property name="due_date">{{#time:YmdHis|{{{UserVoteReview.due_date}}} + 7days}}</bpmn:property>
+			<!-- Hidden -->
+			<bpmn:property name="assigned_user">{{{CollectData.usernameApprover}}}</bpmn:property>
+			<bpmn:property name="action"/>
+		</bpmn:userTask>
+		<bpmn:sequenceFlow id="FromUserVoteApprovalToGatewayApproval" sourceRef="UserVoteApproval" targetRef="GatewayApproval"/>
+		<!-- Approver vote gateway -->
+		<bpmn:exclusiveGateway id="GatewayApproval" name="UserVoteApproval.vote">
+			<bpmn:incoming>FromUserVoteApprovalToGatewayApproval</bpmn:incoming>
+			<bpmn:outgoing>FromGatewayApprovalToApproveRevision</bpmn:outgoing>
+			<bpmn:outgoing>FromGatewayApprovalToSendMail</bpmn:outgoing>
+		</bpmn:exclusiveGateway>
+		<bpmn:sequenceFlow id="FromGatewayApprovalToApproveRevision" name="yes" sourceRef="GatewayApproval" targetRef="ApproveRevision"/>
+		<bpmn:sequenceFlow id="FromGatewayApprovalToSendMail" name="no" sourceRef="GatewayApproval" targetRef="SendMail"/>
+		<!-- Approve revision -->
+		<bpmn:task id="ApproveRevision" name="ApproveRevision">
+			<bpmn:extensionElements>
+				<wf:type>approve_revision</wf:type>
+			</bpmn:extensionElements>
+			<bpmn:incoming>FromGatewayApprovalToApproveRevision</bpmn:incoming>
+			<bpmn:outgoing>FromApproveRevisionToSendMail</bpmn:outgoing>
+			<bpmn:property name="comment">{{{UserVoteApproval.comment}}}</bpmn:property>
+		</bpmn:task>
+		<bpmn:sequenceFlow id="FromApproveRevisionToSendMail" sourceRef="ApproveRevision" targetRef="SendMail"/>
+		<!-- Send mail -->
+		<bpmn:task id="SendMail" name="SendMail">
+			<bpmn:extensionElements>
+				<wf:type>send_mail</wf:type>
+			</bpmn:extensionElements>
+			<bpmn:incoming>FromGatewayApprovalToSendMail</bpmn:incoming>
+			<bpmn:incoming>FromApproveRevisionToSendMail</bpmn:incoming>
+			<bpmn:outgoing>FromSendMailToCheckinPage_2</bpmn:outgoing>
+			<bpmn:property name="recipient" default="{{{CollectData.reportrecipient}}}"/>
+			<bpmn:property name="subject">{{int:bs-distributionconnector-default-document-control-report-subject|{{PAGENAME}}}}</bpmn:property>
+			<bpmn:property name="body">{{int:bs-distributionconnector-default-document-control-report-body|
+{{#timel:D j, Y (H:i T)|{{{start_date}}} }}|
+{{#timel:D j, Y (H:i T)|{{LOCALTIMESTAMP}} }}|
+{{PAGENAME}}|
+{{REVISIONID}}|
+{{{CollectData.usernameEditor}}}|
+{{{UserVoteReview.assigned_user}}} {{#if: {{{UserVoteReview.delegate_to}}}|({{int:bs-distributionconnector-default-user-vote-report-delegated-message|{{{UserVoteReview.delegate_to}}}}})}}|
+{{{UserVoteApproval.assigned_user}}} {{#if: {{{UserVoteApproval.delegate_to}}}|({{int:bs-distributionconnector-default-user-vote-report-delegated-message|{{{UserVoteApproval.delegate_to}}}}})}}|
+{{{CollectData.instructionsEditor}}}|
+{{{CollectData.instructionsReviewer}}}|
+{{{CollectData.instructionsApprover}}}|
+* {{#if: {{{UserVoteReview.delegate_to}}}|{{{UserVoteReview.delegate_to}}}|{{{UserVoteReview.assigned_user}}}}} ({{int:bs-distributionconnector-default-definition-report-review}}): "{{{UserVoteReview.comment}}}", {{int:bs-distributionconnector-default-definition-report-vote}}: "{{{UserVoteReview.vote}}}"
+* {{#if: {{{UserVoteApproval.delegate_to}}}|{{{UserVoteApproval.delegate_to}}}|{{{UserVoteApproval.assigned_user}}}}} ({{int:bs-distributionconnector-default-definition-report-approve}}): "{{{UserVoteApproval.comment}}}", {{int:bs-distributionconnector-default-definition-report-vote}}: "{{{UserVoteApproval.vote}}}"|
+{{{initiator}}} }}
 		</bpmn:property>
-
-	</bpmn:task>
-    <bpmn:sequenceFlow id="FromSendMailToCheckinPage_2" sourceRef="SendMail" targetRef="CheckinPage_2" />
-
-	<!-- Check-in -->
-	<bpmn:task id="CheckinPage_2" name="CheckinPage">
-		<bpmn:extensionElements>
-		  <wf:type>page_checkin</wf:type>
-		</bpmn:extensionElements>
-
-		<bpmn:property name="user">Mediawiki default</bpmn:property>
-
-		<bpmn:incoming>FromSendMailToCheckinPage_2</bpmn:incoming>
-		<bpmn:outgoing>FromCheckinPage_2ToTheEnd</bpmn:outgoing>
-    </bpmn:task>
-    <bpmn:sequenceFlow id="FromCheckinPage_2ToTheEnd" sourceRef="CheckinPage_2" targetRef="TheEnd" />
-
-	<!-- End -->
-	<bpmn:endEvent id="TheEnd">
-		<bpmn:incoming>FromCheckinPage_2ToTheEnd</bpmn:incoming>
-    </bpmn:endEvent>
-
- </bpmn:process>
-
-<!-- Visual part -->
-<bpmndi:BPMNDiagram id="BPMNDiagram_1">
-<bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Document_control_process">
-
-	<bpmndi:BPMNEdge id="FromCheckoutPage_2ToUserVoteApproval_di" bpmnElement="FromCheckoutPage_2ToUserVoteApproval">
-		<di:waypoint x="910" y="350" />
-        <di:waypoint x="770" y="350" />
-	</bpmndi:BPMNEdge>
-
-	<bpmndi:BPMNEdge id="FromCheckinPage_1ToCheckoutPage_2_di" bpmnElement="FromCheckinPage_1ToCheckoutPage_2">
-        <di:waypoint x="960" y="240" />
-        <di:waypoint x="960" y="310" />
-	</bpmndi:BPMNEdge>
-
-	<bpmndi:BPMNEdge id="FromCheckoutPage_1ToRequestPageEdit_di" bpmnElement="FromCheckoutPage_1ToRequestPageEdit">
-		<di:waypoint x="480" y="200" />
-        <di:waypoint x="510" y="200" />
-	</bpmndi:BPMNEdge>
-
-	<bpmndi:BPMNEdge id="FromCheckinPage_2ToTheEnd_di" bpmnElement="FromCheckinPage_2ToTheEnd">
-        <di:waypoint x="240" y="490" />
-        <di:waypoint x="188" y="490" />
-      </bpmndi:BPMNEdge>
-
-      <bpmndi:BPMNEdge id="FromRequestPageEditToUserVoteReview_di" bpmnElement="FromRequestPageEditToUserVoteReview">
-        <di:waypoint x="610" y="200" />
-        <di:waypoint x="670" y="200" />
-      </bpmndi:BPMNEdge>
-
-      <bpmndi:BPMNEdge id="FromGatewayReviewToRequestPageEdit_di" bpmnElement="FromGatewayReviewToRequestPageEdit">
-        <di:waypoint x="840" y="175" />
-        <di:waypoint x="840" y="110" />
-        <di:waypoint x="560" y="110" />
-        <di:waypoint x="560" y="160" />
-        <bpmndi:BPMNLabel>
-          <dc:Bounds x="811" y="137" width="17" height="14" />
-        </bpmndi:BPMNLabel>
-      </bpmndi:BPMNEdge>
-
-      <bpmndi:BPMNEdge id="FromCollectDataToCheckoutPage_1_di" bpmnElement="FromCollectDataToCheckoutPage_1">
-        <di:waypoint x="340" y="200" />
-        <di:waypoint x="380" y="200" />
-      </bpmndi:BPMNEdge>
-
-      <bpmndi:BPMNEdge id="FromTheStartToCollectData_di" bpmnElement="FromTheStartToCollectData">
-        <di:waypoint x="188" y="200" />
-        <di:waypoint x="240" y="200" />
-      </bpmndi:BPMNEdge>
-
-      <bpmndi:BPMNEdge id="FromSendMailToCheckinPage_2_di" bpmnElement="FromSendMailToCheckinPage_2">
-        <di:waypoint x="380" y="490" />
-        <di:waypoint x="340" y="490" />
-      </bpmndi:BPMNEdge>
-
-      <bpmndi:BPMNEdge id="FromApproveRevisionToSendMail_di" bpmnElement="FromApproveRevisionToSendMail">
-        <di:waypoint x="510" y="490" />
-        <di:waypoint x="480" y="490" />
-      </bpmndi:BPMNEdge>
-
-      <bpmndi:BPMNEdge id="FromGatewayApprovalToSendMail_di" bpmnElement="FromGatewayApprovalToSendMail">
-        <di:waypoint x="535" y="350" />
-        <di:waypoint x="430" y="350" />
-        <di:waypoint x="430" y="450" />
-        <bpmndi:BPMNLabel>
-          <dc:Bounds x="460" y="388" width="17" height="14" />
-        </bpmndi:BPMNLabel>
-      </bpmndi:BPMNEdge>
-
-      <bpmndi:BPMNEdge id="FromGatewayApprovalToApproveRevision_di" bpmnElement="FromGatewayApprovalToApproveRevision">
-        <di:waypoint x="560" y="375" />
-        <di:waypoint x="560" y="450" />
-        <bpmndi:BPMNLabel>
-          <dc:Bounds x="569" y="388" width="22" height="14" />
-        </bpmndi:BPMNLabel>
-      </bpmndi:BPMNEdge>
-
-      <bpmndi:BPMNEdge id="FromUserVoteApprovalToGatewayApproval_di" bpmnElement="FromUserVoteApprovalToGatewayApproval">
-        <di:waypoint x="670" y="350" />
-        <di:waypoint x="585" y="350" />
-      </bpmndi:BPMNEdge>
-
-      <bpmndi:BPMNEdge id="FromGatewayReviewtoCheckinPage_1_di" bpmnElement="FromGatewayReviewtoCheckinPage_1">
-        <di:waypoint x="865" y="200" />
-        <di:waypoint x="910" y="200" />
-        <bpmndi:BPMNLabel>
-          <dc:Bounds x="862" y="173" width="22" height="14" />
-        </bpmndi:BPMNLabel>
-      </bpmndi:BPMNEdge>
-
-      <bpmndi:BPMNEdge id="FromUserVoteReviewToGatewayReview_di" bpmnElement="FromUserVoteReviewToGatewayReview">
-        <di:waypoint x="770" y="200" />
-        <di:waypoint x="815" y="200" />
-      </bpmndi:BPMNEdge>
-
-      <bpmndi:BPMNShape id="CollectData_di" bpmnElement="CollectData">
-        <dc:Bounds x="240" y="160" width="100" height="80" />
-      </bpmndi:BPMNShape>
-
-      <bpmndi:BPMNShape id="UserVoteReview_di" bpmnElement="UserVoteReview">
-        <dc:Bounds x="670" y="160" width="100" height="80" />
-      </bpmndi:BPMNShape>
-
-      <bpmndi:BPMNShape id="GatewayReview_di" bpmnElement="GatewayReview" isMarkerVisible="true">
-        <dc:Bounds x="815" y="175" width="50" height="50" />
-        <bpmndi:BPMNLabel>
-          <dc:Bounds x="798" y="235.5" width="84" height="27" />
-        </bpmndi:BPMNLabel>
-      </bpmndi:BPMNShape>
-
-      <bpmndi:BPMNShape id="UserVoteApproval_di" bpmnElement="UserVoteApproval">
-        <dc:Bounds x="670" y="310" width="100" height="80" />
-      </bpmndi:BPMNShape>
-
-      <bpmndi:BPMNShape id="GatewayApproval_di" bpmnElement="GatewayApproval" isMarkerVisible="true">
-        <dc:Bounds x="535" y="325" width="50" height="50" />
-        <bpmndi:BPMNLabel>
-          <dc:Bounds x="515" y="288" width="90" height="27" />
-        </bpmndi:BPMNLabel>
-      </bpmndi:BPMNShape>
-
-      <bpmndi:BPMNShape id="ApproveRevision_di" bpmnElement="ApproveRevision">
-        <dc:Bounds x="510" y="450" width="100" height="80" />
-      </bpmndi:BPMNShape>
-
-      <bpmndi:BPMNShape id="SendMail_di" bpmnElement="SendMail">
-        <dc:Bounds x="380" y="450" width="100" height="80" />
-      </bpmndi:BPMNShape>
-
-      <bpmndi:BPMNShape id="TheEnd_di" bpmnElement="TheEnd">
-        <dc:Bounds x="152" y="472" width="36" height="36" />
-      </bpmndi:BPMNShape>
-
-      <bpmndi:BPMNShape id="TheStart_di" bpmnElement="TheStart">
-        <dc:Bounds x="152" y="182" width="36" height="36" />
-      </bpmndi:BPMNShape>
-
-      <bpmndi:BPMNShape id="RequestPageEdit_di" bpmnElement="RequestPageEdit">
-        <dc:Bounds x="510" y="160" width="100" height="80" />
-      </bpmndi:BPMNShape>
-
-      <bpmndi:BPMNShape id="CheckinPage_2_di" bpmnElement="CheckinPage_2">
-        <dc:Bounds x="240" y="450" width="100" height="80" />
-      </bpmndi:BPMNShape>
-
-      <bpmndi:BPMNShape id="CheckoutPage_1_di" bpmnElement="CheckoutPage_1">
-        <dc:Bounds x="380" y="160" width="100" height="80" />
-      </bpmndi:BPMNShape>
-
-      <bpmndi:BPMNShape id="CheckinPage_1_di" bpmnElement="CheckinPage_1">
-        <dc:Bounds x="910" y="160" width="100" height="80" />
-      </bpmndi:BPMNShape>
-
-      <bpmndi:BPMNShape id="CheckoutPage_2_di" bpmnElement="CheckoutPage_2">
-        <dc:Bounds x="910" y="310" width="100" height="80" />
-      </bpmndi:BPMNShape>
-
-    </bpmndi:BPMNPlane>
-  </bpmndi:BPMNDiagram>
+		</bpmn:task>
+		<bpmn:sequenceFlow id="FromSendMailToCheckinPage_2" sourceRef="SendMail" targetRef="CheckinPage_2"/>
+		<!-- Check-in -->
+		<bpmn:task id="CheckinPage_2" name="CheckinPage">
+			<bpmn:extensionElements>
+				<wf:type>page_checkin</wf:type>
+			</bpmn:extensionElements>
+			<bpmn:property name="user">Mediawiki default</bpmn:property>
+			<bpmn:incoming>FromSendMailToCheckinPage_2</bpmn:incoming>
+			<bpmn:outgoing>FromCheckinPage_2ToTheEnd</bpmn:outgoing>
+		</bpmn:task>
+		<bpmn:sequenceFlow id="FromCheckinPage_2ToTheEnd" sourceRef="CheckinPage_2" targetRef="TheEnd"/>
+		<!-- End -->
+		<bpmn:endEvent id="TheEnd">
+			<bpmn:incoming>FromCheckinPage_2ToTheEnd</bpmn:incoming>
+		</bpmn:endEvent>
+	</bpmn:process>
+	<!-- Visual part -->
+	<bpmndi:BPMNDiagram id="BPMNDiagram_1">
+		<bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Document_control_process">
+			<bpmndi:BPMNEdge id="FromCheckoutPage_2ToUserVoteApproval_di" bpmnElement="FromCheckoutPage_2ToUserVoteApproval">
+				<di:waypoint x="910" y="350"/>
+				<di:waypoint x="770" y="350"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge id="FromCheckinPage_1ToCheckoutPage_2_di" bpmnElement="FromCheckinPage_1ToCheckoutPage_2">
+				<di:waypoint x="960" y="240"/>
+				<di:waypoint x="960" y="310"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge id="FromCheckoutPage_1ToRequestPageEdit_di" bpmnElement="FromCheckoutPage_1ToRequestPageEdit">
+				<di:waypoint x="480" y="200"/>
+				<di:waypoint x="510" y="200"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge id="FromCheckinPage_2ToTheEnd_di" bpmnElement="FromCheckinPage_2ToTheEnd">
+				<di:waypoint x="240" y="490"/>
+				<di:waypoint x="188" y="490"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge id="FromRequestPageEditToUserVoteReview_di" bpmnElement="FromRequestPageEditToUserVoteReview">
+				<di:waypoint x="610" y="200"/>
+				<di:waypoint x="670" y="200"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge id="FromGatewayReviewToRequestPageEdit_di" bpmnElement="FromGatewayReviewToRequestPageEdit">
+				<di:waypoint x="840" y="175"/>
+				<di:waypoint x="840" y="110"/>
+				<di:waypoint x="560" y="110"/>
+				<di:waypoint x="560" y="160"/>
+				<bpmndi:BPMNLabel>
+					<dc:Bounds x="811" y="137" width="17" height="14"/>
+				</bpmndi:BPMNLabel>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge id="FromCollectDataToCheckoutPage_1_di" bpmnElement="FromCollectDataToCheckoutPage_1">
+				<di:waypoint x="340" y="200"/>
+				<di:waypoint x="380" y="200"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge id="FromTheStartToCollectData_di" bpmnElement="FromTheStartToCollectData">
+				<di:waypoint x="188" y="200"/>
+				<di:waypoint x="240" y="200"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge id="FromSendMailToCheckinPage_2_di" bpmnElement="FromSendMailToCheckinPage_2">
+				<di:waypoint x="380" y="490"/>
+				<di:waypoint x="340" y="490"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge id="FromApproveRevisionToSendMail_di" bpmnElement="FromApproveRevisionToSendMail">
+				<di:waypoint x="510" y="490"/>
+				<di:waypoint x="480" y="490"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge id="FromGatewayApprovalToSendMail_di" bpmnElement="FromGatewayApprovalToSendMail">
+				<di:waypoint x="535" y="350"/>
+				<di:waypoint x="430" y="350"/>
+				<di:waypoint x="430" y="450"/>
+				<bpmndi:BPMNLabel>
+					<dc:Bounds x="460" y="388" width="17" height="14"/>
+				</bpmndi:BPMNLabel>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge id="FromGatewayApprovalToApproveRevision_di" bpmnElement="FromGatewayApprovalToApproveRevision">
+				<di:waypoint x="560" y="375"/>
+				<di:waypoint x="560" y="450"/>
+				<bpmndi:BPMNLabel>
+					<dc:Bounds x="569" y="388" width="22" height="14"/>
+				</bpmndi:BPMNLabel>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge id="FromUserVoteApprovalToGatewayApproval_di" bpmnElement="FromUserVoteApprovalToGatewayApproval">
+				<di:waypoint x="670" y="350"/>
+				<di:waypoint x="585" y="350"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge id="FromGatewayReviewtoCheckinPage_1_di" bpmnElement="FromGatewayReviewtoCheckinPage_1">
+				<di:waypoint x="865" y="200"/>
+				<di:waypoint x="910" y="200"/>
+				<bpmndi:BPMNLabel>
+					<dc:Bounds x="862" y="173" width="22" height="14"/>
+				</bpmndi:BPMNLabel>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge id="FromUserVoteReviewToGatewayReview_di" bpmnElement="FromUserVoteReviewToGatewayReview">
+				<di:waypoint x="770" y="200"/>
+				<di:waypoint x="815" y="200"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNShape id="CollectData_di" bpmnElement="CollectData">
+				<dc:Bounds x="240" y="160" width="100" height="80"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape id="UserVoteReview_di" bpmnElement="UserVoteReview">
+				<dc:Bounds x="670" y="160" width="100" height="80"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape id="GatewayReview_di" bpmnElement="GatewayReview" isMarkerVisible="true">
+				<dc:Bounds x="815" y="175" width="50" height="50"/>
+				<bpmndi:BPMNLabel>
+					<dc:Bounds x="798" y="235.5" width="84" height="27"/>
+				</bpmndi:BPMNLabel>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape id="UserVoteApproval_di" bpmnElement="UserVoteApproval">
+				<dc:Bounds x="670" y="310" width="100" height="80"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape id="GatewayApproval_di" bpmnElement="GatewayApproval" isMarkerVisible="true">
+				<dc:Bounds x="535" y="325" width="50" height="50"/>
+				<bpmndi:BPMNLabel>
+					<dc:Bounds x="515" y="288" width="90" height="27"/>
+				</bpmndi:BPMNLabel>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape id="ApproveRevision_di" bpmnElement="ApproveRevision">
+				<dc:Bounds x="510" y="450" width="100" height="80"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape id="SendMail_di" bpmnElement="SendMail">
+				<dc:Bounds x="380" y="450" width="100" height="80"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape id="TheEnd_di" bpmnElement="TheEnd">
+				<dc:Bounds x="152" y="472" width="36" height="36"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape id="TheStart_di" bpmnElement="TheStart">
+				<dc:Bounds x="152" y="182" width="36" height="36"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape id="RequestPageEdit_di" bpmnElement="RequestPageEdit">
+				<dc:Bounds x="510" y="160" width="100" height="80"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape id="CheckinPage_2_di" bpmnElement="CheckinPage_2">
+				<dc:Bounds x="240" y="450" width="100" height="80"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape id="CheckoutPage_1_di" bpmnElement="CheckoutPage_1">
+				<dc:Bounds x="380" y="160" width="100" height="80"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape id="CheckinPage_1_di" bpmnElement="CheckinPage_1">
+				<dc:Bounds x="910" y="160" width="100" height="80"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape id="CheckoutPage_2_di" bpmnElement="CheckoutPage_2">
+				<dc:Bounds x="910" y="310" width="100" height="80"/>
+			</bpmndi:BPMNShape>
+		</bpmndi:BPMNPlane>
+	</bpmndi:BPMNDiagram>
 </bpmn:definitions>

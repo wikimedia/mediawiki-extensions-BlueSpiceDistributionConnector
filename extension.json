@@ -153,9 +153,7 @@
 		},
 		"Workflows": {
 			"WorkflowDefinitions": {
-				"group-feedback": "BlueSpiceDistributionConnector/workflow/GroupFeedback.bpmn",
 				"user-approval": "BlueSpiceDistributionConnector/workflow/UserApproval.bpmn",
-				"user-feedback": "BlueSpiceDistributionConnector/workflow/UserFeedback.bpmn",
 				"document-control": "BlueSpiceDistributionConnector/workflow/DocumentControl.bpmn"
 			}
 		},
@@ -247,8 +245,7 @@
 			"scripts": [
 				"workflows/GroupCollectDataForm.js",
 				"workflows/UserCollectDataForm.js",
-				"workflows/DocumentControlCollectDataForm.js",
-				"workflows/Feedback.js"
+				"workflows/DocumentControlCollectDataForm.js"
 			],
 			"messages": [
 				"bs-distributionconnector-workflows-form-groupname",
