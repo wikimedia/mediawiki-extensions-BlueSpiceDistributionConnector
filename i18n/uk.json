@@ -89,5 +89,14 @@
 	"bs-distributionconnector-workflows-form-group-instructions": "Інструкція для групи",
 	"bs-distributionconnector-statistics-report-page-hits": "Відвідувань на сторінку",
 	"bs-distributionconnector-statistics-report-page-trends": "Відвідайте тенденції на сторінці",
-	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% зростання"
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% зростання",
+	"bs-distributionconnector-workflows-form-label-editor": "Редактор",
+	"bs-distributionconnector-workflows-form-instructions-editor": "Інструкція для редактора",
+	"bs-distributionconnector-workflows-form-label-reviewer": "Рецензент",
+	"bs-distributionconnector-workflows-form-instructions-reviewer": "Інструкції для рецензента",
+	"bs-distributionconnector-workflows-form-label-approver": "Затверджувач",
+	"bs-distributionconnector-workflows-form-instructions-approver": "Інструкції для затверджувача",
+	"bs-sandbox": "Чернетка",
+	"bs-helpdesk": "Служба підтримки",
+	"bs-support": "Підтримка"
 }

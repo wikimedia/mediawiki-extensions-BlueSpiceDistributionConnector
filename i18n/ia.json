@@ -86,5 +86,14 @@
 	"bs-distributionconnector-workflows-form-group-instructions": "Instructiones pro gruppo",
 	"bs-distributionconnector-statistics-report-page-hits": "Visitas per pagina",
 	"bs-distributionconnector-statistics-report-page-trends": "Tendentias de visitas per pagina",
-	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% crescentia"
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% crescentia",
+	"bs-distributionconnector-workflows-form-label-editor": "Redactor",
+	"bs-distributionconnector-workflows-form-instructions-editor": "Instructiones pro le redactor",
+	"bs-distributionconnector-workflows-form-label-reviewer": "Revisor",
+	"bs-distributionconnector-workflows-form-instructions-reviewer": "Instructiones pro le revisor",
+	"bs-distributionconnector-workflows-form-label-approver": "Approbator",
+	"bs-distributionconnector-workflows-form-instructions-approver": "Instructiones pro le approbator",
+	"bs-sandbox": "Sabliera",
+	"bs-helpdesk": "Servicio de adjuta",
+	"bs-support": "Assistentia"
 }

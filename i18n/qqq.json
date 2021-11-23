@@ -95,9 +95,9 @@
 	"bs-distributionconnector-workflows-form-label-approver": "Label for the form field",
 	"bs-distributionconnector-workflows-form-instructions-approver": "Label for the form field",
 	"bs-sandbox-page": "{{ignored}}",
-	"bs-sandbox": "Link text for a link to sandbox",
+	"bs-sandbox": "Link text for a link to sandbox\n{{identical|Sandbox}}",
 	"bs-helpdesk-page": "{{ignored}}",
 	"bs-helpdesk": "Link text for a link to helpdesk",
 	"bs-support-page": "{{ignored}}",
-	"bs-support": "Link text for a link to support"
+	"bs-support": "Link text for a link to support\n{{identical|Support}}"
 }

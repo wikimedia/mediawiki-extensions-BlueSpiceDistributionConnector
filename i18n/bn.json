@@ -8,5 +8,7 @@
 	"bs-distributionconnector-workflows-form-instructions": "নির্দেশাবলী (উইকিপাঠ্য সমর্থিত)",
 	"bs-distributionconnector-workflows-form-username": "ব্যবহারকারী",
 	"bs-distributionconnector-workflows-form-comment": "মন্তব্য",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "মন্তব্য"
+	"bs-distributionconnector-workflows-form-placeholder-comment": "মন্তব্য",
+	"bs-sandbox": "খেলাঘর",
+	"bs-helpdesk": "সাহায্যকেন্দ্র"
 }

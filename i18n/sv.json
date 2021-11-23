@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mjälten"
+			"Mjälten",
+			"WikiPhoenix"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "Din domän:",
@@ -19,5 +20,6 @@
 	"bs-distributionconnector-hitcounters-sesp-desc": "Träffräknare",
 	"bs-distributionconnector-collection-type-hitcounter": "Sidvisningar",
 	"bs-distributionconnector-collection-var-pagetitle": "Sidtitel",
-	"bs-distributionconnector-collection-var-numberhits": "Träff"
+	"bs-distributionconnector-collection-var-numberhits": "Träff",
+	"bs-distributionconnector-workflows-form-label-editor": "Redigerare"
 }

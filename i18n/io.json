@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier"
+		]
+	},
+	"bs-distributionconnector-workflows-form-label-editor": "Redaktero",
+	"bs-distributionconnector-workflows-form-label-reviewer": "Revizero",
+	"bs-distributionconnector-workflows-form-instructions-reviewer": "Instrukti por la revizero",
+	"bs-distributionconnector-workflows-form-label-approver": "Aprobero",
+	"bs-distributionconnector-workflows-form-instructions-approver": "Instrukti por l'aprobero",
+	"bs-sandbox": "Probeyo",
+	"bs-helpdesk": "Helpo-loko",
+	"bs-support": "Suporto"
+}

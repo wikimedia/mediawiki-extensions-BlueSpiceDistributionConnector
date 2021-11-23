@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"DaSupremo"
+		]
+	},
+	"bs-distributionconnector-workflows-form-label-editor": "Person wey go edit am",
+	"bs-distributionconnector-workflows-form-instructions-editor": "Person wey go edit am hin instructions",
+	"bs-distributionconnector-workflows-form-label-reviewer": "Person wey go review am",
+	"bs-distributionconnector-workflows-form-instructions-reviewer": "Person wey go review am hin instructions",
+	"bs-distributionconnector-workflows-form-label-approver": "Person wey go approve am",
+	"bs-distributionconnector-workflows-form-instructions-approver": "Person wey go approve am hin instructions"
+}
