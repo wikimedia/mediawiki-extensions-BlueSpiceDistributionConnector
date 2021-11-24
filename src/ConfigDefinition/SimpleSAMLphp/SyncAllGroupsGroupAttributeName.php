@@ -31,6 +31,14 @@ class SyncAllGroupsGroupAttributeName extends StringSetting implements ISettingP
 		// Initially the value is an empty array for some reason
 		if ( empty( $returnValue ) ) {
 			$returnValue = '';
+			if ( $this->config->has( 'SimpleSAMLphp_SyncAllGroups_GroupAttributeName' ) ) {
+				$localSettingsValue = $this->config->get(
+					'SimpleSAMLphp_SyncAllGroups_GroupAttributeName'
+				);
+			}
+			if ( !empty( $localSettingsValue ) ) {
+				$returnValue = $localSettingsValue;
+			}
 		}
 
 		return $returnValue;

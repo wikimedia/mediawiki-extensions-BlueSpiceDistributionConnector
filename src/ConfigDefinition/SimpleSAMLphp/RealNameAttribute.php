@@ -31,6 +31,14 @@ class RealNameAttribute extends StringSetting implements ISettingPaths, IOverwri
 		// Initially the value is an empty array for some reason
 		if ( empty( $returnValue ) ) {
 			$returnValue = '';
+			if ( $this->config->has( 'SimpleSAMLphp_RealNameAttribute' ) ) {
+				$localSettingsValue = $this->config->get(
+					'SimpleSAMLphp_RealNameAttribute'
+				);
+			}
+			if ( !empty( $localSettingsValue ) ) {
+				$returnValue = $localSettingsValue;
+			}
 		}
 
 		return $returnValue;

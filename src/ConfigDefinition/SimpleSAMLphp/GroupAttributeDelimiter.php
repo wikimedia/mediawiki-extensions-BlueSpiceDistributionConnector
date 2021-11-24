@@ -32,6 +32,14 @@ class GroupAttributeDelimiter extends StringSetting implements ISettingPaths, IO
 		// fall back to the default in Extension:SimpleSAMLphp manually
 		if ( empty( $returnValue ) ) {
 			$returnValue = null;
+			if ( $this->config->has( 'SimpleSAMLphp_GroupAttributeDelimiter' ) ) {
+				$localSettingsValue = $this->config->get(
+					'SimpleSAMLphp_GroupAttributeDelimiter'
+				);
+			}
+			if ( !empty( $localSettingsValue ) ) {
+				$returnValue = $localSettingsValue;
+			}
 		}
 
 		return $returnValue;

@@ -31,6 +31,12 @@ class EmailAttribute extends StringSetting implements ISettingPaths, IOverwriteG
 		// Initially the value is an empty array for some reason
 		if ( empty( $returnValue ) ) {
 			$returnValue = '';
+			if ( $this->config->has( 'SimpleSAMLphp_EmailAttribute' ) ) {
+				$localSettingsValue = $this->config->get( 'SimpleSAMLphp_EmailAttribute' );
+			}
+			if ( !empty( $localSettingsValue ) ) {
+				$returnValue = $localSettingsValue;
+			}
 		}
 
 		return $returnValue;
