@@ -31,6 +31,14 @@ class UsernameAttribute extends StringSetting implements ISettingPaths, IOverwri
 		// Initially the value is an empty array for some reason
 		if ( empty( $returnValue ) ) {
 			$returnValue = '';
+			if ( $this->config->has( 'SimpleSAMLphp_UsernameAttribute' ) ) {
+				$localSettingsValue = $this->config->get(
+					'SimpleSAMLphp_UsernameAttribute'
+				);
+			}
+			if ( !empty( $localSettingsValue ) ) {
+				$returnValue = $localSettingsValue;
+			}
 		}
 
 		return $returnValue;
