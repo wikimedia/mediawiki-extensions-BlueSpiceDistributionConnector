@@ -61,5 +61,6 @@
 	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "驗證同行",
 	"bs-distributionconnector-workflows-form-expert-user": "匯出",
 	"bs-distributionconnector-workflows-form-expert-instructions": "匯出指引",
-	"bs-distributionconnector-workflows-form-feedback": "輸入您的反饋意見……"
+	"bs-distributionconnector-workflows-form-feedback": "輸入您的反饋意見……",
+	"bs-sandbox": "沙盒"
 }
