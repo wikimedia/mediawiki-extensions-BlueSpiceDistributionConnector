@@ -59,5 +59,6 @@
 	"bs-distributionconnector-workflows-form-expert-instructions": "匯出指引",
 	"bs-distributionconnector-workflows-form-comment": "評論",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "評論",
-	"bs-distributionconnector-workflows-form-feedback": "輸入您的反饋意見……"
+	"bs-distributionconnector-workflows-form-feedback": "輸入您的反饋意見……",
+	"bs-sandbox": "沙盒"
 }
