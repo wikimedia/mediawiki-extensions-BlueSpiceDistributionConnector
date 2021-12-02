@@ -92,5 +92,10 @@
 	"bs-distributionconnector-default-user-vote-report-delegated-message": "delegated to $1",
 	"bs-distributionconnector-default-definition-report-review": "Review",
 	"bs-distributionconnector-default-definition-report-approve": "Approve",
-	"bs-distributionconnector-default-definition-report-vote": "vote"
+	"bs-distributionconnector-default-definition-report-vote": "vote",
+	"bs-distributionconnector-pref-eventbus-eventservices": "Event services",
+	"bs-distributionconnector-pref-eventbus-eventservices-key": "Service name",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Timeout",
+	"bs-distributionconnector-pref-eventbus-eventservices-help": "The defined services for extension \"EventBus\" that propagates state changes (edit, move, delete, revision visibility, etc.) to a RESTful event service, providing consumers of the service with the means of tracking changes to MediaWiki content"
 }
