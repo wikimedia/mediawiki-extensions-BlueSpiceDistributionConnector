@@ -39,7 +39,8 @@
 				"DistributionConnectorSimpleSAMLphpGroupAttributeDelimiter": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\GroupAttributeDelimiter::getInstance",
 				"DistributionConnectorSimpleSAMLphpRealNameAttribute": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\RealNameAttribute::getInstance",
 				"DistributionConnectorSimpleSAMLphpSyncAllGroupsGroupAttributeName": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\SyncAllGroupsGroupAttributeName::getInstance",
-				"DistributionConnectorSimpleSAMLphpUsernameAttribute": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\UsernameAttribute::getInstance"
+				"DistributionConnectorSimpleSAMLphpUsernameAttribute": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\UsernameAttribute::getInstance",
+				"DistributionConnectorEventBusEventServices": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\EventBus\\EventServices::getInstance"
 			},
 			"PermissionRegistry": {
 				"dpl_param_delete_rules": {
@@ -326,6 +327,11 @@
 		"DistributionConnectorSimpleSAMLphpUsernameAttribute": {
 			"value": [],
 			"descriptionmsg": "bs-distributionconnector-pref-simplesamlphp-usernameattribute",
+			"public": true
+		},
+		"DistributionConnectorEventBusEventServices": {
+			"value": [],
+			"descriptionmsg": "bs-distributionconnector-pref-eventbus-eventservices",
 			"public": true
 		}
 	},
