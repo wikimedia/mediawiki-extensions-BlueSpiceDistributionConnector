@@ -101,5 +101,12 @@
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Key for \"DistributionConnectorEventBusEventServices\" variable.\n{{Identical|Service name}}",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "Sub-key for the url field in \"DistributionConnectorEventBusEventServices\" variable.\n{{Identical|URL}}",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Sub-key for the timeout field in \"DistributionConnectorEventBusEventServices\" variable.\n{{Identical|Timeout}}",
-	"bs-distributionconnector-pref-eventbus-eventservices-help": "Help message for config variable \"DistributionConnectorEventBusEventServices\" that overrides the \"EventServices\" config from the extension \"EventBus\""
+	"bs-distributionconnector-pref-eventbus-eventservices-help": "Help message for config variable \"DistributionConnectorEventBusEventServices\" that overrides the \"EventServices\" config from the extension \"EventBus\"",
+	"bs-distributionconnector-checkpermissions": "Title of the Check Permission SpecialPage",
+	"bs-distributionconnector-checkpermissions-label-user": "Input field label for user input box in Check Permission SpecialPage's form",
+	"bs-distributionconnector-checkpermissions-label-permission": "Input field label for permission input box in Check Permission SpecialPage's form",
+	"bs-distributionconnector-checkpermissions-label-title": "Input field label for title input box in Check Permission SpecialPage's form",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "Error message in case an invalid username was provided",
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "Error message in case an invalid page title was provided",
+	"bs-distributionconnector-checkpermissions-success": "Success message\n$1 - Username\n$2 - Permission key\n$3 - Page title"
 }

@@ -181,8 +181,14 @@
 			"i18n"
 		]
 	},
+	"ExtensionMessagesFiles": {
+		"BlueSpiceDistributionConnectorCheckPermissions": "languages/SpecialCheckPermissions.alias.php"
+	},
 	"AutoloadNamespaces": {
 		"BlueSpice\\DistributionConnector\\": "src/"
+	},
+	"SpecialPages": {
+		"CheckPermissions": "BlueSpice\\DistributionConnector\\Specials\\CheckPermissions"
 	},
 	"AutoloadClasses": {
 		"BlueSpiceDistributionHooks": "includes/BlueSpiceDistributionHooks.php"
