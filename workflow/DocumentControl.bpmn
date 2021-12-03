@@ -22,13 +22,13 @@
 				</wf:formModule>
 				<wf:initializer>true</wf:initializer>
 			</bpmn:extensionElements>
-			<bpmn:property name="usernameEditor"/>
+			<bpmn:property name="usernameEditor" validation="existing-user"/>
 			<bpmn:property name="instructionsEditor"/>
-			<bpmn:property name="usernameReviewer"/>
+			<bpmn:property name="usernameReviewer" validation="existing-user"/>
 			<bpmn:property name="instructionsReviewer"/>
-			<bpmn:property name="usernameApprover"/>
-			<bpmn:property name="instructionsApprover"/>
-			<bpmn:property name="reportrecipient"/>
+			<bpmn:property name="usernameApprover" validation="existing-user"/>
+			<bpmn:property name="instructionsApprover" />
+			<bpmn:property name="reportrecipient" validation="email-recipient"/>
 			<bpmn:property name="due_date"/>
 			<bpmn:incoming>FromTheStartToCollectData</bpmn:incoming>
 			<bpmn:outgoing>FromCollectDataToCheckoutPage_1</bpmn:outgoing>
