@@ -148,11 +148,11 @@
 			<bpmn:incoming>FromApproveRevisionToSendMail</bpmn:incoming>
 			<bpmn:outgoing>FromSendMailToCheckinPage_2</bpmn:outgoing>
 			<bpmn:property name="recipient" default="{{{CollectData.reportrecipient}}}"/>
-			<bpmn:property name="subject">{{int:bs-distributionconnector-default-document-control-report-subject|{{PAGENAME}}}}</bpmn:property>
+			<bpmn:property name="subject">{{int:bs-distributionconnector-default-document-control-report-subject|{{FULLPAGENAME}}}}</bpmn:property>
 			<bpmn:property name="body">{{int:bs-distributionconnector-default-document-control-report-body|
 {{#timel:D j, Y (H:i T)|{{{start_date}}} }}|
 {{#timel:D j, Y (H:i T)|{{LOCALTIMESTAMP}} }}|
-{{PAGENAME}}|
+{{FULLPAGENAME}}|
 {{REVISIONID}}|
 {{{CollectData.usernameEditor}}}|
 {{{UserVoteReview.assigned_user}}} {{#if: {{{UserVoteReview.delegate_to}}}|({{int:bs-distributionconnector-default-user-vote-report-delegated-message|{{{UserVoteReview.delegate_to}}}}})}}|
