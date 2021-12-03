@@ -79,7 +79,7 @@
 	"bs-helpdesk-page": "{{ignored}}",
 	"bs-helpdesk": "Link text for a link to helpdesk",
 	"bs-support-page": "{{ignored}}",
-	"bs-support": "Link text for a link to support",
+	"bs-support": "Link text for a link to support\n{{identical|Support}}",
 	"workflows-workflow-file-definition-group-feedback-title": "Label in a select dropdown",
 	"workflows-workflow-file-definition-group-feedback-desc": "Description for an option in a select dropdown",
 	"workflows-workflow-file-definition-user-approval-title": "Label in a select dropdown",
