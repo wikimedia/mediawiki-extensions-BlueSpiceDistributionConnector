@@ -6,7 +6,6 @@
 	},
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Nummraum",
 	"bs-distributionconnector-collection-var-pagetitle": "Titel vun der Säit",
-	"workflows-workflow-file-definition-user-feedback-title": "Benotzer-Feedback",
 	"bs-distributionconnector-workflows-form-groupname": "Grupp",
 	"bs-distributionconnector-workflows-form-instructions": "Instruktiounen (Wikitext ënnerstëtzt)",
 	"bs-distributionconnector-workflows-form-username": "Benotzer",
@@ -23,5 +22,6 @@
 	"bs-distributionconnector-statistics-report-page-hits": "Besicher pro Säit",
 	"bs-sandbox": "Sandkëscht",
 	"bs-helpdesk": "Helpdesk",
-	"bs-support": "Ënnerstëtzung"
+	"bs-support": "Ënnerstëtzung",
+	"workflows-workflow-file-definition-user-feedback-title": "Benotzer-Feedback"
 }

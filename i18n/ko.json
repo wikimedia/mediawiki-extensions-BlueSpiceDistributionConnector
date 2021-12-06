@@ -44,12 +44,6 @@
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "\"groups\" 속성 이름",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "\"username\" 속성 이름",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "페이지 조회수",
-	"workflow-default-editorial-review-report-subject": "'$1'의 편집 검토가 끝났습니다!",
-	"workflow-default-editorial-review-report-body": "편집 검토 워크플로에 관한 보고서입니다: $1",
-	"workflows-workflow-file-definition-editorial-review-title": "편집 검토",
-	"workflows-workflow-file-definition-group-feedback-title": "그룹 피드백",
-	"workflows-workflow-file-definition-user-approval-title": "사용자 승인",
-	"workflows-workflow-file-definition-user-feedback-title": "사용자 피드백",
 	"bs-distributionconnector-workflows-form-groupname": "그룹",
 	"bs-distributionconnector-workflows-form-instructions": "안내 (위키텍스트 지원)",
 	"bs-distributionconnector-workflows-form-username": "사용자",
@@ -69,5 +63,13 @@
 	"bs-distributionconnector-statistics-report-page-hits": "문서 당 방문 수",
 	"bs-sandbox": "연습장",
 	"bs-helpdesk": "질문방",
-	"bs-support": "지원"
+	"bs-support": "지원",
+	"workflows-workflow-file-definition-group-feedback-title": "그룹 피드백",
+	"workflows-workflow-file-definition-user-approval-title": "단일 사용자 승인",
+	"workflows-workflow-file-definition-user-feedback-title": "단일 사용자 피드백",
+	"bs-distributionconnector-default-definition-report-review": "검토",
+	"bs-distributionconnector-default-definition-report-approve": "승인",
+	"bs-distributionconnector-pref-eventbus-eventservices": "이벤트 서비스",
+	"bs-distributionconnector-pref-eventbus-eventservices-key": "서비스 이름",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "타임아웃"
 }

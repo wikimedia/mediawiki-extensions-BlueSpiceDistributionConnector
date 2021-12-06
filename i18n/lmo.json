@@ -5,5 +5,24 @@
 		]
 	},
 	"bs-sandbox": "Sabion",
-	"bs-support": "Assistenza"
+	"bs-support": "Assistenza",
+	"workflows-workflow-file-definition-group-feedback-desc": "Ciamegh on giudizzi a on grup de utent intanta che te see 'dree a revisionà ona pagina. Quand che i utent i havarànn espress el so giudizzi, on messagg de posta eletronica de notifica el sarà manda a l'adress specificad.",
+	"workflows-workflow-file-definition-user-approval-title": "Aprovazzion d'on sol utent",
+	"workflows-workflow-file-definition-user-approval-desc": "Ciamegh a on utent de vardà e aprovà la pagina. Quand che l'havarà fad, on messagg de posta eletrnica de notifica el sarà mandad a l'adresss specificad.",
+	"workflows-workflow-file-definition-user-feedback-title": "Giudizzi d'on sol utent",
+	"workflows-workflow-file-definition-user-feedback-desc": "Ciamegh on giudizzi a on grup de utent intanta che te see 'dree a revisionà ona pagina. Quand che l'utent l'havarà espress el so giudizzi, on messagg de posta eletronica de notifica el sarà mandad a l'adress specificad.",
+	"workflows-workflow-file-definition-document-control-title": "Controll espert di document",
+	"workflows-workflow-file-definition-document-control-desc": "Caimegh a on utent de modificà ona pagina e a on alter utent prategh del metser de dàgh on ogida a queste modifeghe chì. Donca cimaegh a on terz utent de acetà e meter foeura la pagina. Ona volta che i l'havarann fornid, el sarà mandad on messagg de posta eletronica a l'adress specificad.",
+	"bs-distributionconnector-default-user-approval-report-subject": "El fluss de lavorà \"aprovazzion de l'Utent\" per la pagina \"$1\" l'è finid",
+	"bs-distributionconnector-default-user-approval-report-body": "Detali del fluss de lavorà:\nTacad el: $1\nFinid el: $2\nPagina: $3\nVersion: $4\nUtent: $5\nIstruzzion: $6\nGiudizzi:\n$7\n\nEl te l'è stad mandad a tì quell messagg chì, perchè $8 l'ha designad ti come destinatari de posta eletronica per quell fluss de lavorà chì.",
+	"bs-distributionconnector-default-document-control-report-subject": "El fluss de lavorà \"Expert document control\" per la pagina \"$1\" l'è fornid",
+	"bs-distributionconnector-default-document-control-report-body": "Detali del fluss de lavorà:\nComenzad el: $1\nFinished onː $2\nFinid elPage: $3\nRevision: $4\nEditor: $5\nSbozz corresgiud de: $6\nAprovazzion de: $7\nIstruizzion per l'editor: $8\nIstruzzion per el corretor di sbozz: $9\nIstruzzion per l'aprovazzionj: $10\nGiudizzi:\n$11\n\nQuell messagg chi el t'è stad mandad a ti, perchè $12 l'ha indicad ti come adress de posta eletronica de destinazzion per quell fluss de lavorà chì.",
+	"bs-distributionconnector-default-user-vote-report-delegated-message": "delegad a $1",
+	"bs-distributionconnector-default-definition-report-review": "Dàgh on controll sgeneral",
+	"bs-distributionconnector-default-definition-report-approve": "Aprova",
+	"bs-distributionconnector-default-definition-report-vote": "voto",
+	"bs-distributionconnector-pref-eventbus-eventservices": "Servizzi per aveniment",
+	"bs-distributionconnector-pref-eventbus-eventservices-key": "Nom del servizzi",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Termin scadud",
+	"bs-distributionconnector-pref-eventbus-eventservices-help": "I servizzi definid per l'estension \"EventBus\" che la tira inanz i cambiament de stat (modifega, spostament, eliminazzion, visibilità de la version, ecc.) a on servissi de aveniment RESTful, e la fornìss ai consumator del servizzi i arnes per registrà la storia di modifeghe ai contegnud de MediaWiki"
 }
