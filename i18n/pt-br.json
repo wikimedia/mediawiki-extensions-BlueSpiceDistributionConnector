@@ -60,5 +60,7 @@
 	"bs-distributionconnector-workflows-form-username": "Usuário",
 	"bs-distributionconnector-workflows-form-comment": "Comentário",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Comentário",
-	"bs-distributionconnector-workflows-form-label-editor": "Editor"
+	"bs-distributionconnector-workflows-form-label-editor": "Editor",
+	"bs-distributionconnector-default-definition-report-review": "Revisar",
+	"bs-distributionconnector-default-definition-report-approve": "Aprovar"
 }

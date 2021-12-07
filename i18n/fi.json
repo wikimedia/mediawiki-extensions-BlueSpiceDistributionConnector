@@ -22,5 +22,7 @@
 	"bs-distributionconnector-workflows-form-instructions-approver": "Ohjeet hyväksyjälle",
 	"bs-sandbox": "Hiekkalaatikko",
 	"bs-helpdesk": "Tukikeskus",
-	"bs-support": "Tuki"
+	"bs-support": "Tuki",
+	"bs-distributionconnector-default-definition-report-approve": "Hyväksy",
+	"bs-distributionconnector-pref-eventbus-eventservices-key": "Palvelun nimi"
 }
