@@ -77,9 +77,9 @@
 	"bs-helpdesk": "Servicio de adjuta",
 	"bs-support": "Assistentia",
 	"workflows-workflow-file-definition-group-feedback-title": "Commentarios de gruppo",
-	"workflows-workflow-file-definition-group-feedback-desc": "Demandar a un gruppo de usatores un retroaction durante que illes revide un pagina. Quando le votation ha finite, tu recipera in e-mail un notification del resultato.",
-	"workflows-workflow-file-definition-user-approval-title": "Approbation del usator",
-	"workflows-workflow-file-definition-user-approval-desc": "Demandar a un usator de revider e approbar un pagina. Quando le votation ha finite, tu recipera in e-mail un notification del resultato.",
-	"workflows-workflow-file-definition-user-feedback-title": "Commentarios de usator",
-	"workflows-workflow-file-definition-user-feedback-desc": "Demandar a un usator un retroaction durante que revide un pagina. Quando le votation ha finite, tu recipera in e-mail un notification del resultato."
+	"workflows-workflow-file-definition-group-feedback-desc": "Demandar a un gruppo de usatores un retroaction durante que illes revide un pagina. Quando isto es facite, un notification per e-mail es inviate al destinatario specificate.",
+	"workflows-workflow-file-definition-user-approval-title": "Approbation per un usator singule",
+	"workflows-workflow-file-definition-user-approval-desc": "Demandar a un usator de revider e approbar un pagina. Quando isto es facite, un notification per e-mail es inviate al destinatario specificate.",
+	"workflows-workflow-file-definition-user-feedback-title": "Commentarios de un usator singule",
+	"workflows-workflow-file-definition-user-feedback-desc": "Demandar a un usator un retroaction durante que revide un pagina. Quando isto es facite, un notification per e-mail es inviate al destinatario specificate."
 }
