@@ -97,5 +97,12 @@
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Service name",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Timeout",
-	"bs-distributionconnector-pref-eventbus-eventservices-help": "The defined services for extension \"EventBus\" that propagates state changes (edit, move, delete, revision visibility, etc.) to a RESTful event service, providing consumers of the service with the means of tracking changes to MediaWiki content"
+	"bs-distributionconnector-pref-eventbus-eventservices-help": "The defined services for extension \"EventBus\" that propagates state changes (edit, move, delete, revision visibility, etc.) to a RESTful event service, providing consumers of the service with the means of tracking changes to MediaWiki content",
+	"bs-distributionconnector-checkpermissions": "Check permissions",
+	"bs-distributionconnector-checkpermissions-label-user": "User",
+	"bs-distributionconnector-checkpermissions-label-permission": "Permission",
+	"bs-distributionconnector-checkpermissions-label-title": "Title",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "Provided username not valid",
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "Provided title not valid",
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]]' has been granted permission \"$2\" for [[$3]]"
 }
