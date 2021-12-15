@@ -59,5 +59,6 @@
 	"bs-distributionconnector-workflows-form-label-editor": "Редактор",
 	"bs-sandbox": "Песочница",
 	"bs-helpdesk": "Помощь",
-	"bs-support": "Поддержка"
+	"bs-support": "Поддержка",
+	"bs-distributionconnector-default-definition-report-approve": "Утвердить"
 }

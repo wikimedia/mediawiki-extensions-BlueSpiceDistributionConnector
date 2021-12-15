@@ -13,5 +13,6 @@
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Cummentu",
 	"bs-sandbox": "Sandbox",
 	"bs-support": "Supportu",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL"
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
+	"bs-distributionconnector-checkpermissions-label-title": "Tìtulu"
 }
