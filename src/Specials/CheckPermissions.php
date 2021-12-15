@@ -101,7 +101,7 @@ class CheckPermissions extends BlueSpice\SpecialPage {
 		);
 
 		$this->getOutput()->addHTML(
-			Html::element(
+			Html::rawElement(
 				'div', [ 'class' => 'successbox' ], $successMsg
 		) );
 	}
