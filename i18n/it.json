@@ -48,5 +48,7 @@
 	"bs-distributionconnector-workflows-form-instructions": "Istruzioni (wikitesto supportato)",
 	"bs-distributionconnector-workflows-form-username": "Utente",
 	"bs-distributionconnector-workflows-form-comment": "Commento",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "Commento"
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Commento",
+	"bs-distributionconnector-checkpermissions-label-user": "Utente",
+	"bs-distributionconnector-checkpermissions-label-title": "Titolo"
 }

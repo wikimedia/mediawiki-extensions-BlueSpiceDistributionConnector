@@ -27,5 +27,5 @@
 	"bs-distributionconnector-pref-openidconnect-config-authparam": "משתני אימות (JSON)",
 	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "אימות מארח",
 	"bs-distributionconnector-checkpermissions-label-user": "משתמש",
-	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]]' קיבל את ההרשאה \"$2\" ל[[$3]]"
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] קיבל את ההרשאה \"$2\" לדף [[$3]]"
 }

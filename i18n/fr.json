@@ -103,5 +103,12 @@
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Nom du service",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Expiration du délai",
-	"bs-distributionconnector-pref-eventbus-eventservices-help": "Les services définis pour l’extension « EventBus » qui propage les modifications d’état (modifier, déplacer, supprimer, visibilité de révision, etc.) vers un service RESTful d’événement, fournissant aux consommateurs du service les moyens de suivre les modifications du contenu de MédiaWiki"
+	"bs-distributionconnector-pref-eventbus-eventservices-help": "Les services définis pour l’extension « EventBus » qui propage les modifications d’état (modifier, déplacer, supprimer, visibilité de révision, etc.) vers un service RESTful d’événement, fournissant aux consommateurs du service les moyens de suivre les modifications du contenu de MédiaWiki",
+	"bs-distributionconnector-checkpermissions": "Vérifier les droits",
+	"bs-distributionconnector-checkpermissions-label-user": "Utilisateur",
+	"bs-distributionconnector-checkpermissions-label-permission": "Droit",
+	"bs-distributionconnector-checkpermissions-label-title": "Titre",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "Nom d’utilisateur fourni non valide",
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "Titre fourni non valide",
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] a reçu le droit « $2 » pour [[$3]]"
 }

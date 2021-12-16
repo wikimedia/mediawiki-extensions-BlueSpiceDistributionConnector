@@ -51,6 +51,13 @@
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Attributtnavn for «groups»",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Attributtnavn for «username»",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Sidetreff",
+	"bs-distributionconnector-workflows-form-groupname": "Gruppe",
+	"bs-distributionconnector-workflows-form-instructions": "Instruksjoner (wikitekst støttes)",
+	"bs-distributionconnector-workflows-form-username": "Bruker",
+	"bs-distributionconnector-workflows-form-expert-user": "Ekspert",
+	"bs-distributionconnector-workflows-form-expert-instructions": "Instruksjoner for eksperten",
+	"bs-distributionconnector-workflows-form-tw-user": "Teknisk skribent",
+	"bs-distributionconnector-workflows-form-tw-instructions": "Instruksjoner for den tekniske skribenten",
 	"bs-distributionconnector-workflows-form-comment": "Kommentar",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Kommentar",
 	"bs-distributionconnector-workflows-form-reportrecipient": "Send rapport til (gyldig e-post eller brukernavn)",
@@ -58,5 +65,6 @@
 	"bs-distributionconnector-workflows-form-group-instructions": "Instruksjoner for gruppa",
 	"bs-distributionconnector-statistics-report-page-hits": "Besøk per side",
 	"bs-distributionconnector-statistics-report-page-trends": "Besøkstrender per side",
-	"bs-distributionconnector-statistics-report-page-trends-axis-value": "vekst i %"
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "vekst i %",
+	"bs-distributionconnector-default-user-vote-report-delegated-message": "delegert til $1"
 }

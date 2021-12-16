@@ -14,5 +14,6 @@
 	"bs-sandbox": "Sandbox",
 	"bs-support": "Supportu",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
+	"bs-distributionconnector-checkpermissions-label-user": "Utenti",
 	"bs-distributionconnector-checkpermissions-label-title": "Tìtulu"
 }

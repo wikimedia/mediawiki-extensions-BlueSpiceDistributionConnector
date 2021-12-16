@@ -3,7 +3,8 @@
 		"authors": [
 			"A2y4",
 			"Aefgh39622",
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"MathXplore"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "あなたのドメイン",
@@ -16,5 +17,8 @@
 	"bs-distributionconnector-collection-type-hitcounter": "ページ閲覧回数",
 	"bs-distributionconnector-collection-var-pagetitle": "ページタイトル",
 	"bs-sandbox": "サンドボックス",
-	"bs-support": "サポート"
+	"bs-support": "サポート",
+	"bs-distributionconnector-checkpermissions-label-user": "利用者",
+	"bs-distributionconnector-checkpermissions-label-permission": "許可",
+	"bs-distributionconnector-checkpermissions-label-title": "タイトル"
 }
