@@ -24,5 +24,9 @@
 	"bs-helpdesk": "Helpdesk",
 	"bs-support": "Ënnerstëtzung",
 	"workflows-workflow-file-definition-user-feedback-title": "Benotzer-Feedback",
-	"bs-distributionconnector-checkpermissions-label-user": "Benotzer"
+	"bs-distributionconnector-checkpermissions": "Autorisatiounen nokucken",
+	"bs-distributionconnector-checkpermissions-label-user": "Benotzer",
+	"bs-distributionconnector-checkpermissions-label-permission": "Autorisatioun",
+	"bs-distributionconnector-checkpermissions-label-title": "Titel",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "de benotzte Benotzernumm ass net valabel"
 }
