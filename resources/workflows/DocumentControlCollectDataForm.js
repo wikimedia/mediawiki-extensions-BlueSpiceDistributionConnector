@@ -17,7 +17,7 @@
 			{
 				name: 'instructionsEditor',
 				label: mw.message( 'bs-distributionconnector-workflows-form-instructions-editor' ).text(),
-				type: 'wikitext',
+				type: 'textarea',
 			},
 			{
 				name: 'usernameReviewer',
@@ -28,7 +28,7 @@
 			{
 				name: 'instructionsReviewer',
 				label: mw.message( 'bs-distributionconnector-workflows-form-instructions-reviewer' ).text(),
-				type: 'wikitext'
+				type: 'textarea'
 			},
 			{
 				name: 'usernameApprover',
@@ -39,7 +39,7 @@
 			{
 				name: 'instructionsApprover',
 				label: mw.message( 'bs-distributionconnector-workflows-form-instructions-approver' ).text(),
-				type: 'wikitext'
+				type: 'textarea'
 			},
 			{
 				name: 'reportrecipient',
