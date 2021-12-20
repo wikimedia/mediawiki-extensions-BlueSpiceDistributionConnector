@@ -6,7 +6,6 @@
 	},
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Nummraum",
 	"bs-distributionconnector-collection-var-pagetitle": "Titel vun der Säit",
-	"workflows-workflow-file-definition-user-feedback-title": "Benotzer-Feedback",
 	"bs-distributionconnector-workflows-form-groupname": "Grupp",
 	"bs-distributionconnector-workflows-form-instructions": "Instruktiounen (Wikitext ënnerstëtzt)",
 	"bs-distributionconnector-workflows-form-username": "Benotzer",
@@ -17,11 +16,17 @@
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Bemierkung",
 	"bs-distributionconnector-workflows-form-feedback": "Gitt Äre Feedback an...",
 	"bs-distributionconnector-workflows-form-group-instructions": "Instruktioune fir de Grupp",
-	"bs-distributionconnector-statistics-report-page-hits": "Besicher pro Säit",
 	"bs-distributionconnector-workflows-form-label-editor": "Editeur",
 	"bs-distributionconnector-workflows-form-instructions-reviewer": "Instruktioune fir deen deen et nokuckt",
 	"bs-distributionconnector-workflows-form-label-approver": "Zoustëmmer",
+	"bs-distributionconnector-statistics-report-page-hits": "Besicher pro Säit",
 	"bs-sandbox": "Sandkëscht",
 	"bs-helpdesk": "Helpdesk",
-	"bs-support": "Ënnerstëtzung"
+	"bs-support": "Ënnerstëtzung",
+	"workflows-workflow-file-definition-user-feedback-title": "Benotzer-Feedback",
+	"bs-distributionconnector-checkpermissions": "Autorisatiounen nokucken",
+	"bs-distributionconnector-checkpermissions-label-user": "Benotzer",
+	"bs-distributionconnector-checkpermissions-label-permission": "Autorisatioun",
+	"bs-distributionconnector-checkpermissions-label-title": "Titel",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "de benotzte Benotzernumm ass net valabel"
 }

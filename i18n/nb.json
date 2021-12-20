@@ -10,7 +10,6 @@
 	"bs-distributionconnector-tag-categorytree-desc": "Viser en dynamisk trestruktur i kategorisystemet på wikien. Mellom taggene må rotkategorien være angitt.",
 	"bs-distributionconnector-tag-ref-desc": "Merker teksten mellom taggene som fotnote.",
 	"bs-distributionconnector-tag-references-desc": "Viser lista over fotnoter som har blitt satt inn i artiklene.",
-	"bs-distributionconnector-tag-quiz-desc": "Legger til enkle kvisspørsmål i en artikkel.",
 	"bs-distributionconnector-tag-embedvideo-desc": "Bygger inn videoklipp fra populære delingsplattformer.",
 	"bs-distributionconnector-tag-dynamicpagelist-desc": "Generer ei dynamisk liste over artikler basert på diverse parametre.",
 	"bs-distributionconnector-flyout-hitcounters-text": "Antall visninger",
@@ -52,9 +51,13 @@
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Attributtnavn for «groups»",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Attributtnavn for «username»",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Sidetreff",
-	"workflow-default-editorial-review-report-subject": "Redigeringene av «$1» er gjennomgått!",
-	"workflow-default-editorial-review-report-body": "Dette er en rapport om gjennomgangens arbeidsflyt: $1",
-	"workflows-workflow-file-definition-editorial-review-title": "Gjennomgang",
+	"bs-distributionconnector-workflows-form-groupname": "Gruppe",
+	"bs-distributionconnector-workflows-form-instructions": "Instruksjoner (wikitekst støttes)",
+	"bs-distributionconnector-workflows-form-username": "Bruker",
+	"bs-distributionconnector-workflows-form-expert-user": "Ekspert",
+	"bs-distributionconnector-workflows-form-expert-instructions": "Instruksjoner for eksperten",
+	"bs-distributionconnector-workflows-form-tw-user": "Teknisk skribent",
+	"bs-distributionconnector-workflows-form-tw-instructions": "Instruksjoner for den tekniske skribenten",
 	"bs-distributionconnector-workflows-form-comment": "Kommentar",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Kommentar",
 	"bs-distributionconnector-workflows-form-reportrecipient": "Send rapport til (gyldig e-post eller brukernavn)",
@@ -62,5 +65,6 @@
 	"bs-distributionconnector-workflows-form-group-instructions": "Instruksjoner for gruppa",
 	"bs-distributionconnector-statistics-report-page-hits": "Besøk per side",
 	"bs-distributionconnector-statistics-report-page-trends": "Besøkstrender per side",
-	"bs-distributionconnector-statistics-report-page-trends-axis-value": "vekst i %"
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "vekst i %",
+	"bs-distributionconnector-default-user-vote-report-delegated-message": "delegert til $1"
 }

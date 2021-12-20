@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Mruczek",
-			"Rail"
+			"Rail",
+			"Kareyac"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "Twoja domena",
@@ -14,5 +15,6 @@
 	"bs-distributionconnector-pref-openidconnect-config-clientsecret": "Sekret klienta",
 	"bs-distributionconnector-pref-openidconnect-config-icon": "URL ikony",
 	"bs-distributionconnector-pref-openidconnect-config-scope": "Zakres",
-	"bs-distributionconnector-workflows-form-expert-user": "Ekspert"
+	"bs-distributionconnector-workflows-form-expert-user": "Ekspert",
+	"bs-distributionconnector-checkpermissions-label-user": "Użytkownik"
 }

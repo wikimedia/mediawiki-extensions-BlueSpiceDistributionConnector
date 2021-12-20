@@ -24,5 +24,11 @@
 	"bs-distributionconnector-pref-eventbus-eventservices": "Servizzi per aveniment",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Nom del servizzi",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Termin scadud",
-	"bs-distributionconnector-pref-eventbus-eventservices-help": "I servizzi definid per l'estension \"EventBus\" che la tira inanz i cambiament de stat (modifega, spostament, eliminazzion, visibilità de la version, ecc.) a on servissi de aveniment RESTful, e la fornìss ai consumator del servizzi i arnes per registrà la storia di modifeghe ai contegnud de MediaWiki"
+	"bs-distributionconnector-pref-eventbus-eventservices-help": "I servizzi definid per l'estension \"EventBus\" che la tira inanz i cambiament de stat (modifega, spostament, eliminazzion, visibilità de la version, ecc.) a on servissi de aveniment RESTful, e la fornìss ai consumator del servizzi i arnes per registrà la storia di modifeghe ai contegnud de MediaWiki",
+	"bs-distributionconnector-checkpermissions": "Controlla i permess",
+	"bs-distributionconnector-checkpermissions-label-user": "Utent",
+	"bs-distributionconnector-checkpermissions-label-permission": "Permess",
+	"bs-distributionconnector-checkpermissions-label-title": "Titol",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "Nom de l'utent fornid minga bon",
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "El titol fornid l'è minga bon"
 }

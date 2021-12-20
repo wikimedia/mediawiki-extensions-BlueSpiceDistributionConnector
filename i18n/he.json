@@ -4,7 +4,8 @@
 			"Amire80",
 			"Steeve815",
 			"YaronSh",
-			"ישראל קלר"
+			"ישראל קלר",
+			"מקף"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "התחום שלך",
@@ -13,6 +14,8 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "מצב",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "עומק",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "מרחב שם",
+	"bs-distributionconnector-collection-var-numberhits": "מופיעות",
+	"bs-distributionconnector-setting-path-authentication": "אימות",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "להשתמש בשם האמתי כשם המשתמש",
 	"bs-distributionconnector-pref-openidconnect-useemailasusername": "להשתמש בכתובת הדוא״ל כשם משתמש",
 	"bs-distributionconnector-pref-openidconnect-forcelogout": "אילוץ יציאה",
@@ -23,6 +26,6 @@
 	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "שם משתמש מועדף",
 	"bs-distributionconnector-pref-openidconnect-config-authparam": "משתני אימות (JSON)",
 	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "אימות מארח",
-	"bs-distributionconnector-collection-var-numberhits": "מופיעות",
-	"bs-distributionconnector-setting-path-authentication": "אימות"
+	"bs-distributionconnector-checkpermissions-label-user": "משתמש",
+	"bs-distributionconnector-checkpermissions-label-permission": "הרשאה"
 }
