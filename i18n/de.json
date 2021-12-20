@@ -82,5 +82,8 @@
 	"bs-distributionconnector-default-user-vote-report-delegated-message": "delegiert an $1",
 	"bs-distributionconnector-default-definition-report-review": "Überprüfung",
 	"bs-distributionconnector-default-definition-report-approve": "Freigabe",
-	"bs-distributionconnector-default-definition-report-vote": "abgestimmt mit"
+	"bs-distributionconnector-default-definition-report-vote": "abgestimmt mit",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Timeout",
+	"bs-distributionconnector-checkpermissions-label-user": "Benutzer",
+	"bs-distributionconnector-checkpermissions-label-title": "Titel"
 }

@@ -66,5 +66,14 @@
 	"bs-distributionconnector-statistics-report-page-hits": "Besøk per side",
 	"bs-distributionconnector-statistics-report-page-trends": "Besøkstrender per side",
 	"bs-distributionconnector-statistics-report-page-trends-axis-value": "vekst i %",
-	"bs-distributionconnector-default-user-vote-report-delegated-message": "delegert til $1"
+	"bs-sandbox": "Sandkasse",
+	"bs-support": "Støtte",
+	"bs-distributionconnector-default-user-vote-report-delegated-message": "delegert til $1",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Tidsavbrudd",
+	"bs-distributionconnector-checkpermissions-label-user": "Bruker",
+	"bs-distributionconnector-checkpermissions-label-permission": "Tillatelse",
+	"bs-distributionconnector-checkpermissions-label-title": "Tittel",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "Den angitte brukernavnet er ugyldig",
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "Den angitte tittelen er ugyldig"
 }

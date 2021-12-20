@@ -71,5 +71,12 @@
 	"bs-distributionconnector-default-definition-report-approve": "승인",
 	"bs-distributionconnector-pref-eventbus-eventservices": "이벤트 서비스",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "서비스 이름",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "타임아웃"
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "타임아웃",
+	"bs-distributionconnector-checkpermissions": "권한 검사",
+	"bs-distributionconnector-checkpermissions-label-user": "사용자",
+	"bs-distributionconnector-checkpermissions-label-permission": "권한",
+	"bs-distributionconnector-checkpermissions-label-title": "제목",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "지정된 사용자 이름이 유효하지 않음",
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "지정된 제목이 유효하지 않음",
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]]님이 [[$3]]에 대해 \"$2\" 권한을 부여했습니다"
 }
