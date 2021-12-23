@@ -58,5 +58,6 @@
 	"bs-distributionconnector-workflows-form-placeholder-comment": "評論",
 	"bs-distributionconnector-workflows-form-feedback": "輸入您的反饋意見……",
 	"bs-sandbox": "沙盒",
-	"workflows-workflow-file-definition-user-feedback-title": "使用者回饋"
+	"workflows-workflow-file-definition-user-feedback-title": "使用者回饋",
+	"bs-distributionconnector-checkpermissions-label-permission": "權限"
 }

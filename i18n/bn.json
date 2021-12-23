@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Hirok Raja",
 			"আফতাবুজ্জামান"
 		]
 	},
@@ -12,5 +13,6 @@
 	"bs-sandbox": "খেলাঘর",
 	"bs-helpdesk": "সাহায্যকেন্দ্র",
 	"bs-distributionconnector-checkpermissions-label-user": "ব্যবহারকারী",
-	"bs-distributionconnector-checkpermissions-label-permission": "অনুমতি"
+	"bs-distributionconnector-checkpermissions-label-permission": "অনুমতি",
+	"bs-distributionconnector-checkpermissions-label-title": "শিরোনাম"
 }
