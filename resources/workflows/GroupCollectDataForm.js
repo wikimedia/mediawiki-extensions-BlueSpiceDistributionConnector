@@ -17,7 +17,7 @@
 			{
 				name: 'instructions',
 				label: mw.message( 'bs-distributionconnector-workflows-form-instructions' ).text(),
-				type: 'wikitext'
+				type: 'textarea'
 			},
 			{
 				name: 'reportrecipient',
