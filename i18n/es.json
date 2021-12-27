@@ -60,7 +60,7 @@
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Nombre de atributo para «username»",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Visitas a la página",
 	"bs-distributionconnector-workflows-form-groupname": "Grupo",
-	"bs-distributionconnector-workflows-form-instructions": "Instrucciones (wikitext soportado)",
+	"bs-distributionconnector-workflows-form-instructions": "Instrucciones",
 	"bs-distributionconnector-workflows-form-username": "Usuario",
 	"bs-distributionconnector-workflows-form-expert-user": "Experto",
 	"bs-distributionconnector-workflows-form-expert-instructions": "Instrucciones para el experto",
@@ -87,7 +87,7 @@
 	"workflows-workflow-file-definition-group-feedback-title": "Comentarios del grupo",
 	"workflows-workflow-file-definition-group-feedback-desc": "Solicita comentarios a un usuario mientras revisan una página. Una vez la votación haya finalizado, serás notificado por email el resultado de la misma.",
 	"workflows-workflow-file-definition-user-approval-title": "Aprobación de usuario",
-	"workflows-workflow-file-definition-user-approval-desc": "Solicita a un usuario que revise y apruebe una página. Al finalizar la votación, serás notificado por email del resultado de la misma.",
-	"workflows-workflow-file-definition-user-feedback-title": "Comentarios del usuario",
-	"workflows-workflow-file-definition-user-feedback-desc": "Solicita comentarios a un usuario mientras revisan una página. Una vez la votación haya finalizado, serás notificado por email el resultado de la misma."
+	"workflows-workflow-file-definition-user-approval-desc": "Pide a un usuario que revise y apruebe una página. Una vez hecho esto, se envía una notificación por correo electrónico al destinatario especificado.",
+	"workflows-workflow-file-definition-user-feedback-title": "Comentarios de un solo usuario",
+	"workflows-workflow-file-definition-user-feedback-desc": "Pida a un usuario que le dé su opinión mientras revisa una página. Una vez hecho esto, se envía una notificación por correo electrónico al destinatario especificado."
 }

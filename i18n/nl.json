@@ -57,7 +57,7 @@
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Attribuutnaam voor \"username\"",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Paginaweergaven",
 	"bs-distributionconnector-workflows-form-groupname": "Groep",
-	"bs-distributionconnector-workflows-form-instructions": "Instructies (wikitekst ondersteund)",
+	"bs-distributionconnector-workflows-form-instructions": "Instructies",
 	"bs-distributionconnector-workflows-form-username": "Gebruiker",
 	"bs-distributionconnector-workflows-form-expert-user": "Export",
 	"bs-distributionconnector-workflows-form-expert-instructions": "Instructies voor de expert",
@@ -75,5 +75,7 @@
 	"workflows-workflow-file-definition-user-approval-title": "Goedkeuring door één gebruiker",
 	"workflows-workflow-file-definition-user-approval-desc": "Een gebruiker vragen om een pagina te beoordelen en goed te keuren. Zodra dit klaar is wordt een e-mailbericht naar de opgegeven ontvanger gestuurd.",
 	"workflows-workflow-file-definition-user-feedback-title": "Feedback van één gebruiker",
-	"workflows-workflow-file-definition-user-feedback-desc": "Een gebruiker om feedback vragen tijdens het beoordelen van een pagina. Zodra dit klaar is wordt een e-mailbericht naar de opgegeven ontvanger gestuurd."
+	"workflows-workflow-file-definition-user-feedback-desc": "Een gebruiker om feedback vragen tijdens het beoordelen van een pagina. Zodra dit klaar is wordt een e-mailbericht naar de opgegeven ontvanger gestuurd.",
+	"bs-distributionconnector-checkpermissions-label-user": "Gebruiker",
+	"bs-distributionconnector-checkpermissions-label-title": "Titel"
 }

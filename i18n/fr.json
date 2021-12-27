@@ -58,7 +58,7 @@
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Nom d’attribut pour « nom d’utilisateur »",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Visites de page",
 	"bs-distributionconnector-workflows-form-groupname": "Groupe",
-	"bs-distributionconnector-workflows-form-instructions": "Instructions (wikitexte supporté)",
+	"bs-distributionconnector-workflows-form-instructions": "Instructions",
 	"bs-distributionconnector-workflows-form-username": "Utilisateur",
 	"bs-distributionconnector-workflows-form-expert-user": "Expert",
 	"bs-distributionconnector-workflows-form-expert-instructions": "Instructions pour l'expert",

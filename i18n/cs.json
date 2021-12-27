@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Adam N.",
-			"Fraxinus.cs"
+			"Fraxinus.cs",
+			"Kendo13"
 		]
 	},
+	"bs-distributionconnector-workflows-form-instructions": "Instrukce",
 	"bs-distributionconnector-workflows-form-expert-user": "Expert",
 	"bs-distributionconnector-workflows-form-expert-instructions": "Pokyny pro experta",
 	"bs-distributionconnector-workflows-form-tw-user": "Technický redaktor",
