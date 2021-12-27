@@ -6,5 +6,7 @@
 	},
 	"bs-distributionconnector-workflows-form-comment": "टिप्पणी",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "टिप्पणी",
-	"bs-support": "सहायता"
+	"bs-support": "सहायता",
+	"bs-distributionconnector-checkpermissions-label-user": "सदस्य",
+	"bs-distributionconnector-checkpermissions-label-title": "शीर्षक"
 }

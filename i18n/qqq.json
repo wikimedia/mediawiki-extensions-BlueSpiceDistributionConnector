@@ -22,7 +22,7 @@
 	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Form label for CategorTree Hide root",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Form label for CategorTree Show count",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Form label for CategorTree Hide prefix",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Form label for CategorTree Namespace",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Form label for CategorTree Namespace\n\n{{Identical|Namespace}}",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Form label for CategorTree CSS style tag",
 	"bs-distributionconnector-hitcounters-sesp-alias": "Message key for the label alias of _HITCOUNTERS semantic property",
 	"bs-distributionconnector-hitcounters-sesp-desc": "Message key for the description of _HITCOUNTERS semantic property",

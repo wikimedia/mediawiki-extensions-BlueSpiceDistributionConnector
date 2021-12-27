@@ -12,5 +12,7 @@
 	"bs-distributionconnector-workflows-form-instructions": "tata cara nganggén",
 	"bs-distributionconnector-workflows-form-username": "Sang anganggé",
 	"bs-distributionconnector-workflows-form-comment": "Panampen",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "Panampen"
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Panampen",
+	"bs-distributionconnector-checkpermissions-label-user": "Sang anganggé",
+	"bs-distributionconnector-checkpermissions-label-title": "Murda"
 }
