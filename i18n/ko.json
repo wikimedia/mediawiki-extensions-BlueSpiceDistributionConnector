@@ -45,7 +45,7 @@
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "\"username\" 속성 이름",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "페이지 조회수",
 	"bs-distributionconnector-workflows-form-groupname": "그룹",
-	"bs-distributionconnector-workflows-form-instructions": "안내 (위키텍스트 지원)",
+	"bs-distributionconnector-workflows-form-instructions": "안내",
 	"bs-distributionconnector-workflows-form-username": "사용자",
 	"bs-distributionconnector-workflows-form-expert-user": "전문가",
 	"bs-distributionconnector-workflows-form-expert-instructions": "전문가를 위한 안내",
