@@ -50,7 +50,7 @@
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Имя атрибута для \"username\"",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Счетчик страниц",
 	"bs-distributionconnector-workflows-form-groupname": "Группа",
-	"bs-distributionconnector-workflows-form-instructions": "Инструкции (поддерживается викитекст)",
+	"bs-distributionconnector-workflows-form-instructions": "Инструкции",
 	"bs-distributionconnector-workflows-form-username": "Участник",
 	"bs-distributionconnector-workflows-form-expert-user": "Эксперт",
 	"bs-distributionconnector-workflows-form-head-user": "Глава департамента",
