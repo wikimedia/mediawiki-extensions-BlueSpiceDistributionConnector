@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Salihu aliyu",
-			"Umar-askirason"
+			"Umar-askirason",
+			"Bello Na'im"
 		]
 	},
 	"bs-distributionconnector-workflows-form-instructions": "Ka'idoji (wikitext supported)",
@@ -12,5 +13,6 @@
 	"bs-distributionconnector-workflows-form-head-instructions": "Ka'idojin shugabancin ma'aikata",
 	"bs-distributionconnector-workflows-form-reportrecipient": "Aika rahoto zuwa ga (valid email or usewrname)",
 	"bs-distributionconnector-workflows-form-feedback": "Shiga feedback dinka...",
-	"bs-distributionconnector-workflows-form-group-instructions": "Ka'idojin group"
+	"bs-distributionconnector-workflows-form-group-instructions": "Ka'idojin group",
+	"bs-distributionconnector-default-definition-report-vote": "Zaba"
 }
