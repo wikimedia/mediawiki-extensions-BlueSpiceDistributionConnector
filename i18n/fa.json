@@ -55,5 +55,7 @@
 	"workflows-workflow-file-definition-user-approval-title": "تأیید کاربر",
 	"workflows-workflow-file-definition-user-approval-desc": "از یک کاربر بخواهید تا یک صفحه را بازبینی و تأیید کند. هرگاه رأی‌گیری تمام شود، از طریق دریافت یک ایمیل پیرامون نتیجهٔ رأی‌گیری آگاه خواهید شد.",
 	"workflows-workflow-file-definition-user-feedback-title": "بازخورد کاربر",
-	"workflows-workflow-file-definition-user-feedback-desc": "از یک کاربر بخواهید تا هنگام بازبینی یک صفحه، بازخورد دهد. هرگاه رأی‌گیری تمام شود، از طریق دریافت یک ایمیل پیرامون نتیجهٔ رأی‌گیری آگاه خواهید شد."
+	"workflows-workflow-file-definition-user-feedback-desc": "از یک کاربر بخواهید تا هنگام بازبینی یک صفحه، بازخورد دهد. هرگاه رأی‌گیری تمام شود، از طریق دریافت یک ایمیل پیرامون نتیجهٔ رأی‌گیری آگاه خواهید شد.",
+	"bs-distributionconnector-checkpermissions-label-user": "کاربر",
+	"bs-distributionconnector-checkpermissions-label-title": "عنوان"
 }
