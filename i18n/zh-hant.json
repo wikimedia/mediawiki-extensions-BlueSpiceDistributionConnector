@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ericliu1912",
 			"Impartial just",
 			"Kly",
 			"Weather Top Wizard",
@@ -59,5 +60,8 @@
 	"bs-distributionconnector-workflows-form-feedback": "輸入您的反饋意見……",
 	"bs-sandbox": "沙盒",
 	"workflows-workflow-file-definition-user-feedback-title": "使用者回饋",
-	"bs-distributionconnector-checkpermissions-label-permission": "權限"
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "網址",
+	"bs-distributionconnector-checkpermissions-label-user": "使用者",
+	"bs-distributionconnector-checkpermissions-label-permission": "權限",
+	"bs-distributionconnector-checkpermissions-label-title": "標題"
 }
