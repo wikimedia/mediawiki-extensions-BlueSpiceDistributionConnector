@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Underbaaar",
-			"Ykhwong"
+			"Ykhwong",
+			"Yunbj"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "내 도메인",
@@ -53,6 +54,7 @@
 	"bs-distributionconnector-workflows-form-tw-instructions": "테크니컬 라이터를 위한 안내",
 	"bs-distributionconnector-workflows-form-comment": "의견",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "의견",
+	"bs-distributionconnector-workflows-form-feedback": "의견을 입력해 주세요...",
 	"bs-distributionconnector-workflows-form-group-instructions": "그룹을 위한 안내",
 	"bs-distributionconnector-workflows-form-label-editor": "편집자",
 	"bs-distributionconnector-workflows-form-instructions-editor": "편집자를 위한 안내",
@@ -69,6 +71,7 @@
 	"workflows-workflow-file-definition-user-feedback-title": "단일 사용자 피드백",
 	"bs-distributionconnector-default-definition-report-review": "검토",
 	"bs-distributionconnector-default-definition-report-approve": "승인",
+	"bs-distributionconnector-default-definition-report-vote": "투표",
 	"bs-distributionconnector-pref-eventbus-eventservices": "이벤트 서비스",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "서비스 이름",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
