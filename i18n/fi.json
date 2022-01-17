@@ -29,5 +29,6 @@
 	"bs-distributionconnector-checkpermissions-label-user": "Käyttäjä",
 	"bs-distributionconnector-checkpermissions-label-permission": "Käyttöoikeus",
 	"bs-distributionconnector-checkpermissions-label-title": "Otsikko",
-	"bs-distributionconnector-checkpermissions-error-invalid-title": "Tarjottu otsikko on virheellinen"
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "Tarjottu otsikko on virheellinen",
+	"bs-distributionconnector-checkpermissions-success": "Käyttäjälle [[User:$1|$1]] myönnettiin käyttöoikeus \"$2\" sivulle [[$3]]"
 }

@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ericliu1912",
 			"Impartial just",
 			"Kly",
 			"Weather Top Wizard",
-			"Winston Sung",
-			"Ericliu1912"
+			"Winston Sung"
 		]
 	},
 	"bs-distributionconnector-extension-description": "連接 BlueSpice 至各種 MediaWiki 擴充套件",

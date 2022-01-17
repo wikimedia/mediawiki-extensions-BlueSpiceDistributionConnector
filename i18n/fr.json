@@ -109,5 +109,6 @@
 	"bs-distributionconnector-checkpermissions-label-permission": "Droit",
 	"bs-distributionconnector-checkpermissions-label-title": "Titre",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "Nom d’utilisateur fourni non valide",
-	"bs-distributionconnector-checkpermissions-error-invalid-title": "Titre fourni non valide"
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "Titre fourni non valide",
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] a reçu le droit « $2 » pour [[$3]]"
 }

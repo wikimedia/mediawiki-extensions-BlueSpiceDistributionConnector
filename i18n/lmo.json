@@ -31,5 +31,6 @@
 	"bs-distributionconnector-checkpermissions-label-permission": "Permess",
 	"bs-distributionconnector-checkpermissions-label-title": "Titol",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "Nom de l'utent fornid minga bon",
-	"bs-distributionconnector-checkpermissions-error-invalid-title": "El titol fornid l'è minga bon"
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "El titol fornid l'è minga bon",
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] l'ha concedud el permess \"$2\" per [[$3]]"
 }
