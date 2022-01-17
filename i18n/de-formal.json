@@ -1,6 +1,12 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Mschlindwein"
+		]
 	},
-	"bs-distributionconnector-yourdomainname": "Ihre Domain"
+	"bs-distributionconnector-yourdomainname": "Ihre Domain",
+	"workflows-workflow-file-definition-group-feedback-desc": "Bitten Sie eine Gruppe von Benutzern um Feedback zu dieser Seite. Das Ergebnis wird per Mail an einen anzugebenden Empfänger geschickt.",
+	"workflows-workflow-file-definition-user-approval-desc": "Bitten Sie einen Benutzer diese Seite freizugeben. Das Ergebnis wird per Mail an einen anzugebenden Empfänger geschickt.",
+	"workflows-workflow-file-definition-user-feedback-desc": "Bitten Sie einen Benutzer um Feedback zu dieser Seite. Das Ergebnis wird per Mail an einen anzugebenden Empfänger geschickt.",
+	"workflows-workflow-file-definition-document-control-desc": "Bitten Sie einen Benutzer eine Bearbeitung durchzuführen. Ein weiterer Benutzer muss die Änderung als Experte bestätigen und durch einen Hauptverantwortlichen freigeben lassen. Das Ergebnis wird per Mail an einen anzugebenden Empfänger geschickt."
 }
