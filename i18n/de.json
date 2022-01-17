@@ -108,5 +108,6 @@
 	"bs-distributionconnector-checkpermissions-label-title": "Titel",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "Genannter Nutzername ist ungültig",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "Genannter Titel ist ungültig",
-	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] hat die Berechtigung \"$2\" für [[$3]] erhalten"
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] hat die Berechtigung \"$2\" für [[$3]] erhalten",
+	"bs-distributionconnector-notification-logged-in": "Du bist nun angemeldet"
 }
