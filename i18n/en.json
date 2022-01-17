@@ -104,5 +104,6 @@
 	"bs-distributionconnector-checkpermissions-label-title": "Title",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "Provided username not valid",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "Provided title not valid",
-	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] has been granted permission \"$2\" for [[$3]]"
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] has been granted permission \"$2\" for [[$3]]",
+	"bs-distributionconnector-notification-logged-in": "You are now logged in"
 }
