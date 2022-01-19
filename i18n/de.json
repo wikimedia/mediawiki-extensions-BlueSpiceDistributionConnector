@@ -97,6 +97,7 @@
 	"bs-distributionconnector-default-definition-report-review": "Überprüfung",
 	"bs-distributionconnector-default-definition-report-approve": "Freigabe",
 	"bs-distributionconnector-default-definition-report-vote": "abgestimmt mit",
+	"bs-distributionconnector-pref-eventbus-eventservices": "Event Services",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Service Name",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Timeout",
