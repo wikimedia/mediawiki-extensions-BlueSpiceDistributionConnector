@@ -63,6 +63,7 @@
 	"bs-distributionconnector-workflows-form-reportrecipient": "Send rapport til (gyldig e-post eller brukernavn)",
 	"bs-distributionconnector-workflows-form-feedback": "Skriv inn tilbakemeldingen din …",
 	"bs-distributionconnector-workflows-form-group-instructions": "Instruksjoner for gruppa",
+	"bs-distributionconnector-workflows-form-label-editor": "Bidragsyter",
 	"bs-distributionconnector-statistics-report-page-hits": "Besøk per side",
 	"bs-distributionconnector-statistics-report-page-trends": "Besøkstrender per side",
 	"bs-distributionconnector-statistics-report-page-trends-axis-value": "vekst i %",
