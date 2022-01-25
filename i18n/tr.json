@@ -73,6 +73,7 @@
 	"bs-distributionconnector-workflows-form-group-instructions": "Grup için talimatlar",
 	"bs-distributionconnector-workflows-form-label-editor": "Düzenleyici",
 	"bs-distributionconnector-workflows-form-instructions-editor": "Düzenleyici için talimatlar",
+	"bs-distributionconnector-workflows-form-label-reviewer": "İnceleyici",
 	"bs-distributionconnector-workflows-form-instructions-reviewer": "İnceleyici için talimatlar",
 	"bs-distributionconnector-workflows-form-label-approver": "Onaylayıcı",
 	"bs-distributionconnector-workflows-form-instructions-approver": "Onaylayıcı için talimatlar",
