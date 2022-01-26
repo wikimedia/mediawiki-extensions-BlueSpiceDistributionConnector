@@ -40,5 +40,6 @@
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "نقرات الصفحة",
 	"bs-distributionconnector-workflows-form-groupname": "المجموعة",
 	"bs-distributionconnector-workflows-form-username": "المستخدم",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "التعليق"
+	"bs-distributionconnector-workflows-form-placeholder-comment": "التعليق",
+	"bs-distributionconnector-statistics-report-page-hits": "الزيارات لكل صفحة"
 }
