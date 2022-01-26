@@ -26,8 +26,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Form label for CategorTree Hide prefix",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Form label for CategorTree Namespace\n\n{{Identical|Namespace}}",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Form label for CategoryTree CSS style tag",
-	"bs-distributionconnector-hitcounters-sesp-alias": "Message key for the label alias of _HITCOUNTERS semantic property",
-	"bs-distributionconnector-hitcounters-sesp-desc": "Message key for the description of _HITCOUNTERS semantic property",
 	"bs-distributionconnector-collection-type-hitcounter": "Label for source type \"hitcounter\" in entry field \"type\"\n{{Identical|Page views}}",
 	"bs-distributionconnector-collection-var-pagetitle": "Label for entry field \"pagetitle\"\n{{Identical|Page title}}",
 	"bs-distributionconnector-collection-var-numberhits": "Label for entry field \"numberhits\"\n{{Identical|Hits}}",
