@@ -149,11 +149,6 @@
 				}
 			}
 		},
-		"BlueSpiceSMWConnector": {
-			"ExtraPropertyRegistry": {
-				"hitcountersfields": "\\BlueSpice\\DistributionConnector\\HitCountersPropertyValueProvider::factory"
-			}
-		},
 		"Workflows": {
 			"WorkflowDefinitions": {
 				"user-approval": "BlueSpiceDistributionConnector/workflow/UserApproval.bpmn",
