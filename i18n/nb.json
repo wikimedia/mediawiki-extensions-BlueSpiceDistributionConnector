@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Abuluntu",
-			"Jon Harald Søby"
+			"Jon Harald Søby",
+			"Vukky"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Kobler BlueSpice til diverse MediaWiki-utvidelser",
@@ -52,7 +53,7 @@
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Attributtnavn for «username»",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Sidetreff",
 	"bs-distributionconnector-workflows-form-groupname": "Gruppe",
-	"bs-distributionconnector-workflows-form-instructions": "Instruksjoner (wikitekst støttes)",
+	"bs-distributionconnector-workflows-form-instructions": "Instruksjoner",
 	"bs-distributionconnector-workflows-form-username": "Bruker",
 	"bs-distributionconnector-workflows-form-expert-user": "Ekspert",
 	"bs-distributionconnector-workflows-form-expert-instructions": "Instruksjoner for eksperten",
@@ -64,12 +65,15 @@
 	"bs-distributionconnector-workflows-form-feedback": "Skriv inn tilbakemeldingen din …",
 	"bs-distributionconnector-workflows-form-group-instructions": "Instruksjoner for gruppa",
 	"bs-distributionconnector-workflows-form-label-editor": "Bidragsyter",
+	"bs-distributionconnector-workflows-form-label-approver": "Godkjenner",
 	"bs-distributionconnector-statistics-report-page-hits": "Besøk per side",
 	"bs-distributionconnector-statistics-report-page-trends": "Besøkstrender per side",
 	"bs-distributionconnector-statistics-report-page-trends-axis-value": "vekst i %",
 	"bs-sandbox": "Sandkasse",
 	"bs-support": "Støtte",
 	"bs-distributionconnector-default-user-vote-report-delegated-message": "delegert til $1",
+	"bs-distributionconnector-default-definition-report-approve": "Godkjenn",
+	"bs-distributionconnector-default-definition-report-vote": "stem",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Tidsavbrudd",
 	"bs-distributionconnector-checkpermissions-label-user": "Bruker",

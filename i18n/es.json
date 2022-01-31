@@ -10,7 +10,8 @@
 			"Mnivar",
 			"Reverse88",
 			"Warming Hearth",
-			"Whovian Biologist"
+			"Whovian Biologist",
+			"MarcoAurelio"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Conecta BlueSpice con varias extensiones para MediaWiki",
@@ -85,8 +86,8 @@
 	"bs-sandbox": "Zona de pruebas",
 	"bs-support": "Asistencia",
 	"workflows-workflow-file-definition-group-feedback-title": "Comentarios del grupo",
-	"workflows-workflow-file-definition-group-feedback-desc": "Solicita comentarios a un usuario mientras revisan una página. Una vez la votación haya finalizado, serás notificado por email el resultado de la misma.",
-	"workflows-workflow-file-definition-user-approval-title": "Aprobación de usuario",
+	"workflows-workflow-file-definition-group-feedback-desc": "Solicitar comentarios a un grupo de usuarios mientras se revisa una página. Una vez hecho, se enviará una notificación por correo electrónico al destinatario especificado.",
+	"workflows-workflow-file-definition-user-approval-title": "Aprobación por un único usuario",
 	"workflows-workflow-file-definition-user-approval-desc": "Pide a un usuario que revise y apruebe una página. Una vez hecho esto, se envía una notificación por correo electrónico al destinatario especificado.",
 	"workflows-workflow-file-definition-user-feedback-title": "Comentarios de un solo usuario",
 	"workflows-workflow-file-definition-user-feedback-desc": "Pida a un usuario que le dé su opinión mientras revisa una página. Una vez hecho esto, se envía una notificación por correo electrónico al destinatario especificado."

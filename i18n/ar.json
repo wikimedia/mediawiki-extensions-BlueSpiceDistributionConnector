@@ -12,7 +12,6 @@
 	"bs-distributionconnector-tag-categorytree-desc": "يعرض بنية شجرة ديناميكية على نظام التصنيفات في الويكي، بين الوسوم تجب الإشارة إلى تصنيف الجذر.",
 	"bs-distributionconnector-tag-ref-desc": "يعلم النص بين الوسوم كحاشية سفلية.",
 	"bs-distributionconnector-tag-references-desc": "يعرض قائمة الحواشي السفلية التي تم إدراجها في المقالات.",
-	"bs-distributionconnector-tag-quiz-desc": "يضيف أسئلة مسابقة بسيطة لمقالة.",
 	"bs-distributionconnector-tag-embedvideo-desc": "يدمج مقاطع الفيديو من منصات المشاركة الشائعة.",
 	"bs-distributionconnector-tag-dynamicpagelist-desc": "يولد قائمة ديناميكية من المقالات على أساس الوسائط المختلفة.",
 	"bs-distributionconnector-flyout-hitcounters-text": "عدد المشاهدات",
@@ -30,6 +29,7 @@
 	"bs-distributionconnector-collection-type-hitcounter": "مشاهدات الصفحة",
 	"bs-distributionconnector-collection-var-pagetitle": "عنوان الصفحة",
 	"bs-distributionconnector-collection-var-numberhits": "الضربات",
+	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "استعمل اسماً حقيقياً ليكون اسم المُستخدم",
 	"bs-distributionconnector-pref-openidconnect-forcelogout": "فرض الخروج",
 	"bs-distributionconnector-pref-openidconnect-config-icon": "رابط الأيقونة",
 	"bs-distributionconnector-pref-openidconnect-config-proxy": "رابط البروكسي",
@@ -38,8 +38,9 @@
 	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "تحقق من المضيف",
 	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "تحقق من القرين",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "نقرات الصفحة",
-	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "استعمل اسماً حقيقياً ليكون اسم المُستخدم",
 	"bs-distributionconnector-workflows-form-groupname": "المجموعة",
 	"bs-distributionconnector-workflows-form-username": "المستخدم",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "التعليق"
+	"bs-distributionconnector-workflows-form-placeholder-comment": "التعليق",
+	"bs-distributionconnector-statistics-report-page-hits": "الزيارات لكل صفحة",
+	"bs-distributionconnector-checkpermissions-label-user": "المستخدم"
 }
