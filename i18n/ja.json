@@ -20,5 +20,6 @@
 	"bs-support": "サポート",
 	"bs-distributionconnector-checkpermissions-label-user": "利用者",
 	"bs-distributionconnector-checkpermissions-label-permission": "許可",
-	"bs-distributionconnector-checkpermissions-label-title": "タイトル"
+	"bs-distributionconnector-checkpermissions-label-title": "タイトル",
+	"bs-distributionconnector-notification-logged-in": "ログインしました"
 }
