@@ -60,5 +60,6 @@
 	"bs-sandbox": "Песочница",
 	"bs-helpdesk": "Помощь",
 	"bs-support": "Поддержка",
-	"bs-distributionconnector-default-definition-report-approve": "Утвердить"
+	"bs-distributionconnector-default-definition-report-approve": "Утвердить",
+	"bs-distributionconnector-notification-logged-in": "Вы вошли в систему"
 }

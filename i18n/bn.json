@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Hirok Raja",
-			"আফতাবুজ্জামান"
+			"আফতাবুজ্জামান",
+			"MdsShakil"
 		]
 	},
 	"bs-distributionconnector-workflows-form-groupname": "দল",
@@ -14,5 +15,6 @@
 	"bs-helpdesk": "সাহায্যকেন্দ্র",
 	"bs-distributionconnector-checkpermissions-label-user": "ব্যবহারকারী",
 	"bs-distributionconnector-checkpermissions-label-permission": "অনুমতি",
-	"bs-distributionconnector-checkpermissions-label-title": "শিরোনাম"
+	"bs-distributionconnector-checkpermissions-label-title": "শিরোনাম",
+	"bs-distributionconnector-notification-logged-in": "আপনি এখন প্রবেশকৃত অবস্থায় রয়েছেন"
 }
