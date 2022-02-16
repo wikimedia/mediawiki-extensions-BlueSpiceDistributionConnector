@@ -90,6 +90,7 @@
 	"bs-distributionconnector-checkpermissions-label-user": "Gebruiker",
 	"bs-distributionconnector-checkpermissions-label-permission": "Rechten",
 	"bs-distributionconnector-checkpermissions-label-title": "Titel",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "Opgegeven gebruikersnaam is niet geldig",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "Opgegeven titel is niet geldig",
 	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] heeft \"$2\" rechten gekregen voor [[$3]]",
 	"bs-distributionconnector-notification-logged-in": "U bent nu aangemeld"
