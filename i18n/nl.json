@@ -7,7 +7,8 @@
 			"McDutchie",
 			"Optilete",
 			"Robin van der Vliet",
-			"Romaine"
+			"Romaine",
+			"Nickthijssen1994"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Verbindt BlueSpice met verscheidene MediaWiki-uitbreidingen",
@@ -65,7 +66,14 @@
 	"bs-distributionconnector-workflows-form-head-instructions": "Instructies voor het afdelingshoofd",
 	"bs-distributionconnector-workflows-form-comment": "Opmerking",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Opmerking",
+	"bs-distributionconnector-workflows-form-feedback": "Geef uw feedback...",
 	"bs-distributionconnector-workflows-form-group-instructions": "Instructies voor groep",
+	"bs-distributionconnector-workflows-form-label-editor": "Bewerker",
+	"bs-distributionconnector-workflows-form-label-reviewer": "Controleur",
+	"bs-distributionconnector-workflows-form-instructions-reviewer": "Instructies voor de controleur",
+	"bs-distributionconnector-workflows-form-label-approver": "Goedkeurder",
+	"bs-distributionconnector-workflows-form-instructions-approver": "Instructies voor de goedkeurder",
+	"bs-distributionconnector-statistics-report-page-hits": "Bezoeken per pagina",
 	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% groei",
 	"bs-sandbox": "Kladblok",
 	"bs-helpdesk": "Helpdesk",
@@ -76,6 +84,14 @@
 	"workflows-workflow-file-definition-user-approval-desc": "Een gebruiker vragen om een pagina te beoordelen en goed te keuren. Zodra dit klaar is wordt een e-mailbericht naar de opgegeven ontvanger gestuurd.",
 	"workflows-workflow-file-definition-user-feedback-title": "Feedback van één gebruiker",
 	"workflows-workflow-file-definition-user-feedback-desc": "Een gebruiker om feedback vragen tijdens het beoordelen van een pagina. Zodra dit klaar is wordt een e-mailbericht naar de opgegeven ontvanger gestuurd.",
+	"bs-distributionconnector-default-definition-report-review": "Beoordelen",
+	"bs-distributionconnector-default-definition-report-approve": "Goedkeuren",
+	"bs-distributionconnector-default-definition-report-vote": "stemmen",
 	"bs-distributionconnector-checkpermissions-label-user": "Gebruiker",
-	"bs-distributionconnector-checkpermissions-label-title": "Titel"
+	"bs-distributionconnector-checkpermissions-label-permission": "Rechten",
+	"bs-distributionconnector-checkpermissions-label-title": "Titel",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "Opgegeven gebruikersnaam is niet geldig",
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "Opgegeven titel is niet geldig",
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] heeft \"$2\" rechten gekregen voor [[$3]]",
+	"bs-distributionconnector-notification-logged-in": "U bent nu aangemeld"
 }
