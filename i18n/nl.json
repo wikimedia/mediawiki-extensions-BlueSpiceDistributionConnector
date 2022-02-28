@@ -87,6 +87,7 @@
 	"bs-distributionconnector-default-definition-report-review": "Beoordelen",
 	"bs-distributionconnector-default-definition-report-approve": "Goedkeuren",
 	"bs-distributionconnector-default-definition-report-vote": "stemmen",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-checkpermissions-label-user": "Gebruiker",
 	"bs-distributionconnector-checkpermissions-label-permission": "Rechten",
 	"bs-distributionconnector-checkpermissions-label-title": "Titel",
