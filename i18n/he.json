@@ -5,7 +5,8 @@
 			"Steeve815",
 			"YaronSh",
 			"ישראל קלר",
-			"מקף"
+			"מקף",
+			"שוקו מוקה"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "התחום שלך",
@@ -14,6 +15,8 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "מצב",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "עומק",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "מרחב שם",
+	"bs-distributionconnector-collection-type-hitcounter": "צפיות בדף",
+	"bs-distributionconnector-collection-var-pagetitle": "כותרת הדף",
 	"bs-distributionconnector-collection-var-numberhits": "מופיעות",
 	"bs-distributionconnector-setting-path-authentication": "אימות",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "להשתמש בשם האמתי כשם המשתמש",
@@ -27,7 +30,13 @@
 	"bs-distributionconnector-pref-openidconnect-config-authparam": "משתני אימות (JSON)",
 	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "אימות מארח",
 	"bs-distributionconnector-workflows-form-instructions": "הוראות",
+	"bs-distributionconnector-workflows-form-username": "משתמש",
+	"bs-distributionconnector-workflows-form-expert-user": "מומחה",
+	"bs-distributionconnector-workflows-form-head-user": "ראש המחלקה",
+	"bs-distributionconnector-workflows-form-label-editor": "עורך",
+	"bs-distributionconnector-checkpermissions": "בדיקת הרשאות",
 	"bs-distributionconnector-checkpermissions-label-user": "משתמש",
 	"bs-distributionconnector-checkpermissions-label-permission": "הרשאה",
+	"bs-distributionconnector-checkpermissions-label-title": "כותרת",
 	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] קיבל את ההרשאה \"$2\" לדף [[$3]]"
 }
