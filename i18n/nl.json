@@ -8,7 +8,8 @@
 			"Optilete",
 			"Robin van der Vliet",
 			"Romaine",
-			"Nickthijssen1994"
+			"Nickthijssen1994",
+			"Rots61"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Verbindt BlueSpice met verscheidene MediaWiki-uitbreidingen",
@@ -62,6 +63,7 @@
 	"bs-distributionconnector-workflows-form-username": "Gebruiker",
 	"bs-distributionconnector-workflows-form-expert-user": "Export",
 	"bs-distributionconnector-workflows-form-expert-instructions": "Instructies voor de expert",
+	"bs-distributionconnector-workflows-form-tw-user": "Technische schrijver",
 	"bs-distributionconnector-workflows-form-head-user": "Afdelingshoofd",
 	"bs-distributionconnector-workflows-form-head-instructions": "Instructies voor het afdelingshoofd",
 	"bs-distributionconnector-workflows-form-comment": "Opmerking",
