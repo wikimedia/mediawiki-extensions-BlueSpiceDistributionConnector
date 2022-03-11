@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"DDPAT",
+			"Ice bulldog",
 			"Kareyac",
 			"Megakott",
 			"Okras",
@@ -52,7 +53,7 @@
 	"workflows-workflow-file-definition-group-approval-title": "Утверждение группы",
 	"workflows-workflow-file-definition-group-approval-desc": "Попросите группу пользователей просмотреть и утвердить страницу. После завершения голосования вы получите уведомление по электронной почте о результатах голосования.",
 	"bs-distributionconnector-workflows-form-groupname": "Группа",
-	"bs-distributionconnector-workflows-form-instructions": "Инструкции (поддерживается викитекст)",
+	"bs-distributionconnector-workflows-form-instructions": "Инструкции",
 	"bs-distributionconnector-workflows-form-username": "Участник",
 	"bs-distributionconnector-workflows-form-expert-user": "Эксперт",
 	"bs-distributionconnector-workflows-form-head-user": "Глава департамента",
@@ -62,5 +63,7 @@
 	"bs-distributionconnector-workflows-form-label-editor": "Редактор",
 	"bs-sandbox": "Песочница",
 	"bs-helpdesk": "Помощь",
-	"bs-support": "Поддержка"
+	"bs-support": "Поддержка",
+	"bs-distributionconnector-default-definition-report-approve": "Утвердить",
+	"bs-distributionconnector-notification-logged-in": "Вы вошли в систему"
 }

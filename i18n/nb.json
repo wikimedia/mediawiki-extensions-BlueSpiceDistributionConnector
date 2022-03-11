@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Abuluntu",
-			"Jon Harald Søby"
+			"Jon Harald Søby",
+			"Vukky"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Kobler BlueSpice til diverse MediaWiki-utvidelser",
@@ -62,5 +63,26 @@
 	"bs-distributionconnector-workflows-form-group-instructions": "Instruksjoner for gruppa",
 	"bs-distributionconnector-statistics-report-page-hits": "Besøk per side",
 	"bs-distributionconnector-statistics-report-page-trends": "Besøkstrender per side",
-	"bs-distributionconnector-statistics-report-page-trends-axis-value": "vekst i %"
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "vekst i %",
+	"bs-distributionconnector-workflows-form-groupname": "Gruppe",
+	"bs-distributionconnector-workflows-form-instructions": "Instruksjoner",
+	"bs-distributionconnector-workflows-form-username": "Bruker",
+	"bs-distributionconnector-workflows-form-expert-user": "Ekspert",
+	"bs-distributionconnector-workflows-form-expert-instructions": "Instruksjoner for eksperten",
+	"bs-distributionconnector-workflows-form-tw-user": "Teknisk skribent",
+	"bs-distributionconnector-workflows-form-tw-instructions": "Instruksjoner for den tekniske skribenten",
+	"bs-distributionconnector-workflows-form-label-editor": "Bidragsyter",
+	"bs-distributionconnector-workflows-form-label-approver": "Godkjenner",
+	"bs-sandbox": "Sandkasse",
+	"bs-support": "Støtte",
+	"bs-distributionconnector-default-user-vote-report-delegated-message": "delegert til $1",
+	"bs-distributionconnector-default-definition-report-approve": "Godkjenn",
+	"bs-distributionconnector-default-definition-report-vote": "stem",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Tidsavbrudd",
+	"bs-distributionconnector-checkpermissions-label-user": "Bruker",
+	"bs-distributionconnector-checkpermissions-label-permission": "Tillatelse",
+	"bs-distributionconnector-checkpermissions-label-title": "Tittel",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "Den angitte brukernavnet er ugyldig",
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "Den angitte tittelen er ugyldig"
 }

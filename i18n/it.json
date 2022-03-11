@@ -45,7 +45,7 @@
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Nome dell'attributo per \"gruppi\"",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Nome dell'attributo per \"username\"",
 	"bs-distributionconnector-workflows-form-groupname": "Gruppo",
-	"bs-distributionconnector-workflows-form-instructions": "Istruzioni (wikitesto supportato)",
+	"bs-distributionconnector-workflows-form-instructions": "Istruzioni",
 	"bs-distributionconnector-workflows-form-username": "Utente",
 	"bs-distributionconnector-workflows-form-step-one-user": "Passo 1: Utente",
 	"bs-distributionconnector-workflows-form-step-one-group": "Passo 1: Gruppo",
@@ -55,5 +55,7 @@
 	"bs-distributionconnector-workflows-form-step-three-user": "Passo 3: Utente",
 	"bs-distributionconnector-workflows-form-step-three-instructions": "Passo 3: Istruzioni",
 	"bs-distributionconnector-workflows-form-comment": "Commento",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "Commento"
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Commento",
+	"bs-distributionconnector-checkpermissions-label-user": "Utente",
+	"bs-distributionconnector-checkpermissions-label-title": "Titolo"
 }

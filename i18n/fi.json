@@ -3,6 +3,7 @@
 		"authors": [
 			"Joquliina",
 			"MITO",
+			"Markus Mikkonen",
 			"Rönttönen"
 		]
 	},
@@ -10,7 +11,7 @@
 	"bs-distributionconnector-collection-var-pagetitle": "Sivun otsikko",
 	"bs-distributionconnector-pref-openidconnect-forcelogout": "Pakota uloskirjautuminen",
 	"bs-distributionconnector-workflows-form-groupname": "Ryhmä",
-	"bs-distributionconnector-workflows-form-instructions": "Ohjeet (wikitekstiä tuetaan)",
+	"bs-distributionconnector-workflows-form-instructions": "Ohjeet",
 	"bs-distributionconnector-workflows-form-username": "Käyttäjä",
 	"bs-distributionconnector-workflows-form-comment": "Kommentti",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Kommentti",
@@ -22,5 +23,15 @@
 	"bs-distributionconnector-workflows-form-instructions-approver": "Ohjeet hyväksyjälle",
 	"bs-sandbox": "Hiekkalaatikko",
 	"bs-helpdesk": "Tukikeskus",
-	"bs-support": "Tuki"
+	"bs-support": "Tuki",
+	"bs-distributionconnector-pref-openidconnect-config-icon": "Kuvake-URL",
+	"bs-distributionconnector-default-definition-report-approve": "Hyväksy",
+	"bs-distributionconnector-pref-eventbus-eventservices-key": "Palvelun nimi",
+	"bs-distributionconnector-checkpermissions": "Tarkista käyttöoikeudet",
+	"bs-distributionconnector-checkpermissions-label-user": "Käyttäjä",
+	"bs-distributionconnector-checkpermissions-label-permission": "Käyttöoikeus",
+	"bs-distributionconnector-checkpermissions-label-title": "Otsikko",
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "Tarjottu otsikko on virheellinen",
+	"bs-distributionconnector-checkpermissions-success": "Käyttäjälle [[User:$1|$1]] myönnettiin käyttöoikeus \"$2\" sivulle [[$3]]",
+	"bs-distributionconnector-notification-logged-in": "Olet nyt kirjautunut sisään"
 }

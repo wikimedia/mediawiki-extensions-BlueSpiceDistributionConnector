@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Nieszczarda2",
 			"W"
 		]
 	},
@@ -8,5 +9,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Глыбіня",
 	"bs-distributionconnector-collection-type-hitcounter": "Прагляды старонкі",
 	"bs-distributionconnector-collection-var-pagetitle": "Загаловак старонкі",
-	"bs-distributionconnector-pref-openidconnect-config-scope": "Ахоп"
+	"bs-distributionconnector-pref-openidconnect-config-scope": "Ахоп",
+	"bs-distributionconnector-workflows-form-instructions": "Інструкцыі"
 }

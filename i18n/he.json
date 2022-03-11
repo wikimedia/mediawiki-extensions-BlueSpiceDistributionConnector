@@ -4,7 +4,9 @@
 			"Amire80",
 			"Steeve815",
 			"YaronSh",
-			"ישראל קלר"
+			"ישראל קלר",
+			"מקף",
+			"שוקו מוקה"
 		]
 	},
 	"bs-distributionconnector-flyout-hitcounters-text": "מספר צפיות",
@@ -24,5 +26,17 @@
 	"bs-distributionconnector-pref-openidconnect-config-proxy": "כתובת מתווך",
 	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "שם משתמש מועדף",
 	"bs-distributionconnector-pref-openidconnect-config-authparam": "משתני אימות (JSON)",
-	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "אימות מארח"
+	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "אימות מארח",
+	"bs-distributionconnector-collection-type-hitcounter": "צפיות בדף",
+	"bs-distributionconnector-collection-var-pagetitle": "כותרת הדף",
+	"bs-distributionconnector-workflows-form-instructions": "הוראות",
+	"bs-distributionconnector-workflows-form-username": "משתמש",
+	"bs-distributionconnector-workflows-form-expert-user": "מומחה",
+	"bs-distributionconnector-workflows-form-head-user": "ראש המחלקה",
+	"bs-distributionconnector-workflows-form-label-editor": "עורך",
+	"bs-distributionconnector-checkpermissions": "בדיקת הרשאות",
+	"bs-distributionconnector-checkpermissions-label-user": "משתמש",
+	"bs-distributionconnector-checkpermissions-label-permission": "הרשאה",
+	"bs-distributionconnector-checkpermissions-label-title": "כותרת",
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] קיבל את ההרשאה \"$2\" לדף [[$3]]"
 }

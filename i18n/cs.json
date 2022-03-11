@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Adam N.",
-			"Fraxinus.cs"
+			"Fraxinus.cs",
+			"Kendo13"
 		]
 	},
 	"bs-distributionconnector-workflows-form-expert-user": "Expert",
@@ -16,5 +17,6 @@
 	"bs-distributionconnector-statistics-report-page-trends": "Trendy v návštěvnosti stránek",
 	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% růst",
 	"bs-sandbox": "Pískoviště",
-	"bs-support": "Podpora"
+	"bs-support": "Podpora",
+	"bs-distributionconnector-workflows-form-instructions": "Instrukce"
 }

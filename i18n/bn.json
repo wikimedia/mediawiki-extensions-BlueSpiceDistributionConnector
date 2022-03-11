@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Hirok Raja",
+			"MdsShakil",
 			"আফতাবুজ্জামান"
 		]
 	},
 	"bs-distributionconnector-workflows-form-groupname": "দল",
-	"bs-distributionconnector-workflows-form-instructions": "নির্দেশাবলী (উইকিপাঠ্য সমর্থিত)",
+	"bs-distributionconnector-workflows-form-instructions": "নির্দেশাবলী",
 	"bs-distributionconnector-workflows-form-username": "ব্যবহারকারী",
 	"bs-distributionconnector-workflows-form-step-one-user": "ধাপ ১: ব্যবহারকারী",
 	"bs-distributionconnector-workflows-form-step-one-group": "ধাপ ১: দল",
@@ -17,5 +19,9 @@
 	"bs-distributionconnector-workflows-form-comment": "মন্তব্য",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "মন্তব্য",
 	"bs-sandbox": "খেলাঘর",
-	"bs-helpdesk": "সাহায্যকেন্দ্র"
+	"bs-helpdesk": "সাহায্যকেন্দ্র",
+	"bs-distributionconnector-checkpermissions-label-user": "ব্যবহারকারী",
+	"bs-distributionconnector-checkpermissions-label-permission": "অনুমতি",
+	"bs-distributionconnector-checkpermissions-label-title": "শিরোনাম",
+	"bs-distributionconnector-notification-logged-in": "আপনি এখন প্রবেশকৃত অবস্থায় রয়েছেন"
 }

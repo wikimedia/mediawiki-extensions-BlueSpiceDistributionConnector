@@ -13,5 +13,11 @@
 	"bs-distributionconnector-statistics-report-page-hits": "လယ်ႏထွား လိတ်မဲ့ငါ တဗီႏစီႏ",
 	"bs-distributionconnector-workflows-form-label-editor": "ခြပ်ချော်ꩻသား",
 	"bs-distributionconnector-workflows-form-label-reviewer": "ထွားစဲစ်ချာသား",
-	"bs-distributionconnector-workflows-form-label-approver": "အွောန်ႏတီႏဖေႏသား"
+	"bs-distributionconnector-workflows-form-label-approver": "အွောန်ႏတီႏဖေႏသား",
+	"bs-distributionconnector-default-definition-report-review": "ထွားစဲစ်ချာ",
+	"bs-distributionconnector-default-definition-report-approve": "အွောန်ႏအတီႏ",
+	"bs-distributionconnector-checkpermissions": "စဲစ်ထွားဖေႏခွင်ꩻချက်ဖိုင်ႏ",
+	"bs-distributionconnector-checkpermissions-label-user": "ကေားသုင်ꩻသား",
+	"bs-distributionconnector-checkpermissions-label-permission": "ဖေႏခွင်ꩻချက်",
+	"bs-distributionconnector-checkpermissions-label-title": "ကꩻတူႏရဲန်ႏ"
 }

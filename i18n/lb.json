@@ -9,7 +9,7 @@
 	"workflows-file-repository-definition-user-control": "Benotzerkontroll",
 	"workflows-file-repository-definition-user-control-title": "Benotzer-Feedback",
 	"bs-distributionconnector-workflows-form-groupname": "Grupp",
-	"bs-distributionconnector-workflows-form-instructions": "Instruktiounen (Wikitext ënnerstëtzt)",
+	"bs-distributionconnector-workflows-form-instructions": "Instruktiounen",
 	"bs-distributionconnector-workflows-form-username": "Benotzer",
 	"bs-distributionconnector-workflows-form-step-one-user": "Schrëtt 1: Benotzer",
 	"bs-distributionconnector-workflows-form-step-one-group": "Schrëtt 1: Grupp",
@@ -32,5 +32,11 @@
 	"bs-distributionconnector-workflows-form-label-approver": "Zoustëmmer",
 	"bs-sandbox": "Sandkëscht",
 	"bs-helpdesk": "Helpdesk",
-	"bs-support": "Ënnerstëtzung"
+	"bs-support": "Ënnerstëtzung",
+	"bs-distributionconnector-checkpermissions": "Autorisatiounen nokucken",
+	"bs-distributionconnector-checkpermissions-label-user": "Benotzer",
+	"bs-distributionconnector-checkpermissions-label-permission": "Autorisatioun",
+	"bs-distributionconnector-checkpermissions-label-title": "Titel",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "de benotzte Benotzernumm ass net valabel",
+	"bs-distributionconnector-notification-logged-in": "Dir sidd elo ageloggt"
 }

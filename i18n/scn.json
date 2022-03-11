@@ -12,5 +12,13 @@
 	"bs-distributionconnector-workflows-form-comment": "Cummentu",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Cummentu",
 	"bs-sandbox": "Sandbox",
-	"bs-support": "Supportu"
+	"bs-support": "Supportu",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Namespace",
+	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Usa lu nomu veru comu nomu utenti",
+	"bs-distributionconnector-pref-openidconnect-useemailasusername": "Usa lu nnirizzu email comu nomu utenti",
+	"bs-distributionconnector-pref-openidconnect-config-icon": "URL cona",
+	"bs-distributionconnector-default-definition-report-approve": "Appruva",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
+	"bs-distributionconnector-checkpermissions-label-user": "Utenti",
+	"bs-distributionconnector-checkpermissions-label-title": "Tìtulu"
 }

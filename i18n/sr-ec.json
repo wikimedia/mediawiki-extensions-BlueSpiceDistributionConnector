@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kizule"
+		]
+	},
+	"bs-distributionconnector-checkpermissions-label-user": "Корисник",
+	"bs-distributionconnector-checkpermissions-label-permission": "Дозвола",
+	"bs-distributionconnector-checkpermissions-label-title": "Наслов"
+}
