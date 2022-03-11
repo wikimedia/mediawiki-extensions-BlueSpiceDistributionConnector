@@ -2,7 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"DDPAT",
+			"Ice bulldog",
 			"Piramidion",
+			"Samflint",
 			"Ата"
 		]
 	},
@@ -116,5 +118,9 @@
 	"bs-distributionconnector-checkpermissions-label-user": "Користувач",
 	"bs-distributionconnector-checkpermissions-label-permission": "Дозвіл",
 	"bs-distributionconnector-checkpermissions-label-title": "Назва",
-	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] отримав дозвіл «$2» для [[$3]]"
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] отримав дозвіл «$2» для [[$3]]",
+	"bs-distributionconnector-checkpermissions": "Перевірити дозволи",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "Вказане ім'я користувача недійсне",
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "Вказана назва недійсна",
+	"bs-distributionconnector-notification-logged-in": "Ви увійшли в систему"
 }

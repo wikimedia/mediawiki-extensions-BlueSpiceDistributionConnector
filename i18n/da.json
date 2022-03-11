@@ -16,5 +16,9 @@
 	"bs-distributionconnector-workflows-form-groupname": "Gruppe",
 	"bs-distributionconnector-workflows-form-instructions": "Instruktioner",
 	"bs-distributionconnector-workflows-form-username": "Bruger",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "Kommentar"
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Kommentar",
+	"bs-distributionconnector-workflows-form-expert-user": "Ekspert",
+	"bs-sandbox": "Sandkasse",
+	"bs-distributionconnector-checkpermissions-label-user": "Bruger",
+	"bs-distributionconnector-checkpermissions-label-title": "Titel"
 }

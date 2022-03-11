@@ -5,7 +5,8 @@
 			"Steeve815",
 			"YaronSh",
 			"ישראל קלר",
-			"מקף"
+			"מקף",
+			"שוקו מוקה"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "התחום שלך",
@@ -29,5 +30,13 @@
 	"bs-distributionconnector-workflows-form-instructions": "הוראות",
 	"bs-distributionconnector-checkpermissions-label-user": "משתמש",
 	"bs-distributionconnector-checkpermissions-label-permission": "הרשאה",
-	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] קיבל את ההרשאה \"$2\" לדף [[$3]]"
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] קיבל את ההרשאה \"$2\" לדף [[$3]]",
+	"bs-distributionconnector-collection-type-hitcounter": "צפיות בדף",
+	"bs-distributionconnector-collection-var-pagetitle": "כותרת הדף",
+	"bs-distributionconnector-workflows-form-username": "משתמש",
+	"bs-distributionconnector-workflows-form-expert-user": "מומחה",
+	"bs-distributionconnector-workflows-form-head-user": "ראש המחלקה",
+	"bs-distributionconnector-workflows-form-label-editor": "עורך",
+	"bs-distributionconnector-checkpermissions": "בדיקת הרשאות",
+	"bs-distributionconnector-checkpermissions-label-title": "כותרת"
 }

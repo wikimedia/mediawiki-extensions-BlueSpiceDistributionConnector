@@ -4,7 +4,8 @@
 			"Ajam",
 			"Darafsh",
 			"FarsiNevis",
-			"Jeeputer"
+			"Jeeputer",
+			"LordProfo"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "دامنهٔ شما",
@@ -36,7 +37,7 @@
 	"bs-distributionconnector-pref-openidconnect-config-authparam": "پارامترهای اعتبارسنجی (جی‌سان)",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "بازدیدهای صفحه",
 	"bs-distributionconnector-workflows-form-groupname": "گروه",
-	"bs-distributionconnector-workflows-form-instructions": "راهنما (از ویکی‌متن پشتیبانی می‌شود)",
+	"bs-distributionconnector-workflows-form-instructions": "دستورالعمل‌ها",
 	"bs-distributionconnector-workflows-form-username": "کاربر",
 	"bs-distributionconnector-workflows-form-expert-user": "متخصص",
 	"bs-distributionconnector-workflows-form-expert-instructions": "راهنما برای متخصص",
@@ -52,10 +53,21 @@
 	"bs-distributionconnector-statistics-report-page-hits": "بازدیدها به ازای هر صفحه",
 	"workflows-workflow-file-definition-group-feedback-title": "بازخورد گروهی",
 	"workflows-workflow-file-definition-group-feedback-desc": "از گروهی از کاربران بخواهید تا هنگام بازبینی یک صفحه، بازخورد دهند. هرگاه رأی‌گیری تمام شود، از طریق دریافت یک ایمیل پیرامون نتایج رأی‌گیری آگاه خواهید شد.",
-	"workflows-workflow-file-definition-user-approval-title": "تأیید کاربر",
+	"workflows-workflow-file-definition-user-approval-title": "تأیید تک کاربر",
 	"workflows-workflow-file-definition-user-approval-desc": "از یک کاربر بخواهید تا یک صفحه را بازبینی و تأیید کند. هرگاه رأی‌گیری تمام شود، از طریق دریافت یک ایمیل پیرامون نتیجهٔ رأی‌گیری آگاه خواهید شد.",
-	"workflows-workflow-file-definition-user-feedback-title": "بازخورد کاربر",
+	"workflows-workflow-file-definition-user-feedback-title": "بازخورد تک کاربر",
 	"workflows-workflow-file-definition-user-feedback-desc": "از یک کاربر بخواهید تا هنگام بازبینی یک صفحه، بازخورد دهد. هرگاه رأی‌گیری تمام شود، از طریق دریافت یک ایمیل پیرامون نتیجهٔ رأی‌گیری آگاه خواهید شد.",
 	"bs-distributionconnector-checkpermissions-label-user": "کاربر",
-	"bs-distributionconnector-checkpermissions-label-title": "عنوان"
+	"bs-distributionconnector-checkpermissions-label-title": "عنوان",
+	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "تأیید میزبان",
+	"bs-distributionconnector-workflows-form-head-user": "رئیس بخش",
+	"bs-distributionconnector-workflows-form-label-approver": "تصویب کننده",
+	"bs-support": "پشتیبانی",
+	"bs-distributionconnector-default-definition-report-review": "بازبینی",
+	"bs-distributionconnector-default-definition-report-approve": "پذیرفتن",
+	"bs-distributionconnector-default-definition-report-vote": "رأی",
+	"bs-distributionconnector-pref-eventbus-eventservices-key": "عنوان سرویس",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "نشانی اینترنتی",
+	"bs-distributionconnector-checkpermissions-label-permission": "دسترسی",
+	"bs-distributionconnector-notification-logged-in": "شما وارد شدید"
 }

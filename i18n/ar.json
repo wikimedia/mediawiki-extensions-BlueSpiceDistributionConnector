@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"FiberAhmed",
 			"Michel Bakni",
 			"Omda4wady",
 			"ديفيد",
@@ -42,5 +43,18 @@
 	"bs-distributionconnector-workflows-form-username": "المستخدم",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "التعليق",
 	"bs-distributionconnector-statistics-report-page-hits": "الزيارات لكل صفحة",
-	"bs-distributionconnector-checkpermissions-label-user": "المستخدم"
+	"bs-distributionconnector-checkpermissions-label-user": "المستخدم",
+	"bs-distributionconnector-setting-path-authentication": "المصادقة",
+	"bs-distributionconnector-workflows-form-comment": "تعليق",
+	"bs-distributionconnector-workflows-form-label-editor": "محرر",
+	"bs-distributionconnector-workflows-form-label-reviewer": "مراجع",
+	"bs-sandbox": "ملعب",
+	"bs-support": "دعم",
+	"bs-distributionconnector-default-definition-report-review": "مراجعة",
+	"bs-distributionconnector-default-definition-report-approve": "موافقة",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "المسار",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "المهلة",
+	"bs-distributionconnector-checkpermissions": "التحقق من الصلاحيات",
+	"bs-distributionconnector-checkpermissions-label-permission": "الصلاحيات",
+	"bs-distributionconnector-checkpermissions-label-title": "العنوان"
 }
