@@ -95,5 +95,14 @@
 	"bs-distributionconnector-pref-eventbus-eventservices": "Servicios de evento",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Nomine del servicio",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Expiration"
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Expiration",
+	"bs-distributionconnector-pref-eventbus-eventservices-help": "Le servicios definite pro le extension \"EventBus\" que propaga cambiamentos de stato (modification, renomination, deletion, visibilitate del version, etc.) verso un servicio de evento RESTful, forniente al consumitores del servicio le medios de traciar le cambiamentos del contento MediaWiki.",
+	"bs-distributionconnector-checkpermissions": "Verificar permissiones",
+	"bs-distributionconnector-checkpermissions-label-user": "Usator",
+	"bs-distributionconnector-checkpermissions-label-permission": "Permission",
+	"bs-distributionconnector-checkpermissions-label-title": "Titulo",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "Le nomine de usator fornite non es valide",
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "Le titulo fornite non es valide",
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] ha recipite le permission \"$2\" pro [[$3]]",
+	"bs-distributionconnector-notification-logged-in": "Tu ha aperite session"
 }
