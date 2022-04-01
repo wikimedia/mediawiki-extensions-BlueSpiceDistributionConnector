@@ -156,6 +156,19 @@
 			"WorkflowDefinitions": {
 				"user-approval": "BlueSpiceDistributionConnector/workflow/UserApproval.bpmn",
 				"document-control": "BlueSpiceDistributionConnector/workflow/DocumentControl.bpmn"
+			},
+			"TriggerTypes": {
+				"time-smw-prop": {
+					"factory": "\\MediaWiki\\Extension\\Workflows\\Trigger\\TimeBasedTrigger::factory",
+					"services": [ "TitleFactory" ]
+				}
+			},
+			"TriggerEditors": {
+				"time-smw-prop": {
+					"supports": [ "time-smw-prop" ],
+					"module": "ext.bluespice.distribution.workflows.trigger.editor",
+					"class": "bs.distributionConnector.workflows.trigger.TimeSMWProperty"
+				}
 			}
 		},
 		"BlueSpiceExtendedStatistics": {
@@ -271,6 +284,19 @@
 			"dependencies": [
 				"ext.bluespice",
 				"ext.oOJSPlus.formelements"
+			]
+		},
+		"ext.bluespice.distribution.workflows.trigger.editor": {
+			"scripts": [
+				"workflows/ui/trigger/TimeSMWProperty.js"
+			],
+			"dependencies": [
+				"ext.workflows.trigger.editors",
+				"ext.BSSMWConnector.widgets"
+			],
+			"messages": [
+				"bs-distributionconnector-workflows-ui-trigger-field-property",
+				"bs-distributionconnector-workflows-ui-trigger-field-days"
 			]
 		}
 	},
