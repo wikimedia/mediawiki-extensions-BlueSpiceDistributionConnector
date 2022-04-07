@@ -5,7 +5,8 @@
 			"Darafsh",
 			"FarsiNevis",
 			"Jeeputer",
-			"LordProfo"
+			"LordProfo",
+			"Beginneruser"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "دامنهٔ شما",
@@ -34,7 +35,7 @@
 	"bs-distributionconnector-pref-openidconnect-config-proxy": "نشانی پروکسی",
 	"bs-distributionconnector-pref-openidconnect-config-scope": "حوزه",
 	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "نام کاربری ترجیحی",
-	"bs-distributionconnector-pref-openidconnect-config-authparam": "پارامترهای اعتبارسنجی (جی‌سان)",
+	"bs-distributionconnector-pref-openidconnect-config-authparam": "پارامترهای تأیید اعتبار (JSON)",
 	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "تأیید میزبان",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "بازدیدهای صفحه",
 	"bs-distributionconnector-workflows-form-groupname": "گروه",
