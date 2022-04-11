@@ -55,6 +55,8 @@
 	"bs-distributionconnector-workflows-form-label-reviewer": "بازبینی‌کننده",
 	"bs-distributionconnector-workflows-form-label-approver": "تصویب کننده",
 	"bs-distributionconnector-statistics-report-page-hits": "بازدیدها به ازای هر صفحه",
+	"bs-sandbox": "صفحهٔ تمرین",
+	"bs-helpdesk": "میزکمک",
 	"bs-support": "پشتیبانی",
 	"workflows-workflow-file-definition-group-feedback-title": "بازخورد گروهی",
 	"workflows-workflow-file-definition-group-feedback-desc": "از گروهی از کاربران بخواهید تا هنگام بازبینی یک صفحه، بازخورد دهند. هرگاه رأی‌گیری تمام شود، از طریق دریافت یک ایمیل پیرامون نتایج رأی‌گیری آگاه خواهید شد.",
