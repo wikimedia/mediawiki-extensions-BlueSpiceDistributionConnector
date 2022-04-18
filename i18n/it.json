@@ -4,7 +4,8 @@
 			"Beta16",
 			"Dansita",
 			"Gianfranco",
-			"TheRukk"
+			"TheRukk",
+			"IrsY"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Connette BlueSpice a diverse estensioni MediaWiki",
@@ -49,6 +50,8 @@
 	"bs-distributionconnector-workflows-form-username": "Utente",
 	"bs-distributionconnector-workflows-form-comment": "Commento",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Commento",
+	"bs-support": "Supporto",
+	"bs-distributionconnector-default-definition-report-approve": "Approva",
 	"bs-distributionconnector-checkpermissions-label-user": "Utente",
 	"bs-distributionconnector-checkpermissions-label-title": "Titolo"
 }
