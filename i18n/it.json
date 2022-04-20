@@ -4,6 +4,7 @@
 			"Beta16",
 			"Dansita",
 			"Gianfranco",
+			"IrsY",
 			"TheRukk"
 		]
 	},
@@ -50,5 +51,7 @@
 	"bs-distributionconnector-workflows-form-comment": "Commento",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Commento",
 	"bs-distributionconnector-checkpermissions-label-user": "Utente",
-	"bs-distributionconnector-checkpermissions-label-title": "Titolo"
+	"bs-distributionconnector-checkpermissions-label-title": "Titolo",
+	"bs-support": "Supporto",
+	"bs-distributionconnector-default-definition-report-approve": "Approva"
 }

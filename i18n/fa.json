@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ajam",
+			"Beginneruser",
 			"Darafsh",
 			"FarsiNevis",
 			"Jeeputer",
@@ -34,7 +35,7 @@
 	"bs-distributionconnector-pref-openidconnect-config-proxy": "نشانی پروکسی",
 	"bs-distributionconnector-pref-openidconnect-config-scope": "حوزه",
 	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "نام کاربری ترجیحی",
-	"bs-distributionconnector-pref-openidconnect-config-authparam": "پارامترهای اعتبارسنجی (جی‌سان)",
+	"bs-distributionconnector-pref-openidconnect-config-authparam": "پارامترهای تأیید اعتبار (JSON)",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "بازدیدهای صفحه",
 	"bs-distributionconnector-workflows-form-groupname": "گروه",
 	"bs-distributionconnector-workflows-form-instructions": "دستورالعمل‌ها",
@@ -69,5 +70,7 @@
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "عنوان سرویس",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "نشانی اینترنتی",
 	"bs-distributionconnector-checkpermissions-label-permission": "دسترسی",
-	"bs-distributionconnector-notification-logged-in": "شما وارد شدید"
+	"bs-distributionconnector-notification-logged-in": "شما وارد شدید",
+	"bs-sandbox": "صفحهٔ تمرین",
+	"bs-helpdesk": "میزکمک"
 }

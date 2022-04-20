@@ -12,6 +12,7 @@
 			"Lakejason0",
 			"LaoShuBaby",
 			"Stang",
+			"StarrySky",
 			"TsuyaMarisa",
 			"VulpesVulpes825",
 			"Xiplus",
@@ -111,5 +112,7 @@
 	"bs-distributionconnector-checkpermissions-label-permission": "权限",
 	"bs-distributionconnector-checkpermissions-label-title": "标题",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "提供用户名无效",
-	"bs-distributionconnector-checkpermissions-error-invalid-title": "提供标题无效"
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "提供标题无效",
+	"bs-distributionconnector-pref-eventbus-eventservices": "活动系列",
+	"bs-distributionconnector-pref-eventbus-eventservices-key": "设备名称"
 }
