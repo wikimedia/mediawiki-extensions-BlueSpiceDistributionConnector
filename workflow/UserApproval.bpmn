@@ -14,7 +14,7 @@
 		</bpmn:startEvent>
 		<bpmn:sequenceFlow id="FromTheStartToCollectData" sourceRef="TheStart" targetRef="CollectData"/>
 		<!-- CollectData -->
-		<bpmn:userTask id="CollectData" name="CollectData">
+		<bpmn:userTask id="CollectData" name="collect-data">
 			<bpmn:extensionElements>
 				<wf:type>custom_form</wf:type>
 				<wf:formModule>
@@ -32,7 +32,7 @@
 		</bpmn:userTask>
 		<bpmn:sequenceFlow id="FromCollectDataToPageCheckout" sourceRef="CollectData" targetRef="PageCheckout"/>
 		<!-- Checkout -->
-		<bpmn:task id="PageCheckout" name="PageCheckout">
+		<bpmn:task id="PageCheckout" name="page-checkout">
 			<bpmn:extensionElements>
 				<wf:type>page_checkout</wf:type>
 			</bpmn:extensionElements>
@@ -42,7 +42,7 @@
 		</bpmn:task>
 		<bpmn:sequenceFlow id="FromPageCheckoutToUserVote" sourceRef="PageCheckout" targetRef="UserVote"/>
 		<!-- Collect user vote -->
-		<bpmn:userTask id="UserVote" name="UserVote">
+		<bpmn:userTask id="UserVote" name="user-vote">
 			<bpmn:extensionElements>
 				<wf:type>user_vote</wf:type>
 			</bpmn:extensionElements>
@@ -68,7 +68,7 @@
 		<bpmn:sequenceFlow id="FromGatewayUserVoteToApproveRevision" name="yes" sourceRef="GatewayUserVote" targetRef="ApproveRevision"/>
 		<bpmn:sequenceFlow id="FromGatewayUserVoteToSendMail" name="no" sourceRef="GatewayUserVote" targetRef="SendMail"/>
 		<!-- Approve revision -->
-		<bpmn:task id="ApproveRevision" name="ApproveRevision">
+		<bpmn:task id="ApproveRevision" name="approve-revision">
 			<bpmn:extensionElements>
 				<wf:type>approve_revision</wf:type>
 			</bpmn:extensionElements>
@@ -78,7 +78,7 @@
 		</bpmn:task>
 		<bpmn:sequenceFlow id="FromApproveRevisiontoSendMail" sourceRef="ApproveRevision" targetRef="SendMail"/>
 		<!-- Send mail -->
-		<bpmn:task id="SendMail" name="SendMail">
+		<bpmn:task id="SendMail" name="send-mail">
 			<bpmn:extensionElements>
 				<wf:type>send_mail</wf:type>
 			</bpmn:extensionElements>
@@ -100,7 +100,7 @@
 		</bpmn:task>
 		<bpmn:sequenceFlow id="FromSendMailToPageCheckin" sourceRef="SendMail" targetRef="PageCheckin"/>
 		<!-- Page check in -->
-		<bpmn:task id="PageCheckin" name="PageCheckin">
+		<bpmn:task id="PageCheckin" name="page-checkin">
 			<bpmn:extensionElements>
 				<wf:type>page_checkin</wf:type>
 			</bpmn:extensionElements>

@@ -13,7 +13,7 @@
 		</bpmn:startEvent>
 		<bpmn:sequenceFlow id="FromTheStartToCollectData" sourceRef="TheStart" targetRef="CollectData"/>
 		<!-- CollectData -->
-		<bpmn:userTask id="CollectData" name="CollectData">
+		<bpmn:userTask id="CollectData" name="collect-data">
 			<bpmn:extensionElements>
 				<wf:type>custom_form</wf:type>
 				<wf:formModule>
@@ -35,7 +35,7 @@
 		</bpmn:userTask>
 		<bpmn:sequenceFlow id="FromCollectDataToCheckoutPage_1" sourceRef="CollectData" targetRef="CheckoutPage_1"/>
 		<!-- Checkout -->
-		<bpmn:task id="CheckoutPage_1" name="CheckoutPage">
+		<bpmn:task id="CheckoutPage_1" name="checkout-page">
 			<bpmn:extensionElements>
 				<wf:type>page_checkout</wf:type>
 			</bpmn:extensionElements>
@@ -45,7 +45,7 @@
 		</bpmn:task>
 		<bpmn:sequenceFlow id="FromCheckoutPage_1ToRequestPageEdit" sourceRef="CheckoutPage_1" targetRef="RequestPageEdit"/>
 		<!-- Request page edit -->
-		<bpmn:userTask id="RequestPageEdit" name="RequestPageEdit">
+		<bpmn:userTask id="RequestPageEdit" name="edit-request">
 			<bpmn:extensionElements>
 				<wf:type>edit_request</wf:type>
 			</bpmn:extensionElements>
@@ -58,7 +58,7 @@
 		</bpmn:userTask>
 		<bpmn:sequenceFlow id="FromRequestPageEditToUserVoteReview" sourceRef="RequestPageEdit" targetRef="UserVoteReview"/>
 		<!-- Reviewer vote -->
-		<bpmn:userTask id="UserVoteReview" name="UserVoteReview">
+		<bpmn:userTask id="UserVoteReview" name="user-vote-review">
 			<bpmn:extensionElements>
 				<wf:type>user_vote</wf:type>
 			</bpmn:extensionElements>
@@ -84,7 +84,7 @@
 		<bpmn:sequenceFlow id="FromGatewayReviewtoCheckinPage_1" name="yes" sourceRef="GatewayReview" targetRef="CheckinPage_1"/>
 		<bpmn:sequenceFlow id="FromGatewayReviewToRequestPageEdit" name="no" sourceRef="GatewayReview" targetRef="RequestPageEdit"/>
 		<!-- Check-in -->
-		<bpmn:task id="CheckinPage_1" name="CheckinPage">
+		<bpmn:task id="CheckinPage_1" name="checkin-page">
 			<bpmn:extensionElements>
 				<wf:type>page_checkin</wf:type>
 			</bpmn:extensionElements>
@@ -94,7 +94,7 @@
 		</bpmn:task>
 		<bpmn:sequenceFlow id="FromCheckinPage_1ToCheckoutPage_2" sourceRef="CheckinPage_1" targetRef="CheckoutPage_2"/>
 		<!-- Checkout -->
-		<bpmn:task id="CheckoutPage_2" name="CheckoutPage">
+		<bpmn:task id="CheckoutPage_2" name="checkout-page">
 			<bpmn:extensionElements>
 				<wf:type>page_checkout</wf:type>
 			</bpmn:extensionElements>
@@ -104,7 +104,7 @@
 		</bpmn:task>
 		<bpmn:sequenceFlow id="FromCheckoutPage_2ToUserVoteApproval" sourceRef="CheckoutPage_2" targetRef="UserVoteApproval"/>
 		<!-- Approver vote -->
-		<bpmn:userTask id="UserVoteApproval" name="UserVoteApproval">
+		<bpmn:userTask id="UserVoteApproval" name="user-vote-approval">
 			<bpmn:extensionElements>
 				<wf:type>user_vote</wf:type>
 			</bpmn:extensionElements>
@@ -130,7 +130,7 @@
 		<bpmn:sequenceFlow id="FromGatewayApprovalToApproveRevision" name="yes" sourceRef="GatewayApproval" targetRef="ApproveRevision"/>
 		<bpmn:sequenceFlow id="FromGatewayApprovalToSendMail" name="no" sourceRef="GatewayApproval" targetRef="SendMail"/>
 		<!-- Approve revision -->
-		<bpmn:task id="ApproveRevision" name="ApproveRevision">
+		<bpmn:task id="ApproveRevision" name="approve-revision">
 			<bpmn:extensionElements>
 				<wf:type>approve_revision</wf:type>
 			</bpmn:extensionElements>
@@ -140,7 +140,7 @@
 		</bpmn:task>
 		<bpmn:sequenceFlow id="FromApproveRevisionToSendMail" sourceRef="ApproveRevision" targetRef="SendMail"/>
 		<!-- Send mail -->
-		<bpmn:task id="SendMail" name="SendMail">
+		<bpmn:task id="SendMail" name="send-mail">
 			<bpmn:extensionElements>
 				<wf:type>send_mail</wf:type>
 			</bpmn:extensionElements>
@@ -167,7 +167,7 @@
 		</bpmn:task>
 		<bpmn:sequenceFlow id="FromSendMailToCheckinPage_2" sourceRef="SendMail" targetRef="CheckinPage_2"/>
 		<!-- Check-in -->
-		<bpmn:task id="CheckinPage_2" name="CheckinPage">
+		<bpmn:task id="CheckinPage_2" name="checkin-page">
 			<bpmn:extensionElements>
 				<wf:type>page_checkin</wf:type>
 			</bpmn:extensionElements>
