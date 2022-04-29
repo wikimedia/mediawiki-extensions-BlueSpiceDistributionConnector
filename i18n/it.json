@@ -4,12 +4,14 @@
 			"Beta16",
 			"Dansita",
 			"Gianfranco",
+			"GpieroMW",
 			"IrsY",
 			"TheRukk"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Connette BlueSpice a diverse estensioni MediaWiki",
 	"bs-distributionconnector-yourdomainname": "Il tuo dominio",
+	"bs-distributionconnector-tag-categorytree-desc": "Visualizza una struttura ad albero dinamica nel sistema di categorie della wiki. Tra le etichette si deve indicare la categoria radice.",
 	"bs-distributionconnector-flyout-hitcounters-text": "Numero di visualizzazioni",
 	"bs-distributionconnector-ve-categorytreeinpector-title": "AlberoDelleCategorie",
 	"bs-distributionconnector-ve-categorytree-title": "AlberoDelleCategorie",
