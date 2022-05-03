@@ -105,5 +105,9 @@
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "Provided username not valid",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "Provided title not valid",
 	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] has been granted permission \"$2\" for [[$3]]",
-	"bs-distributionconnector-notification-logged-in": "You are now logged in"
+	"bs-distributionconnector-notification-logged-in": "You are now logged in",
+	"bs-distributionconnector-workflows-ui-trigger-field-property": "Semantic property (of type: Date)",
+	"bs-distributionconnector-workflows-ui-trigger-field-days": "Days offset from the date in the property",
+	"workflows-triggers-type-time-smw-prop-desc": "Trigger a workflow based on a date from a semantic property",
+	"workflows-triggers-type-time-smw-prop-label": "Based on a semantic property"
 }
