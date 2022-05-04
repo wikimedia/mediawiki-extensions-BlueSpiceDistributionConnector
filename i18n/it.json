@@ -55,6 +55,7 @@
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Commento",
 	"bs-distributionconnector-statistics-report-page-hits": "Visite per pagina",
 	"bs-support": "Supporto",
+	"bs-distributionconnector-default-user-vote-report-delegated-message": "delegato a $1",
 	"bs-distributionconnector-default-definition-report-approve": "Approva",
 	"bs-distributionconnector-checkpermissions-label-user": "Utente",
 	"bs-distributionconnector-checkpermissions-label-title": "Titolo",
