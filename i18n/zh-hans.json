@@ -16,6 +16,7 @@
 			"TsuyaMarisa",
 			"VulpesVulpes825",
 			"Xiplus",
+			"Yining Chen",
 			"Zhang8569",
 			"列维劳德",
 			"孟天皓",
@@ -114,5 +115,6 @@
 	"bs-distributionconnector-checkpermissions-label-permission": "权限",
 	"bs-distributionconnector-checkpermissions-label-title": "标题",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "提供用户名无效",
-	"bs-distributionconnector-checkpermissions-error-invalid-title": "提供标题无效"
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "提供标题无效",
+	"workflows-triggers-type-time-smw-prop-label": "基于语义性质"
 }
