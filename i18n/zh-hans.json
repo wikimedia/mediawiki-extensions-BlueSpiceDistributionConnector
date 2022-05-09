@@ -22,7 +22,8 @@
 			"落花有意12138",
 			"铁桶",
 			50829,
-			"StarrySky"
+			"StarrySky",
+			"Yining Chen"
 		]
 	},
 	"bs-distributionconnector-extension-description": "将BlueSpice连接到各种MediaWiki的扩展",
@@ -114,5 +115,6 @@
 	"bs-distributionconnector-checkpermissions-label-permission": "权限",
 	"bs-distributionconnector-checkpermissions-label-title": "标题",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "提供用户名无效",
-	"bs-distributionconnector-checkpermissions-error-invalid-title": "提供标题无效"
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "提供标题无效",
+	"workflows-triggers-type-time-smw-prop-label": "基于语义性质"
 }
