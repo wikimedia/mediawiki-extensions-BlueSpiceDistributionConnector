@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Betseg",
 			"Can",
 			"Hedda",
 			"Jelican9",
@@ -80,6 +81,7 @@
 	"bs-distributionconnector-statistics-report-page-hits": "Sayfa başı ziyaretler",
 	"bs-distributionconnector-statistics-report-page-trends": "Sayfa başına ziyaret eğilimleri",
 	"bs-distributionconnector-statistics-report-page-trends-axis-value": "büyüme %",
+	"bs-sandbox": "Deneme tahtası",
 	"bs-helpdesk": "Yardım masası",
 	"bs-support": "Destek",
 	"workflows-workflow-file-definition-group-feedback-title": "Grup Geribildirimi",
@@ -101,5 +103,6 @@
 	"bs-distributionconnector-checkpermissions-label-permission": "İzin",
 	"bs-distributionconnector-checkpermissions-label-title": "Başlık",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "Girilen kullanıcı adı geçersiz",
-	"bs-distributionconnector-checkpermissions-error-invalid-title": "Girilen başlık geçersiz"
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "Girilen başlık geçersiz",
+	"bs-distributionconnector-notification-logged-in": "Oturum açtınız"
 }
