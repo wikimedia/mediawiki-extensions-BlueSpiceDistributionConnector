@@ -7,7 +7,8 @@
 			"Megakott",
 			"Okras",
 			"Pacha Tchernof",
-			"PlushBoy"
+			"PlushBoy",
+			"WindEwriX"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "Ваш домен",
@@ -54,6 +55,7 @@
 	"bs-distributionconnector-workflows-form-instructions": "Инструкции",
 	"bs-distributionconnector-workflows-form-username": "Участник",
 	"bs-distributionconnector-workflows-form-expert-user": "Эксперт",
+	"bs-distributionconnector-workflows-form-tw-user": "Технический писатель",
 	"bs-distributionconnector-workflows-form-head-user": "Глава департамента",
 	"bs-distributionconnector-workflows-form-comment": "Комментарий",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Комментарий",
@@ -62,5 +64,7 @@
 	"bs-helpdesk": "Помощь",
 	"bs-support": "Поддержка",
 	"bs-distributionconnector-default-definition-report-approve": "Утвердить",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
+	"bs-distributionconnector-checkpermissions-label-title": "Заголовок",
 	"bs-distributionconnector-notification-logged-in": "Вы вошли в систему"
 }
