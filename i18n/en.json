@@ -108,6 +108,6 @@
 	"bs-distributionconnector-notification-logged-in": "You are now logged in",
 	"bs-distributionconnector-workflows-ui-trigger-field-property": "Semantic property (of type: Date)",
 	"bs-distributionconnector-workflows-ui-trigger-field-days": "Days offset from the date in the property",
-	"workflows-triggers-type-time-smw-prop-desc": "Trigger a workflow based on a date from a Semantic property",
+	"workflows-triggers-type-time-smw-prop-desc": "Trigger a workflow based on a date from a semantic property",
 	"workflows-triggers-type-time-smw-prop-label": "Based on a semantic property"
 }

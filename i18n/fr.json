@@ -114,5 +114,6 @@
 	"bs-distributionconnector-notification-logged-in": "Vous êtes maintenant connecté",
 	"bs-distributionconnector-workflows-ui-trigger-field-property": "Propriété sémantique (de type : Date)",
 	"bs-distributionconnector-workflows-ui-trigger-field-days": "Décalage en jours depuis la date dans la propriété",
-	"workflows-triggers-type-time-smw-prop-label": "Basé sur une propriété sémantique"
+	"workflows-triggers-type-time-smw-prop-label": "Basé sur une propriété sémantique",
+	"workflows-triggers-type-time-smw-prop-desc": "Déclenche un flux de travail basé sur une date depuis une propriété sémantique"
 }

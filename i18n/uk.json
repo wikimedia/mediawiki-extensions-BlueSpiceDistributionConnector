@@ -2,10 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"DDPAT",
-			"Piramidion",
-			"Ата",
 			"Ice bulldog",
-			"Samflint"
+			"Piramidion",
+			"Samflint",
+			"Ата"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Під'єднує BlueSpice до різних розширень MediaWiki",
