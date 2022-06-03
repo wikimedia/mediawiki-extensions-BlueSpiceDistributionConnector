@@ -5,6 +5,7 @@
 			"Destinid10 2",
 			"DiegoAmbrocio",
 			"Fitoschido",
+			"Francodiaz7",
 			"Ihojose",
 			"Jakeukalane",
 			"Joanmp17",
@@ -115,5 +116,7 @@
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "El nombre de usuario proporcionado no es válido",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "Título proporcionado no válido",
 	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] ha recibido el permiso \"$2\" para [[$3]]",
-	"bs-distributionconnector-notification-logged-in": "Ya ha iniciado la sesión"
+	"bs-distributionconnector-notification-logged-in": "Ya ha iniciado la sesión",
+	"bs-distributionconnector-workflows-ui-trigger-field-property": "Propiedad semántica (de tipo Fecha)",
+	"workflows-triggers-type-time-smw-prop-label": "Basado en una propiedad semántica"
 }

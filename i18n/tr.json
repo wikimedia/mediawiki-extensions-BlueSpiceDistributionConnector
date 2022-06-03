@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Betseg",
 			"Can",
 			"Hedda",
 			"Jelican9",
@@ -101,5 +102,7 @@
 	"bs-distributionconnector-checkpermissions-label-permission": "İzin",
 	"bs-distributionconnector-checkpermissions-label-title": "Başlık",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "Girilen kullanıcı adı geçersiz",
-	"bs-distributionconnector-checkpermissions-error-invalid-title": "Girilen başlık geçersiz"
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "Girilen başlık geçersiz",
+	"bs-sandbox": "Deneme tahtası",
+	"bs-distributionconnector-notification-logged-in": "Oturum açtınız"
 }
