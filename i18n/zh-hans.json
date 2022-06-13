@@ -116,5 +116,6 @@
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "提供标题无效",
 	"bs-distributionconnector-pref-eventbus-eventservices": "活动系列",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "设备名称",
-	"workflows-triggers-type-time-smw-prop-label": "基于语义性质"
+	"workflows-triggers-type-time-smw-prop-label": "基于语义性质",
+	"bs-distributionconnector-notification-logged-in": "你已登录"
 }
