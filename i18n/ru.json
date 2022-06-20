@@ -9,7 +9,8 @@
 			"Okras",
 			"Pacha Tchernof",
 			"PlushBoy",
-			"WindEwriX"
+			"WindEwriX",
+			"Артём 13327"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "Ваш домен",
@@ -88,6 +89,7 @@
 	"bs-distributionconnector-default-definition-report-vote": "голос",
 	"bs-distributionconnector-pref-eventbus-eventservices": "Event services",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
+	"bs-distributionconnector-checkpermissions-label-user": "Участник",
 	"bs-distributionconnector-checkpermissions-label-title": "Заголовок",
 	"bs-distributionconnector-notification-logged-in": "Вы вошли в систему"
 }
