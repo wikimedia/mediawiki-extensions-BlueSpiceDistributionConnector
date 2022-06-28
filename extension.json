@@ -186,6 +186,9 @@
 					"class": "\\BlueSpice\\DistributionConnector\\Statistics\\Report\\PageTrends"
 				}
 			}
+		},
+		"BlueSpiceDistributionConnector": {
+			"ContentManifests": []
 		}
 	},
 	"callback": "\\BlueSpice\\DistributionConnector\\Extension::onRegistration",
@@ -383,11 +386,19 @@
 		"ChameleonSkinTemplateOutputPageBeforeExec": [
 			"\\BlueSpice\\DistributionConnector\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\ModifySidebar::callback"
 		],
-		"LoadExtensionSchemaUpdates": "BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\AddTemplateUserPageStandardContent::callback",
+		"LoadExtensionSchemaUpdates": [
+			"BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\AddTemplateUserPageStandardContent::callback",
+			"RunImportDefaultPages"
+		],
 		"WikiExplorer::getFieldDefinitions": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onGetFieldDefinitions",
 		"WikiExplorer::getColumnDefinitions": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onGetColumnDefinitions",
 		"WikiExplorer::buildDataSets": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onBuildDataSets",
 		"UserLoggedIn": "BlueSpice\\DistributionConnector\\Hook\\UserLoggedIn\\AddLoginNotification::onUserLoggedIn"
+	},
+	"HookHandlers": {
+		"RunImportDefaultPages": {
+			"class": "\\BlueSpice\\DistributionConnector\\HookHandler\\RunImportDefaultPages"
+		}
 	},
 	"manifest_version": 2
 }

@@ -1,0 +1,28 @@
+* Template:HelloTemplate1
+** en
+** HelloTemplate template1
+** Some description for "HelloTemplate" template.
+** Template:HelloTemplateTarget1
+
+* Template:HelloTemplate2
+** de
+** HelloTemplate template2
+** Some description for "HelloTemplate" template.
+** Template:HelloTemplateTarget2
+
+* Template:HelloTemplate3
+** EN
+** HelloTemplate template3
+** Template with no "target title".
+
+
+
+
+
+
+
+* Template:HelloTemplate4
+** en
+** HelloTemplate template4
+** Here we want to make sure that empty lines are trimmed.
+** Template:HelloTemplateTarget4
