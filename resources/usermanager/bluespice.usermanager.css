@@ -1,0 +1,11 @@
+#btn-invite-user-btnIconEl.btn-invite-user {
+	width: 32px;
+	height: 32px;
+	background-size: 18px;
+	border-radius: 50%;
+	background-color: #98A7C4;
+}
+
+#btn-invite-user-btnIconEl.btn-invite-user:hover {
+	background-color: #3E5389;
+}

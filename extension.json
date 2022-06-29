@@ -298,6 +298,23 @@
 				"bs-distributionconnector-workflows-ui-trigger-field-property",
 				"bs-distributionconnector-workflows-ui-trigger-field-days"
 			]
+		},
+		"ext.bluespice.distribution.usermanager.invite": {
+			"scripts": [
+				"usermanager/bluespice.distribution.invite.js",
+				"usermanager/InviteDialog.js"
+			],
+			"styles": [
+				"usermanager/bluespice.usermanager.css"
+			],
+			"dependencies":[
+				"ext.bluespice.extjs"
+			],
+			"messages": [
+				"bs-distributionconnector-invite-signup-btn-tooltip-label",
+				"bs-distributionconnector-invite-signup-dialog-title",
+				"bs-distributionconnector-invite-signup-dialog-text"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {
@@ -387,7 +404,13 @@
 		"WikiExplorer::getFieldDefinitions": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onGetFieldDefinitions",
 		"WikiExplorer::getColumnDefinitions": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onGetColumnDefinitions",
 		"WikiExplorer::buildDataSets": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onBuildDataSets",
-		"UserLoggedIn": "BlueSpice\\DistributionConnector\\Hook\\UserLoggedIn\\AddLoginNotification::onUserLoggedIn"
+		"UserLoggedIn": "BlueSpice\\DistributionConnector\\Hook\\UserLoggedIn\\AddLoginNotification::onUserLoggedIn",
+		"BSUserManagerRegisterModules": "user-manager"
+	},
+	"HookHandlers": {
+		"user-manager": {
+			"class": "\\BlueSpice\\DistributionConnector\\Hook\\AddInviteLink"
+		}
 	},
 	"manifest_version": 2
 }
