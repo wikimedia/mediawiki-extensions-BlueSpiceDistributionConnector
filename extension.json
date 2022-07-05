@@ -416,9 +416,7 @@
 	"HookHandlers": {
 		"user-manager": {
 			"class": "\\BlueSpice\\DistributionConnector\\Hook\\AddInviteLink"
-		}
-	},
-	"HookHandlers": {
+		},
 		"RunImportDefaultPages": {
 			"class": "\\BlueSpice\\DistributionConnector\\HookHandler\\RunImportDefaultPages"
 		}
