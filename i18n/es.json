@@ -120,5 +120,6 @@
 	"bs-distributionconnector-workflows-ui-trigger-field-property": "Propiedad semántica (de tipo Fecha)",
 	"bs-distributionconnector-workflows-ui-trigger-field-days": "Días de desfase desde la fecha en el inmueble",
 	"workflows-triggers-type-time-smw-prop-desc": "Activar un flujo de trabajo basado en una fecha de una propiedad semántica",
-	"workflows-triggers-type-time-smw-prop-label": "Basado en una propiedad semántica"
+	"workflows-triggers-type-time-smw-prop-label": "Basado en una propiedad semántica",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Invitar"
 }

@@ -108,5 +108,8 @@
 	"bs-distributionconnector-workflows-ui-trigger-field-property": "Proprietate semantic (del typo: Data)",
 	"bs-distributionconnector-workflows-ui-trigger-field-days": "Numero de dies desde le data in le proprietate",
 	"workflows-triggers-type-time-smw-prop-desc": "Poner in marcha un fluxo de travalio a base de un data obtenite de un proprietate semantic",
-	"workflows-triggers-type-time-smw-prop-label": "Basate sur un proprietate semantic"
+	"workflows-triggers-type-time-smw-prop-label": "Basate sur un proprietate semantic",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Invitar",
+	"bs-distributionconnector-invite-signup-dialog-title": "Invitar usator",
+	"bs-distributionconnector-invite-signup-dialog-text": "Quitar iste pagina pro invitar un nove usator?"
 }
