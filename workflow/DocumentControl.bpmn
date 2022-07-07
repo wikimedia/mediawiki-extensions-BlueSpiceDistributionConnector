@@ -26,7 +26,7 @@
 			<bpmn:property name="instructionsEditor"/>
 			<bpmn:property name="usernameReviewer" validation="existing-user">{{ROOTPAGENAME:{{#show:{{FULLPAGENAME}}|?QM Reviewer|link=none}}}}</bpmn:property>
 			<bpmn:property name="instructionsReviewer"/>
-			<bpmn:property name="usernameApprover" validation="existing-user">{{ROOTPAGENAME:{{#show:{{FULLPAGENAME}}|?QM Approver|link=none}}}}</bpmn:property>
+			<bpmn:property name="usernameApprover" validation="existing-user,valid-reviewer">{{ROOTPAGENAME:{{#show:{{FULLPAGENAME}}|?QM Approver|link=none}}}}</bpmn:property>
 			<bpmn:property name="instructionsApprover" />
 			<bpmn:property name="reportrecipient" validation="email-recipient">{{#show:{{#if:{{NAMESPACE}}|{{NAMESPACE}}:|}}{{MediaWiki:mainpage}}|?Report mail|link=none|default={{#if:{{NAMESPACE}}|{{NAMESPACE}}-|}}report@{{SERVERNAME}}}}</bpmn:property>
 			<bpmn:property name="due_date">{{#time:YmdHis}}</bpmn:property>
@@ -136,6 +136,7 @@
 			</bpmn:extensionElements>
 			<bpmn:incoming>FromGatewayApprovalToApproveRevision</bpmn:incoming>
 			<bpmn:outgoing>FromApproveRevisionToSendMail</bpmn:outgoing>
+			<bpmn:property name="user">{{{CollectData.usernameApprover}}}</bpmn:property>
 			<bpmn:property name="comment">{{{UserVoteApproval.comment}}}</bpmn:property>
 		</bpmn:task>
 		<bpmn:sequenceFlow id="FromApproveRevisionToSendMail" sourceRef="ApproveRevision" targetRef="SendMail"/>

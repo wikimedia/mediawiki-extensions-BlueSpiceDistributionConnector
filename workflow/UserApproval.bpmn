@@ -23,7 +23,7 @@
 				</wf:formModule>
 				<wf:initializer>true</wf:initializer>
 			</bpmn:extensionElements>
-			<bpmn:property name="username" validation="existing-user">{{ROOTPAGENAME:{{#show:{{FULLPAGENAME}}|?Page creator|link=none}}}}</bpmn:property>
+			<bpmn:property name="username" validation="existing-user,valid-reviewer">{{ROOTPAGENAME:{{#show:{{FULLPAGENAME}}|?Page creator|link=none}}}}</bpmn:property>
 			<bpmn:property name="instructions"/>
 			<bpmn:property name="reportrecipient" validation="email-recipient">{{#show:{{#if:{{NAMESPACE}}|{{NAMESPACE}}:|}}{{MediaWiki:mainpage}}|?Report mail|link=none|default={{#if:{{NAMESPACE}}|{{NAMESPACE}}-|}}report@{{SERVERNAME}}}}</bpmn:property>
 			<bpmn:property name="due_date">{{#time:YmdHis|now}}</bpmn:property>
@@ -73,6 +73,7 @@
 				<wf:type>approve_revision</wf:type>
 			</bpmn:extensionElements>
 			<bpmn:property name="comment">{{{UserVote.comment}}}</bpmn:property>
+			<bpmn:property name="user">{{{CollectData.username}}}</bpmn:property>
 			<bpmn:incoming>FromGatewayUserVoteToApproveRevision</bpmn:incoming>
 			<bpmn:outgoing>FromApproveRevisiontoSendMail</bpmn:outgoing>
 		</bpmn:task>
