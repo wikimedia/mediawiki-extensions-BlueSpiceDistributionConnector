@@ -5,7 +5,7 @@ namespace BlueSpice\DistributionConnector\Maintenance\PostDatabaseUpdate;
 use BlueSpice\DistributionConnector\ContentImport\ImportLanguage;
 use CommentStoreComment;
 use ExtensionRegistry;
-use Maintenance;
+use LoggedUpdateMaintenance;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\RevisionRecord;
 use MediaWiki\Revision\SlotRecord;
@@ -16,7 +16,7 @@ use Title;
 use User;
 use WikiPage;
 
-class ImportDefaultPages extends Maintenance {
+class ImportDefaultPages extends LoggedUpdateMaintenance {
 
 	/**
 	 * @var MediaWikiServices
@@ -38,9 +38,16 @@ class ImportDefaultPages extends Maintenance {
 	private $maintenanceUser;
 
 	/**
+	 * Name of the attribute, where we can get paths to manifests from.
+	 *
+	 * @var string
+	 */
+	private $attributeName = 'BlueSpiceDistributionConnectorContentManifests';
+
+	/**
 	 * @inheritDoc
 	 */
-	public function execute() {
+	protected function doDBUpdates() {
 		$this->services = MediaWikiServices::getInstance();
 
 		$this->maintenanceUser = User::newSystemUser( 'BSMaintenance' );
@@ -60,12 +67,29 @@ class ImportDefaultPages extends Maintenance {
 		return true;
 	}
 
+	/**
+	 * Gets paths to content manifests from extension attribute.
+	 * See {@link ImportDefaultPages::$attributeName} for attribute name.
+	 *
+	 * Then for each of manifests we get list of wiki pages to import and process every page.
+	 * For every page at first we check if it already exists.
+	 * If it exists - compare its SHA1 hash with SHA1 saved in manifest.
+	 *
+	 * * If page's SHA1 equals to SHA1 saved in manifest - then page is already up-to-date. Nothing to do here.
+	 * * If page's SHA1 equals to any of previous SHA1 saved in manifest - then page is outdated.
+	 * Update it with fresh content. Path to page content is got from manifest file.
+	 * * If page's SHA1 differs from any of saved in manifest SHA1 - then page was changed by user.
+	 * Don't touch it in such case.
+	 *
+	 * @return void
+	 * @throws MWContentSerializationException
+	 * @throws MWException
+	 */
 	private function importPages(): void {
 		// phpcs:ignore MediaWiki.NamingConventions.ValidGlobalName.allowedPrefix
 		global $IP;
 
-		$attrName = 'BlueSpiceDistributionConnectorContentManifests';
-		$manifestsList = ExtensionRegistry::getInstance()->getAttribute( $attrName );
+		$manifestsList = ExtensionRegistry::getInstance()->getAttribute( $this->attributeName );
 
 		if ( $manifestsList ) {
 			$this->output( "...Import of default BlueSpice pages started...\n" );
@@ -121,6 +145,7 @@ class ImportDefaultPages extends Maintenance {
 				// If hashes are equal - then this page is exactly in the same state in which it was delivered
 				if ( $currentHash === $pageData['sha1'] ) {
 					// Currently nothing to do here
+					$this->output( "Wiki page already exists, nothing to update here.\n" );
 				} else {
 					// If hashes differ - then this page either has old content or was touched by user.
 					// So we'll check if current content hash equals one of the old hashes of page content.
@@ -210,6 +235,36 @@ class ImportDefaultPages extends Maintenance {
 	 * @inheritDoc
 	 */
 	protected function getUpdateKey() {
-		return 'ImportDefaultPages';
+		return 'ImportDefaultPages_' . $this->calculateManifestsHash();
+	}
+
+	/**
+	 * @inheritDoc
+	 */
+	protected function updateSkippedMessage() {
+		return 'ImportDefaultPages: No changes in manifests. Skipping...';
+	}
+
+	/**
+	 * Concatenates content of all registered manifests and calculates its MD5 hash.
+	 * It is used to create dynamic "update key".
+	 * So update key will stay the same (so this script will be skipped) until some manifest will change.
+	 *
+	 * @return string MD5 hash
+	 */
+	private function calculateManifestsHash(): string {
+		// phpcs:ignore MediaWiki.NamingConventions.ValidGlobalName.allowedPrefix
+		global $IP;
+
+		$manifestsContent = '';
+
+		$manifestsList = ExtensionRegistry::getInstance()->getAttribute( $this->attributeName );
+		foreach ( $manifestsList as $manifestPath ) {
+			$absoluteManifestPath = $IP . '/' . $manifestPath;
+
+			$manifestsContent .= file_get_contents( $absoluteManifestPath );
+		}
+
+		return md5( $manifestsContent );
 	}
 }
