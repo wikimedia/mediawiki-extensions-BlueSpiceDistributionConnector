@@ -11,8 +11,9 @@ class RunImportDefaultPages implements LoadExtensionSchemaUpdatesHook {
 	 * @inheritDoc
 	 */
 	public function onLoadExtensionSchemaUpdates( $updater ) {
-		$maintenanceScript = new ImportDefaultPages();
-		$maintenanceScript->execute();
+		$updater->addPostDatabaseUpdateMaintenance(
+			ImportDefaultPages::class
+		);
 
 		return true;
 	}
