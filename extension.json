@@ -310,7 +310,7 @@
 			"styles": [
 				"usermanager/bluespice.usermanager.css"
 			],
-			"dependencies":[
+			"dependencies": [
 				"ext.bluespice.extjs"
 			],
 			"messages": [
