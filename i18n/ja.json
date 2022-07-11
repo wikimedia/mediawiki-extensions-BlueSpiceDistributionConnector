@@ -21,5 +21,7 @@
 	"bs-distributionconnector-checkpermissions-label-user": "利用者",
 	"bs-distributionconnector-checkpermissions-label-permission": "許可",
 	"bs-distributionconnector-checkpermissions-label-title": "タイトル",
-	"bs-distributionconnector-notification-logged-in": "ログインしました"
+	"bs-distributionconnector-notification-logged-in": "ログインしました",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "招待",
+	"bs-distributionconnector-invite-signup-dialog-title": "ユーザーを招待する"
 }

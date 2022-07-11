@@ -118,5 +118,8 @@
 	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] ha recibido el permiso \"$2\" para [[$3]]",
 	"bs-distributionconnector-notification-logged-in": "Ya ha iniciado la sesión",
 	"bs-distributionconnector-workflows-ui-trigger-field-property": "Propiedad semántica (de tipo Fecha)",
-	"workflows-triggers-type-time-smw-prop-label": "Basado en una propiedad semántica"
+	"bs-distributionconnector-workflows-ui-trigger-field-days": "Días de desfase desde la fecha en el inmueble",
+	"workflows-triggers-type-time-smw-prop-desc": "Activar un flujo de trabajo basado en una fecha de una propiedad semántica",
+	"workflows-triggers-type-time-smw-prop-label": "Basado en una propiedad semántica",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Invitar"
 }
