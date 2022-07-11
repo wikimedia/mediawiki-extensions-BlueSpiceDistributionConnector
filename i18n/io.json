@@ -11,5 +11,6 @@
 	"bs-distributionconnector-workflows-form-instructions-approver": "Instrukti por l'aprobero",
 	"bs-sandbox": "Probeyo",
 	"bs-helpdesk": "Helpo-loko",
-	"bs-support": "Suporto"
+	"bs-support": "Suporto",
+	"bs-distributionconnector-checkpermissions-label-title": "Titulo"
 }

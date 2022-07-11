@@ -9,7 +9,8 @@
 			"Okras",
 			"Pacha Tchernof",
 			"PlushBoy",
-			"WindEwriX"
+			"WindEwriX",
+			"Артём 13327"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "Ваш домен",
@@ -89,5 +90,6 @@
 	"workflows-workflow-file-definition-user-feedback-desc": "Попросите пользователя оставить отзыв во время просмотра страницы. Как только это будет сделано, указанному получателю будет отправлено уведомление по электронной почте.",
 	"workflows-workflow-file-definition-document-control-title": "Экспертный контроль документов",
 	"bs-distributionconnector-default-definition-report-vote": "голос",
-	"bs-distributionconnector-pref-eventbus-eventservices": "Event services"
+	"bs-distributionconnector-pref-eventbus-eventservices": "Event services",
+	"bs-distributionconnector-checkpermissions-label-user": "Участник"
 }

@@ -86,5 +86,14 @@
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "網址",
 	"bs-distributionconnector-checkpermissions-label-user": "使用者",
 	"bs-distributionconnector-checkpermissions-label-permission": "權限",
-	"bs-distributionconnector-checkpermissions-label-title": "標題"
+	"bs-distributionconnector-checkpermissions-label-title": "標題",
+	"bs-distributionconnector-workflows-form-group-instructions": "給群組的說明",
+	"workflows-workflow-file-definition-group-feedback-title": "群組回饋",
+	"workflows-workflow-file-definition-document-control-title": "專家文件控制",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "逾時",
+	"bs-distributionconnector-checkpermissions": "檢查權限",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "提供的使用者名稱無效",
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "提供的標題無效",
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]]已被授予用於[[$3]]的權限「$2」",
+	"bs-distributionconnector-notification-logged-in": "您已登入"
 }

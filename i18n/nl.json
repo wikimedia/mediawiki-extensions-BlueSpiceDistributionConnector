@@ -3,6 +3,7 @@
 		"authors": [
 			"Aranka",
 			"Danieldegroot2",
+			"DiGro",
 			"Mainframe98",
 			"McDutchie",
 			"Nickthijssen1994",
@@ -96,5 +97,13 @@
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "Opgegeven gebruikersnaam is niet geldig",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "Opgegeven titel is niet geldig",
 	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] heeft \"$2\" rechten gekregen voor [[$3]]",
-	"bs-distributionconnector-notification-logged-in": "U bent nu aangemeld"
+	"bs-distributionconnector-notification-logged-in": "U bent nu aangemeld",
+	"bs-distributionconnector-workflows-form-tw-instructions": "Instructies voor de technische schrijver",
+	"bs-distributionconnector-workflows-form-reportrecipient": "Stuur rapport naar (geldige e-mail of gebruikersnaam)",
+	"bs-distributionconnector-workflows-form-instructions-editor": "Instructies voor de bewerker",
+	"bs-distributionconnector-statistics-report-page-trends": "Bezoektrends per pagina",
+	"workflows-workflow-file-definition-document-control-title": "Expert documentcontrole",
+	"workflows-workflow-file-definition-document-control-desc": "Vraag een gebruiker de pagina te bewerken en vraag dan een andere expert-gebruiker om de wijzigingen na te kijken. Vraag dan een derde gebruiker om de pagina te accepteren en te publiceren. Als dit eenmaal is gedaan zal een e-mailnotificatie worden verzonden aan de gespecificeerde ontvanger.",
+	"bs-distributionconnector-default-user-approval-report-subject": "De werkstroom \"Goedkeuring gebruiker\" voor pagina \"$1\" is voltooid",
+	"bs-distributionconnector-default-user-approval-report-body": "Details werkstroom:\nBegonnen op: $1\nVoltooid op: $2\nPagina: $3\nRevisie: $4\nGebruiker: $5\nInstructies: $6\nTerugkoppeling:\n$7\n\nDeze e-mail is naar u verzonden omdat $8 u heeft aangewezen als de e-mailontvanger voor deze werkstroom."
 }

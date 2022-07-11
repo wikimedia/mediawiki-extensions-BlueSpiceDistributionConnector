@@ -60,5 +60,13 @@
 	"bs-distributionconnector-checkpermissions-label-user": "Utente",
 	"bs-distributionconnector-checkpermissions-label-title": "Titolo",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "Nome utente fornito non valido",
-	"bs-distributionconnector-checkpermissions-error-invalid-title": "Titolo fornito non valido"
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "Titolo fornito non valido",
+	"bs-distributionconnector-workflows-form-instructions-reviewer": "Istruzioni per il revisore",
+	"bs-distributionconnector-workflows-form-label-approver": "Approvatore",
+	"bs-distributionconnector-workflows-form-instructions-approver": "Istruzioni per l'approvatore",
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% crescita",
+	"bs-sandbox": "Sandbox",
+	"bs-distributionconnector-default-user-approval-report-subject": "Il flusso di lavoro \"Approvazione dell'utente\" per la pagina \"$1\" è terminato",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Invita",
+	"bs-distributionconnector-invite-signup-dialog-title": "Invita utente"
 }
