@@ -82,5 +82,6 @@
 	"bs-distributionconnector-checkpermissions-label-title": "제목",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "지정된 사용자 이름이 유효하지 않음",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "지정된 제목이 유효하지 않음",
-	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]]님이 [[$3]]에 대해 \"$2\" 권한을 부여했습니다"
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]]님이 [[$3]]에 대해 \"$2\" 권한을 부여했습니다",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "초대"
 }
