@@ -23,13 +23,13 @@ class ExportListParserTest extends TestCase {
 		$this->assertCount( 4, $data );
 
 		$expectedData = [
-			'Template:HelloTemplate1' => [
+			'Template:Hello_Template1' => [
 				'lang' => 'en',
 				'label' => 'HelloTemplate template1',
 				'description' => 'Some description for "HelloTemplate" template.',
 				'target_title' => 'Template:HelloTemplateTarget1'
 			],
-			'Template:HelloTemplate2' => [
+			'Template:Hello_Template2' => [
 				'lang' => 'de',
 				'label' => 'HelloTemplate template2',
 				'description' => 'Some description for "HelloTemplate" template.',
