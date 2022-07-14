@@ -1,10 +1,10 @@
-* Template:HelloTemplate1
+* Template:Hello Template1
 ** en
 ** HelloTemplate template1
 ** Some description for "HelloTemplate" template.
 ** Template:HelloTemplateTarget1
 
-* Template:HelloTemplate2
+* Template:Hello_Template2
 ** de
 ** HelloTemplate template2
 ** Some description for "HelloTemplate" template.

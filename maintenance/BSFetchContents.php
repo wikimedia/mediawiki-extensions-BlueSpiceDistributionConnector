@@ -103,6 +103,7 @@ class BSFetchContents extends Maintenance {
 
 		// Put pages contents to files
 		foreach ( $pagesContents as $title => $pageContent ) {
+			$title = str_replace( ' ', '_', $title );
 			list( $nsTitle, $pageTitle ) = explode( ':', $title );
 
 			$fileName = $this->makeFilename( $pageTitle );
