@@ -36,6 +36,7 @@ class ExportListParser {
 			$pageData = explode( "\n** ", $pageDataRaw );
 
 			$title = trim( $pageData[0] );
+			$title = str_replace( ' ', '_', $title );
 			$lang = trim( $pageData[1] );
 			$label = trim( $pageData[2] );
 			$description = trim( $pageData[3] );
