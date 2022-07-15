@@ -18,7 +18,7 @@ class ImportLanguageTest extends TestCase {
 			'german' => [ 'de', 'de' ],
 			'german formal' => [ 'de-formal', 'de' ],
 			'russian' => [ 'ru', 'en' ],
-			'portugal' => [ 'pt', 'en' ],
+			'portugal' => [ 'pt', 'pt-br' ],
 			'unknown language' => [ 'unknown', 'en' ],
 		];
 	}
@@ -32,17 +32,18 @@ class ImportLanguageTest extends TestCase {
 		$languageFallbackMock->method( 'getAll' )->willReturnMap(
 			[
 				[ 'en', 0, [ 'en' ] ],
-				[ 'de', 0, [ 'de', 'en' ] ],
+				[ 'de', 0, [ 'en' ] ],
 				[ 'de-formal', 0, [ 'de', 'en' ] ],
-				[ 'ru', 0, [ 'uk', 'en' ] ],
-				[ 'pt', 0, [ 'en' ] ],
+				[ 'ru', 0, [ 'en' ] ],
+				[ 'pt', 0, [ 'pt-br', 'en' ] ],
 				[ 'gl', 0, [ 'pt', 'en' ] ],
-				[ 'unknown', 0, [] ],
+				[ 'unknown', 0, [ 'en' ] ],
 			]
 		);
 
 		$importLanguage = new ImportLanguage( $languageFallbackMock, $wikiContentLanguage );
+		$availableLanguages = [ 'en', 'de', 'pt-br' ];
 
-		$this->assertEquals( $expectedImportLanguage, $importLanguage->getImportLanguage() );
+		$this->assertEquals( $expectedImportLanguage, $importLanguage->getImportLanguage( $availableLanguages ) );
 	}
 }
