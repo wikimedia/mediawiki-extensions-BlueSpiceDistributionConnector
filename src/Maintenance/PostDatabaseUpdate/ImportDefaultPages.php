@@ -53,15 +53,6 @@ class ImportDefaultPages extends LoggedUpdateMaintenance {
 		$this->maintenanceUser = User::newSystemUser( 'BSMaintenance' );
 
 		$this->output( "...ImportDefaultPages:\n" );
-
-		$wikiLang = $this->services->getContentLanguage();
-		$languageFallback = $this->services->getLanguageFallback();
-
-		$importLanguage = new ImportLanguage( $languageFallback, $wikiLang->getCode() );
-		$this->importLanguageCode = $importLanguage->getImportLanguage();
-
-		$this->output( "...Language to import content: {$this->importLanguageCode}\n" );
-
 		$this->importPages();
 
 		return true;
@@ -115,6 +106,19 @@ class ImportDefaultPages extends LoggedUpdateMaintenance {
 	 */
 	private function processManifestFile( string $manifestPath ): void {
 		$pagesList = json_decode( file_get_contents( $manifestPath ), true );
+		$availableLanguages = [];
+		foreach ( $pagesList as $pageTitle => $pageData ) {
+			$availableLanguages[$pageData['lang']] = true;
+		}
+		$wikiLang = $this->services->getContentLanguage();
+		$languageFallback = $this->services->getLanguageFallback();
+
+		$importLanguage = new ImportLanguage( $languageFallback, $wikiLang->getCode() );
+		$this->importLanguageCode = $importLanguage->getImportLanguage(
+			array_keys( $availableLanguages )
+		);
+		$this->output( "...Language to import content: {$this->importLanguageCode}\n" );
+
 		foreach ( $pagesList as $pageTitle => $pageData ) {
 			$this->output( "... Processing page: $pageTitle\n" );
 
