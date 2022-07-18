@@ -117,5 +117,8 @@
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "提供用户名无效",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "提供标题无效",
 	"bs-distributionconnector-notification-logged-in": "你已登录",
-	"workflows-triggers-type-time-smw-prop-label": "基于语义性质"
+	"workflows-triggers-type-time-smw-prop-label": "基于语义性质",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "邀请",
+	"bs-distributionconnector-invite-signup-dialog-title": "邀请用户",
+	"bs-distributionconnector-invite-signup-dialog-text": "离开此页面以邀请新用户？"
 }
