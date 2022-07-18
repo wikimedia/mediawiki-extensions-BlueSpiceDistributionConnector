@@ -52,8 +52,11 @@
 	"bs-distributionconnector-workflows-form-feedback": "بازخورد خود را وارد کنید...",
 	"bs-distributionconnector-workflows-form-group-instructions": "راهنما برای گروه",
 	"bs-distributionconnector-workflows-form-label-editor": "ویرایشگر",
+	"bs-distributionconnector-workflows-form-instructions-editor": "راهنماها برای ویرایشگر",
 	"bs-distributionconnector-workflows-form-label-reviewer": "بازبینی‌کننده",
+	"bs-distributionconnector-workflows-form-instructions-reviewer": "راهنماها برای بازبینی‌کننده",
 	"bs-distributionconnector-workflows-form-label-approver": "تصویب کننده",
+	"bs-distributionconnector-workflows-form-instructions-approver": "راهنماها برای تأییدکننده",
 	"bs-distributionconnector-statistics-report-page-hits": "بازدیدها به ازای هر صفحه",
 	"bs-sandbox": "صفحهٔ تمرین",
 	"bs-helpdesk": "میزکمک",
@@ -72,5 +75,7 @@
 	"bs-distributionconnector-checkpermissions-label-user": "کاربر",
 	"bs-distributionconnector-checkpermissions-label-permission": "دسترسی",
 	"bs-distributionconnector-checkpermissions-label-title": "عنوان",
-	"bs-distributionconnector-notification-logged-in": "شما وارد شدید"
+	"bs-distributionconnector-notification-logged-in": "شما وارد شدید",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "دعوت",
+	"bs-distributionconnector-invite-signup-dialog-title": "دعوت از کاربر"
 }

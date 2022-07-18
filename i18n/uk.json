@@ -107,5 +107,9 @@
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "Вказане ім'я користувача недійсне",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "Вказана назва недійсна",
 	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] отримав дозвіл «$2» для [[$3]]",
-	"bs-distributionconnector-notification-logged-in": "Ви увійшли в систему"
+	"bs-distributionconnector-notification-logged-in": "Ви увійшли в систему",
+	"bs-distributionconnector-workflows-ui-trigger-field-property": "Семантична властивість (типу: Дата)",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Запросити",
+	"bs-distributionconnector-invite-signup-dialog-title": "Запросити користувача",
+	"bs-distributionconnector-invite-signup-dialog-text": "Залишити цю сторінку, щоб запросити нового користувача?"
 }
