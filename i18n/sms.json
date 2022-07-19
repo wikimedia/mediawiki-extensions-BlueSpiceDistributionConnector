@@ -4,5 +4,7 @@
 			"Yupik"
 		]
 	},
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL"
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
+	"bs-distributionconnector-workflows-form-groupname": "Joukk",
+	"workflows-workflow-file-definition-group-feedback-title": "Joukkmaacctõs"
 }
