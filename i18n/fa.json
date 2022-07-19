@@ -72,5 +72,10 @@
 	"bs-distributionconnector-checkpermissions-label-user": "کاربر",
 	"bs-distributionconnector-checkpermissions-label-permission": "دسترسی",
 	"bs-distributionconnector-checkpermissions-label-title": "عنوان",
-	"bs-distributionconnector-notification-logged-in": "شما وارد شدید"
+	"bs-distributionconnector-notification-logged-in": "شما وارد شدید",
+	"bs-distributionconnector-workflows-form-instructions-editor": "راهنماها برای ویرایشگر",
+	"bs-distributionconnector-workflows-form-instructions-reviewer": "راهنماها برای بازبینی‌کننده",
+	"bs-distributionconnector-workflows-form-instructions-approver": "راهنماها برای تأییدکننده",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "دعوت",
+	"bs-distributionconnector-invite-signup-dialog-title": "دعوت از کاربر"
 }
