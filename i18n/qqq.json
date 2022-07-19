@@ -118,5 +118,7 @@
 	"workflows-triggers-type-time-smw-prop-label": "Label for a workflow trigger",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Tooltip label for button with link to specialpage InviteSignup to invite new user to the wiki",
 	"bs-distributionconnector-invite-signup-dialog-title": "Title for dialog to check if user wants to continue to specialpage InviteSignup",
-	"bs-distributionconnector-invite-signup-dialog-text": "Text in dialog to ask user if they want to leave current page to get to page to invite user"
+	"bs-distributionconnector-invite-signup-dialog-text": "Text in dialog to ask user if they want to leave current page to get to page to invite user",
+	"action-duplicate": "{doc-action|duplicate}}",
+	"right-duplicate": "{{doc-right|duplicate}}"
 }
