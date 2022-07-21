@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Dianakc",
+			"Duke of Wikipädia",
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
 			"Juan90264"
@@ -107,5 +108,12 @@
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "Nome de usuário fornecido inválido",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "O título fornecido não é válido",
 	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] recebeu permissão \"$2\" para [[$3]]",
-	"bs-distributionconnector-notification-logged-in": "Agora você está logado"
+	"bs-distributionconnector-notification-logged-in": "Agora você está logado",
+	"bs-distributionconnector-workflows-ui-trigger-field-property": "Propriedade semântica (do tipo: Data)",
+	"bs-distributionconnector-workflows-ui-trigger-field-days": "Dias compensados ​​a partir da data na propriedade",
+	"workflows-triggers-type-time-smw-prop-desc": "Acionar um fluxo de trabalho com base em uma data de uma propriedade semântica",
+	"workflows-triggers-type-time-smw-prop-label": "Baseado em uma propriedade semântica",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Convidar",
+	"bs-distributionconnector-invite-signup-dialog-title": "Convidar usuário",
+	"bs-distributionconnector-invite-signup-dialog-text": "Sair desta página para convidar um novo usuário?"
 }
