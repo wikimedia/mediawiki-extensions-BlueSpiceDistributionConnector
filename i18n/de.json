@@ -115,5 +115,7 @@
 	"bs-distributionconnector-notification-logged-in": "Du bist nun angemeldet",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Einladen",
 	"bs-distributionconnector-invite-signup-dialog-title": "Benutzer einladen",
-	"bs-distributionconnector-invite-signup-dialog-text": "Diese Seite verlassen, um einen neuen Benutzer einzuladen?"
+	"bs-distributionconnector-invite-signup-dialog-text": "Diese Seite verlassen, um einen neuen Benutzer einzuladen?",
+	"right-duplicate": "Seiten duplizieren",
+	"action-duplicate": "Seite duplizieren"
 }
