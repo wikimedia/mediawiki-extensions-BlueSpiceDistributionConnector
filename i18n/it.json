@@ -68,5 +68,7 @@
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "Nome utente fornito non valido",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "Titolo fornito non valido",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Invita",
-	"bs-distributionconnector-invite-signup-dialog-title": "Invita utente"
+	"bs-distributionconnector-invite-signup-dialog-title": "Invita utente",
+	"right-duplicate": "Duplica pagine",
+	"action-duplicate": "duplicare pagine"
 }

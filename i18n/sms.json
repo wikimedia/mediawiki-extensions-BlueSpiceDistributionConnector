@@ -6,5 +6,8 @@
 	},
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-workflows-form-groupname": "Joukk",
-	"workflows-workflow-file-definition-group-feedback-title": "Joukkmaacctõs"
+	"workflows-workflow-file-definition-group-feedback-title": "Joukkmaacctõs",
+	"bs-distributionconnector-default-definition-report-approve": "Priim",
+	"bs-distributionconnector-checkpermissions-label-user": "Õõʹnni",
+	"bs-distributionconnector-notification-logged-in": "Ââʹn leäk ǩeeʹrjtõõttâm sizz"
 }
