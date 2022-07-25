@@ -118,5 +118,7 @@
 	"workflows-triggers-type-time-smw-prop-desc": "Déclenche un flux de travail basé sur une date depuis une propriété sémantique",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Inviter",
 	"bs-distributionconnector-invite-signup-dialog-title": "Inviter un utilisateur",
-	"bs-distributionconnector-invite-signup-dialog-text": "Quitter cette page pour inviter un nouvel utilisateur ?"
+	"bs-distributionconnector-invite-signup-dialog-text": "Quitter cette page pour inviter un nouvel utilisateur ?",
+	"right-duplicate": "Dupliquer des pages",
+	"action-duplicate": "dupliquer des pages"
 }
