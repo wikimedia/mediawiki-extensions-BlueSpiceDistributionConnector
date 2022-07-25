@@ -111,5 +111,7 @@
 	"workflows-triggers-type-time-smw-prop-label": "Basate sur un proprietate semantic",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Invitar",
 	"bs-distributionconnector-invite-signup-dialog-title": "Invitar usator",
-	"bs-distributionconnector-invite-signup-dialog-text": "Quitar iste pagina pro invitar un nove usator?"
+	"bs-distributionconnector-invite-signup-dialog-text": "Quitar iste pagina pro invitar un nove usator?",
+	"right-duplicate": "Duplicar paginas",
+	"action-duplicate": "duplicar paginas"
 }
