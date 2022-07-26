@@ -77,5 +77,6 @@
 	"bs-distributionconnector-workflows-form-instructions-reviewer": "راهنماها برای بازبینی‌کننده",
 	"bs-distributionconnector-workflows-form-instructions-approver": "راهنماها برای تأییدکننده",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "دعوت",
-	"bs-distributionconnector-invite-signup-dialog-title": "دعوت از کاربر"
+	"bs-distributionconnector-invite-signup-dialog-title": "دعوت از کاربر",
+	"action-duplicate": "صفحهٔ تکراری"
 }
