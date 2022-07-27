@@ -15,5 +15,9 @@
 	"bs-distributionconnector-hitcounters-sesp-desc": "Бројач на посети",
 	"bs-distributionconnector-collection-type-hitcounter": "Посети на страницата",
 	"bs-distributionconnector-collection-var-pagetitle": "Наслов на страницата",
-	"bs-distributionconnector-collection-var-numberhits": "Погодоци"
+	"bs-distributionconnector-collection-var-numberhits": "Погодоци",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Покани",
+	"bs-distributionconnector-invite-signup-dialog-title": "Покани корисник",
+	"right-duplicate": "Дуплирање на страници",
+	"action-duplicate": "дуплирање на страница"
 }
