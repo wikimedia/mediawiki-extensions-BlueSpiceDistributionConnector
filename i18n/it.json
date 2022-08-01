@@ -70,5 +70,19 @@
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Invita",
 	"bs-distributionconnector-invite-signup-dialog-title": "Invita utente",
 	"right-duplicate": "Duplica pagine",
-	"action-duplicate": "duplicare pagine"
+	"action-duplicate": "duplicare pagine",
+	"bs-distributionconnector-tag-ref-desc": "Contrassegna il testo tra le etichette come nota a piè di pagina.",
+	"bs-distributionconnector-tag-embedvideo-desc": "Incorpora clip video da piattaforme di condivisione popolari.",
+	"bs-distributionconnector-tag-dynamicpagelist-desc": "Genera un elenco dinamico di articoli basati su vari parametri.",
+	"bs-distributionconnector-workflows-form-expert-user": "Esperto",
+	"bs-distributionconnector-workflows-form-expert-instructions": "Istruzioni per l'esperto",
+	"bs-distributionconnector-workflows-form-tw-user": "Scrittore tecnico",
+	"bs-distributionconnector-workflows-form-tw-instructions": "Istruzioni per lo scrittore tecnico",
+	"bs-distributionconnector-workflows-form-head-user": "Capo del dipartimento",
+	"bs-distributionconnector-workflows-form-head-instructions": "Istruzioni per il capo dipartimento",
+	"bs-distributionconnector-workflows-form-group-instructions": "Istruzioni per il gruppo",
+	"bs-distributionconnector-workflows-form-label-editor": "Editore",
+	"bs-distributionconnector-workflows-form-instructions-editor": "Istruzioni per l'editore",
+	"bs-distributionconnector-workflows-form-label-reviewer": "Revisore",
+	"workflows-workflow-file-definition-user-approval-title": "Approvazione utente singolo"
 }
