@@ -84,5 +84,9 @@
 	"bs-distributionconnector-workflows-form-label-editor": "Editore",
 	"bs-distributionconnector-workflows-form-instructions-editor": "Istruzioni per l'editore",
 	"bs-distributionconnector-workflows-form-label-reviewer": "Revisore",
-	"workflows-workflow-file-definition-user-approval-title": "Approvazione utente singolo"
+	"workflows-workflow-file-definition-user-approval-title": "Approvazione utente singolo",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyusername": "Migra utenti per nome utente",
+	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Delimitatore per un attributo \"gruppo\" a valore singolo",
+	"bs-distributionconnector-workflows-form-reportrecipient": "Invia rapporto a (e-mail o nome utente validi)",
+	"bs-distributionconnector-workflows-form-feedback": "Inserisci il tuo feedback..."
 }
