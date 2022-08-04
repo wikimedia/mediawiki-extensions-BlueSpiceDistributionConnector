@@ -3,6 +3,7 @@
 		"authors": [
 			"Hirok Raja",
 			"MdsShakil",
+			"আজিজ",
 			"আফতাবুজ্জামান"
 		]
 	},
@@ -16,5 +17,6 @@
 	"bs-distributionconnector-checkpermissions-label-user": "ব্যবহারকারী",
 	"bs-distributionconnector-checkpermissions-label-permission": "অনুমতি",
 	"bs-distributionconnector-checkpermissions-label-title": "শিরোনাম",
-	"bs-distributionconnector-notification-logged-in": "আপনি এখন প্রবেশকৃত অবস্থায় রয়েছেন"
+	"bs-distributionconnector-notification-logged-in": "আপনি এখন প্রবেশকৃত অবস্থায় রয়েছেন",
+	"right-duplicate": "প্রতিলিপিকৃত পাতাসমূহ"
 }
