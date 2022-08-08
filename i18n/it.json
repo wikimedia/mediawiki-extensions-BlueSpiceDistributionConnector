@@ -82,6 +82,7 @@
 	"bs-distributionconnector-default-user-vote-report-delegated-message": "delegato a $1",
 	"bs-distributionconnector-default-definition-report-approve": "Approva",
 	"bs-distributionconnector-checkpermissions-label-user": "Utente",
+	"bs-distributionconnector-checkpermissions-label-permission": "Autorizzazione",
 	"bs-distributionconnector-checkpermissions-label-title": "Titolo",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "Nome utente fornito non valido",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "Titolo fornito non valido",
