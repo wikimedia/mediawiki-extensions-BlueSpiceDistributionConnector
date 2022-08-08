@@ -88,5 +88,6 @@
 	"bs-distributionconnector-pref-openidconnect-migrateusersbyusername": "Migra utenti per nome utente",
 	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Delimitatore per un attributo \"gruppo\" a valore singolo",
 	"bs-distributionconnector-workflows-form-reportrecipient": "Invia rapporto a (e-mail o nome utente validi)",
-	"bs-distributionconnector-workflows-form-feedback": "Inserisci il tuo feedback..."
+	"bs-distributionconnector-workflows-form-feedback": "Inserisci il tuo feedback...",
+	"bs-distributionconnector-checkpermissions-label-permission": "Autorizzazione"
 }
