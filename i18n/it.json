@@ -89,5 +89,12 @@
 	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Delimitatore per un attributo \"gruppo\" a valore singolo",
 	"bs-distributionconnector-workflows-form-reportrecipient": "Invia rapporto a (e-mail o nome utente validi)",
 	"bs-distributionconnector-workflows-form-feedback": "Inserisci il tuo feedback...",
-	"bs-distributionconnector-checkpermissions-label-permission": "Autorizzazione"
+	"bs-distributionconnector-checkpermissions-label-permission": "Autorizzazione",
+	"bs-distributionconnector-statistics-report-page-trends": "Trend di visita per pagina",
+	"workflows-workflow-file-definition-user-approval-desc": "Chiedi a un utente di rivedere e approvare una pagina. Una volta eseguita questa operazione, viene inviata una notifica e-mail al destinatario specificato.",
+	"workflows-workflow-file-definition-user-feedback-desc": "Chiedi un feedback ad un utente mentre revisiona una pagina. Una volta fatta questo, invia una notifica per posta elettronica al destinatario specificato.",
+	"bs-distributionconnector-default-user-approval-report-body": "Dettagli flusso di lavoro:\nIniziato il: $1 \nCompletato il: $2 \nPagina: $3 \nRevisione: $4 \nUtente: $5 \nIstruzioni: $6 \nFeedback:\n $7 \n\nQuesta email ti è stata inviata, perché $8 ti ha designato come destinatario email per questo flusso di lavoro.",
+	"bs-distributionconnector-default-document-control-report-body": "Dettagli flusso di lavoro:\nIniziato il: $1 \nCompletato il: $2 \nPagina: $3 \nRevisione: $4 \nEditore: $5 \nRevisione di: $6 \nApprovato da: $7\nIstruzioni per l'editore: $8 \nIstruzioni per la revisione: $9 \nIstruzioni per l'approvazione: $10\nFeedback:\n$11\n\nQuesta e-mail ti è stata inviata, perché $12 ti ha designato come destinatario e-mail per questo flusso di lavoro.",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] ha ottenuto l'autorizzazione \"$2\" per [[$3]]"
 }

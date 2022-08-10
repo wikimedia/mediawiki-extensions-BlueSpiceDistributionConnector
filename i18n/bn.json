@@ -18,5 +18,6 @@
 	"bs-distributionconnector-checkpermissions-label-permission": "অনুমতি",
 	"bs-distributionconnector-checkpermissions-label-title": "শিরোনাম",
 	"bs-distributionconnector-notification-logged-in": "আপনি এখন প্রবেশকৃত অবস্থায় রয়েছেন",
-	"right-duplicate": "সদৃশ পাতাসমূহ"
+	"right-duplicate": "সদৃশ পাতাসমূহ",
+	"action-duplicate": "সদৃশ পাতা"
 }
