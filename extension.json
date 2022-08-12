@@ -194,6 +194,9 @@
 			"Droplets": {
 				"gallery": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\GalleryDroplet"
+				},
+				"categorytree": {
+					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\CategoryTreeDroplet"
 				}
 			}
 		}
