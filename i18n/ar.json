@@ -60,5 +60,6 @@
 	"bs-distributionconnector-checkpermissions-label-permission": "الصلاحيات",
 	"bs-distributionconnector-checkpermissions-label-title": "العنوان",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "دعوة",
-	"bs-distributionconnector-invite-signup-dialog-text": "غادر هذه الصفحة لدعوة مستخدم جديد؟"
+	"bs-distributionconnector-invite-signup-dialog-text": "غادر هذه الصفحة لدعوة مستخدم جديد؟",
+	"bs-helpdesk": "مكتب المساعدة"
 }
