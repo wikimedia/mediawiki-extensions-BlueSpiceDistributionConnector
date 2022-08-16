@@ -189,6 +189,13 @@
 		},
 		"BlueSpiceDistributionConnector": {
 			"ContentManifests": []
+		},
+		"ContentDroplets": {
+			"Droplets": {
+				"gallery": {
+					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\GalleryDroplet"
+				}
+			}
 		}
 	},
 	"callback": "\\BlueSpice\\DistributionConnector\\Extension::onRegistration",
