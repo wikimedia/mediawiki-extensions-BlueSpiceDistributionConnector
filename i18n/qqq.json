@@ -135,5 +135,7 @@
 	"droplets-subpages-cols-label": "Label for input field to set layout",
 	"droplets-subpages-cols-help": "Help message for input field to set layout",
 	"droplets-subpages-bullets-label": "Label for input field to choose if bullet points should bet set",
-	"droplets-subpages-bullets-help": "Help message for input field to set bullet points"
+	"droplets-subpages-bullets-help": "Help message for input field to set bullet points",
+	"droplets-map-condition-label": "Label for condition input field",
+	"droplets-map-center-label": "label for focus input field"
 }

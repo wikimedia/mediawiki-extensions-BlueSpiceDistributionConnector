@@ -132,5 +132,7 @@
 	"droplets-subpages-cols-label": "Spaltenlayout",
 	"droplets-subpages-cols-help": "\"ja\" erstellt 3 Spalten, \"nein\" erstellt keine Spalten",
 	"droplets-subpages-bullets-label": "Aufzählungszeichen",
-	"droplets-subpages-bullets-help": "\"nein\" entfernt Aufzählungszeichen"
+	"droplets-subpages-bullets-help": "\"nein\" entfernt Aufzählungszeichen",
+	"droplets-map-condition-label": "Bedingung",
+	"droplets-map-center-label": "Fokus"
 }
