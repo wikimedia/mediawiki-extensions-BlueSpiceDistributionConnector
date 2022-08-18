@@ -206,6 +206,9 @@
 				},
 				"subpages": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\SubpagesDroplet"
+				},
+				"map": {
+					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\MapDroplet"
 				}
 			}
 		}
@@ -350,6 +353,18 @@
 			],
 			"messages": [
 				"bs-distributionconnector-videodropletinspector-service-label"
+			]
+		},
+		"ext.bluespice.distribution.droplet.map": {
+			"scripts": [
+				"object/MapDroplet.js"
+			],
+			"dependencies": [
+				"oojs-ui"
+			],
+			"messages": [
+				"droplets-map-condition-label",
+				"droplets-map-center-label"
 			]
 		},
 		"ext.bluespice.distribution.droplet.subpages": {
