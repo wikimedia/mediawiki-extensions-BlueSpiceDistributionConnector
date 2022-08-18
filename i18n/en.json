@@ -128,5 +128,7 @@
 	"droplets-subpages-cols-label": "Column layout",
 	"droplets-subpages-cols-help": "\"yes\" creates 3 column layout, \"no\" creates no columns",
 	"droplets-subpages-bullets-label": "Bullet points",
-	"droplets-subpages-bullets-help": "\"no\" removes bullet points"
+	"droplets-subpages-bullets-help": "\"no\" removes bullet points",
+	"droplets-map-condition-label": "Condition",
+	"droplets-map-center-label": "Focus"
 }
