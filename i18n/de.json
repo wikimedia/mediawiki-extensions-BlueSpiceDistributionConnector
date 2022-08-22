@@ -121,5 +121,8 @@
 	"action-duplicate": "Seite duplizieren",
 	"bs-distributionconnector-statistics-report-page-hits-relation": "Seitenaufrufe im Verhältnis",
 	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Seitenaufrufe im Verhältnis zu den Gesamtaufrufen",
-	"bs-distributionconnector-videodropletinspector-service-label": "Dienst"
+	"bs-distributionconnector-videodropletinspector-service-label": "Dienst",
+	"droplets-circled-number-bg-color-label": "Hintergrundfarbe",
+	"droplets-circled-number-fg-color-label": "Vordergrundfarbe",
+	"droplets-circled-number-label": "Zahl"
 }

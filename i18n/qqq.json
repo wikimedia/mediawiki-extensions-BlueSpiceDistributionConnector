@@ -124,5 +124,8 @@
 	"action-duplicate": "{{doc-action|duplicate}}",
 	"bs-distributionconnector-statistics-report-page-hits-relation": "Statistics report name",
 	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Label for the \"value\" axis",
-	"bs-distributionconnector-videodropletinspector-service-label": "Label for input field to set service"
+	"bs-distributionconnector-videodropletinspector-service-label": "Label for input field to set service",
+	"droplets-circled-number-bg-color-label": "Label for input field for background color",
+	"droplets-circled-number-fg-color-label": "Label for input field for foreground color",
+	"droplets-circled-number-label": "Label for input field for number"
 }

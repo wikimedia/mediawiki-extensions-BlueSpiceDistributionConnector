@@ -200,6 +200,9 @@
 				},
 				"video": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\VideoDroplet"
+				},
+				"circled-number": {
+					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\CircledNumberDroplet"
 				}
 			}
 		}
@@ -344,6 +347,19 @@
 			],
 			"messages": [
 				"bs-distributionconnector-videodropletinspector-service-label"
+			]
+		},
+		"ext.bluespice.distribution.droplet.circlednumber": {
+			"scripts": [
+				"object/CircledNumberDroplet.js"
+			],
+			"dependencies": [
+				"ext.contentdroplets.bootstrap"
+			],
+			"messages": [
+				"droplets-circled-number-bg-color-label",
+				"droplets-circled-number-fg-color-label",
+				"droplets-circled-number-label"
 			]
 		}
 	},
