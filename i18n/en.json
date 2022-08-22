@@ -117,5 +117,8 @@
 	"action-duplicate": "duplicate page",
 	"bs-distributionconnector-statistics-report-page-hits-relation": "Page visits in relation",
 	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Page visits in relation to total visits",
-	"bs-distributionconnector-videodropletinspector-service-label": "Service"
+	"bs-distributionconnector-videodropletinspector-service-label": "Service",
+	"droplets-circled-number-bg-color-label": "Background color",
+	"droplets-circled-number-fg-color-label": "Foreground color",
+	"droplets-circled-number-label": "Number"
 }
