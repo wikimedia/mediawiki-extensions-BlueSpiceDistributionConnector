@@ -120,5 +120,13 @@
 	"bs-distributionconnector-videodropletinspector-service-label": "Service",
 	"droplets-circled-number-bg-color-label": "Background color",
 	"droplets-circled-number-fg-color-label": "Foreground color",
-	"droplets-circled-number-label": "Number"
+	"droplets-circled-number-label": "Number",
+	"droplets-subpages-namespace-label": "Namespace",
+	"droplets-subpages-namespace-help": "Leave empty for main namespace",
+	"droplets-subpages-parentpage-label": "Parent page",
+	"droplets-subpages-parentpage-help": "Page whose subpages should be listed",
+	"droplets-subpages-cols-label": "Column layout",
+	"droplets-subpages-cols-help": "\"yes\" creates 3 column layout, \"no\" creates no columns",
+	"droplets-subpages-bullets-label": "Bullet points",
+	"droplets-subpages-bullets-help": "\"no\" removes bullet points"
 }
