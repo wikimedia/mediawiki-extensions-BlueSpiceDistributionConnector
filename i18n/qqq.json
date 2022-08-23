@@ -123,5 +123,6 @@
 	"action-duplicate": "{{doc-action|duplicate}}",
 	"right-duplicate": "{{doc-right|duplicate}}",
 	"bs-distributionconnector-statistics-report-page-hits-relation": "Statistics report name",
-	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Label for the \"value\" axis"
+	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Label for the \"value\" axis",
+	"bs-distributionconnector-videodropletinspector-service-label": "Label for input field to set service"
 }
