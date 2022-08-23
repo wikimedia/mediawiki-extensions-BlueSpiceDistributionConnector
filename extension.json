@@ -203,6 +203,9 @@
 				},
 				"circled-number": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\CircledNumberDroplet"
+				},
+				"subpages": {
+					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\SubpagesDroplet"
 				}
 			}
 		}
@@ -347,6 +350,21 @@
 			],
 			"messages": [
 				"bs-distributionconnector-videodropletinspector-service-label"
+			]
+		},
+		"ext.bluespice.distribution.droplet.subpages": {
+			"scripts": [
+				"object/SubpagesDroplet.js"
+			],
+			"messages": [
+				"droplets-subpages-namespace-label",
+				"droplets-subpages-namespace-help",
+				"droplets-subpages-parentpage-label",
+				"droplets-subpages-parentpage-help",
+				"droplets-subpages-cols-label",
+				"droplets-subpages-cols-help",
+				"droplets-subpages-bullets-label",
+				"droplets-subpages-bullets-help"
 			]
 		},
 		"ext.bluespice.distribution.droplet.circlednumber": {

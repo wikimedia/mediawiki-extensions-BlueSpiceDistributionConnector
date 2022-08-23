@@ -127,5 +127,13 @@
 	"bs-distributionconnector-videodropletinspector-service-label": "Label for input field to set service",
 	"droplets-circled-number-bg-color-label": "Label for input field for background color",
 	"droplets-circled-number-fg-color-label": "Label for input field for foreground color",
-	"droplets-circled-number-label": "Label for input field for number"
+	"droplets-circled-number-label": "Label for input field for number",
+	"droplets-subpages-namespace-label": "Label for input field to set namespace",
+	"droplets-subpages-namespace-help": "Help message for input field to set namespace",
+	"droplets-subpages-parentpage-label": "Label for input field to set parent page",
+	"droplets-subpages-parentpage-help": "Help message for input field to set parent page",
+	"droplets-subpages-cols-label": "Label for input field to set layout",
+	"droplets-subpages-cols-help": "Help message for input field to set layout",
+	"droplets-subpages-bullets-label": "Label for input field to choose if bullet points should bet set",
+	"droplets-subpages-bullets-help": "Help message for input field to set bullet points"
 }
