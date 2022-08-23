@@ -130,5 +130,9 @@
 	"droplets-subpages-bullets-label": "Bullet points",
 	"droplets-subpages-bullets-help": "\"no\" removes bullet points",
 	"droplets-map-condition-label": "Condition",
-	"droplets-map-center-label": "Focus"
+	"droplets-map-center-label": "Focus",
+	"droplets-buttonlink-external-label": "External link",
+	"droplets-buttonlink-target-label": "Target",
+	"droplets-buttonlink-label-label": "Text on button",
+	"droplets-buttonlink-format-label": "Background color"
 }
