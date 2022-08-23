@@ -127,5 +127,13 @@
 	"bs-distributionconnector-videodropletinspector-service-label": "Dienst",
 	"droplets-circled-number-bg-color-label": "Hintergrundfarbe",
 	"droplets-circled-number-fg-color-label": "Vordergrundfarbe",
-	"droplets-circled-number-label": "Zahl"
+	"droplets-circled-number-label": "Zahl",
+	"droplets-subpages-namespace-label": "Namensraum",
+	"droplets-subpages-namespace-help": "Für Hauptnamensraum leer lassen",
+	"droplets-subpages-parentpage-label": "Übergeordnete Seite",
+	"droplets-subpages-parentpage-help": "Die Seite, deren Unterseiten aufgelistet werden sollen",
+	"droplets-subpages-cols-label": "Spaltenlayout",
+	"droplets-subpages-cols-help": "\"ja\" erstellt 3 Spalten, \"nein\" erstellt keine Spalten",
+	"droplets-subpages-bullets-label": "Aufzählungszeichen",
+	"droplets-subpages-bullets-help": "\"nein\" entfernt Aufzählungszeichen"
 }
