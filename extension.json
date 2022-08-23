@@ -197,6 +197,9 @@
 				},
 				"categorytree": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\CategoryTreeDroplet"
+				},
+				"video": {
+					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\VideoDroplet"
 				}
 			}
 		}
@@ -331,6 +334,17 @@
 				"bs-distributionconnector-invite-signup-dialog-title",
 				"bs-distributionconnector-invite-signup-dialog-text"
 			]
+		},
+		"ext.bluespice.distribution.video.visualEditor": {
+			"scripts": [
+				"ve/ve.ce.VideoDropletNode.js",
+				"ve/ve.dm.VideoDropletNode.js",
+				"ve/ve.ui.VideoDropletInspector.js",
+				"ve/ve.ui.VideoDropletInspectorTool.js"
+			],
+			"messages": [
+				"bs-distributionconnector-videodropletinspector-service-label"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {
@@ -403,7 +417,8 @@
 	"Hooks": {
 		"BeforePageDisplay": [
 			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddResources::callback",
-			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddHitCounters::callback"
+			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddHitCounters::callback",
+			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddEmbedVideoServices::callback"
 		],
 		"BaseTemplateToolbox": "BlueSpiceDistributionHooks::onBaseTemplateToolbox",
 		"BSInsertMagicAjaxGetData": [

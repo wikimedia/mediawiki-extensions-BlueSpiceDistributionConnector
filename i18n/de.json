@@ -120,5 +120,6 @@
 	"right-duplicate": "Seiten duplizieren",
 	"action-duplicate": "Seite duplizieren",
 	"bs-distributionconnector-statistics-report-page-hits-relation": "Seitenaufrufe im Verhältnis",
-	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Seitenaufrufe im Verhältnis zu den Gesamtaufrufen"
+	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Seitenaufrufe im Verhältnis zu den Gesamtaufrufen",
+	"bs-distributionconnector-videodropletinspector-service-label": "Dienst"
 }
