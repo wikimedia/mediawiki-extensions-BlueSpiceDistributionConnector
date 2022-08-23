@@ -137,5 +137,9 @@
 	"droplets-subpages-bullets-label": "Label for input field to choose if bullet points should bet set",
 	"droplets-subpages-bullets-help": "Help message for input field to set bullet points",
 	"droplets-map-condition-label": "Label for condition input field",
-	"droplets-map-center-label": "label for focus input field"
+	"droplets-map-center-label": "label for focus input field",
+	"droplets-buttonlink-external-label": "Label for input field to set if internal link or not",
+	"droplets-buttonlink-target-label": "Label for input field to set target of button link",
+	"droplets-buttonlink-label-label": "Label for input field to insert text for button",
+	"droplets-buttonlink-format-label": "Label for input field to set background color"
 }

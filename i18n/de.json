@@ -137,5 +137,9 @@
 	"droplets-subpages-bullets-label": "Aufzählungszeichen",
 	"droplets-subpages-bullets-help": "\"nein\" entfernt Aufzählungszeichen",
 	"droplets-map-condition-label": "Bedingung",
-	"droplets-map-center-label": "Fokus"
+	"droplets-map-center-label": "Fokus",
+	"droplets-buttonlink-external-label": "Externer Link",
+	"droplets-buttonlink-target-label": "Ziel",
+	"droplets-buttonlink-label-label": "Text auf Button",
+	"droplets-buttonlink-format-label": "Hintergrundfarbe"
 }

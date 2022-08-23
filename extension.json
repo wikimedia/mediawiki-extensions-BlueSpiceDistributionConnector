@@ -209,6 +209,9 @@
 				},
 				"map": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\MapDroplet"
+				},
+				"buttonlink": {
+					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\ButtonLinkDroplet"
 				}
 			}
 		}
@@ -359,12 +362,23 @@
 			"scripts": [
 				"object/MapDroplet.js"
 			],
+			"messages": [
+				"droplets-map-condition-label",
+				"droplets-map-center-label"
+			]
+		},
+		"ext.bluespice.distribution.object.buttonlink": {
+			"scripts": [
+				"object/ButtonLinkDroplet.js"
+			],
 			"dependencies": [
 				"oojs-ui"
 			],
 			"messages": [
-				"droplets-map-condition-label",
-				"droplets-map-center-label"
+				"droplets-buttonlink-external-label",
+				"droplets-buttonlink-target-label",
+				"droplets-buttonlink-label-label",
+				"droplets-buttonlink-format-label"
 			]
 		},
 		"ext.bluespice.distribution.droplet.subpages": {
