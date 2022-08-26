@@ -29,18 +29,19 @@
 
 	bs.distributionConnector.workflows.trigger.TimeSMWProperty.prototype.getValidity = function() {
 		var dfd = $.Deferred();
-
 		bs.distributionConnector.workflows.trigger.TimeSMWProperty.parent.prototype.getValidity.call( this )
 		.done( function() {
 			this.propertyInput.getValidity().done( function() {
 				this.daysInput.getValidity().done( function() {
 					dfd.resolve();
 				} ).fail( function() {
+					this.daysInput.setValidityFlag( false );
 					dfd.reject();
-				} );
+				}.bind( this ) );
 			}.bind( this ) ).fail( function() {
+				this.propertyInput.setValidityFlag( false );
 				dfd.reject();
-			} );
+			}.bind( this ) );
 		}.bind( this ) ).fail( function() {
 			dfd.reject();
 		} );
