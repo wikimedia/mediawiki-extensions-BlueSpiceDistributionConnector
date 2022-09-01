@@ -41,7 +41,7 @@
 	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "Migrer les utilisateurs par adresse de courriel",
 	"bs-distributionconnector-pref-openidconnect-forcelogout": "Forcer la déconnexion",
 	"bs-distributionconnector-pref-openidconnect-config-key": "URL de l’émetteur",
-	"bs-distributionconnector-pref-openidconnect-config-clientid": "ID du client",
+	"bs-distributionconnector-pref-openidconnect-config-clientid": "Identifiant du client",
 	"bs-distributionconnector-pref-openidconnect-config-clientsecret": "Secret du client",
 	"bs-distributionconnector-pref-openidconnect-config-name": "Afficher le nom",
 	"bs-distributionconnector-pref-openidconnect-config-icon": "URL de l’icône",
