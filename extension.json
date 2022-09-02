@@ -187,9 +187,6 @@
 				}
 			}
 		},
-		"BlueSpiceDistributionConnector": {
-			"ContentManifests": []
-		},
 		"ContentDroplets": {
 			"Droplets": {
 				"gallery": {
@@ -414,8 +411,7 @@
 			"\\BlueSpice\\DistributionConnector\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\ModifySidebar::callback"
 		],
 		"LoadExtensionSchemaUpdates": [
-			"BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\AddTemplateUserPageStandardContent::callback",
-			"RunImportDefaultPages"
+			"BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\AddTemplateUserPageStandardContent::callback"
 		],
 		"WikiExplorer::getFieldDefinitions": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onGetFieldDefinitions",
 		"WikiExplorer::getColumnDefinitions": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onGetColumnDefinitions",
@@ -426,9 +422,6 @@
 	"HookHandlers": {
 		"user-manager": {
 			"class": "\\BlueSpice\\DistributionConnector\\Hook\\AddInviteLink"
-		},
-		"RunImportDefaultPages": {
-			"class": "\\BlueSpice\\DistributionConnector\\HookHandler\\RunImportDefaultPages"
 		}
 	},
 	"manifest_version": 2
