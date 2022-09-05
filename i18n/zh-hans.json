@@ -11,6 +11,7 @@
 			"Hydra",
 			"Lakejason0",
 			"LaoShuBaby",
+			"Qiyue2001",
 			"Stang",
 			"StarrySky",
 			"TsuyaMarisa",
@@ -67,6 +68,7 @@
 	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "验证主机",
 	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "验证同行",
 	"bs-distributionconnector-pref-simplesamlphp-emailattribute": "“email”的属性名",
+	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "单值属性“组”的分隔符",
 	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "“realname”的属性名",
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "“groups”的属性名",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "“username”的属性名",
@@ -103,6 +105,7 @@
 	"workflows-workflow-file-definition-user-approval-desc": "让一名用户巡查并核准一个页面。完成此操作后，特定接收人将会收到电子邮件通知。",
 	"workflows-workflow-file-definition-user-feedback-title": "单个用户反馈",
 	"workflows-workflow-file-definition-user-feedback-desc": "当巡查一个页面时向一名用户询问反馈意见。完成此操作后，特定接收人将会收到电子邮件通知。",
+	"workflows-workflow-file-definition-document-control-title": "专家文档控制",
 	"bs-distributionconnector-default-definition-report-review": "复核",
 	"bs-distributionconnector-default-definition-report-approve": "批准",
 	"bs-distributionconnector-default-definition-report-vote": "投票",
@@ -120,5 +123,7 @@
 	"workflows-triggers-type-time-smw-prop-label": "基于语义性质",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "邀请",
 	"bs-distributionconnector-invite-signup-dialog-title": "邀请用户",
-	"bs-distributionconnector-invite-signup-dialog-text": "离开此页面以邀请新用户？"
+	"bs-distributionconnector-invite-signup-dialog-text": "离开此页面以邀请新用户？",
+	"right-duplicate": "复制页面",
+	"action-duplicate": "复制页面"
 }

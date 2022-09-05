@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Agusbou2015",
+			"DarkGames26",
 			"Dekeract",
 			"Destinid10 2",
 			"DiegoAmbrocio",
@@ -124,5 +125,7 @@
 	"workflows-triggers-type-time-smw-prop-label": "Basado en una propiedad semántica",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Invitar",
 	"bs-distributionconnector-invite-signup-dialog-title": "Invitar usuarios",
-	"bs-distributionconnector-invite-signup-dialog-text": "¿Dejar esta página para invitar a un nuevo usuario?"
+	"bs-distributionconnector-invite-signup-dialog-text": "¿Dejar esta página para invitar a un nuevo usuario?",
+	"right-duplicate": "Páginas duplicadas",
+	"action-duplicate": "Página duplicada"
 }
