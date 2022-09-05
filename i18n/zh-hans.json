@@ -11,6 +11,7 @@
 			"Hydra",
 			"Lakejason0",
 			"LaoShuBaby",
+			"Qiyue2001",
 			"Stang",
 			"StarrySky",
 			"TsuyaMarisa",
@@ -120,5 +121,9 @@
 	"bs-distributionconnector-notification-logged-in": "你已登录",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "邀请",
 	"bs-distributionconnector-invite-signup-dialog-title": "邀请用户",
-	"bs-distributionconnector-invite-signup-dialog-text": "离开此页面以邀请新用户？"
+	"bs-distributionconnector-invite-signup-dialog-text": "离开此页面以邀请新用户？",
+	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "单值属性“组”的分隔符",
+	"workflows-workflow-file-definition-document-control-title": "专家文档控制",
+	"right-duplicate": "复制页面",
+	"action-duplicate": "复制页面"
 }
