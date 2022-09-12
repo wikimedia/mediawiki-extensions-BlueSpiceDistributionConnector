@@ -105,5 +105,22 @@
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "Opgegeven gebruikersnaam is niet geldig",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "Opgegeven titel is niet geldig",
 	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] heeft \"$2\" rechten gekregen voor [[$3]]",
-	"bs-distributionconnector-notification-logged-in": "U bent nu aangemeld"
+	"bs-distributionconnector-notification-logged-in": "U bent nu aangemeld",
+	"bs-distributionconnector-default-document-control-report-subject": "De procedure \"Documentbeheer door expert\" voor de pagina \"$1\" is voltooid",
+	"bs-distributionconnector-default-document-control-report-body": "Details over de procedure:\nBegonnen op: $1 \nAfgesloten op: $2 \nPagina: $3 \nVersie: $4 \nRedacteur: $5 \nBeoordeeld door: $6 \nGoedgekeurd door: $7\nInstructies voor redacteur: $8 \nInstructies voor beoordeling: $9 \nInstructies voor goedkeuring: $10\nTerugkoppelingen:\n$11\n\nDeze e-mail is naar u verzonden omdat $12 u heeft aangewezen als e-mailontvanger voor dit proces.",
+	"bs-distributionconnector-default-user-vote-report-delegated-message": "gedelegeerd aan $1",
+	"bs-distributionconnector-pref-eventbus-eventservices": "Evenementendiensten",
+	"bs-distributionconnector-pref-eventbus-eventservices-key": "Dienstnaam",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Verloop",
+	"bs-distributionconnector-pref-eventbus-eventservices-help": "De diensten die gedefinieerd zijn voor de uitbreiding \"EventBus\" die toestandsveranderingen (bewerken, verplaatsen, verwijderen, zichtbaarheid van versies, enz.) doorgeeft aan een \"RESTful event service\", waardoor de gebruikers ervan in staat worden gesteld om veranderingen in MediaWiki-inhoud te volgen.",
+	"bs-distributionconnector-checkpermissions": "Machtigingen controleren",
+	"bs-distributionconnector-workflows-ui-trigger-field-property": "Semantische eigenschap (van type: Datum)",
+	"bs-distributionconnector-workflows-ui-trigger-field-days": "Aantal dagen vanaf de datum in de eigenschap",
+	"workflows-triggers-type-time-smw-prop-desc": "Een procedure opstarten op basis van een datum uit een semantische eigenschap",
+	"workflows-triggers-type-time-smw-prop-label": "Gebaseerd op een semantische eigenschap",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Uitnodigen",
+	"bs-distributionconnector-invite-signup-dialog-title": "Gebruiker uitnodigen",
+	"bs-distributionconnector-invite-signup-dialog-text": "Deze pagina verlaten om een nieuwe gebruiker uit te nodigen?",
+	"right-duplicate": "Pagina's dupliceren",
+	"action-duplicate": "pagina's te dupliceren"
 }

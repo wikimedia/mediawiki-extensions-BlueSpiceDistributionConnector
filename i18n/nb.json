@@ -2,7 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Abuluntu",
+			"EdoAug",
 			"Jon Harald Søby",
+			"Telaneo",
 			"Vukky"
 		]
 	},
@@ -80,5 +82,12 @@
 	"bs-distributionconnector-checkpermissions-label-permission": "Tillatelse",
 	"bs-distributionconnector-checkpermissions-label-title": "Tittel",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "Den angitte brukernavnet er ugyldig",
-	"bs-distributionconnector-checkpermissions-error-invalid-title": "Den angitte tittelen er ugyldig"
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "Den angitte tittelen er ugyldig",
+	"bs-distributionconnector-default-definition-report-review": "Gjennomgang",
+	"bs-distributionconnector-pref-eventbus-eventservices-key": "Tjeneste-navn",
+	"bs-distributionconnector-notification-logged-in": "Du er nå innlogget",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Inviter",
+	"bs-distributionconnector-invite-signup-dialog-title": "Inviter bruker",
+	"right-duplicate": "Duplisere sider",
+	"action-duplicate": "duplisere side"
 }
