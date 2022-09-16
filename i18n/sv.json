@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"JohanahoJ",
 			"Mjälten",
 			"WikiPhoenix"
 		]
@@ -21,5 +22,11 @@
 	"bs-distributionconnector-collection-type-hitcounter": "Sidvisningar",
 	"bs-distributionconnector-collection-var-pagetitle": "Sidtitel",
 	"bs-distributionconnector-collection-var-numberhits": "Träff",
-	"bs-distributionconnector-workflows-form-label-editor": "Redigerare"
+	"bs-distributionconnector-pref-openidconnect-config-name": "Visa namn",
+	"bs-distributionconnector-pref-openidconnect-config-icon": "Ikon-URL",
+	"bs-distributionconnector-workflows-form-username": "Användare",
+	"bs-distributionconnector-workflows-form-expert-user": "Expert",
+	"bs-distributionconnector-workflows-form-label-editor": "Redigerare",
+	"bs-sandbox": "Sandlåda",
+	"bs-distributionconnector-checkpermissions-label-title": "Titel"
 }
