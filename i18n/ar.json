@@ -61,6 +61,7 @@
 	"bs-distributionconnector-checkpermissions-label-user": "المستخدم",
 	"bs-distributionconnector-checkpermissions-label-permission": "الصلاحيات",
 	"bs-distributionconnector-checkpermissions-label-title": "العنوان",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "اسم المستخدم المقدم غير صالح",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "دعوة",
 	"bs-distributionconnector-invite-signup-dialog-text": "غادر هذه الصفحة لدعوة مستخدم جديد؟"
 }

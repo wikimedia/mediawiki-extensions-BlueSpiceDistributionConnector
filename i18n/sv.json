@@ -24,9 +24,11 @@
 	"bs-distributionconnector-collection-var-numberhits": "Träff",
 	"bs-distributionconnector-pref-openidconnect-config-name": "Visa namn",
 	"bs-distributionconnector-pref-openidconnect-config-icon": "Ikon-URL",
+	"bs-distributionconnector-workflows-form-instructions": "Instruktioner",
 	"bs-distributionconnector-workflows-form-username": "Användare",
 	"bs-distributionconnector-workflows-form-expert-user": "Expert",
 	"bs-distributionconnector-workflows-form-label-editor": "Redigerare",
 	"bs-sandbox": "Sandlåda",
+	"bs-distributionconnector-default-user-vote-report-delegated-message": "delegerad till $1",
 	"bs-distributionconnector-checkpermissions-label-title": "Titel"
 }
