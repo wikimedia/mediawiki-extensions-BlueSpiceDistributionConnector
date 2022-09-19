@@ -28,5 +28,7 @@
 	"bs-distributionconnector-workflows-form-username": "Användare",
 	"bs-distributionconnector-workflows-form-expert-user": "Expert",
 	"bs-sandbox": "Sandlåda",
-	"bs-distributionconnector-checkpermissions-label-title": "Titel"
+	"bs-distributionconnector-checkpermissions-label-title": "Titel",
+	"bs-distributionconnector-workflows-form-instructions": "Instruktioner",
+	"bs-distributionconnector-default-user-vote-report-delegated-message": "delegerad till $1"
 }

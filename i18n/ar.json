@@ -62,5 +62,6 @@
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "دعوة",
 	"bs-distributionconnector-invite-signup-dialog-text": "غادر هذه الصفحة لدعوة مستخدم جديد؟",
 	"bs-helpdesk": "مكتب المساعدة",
-	"bs-distributionconnector-workflows-form-head-user": "رئيس القسم"
+	"bs-distributionconnector-workflows-form-head-user": "رئيس القسم",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "اسم المستخدم المقدم غير صالح"
 }
