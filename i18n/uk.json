@@ -5,7 +5,8 @@
 			"Ice bulldog",
 			"Piramidion",
 			"Samflint",
-			"Ата"
+			"Ата",
+			"Пан Хаунд"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Під'єднує BlueSpice до різних розширень MediaWiki",
@@ -109,7 +110,10 @@
 	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] отримав дозвіл «$2» для [[$3]]",
 	"bs-distributionconnector-notification-logged-in": "Ви увійшли в систему",
 	"bs-distributionconnector-workflows-ui-trigger-field-property": "Семантична властивість (типу: Дата)",
+	"workflows-triggers-type-time-smw-prop-label": "На основі семантичної властивості",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Запросити",
 	"bs-distributionconnector-invite-signup-dialog-title": "Запросити користувача",
-	"bs-distributionconnector-invite-signup-dialog-text": "Залишити цю сторінку, щоб запросити нового користувача?"
+	"bs-distributionconnector-invite-signup-dialog-text": "Залишити цю сторінку, щоб запросити нового користувача?",
+	"right-duplicate": "Дублювання сторінок",
+	"action-duplicate": "дублювати сторінку"
 }

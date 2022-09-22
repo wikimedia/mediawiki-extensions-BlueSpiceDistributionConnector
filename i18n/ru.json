@@ -89,7 +89,13 @@
 	"bs-distributionconnector-default-definition-report-vote": "голос",
 	"bs-distributionconnector-pref-eventbus-eventservices": "Event services",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
+	"bs-distributionconnector-checkpermissions": "Проверить разрешения",
 	"bs-distributionconnector-checkpermissions-label-user": "Участник",
+	"bs-distributionconnector-checkpermissions-label-permission": "Разрешение",
 	"bs-distributionconnector-checkpermissions-label-title": "Заголовок",
-	"bs-distributionconnector-notification-logged-in": "Вы вошли в систему"
+	"bs-distributionconnector-notification-logged-in": "Вы вошли в систему",
+	"bs-distributionconnector-workflows-ui-trigger-field-property": "Семантическое свойство (типа: Дата)",
+	"workflows-triggers-type-time-smw-prop-label": "На основе семантического свойства",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Пригласить",
+	"bs-distributionconnector-invite-signup-dialog-title": "Пригласить участника"
 }

@@ -3,7 +3,9 @@
 		"authors": [
 			"Abuluntu",
 			"Jon Harald Søby",
-			"Vukky"
+			"Vukky",
+			"EdoAug",
+			"Telaneo"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Kobler BlueSpice til diverse MediaWiki-utvidelser",
@@ -72,13 +74,20 @@
 	"bs-sandbox": "Sandkasse",
 	"bs-support": "Støtte",
 	"bs-distributionconnector-default-user-vote-report-delegated-message": "delegert til $1",
+	"bs-distributionconnector-default-definition-report-review": "Gjennomgang",
 	"bs-distributionconnector-default-definition-report-approve": "Godkjenn",
 	"bs-distributionconnector-default-definition-report-vote": "stem",
+	"bs-distributionconnector-pref-eventbus-eventservices-key": "Tjeneste-navn",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Tidsavbrudd",
 	"bs-distributionconnector-checkpermissions-label-user": "Bruker",
 	"bs-distributionconnector-checkpermissions-label-permission": "Tillatelse",
 	"bs-distributionconnector-checkpermissions-label-title": "Tittel",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "Den angitte brukernavnet er ugyldig",
-	"bs-distributionconnector-checkpermissions-error-invalid-title": "Den angitte tittelen er ugyldig"
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "Den angitte tittelen er ugyldig",
+	"bs-distributionconnector-notification-logged-in": "Du er nå innlogget",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Inviter",
+	"bs-distributionconnector-invite-signup-dialog-title": "Inviter bruker",
+	"right-duplicate": "Duplisere sider",
+	"action-duplicate": "duplisere side"
 }
