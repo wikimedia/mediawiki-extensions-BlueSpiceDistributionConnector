@@ -4,7 +4,8 @@
 			"A2y4",
 			"Aefgh39622",
 			"Ajeje Brazorf",
-			"MathXplore"
+			"MathXplore",
+			"Mugenpman"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "あなたのドメイン",
@@ -23,5 +24,27 @@
 	"bs-distributionconnector-checkpermissions-label-title": "タイトル",
 	"bs-distributionconnector-notification-logged-in": "ログインしました",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "招待",
-	"bs-distributionconnector-invite-signup-dialog-title": "ユーザーを招待する"
+	"bs-distributionconnector-invite-signup-dialog-title": "ユーザーを招待する",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "カテゴリツリー",
+	"bs-distributionconnector-ve-categorytree-title": "カテゴリツリー",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "非表示",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "表示回数",
+	"bs-distributionconnector-setting-path-authentication": "認証",
+	"bs-distributionconnector-pref-openidconnect-config": "プロバイダー",
+	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "ユーザー名として実名を使用する",
+	"bs-distributionconnector-pref-openidconnect-useemailasusername": "メールアドレスをユーザー名として使用する",
+	"bs-distributionconnector-pref-openidconnect-config-clientid": "クライアントID",
+	"bs-distributionconnector-pref-openidconnect-config-proxy": "プロキシURL",
+	"bs-distributionconnector-workflows-form-groupname": "グループ",
+	"bs-distributionconnector-workflows-form-username": "利用者",
+	"bs-distributionconnector-workflows-form-comment": "コメント",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "コメント",
+	"bs-distributionconnector-workflows-form-label-editor": "編集者",
+	"bs-distributionconnector-workflows-form-label-reviewer": "査読者",
+	"bs-helpdesk": "ヘルプデスク",
+	"bs-distributionconnector-default-definition-report-review": "査読",
+	"bs-distributionconnector-default-definition-report-approve": "承認",
+	"bs-distributionconnector-default-definition-report-vote": "投票",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "タイムアウト"
 }
