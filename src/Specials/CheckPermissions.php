@@ -4,7 +4,6 @@ namespace BlueSpice\DistributionConnector\Specials;
 
 use BlueSpice;
 use Html;
-use MediaWiki\MediaWikiServices;
 use MWException;
 use OOUIHTMLForm;
 use Status;
@@ -15,11 +14,6 @@ class CheckPermissions extends BlueSpice\SpecialPage {
 	 * @var PermissionManager
 	 */
 	private $permissionManager = null;
-
-	/**
-	 * @var MediaWikiServices
-	 */
-	private $services = null;
 
 	public function __construct() {
 		parent::__construct( 'CheckPermissions', '', false );
@@ -34,7 +28,7 @@ class CheckPermissions extends BlueSpice\SpecialPage {
 		$this->setHeaders();
 		$out = $this->getOutput();
 		$out->setPageTitle( $this->msg( 'bs-distributionconnector-checkpermissions' ) );
-		$this->permissionManager = MediaWikiServices::getInstance()->getPermissionManager();
+		$this->permissionManager = $this->services->getPermissionManager();
 		$options = [];
 		foreach ( $this->permissionManager->getAllPermissions() as $var ) {
 			$options[$var] = $var;
@@ -65,7 +59,6 @@ class CheckPermissions extends BlueSpice\SpecialPage {
 	 * @return array
 	 */
 	public function processInput( $formData ) {
-		$this->services = MediaWikiServices::getInstance();
 		$user = $this->services->getUserFactory()->newFromName( $formData['username'] );
 
 		if ( !$user ) {
