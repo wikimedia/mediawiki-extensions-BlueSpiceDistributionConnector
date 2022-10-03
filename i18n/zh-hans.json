@@ -125,5 +125,7 @@
 	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "单值属性“组”的分隔符",
 	"workflows-workflow-file-definition-document-control-title": "专家文档控制",
 	"right-duplicate": "复制页面",
-	"action-duplicate": "复制页面"
+	"action-duplicate": "复制页面",
+	"bs-distributionconnector-default-user-vote-report-delegated-message": "委托给$1",
+	"workflows-triggers-type-time-smw-prop-desc": "根据语义属性中的日期触发工作流"
 }
