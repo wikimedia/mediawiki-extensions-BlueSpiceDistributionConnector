@@ -97,5 +97,7 @@
 	"bs-distributionconnector-workflows-ui-trigger-field-property": "Семантическое свойство (типа: Дата)",
 	"workflows-triggers-type-time-smw-prop-label": "На основе семантического свойства",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Пригласить",
-	"bs-distributionconnector-invite-signup-dialog-title": "Пригласить участника"
+	"bs-distributionconnector-invite-signup-dialog-title": "Пригласить участника",
+	"bs-distributionconnector-pref-eventbus-eventservices-key": "Название службы",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "Указанное имя пользователя недействительно"
 }
