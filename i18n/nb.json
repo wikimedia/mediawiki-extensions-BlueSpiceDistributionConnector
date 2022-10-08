@@ -2,10 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Abuluntu",
-			"Jon Harald Søby",
-			"Vukky",
 			"EdoAug",
-			"Telaneo"
+			"Jon Harald Søby",
+			"Telaneo",
+			"Vukky"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Kobler BlueSpice til diverse MediaWiki-utvidelser",
