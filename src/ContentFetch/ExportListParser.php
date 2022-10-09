@@ -5,6 +5,19 @@ namespace BlueSpice\DistributionConnector\ContentFetch;
 class ExportListParser {
 
 	/**
+	 * Title data attributes will be processed.
+	 * They will be processed in exactly that order.
+	 *
+	 * @var string[]
+	 */
+	private $attributes = [
+		'lang',
+		'label',
+		'description',
+		'target_title'
+	];
+
+	/**
 	 * Parses list obtained from the source wiki "export list" page
 	 *
 	 * @param string $content
@@ -24,36 +37,53 @@ class ExportListParser {
 	 * @see \BSFetchContents::readExportList()
 	 */
 	public function parse( string $content ): array {
-		$pages = explode( "\n* ", $content );
-
 		$pagesList = [];
-		foreach ( $pages as $pageDataRaw ) {
-			// Cut off "* " from the first line
-			if ( strpos( $pageDataRaw, '* ' ) === 0 ) {
-				$pageDataRaw = substr( $pageDataRaw, 2 );
+
+		// Pointer to current processing title
+		$processingTitle = null;
+
+		// Number
+		$attributeNumber = 0;
+
+		$lines = explode( "\n", $content );
+		foreach ( $lines as $line ) {
+			$line = trim( $line );
+
+			// Skip empty lines or lines which does not start with '*'
+			if ( $line === '' || $line[0] !== '*' ) {
+				continue;
 			}
 
-			$pageData = explode( "\n** ", $pageDataRaw );
+			// If there is only one asterisk - it's title line
+			// All next data attributes will be linked to that title
+			if ( $line[1] !== '*' ) {
+				$processingTitle = trim( substr( $line, 1 ) );
+				$processingTitle = str_replace( ' ', '_', $processingTitle );
 
-			$title = trim( $pageData[0] );
-			$title = str_replace( ' ', '_', $title );
-			$lang = trim( $pageData[1] );
-			$label = trim( $pageData[2] );
-			$description = trim( $pageData[3] );
+				// Reset attributes counter
+				$attributeNumber = 0;
 
-			$targetTitle = $title;
-			if ( isset( $pageData[4] ) ) {
-				$targetTitle = trim( $pageData[4] );
+				continue;
 			}
 
-			$lang = strtolower( $lang );
+			$attribute = trim( substr( $line, 2 ) );
+			$attributeName = $this->attributes[$attributeNumber];
 
-			$pagesList[$title] = [
-				'lang' => $lang,
-				'label' => $label,
-				'description' => $description,
-				'target_title' => $targetTitle
-			];
+			// Language should be lowered case
+			if ( $attributeName === 'lang' ) {
+				$attribute = strtolower( $attribute );
+			}
+
+			$pagesList[$processingTitle][$attributeName] = $attribute;
+
+			$attributeNumber++;
+		}
+
+		// If target title was not specified - use template title
+		foreach ( $pagesList as $title => &$data ) {
+			if ( !isset( $data['target_title'] ) ) {
+				$data['target_title'] = $title;
+			}
 		}
 
 		return $pagesList;

@@ -16,13 +16,17 @@
 ** Template with no "target title".
 
 
+    *     Template:HelloTemplate4
+      **        	EN
+      **	HelloTemplate template4
+
+      **       Check that whitespaces and empty lines does not break things
 
 
 
 
-
-* Template:HelloTemplate4
+* Template:HelloTemplate5
 ** en
-** HelloTemplate template4
+** HelloTemplate template5
 ** Here we want to make sure that empty lines are trimmed.
-** Template:HelloTemplateTarget4
+** Template:HelloTemplateTarget5
