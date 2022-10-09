@@ -20,7 +20,7 @@ class ExportListParserTest extends TestCase {
 		$data = $parser->parse( $exportList );
 
 		$this->assertIsArray( $data, "Parsed data is not an array!" );
-		$this->assertCount( 4, $data );
+		$this->assertCount( 5, $data );
 
 		$expectedData = [
 			'Template:Hello_Template1' => [
@@ -44,8 +44,14 @@ class ExportListParserTest extends TestCase {
 			'Template:HelloTemplate4' => [
 				'lang' => 'en',
 				'label' => 'HelloTemplate template4',
+				'description' => 'Check that whitespaces and empty lines does not break things',
+				'target_title' => 'Template:HelloTemplate4'
+			],
+			'Template:HelloTemplate5' => [
+				'lang' => 'en',
+				'label' => 'HelloTemplate template5',
 				'description' => 'Here we want to make sure that empty lines are trimmed.',
-				'target_title' => 'Template:HelloTemplateTarget4'
+				'target_title' => 'Template:HelloTemplateTarget5'
 			]
 		];
 
