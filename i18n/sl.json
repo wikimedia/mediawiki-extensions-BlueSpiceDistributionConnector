@@ -7,5 +7,9 @@
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Imenski prostor",
 	"bs-distributionconnector-statistics-report-page-hits": "Obiskov na stran",
 	"bs-distributionconnector-checkpermissions-label-user": "Uporabnik",
-	"bs-distributionconnector-default-definition-report-approve": "Odobri"
+	"bs-distributionconnector-default-definition-report-approve": "Odobri",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Način",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Globina",
+	"bs-distributionconnector-collection-var-pagetitle": "Naslov strani",
+	"bs-distributionconnector-checkpermissions-label-title": "Naslov"
 }
