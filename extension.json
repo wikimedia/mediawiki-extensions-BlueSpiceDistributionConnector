@@ -184,6 +184,9 @@
 				},
 				"dc-pagetrends": {
 					"class": "\\BlueSpice\\DistributionConnector\\Statistics\\Report\\PageTrends"
+				},
+				"dc-pagehitsrelation": {
+					"class": "\\BlueSpice\\DistributionConnector\\Statistics\\Report\\PageHitsRelation"
 				}
 			}
 		},
@@ -260,7 +263,8 @@
 		"ext.bluespice.distributionconnector.statistics": {
 			"scripts": [
 				"statistics/PageHits.js",
-				"statistics/PageTrends.js"
+				"statistics/PageTrends.js",
+				"statistics/PageHitsRelation.js"
 			],
 			"dependencies": [
 				"ext.bluespice"
@@ -268,7 +272,9 @@
 			"messages": [
 				"bs-distributionconnector-statistics-report-page-hits",
 				"bs-distributionconnector-statistics-report-page-trends",
-				"bs-distributionconnector-statistics-report-page-trends-axis-value"
+				"bs-distributionconnector-statistics-report-page-trends-axis-value",
+				"bs-distributionconnector-statistics-report-page-hits-relation",
+				"bs-distributionconnector-statistics-report-page-hits-relation-axis-label"
 			]
 		},
 		"ext.bluespice.distributionconnector.workflows.forms": {

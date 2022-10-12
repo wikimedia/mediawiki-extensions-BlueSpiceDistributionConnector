@@ -3,16 +3,8 @@
 namespace BlueSpice\DistributionConnector\Statistics\Report;
 
 use BlueSpice\ExtendedStatistics\ClientReportHandler;
-use BlueSpice\ExtendedStatistics\IReport;
 
-class PageHits implements IReport {
-
-	/**
-	 * @inheritDoc
-	 */
-	public function getSnapshotKey() {
-		return 'dc-pagehits';
-	}
+class PageHitsRelation extends PageHits {
 
 	/**
 	 * @inheritDoc
@@ -30,14 +22,14 @@ class PageHits implements IReport {
 			if ( !isset( $data[$filterForPage ] ) ) {
 				continue;
 			}
-			$value = $data[$filterForPage][$this->getDataKeyToDisplay()];
+			$value = $data[$filterForPage][$this->getDataKeyToDisplay()] / $data['total'];
 			if ( $value === null ) {
-				$value = $data[$filterForPage]['hits'];
+				$value = $data[$filterForPage]['hits'] / $data['total'];
 			}
 			$processed[] = [
 				'name' => $snapshot->getDate()->forGraph(),
 				'line' => $filterForPage,
-				'value' => $value
+				'value' => number_format( $value, 2 ) * 100
 			];
 		}
 
@@ -57,7 +49,7 @@ class PageHits implements IReport {
 	public function getClientReportHandler(): ClientReportHandler {
 		return new ClientReportHandler(
 			[ 'ext.bluespice.distributionconnector.statistics' ],
-			'bs.distributionConnector.report.PageHitsReport'
+			'bs.distributionConnector.report.PageHitsRelationReport'
 		);
 	}
 }

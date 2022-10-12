@@ -32,6 +32,7 @@ class PageHits implements ISnapshotProvider {
 		$db = $this->loadBalancer->getConnection( DB_REPLICA );
 
 		$previousSnapshot = $this->snapshotStore->getPrevious( clone $date, $this->getType() );
+
 		$res = $db->select(
 			[ 'h' => 'hit_counter', 'p' => 'page' ],
 			[ 'h.page_id', 'p.page_title', 'p.page_namespace', 'h.page_counter' ],
@@ -40,6 +41,7 @@ class PageHits implements ISnapshotProvider {
 		);
 
 		$data = [];
+		$totalHits = 0;
 		foreach ( $res as $row ) {
 			$title = Title::newFromRow( $row );
 			$page = $title->getPrefixedDBkey();
@@ -55,11 +57,14 @@ class PageHits implements ISnapshotProvider {
 					$growth = ( $hitDiff / $previousHits ) * 100;
 				}
 			}
+			$totalHits += $hitDiff;
 			$data[$page] = [
-				'hits' => $hitDiff,
+				'hits' => $hits,
+				'hitDiff' => $hitDiff,
 				'growth' => $growth < 0 ? 0 : $growth
 			];
 		}
+		$data['total'] = $totalHits;
 
 		return new Snapshot( $date, $this->getType(), $data );
 	}
