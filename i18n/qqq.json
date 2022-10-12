@@ -121,5 +121,7 @@
 	"bs-distributionconnector-invite-signup-dialog-title": "Title for dialog to check if user wants to continue to specialpage InviteSignup",
 	"bs-distributionconnector-invite-signup-dialog-text": "Text in dialog to ask user if they want to leave current page to get to page to invite user",
 	"right-duplicate": "{{doc-right|duplicate}}",
-	"action-duplicate": "{{doc-action|duplicate}}"
+	"action-duplicate": "{{doc-action|duplicate}}",
+	"bs-distributionconnector-statistics-report-page-hits-relation": "Statistics report name",
+	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Label for the \"value\" axis"
 }
