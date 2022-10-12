@@ -118,5 +118,7 @@
 	"bs-distributionconnector-invite-signup-dialog-title": "Benutzer einladen",
 	"bs-distributionconnector-invite-signup-dialog-text": "Diese Seite verlassen, um einen neuen Benutzer einzuladen?",
 	"right-duplicate": "Seiten duplizieren",
-	"action-duplicate": "Seite duplizieren"
+	"action-duplicate": "Seite duplizieren",
+	"bs-distributionconnector-statistics-report-page-hits-relation": "Seitenaufrufe im Verhältnis",
+	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Seitenaufrufe im Verhältnis zu den Gesamtaufrufen"
 }
