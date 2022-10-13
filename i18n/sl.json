@@ -11,5 +11,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Način",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Globina",
 	"bs-distributionconnector-collection-var-pagetitle": "Naslov strani",
-	"bs-distributionconnector-checkpermissions-label-title": "Naslov"
+	"bs-distributionconnector-checkpermissions-label-title": "Naslov",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL"
 }
