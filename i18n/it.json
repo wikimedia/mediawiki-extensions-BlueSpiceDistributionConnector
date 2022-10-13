@@ -86,6 +86,7 @@
 	"bs-distributionconnector-default-user-approval-report-body": "Dettagli flusso di lavoro:\nIniziato il: $1 \nCompletato il: $2 \nPagina: $3 \nRevisione: $4 \nUtente: $5 \nIstruzioni: $6 \nFeedback:\n $7 \n\nQuesta email ti è stata inviata, perché $8 ti ha designato come destinatario email per questo flusso di lavoro.",
 	"bs-distributionconnector-default-document-control-report-body": "Dettagli flusso di lavoro:\nIniziato il: $1 \nCompletato il: $2 \nPagina: $3 \nRevisione: $4 \nEditore: $5 \nRevisione di: $6 \nApprovato da: $7\nIstruzioni per l'editore: $8 \nIstruzioni per la revisione: $9 \nIstruzioni per l'approvazione: $10\nFeedback:\n$11\n\nQuesta e-mail ti è stata inviata, perché $12 ti ha designato come destinatario e-mail per questo flusso di lavoro.",
 	"bs-distributionconnector-default-user-vote-report-delegated-message": "delegato a $1",
+	"bs-distributionconnector-default-definition-report-review": "Revisiona",
 	"bs-distributionconnector-default-definition-report-approve": "Approva",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-checkpermissions-label-user": "Utente",

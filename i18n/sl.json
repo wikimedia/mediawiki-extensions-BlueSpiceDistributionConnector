@@ -10,6 +10,7 @@
 	"bs-distributionconnector-collection-var-pagetitle": "Naslov strani",
 	"bs-distributionconnector-statistics-report-page-hits": "Obiskov na stran",
 	"bs-distributionconnector-default-definition-report-approve": "Odobri",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-checkpermissions-label-user": "Uporabnik",
 	"bs-distributionconnector-checkpermissions-label-title": "Naslov"
 }

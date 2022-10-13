@@ -120,6 +120,7 @@
 	"bs-distributionconnector-checkpermissions-label-title": "标题",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "提供用户名无效",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "提供标题无效",
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]]已被授予用于[[$3]]的权限“$2”",
 	"bs-distributionconnector-notification-logged-in": "你已登录",
 	"workflows-triggers-type-time-smw-prop-desc": "根据语义属性中的日期触发工作流",
 	"workflows-triggers-type-time-smw-prop-label": "基于语义性质",
