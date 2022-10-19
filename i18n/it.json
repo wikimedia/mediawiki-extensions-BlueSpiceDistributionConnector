@@ -98,5 +98,6 @@
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] ha ottenuto l'autorizzazione \"$2\" per [[$3]]",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Visite alla pagina",
-	"bs-distributionconnector-default-definition-report-review": "Revisiona"
+	"bs-distributionconnector-default-definition-report-review": "Revisiona",
+	"bs-distributionconnector-checkpermissions": "Controllo autorizzazioni"
 }
