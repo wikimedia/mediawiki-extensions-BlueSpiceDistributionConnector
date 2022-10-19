@@ -98,5 +98,6 @@
 	"bs-distributionconnector-invite-signup-dialog-title": "Invita utente",
 	"right-duplicate": "Duplica pagine",
 	"action-duplicate": "duplicare pagine",
-	"bs-distributionconnector-default-definition-report-review": "Revisiona"
+	"bs-distributionconnector-default-definition-report-review": "Revisiona",
+	"bs-distributionconnector-checkpermissions": "Controllo autorizzazioni"
 }
