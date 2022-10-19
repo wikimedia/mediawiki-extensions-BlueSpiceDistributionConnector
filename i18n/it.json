@@ -89,6 +89,7 @@
 	"bs-distributionconnector-default-definition-report-review": "Revisiona",
 	"bs-distributionconnector-default-definition-report-approve": "Approva",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
+	"bs-distributionconnector-checkpermissions": "Controllo autorizzazioni",
 	"bs-distributionconnector-checkpermissions-label-user": "Utente",
 	"bs-distributionconnector-checkpermissions-label-permission": "Autorizzazione",
 	"bs-distributionconnector-checkpermissions-label-title": "Titolo",
