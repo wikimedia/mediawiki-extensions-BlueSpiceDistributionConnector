@@ -2,10 +2,10 @@
 
 namespace BlueSpice\DistributionConnector\Data\Page\HitCounter;
 
-use BlueSpice\Data\FieldType;
 use BlueSpice\Data\Page\Schema as PageSchema;
+use MWStake\MediaWiki\Component\DataStore\FieldType;
 
-class Schema extends \BlueSpice\Data\Schema {
+class Schema extends \MWStake\MediaWiki\Component\DataStore\Schema {
 	public const TABLE_NAME = PageSchema::TABLE_NAME;
 	public const TABLE_NAME_JOIN = 'hit_counter';
 
