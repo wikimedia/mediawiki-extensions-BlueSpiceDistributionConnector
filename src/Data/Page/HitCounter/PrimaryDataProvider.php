@@ -3,8 +3,8 @@
 namespace BlueSpice\DistributionConnector\Data\Page\HitCounter;
 
 use BlueSpice\Data\Page\PrimaryDataProvider as PageDataProvider;
-use BlueSpice\Data\ReaderParams;
 use MediaWiki\MediaWikiServices;
+use MWStake\MediaWiki\Component\DataStore\ReaderParams;
 use Title;
 
 class PrimaryDataProvider extends PageDataProvider {
