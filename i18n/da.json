@@ -20,5 +20,10 @@
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Kommentar",
 	"bs-sandbox": "Sandkasse",
 	"bs-distributionconnector-checkpermissions-label-user": "Bruger",
-	"bs-distributionconnector-checkpermissions-label-title": "Titel"
+	"bs-distributionconnector-checkpermissions-label-title": "Titel",
+	"bs-distributionconnector-pref-openidconnect-config-scope": "Omfang",
+	"bs-distributionconnector-workflows-form-comment": "Kommentar",
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% vækst",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Invitér",
+	"bs-distributionconnector-invite-signup-dialog-title": "Invitér bruger"
 }
