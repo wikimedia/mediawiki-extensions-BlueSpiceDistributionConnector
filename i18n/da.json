@@ -13,12 +13,17 @@
 	"bs-distributionconnector-collection-var-pagetitle": "Sidetitel",
 	"bs-distributionconnector-pref-openidconnect-config": "Udbyder",
 	"bs-distributionconnector-pref-openidconnect-config-clientid": "Klient-ID",
+	"bs-distributionconnector-pref-openidconnect-config-scope": "Omfang",
 	"bs-distributionconnector-workflows-form-groupname": "Gruppe",
 	"bs-distributionconnector-workflows-form-instructions": "Instruktioner",
 	"bs-distributionconnector-workflows-form-username": "Bruger",
 	"bs-distributionconnector-workflows-form-expert-user": "Ekspert",
+	"bs-distributionconnector-workflows-form-comment": "Kommentar",
 	"bs-distributionconnector-workflows-form-placeholder-comment": "Kommentar",
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% vækst",
 	"bs-sandbox": "Sandkasse",
 	"bs-distributionconnector-checkpermissions-label-user": "Bruger",
-	"bs-distributionconnector-checkpermissions-label-title": "Titel"
+	"bs-distributionconnector-checkpermissions-label-title": "Titel",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Invitér",
+	"bs-distributionconnector-invite-signup-dialog-title": "Invitér bruger"
 }
