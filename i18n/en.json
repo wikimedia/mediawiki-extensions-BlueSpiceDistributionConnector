@@ -75,7 +75,7 @@
 	"bs-sandbox": "Sandbox",
 	"bs-helpdesk-page": "https://en.wiki.bluespice.com",
 	"bs-helpdesk": "Helpdesk",
-	"bs-support-page": "https://bluespice.com/services/technical-support/",
+	"bs-support-page": "https://bluespice.com/services/professional-support/",
 	"bs-support": "Support",
 	"workflows-workflow-file-definition-group-feedback-title": "Group Feedback",
 	"workflows-workflow-file-definition-group-feedback-desc": "Ask a group of users for feedback while reviewing a page. Once this is done, an email notification is sent to the specified recipient.",
