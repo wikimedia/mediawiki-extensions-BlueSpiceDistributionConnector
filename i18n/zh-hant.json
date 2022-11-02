@@ -5,6 +5,7 @@
 			"Impartial just",
 			"Kly",
 			"Madeleinemcc",
+			"Seikan Tunnel",
 			"Weather Top Wizard",
 			"Winston Sung"
 		]
@@ -95,5 +96,8 @@
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "提供的使用者名稱無效",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "提供的標題無效",
 	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]]已被授予用於[[$3]]的權限「$2」",
-	"bs-distributionconnector-notification-logged-in": "您已登入"
+	"bs-distributionconnector-notification-logged-in": "您已登入",
+	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "單值屬性“組”的分隔符",
+	"bs-distributionconnector-workflows-form-tw-user": "技術寫作人員",
+	"bs-distributionconnector-workflows-form-tw-instructions": "技術寫作人員指引"
 }
