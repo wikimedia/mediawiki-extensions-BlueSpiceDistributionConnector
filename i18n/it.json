@@ -99,5 +99,7 @@
 	"right-duplicate": "Duplica pagine",
 	"action-duplicate": "duplicare pagine",
 	"bs-distributionconnector-default-definition-report-review": "Revisiona",
-	"bs-distributionconnector-checkpermissions": "Controllo autorizzazioni"
+	"bs-distributionconnector-checkpermissions": "Controllo autorizzazioni",
+	"bs-distributionconnector-notification-logged-in": "Accesso effettuato",
+	"bs-distributionconnector-invite-signup-dialog-text": "Abbandonare questa pagina per invitare un nuovo utente?"
 }
