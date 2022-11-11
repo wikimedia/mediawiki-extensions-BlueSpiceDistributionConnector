@@ -113,5 +113,7 @@
 	"bs-distributionconnector-invite-signup-dialog-title": "Povabi uporabnika",
 	"bs-distributionconnector-invite-signup-dialog-text": "Želite zapustiti to stran, da povabite novega uporabnika?",
 	"right-duplicate": "Podvojitev strani",
-	"action-duplicate": "podvojitev strani"
+	"action-duplicate": "podvojitev strani",
+	"bs-distributionconnector-statistics-report-page-hits-relation": "Obiski strani glede na",
+	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Obiski strani glede na skupno število obiskov"
 }
