@@ -14,6 +14,7 @@
 			"MarcoAurelio",
 			"Mnivar",
 			"Reverse88",
+			"SpikeShroom",
 			"Warming Hearth",
 			"Whovian Biologist"
 		]
@@ -127,5 +128,7 @@
 	"bs-distributionconnector-invite-signup-dialog-title": "Invitar usuarios",
 	"bs-distributionconnector-invite-signup-dialog-text": "¿Dejar esta página para invitar a un nuevo usuario?",
 	"right-duplicate": "Páginas duplicadas",
-	"action-duplicate": "Página duplicada"
+	"action-duplicate": "Página duplicada",
+	"bs-distributionconnector-statistics-report-page-hits-relation": "Visitas a la página en relación",
+	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Visitas a la página en relación al total de visitas"
 }
