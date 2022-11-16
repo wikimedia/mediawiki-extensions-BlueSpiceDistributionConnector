@@ -7,6 +7,7 @@
 				'/extensions/BlueSpiceDistributionConnector/resources/images/inviteUser-icon.svg',
 			iconCls: 'btn-invite-user',
 			tooltip: mw.message( 'bs-distributionconnector-invite-signup-btn-tooltip-label' ).text(),
+			ariaLabel: mw.message( 'bs-distributionconnector-invite-signup-btn-tooltip-label' ).text(),
 			height: 50,
 			width: 52
 		} );
