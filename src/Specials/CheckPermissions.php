@@ -76,8 +76,7 @@ class CheckPermissions extends BlueSpice\SpecialPage {
 					'bs-distributionconnector-checkpermissions-error-invalid-title'
 				);
 			}
-		}
-		catch ( MWException $e ) {
+		} catch ( MWException $e ) {
 			return Status::newFatal( $e->getMessage() );
 		}
 
