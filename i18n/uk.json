@@ -101,6 +101,7 @@
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Назва сервісу",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Час очікування",
+	"bs-distributionconnector-pref-eventbus-eventservices-help": "Визначені служби для розширення \"EventBus\", яке поширює зміни стану (редагування, переміщення, видалення, перегляд видимості тощо) до служби подій RESTful, надаючи споживачам служби засоби відстеження змін у вмісті MediaWiki",
 	"bs-distributionconnector-checkpermissions": "Перевірити дозволи",
 	"bs-distributionconnector-checkpermissions-label-user": "Користувач",
 	"bs-distributionconnector-checkpermissions-label-permission": "Дозвіл",
@@ -115,5 +116,6 @@
 	"bs-distributionconnector-invite-signup-dialog-title": "Запросити користувача",
 	"bs-distributionconnector-invite-signup-dialog-text": "Залишити цю сторінку, щоб запросити нового користувача?",
 	"right-duplicate": "Дублювання сторінок",
-	"action-duplicate": "дублювати сторінку"
+	"action-duplicate": "дублювати сторінку",
+	"bs-distributionconnector-statistics-report-page-hits-relation": "Відвідування сторінок у відношенні"
 }
