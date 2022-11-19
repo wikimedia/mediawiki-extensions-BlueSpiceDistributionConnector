@@ -114,5 +114,7 @@
 	"bs-distributionconnector-invite-signup-dialog-title": "Convidar utilizador",
 	"bs-distributionconnector-invite-signup-dialog-text": "Sair desta página para convidar um utilizador novo?",
 	"right-duplicate": "Duplicar páginas",
-	"action-duplicate": "duplicar páginas"
+	"action-duplicate": "duplicar páginas",
+	"bs-distributionconnector-statistics-report-page-hits-relation": "Visitas a páginas em relação",
+	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Visitas a páginas em relação ao total de visitas"
 }
