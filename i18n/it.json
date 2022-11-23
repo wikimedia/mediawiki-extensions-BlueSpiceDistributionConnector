@@ -101,5 +101,7 @@
 	"bs-distributionconnector-invite-signup-dialog-title": "Invita utente",
 	"bs-distributionconnector-invite-signup-dialog-text": "Abbandonare questa pagina per invitare un nuovo utente?",
 	"right-duplicate": "Duplica pagine",
-	"action-duplicate": "duplicare pagine"
+	"action-duplicate": "duplicare pagine",
+	"bs-distributionconnector-statistics-report-page-hits-relation": "Pagine visitate in relazione",
+	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Pagine visitate in relazione al totale visite"
 }
