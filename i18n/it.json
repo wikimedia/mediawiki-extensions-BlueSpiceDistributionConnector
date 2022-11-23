@@ -101,5 +101,7 @@
 	"bs-distributionconnector-default-definition-report-review": "Revisiona",
 	"bs-distributionconnector-checkpermissions": "Controllo autorizzazioni",
 	"bs-distributionconnector-notification-logged-in": "Accesso effettuato",
-	"bs-distributionconnector-invite-signup-dialog-text": "Abbandonare questa pagina per invitare un nuovo utente?"
+	"bs-distributionconnector-invite-signup-dialog-text": "Abbandonare questa pagina per invitare un nuovo utente?",
+	"bs-distributionconnector-statistics-report-page-hits-relation": "Pagine visitate in relazione",
+	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Pagine visitate in relazione al totale visite"
 }
