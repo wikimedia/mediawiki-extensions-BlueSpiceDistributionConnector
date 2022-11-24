@@ -46,5 +46,14 @@
 	"bs-distributionconnector-default-definition-report-approve": "承認",
 	"bs-distributionconnector-default-definition-report-vote": "投票",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "タイムアウト"
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "タイムアウト",
+	"bs-distributionconnector-videodropletinspector-service-label": "サービス",
+	"droplets-circled-number-bg-color-label": "背景色",
+	"droplets-circled-number-label": "数値",
+	"droplets-subpages-namespace-label": "名前空間",
+	"droplets-subpages-parentpage-label": "親ページ",
+	"droplets-map-condition-label": "条件",
+	"droplets-buttonlink-external-label": "外部リンク",
+	"droplets-buttonlink-target-label": "対象",
+	"droplets-buttonlink-format-label": "背景色"
 }

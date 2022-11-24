@@ -6,5 +6,9 @@
 	},
 	"bs-distributionconnector-checkpermissions-label-user": "ورتݨ آلا",
 	"bs-distributionconnector-checkpermissions-label-permission": "اجازت",
-	"bs-distributionconnector-checkpermissions-label-title": "عنوان"
+	"bs-distributionconnector-checkpermissions-label-title": "عنوان",
+	"droplets-circled-number-label": "عدد",
+	"droplets-subpages-bullets-label": "گولی نقطے",
+	"droplets-buttonlink-external-label": "ٻاہرلا لنک",
+	"droplets-buttonlink-label-label": "بٹݨ تے عبارت"
 }
