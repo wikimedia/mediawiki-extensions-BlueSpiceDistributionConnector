@@ -5,5 +5,16 @@
 		]
 	},
 	"bs-distributionconnector-statistics-report-page-hits-relation": "salıstırmalı betke kirip kóriwler",
-	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Ulıwma kirip kóriwler sanına salıstırǵanda betke kirip kóriwler"
+	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Ulıwma kirip kóriwler sanına salıstırǵanda betke kirip kóriwler",
+	"bs-distributionconnector-videodropletinspector-service-label": "Servis",
+	"droplets-circled-number-bg-color-label": "Artqı fon reńi",
+	"droplets-circled-number-fg-color-label": "Aldınǵı fon reńi",
+	"droplets-circled-number-label": "San",
+	"droplets-subpages-namespace-label": "Atamalar kópligi",
+	"droplets-subpages-parentpage-label": "Tiykarǵı bet",
+	"droplets-map-condition-label": "Sharayat",
+	"droplets-map-center-label": "Dıqqat",
+	"droplets-buttonlink-external-label": "Sırtqı silteme",
+	"droplets-buttonlink-target-label": "Maqset",
+	"droplets-buttonlink-format-label": "Artqı fon reńi"
 }
