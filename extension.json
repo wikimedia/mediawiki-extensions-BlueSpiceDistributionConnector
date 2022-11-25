@@ -286,6 +286,7 @@
 			],
 			"messages": [
 				"bs-distributionconnector-statistics-report-page-hits",
+				"bs-distributionconnector-statistics-report-page-hits-axis-label",
 				"bs-distributionconnector-statistics-report-page-trends",
 				"bs-distributionconnector-statistics-report-page-trends-axis-value",
 				"bs-distributionconnector-statistics-report-page-hits-relation",

@@ -19,4 +19,11 @@
 	bs.distributionConnector.report.PageHitsReport.prototype.getChart = function () {
 		return new bs.aggregatedStatistics.charts.LineChart();
 	};
+
+	bs.distributionConnector.report.PageHitsReport.prototype.getAxisLabels = function () {
+		return {
+			value: mw.message( 'bs-distributionconnector-statistics-report-page-hits-axis-label' ).text()
+		};
+	};
+
 } )( mediaWiki, jQuery , blueSpice);
