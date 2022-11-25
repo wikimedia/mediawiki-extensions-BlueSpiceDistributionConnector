@@ -1,10 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kizule"
+			"Kizule",
+			"Milicevic01"
 		]
 	},
 	"bs-distributionconnector-checkpermissions-label-user": "Корисник",
 	"bs-distributionconnector-checkpermissions-label-permission": "Дозвола",
-	"bs-distributionconnector-checkpermissions-label-title": "Наслов"
+	"bs-distributionconnector-checkpermissions-label-title": "Наслов",
+	"droplets-circled-number-label": "Број",
+	"droplets-subpages-namespace-label": "Именски простор",
+	"droplets-buttonlink-external-label": "Спољашња веза"
 }
