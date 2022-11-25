@@ -141,5 +141,6 @@
 	"droplets-buttonlink-external-label": "Label for input field to set if internal link or not",
 	"droplets-buttonlink-target-label": "Label for input field to set target of button link",
 	"droplets-buttonlink-label-label": "Label for input field to insert text for button",
-	"droplets-buttonlink-format-label": "Label for input field to set background color"
+	"droplets-buttonlink-format-label": "Label for input field to set background color",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Label of axis for statistics report page views"
 }
