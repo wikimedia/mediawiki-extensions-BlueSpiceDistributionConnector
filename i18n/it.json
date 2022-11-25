@@ -103,5 +103,17 @@
 	"bs-distributionconnector-notification-logged-in": "Accesso effettuato",
 	"bs-distributionconnector-invite-signup-dialog-text": "Abbandonare questa pagina per invitare un nuovo utente?",
 	"bs-distributionconnector-statistics-report-page-hits-relation": "Pagine visitate in relazione",
-	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Pagine visitate in relazione al totale visite"
+	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Pagine visitate in relazione al totale visite",
+	"bs-distributionconnector-videodropletinspector-service-label": "Servizio",
+	"droplets-circled-number-bg-color-label": "Colore di sfondo",
+	"droplets-circled-number-label": "Numero",
+	"droplets-subpages-namespace-label": "Namespace",
+	"droplets-subpages-namespace-help": "Lascia vuoto per il namespace principale",
+	"droplets-subpages-parentpage-help": "Pagina di cui devono essere elencate le sottopagine",
+	"droplets-subpages-bullets-label": "Elenco puntato",
+	"droplets-map-condition-label": "Condizione",
+	"droplets-buttonlink-external-label": "Collegamento esterno",
+	"droplets-buttonlink-target-label": "Obiettivo",
+	"droplets-buttonlink-label-label": "Testo sul pulsante",
+	"droplets-buttonlink-format-label": "Colore di sfondo"
 }
