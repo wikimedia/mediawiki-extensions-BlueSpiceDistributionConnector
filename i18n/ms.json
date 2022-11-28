@@ -5,5 +5,9 @@
 		]
 	},
 	"bs-distributionconnector-default-definition-report-vote": "undi",
-	"bs-distributionconnector-pref-eventbus-eventservices-key": "Nama perkhidmatan"
+	"bs-distributionconnector-pref-eventbus-eventservices-key": "Nama perkhidmatan",
+	"droplets-circled-number-bg-color-label": "Warna latar belakang",
+	"droplets-subpages-namespace-label": "Ruang nama",
+	"droplets-buttonlink-external-label": "Pautan luar",
+	"droplets-buttonlink-format-label": "Warna latar belakang"
 }
