@@ -87,5 +87,8 @@
 	"bs-distributionconnector-invite-signup-dialog-title": "사용자 초대",
 	"bs-distributionconnector-invite-signup-dialog-text": "새 사용자를 초대하기 위해 이 페이지를 떠나시겠습니까?",
 	"right-duplicate": "문서 복제",
-	"action-duplicate": "문서를 복제할"
+	"action-duplicate": "문서를 복제할",
+	"droplets-circled-number-bg-color-label": "배경색",
+	"droplets-circled-number-fg-color-label": "전경색",
+	"droplets-buttonlink-external-label": "외부 링크"
 }
