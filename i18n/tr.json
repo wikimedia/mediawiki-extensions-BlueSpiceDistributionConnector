@@ -105,5 +105,9 @@
 	"bs-distributionconnector-checkpermissions-label-title": "Başlık",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "Girilen kullanıcı adı geçersiz",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "Girilen başlık geçersiz",
-	"bs-distributionconnector-notification-logged-in": "Oturum açtınız"
+	"bs-distributionconnector-notification-logged-in": "Oturum açtınız",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Davet et",
+	"bs-distributionconnector-invite-signup-dialog-title": "Kullanıcıyı davet et",
+	"droplets-subpages-namespace-label": "Ad alanı",
+	"droplets-map-condition-label": "Şart"
 }
