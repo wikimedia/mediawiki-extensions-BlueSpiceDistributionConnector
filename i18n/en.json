@@ -134,5 +134,6 @@
 	"droplets-buttonlink-external-label": "External link",
 	"droplets-buttonlink-target-label": "Target",
 	"droplets-buttonlink-label-label": "Text on button",
-	"droplets-buttonlink-format-label": "Background color"
+	"droplets-buttonlink-format-label": "Background color",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Number of page views"
 }
