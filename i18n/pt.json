@@ -134,5 +134,6 @@
 	"droplets-buttonlink-external-label": "Hiperligação externa",
 	"droplets-buttonlink-target-label": "Destino",
 	"droplets-buttonlink-label-label": "Texto no botão",
-	"droplets-buttonlink-format-label": "Cor de fundo"
+	"droplets-buttonlink-format-label": "Cor de fundo",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Número de visualizações de página"
 }

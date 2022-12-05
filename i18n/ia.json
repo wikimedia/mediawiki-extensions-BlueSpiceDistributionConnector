@@ -133,5 +133,6 @@
 	"droplets-buttonlink-external-label": "Ligamine externe",
 	"droplets-buttonlink-target-label": "Objectivo",
 	"droplets-buttonlink-label-label": "Texto sur le button",
-	"droplets-buttonlink-format-label": "Color de fundo"
+	"droplets-buttonlink-format-label": "Color de fundo",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Numero de visitas de paginas"
 }
