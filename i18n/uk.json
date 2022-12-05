@@ -117,5 +117,6 @@
 	"right-duplicate": "Дублювання сторінок",
 	"action-duplicate": "дублювати сторінку",
 	"bs-distributionconnector-pref-eventbus-eventservices-help": "Визначені служби для розширення \"EventBus\", яке поширює зміни стану (редагування, переміщення, видалення, перегляд видимості тощо) до служби подій RESTful, надаючи споживачам служби засоби відстеження змін у вмісті MediaWiki",
-	"bs-distributionconnector-statistics-report-page-hits-relation": "Відвідування сторінок у відношенні"
+	"bs-distributionconnector-statistics-report-page-hits-relation": "Відвідування сторінок у відношенні",
+	"bs-distributionconnector-workflows-ui-trigger-field-days": "Зміщення днів від дати у властивості"
 }

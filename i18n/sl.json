@@ -133,5 +133,6 @@
 	"droplets-buttonlink-external-label": "Zunanja povezava",
 	"droplets-buttonlink-target-label": "Cilj",
 	"droplets-buttonlink-label-label": "Besedilo gumba",
-	"droplets-buttonlink-format-label": "Barva ozadja"
+	"droplets-buttonlink-format-label": "Barva ozadja",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Število ogledov strani"
 }

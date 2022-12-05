@@ -140,5 +140,6 @@
 	"droplets-buttonlink-external-label": "Lien externe",
 	"droplets-buttonlink-target-label": "Cible",
 	"droplets-buttonlink-label-label": "Texte sur le bouton",
-	"droplets-buttonlink-format-label": "Couleur d’arrière-plan"
+	"droplets-buttonlink-format-label": "Couleur d’arrière-plan",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Nombre de vues de la page"
 }
