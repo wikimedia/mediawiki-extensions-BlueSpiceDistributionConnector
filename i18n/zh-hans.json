@@ -26,6 +26,7 @@
 			"沈澄心",
 			"落花有意12138",
 			"铁桶",
+			"飞小RAN",
 			50829
 		]
 	},
@@ -136,5 +137,18 @@
 	"bs-distributionconnector-invite-signup-dialog-title": "邀请用户",
 	"bs-distributionconnector-invite-signup-dialog-text": "离开此页面以邀请新用户？",
 	"right-duplicate": "复制页面",
-	"action-duplicate": "复制页面"
+	"action-duplicate": "复制页面",
+	"bs-distributionconnector-videodropletinspector-service-label": "服务",
+	"droplets-circled-number-bg-color-label": "背景颜色",
+	"droplets-circled-number-fg-color-label": "前景颜色",
+	"droplets-circled-number-label": "数字",
+	"droplets-subpages-namespace-label": "命名空间",
+	"droplets-subpages-namespace-help": "留空主命名空间",
+	"droplets-subpages-parentpage-label": "父页面",
+	"droplets-subpages-parentpage-help": "应列出其子页面的页面",
+	"droplets-buttonlink-external-label": "外部链接",
+	"droplets-buttonlink-target-label": "目标",
+	"droplets-buttonlink-label-label": "按钮上的文字",
+	"droplets-buttonlink-format-label": "背景颜色",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "查看次数"
 }

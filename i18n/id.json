@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"DARMAS BUDI SANTOSO",
 			"NFarras"
 		]
 	},
-	"bs-distributionconnector-checkpermissions-label-permission": "Izin"
+	"bs-distributionconnector-checkpermissions-label-permission": "Izin",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Number of page views"
 }
