@@ -115,5 +115,6 @@
 	"droplets-buttonlink-external-label": "Collegamento esterno",
 	"droplets-buttonlink-target-label": "Obiettivo",
 	"droplets-buttonlink-label-label": "Testo sul pulsante",
-	"droplets-buttonlink-format-label": "Colore di sfondo"
+	"droplets-buttonlink-format-label": "Colore di sfondo",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Numero di visite alla pagina"
 }
