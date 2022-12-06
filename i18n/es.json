@@ -130,5 +130,7 @@
 	"right-duplicate": "Páginas duplicadas",
 	"action-duplicate": "Página duplicada",
 	"bs-distributionconnector-statistics-report-page-hits-relation": "Visitas a la página en relación",
-	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Visitas a la página en relación al total de visitas"
+	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Visitas a la página en relación al total de visitas",
+	"droplets-circled-number-label": "Número",
+	"droplets-subpages-namespace-label": "Espacio de nombre"
 }
