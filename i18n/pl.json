@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chrumps",
 			"Kareyac",
 			"Mruczek",
 			"Rail"
@@ -16,5 +17,6 @@
 	"bs-distributionconnector-pref-openidconnect-config-icon": "URL ikony",
 	"bs-distributionconnector-pref-openidconnect-config-scope": "Zakres",
 	"bs-distributionconnector-workflows-form-expert-user": "Ekspert",
-	"bs-distributionconnector-checkpermissions-label-user": "Użytkownik"
+	"bs-distributionconnector-checkpermissions-label-user": "Użytkownik",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Liczba wyświetleń strony"
 }
