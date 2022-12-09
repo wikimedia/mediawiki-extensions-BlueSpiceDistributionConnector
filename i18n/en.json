@@ -150,5 +150,8 @@
 	"droplets-create-input-alignment-left-label": "left",
 	"droplets-create-input-alignment-right-label": "right",
 	"droplets-create-input-name": "Create page",
-	"droplets-create-input-desc": "Form field for predefined page creation"
+	"droplets-create-input-desc": "Form field for predefined page creation",
+	"droplets-pdf-link-page-label": "Page to export",
+	"droplets-pdf-link-template-label": "PDF template",
+	"droplets-pdf-link-label-label": "Text for displayed link"
 }

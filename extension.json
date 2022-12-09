@@ -217,6 +217,9 @@
 				},
 				"createInput": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\CreateInputDroplet"
+				},
+				"pdflink": {
+					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\PDFLinkDroplet"
 				}
 			}
 		}
@@ -453,6 +456,22 @@
 				"droplets-create-input-alignment-label",
 				"droplets-create-input-alignment-left-label",
 				"droplets-create-input-alignment-right-label"
+			]
+		},
+		"ext.bluespice.distribution.droplet.pdflink": {
+			"scripts": [
+				"object/PDFLinkDroplet.js"
+			],
+			"styles": [
+				"stylesheets/bluespice.contentdroplets.pdflink.css"
+			],
+			"dependencies": [
+				"ext.contentdroplets.bootstrap"
+			],
+			"messages": [
+				"droplets-pdf-link-page-label",
+				"droplets-pdf-link-template-label",
+				"droplets-pdf-link-label-label"
 			]
 		}
 	},
