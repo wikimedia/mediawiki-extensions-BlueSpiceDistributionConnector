@@ -222,6 +222,13 @@
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\PDFLinkDroplet"
 				}
 			}
+		},
+		"MWStakeContentProvisioner": {
+			"ContentManifests": {
+				"DefaultContentProvisioner": [
+					"extensions/BlueSpiceDistributionConnector/data/Content/ContentDropletsTemplates/manifest.json"
+				]
+			}
 		}
 	},
 	"callback": "\\BlueSpice\\DistributionConnector\\Extension::onRegistration",
