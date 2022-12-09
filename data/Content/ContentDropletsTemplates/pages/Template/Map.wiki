@@ -1,0 +1,1 @@
+{{#display_map:{{{1|Regensburg}}}|center={{{2|Regensburg}}}}}

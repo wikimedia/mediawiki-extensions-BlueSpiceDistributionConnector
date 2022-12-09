@@ -1,0 +1,3 @@
+/* columns for template Subpages */
+.template-subpages .mw-prefixindex-body { columns: 1; }
+.no-bullets ul {list-style-type:none;}
