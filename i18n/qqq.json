@@ -157,5 +157,8 @@
 	"droplets-create-input-alignment-left-label": "Label for option in dropdown",
 	"droplets-create-input-alignment-right-label": "Label for option in dropdown",
 	"droplets-create-input-name": "Title of droplet for template create input",
-	"droplets-create-input-desc": "Description of droplet for template create input"
+	"droplets-create-input-desc": "Description of droplet for template create input",
+	"droplets-pdf-link-page-label": "Label for text input to insert page for export",
+	"droplets-pdf-link-template-label": "Label for text input to insert template name",
+	"droplets-pdf-link-label-label": "Label for text input to insert label of link"
 }
