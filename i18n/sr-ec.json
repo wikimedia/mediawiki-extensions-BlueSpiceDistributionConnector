@@ -10,5 +10,6 @@
 	"bs-distributionconnector-checkpermissions-label-title": "Наслов",
 	"droplets-circled-number-label": "Број",
 	"droplets-subpages-namespace-label": "Именски простор",
-	"droplets-buttonlink-external-label": "Спољашња веза"
+	"droplets-buttonlink-external-label": "Спољашња веза",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Број прегледа страница"
 }

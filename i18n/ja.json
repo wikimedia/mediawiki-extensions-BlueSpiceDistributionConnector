@@ -5,7 +5,8 @@
 			"Aefgh39622",
 			"Ajeje Brazorf",
 			"MathXplore",
-			"Mugenpman"
+			"Mugenpman",
+			"バレロン"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "あなたのドメイン",
@@ -55,5 +56,6 @@
 	"droplets-map-condition-label": "条件",
 	"droplets-buttonlink-external-label": "外部リンク",
 	"droplets-buttonlink-target-label": "対象",
-	"droplets-buttonlink-format-label": "背景色"
+	"droplets-buttonlink-format-label": "背景色",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "閲覧数"
 }

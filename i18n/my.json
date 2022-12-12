@@ -11,5 +11,8 @@
 	"bs-distributionconnector-workflows-form-label-reviewer": "ပြန်လည်ဆန်းစစ်သူ",
 	"bs-sandbox": "သဲပုံး",
 	"bs-helpdesk": "အကူညီစားပွဲ",
-	"bs-support": "ထောက်ပံ့မှု"
+	"bs-support": "ထောက်ပံ့မှု",
+	"bs-distributionconnector-videodropletinspector-service-label": "ဝန်ဆောင်မှု",
+	"droplets-circled-number-bg-color-label": "နောက်ခံအရောင်",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "စာမျက်နှာကြည့်ရှုနှုန်း အရေအတွက်"
 }
