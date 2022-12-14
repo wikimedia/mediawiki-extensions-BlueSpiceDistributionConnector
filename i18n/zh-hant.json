@@ -7,7 +7,8 @@
 			"Madeleinemcc",
 			"Seikan Tunnel",
 			"Weather Top Wizard",
-			"Winston Sung"
+			"Winston Sung",
+			"捍粵者"
 		]
 	},
 	"bs-distributionconnector-extension-description": "連接 BlueSpice 至各種 MediaWiki 擴充套件",
@@ -39,7 +40,7 @@
 	"bs-distributionconnector-pref-openidconnect-migrateusersbyusername": "透過使用者名稱遷移使用者",
 	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "透過電子郵件遷移使用者",
 	"bs-distributionconnector-pref-openidconnect-forcelogout": "強制登出",
-	"bs-distributionconnector-pref-openidconnect-config-key": "發行人的網址",
+	"bs-distributionconnector-pref-openidconnect-config-key": "發行人網址",
 	"bs-distributionconnector-pref-openidconnect-config-clientid": "客戶端 ID",
 	"bs-distributionconnector-pref-openidconnect-config-clientsecret": "客戶端密鑰",
 	"bs-distributionconnector-pref-openidconnect-config-name": "顯示名稱",
