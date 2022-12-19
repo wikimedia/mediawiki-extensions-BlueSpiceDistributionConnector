@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Afalau",
 			"Robin Owain"
 		]
 	},
-	"bs-distributionconnector-setting-path-authentication": "Dilysu"
+	"bs-distributionconnector-setting-path-authentication": "Dilysu",
+	"bs-sandbox": "Pwll Tywod",
+	"bs-distributionconnector-notification-logged-in": "Rydych chi newydd mewngofnodi"
 }

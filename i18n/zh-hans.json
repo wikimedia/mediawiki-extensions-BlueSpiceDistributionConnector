@@ -12,6 +12,7 @@
 			"Hydra",
 			"Lakejason0",
 			"LaoShuBaby",
+			"LittlePaw365",
 			"Nervie",
 			"Qiyue2001",
 			"Stang",
@@ -150,5 +151,8 @@
 	"droplets-buttonlink-target-label": "目标",
 	"droplets-buttonlink-label-label": "按钮上的文字",
 	"droplets-buttonlink-format-label": "背景颜色",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "查看次数"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "查看次数",
+	"droplets-subpages-cols-label": "列布局",
+	"droplets-map-condition-label": "条件",
+	"droplets-map-center-label": "焦点"
 }
