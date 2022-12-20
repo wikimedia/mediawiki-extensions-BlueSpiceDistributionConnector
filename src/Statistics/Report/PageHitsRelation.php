@@ -24,6 +24,9 @@ class PageHitsRelation extends PageHits {
 			}
 			$value = $data[$filterForPage][$this->getDataKeyToDisplay()] / $data['total'];
 			if ( $value === null ) {
+				if ( $data['total'] === 0 ) {
+					continue;
+				}
 				$value = $data[$filterForPage]['hits'] / $data['total'];
 			}
 			$processed[] = [
