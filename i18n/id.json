@@ -1,10 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
+			"Agam Riyandana",
 			"DARMAS BUDI SANTOSO",
 			"NFarras"
 		]
 	},
 	"bs-distributionconnector-checkpermissions-label-permission": "Izin",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Number of page views"
+	"bs-distributionconnector-videodropletinspector-service-label": "Layanan",
+	"droplets-circled-number-fg-color-label": "Warna latar depan",
+	"droplets-circled-number-label": "Nomor",
+	"droplets-subpages-parentpage-help": "Halaman yang subhalamannya harus dicantumkan",
+	"droplets-subpages-cols-label": "Tata letak kolom",
+	"droplets-subpages-cols-help": "\"ya\" membuat tata letak 3 kolom, \"tidak\" tidak membuat kolom",
+	"droplets-subpages-bullets-label": "Poin peluru",
+	"droplets-map-center-label": "Fokus",
+	"droplets-buttonlink-external-label": "Tautan eksternal",
+	"droplets-buttonlink-target-label": "Target",
+	"droplets-buttonlink-format-label": "Warna latar belakang"
 }
