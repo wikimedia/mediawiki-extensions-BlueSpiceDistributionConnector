@@ -3,8 +3,8 @@
 namespace BlueSpice\DistributionConnector\Data\Page\HitCounter;
 
 use BlueSpice\Data\Page\Reader as PageReader;
-use BlueSpice\Data\ReaderParams;
 use IContextSource;
+use MWStake\MediaWiki\Component\DataStore\ReaderParams;
 use Wikimedia\Rdbms\LoadBalancer;
 
 class Reader extends PageReader {
