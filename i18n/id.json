@@ -17,5 +17,6 @@
 	"droplets-map-center-label": "Fokus",
 	"droplets-buttonlink-external-label": "Tautan eksternal",
 	"droplets-buttonlink-target-label": "Target",
-	"droplets-buttonlink-format-label": "Warna latar belakang"
+	"droplets-buttonlink-format-label": "Warna latar belakang",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Jumlah tampilan halaman"
 }
