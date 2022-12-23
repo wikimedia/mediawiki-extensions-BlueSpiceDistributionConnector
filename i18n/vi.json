@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Keo010122"
+			"Keo010122",
+			"Nguyenphutrong2"
 		]
 	},
 	"bs-distributionconnector-default-user-vote-report-delegated-message": "ủy quyền cho $1",
 	"bs-distributionconnector-default-definition-report-review": "Duyệt",
 	"bs-distributionconnector-default-definition-report-approve": "Chấp nhận",
 	"bs-distributionconnector-default-definition-report-vote": "bình chọn",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Quá hạn"
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Quá hạn",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Số lần xem trang"
 }
