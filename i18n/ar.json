@@ -64,5 +64,6 @@
 	"bs-helpdesk": "مكتب المساعدة",
 	"bs-distributionconnector-workflows-form-head-user": "رئيس القسم",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "اسم المستخدم المقدم غير صالح",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "عدد مشاهدات الصفحة"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "عدد مشاهدات الصفحة",
+	"bs-distributionconnector-workflows-form-instructions": "تعليمات"
 }
