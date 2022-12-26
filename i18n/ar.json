@@ -43,6 +43,7 @@
 	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "تحقق من القرين",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "نقرات الصفحة",
 	"bs-distributionconnector-workflows-form-groupname": "المجموعة",
+	"bs-distributionconnector-workflows-form-instructions": "تعليمات",
 	"bs-distributionconnector-workflows-form-username": "المستخدم",
 	"bs-distributionconnector-workflows-form-head-user": "رئيس القسم",
 	"bs-distributionconnector-workflows-form-comment": "تعليق",
