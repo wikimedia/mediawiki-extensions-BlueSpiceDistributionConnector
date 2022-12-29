@@ -65,5 +65,7 @@
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "دعوة",
 	"bs-distributionconnector-invite-signup-dialog-text": "غادر هذه الصفحة لدعوة مستخدم جديد؟",
 	"bs-distributionconnector-statistics-report-page-hits-axis-label": "عدد مشاهدات الصفحة",
-	"bs-distributionconnector-workflows-form-instructions": "تعليمات"
+	"bs-distributionconnector-workflows-form-instructions": "تعليمات",
+	"droplets-circled-number-bg-color-label": "لون الخلفية",
+	"droplets-buttonlink-format-label": "لون الخلفية"
 }
