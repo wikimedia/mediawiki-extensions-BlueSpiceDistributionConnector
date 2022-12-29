@@ -65,5 +65,7 @@
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "اسم المستخدم المقدم غير صالح",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "دعوة",
 	"bs-distributionconnector-invite-signup-dialog-text": "غادر هذه الصفحة لدعوة مستخدم جديد؟",
+	"droplets-circled-number-bg-color-label": "لون الخلفية",
+	"droplets-buttonlink-format-label": "لون الخلفية",
 	"bs-distributionconnector-statistics-report-page-hits-axis-label": "عدد مشاهدات الصفحة"
 }
