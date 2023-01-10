@@ -5,6 +5,7 @@
 			"Duke of Wikipädia",
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
+			"Fúlvio",
 			"Juan90264"
 		]
 	},
@@ -117,5 +118,14 @@
 	"bs-distributionconnector-invite-signup-dialog-title": "Convidar usuário",
 	"bs-distributionconnector-invite-signup-dialog-text": "Sair desta página para convidar um novo usuário?",
 	"right-duplicate": "Duplicar páginas",
-	"action-duplicate": "duplicar página"
+	"action-duplicate": "duplicar página",
+	"bs-distributionconnector-statistics-report-page-hits-relation": "Visitas à página em relação",
+	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Visitas à página em relação ao total de visitas",
+	"bs-distributionconnector-videodropletinspector-service-label": "Serviço",
+	"droplets-circled-number-bg-color-label": "Cor de fundo",
+	"droplets-circled-number-fg-color-label": "Cor do primeiro plano",
+	"droplets-circled-number-label": "Número",
+	"droplets-subpages-namespace-label": "Espaço nominal",
+	"droplets-subpages-namespace-help": "Deixe em branco para o espaço nominal principal",
+	"droplets-subpages-parentpage-label": "Página mãe"
 }
