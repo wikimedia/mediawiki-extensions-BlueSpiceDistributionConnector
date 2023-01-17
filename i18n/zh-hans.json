@@ -10,6 +10,7 @@
 			"Func",
 			"GuoPC",
 			"Hydra",
+			"John Smith Ri",
 			"Lakejason0",
 			"LaoShuBaby",
 			"LittlePaw365",
@@ -154,5 +155,8 @@
 	"bs-distributionconnector-statistics-report-page-hits-axis-label": "查看次数",
 	"droplets-subpages-cols-label": "列布局",
 	"droplets-map-condition-label": "条件",
-	"droplets-map-center-label": "焦点"
+	"droplets-map-center-label": "焦点",
+	"bs-distributionconnector-default-document-control-report-body": "工作流程详细信息：\n开始于： $1 \n完成于： $2 \n页面： $3 \n修订： $4 \n编辑： $5 \n修订人： $6 \n批准人： $7\n修订说明： $8 \n审稿说明： $9 \n批准说明： $10\n意见反馈：\n$11\n\n此电子邮件已发送给您，因为$12已将您指定为此工作流程的电子邮件收件人。",
+	"bs-distributionconnector-statistics-report-page-hits-relation": "相关的页面访问",
+	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "与总访问量相关的页面访问量"
 }

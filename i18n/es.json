@@ -132,5 +132,15 @@
 	"bs-distributionconnector-statistics-report-page-hits-relation": "Visitas a la página en relación",
 	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Visitas a la página en relación al total de visitas",
 	"droplets-circled-number-label": "Número",
-	"droplets-subpages-namespace-label": "Espacio de nombre"
+	"droplets-subpages-namespace-label": "Espacio de nombre",
+	"bs-distributionconnector-videodropletinspector-service-label": "Servicio",
+	"droplets-circled-number-bg-color-label": "Color de fondo",
+	"droplets-circled-number-fg-color-label": "Color de primer plano",
+	"droplets-subpages-cols-label": "Disposición de columnas",
+	"droplets-map-condition-label": "Condición",
+	"droplets-map-center-label": "Foco",
+	"droplets-buttonlink-external-label": "Enlace externo",
+	"droplets-buttonlink-target-label": "Destino",
+	"droplets-buttonlink-label-label": "Texto sobre botón",
+	"droplets-buttonlink-format-label": "Color de fondo"
 }
