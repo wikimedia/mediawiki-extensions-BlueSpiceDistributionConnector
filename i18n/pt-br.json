@@ -6,7 +6,8 @@
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
 			"Fúlvio",
-			"Juan90264"
+			"Juan90264",
+			"Mello25"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Conecta o BlueSpice a várias extensões do MediaWiki",
@@ -127,5 +128,13 @@
 	"droplets-circled-number-label": "Número",
 	"droplets-subpages-namespace-label": "Espaço nominal",
 	"droplets-subpages-namespace-help": "Deixe em branco para o espaço nominal principal",
-	"droplets-subpages-parentpage-label": "Página mãe"
+	"droplets-subpages-parentpage-label": "Página mãe",
+	"droplets-subpages-parentpage-help": "Página cujas subpáginas devem ser listadas",
+	"droplets-subpages-cols-label": "Disposição das colunas",
+	"droplets-subpages-cols-help": "\"yes\" cria uma disposição em 3 colunas, \"não\" não cria colunas",
+	"droplets-subpages-bullets-label": "Marcadores de lista",
+	"droplets-subpages-bullets-help": "\"no\" remove os marcadores de lista",
+	"droplets-map-condition-label": "Condição",
+	"droplets-map-center-label": "Foco",
+	"droplets-buttonlink-external-label": "Link externo"
 }
