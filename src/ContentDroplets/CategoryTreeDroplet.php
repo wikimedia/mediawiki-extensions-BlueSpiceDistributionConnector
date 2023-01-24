@@ -4,7 +4,6 @@ namespace BlueSpice\DistributionConnector\ContentDroplets;
 
 use MediaWiki\Extension\ContentDroplets\Droplet\TagDroplet;
 use Message;
-use RawMessage;
 
 class CategoryTreeDroplet extends TagDroplet {
 
@@ -12,28 +11,28 @@ class CategoryTreeDroplet extends TagDroplet {
 	 * @inheritDoc
 	 */
 	public function getName(): Message {
-		return new RawMessage( 'CategoryTree' );
+		return Message::newFromKey( 'droplets-categorytree-name' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getDescription(): Message {
-		return new RawMessage( "CategoryTree description" );
+		return Message::newFromKey( 'droplets-categorytree-description' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getIcon(): string {
-		return 'tag';
+		return 'droplet-categorytree';
 	}
 
 	/**
 	 * @inheritDoc
 	 */
-	public function getRLModule(): string {
-		return 'ext.bluespice.distribution.categoryTree.visualEditor';
+	public function getRLModules(): array {
+		return [ 'ext.bluespice.distribution.categoryTree.visualEditor' ];
 	}
 
 	/**

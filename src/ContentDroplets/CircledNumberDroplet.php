@@ -4,7 +4,6 @@ namespace BlueSpice\DistributionConnector\ContentDroplets;
 
 use MediaWiki\Extension\ContentDroplets\Droplet\TemplateDroplet;
 use Message;
-use RawMessage;
 
 class CircledNumberDroplet extends TemplateDroplet {
 
@@ -37,28 +36,28 @@ class CircledNumberDroplet extends TemplateDroplet {
 	 * @inheritDoc
 	 */
 	public function getName(): Message {
-		return new RawMessage( 'Circled Number' );
+		return Message::newFromKey( 'droplets-circled-number-name' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getDescription(): Message {
-		return new RawMessage( 'Number in a circle with customizable background and foreground color' );
+		return Message::newFromKey( 'droplets-circled-number-description' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getIcon(): string {
-		return '';
+		return 'droplet-circled-number';
 	}
 
 	/**
 	 * @inheritDoc
 	 */
-	public function getRLModule(): string {
-		return 'ext.bluespice.distribution.droplet.circlednumber';
+	public function getRLModules(): array {
+		return [ 'ext.bluespice.distribution.droplet.circlednumber' ];
 	}
 
 	/**

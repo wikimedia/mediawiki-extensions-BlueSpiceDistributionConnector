@@ -261,6 +261,9 @@
 				"ve/ve.ui.CategoryTreeInspector.js",
 				"ve/ve.ui.CategoryTreeInspectorTool.js"
 			],
+			"styles": [
+				"stylesheets/bluespice.contentdroplets.categorytree.css"
+			],
 			"targets": [
 				"desktop",
 				"mobile"
@@ -357,6 +360,9 @@
 				"ve/ve.ui.VideoDropletInspector.js",
 				"ve/ve.ui.VideoDropletInspectorTool.js"
 			],
+			"styles": [
+				"stylesheets/bluespice.contentdroplets.video.css"
+			],
 			"messages": [
 				"bs-distributionconnector-videodropletinspector-service-label"
 			]
@@ -364,6 +370,9 @@
 		"ext.bluespice.distribution.droplet.map": {
 			"scripts": [
 				"object/MapDroplet.js"
+			],
+			"styles": [
+				"stylesheets/bluespice.contentdroplets.map.css"
 			],
 			"messages": [
 				"droplets-map-condition-label",
@@ -373,6 +382,9 @@
 		"ext.bluespice.distribution.object.buttonlink": {
 			"scripts": [
 				"object/ButtonLinkDroplet.js"
+			],
+			"styles": [
+				"stylesheets/bluespice.contentdroplets.button.css"
 			],
 			"dependencies": [
 				"oojs-ui"
@@ -387,6 +399,9 @@
 		"ext.bluespice.distribution.droplet.subpages": {
 			"scripts": [
 				"object/SubpagesDroplet.js"
+			],
+			"styles": [
+				"stylesheets/bluespice.contentdroplets.subpages.css"
 			],
 			"messages": [
 				"droplets-subpages-namespace-label",
@@ -403,6 +418,9 @@
 			"scripts": [
 				"object/CircledNumberDroplet.js"
 			],
+			"styles": [
+				"stylesheets/bluespice.contentdroplets.circled-number.css"
+			],
 			"dependencies": [
 				"ext.contentdroplets.bootstrap"
 			],
@@ -410,6 +428,11 @@
 				"droplets-circled-number-bg-color-label",
 				"droplets-circled-number-fg-color-label",
 				"droplets-circled-number-label"
+			]
+		},
+		"ext.bluespice.distribution.droplet.gallery": {
+			"styles": [
+				"stylesheets/bluespice.contentdroplets.gallery.css"
 			]
 		}
 	},
