@@ -4,7 +4,6 @@ namespace BlueSpice\DistributionConnector\ContentDroplets;
 
 use MediaWiki\Extension\ContentDroplets\Droplet\TemplateDroplet;
 use Message;
-use RawMessage;
 
 class SubpagesDroplet extends TemplateDroplet {
 
@@ -12,28 +11,28 @@ class SubpagesDroplet extends TemplateDroplet {
 	 * @inheritDoc
 	 */
 	public function getName(): Message {
-		return new RawMessage( 'Subpages' );
+		return Message::newFromKey( 'droplets-subpages-name' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getDescription(): Message {
-		return new RawMessage( "Subpages description" );
+		return Message::newFromKey( 'droplets-subpages-description' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getIcon(): string {
-		return 'listBullet';
+		return 'droplet-subpages';
 	}
 
 	/**
 	 * @inheritDoc
 	 */
-	public function getRLModule(): string {
-		return 'ext.bluespice.distribution.droplet.subpages';
+	public function getRLModules(): array {
+		return [ 'ext.bluespice.distribution.droplet.subpages' ];
 	}
 
 	/**
