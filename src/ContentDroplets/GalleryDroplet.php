@@ -6,7 +6,6 @@ namespace BlueSpice\DistributionConnector\ContentDroplets;
 
 use MediaWiki\Extension\ContentDroplets\Droplet\TagDroplet;
 use Message;
-use RawMessage;
 
 class GalleryDroplet extends TagDroplet {
 
@@ -19,28 +18,28 @@ class GalleryDroplet extends TagDroplet {
 	 * @inheritDoc
 	 */
 	public function getName(): Message {
-		return new RawMessage( 'Gallery' );
+		return Message::newFromKey( 'droplets-gallery-name' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getDescription(): Message {
-		return new RawMessage( "Gallery description" );
+		return Message::newFromKey( 'droplets-gallery-description' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getIcon(): string {
-		return 'imageGallery';
+		return 'droplet-gallery';
 	}
 
 	/**
 	 * @inheritDoc
 	 */
-	public function getRLModule(): string {
-		return 'ext.visualEditor.mwgallery';
+	public function getRLModules(): array {
+		return [ 'ext.visualEditor.mwgallery' ];
 	}
 
 	/**

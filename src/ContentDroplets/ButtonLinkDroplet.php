@@ -4,7 +4,6 @@ namespace BlueSpice\DistributionConnector\ContentDroplets;
 
 use MediaWiki\Extension\ContentDroplets\Droplet\TemplateDroplet;
 use Message;
-use RawMessage;
 
 class ButtonLinkDroplet extends TemplateDroplet {
 
@@ -33,28 +32,28 @@ class ButtonLinkDroplet extends TemplateDroplet {
 	 * @inheritDoc
 	 */
 	public function getName(): Message {
-		return new RawMessage( 'ButtonLink' );
+		return Message::newFromKey( 'droplets-buttonlink-name' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getDescription(): Message {
-		return new RawMessage( 'Button with link' );
+		return Message::newFromKey( 'droplets-buttonlink-description' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getIcon(): string {
-		return '';
+		return 'droplet-button';
 	}
 
 	/**
 	 * @inheritDoc
 	 */
-	public function getRLModule(): string {
-		return 'ext.bluespice.distribution.object.buttonlink';
+	public function getRLModules(): array {
+		return [ 'ext.bluespice.distribution.object.buttonlink' ];
 	}
 
 	/**
