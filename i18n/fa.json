@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"0PAWN0",
 			"Ajam",
 			"Beginneruser",
 			"Darafsh",
@@ -78,5 +79,16 @@
 	"bs-distributionconnector-workflows-form-instructions-approver": "راهنماها برای تأییدکننده",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "دعوت",
 	"bs-distributionconnector-invite-signup-dialog-title": "دعوت از کاربر",
-	"action-duplicate": "صفحهٔ تکراری"
+	"action-duplicate": "صفحهٔ تکراری",
+	"bs-distributionconnector-default-user-vote-report-delegated-message": "به $1 تفویض شده است.",
+	"bs-distributionconnector-pref-eventbus-eventservices": "رویداد خدمات‌ها",
+	"droplets-circled-number-bg-color-label": "رنگ پس‌زمینه",
+	"droplets-circled-number-fg-color-label": "رنگ پیش‌زمینه",
+	"droplets-circled-number-label": "شماره",
+	"droplets-subpages-namespace-label": "فضای نام",
+	"droplets-subpages-parentpage-label": "صفحه والد",
+	"droplets-buttonlink-target-label": "هدف",
+	"droplets-buttonlink-label-label": "متن روی دکمه",
+	"droplets-buttonlink-format-label": "رنگ پس‌زمینه",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "تعداد مشاهده‌ٔ صفحه‌"
 }
