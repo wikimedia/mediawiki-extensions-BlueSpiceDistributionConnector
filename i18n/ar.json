@@ -67,5 +67,6 @@
 	"bs-distributionconnector-statistics-report-page-hits-axis-label": "عدد مشاهدات الصفحة",
 	"bs-distributionconnector-workflows-form-instructions": "تعليمات",
 	"droplets-circled-number-bg-color-label": "لون الخلفية",
-	"droplets-buttonlink-format-label": "لون الخلفية"
+	"droplets-buttonlink-format-label": "لون الخلفية",
+	"droplets-subpages-namespace-label": "النطاق"
 }
