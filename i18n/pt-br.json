@@ -136,5 +136,9 @@
 	"droplets-subpages-bullets-help": "\"no\" remove os marcadores de lista",
 	"droplets-map-condition-label": "Condição",
 	"droplets-map-center-label": "Foco",
-	"droplets-buttonlink-external-label": "Link externo"
+	"droplets-buttonlink-external-label": "Link externo",
+	"droplets-buttonlink-target-label": "Destino",
+	"droplets-buttonlink-label-label": "Texto no botão",
+	"droplets-buttonlink-format-label": "Cor de fundo",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Número de visualizações da página"
 }
