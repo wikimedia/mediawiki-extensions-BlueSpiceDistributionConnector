@@ -109,5 +109,6 @@
 	"droplets-buttonlink-target-label": "יעד",
 	"droplets-buttonlink-label-label": "טקסט על הכפתור",
 	"droplets-buttonlink-format-label": "צבע הרקע",
-	"bs-distributionconnector-extension-description": "חיבור BlueSpice להרחבות שונות של מדיה־ויקי"
+	"bs-distributionconnector-extension-description": "חיבור BlueSpice להרחבות שונות של מדיה־ויקי",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "זמן קצוב"
 }
