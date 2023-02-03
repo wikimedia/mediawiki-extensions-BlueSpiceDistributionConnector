@@ -87,6 +87,7 @@
 	"bs-distributionconnector-pref-eventbus-eventservices": "שירותי אירועים",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "שם השירות",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "כתובת URL",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "זמן קצוב",
 	"bs-distributionconnector-checkpermissions": "בדיקת הרשאות",
 	"bs-distributionconnector-checkpermissions-label-user": "משתמש",
 	"bs-distributionconnector-checkpermissions-label-permission": "הרשאה",
