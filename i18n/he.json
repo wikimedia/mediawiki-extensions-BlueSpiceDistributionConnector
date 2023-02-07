@@ -110,5 +110,9 @@
 	"droplets-buttonlink-label-label": "טקסט על הכפתור",
 	"droplets-buttonlink-format-label": "צבע הרקע",
 	"bs-distributionconnector-extension-description": "חיבור BlueSpice להרחבות שונות של מדיה־ויקי",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "זמן קצוב"
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "זמן קצוב",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "שם המשתמש שסופק אינו תקין",
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "הכותרת שסופקה אינה תקינה",
+	"bs-distributionconnector-notification-logged-in": "עכשיו נכנסת לחשבון",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "מספר הצפיות בדף"
 }
