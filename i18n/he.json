@@ -92,7 +92,10 @@
 	"bs-distributionconnector-checkpermissions-label-user": "משתמש",
 	"bs-distributionconnector-checkpermissions-label-permission": "הרשאה",
 	"bs-distributionconnector-checkpermissions-label-title": "כותרת",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "שם המשתמש שסופק אינו תקין",
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "הכותרת שסופקה אינה תקינה",
 	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] קיבל את ההרשאה \"$2\" לדף [[$3]]",
+	"bs-distributionconnector-notification-logged-in": "עכשיו נכנסת לחשבון",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "להזמין",
 	"bs-distributionconnector-invite-signup-dialog-title": "להזמין משתמש",
 	"bs-distributionconnector-invite-signup-dialog-text": "לעזוב את הדף הזה כדי להזמין משתמש חדש?",
@@ -110,5 +113,6 @@
 	"droplets-buttonlink-external-label": "קישור חיצוני",
 	"droplets-buttonlink-target-label": "יעד",
 	"droplets-buttonlink-label-label": "טקסט על הכפתור",
-	"droplets-buttonlink-format-label": "צבע הרקע"
+	"droplets-buttonlink-format-label": "צבע הרקע",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "מספר הצפיות בדף"
 }
