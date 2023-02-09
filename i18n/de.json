@@ -157,5 +157,21 @@
 	"droplets-create-input-desc": "Formularfeld zur vordefinierten Seitenerstellung",
 	"droplets-pdf-link-page-label": "Seite für Export",
 	"droplets-pdf-link-template-label": "PDF-Template",
-	"droplets-pdf-link-label-label": "Text für angezeigten Link"
+	"droplets-pdf-link-label-label": "Text für angezeigten Link",
+	"droplets-buttonlink-name": "Button",
+	"droplets-buttonlink-description": "Ein Link, der als Schaltfläche dargestellt wird",
+	"droplets-categorytree-name": "Kategorienbaum",
+	"droplets-categorytree-description": "Ausgewählte Kategorien werden in einer Baumstuktur angezeigt",
+	"droplets-circled-number-name": "Eingekreiste Zahl",
+	"droplets-circled-number-description": "Zahl in einem Kreis, der farblich anpassbar ist",
+	"droplets-gallery-name": "Galerie",
+	"droplets-gallery-description": "Anzeige einer Bildergalerie",
+	"droplets-map-name": "Karte",
+	"droplets-map-description": "Standorte können auf der Karte markiert werden",
+	"droplets-subpages-name": "Unterseiten",
+	"droplets-subpages-description": "Liste der Unterseiten einer Wikiseite",
+	"droplets-video-name": "Video",
+	"droplets-video-description": "Bettet Videos von unterschiedlichen Plattformen ein",
+	"droplets-pdflink-name": "PDF Link",
+	"droplets-pdflink-description": "Ein Link, um eine gewünschte Seite als PDF herunterzuladen"
 }
