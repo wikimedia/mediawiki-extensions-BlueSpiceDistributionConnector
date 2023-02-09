@@ -3,6 +3,7 @@
 		"authors": [
 			"Amire80",
 			"Steeve815",
+			"Xnet1234",
 			"YaronSh",
 			"ישראל קלר",
 			"מקף",
@@ -114,5 +115,7 @@
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "שם המשתמש שסופק אינו תקין",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "הכותרת שסופקה אינה תקינה",
 	"bs-distributionconnector-notification-logged-in": "עכשיו נכנסת לחשבון",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "מספר הצפיות בדף"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "מספר הצפיות בדף",
+	"bs-distributionconnector-statistics-report-page-hits-relation": "ביקורים בדף ביחס",
+	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "ביקורים בדף ביחס לסך הביקורים"
 }
