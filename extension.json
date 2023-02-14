@@ -40,7 +40,9 @@
 				"DistributionConnectorSimpleSAMLphpRealNameAttribute": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\RealNameAttribute::getInstance",
 				"DistributionConnectorSimpleSAMLphpSyncAllGroupsGroupAttributeName": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\SyncAllGroupsGroupAttributeName::getInstance",
 				"DistributionConnectorSimpleSAMLphpUsernameAttribute": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\UsernameAttribute::getInstance",
-				"DistributionConnectorEventBusEventServices": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\EventBus\\EventServices::getInstance"
+				"DistributionConnectorEventBusEnableEventBus": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\EventBus\\EnableEventBus::getInstance",
+				"DistributionConnectorEventBusEventServices": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\EventBus\\EventServices::getInstance",
+				"DistributionConnectorEventBusEventServiceDefault": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\EventBus\\EventServiceDefault::getInstance"
 			},
 			"PermissionRegistry": {
 				"dpl_param_delete_rules": {
@@ -472,9 +474,24 @@
 			"descriptionmsg": "bs-distributionconnector-pref-simplesamlphp-usernameattribute",
 			"public": true
 		},
+		"DistributionConnectorEventBusEnableEventBus": {
+			"value": "TYPE_NONE",
+			"descriptionmsg": "bs-distributionconnector-pref-eventbus-enableeventbus",
+			"public": true
+		},
 		"DistributionConnectorEventBusEventServices": {
-			"value": [],
+			"value": {
+				"eventbus": {
+					"url": "http://localhost:3000/v1/events",
+					"timeout": 5
+				}
+			},
 			"descriptionmsg": "bs-distributionconnector-pref-eventbus-eventservices",
+			"public": true
+		},
+		"DistributionConnectorEventBusEventServiceDefault": {
+			"value": "eventbus",
+			"descriptionmsg": "bs-distributionconnector-pref-eventbus-eventservicedefault",
 			"public": true
 		}
 	},
