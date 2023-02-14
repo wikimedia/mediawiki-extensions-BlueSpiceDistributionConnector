@@ -142,5 +142,6 @@
 	"droplets-buttonlink-external-label": "Enlace externo",
 	"droplets-buttonlink-target-label": "Destino",
 	"droplets-buttonlink-label-label": "Texto sobre botón",
-	"droplets-buttonlink-format-label": "Color de fondo"
+	"droplets-buttonlink-format-label": "Color de fondo",
+	"droplets-subpages-namespace-help": "Dejar vacío para el espacio de nombres principal"
 }
