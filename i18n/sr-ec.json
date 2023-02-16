@@ -5,6 +5,8 @@
 			"Milicevic01"
 		]
 	},
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "све",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "ништа",
 	"bs-distributionconnector-checkpermissions-label-user": "Корисник",
 	"bs-distributionconnector-checkpermissions-label-permission": "Дозвола",
 	"bs-distributionconnector-checkpermissions-label-title": "Наслов",
