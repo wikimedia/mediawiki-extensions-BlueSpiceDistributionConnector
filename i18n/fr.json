@@ -141,5 +141,11 @@
 	"droplets-buttonlink-target-label": "Cible",
 	"droplets-buttonlink-label-label": "Texte sur le bouton",
 	"droplets-buttonlink-format-label": "Couleur d’arrière-plan",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Nombre de vues de la page"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Nombre de vues de la page",
+	"bs-distributionconnector-pref-eventbus-enableeventbus": "Activer EventBus pour les événements suivants :",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-help": "Activer EventBus pour les événements sélectionnés.",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "tous",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "aucun",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault": "Service d’événements par défaut",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault-help": "Utiliser ce service d’événements par défaut pour tous les événements."
 }

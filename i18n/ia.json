@@ -134,5 +134,11 @@
 	"droplets-buttonlink-target-label": "Objectivo",
 	"droplets-buttonlink-label-label": "Texto sur le button",
 	"droplets-buttonlink-format-label": "Color de fundo",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Numero de visitas de paginas"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Numero de visitas de paginas",
+	"bs-distributionconnector-pref-eventbus-enableeventbus": "Activar EventBus pro le sequente eventos",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-help": "Activa EventBus pro eventos seligite.",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "totes",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "necun",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault": "Servicio predefinite de eventos",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault-help": "Usar iste servicio de eventos como predefinite pro tote le eventos."
 }
