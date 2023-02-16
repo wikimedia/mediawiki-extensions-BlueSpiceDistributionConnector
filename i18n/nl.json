@@ -143,5 +143,11 @@
 	"droplets-buttonlink-target-label": "Doel",
 	"droplets-buttonlink-label-label": "Tekst op knop",
 	"droplets-buttonlink-format-label": "Achtergrondkleur",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Aantal keren bekeken"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Aantal keren bekeken",
+	"bs-distributionconnector-pref-eventbus-enableeventbus": "EventBus inschakelen voor de volgende gebeurtenissen",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-help": "Schakelt EventBus in voor geselecteerde gebeurtenissen.",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "alle",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "geen",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault": "Standaard gebeurtenisservice",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault-help": "Deze gebeurtenisservice als standaard gebruiken voor alle gebeurtenissen."
 }
