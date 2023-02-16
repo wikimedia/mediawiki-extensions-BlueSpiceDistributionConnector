@@ -140,5 +140,7 @@
 	"droplets-subpages-bullets-label": "箇条書き",
 	"droplets-subpages-bullets-help": "「いいえ」は箇条書きを削除します",
 	"droplets-map-center-label": "集中",
-	"droplets-buttonlink-label-label": "ボタン上のテキスト"
+	"droplets-buttonlink-label-label": "ボタン上のテキスト",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "すべて",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "なし"
 }

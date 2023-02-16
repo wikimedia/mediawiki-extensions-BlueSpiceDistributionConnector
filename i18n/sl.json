@@ -134,5 +134,11 @@
 	"droplets-buttonlink-target-label": "Cilj",
 	"droplets-buttonlink-label-label": "Besedilo gumba",
 	"droplets-buttonlink-format-label": "Barva ozadja",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Število ogledov strani"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Število ogledov strani",
+	"bs-distributionconnector-pref-eventbus-enableeventbus": "Omogoči EventBus za naslednje dogodke",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-help": "Omogoča EventBus za izbrane dogodke.",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "vse",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "nobenega",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault": "Privzeta storitev dogodkov",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault-help": "Uporabite to storitev dogodkov kot privzeto za vse dogodke."
 }
