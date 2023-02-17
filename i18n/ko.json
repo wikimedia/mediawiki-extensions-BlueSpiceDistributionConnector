@@ -93,5 +93,6 @@
 	"droplets-buttonlink-external-label": "외부 링크",
 	"droplets-subpages-namespace-label": "이름공간",
 	"droplets-buttonlink-format-label": "배경색",
-	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% 성장"
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% 성장",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault": "기본 이벤트 서비스"
 }

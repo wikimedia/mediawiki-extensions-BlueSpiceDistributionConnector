@@ -116,5 +116,9 @@
 	"droplets-buttonlink-target-label": "Obiettivo",
 	"droplets-buttonlink-label-label": "Testo sul pulsante",
 	"droplets-buttonlink-format-label": "Colore di sfondo",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Numero di visite alla pagina"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Numero di visite alla pagina",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "tutti",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "nessuno",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault": "Servizio eventi predefinito",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault-help": "Utilizza questo servizio eventi come predefinito per tutti gli eventi."
 }

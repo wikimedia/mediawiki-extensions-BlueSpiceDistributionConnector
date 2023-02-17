@@ -7,7 +7,8 @@
 			"Eduardoaddad",
 			"Fúlvio",
 			"Juan90264",
-			"Mello25"
+			"Mello25",
+			"Trooper57"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Conecta o BlueSpice a várias extensões do MediaWiki",
@@ -140,5 +141,7 @@
 	"droplets-buttonlink-target-label": "Destino",
 	"droplets-buttonlink-label-label": "Texto no botão",
 	"droplets-buttonlink-format-label": "Cor de fundo",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Número de visualizações da página"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Número de visualizações da página",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "todos",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "nenhum"
 }
