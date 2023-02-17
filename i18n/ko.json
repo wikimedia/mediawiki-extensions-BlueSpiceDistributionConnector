@@ -77,6 +77,7 @@
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "서비스 이름",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "타임아웃",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault": "기본 이벤트 서비스",
 	"bs-distributionconnector-checkpermissions": "권한 검사",
 	"bs-distributionconnector-checkpermissions-label-user": "사용자",
 	"bs-distributionconnector-checkpermissions-label-permission": "권한",

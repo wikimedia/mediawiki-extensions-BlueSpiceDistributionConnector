@@ -7,7 +7,8 @@
 			"Eduardoaddad",
 			"Fúlvio",
 			"Juan90264",
-			"Mello25"
+			"Mello25",
+			"Trooper57"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Conecta o BlueSpice a várias extensões do MediaWiki",
@@ -103,6 +104,8 @@
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Tempo esgotado",
 	"bs-distributionconnector-pref-eventbus-eventservices-help": "Os serviços definidos para a extensão \"EventBus\" que propagam mudanças de estado (editar, mover, excluir, visibilidade de revisão, etc.)",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "todos",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "nenhum",
 	"bs-distributionconnector-checkpermissions": "Verificar permissões",
 	"bs-distributionconnector-checkpermissions-label-user": "Usuário",
 	"bs-distributionconnector-checkpermissions-label-permission": "Permissão",
