@@ -8,5 +8,7 @@
 	"bs-distributionconnector-workflows-form-placeholder-comment": "टिप्पणी",
 	"bs-support": "सहायता",
 	"bs-distributionconnector-checkpermissions-label-user": "सदस्य",
-	"bs-distributionconnector-checkpermissions-label-title": "शीर्षक"
+	"bs-distributionconnector-checkpermissions-label-title": "शीर्षक",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "सभी",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "कोई नहीं"
 }
