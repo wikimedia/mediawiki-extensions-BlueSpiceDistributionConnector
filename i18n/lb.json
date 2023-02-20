@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Nummraum",
@@ -29,5 +30,6 @@
 	"bs-distributionconnector-checkpermissions-label-permission": "Autorisatioun",
 	"bs-distributionconnector-checkpermissions-label-title": "Titel",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "de benotzte Benotzernumm ass net valabel",
-	"bs-distributionconnector-notification-logged-in": "Dir sidd elo ageloggt"
+	"bs-distributionconnector-notification-logged-in": "Dir sidd elo ageloggt",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "all"
 }
