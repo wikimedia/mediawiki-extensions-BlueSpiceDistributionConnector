@@ -8,5 +8,7 @@
 	"droplets-circled-number-label": "Broj",
 	"droplets-subpages-namespace-label": "Imenski prostor",
 	"droplets-buttonlink-external-label": "Spoljašnja veza",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Broj pregleda stranica"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Broj pregleda stranica",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "sve",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "ništa"
 }
