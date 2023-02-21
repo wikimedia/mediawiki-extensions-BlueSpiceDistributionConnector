@@ -2,6 +2,8 @@
 	"@metadata": {
 		"authors": []
 	},
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "sve",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "ništa",
 	"bs-distributionconnector-checkpermissions-label-user": "Korisnik",
 	"bs-distributionconnector-checkpermissions-label-permission": "Dozvola",
 	"bs-distributionconnector-checkpermissions-label-title": "Naslov",
