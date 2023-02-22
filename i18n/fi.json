@@ -4,7 +4,8 @@
 			"Joquliina",
 			"MITO",
 			"Markus Mikkonen",
-			"Rönttönen"
+			"Rönttönen",
+			"Silvonen"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "Verkkotunnuksesi",
@@ -33,5 +34,11 @@
 	"bs-distributionconnector-checkpermissions-label-title": "Otsikko",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "Tarjottu otsikko on virheellinen",
 	"bs-distributionconnector-checkpermissions-success": "Käyttäjälle [[User:$1|$1]] myönnettiin käyttöoikeus \"$2\" sivulle [[$3]]",
-	"bs-distributionconnector-notification-logged-in": "Olet nyt kirjautunut sisään"
+	"bs-distributionconnector-notification-logged-in": "Olet nyt kirjautunut sisään",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Piilota etuliite",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Nimiavaruus",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Kutsu",
+	"bs-distributionconnector-invite-signup-dialog-title": "Kutsu käyttäjä",
+	"droplets-circled-number-bg-color-label": "Taustaväri"
 }
