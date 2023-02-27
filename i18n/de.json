@@ -145,5 +145,14 @@
 	"droplets-buttonlink-target-label": "Ziel",
 	"droplets-buttonlink-label-label": "Text auf Button",
 	"droplets-buttonlink-format-label": "Hintergrundfarbe",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Anzahl der Seitenaufrufe"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Anzahl der Seitenaufrufe",
+	"droplets-create-input-button-label": "Text auf Button",
+	"droplets-create-input-preload-label": "Vorgeladener Seiteninhalt",
+	"droplets-create-input-placeholder-label": "Platzhalter Text",
+	"droplets-create-input-prefix-label": "Präfix für Seitenname",
+	"droplets-create-input-alignment-label": "Ausrichtung",
+	"droplets-create-input-alignment-left-label": "links",
+	"droplets-create-input-alignment-right-label": "rechts",
+	"droplets-create-input-name": "Seite erstellen",
+	"droplets-create-input-desc": "Formularfeld zur vordefinierten Seitenerstellung"
 }

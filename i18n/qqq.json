@@ -148,5 +148,14 @@
 	"droplets-buttonlink-target-label": "Label for input field to set target of button link",
 	"droplets-buttonlink-label-label": "Label for input field to insert text for button",
 	"droplets-buttonlink-format-label": "Label for input field to set background color",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Label of axis for statistics report page views"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Label of axis for statistics report page views",
+	"droplets-create-input-button-label": "Label for input field to insert text on button",
+	"droplets-create-input-preload-label": "Label for input field to set preloaded content",
+	"droplets-create-input-placeholder-label": "Label for input field to insert placeholder text in input field",
+	"droplets-create-input-prefix-label": "Label for input field to set prefix for page name",
+	"droplets-create-input-alignment-label": "Label for input field to set alignment",
+	"droplets-create-input-alignment-left-label": "Label for option in dropdown",
+	"droplets-create-input-alignment-right-label": "Label for option in dropdown",
+	"droplets-create-input-name": "Title of droplet for template create input",
+	"droplets-create-input-desc": "Description of droplet for template create input"
 }
