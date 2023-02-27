@@ -141,5 +141,14 @@
 	"droplets-buttonlink-target-label": "Target",
 	"droplets-buttonlink-label-label": "Text on button",
 	"droplets-buttonlink-format-label": "Background color",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Number of page views"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Number of page views",
+	"droplets-create-input-button-label": "Text on button",
+	"droplets-create-input-preload-label": "Preloaded page content",
+	"droplets-create-input-placeholder-label": "Placeholder text",
+	"droplets-create-input-prefix-label": "Prefix for page name",
+	"droplets-create-input-alignment-label": "Alignment",
+	"droplets-create-input-alignment-left-label": "left",
+	"droplets-create-input-alignment-right-label": "right",
+	"droplets-create-input-name": "Create page",
+	"droplets-create-input-desc": "Form field for predefined page creation"
 }

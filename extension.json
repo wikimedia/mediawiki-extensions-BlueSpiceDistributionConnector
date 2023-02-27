@@ -214,6 +214,9 @@
 				},
 				"buttonlink": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\ButtonLinkDroplet"
+				},
+				"createInput": {
+					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\CreateInputDroplet"
 				}
 			}
 		}
@@ -433,6 +436,23 @@
 		"ext.bluespice.distribution.droplet.gallery": {
 			"styles": [
 				"stylesheets/bluespice.contentdroplets.gallery.css"
+			]
+		},
+		"ext.bluespice.distribution.droplet.createInput": {
+			"scripts": [
+				"object/CreateInputDroplet.js"
+			],
+			"styles": [
+				"stylesheets/bluespice.contentdroplets.createInput.css"
+			],
+			"messages": [
+				"droplets-create-input-button-label",
+				"droplets-create-input-preload-label",
+				"droplets-create-input-placeholder-label",
+				"droplets-create-input-prefix-label",
+				"droplets-create-input-alignment-label",
+				"droplets-create-input-alignment-left-label",
+				"droplets-create-input-alignment-right-label"
 			]
 		}
 	},
