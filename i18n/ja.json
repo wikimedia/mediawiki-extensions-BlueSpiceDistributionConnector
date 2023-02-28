@@ -105,6 +105,8 @@
 	"bs-distributionconnector-pref-eventbus-eventservices-help": "状態の変更 (編集、移動、削除、リビジョンの可視性など) を RESTful イベント サービスに伝達する拡張機能「EventBus」用に定義されたサービスであり、MediaWikiコンテンツへの変更を追跡する手段をサービスの利用者に提供します。",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "すべて",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "なし",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault": "デフォルトのイベント サービス",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault-help": "このイベント サービスをすべてのイベントのデフォルトとして使用します。",
 	"bs-distributionconnector-checkpermissions": "権限を確認する",
 	"bs-distributionconnector-checkpermissions-label-user": "利用者",
 	"bs-distributionconnector-checkpermissions-label-permission": "許可",
