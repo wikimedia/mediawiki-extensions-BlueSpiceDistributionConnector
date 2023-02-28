@@ -142,5 +142,7 @@
 	"droplets-map-center-label": "集中",
 	"droplets-buttonlink-label-label": "ボタン上のテキスト",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "すべて",
-	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "なし"
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "なし",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault": "デフォルトのイベント サービス",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault-help": "このイベント サービスをすべてのイベントのデフォルトとして使用します。"
 }
