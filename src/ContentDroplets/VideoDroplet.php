@@ -4,7 +4,6 @@ namespace BlueSpice\DistributionConnector\ContentDroplets;
 
 use MediaWiki\Extension\ContentDroplets\Droplet\GenericDroplet;
 use Message;
-use RawMessage;
 
 class VideoDroplet extends GenericDroplet {
 
@@ -17,28 +16,28 @@ class VideoDroplet extends GenericDroplet {
 	 * @inheritDoc
 	 */
 	public function getName(): Message {
-		return new RawMessage( 'Video' );
+		return Message::newFromKey( 'droplets-video-name' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getDescription(): Message {
-		return new RawMessage( "Video description" );
+		return Message::newFromKey( 'droplets-video-description' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getIcon(): string {
-		return 'play';
+		return 'droplet-video';
 	}
 
 	/**
 	 * @inheritDoc
 	 */
-	public function getRLModule(): string {
-		return 'ext.bluespice.distribution.video.visualEditor';
+	public function getRLModules(): array {
+		return [ 'ext.bluespice.distribution.video.visualEditor' ];
 	}
 
 	/**

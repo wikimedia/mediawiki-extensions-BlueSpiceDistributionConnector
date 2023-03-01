@@ -6,7 +6,6 @@ namespace BlueSpice\DistributionConnector\ContentDroplets;
 
 use MediaWiki\Extension\ContentDroplets\Droplet\TemplateDroplet;
 use Message;
-use RawMessage;
 
 class MapDroplet extends TemplateDroplet {
 
@@ -14,28 +13,28 @@ class MapDroplet extends TemplateDroplet {
 	 * @inheritDoc
 	 */
 	public function getName(): Message {
-		return new RawMessage( 'Map' );
+		return Message::newFromKey( 'droplets-map-name' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getDescription(): Message {
-		return new RawMessage( "Map description" );
+		return Message::newFromKey( 'droplets-map-description' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getIcon(): string {
-		return 'map';
+		return 'droplet-map';
 	}
 
 	/**
 	 * @inheritDoc
 	 */
-	public function getRLModule(): string {
-		return 'ext.bluespice.distribution.droplet.map';
+	public function getRLModules(): array {
+		return [ 'ext.bluespice.distribution.droplet.map' ];
 	}
 
 	/**
