@@ -149,5 +149,14 @@
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "alle",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "geen",
 	"bs-distributionconnector-pref-eventbus-eventservicedefault": "Standaard gebeurtenisservice",
-	"bs-distributionconnector-pref-eventbus-eventservicedefault-help": "Deze gebeurtenisservice als standaard gebruiken voor alle gebeurtenissen."
+	"bs-distributionconnector-pref-eventbus-eventservicedefault-help": "Deze gebeurtenisservice als standaard gebruiken voor alle gebeurtenissen.",
+	"droplets-create-input-button-label": "Tekst op knop",
+	"droplets-create-input-preload-label": "Vooraf geladen pagina-inhoud",
+	"droplets-create-input-placeholder-label": "Tekst plaatsaanduiding",
+	"droplets-create-input-prefix-label": "Voorvoegsel voor paginanaam",
+	"droplets-create-input-alignment-label": "Uitlijning",
+	"droplets-create-input-alignment-left-label": "links",
+	"droplets-create-input-alignment-right-label": "rechts",
+	"droplets-create-input-name": "Pagina aanmaken",
+	"droplets-create-input-desc": "Formulierveld voor het maken van vooraf gedefinieerde pagina's"
 }

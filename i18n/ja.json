@@ -6,6 +6,7 @@
 			"Ajeje Brazorf",
 			"MathXplore",
 			"Mugenpman",
+			"もなー(偽物)",
 			"バレロン",
 			"背番号4のエース"
 		]
@@ -144,5 +145,16 @@
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "すべて",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "なし",
 	"bs-distributionconnector-pref-eventbus-eventservicedefault": "デフォルトのイベント サービス",
-	"bs-distributionconnector-pref-eventbus-eventservicedefault-help": "このイベント サービスをすべてのイベントのデフォルトとして使用します。"
+	"bs-distributionconnector-pref-eventbus-eventservicedefault-help": "このイベント サービスをすべてのイベントのデフォルトとして使用します。",
+	"bs-distributionconnector-pref-eventbus-enableeventbus": "イベントバスをこのイベントに対して適用する",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-help": "選択されたイベントにイベントバスを適用する",
+	"droplets-create-input-button-label": "ボタン上のテキスト",
+	"droplets-create-input-preload-label": "プリロードされたページ コンテンツ",
+	"droplets-create-input-placeholder-label": "プレースホルダー テキスト",
+	"droplets-create-input-prefix-label": "ページ名のプリフィックス",
+	"droplets-create-input-alignment-label": "配置",
+	"droplets-create-input-alignment-left-label": "左",
+	"droplets-create-input-alignment-right-label": "右",
+	"droplets-create-input-name": "ページを作成",
+	"droplets-create-input-desc": "事前定義されたページ作成用のフォームフィールド"
 }
