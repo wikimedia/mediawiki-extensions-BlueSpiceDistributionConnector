@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Laurinm",
+			"McDutchie",
 			"Mglaser",
 			"Mschlindwein",
 			"Pittigrilli",
@@ -148,7 +149,7 @@
 	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Anzahl der Seitenaufrufe",
 	"droplets-create-input-button-label": "Text auf Button",
 	"droplets-create-input-preload-label": "Vorgeladener Seiteninhalt",
-	"droplets-create-input-placeholder-label": "Platzhalter Text",
+	"droplets-create-input-placeholder-label": "Platzhaltertext",
 	"droplets-create-input-prefix-label": "Präfix für Seitenname",
 	"droplets-create-input-alignment-label": "Ausrichtung",
 	"droplets-create-input-alignment-left-label": "links",

@@ -6,6 +6,7 @@
 			"Ajeje Brazorf",
 			"MathXplore",
 			"Mugenpman",
+			"もなー(偽物)",
 			"バレロン",
 			"背番号4のエース"
 		]
@@ -103,6 +104,8 @@
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "タイムアウト",
 	"bs-distributionconnector-pref-eventbus-eventservices-help": "状態の変更 (編集、移動、削除、リビジョンの可視性など) を RESTful イベント サービスに伝達する拡張機能「EventBus」用に定義されたサービスであり、MediaWikiコンテンツへの変更を追跡する手段をサービスの利用者に提供します。",
+	"bs-distributionconnector-pref-eventbus-enableeventbus": "イベントバスをこのイベントに対して適用する",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-help": "選択されたイベントにイベントバスを適用する",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "すべて",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "なし",
 	"bs-distributionconnector-pref-eventbus-eventservicedefault": "デフォルトのイベント サービス",
@@ -144,5 +147,14 @@
 	"droplets-buttonlink-target-label": "対象",
 	"droplets-buttonlink-label-label": "ボタン上のテキスト",
 	"droplets-buttonlink-format-label": "背景色",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "閲覧数"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "閲覧数",
+	"droplets-create-input-button-label": "ボタン上のテキスト",
+	"droplets-create-input-preload-label": "プリロードされたページ コンテンツ",
+	"droplets-create-input-placeholder-label": "プレースホルダー テキスト",
+	"droplets-create-input-prefix-label": "ページ名のプリフィックス",
+	"droplets-create-input-alignment-label": "配置",
+	"droplets-create-input-alignment-left-label": "左",
+	"droplets-create-input-alignment-right-label": "右",
+	"droplets-create-input-name": "ページを作成",
+	"droplets-create-input-desc": "事前定義されたページ作成用のフォームフィールド"
 }

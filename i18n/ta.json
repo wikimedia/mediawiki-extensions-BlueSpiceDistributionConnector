@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sridhar G"
+		]
+	},
+	"droplets-create-input-preload-label": "முன்பே ஏற்றப்பட்ட பக்க உள்ளடக்கம்",
+	"droplets-create-input-alignment-left-label": "இடது"
+}

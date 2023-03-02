@@ -5,6 +5,7 @@
 			"DreZhsh",
 			"Florian COLLIN",
 			"Gomoko",
+			"Lewis2013",
 			"Thibaut120094",
 			"Vega",
 			"Verdy p",
@@ -147,5 +148,14 @@
 	"droplets-buttonlink-target-label": "Cible",
 	"droplets-buttonlink-label-label": "Texte sur le bouton",
 	"droplets-buttonlink-format-label": "Couleur d’arrière-plan",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Nombre de vues de la page"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Nombre de vues de la page",
+	"droplets-create-input-button-label": "Texte sur le bouton",
+	"droplets-create-input-preload-label": "Contenu de page préchargé",
+	"droplets-create-input-placeholder-label": "Texte de substitution",
+	"droplets-create-input-prefix-label": "Préfixe pour le nom de la page",
+	"droplets-create-input-alignment-label": "Alignement",
+	"droplets-create-input-alignment-left-label": "gauche",
+	"droplets-create-input-alignment-right-label": "droite",
+	"droplets-create-input-name": "Créer une page",
+	"droplets-create-input-desc": "Champ de formulaire pour la création de page prédéfinie"
 }

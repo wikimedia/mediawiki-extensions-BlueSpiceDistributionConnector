@@ -140,5 +140,14 @@
 	"droplets-buttonlink-target-label": "Cilj",
 	"droplets-buttonlink-label-label": "Besedilo gumba",
 	"droplets-buttonlink-format-label": "Barva ozadja",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Število ogledov strani"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Število ogledov strani",
+	"droplets-create-input-button-label": "Besedilo gumba",
+	"droplets-create-input-preload-label": "Prednaložena vsebina strani",
+	"droplets-create-input-placeholder-label": "Nadomestno besedilo",
+	"droplets-create-input-prefix-label": "Predpona za ime strani",
+	"droplets-create-input-alignment-label": "Poravnava",
+	"droplets-create-input-alignment-left-label": "levo",
+	"droplets-create-input-alignment-right-label": "desno",
+	"droplets-create-input-name": "Ustvari stran",
+	"droplets-create-input-desc": "Polje obrazca za vnaprej določeno ustvaritev strani"
 }

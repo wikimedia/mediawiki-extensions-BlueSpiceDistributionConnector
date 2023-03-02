@@ -149,5 +149,14 @@
 	"droplets-buttonlink-target-label": "Doel",
 	"droplets-buttonlink-label-label": "Tekst op knop",
 	"droplets-buttonlink-format-label": "Achtergrondkleur",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Aantal keren bekeken"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Aantal keren bekeken",
+	"droplets-create-input-button-label": "Tekst op knop",
+	"droplets-create-input-preload-label": "Vooraf geladen pagina-inhoud",
+	"droplets-create-input-placeholder-label": "Tekst plaatsaanduiding",
+	"droplets-create-input-prefix-label": "Voorvoegsel voor paginanaam",
+	"droplets-create-input-alignment-label": "Uitlijning",
+	"droplets-create-input-alignment-left-label": "links",
+	"droplets-create-input-alignment-right-label": "rechts",
+	"droplets-create-input-name": "Pagina aanmaken",
+	"droplets-create-input-desc": "Formulierveld voor het maken van vooraf gedefinieerde pagina's"
 }

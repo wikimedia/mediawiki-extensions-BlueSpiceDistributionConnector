@@ -31,5 +31,7 @@
 	"bs-distributionconnector-checkpermissions-label-permission": "Autorisatioun",
 	"bs-distributionconnector-checkpermissions-label-title": "Titel",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "de benotzte Benotzernumm ass net valabel",
-	"bs-distributionconnector-notification-logged-in": "Dir sidd elo ageloggt"
+	"bs-distributionconnector-notification-logged-in": "Dir sidd elo ageloggt",
+	"droplets-create-input-alignment-left-label": "lénks",
+	"droplets-create-input-alignment-right-label": "riets"
 }

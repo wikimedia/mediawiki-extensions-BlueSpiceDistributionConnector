@@ -140,5 +140,14 @@
 	"droplets-buttonlink-target-label": "Objectivo",
 	"droplets-buttonlink-label-label": "Texto sur le button",
 	"droplets-buttonlink-format-label": "Color de fundo",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Numero de visitas de paginas"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Numero de visitas de paginas",
+	"droplets-create-input-button-label": "Texto sur le button",
+	"droplets-create-input-preload-label": "Contento de pagina precargate",
+	"droplets-create-input-placeholder-label": "Texto de spatio reservate",
+	"droplets-create-input-prefix-label": "Prefixo pro le nomine del pagina",
+	"droplets-create-input-alignment-label": "Alineamento",
+	"droplets-create-input-alignment-left-label": "sinistra",
+	"droplets-create-input-alignment-right-label": "dextra",
+	"droplets-create-input-name": "Crear pagina",
+	"droplets-create-input-desc": "Campo de formulario pro le creation de paginas predefinite"
 }
