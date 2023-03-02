@@ -1,10 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
+			"Divya4232",
+			"Tmamatha",
+			"V Bhavya",
 			"Veeven"
 		]
 	},
 	"bs-distributionconnector-flyout-hitcounters-text": "వీక్షణల సంఖ్య",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "లోతు",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "పేరుబరి"
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "పేరుబరి",
+	"droplets-create-input-button-label": "టెక్స్ట్ ఆన్ బటన్",
+	"droplets-create-input-placeholder-label": "Placeholder text",
+	"droplets-create-input-alignment-label": "బద్దింపు",
+	"droplets-create-input-alignment-left-label": "ఎడమ",
+	"droplets-create-input-alignment-right-label": "కుడి"
 }

@@ -5,6 +5,7 @@
 			"DreZhsh",
 			"Florian COLLIN",
 			"Gomoko",
+			"Lewis2013",
 			"Thibaut120094",
 			"Vega",
 			"Verdy p",
@@ -147,5 +148,14 @@
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "tous",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "aucun",
 	"bs-distributionconnector-pref-eventbus-eventservicedefault": "Service d’événements par défaut",
-	"bs-distributionconnector-pref-eventbus-eventservicedefault-help": "Utiliser ce service d’événements par défaut pour tous les événements."
+	"bs-distributionconnector-pref-eventbus-eventservicedefault-help": "Utiliser ce service d’événements par défaut pour tous les événements.",
+	"droplets-create-input-button-label": "Texte sur le bouton",
+	"droplets-create-input-preload-label": "Contenu de page préchargé",
+	"droplets-create-input-placeholder-label": "Texte de substitution",
+	"droplets-create-input-prefix-label": "Préfixe pour le nom de la page",
+	"droplets-create-input-alignment-label": "Alignement",
+	"droplets-create-input-alignment-left-label": "gauche",
+	"droplets-create-input-alignment-right-label": "droite",
+	"droplets-create-input-name": "Créer une page",
+	"droplets-create-input-desc": "Champ de formulaire pour la création de page prédéfinie"
 }
