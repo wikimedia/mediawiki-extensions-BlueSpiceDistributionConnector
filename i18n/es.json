@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Agusbou2015",
+			"AnupamM",
 			"DarkGames26",
 			"Dekeract",
 			"Destinid10 2",
@@ -143,5 +144,6 @@
 	"droplets-buttonlink-target-label": "Destino",
 	"droplets-buttonlink-label-label": "Texto sobre botón",
 	"droplets-buttonlink-format-label": "Color de fondo",
-	"droplets-subpages-namespace-help": "Dejar vacío para el espacio de nombres principal"
+	"droplets-subpages-namespace-help": "Dejar vacío para el espacio de nombres principal",
+	"droplets-video-name": "Vídeo"
 }
