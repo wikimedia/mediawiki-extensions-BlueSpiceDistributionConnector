@@ -17,5 +17,8 @@
 	"droplets-map-center-label": "Dıqqat",
 	"droplets-buttonlink-external-label": "Sırtqı silteme",
 	"droplets-buttonlink-target-label": "Maqset",
-	"droplets-buttonlink-format-label": "Artqı fon reńi"
+	"droplets-buttonlink-format-label": "Artqı fon reńi",
+	"droplets-create-input-alignment-left-label": "shep",
+	"droplets-create-input-alignment-right-label": "oń",
+	"droplets-create-input-name": "Bet jaratıw"
 }

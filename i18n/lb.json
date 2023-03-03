@@ -33,5 +33,14 @@
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "de benotzte Benotzernumm ass net valabel",
 	"bs-distributionconnector-notification-logged-in": "Dir sidd elo ageloggt",
 	"droplets-create-input-alignment-left-label": "lénks",
-	"droplets-create-input-alignment-right-label": "riets"
+	"droplets-create-input-alignment-right-label": "riets",
+	"droplets-buttonlink-name": "Knäppchen",
+	"droplets-categorytree-name": "Kategoriëbam",
+	"droplets-categorytree-description": "Ausgewielte Kategorie ginn an enger Bamstruktur ugewisen",
+	"droplets-gallery-name": "Galerie",
+	"droplets-map-name": "Kaart",
+	"droplets-subpages-name": "Ënnersäiten",
+	"droplets-subpages-description": "Lëscht vun den Ënnersäite vun enger Wikisäit",
+	"droplets-video-name": "Video",
+	"droplets-pdflink-name": "PDF-Link"
 }

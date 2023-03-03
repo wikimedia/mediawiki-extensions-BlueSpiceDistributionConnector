@@ -5,5 +5,10 @@
 		]
 	},
 	"droplets-create-input-preload-label": "முன்பே ஏற்றப்பட்ட பக்க உள்ளடக்கம்",
-	"droplets-create-input-alignment-left-label": "இடது"
+	"droplets-create-input-prefix-label": "பக்கப் பெயருக்கான முன்னொட்டு",
+	"droplets-create-input-alignment-label": "ஒழுங்கமை",
+	"droplets-create-input-alignment-left-label": "இடது",
+	"droplets-create-input-alignment-right-label": "வலது",
+	"droplets-create-input-name": "பக்கத்தை உருவாக்கவும்",
+	"droplets-create-input-desc": "முன் வரையறுக்கப்பட்ட பக்க உருவாக்கத்திற்கான படிவப் புலம்"
 }

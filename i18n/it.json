@@ -120,5 +120,12 @@
 	"droplets-buttonlink-target-label": "Obiettivo",
 	"droplets-buttonlink-label-label": "Testo sul pulsante",
 	"droplets-buttonlink-format-label": "Colore di sfondo",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Numero di visite alla pagina"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Numero di visite alla pagina",
+	"droplets-create-input-button-label": "Testo sul pulsante",
+	"droplets-create-input-placeholder-label": "Testo segnaposto",
+	"droplets-create-input-prefix-label": "Prefisso per il nome della pagina",
+	"droplets-create-input-alignment-label": "Allineamento",
+	"droplets-create-input-alignment-left-label": "sinistra",
+	"droplets-create-input-alignment-right-label": "destra",
+	"droplets-create-input-name": "Crea pagina"
 }

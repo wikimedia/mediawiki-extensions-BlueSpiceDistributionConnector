@@ -158,5 +158,14 @@
 	"droplets-buttonlink-target-label": "目标",
 	"droplets-buttonlink-label-label": "按钮上的文字",
 	"droplets-buttonlink-format-label": "背景颜色",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "查看次数"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "查看次数",
+	"droplets-create-input-button-label": "按钮上的文字",
+	"droplets-create-input-preload-label": "预加载页面内容",
+	"droplets-create-input-placeholder-label": "占位符文本",
+	"droplets-create-input-prefix-label": "页面名称的前缀",
+	"droplets-create-input-alignment-label": "对齐",
+	"droplets-create-input-alignment-left-label": "左",
+	"droplets-create-input-alignment-right-label": "右",
+	"droplets-create-input-name": "创建页面",
+	"droplets-create-input-desc": "用于预定义页面创建的表单域"
 }
