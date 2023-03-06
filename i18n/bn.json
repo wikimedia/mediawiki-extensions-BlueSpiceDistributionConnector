@@ -21,5 +21,13 @@
 	"bs-distributionconnector-notification-logged-in": "আপনি এখন প্রবেশকৃত অবস্থায় রয়েছেন",
 	"right-duplicate": "সদৃশ পাতাসমূহ",
 	"action-duplicate": "সদৃশ পাতা",
-	"droplets-create-input-alignment-left-label": "বামে"
+	"droplets-create-input-alignment-left-label": "বামে",
+	"droplets-categorytree-name": "বিষয়শ্রেণীবৃক্ষ",
+	"droplets-categorytree-description": "নির্বাচিত বিষয়শ্রেণীগুলো একটি বৃক্ষাকার কাঠামোতে দেখানো হয়েছে",
+	"droplets-circled-number-description": "কাস্টমাইজযোগ্য রঙসহ একটি বৃত্তের মধ্যে সংখ্যা",
+	"droplets-gallery-name": "চিত্রশালা",
+	"droplets-gallery-description": "একটি চিত্রশালা প্রদর্শন করে",
+	"droplets-subpages-description": "একটি উইকিপাতার উপপাতাগুলোর তালিকা",
+	"droplets-video-name": "ভিডিও",
+	"droplets-pdflink-name": "পিডিএফ লিঙ্ক"
 }

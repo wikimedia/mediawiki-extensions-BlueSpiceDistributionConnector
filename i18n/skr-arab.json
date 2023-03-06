@@ -18,5 +18,12 @@
 	"droplets-buttonlink-target-label": "نشانہ",
 	"droplets-subpages-cols-label": "کالم خاکہ",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "یکے",
-	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "کوئی وی کائنی"
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "کوئی وی کائنی",
+	"droplets-create-input-alignment-label": "سیدھ",
+	"droplets-create-input-name": "ورقہ بݨاؤ",
+	"droplets-buttonlink-name": "بٹݨ",
+	"droplets-gallery-name": "گیلری",
+	"droplets-map-name": "نقشہ",
+	"droplets-video-name": "وڈیو",
+	"droplets-pdflink-name": "پی ڈی ایف لنک"
 }

@@ -127,5 +127,19 @@
 	"droplets-create-input-alignment-label": "Allineamento",
 	"droplets-create-input-alignment-left-label": "sinistra",
 	"droplets-create-input-alignment-right-label": "destra",
-	"droplets-create-input-name": "Crea pagina"
+	"droplets-create-input-name": "Crea pagina",
+	"droplets-pdf-link-page-label": "Pagina da esportare",
+	"droplets-pdf-link-label-label": "Testo per il collegamento visualizzato",
+	"droplets-buttonlink-name": "Pulsante",
+	"droplets-categorytree-description": "Le categorie selezionate vengono mostrate in una struttura ad albero",
+	"droplets-circled-number-name": "Numero cerchiato",
+	"droplets-circled-number-description": "Numero in un cerchio con colore personalizzabile",
+	"droplets-gallery-name": "Galleria",
+	"droplets-gallery-description": "Visualizza una galleria di immagini",
+	"droplets-map-name": "Mappa",
+	"droplets-subpages-name": "Sottopagine",
+	"droplets-subpages-description": "Elenco delle sottopagine di una pagina wiki",
+	"droplets-video-name": "Video",
+	"droplets-video-description": "Incorpora video da diverse piattaforme",
+	"droplets-pdflink-name": "Collegamento PDF"
 }
