@@ -8,6 +8,7 @@
 			"Fúlvio",
 			"Juan90264",
 			"Mello25",
+			"Re demz",
 			"Trooper57"
 		]
 	},
@@ -143,5 +144,28 @@
 	"droplets-buttonlink-format-label": "Cor de fundo",
 	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Número de visualizações da página",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "todos",
-	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "nenhum"
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "nenhum",
+	"droplets-create-input-button-label": "Texto no botão",
+	"droplets-create-input-preload-label": "Conteúdo da página pré-carregado",
+	"droplets-create-input-prefix-label": "Prefixo para nome da página",
+	"droplets-create-input-alignment-label": "Alinhamento",
+	"droplets-create-input-alignment-left-label": "esquerda",
+	"droplets-create-input-alignment-right-label": "direita",
+	"droplets-create-input-name": "Criar página",
+	"droplets-create-input-desc": "Formar campo para a criação predefinida de páginas",
+	"droplets-pdf-link-page-label": "Página para exportar",
+	"droplets-pdf-link-template-label": "predefinição de PDF",
+	"droplets-buttonlink-name": "Botão",
+	"droplets-buttonlink-description": "Botão configurável que abre um diálogo modal customizável",
+	"droplets-circled-number-name": "Número circulado",
+	"droplets-circled-number-description": "Número em um cuírculo com cor customizável",
+	"droplets-gallery-name": "Galeria",
+	"droplets-gallery-description": "Exibe uma galeria de imagens",
+	"droplets-map-name": "Mapa",
+	"droplets-map-description": "Locais podem ser marcados no mapa",
+	"droplets-subpages-name": "Subpáginas",
+	"droplets-subpages-description": "Lista de sub-páginas de uma página wiki",
+	"droplets-video-name": "Vídeo",
+	"droplets-pdflink-name": "link para PDF",
+	"droplets-pdflink-description": "Link que baixa outra página wiki como PDF"
 }

@@ -9,5 +9,13 @@
 	"droplets-circled-number-bg-color-label": "Warna latar belakang",
 	"droplets-subpages-namespace-label": "Ruang nama",
 	"droplets-buttonlink-external-label": "Pautan luar",
-	"droplets-buttonlink-format-label": "Warna latar belakang"
+	"droplets-buttonlink-format-label": "Warna latar belakang",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "semua",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "tiada",
+	"droplets-create-input-name": "Cipta laman",
+	"droplets-buttonlink-name": "Butang",
+	"droplets-gallery-name": "Galeri",
+	"droplets-map-name": "Peta",
+	"droplets-video-name": "Video",
+	"droplets-pdflink-name": "Pautan PDF"
 }
