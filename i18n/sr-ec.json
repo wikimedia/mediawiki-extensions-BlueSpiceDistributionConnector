@@ -14,7 +14,16 @@
 	"droplets-subpages-namespace-label": "Именски простор",
 	"droplets-buttonlink-external-label": "Спољашња веза",
 	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Број прегледа страница",
+	"droplets-create-input-button-label": "Текст дугмета",
 	"droplets-create-input-alignment-left-label": "лево",
 	"droplets-create-input-alignment-right-label": "десно",
-	"droplets-create-input-name": "Направи страницу"
+	"droplets-create-input-name": "Направи страницу",
+	"droplets-pdf-link-page-label": "Страница за извоз",
+	"droplets-buttonlink-name": "Дугме",
+	"droplets-categorytree-name": "Дрво категорија",
+	"droplets-gallery-name": "Галерија",
+	"droplets-gallery-description": "Приказује галерију слика",
+	"droplets-map-name": "Мапа",
+	"droplets-subpages-name": "Подстранице",
+	"droplets-video-name": "Видео"
 }

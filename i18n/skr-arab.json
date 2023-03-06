@@ -18,5 +18,12 @@
 	"droplets-map-condition-label": "شرط",
 	"droplets-buttonlink-external-label": "ٻاہرلا لنک",
 	"droplets-buttonlink-target-label": "نشانہ",
-	"droplets-buttonlink-label-label": "بٹݨ تے عبارت"
+	"droplets-buttonlink-label-label": "بٹݨ تے عبارت",
+	"droplets-create-input-alignment-label": "سیدھ",
+	"droplets-create-input-name": "ورقہ بݨاؤ",
+	"droplets-buttonlink-name": "بٹݨ",
+	"droplets-gallery-name": "گیلری",
+	"droplets-map-name": "نقشہ",
+	"droplets-video-name": "وڈیو",
+	"droplets-pdflink-name": "پی ڈی ایف لنک"
 }
