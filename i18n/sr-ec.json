@@ -16,5 +16,14 @@
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "ништа",
 	"droplets-create-input-alignment-left-label": "лево",
 	"droplets-create-input-alignment-right-label": "десно",
-	"droplets-create-input-name": "Направи страницу"
+	"droplets-create-input-name": "Направи страницу",
+	"droplets-create-input-button-label": "Текст дугмета",
+	"droplets-pdf-link-page-label": "Страница за извоз",
+	"droplets-buttonlink-name": "Дугме",
+	"droplets-categorytree-name": "Дрво категорија",
+	"droplets-gallery-name": "Галерија",
+	"droplets-gallery-description": "Приказује галерију слика",
+	"droplets-map-name": "Мапа",
+	"droplets-subpages-name": "Подстранице",
+	"droplets-video-name": "Видео"
 }
