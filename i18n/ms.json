@@ -17,5 +17,10 @@
 	"droplets-gallery-name": "Galeri",
 	"droplets-map-name": "Peta",
 	"droplets-video-name": "Video",
-	"droplets-pdflink-name": "Pautan PDF"
+	"droplets-pdflink-name": "Pautan PDF",
+	"droplets-create-input-button-label": "Teks pada butang",
+	"droplets-create-input-prefix-label": "Awalan untuk nama laman",
+	"droplets-pdf-link-template-label": "Templat PDF",
+	"droplets-subpages-name": "Sublaman",
+	"droplets-subpages-description": "Senarai sublaman laman wiki"
 }
