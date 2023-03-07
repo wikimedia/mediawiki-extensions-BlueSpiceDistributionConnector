@@ -12,10 +12,15 @@
 	"droplets-subpages-namespace-label": "Ruang nama",
 	"droplets-buttonlink-external-label": "Pautan luar",
 	"droplets-buttonlink-format-label": "Warna latar belakang",
+	"droplets-create-input-button-label": "Teks pada butang",
+	"droplets-create-input-prefix-label": "Awalan untuk nama laman",
 	"droplets-create-input-name": "Cipta laman",
+	"droplets-pdf-link-template-label": "Templat PDF",
 	"droplets-buttonlink-name": "Butang",
 	"droplets-gallery-name": "Galeri",
 	"droplets-map-name": "Peta",
+	"droplets-subpages-name": "Sublaman",
+	"droplets-subpages-description": "Senarai sublaman laman wiki",
 	"droplets-video-name": "Video",
 	"droplets-pdflink-name": "Pautan PDF"
 }
