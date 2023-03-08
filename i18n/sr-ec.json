@@ -25,5 +25,7 @@
 	"droplets-gallery-description": "Приказује галерију слика",
 	"droplets-map-name": "Мапа",
 	"droplets-subpages-name": "Подстранице",
-	"droplets-video-name": "Видео"
+	"droplets-video-name": "Видео",
+	"droplets-pdf-link-template-label": "PDF шаблон",
+	"droplets-pdflink-name": "PDF веза"
 }

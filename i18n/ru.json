@@ -106,5 +106,11 @@
 	"droplets-map-center-label": "Фокус",
 	"droplets-buttonlink-external-label": "Внешняя ссылка",
 	"droplets-buttonlink-target-label": "Цель",
-	"droplets-buttonlink-format-label": "Цвет  фона"
+	"droplets-buttonlink-format-label": "Цвет  фона",
+	"droplets-buttonlink-name": "Кнопка",
+	"droplets-categorytree-name": "Дерево категорий",
+	"droplets-gallery-name": "Галерея",
+	"droplets-map-name": "Карта",
+	"droplets-subpages-name": "Подстраницы",
+	"droplets-video-name": "Видео"
 }
