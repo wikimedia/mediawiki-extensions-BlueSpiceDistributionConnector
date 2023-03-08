@@ -155,6 +155,7 @@
 	"droplets-create-input-desc": "Formar campo para a criação predefinida de páginas",
 	"droplets-pdf-link-page-label": "Página para exportar",
 	"droplets-pdf-link-template-label": "predefinição de PDF",
+	"droplets-pdf-link-label-label": "Texto para link exibido",
 	"droplets-buttonlink-name": "Botão",
 	"droplets-buttonlink-description": "Botão configurável que abre um diálogo modal customizável",
 	"droplets-circled-number-name": "Número circulado",
