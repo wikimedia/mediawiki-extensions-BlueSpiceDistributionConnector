@@ -10,5 +10,9 @@
 	"droplets-map-condition-label": "Վիճակ",
 	"droplets-create-input-alignment-left-label": "ձախ",
 	"droplets-create-input-alignment-right-label": "աջ",
-	"droplets-create-input-name": "Ստեղծել էջ"
+	"droplets-create-input-name": "Ստեղծել էջ",
+	"droplets-buttonlink-name": "Կոճակ",
+	"droplets-gallery-name": "Պատկերասրահ",
+	"droplets-map-name": "Քարտեզ",
+	"droplets-subpages-name": "Ենթաէջեր"
 }
