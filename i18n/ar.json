@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AA800",
 			"FiberAhmed",
 			"Michel Bakni",
 			"Mohanad Kh",
@@ -68,5 +69,8 @@
 	"bs-distributionconnector-workflows-form-instructions": "تعليمات",
 	"droplets-circled-number-bg-color-label": "لون الخلفية",
 	"droplets-buttonlink-format-label": "لون الخلفية",
-	"droplets-subpages-namespace-label": "النطاق"
+	"droplets-subpages-namespace-label": "النطاق",
+	"droplets-buttonlink-name": "زر",
+	"droplets-map-name": "خريطة",
+	"droplets-video-name": "فيديو"
 }
