@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AA800",
 			"FiberAhmed",
 			"Michel Bakni",
 			"Mohanad Kh",
@@ -68,5 +69,8 @@
 	"droplets-circled-number-bg-color-label": "لون الخلفية",
 	"droplets-subpages-namespace-label": "النطاق",
 	"droplets-buttonlink-format-label": "لون الخلفية",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "عدد مشاهدات الصفحة"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "عدد مشاهدات الصفحة",
+	"droplets-buttonlink-name": "زر",
+	"droplets-map-name": "خريطة",
+	"droplets-video-name": "فيديو"
 }
