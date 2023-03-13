@@ -4,6 +4,7 @@
 			"Joquliina",
 			"MITO",
 			"Markus Mikkonen",
+			"Pyscowicz",
 			"Rönttönen",
 			"Silvonen"
 		]
@@ -40,5 +41,7 @@
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Kutsu",
 	"bs-distributionconnector-invite-signup-dialog-title": "Kutsu käyttäjä",
-	"droplets-circled-number-bg-color-label": "Taustaväri"
+	"droplets-circled-number-bg-color-label": "Taustaväri",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "kaikki",
+	"droplets-map-name": "Kartta"
 }
