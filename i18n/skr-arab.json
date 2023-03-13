@@ -25,5 +25,7 @@
 	"droplets-gallery-name": "گیلری",
 	"droplets-map-name": "نقشہ",
 	"droplets-video-name": "وڈیو",
-	"droplets-pdflink-name": "پی ڈی ایف لنک"
+	"droplets-pdflink-name": "پی ڈی ایف لنک",
+	"droplets-create-input-alignment-left-label": "کھبا",
+	"droplets-create-input-alignment-right-label": "سڄا"
 }

@@ -145,5 +145,22 @@
 	"droplets-buttonlink-label-label": "Texto sobre botón",
 	"droplets-buttonlink-format-label": "Color de fondo",
 	"droplets-subpages-namespace-help": "Dejar vacío para el espacio de nombres principal",
-	"droplets-video-name": "Vídeo"
+	"droplets-video-name": "Vídeo",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "todo",
+	"droplets-create-input-button-label": "Texto en el botón",
+	"droplets-create-input-preload-label": "Contenido de página precargado",
+	"droplets-create-input-placeholder-label": "Texto sustitutivo",
+	"droplets-create-input-alignment-label": "Alineación",
+	"droplets-create-input-name": "Crear página",
+	"droplets-pdf-link-page-label": "Página que se exportará",
+	"droplets-pdf-link-template-label": "Plantilla PDF",
+	"droplets-buttonlink-name": "Botón",
+	"droplets-categorytree-name": "Árbol de categorías",
+	"droplets-gallery-name": "Galería",
+	"droplets-gallery-description": "Muestra una galería de imágenes",
+	"droplets-map-name": "Mapa",
+	"droplets-map-description": "Las ubicaciones pueden marcarse en el mapa",
+	"droplets-subpages-name": "Subpáginas",
+	"droplets-subpages-description": "Lista de las subpáginas de una página del wiki",
+	"droplets-pdflink-description": "Enlace que descarga otra página del wiki como PDF"
 }
