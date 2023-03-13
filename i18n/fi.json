@@ -4,6 +4,7 @@
 			"Joquliina",
 			"MITO",
 			"Markus Mikkonen",
+			"Pyscowicz",
 			"Rönttönen",
 			"Silvonen"
 		]
@@ -31,6 +32,7 @@
 	"bs-distributionconnector-default-definition-report-approve": "Hyväksy",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Palvelun nimi",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "kaikki",
 	"bs-distributionconnector-checkpermissions": "Tarkista käyttöoikeudet",
 	"bs-distributionconnector-checkpermissions-label-user": "Käyttäjä",
 	"bs-distributionconnector-checkpermissions-label-permission": "Käyttöoikeus",
@@ -40,5 +42,6 @@
 	"bs-distributionconnector-notification-logged-in": "Olet nyt kirjautunut sisään",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Kutsu",
 	"bs-distributionconnector-invite-signup-dialog-title": "Kutsu käyttäjä",
-	"droplets-circled-number-bg-color-label": "Taustaväri"
+	"droplets-circled-number-bg-color-label": "Taustaväri",
+	"droplets-map-name": "Kartta"
 }
