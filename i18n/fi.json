@@ -43,5 +43,13 @@
 	"bs-distributionconnector-invite-signup-dialog-title": "Kutsu käyttäjä",
 	"droplets-circled-number-bg-color-label": "Taustaväri",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "kaikki",
-	"droplets-map-name": "Kartta"
+	"droplets-map-name": "Kartta",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "Luokkapuu",
+	"bs-distributionconnector-ve-categorytree-title": "Luokkapuu",
+	"bs-distributionconnector-videodropletinspector-service-label": "Palvelu",
+	"droplets-circled-number-fg-color-label": "Taustaväri",
+	"droplets-circled-number-label": "Numero",
+	"droplets-subpages-namespace-label": "Nimiavaruus",
+	"droplets-gallery-name": "Galleria",
+	"droplets-pdflink-name": "PDF-linkki"
 }
