@@ -10,6 +10,8 @@
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "Verkkotunnuksesi",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "Luokkapuu",
+	"bs-distributionconnector-ve-categorytree-title": "Luokkapuu",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Piilota etuliite",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Nimiavaruus",
 	"bs-distributionconnector-collection-var-pagetitle": "Sivun otsikko",
@@ -42,6 +44,12 @@
 	"bs-distributionconnector-notification-logged-in": "Olet nyt kirjautunut sisään",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Kutsu",
 	"bs-distributionconnector-invite-signup-dialog-title": "Kutsu käyttäjä",
+	"bs-distributionconnector-videodropletinspector-service-label": "Palvelu",
 	"droplets-circled-number-bg-color-label": "Taustaväri",
-	"droplets-map-name": "Kartta"
+	"droplets-circled-number-fg-color-label": "Taustaväri",
+	"droplets-circled-number-label": "Numero",
+	"droplets-subpages-namespace-label": "Nimiavaruus",
+	"droplets-gallery-name": "Galleria",
+	"droplets-map-name": "Kartta",
+	"droplets-pdflink-name": "PDF-linkki"
 }
