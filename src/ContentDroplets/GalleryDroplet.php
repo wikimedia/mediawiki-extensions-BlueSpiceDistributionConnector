@@ -39,7 +39,7 @@ class GalleryDroplet extends TagDroplet {
 	 * @inheritDoc
 	 */
 	public function getRLModules(): array {
-		return [ 'ext.visualEditor.mwgallery' ];
+		return [ 'ext.visualEditor.mwgallery', 'ext.bluespice.distribution.droplet.gallery' ];
 	}
 
 	/**
