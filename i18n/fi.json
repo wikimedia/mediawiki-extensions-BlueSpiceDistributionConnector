@@ -51,5 +51,8 @@
 	"droplets-circled-number-label": "Numero",
 	"droplets-subpages-namespace-label": "Nimiavaruus",
 	"droplets-gallery-name": "Galleria",
-	"droplets-pdflink-name": "PDF-linkki"
+	"droplets-pdflink-name": "PDF-linkki",
+	"droplets-create-input-name": "Luo sivu",
+	"droplets-categorytree-name": "Luokkapuu",
+	"droplets-subpages-name": "Alasivut"
 }
