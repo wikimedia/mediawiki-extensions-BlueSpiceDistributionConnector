@@ -114,5 +114,12 @@
 	"droplets-video-name": "Video",
 	"droplets-video-description": "Bygger inn videoer fra andre plattformer",
 	"droplets-pdflink-name": "PDF-lenke",
-	"droplets-pdflink-description": "Lenke som laster ned en annen wikiside som PDF"
+	"droplets-pdflink-description": "Lenke som laster ned en annen wikiside som PDF",
+	"bs-distributionconnector-workflows-form-head-user": "Avdelingsleder",
+	"bs-distributionconnector-workflows-form-head-instructions": "Veiledning for avdelingslederen",
+	"workflows-workflow-file-definition-group-feedback-title": "Gruppetilbakemelding",
+	"bs-distributionconnector-checkpermissions": "Sjekk rettigheter",
+	"bs-distributionconnector-invite-signup-dialog-text": "Vil du forlate denne siden for å invitere en ny bruker?",
+	"bs-distributionconnector-videodropletinspector-service-label": "Tjeneste",
+	"droplets-map-condition-label": "Betingelse"
 }

@@ -112,5 +112,6 @@
 	"droplets-gallery-name": "Галерея",
 	"droplets-map-name": "Карта",
 	"droplets-subpages-name": "Подстраницы",
-	"droplets-video-name": "Видео"
+	"droplets-video-name": "Видео",
+	"bs-distributionconnector-extension-description": "Подключает BlueSpice к различным расширениям MediaWiki."
 }
