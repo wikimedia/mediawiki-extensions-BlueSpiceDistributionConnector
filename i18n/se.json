@@ -7,5 +7,7 @@
 	},
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Čiega prefivssa",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Nammagomuvuohta",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
+	"bs-distributionconnector-checkpermissions-label-user": "Geavaheaddji",
 	"bs-distributionconnector-checkpermissions-label-permission": "Geavahanvuoigatvuohta"
 }

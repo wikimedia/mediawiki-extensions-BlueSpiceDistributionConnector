@@ -49,7 +49,10 @@
 	"droplets-circled-number-fg-color-label": "Taustaväri",
 	"droplets-circled-number-label": "Numero",
 	"droplets-subpages-namespace-label": "Nimiavaruus",
+	"droplets-create-input-name": "Luo sivu",
+	"droplets-categorytree-name": "Luokkapuu",
 	"droplets-gallery-name": "Galleria",
 	"droplets-map-name": "Kartta",
+	"droplets-subpages-name": "Alasivut",
 	"droplets-pdflink-name": "PDF-linkki"
 }
