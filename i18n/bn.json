@@ -29,5 +29,7 @@
 	"droplets-gallery-description": "একটি চিত্রশালা প্রদর্শন করে",
 	"droplets-subpages-description": "একটি উইকিপাতার উপপাতাগুলোর তালিকা",
 	"droplets-video-name": "ভিডিও",
-	"droplets-pdflink-name": "পিডিএফ লিঙ্ক"
+	"droplets-pdflink-name": "পিডিএফ লিঙ্ক",
+	"droplets-buttonlink-name": "বোতাম",
+	"droplets-map-name": "মানচিত্র"
 }
