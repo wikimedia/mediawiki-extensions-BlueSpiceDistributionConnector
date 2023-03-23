@@ -35,7 +35,7 @@
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Bruk virkelig navn som brukernavn",
 	"bs-distributionconnector-pref-openidconnect-useemailasusername": "Bruk epostadresse som brukernavn",
 	"bs-distributionconnector-pref-openidconnect-migrateusersbyusername": "Overfør brukere etter brukernavn",
-	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "Overfør brukere etter epost",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "Overfør brukere etter e-post",
 	"bs-distributionconnector-pref-openidconnect-forcelogout": "Tving utlogging",
 	"bs-distributionconnector-pref-openidconnect-config-key": "Tilbyderens URL",
 	"bs-distributionconnector-pref-openidconnect-config-clientid": "Klient-ID",
