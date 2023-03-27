@@ -121,5 +121,9 @@
 	"bs-distributionconnector-checkpermissions": "Sjekk rettigheter",
 	"bs-distributionconnector-invite-signup-dialog-text": "Vil du forlate denne siden for å invitere en ny bruker?",
 	"bs-distributionconnector-videodropletinspector-service-label": "Tjeneste",
-	"droplets-map-condition-label": "Betingelse"
+	"droplets-map-condition-label": "Betingelse",
+	"droplets-circled-number-bg-color-label": "Bakgrunnsfarge",
+	"droplets-circled-number-fg-color-label": "Forgrunnsfarge",
+	"droplets-subpages-namespace-help": "La stå tomt for hovednavnerom",
+	"droplets-subpages-parentpage-label": "Forelderside"
 }
