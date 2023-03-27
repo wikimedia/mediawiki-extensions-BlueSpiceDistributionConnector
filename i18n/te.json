@@ -17,5 +17,11 @@
 	"droplets-create-input-alignment-label": "అమరిక",
 	"droplets-create-input-alignment-left-label": "ఎడమ",
 	"droplets-create-input-alignment-right-label": "కుడి",
-	"droplets-create-input-name": "పేజీని సృష్టించు"
+	"droplets-create-input-name": "పేజీని సృష్టించు",
+	"droplets-buttonlink-name": "బటన్",
+	"droplets-gallery-name": "చిత్ర ప్రదర్శన",
+	"droplets-map-name": "పటం",
+	"droplets-subpages-name": "ఉపపేజీలు",
+	"droplets-video-description": "వివిధ ప్లాట్‌ఫారమ్‌ల నుండి వీడియోలను పొందుపరుస్తుంది",
+	"droplets-pdflink-name": "PDF లింక్"
 }
