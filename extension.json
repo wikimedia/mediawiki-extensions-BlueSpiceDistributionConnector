@@ -423,6 +423,7 @@
 			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddResources::callback",
 			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddHitCounters::callback"
 		],
+		"OutputPageBodyAttributes": "\\BlueSpice\\DistributionConnector\\Hook\\OutputPageBodyAttributes\\InitRcFilters::onOutputPageBodyAttributes",
 		"BaseTemplateToolbox": "BlueSpiceDistributionHooks::onBaseTemplateToolbox",
 		"BSInsertMagicAjaxGetData": [
 			"\\BlueSpice\\DistributionConnector\\Hook\\BSInsertMagicAjaxGetData\\CategoryTree::callback",
