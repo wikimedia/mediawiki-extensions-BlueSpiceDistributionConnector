@@ -1,68 +1,68 @@
 {
-    "Template:Map": {
-        "lang": "en",
-        "label": "Map",
-        "description": "Show location in a map",
-        "target_title": "Template:Map",
-        "content_path": "/pages/Template/Map.wiki",
-        "sha1": "fb07c0c5d873db1f2f24ab3277d5decb8f3a65c3",
-        "old_sha1": []
-    },
-    "Template:CircledNumber": {
-        "lang": "en",
-        "label": "Circled Number",
-        "description": "Number in colourable circle",
-        "target_title": "Template:CircledNumber",
-        "content_path": "/pages/Template/CircledNumber.wiki",
-        "sha1": "d17e867d93f4af82ec721be0e13f9ffeb5090aac",
-        "old_sha1": []
-    },
-    "Template:CircledNumber/styles.css": {
-        "lang": "en",
-        "label": "Circled Number",
-        "description": "Number in colourable circle",
-        "target_title": "Template:CircledNumber/styles.css",
-        "content_path": "/pages/Template/CircledNumberstyles.css.wiki",
-        "sha1": "b748c17d12c033207c41a9ae6961b61864cb3551",
-        "old_sha1": []
-    },
-    "Template:ButtonLink": {
-        "lang": "en",
-        "label": "Button Link",
-        "description": "Customisable button with adjustable action",
-        "target_title": "Template:ButtonLink",
-        "content_path": "/pages/Template/ButtonLink.wiki",
-        "sha1": "0b08ad7cc9a772eccaa0843df349a6a8145255fd",
-        "old_sha1": []
-    },
-    "Template:PDFLink": {
-        "lang": "en",
-        "label": "PDF Link",
-        "description": "Link to download PDF from a specific page",
-        "target_title": "Template:PDFLink",
-        "content_path": "/pages/Template/PDFLink.wiki",
-        "sha1": "1581a33de06cb88dc2b0b81f8b5a10b9ea954244",
-        "old_sha1": []
-    },
-    "Template:Subpages": {
-        "lang": "en",
-        "target_title": "Template:Subpages",
-        "content_path": "/pages/Template/Subpages.wiki",
-        "sha1": "7faa6eee1e2370a35ab90d5966ba30e8f5f5378d",
-        "old_sha1": []
-    },
-    "Template:Subpages/styles.css": {
-        "lang": "en",
-        "target_title": "Template:Subpages/styles.css",
-        "content_path": "/pages/Template/Subpagesstyles.css.wiki",
-        "sha1": "a37fc8c02f2845958098d2d76fc73748d29d6bce",
-        "old_sha1": []
-    },
-    "Template:CreateInput": {
-        "lang": "en",
-        "target_title": "Template:CreateInput",
-        "content_path": "/pages/Template/CreateInput.wiki",
-        "sha1": "fa4b3ef5166b70b6c49c87b586762690f27a4b9d",
-        "old_sha1": []
-    }
+	"Template:Map": {
+		"lang": "en",
+		"label": "Map",
+		"description": "Show location in a map",
+		"target_title": "Template:Map",
+		"content_path": "/pages/Template/Map.wiki",
+		"sha1": "fb07c0c5d873db1f2f24ab3277d5decb8f3a65c3",
+		"old_sha1": []
+	},
+	"Template:CircledNumber": {
+		"lang": "en",
+		"label": "Circled Number",
+		"description": "Number in colourable circle",
+		"target_title": "Template:CircledNumber",
+		"content_path": "/pages/Template/CircledNumber.wiki",
+		"sha1": "d17e867d93f4af82ec721be0e13f9ffeb5090aac",
+		"old_sha1": []
+	},
+	"Template:CircledNumber/styles.css": {
+		"lang": "en",
+		"label": "Circled Number",
+		"description": "Number in colourable circle",
+		"target_title": "Template:CircledNumber/styles.css",
+		"content_path": "/pages/Template/CircledNumberstyles.css.wiki",
+		"sha1": "b748c17d12c033207c41a9ae6961b61864cb3551",
+		"old_sha1": []
+	},
+	"Template:ButtonLink": {
+		"lang": "en",
+		"label": "Button Link",
+		"description": "Customisable button with adjustable action",
+		"target_title": "Template:ButtonLink",
+		"content_path": "/pages/Template/ButtonLink.wiki",
+		"sha1": "0b08ad7cc9a772eccaa0843df349a6a8145255fd",
+		"old_sha1": []
+	},
+	"Template:PDFLink": {
+		"lang": "en",
+		"label": "PDF Link",
+		"description": "Link to download PDF from a specific page",
+		"target_title": "Template:PDFLink",
+		"content_path": "/pages/Template/PDFLink.wiki",
+		"sha1": "1581a33de06cb88dc2b0b81f8b5a10b9ea954244",
+		"old_sha1": []
+	},
+	"Template:Subpages": {
+		"lang": "en",
+		"target_title": "Template:Subpages",
+		"content_path": "/pages/Template/Subpages.wiki",
+		"sha1": "7faa6eee1e2370a35ab90d5966ba30e8f5f5378d",
+		"old_sha1": []
+	},
+	"Template:Subpages/styles.css": {
+		"lang": "en",
+		"target_title": "Template:Subpages/styles.css",
+		"content_path": "/pages/Template/Subpagesstyles.css.wiki",
+		"sha1": "a37fc8c02f2845958098d2d76fc73748d29d6bce",
+		"old_sha1": []
+	},
+	"Template:CreateInput": {
+		"lang": "en",
+		"target_title": "Template:CreateInput",
+		"content_path": "/pages/Template/CreateInput.wiki",
+		"sha1": "fa4b3ef5166b70b6c49c87b586762690f27a4b9d",
+		"old_sha1": []
+	}
 }
