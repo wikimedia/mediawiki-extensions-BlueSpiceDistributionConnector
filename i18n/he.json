@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
+			"Neriah",
 			"Steeve815",
 			"Xnet1234",
 			"YaronSh",
@@ -120,5 +121,15 @@
 	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "ביקורים בדף ביחס לסך הביקורים",
 	"bs-distributionconnector-tag-categorytree-desc": "מציג מבנה עץ דינמי במערכת הקטגוריות בוויקי. בין התגים יש לציין את קטגוריית השורש.",
 	"bs-distributionconnector-tag-ref-desc": "מסמן את הטקסט בין התגים כהערת שוליים.",
-	"bs-distributionconnector-tag-references-desc": "מציג את רשימת הערות השוליים שהוכנסו לערכים."
+	"bs-distributionconnector-tag-references-desc": "מציג את רשימת הערות השוליים שהוכנסו לערכים.",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "הכול",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "אין",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault": "שירות אירועים המוגדר כברירת מחדל",
+	"droplets-subpages-cols-label": "פריסת עמודות",
+	"droplets-create-input-button-label": "טקסט על הכפתור",
+	"droplets-create-input-alignment-label": "יישור",
+	"droplets-create-input-alignment-left-label": "שמאל",
+	"droplets-create-input-alignment-right-label": "ימין",
+	"droplets-create-input-name": "יצירת דף",
+	"droplets-pdf-link-page-label": "דף ליצוא"
 }
