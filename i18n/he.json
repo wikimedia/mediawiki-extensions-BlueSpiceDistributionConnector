@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
+			"Neriah",
 			"Steeve815",
 			"Xnet1234",
 			"YaronSh",
@@ -92,6 +93,9 @@
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "שם השירות",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "כתובת URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "זמן קצוב",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "הכול",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "אין",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault": "שירות אירועים המוגדר כברירת מחדל",
 	"bs-distributionconnector-checkpermissions": "בדיקת הרשאות",
 	"bs-distributionconnector-checkpermissions-label-user": "משתמש",
 	"bs-distributionconnector-checkpermissions-label-permission": "הרשאה",
@@ -114,11 +118,18 @@
 	"droplets-subpages-namespace-label": "מרחב שם",
 	"droplets-subpages-namespace-help": "להשאיר ריק עבור מרחב השמות הראשי",
 	"droplets-subpages-parentpage-label": "דף הורה",
+	"droplets-subpages-cols-label": "פריסת עמודות",
 	"droplets-map-condition-label": "תנאי",
 	"droplets-map-center-label": "התמקדות",
 	"droplets-buttonlink-external-label": "קישור חיצוני",
 	"droplets-buttonlink-target-label": "יעד",
 	"droplets-buttonlink-label-label": "טקסט על הכפתור",
 	"droplets-buttonlink-format-label": "צבע הרקע",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "מספר הצפיות בדף"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "מספר הצפיות בדף",
+	"droplets-create-input-button-label": "טקסט על הכפתור",
+	"droplets-create-input-alignment-label": "יישור",
+	"droplets-create-input-alignment-left-label": "שמאל",
+	"droplets-create-input-alignment-right-label": "ימין",
+	"droplets-create-input-name": "יצירת דף",
+	"droplets-pdf-link-page-label": "דף ליצוא"
 }
