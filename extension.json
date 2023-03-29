@@ -572,6 +572,7 @@
 			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddHitCounters::callback",
 			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddEmbedVideoServices::callback"
 		],
+		"OutputPageBodyAttributes": "\\BlueSpice\\DistributionConnector\\Hook\\OutputPageBodyAttributes\\InitRcFilters::onOutputPageBodyAttributes",
 		"BaseTemplateToolbox": "BlueSpiceDistributionHooks::onBaseTemplateToolbox",
 		"BSInsertMagicAjaxGetData": [
 			"\\BlueSpice\\DistributionConnector\\Hook\\BSInsertMagicAjaxGetData\\CategoryTree::callback",
