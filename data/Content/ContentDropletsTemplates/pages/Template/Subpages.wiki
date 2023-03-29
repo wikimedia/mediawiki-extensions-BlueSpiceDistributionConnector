@@ -1,0 +1,77 @@
+<includeonly>
+<templatestyles src="Subpages/styles.css" /><div class="{{#switch: {{{cols}}}|no=template-subpages||nein=template-subpages|}} {{#switch: {{{bullets}}}|no=no-bullets|nein=no-bullets|}}">{{Special:Prefixindex|prefix={{{parentnamespace}}}:{{{parentpage}}}/|hideredirects=1|stripprefix=1}}</div></includeonly>
+<noinclude>
+This template lists all subpages of a wiki page. The result is displayed as a bulleted list and can be set to 1-3 columns.
+<templatedata>
+{
+	"params": {
+		"parentnamespace": {
+			"label": {
+				"en": "Namespace",
+				"de": "Namensraum"
+			},
+			"description": {
+				"en": "Leave blank for the Main namespace",
+				"de": "Für den Hauptnamensraum leer lassen"
+			},
+			"suggested": true
+		},
+		"parentpage": {
+			"label": {
+				"en": "Parent page",
+				"de": "Übergeordnete Seite"
+			},
+			"description": {
+				"en": "The page that is one level above the pages you want to display",
+				"de": "Die Seite die eine Ebene über den gewünschten Unterseiten liegt."
+			},
+			"required": true
+		},
+		"cols": {
+			"label": {
+				"en": "Column layout",
+				"de": "Spaltenlayout"
+			},
+			"description": {
+				"en": "yes: creates 3 column layout, no: creates no columns",
+				"de": "ja: erstellt 3 Spalten; nein: erstellt keine Spalten"
+			},
+			"type": "string",
+			"example": {
+				"en": "yes, no",
+				"de": "ja, nein"
+			},
+			"default": {
+				"en": "no",
+				"de": "nein"
+			},
+			"suggested": true
+		},
+		"bullets": {
+			"label": {
+				"en": "Bullet points",
+				"de": "Aufzählungszeichen"
+			},
+			"description": {
+				"en": "no: removes bullet points",
+				"de": "nein: entfernt Aufzählungszeichen"
+			},
+			"example": {
+				"en": "yes, no",
+				"de": "ja, nein"
+			},
+			"type": "string",
+			"default": {
+				"en": "yes",
+				"de": "ja"
+			},
+			"suggested": true
+		}
+	},
+	"description": {
+		"en": "Subpages",
+		"de": "Unterseite"
+	}
+}
+</templatedata>
+</noinclude>

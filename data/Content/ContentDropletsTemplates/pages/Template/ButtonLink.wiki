@@ -1,0 +1,59 @@
+<noinclude>Inspired by https://www.mediawiki.org/wiki/Template:Clickable_button_2
+</noinclude><includeonly>{{#ifeq:{{#switch: {{{external}}}|yes|ja=yes}} |yes|<span class="plainlinks">[{{{target}}} <span role="button" class="mw-ui-button {{#switch: {{{format}}}|blue|blau=mw-ui-progressive|red|rot=mw-ui-destructive|}}">{{{label}}}</span>]</span>|[[{{{target}}}|<span role="button" class="mw-ui-button {{#switch: {{{format}}}|blue|blau=mw-ui-progressive|red|rot=mw-ui-destructive|}}">{{{label}}}</span>]]}}</includeonly>
+<noinclude>
+<templatedata>
+{
+	"params": {
+		"external": {
+			"label": {
+				"en": "Is this an external link?",
+				"de": "Ist dies ein externer Link?"
+			},
+			"description": {
+				"en": "Link needs to start with http:// or https://",
+				"de": "Ein externer Link beginnt mit http:// oder https://"
+			},
+			"example": {
+				"en": "no, yes",
+				"de": "ja, nein"
+			},
+			"default": {
+				"en": "no",
+				"de": "nein"
+			},
+			"type": "boolean",
+			"suggested": true
+		},
+		"target": {
+			"label": {
+				"en": "Link target",
+				"de": "Zielseite"
+			},
+			"required": true
+		},
+		"label": {
+			"label": {
+				"en": "Label ",
+				"de": "Bezeichnung"
+			},
+			"required": true
+		},
+		"format": {
+			"label": {
+				"en": "Background color (leave empty for white)",
+				"de": "Hintergrundfarbe (für weiß leer lassen)"
+			},
+			"example": {
+				"en": "blue, red",
+				"de": "rot, blau"
+			},
+			"suggested": true
+		}
+	},
+	"description": {
+		"en": "Styles a text link as button",
+		"de": "Formatiert einen Textlink als Button."
+	}
+}
+</templatedata>
+</noinclude>
