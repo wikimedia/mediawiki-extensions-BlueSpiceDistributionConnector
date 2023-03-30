@@ -39,7 +39,7 @@ class ButtonLinkDroplet extends TemplateDroplet {
 	 * @inheritDoc
 	 */
 	public function getDescription(): Message {
-		return Message::newFromKey( 'droplets-buttonlink-description' );
+		return Message::newFromKey( 'droplets-buttonlink-desc' );
 	}
 
 	/**

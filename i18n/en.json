@@ -155,7 +155,7 @@
 	"droplets-pdf-link-template-label": "PDF template",
 	"droplets-pdf-link-label-label": "Text for displayed link",
 	"droplets-buttonlink-name": "Button",
-	"droplets-buttonlink-description": "Configurable button which opens a customizable modal dialogue",
+	"droplets-buttonlink-desc": "Link that is styled as a button",
 	"droplets-categorytree-name": "Categorytree",
 	"droplets-categorytree-description": "Selected categories are shown in a tree structure",
 	"droplets-circled-number-name": "Circled number",
