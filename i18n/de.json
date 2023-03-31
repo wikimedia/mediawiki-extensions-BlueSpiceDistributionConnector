@@ -160,7 +160,6 @@
 	"droplets-pdf-link-template-label": "PDF-Template",
 	"droplets-pdf-link-label-label": "Text für angezeigten Link",
 	"droplets-buttonlink-name": "Schaltfläche",
-	"droplets-buttonlink-description": "Konfigurierbare Schaltfläche, die einen anpassbaren modalen Dialog öffnet",
 	"droplets-buttonlink-desc": "Ein Link, der als Schaltfläche dargestellt wird",
 	"droplets-categorytree-name": "Kategorienbaum",
 	"droplets-categorytree-description": "Ausgewählte Kategorien werden in einer Baumstuktur angezeigt",

@@ -161,7 +161,6 @@
 	"droplets-pdf-link-template-label": "PDFテンプレート",
 	"droplets-pdf-link-label-label": "表示されるリンクのテキスト",
 	"droplets-buttonlink-name": "ボタン",
-	"droplets-buttonlink-description": "モーダル ダイアログを表示するボタン",
 	"droplets-categorytree-name": "カテゴリーツリー",
 	"droplets-categorytree-description": "選択したカテゴリをツリー構造で表示しています",
 	"droplets-circled-number-name": "丸数字",

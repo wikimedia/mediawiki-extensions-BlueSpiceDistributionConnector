@@ -162,7 +162,6 @@
 	"droplets-pdf-link-template-label": "Modèle de PDF",
 	"droplets-pdf-link-label-label": "Texte pour le lien affiché",
 	"droplets-buttonlink-name": "Bouton",
-	"droplets-buttonlink-description": "Bouton configurable qui ouvre une boîte de dialogue modale personnalisable",
 	"droplets-categorytree-name": "ArbreDeCatégories",
 	"droplets-categorytree-description": "Les catégories sélectionnées sont affichées dans une structure arborescente",
 	"droplets-circled-number-name": "Nombre encerclé",
