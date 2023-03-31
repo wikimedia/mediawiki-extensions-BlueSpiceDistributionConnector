@@ -176,5 +176,6 @@
 	"droplets-video-name": "Title of droplet video",
 	"droplets-video-description": "Description of droplet video",
 	"droplets-pdflink-name": "Title of droplet for template PDFLink",
-	"droplets-pdflink-description": "Description of droplet for template PDFLink"
+	"droplets-pdflink-description": "Description of droplet for template PDFLink",
+	"droplets-buttonlink-desc": "Description of droplet for template Buttonlink"
 }

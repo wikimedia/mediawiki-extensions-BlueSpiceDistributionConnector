@@ -177,5 +177,6 @@
 	"droplets-video-name": "Video",
 	"droplets-video-description": "Bettet Videos von unterschiedlichen Plattformen ein",
 	"droplets-pdflink-name": "PDF Link",
-	"droplets-pdflink-description": "Ein Link, um eine gewünschte Seite als PDF herunterzuladen"
+	"droplets-pdflink-description": "Ein Link, um eine gewünschte Seite als PDF herunterzuladen",
+	"droplets-buttonlink-desc": "Ein Link, der als Schaltfläche dargestellt wird"
 }
