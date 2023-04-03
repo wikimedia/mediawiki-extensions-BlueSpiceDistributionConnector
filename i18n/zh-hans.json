@@ -196,5 +196,7 @@
 	"droplets-pdflink-name": "PDF链接",
 	"bs-distributionconnector-pref-eventbus-eventservices-help": "“EventBus”扩展的定义服务的状态将更改（编辑、移动、删除、修订等）RESTful的事件服务，为服务的使用者提供跟踪 MediaWiki 内容更改的方法",
 	"droplets-buttonlink-description": "可打开可配置的模式对话框的可配置的按钮",
-	"droplets-circled-number-description": "圆圈中的数字有可自定义的颜色"
+	"droplets-circled-number-description": "圆圈中的数字有可自定义的颜色",
+	"droplets-buttonlink-desc": "有着按钮样式的链接链接",
+	"droplets-pdflink-description": "用于把另一个wiki页面下载成PDF的链接"
 }

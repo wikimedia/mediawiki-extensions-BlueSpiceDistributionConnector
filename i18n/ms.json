@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Hakimi97",
 			"Tofeiku"
 		]
 	},
@@ -22,5 +23,6 @@
 	"droplets-create-input-prefix-label": "Awalan untuk nama laman",
 	"droplets-pdf-link-template-label": "Templat PDF",
 	"droplets-subpages-name": "Sublaman",
-	"droplets-subpages-description": "Senarai sublaman laman wiki"
+	"droplets-subpages-description": "Senarai sublaman laman wiki",
+	"droplets-buttonlink-desc": "Pautan yang digayakan dalam bentuk butang"
 }

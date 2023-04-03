@@ -168,5 +168,6 @@
 	"droplets-video-name": "Video",
 	"droplets-video-description": "Incastra videos de differente platteformas",
 	"droplets-pdflink-name": "Ligamine PDF",
-	"droplets-pdflink-description": "Ligamine que discarga un altere pagina wiki como PDF"
+	"droplets-pdflink-description": "Ligamine que discarga un altere pagina wiki como PDF",
+	"droplets-buttonlink-desc": "Ligamine in stilo de button"
 }

@@ -168,5 +168,6 @@
 	"droplets-video-name": "Video",
 	"droplets-video-description": "Vdela videoposnetke z različnih platform",
 	"droplets-pdflink-name": "PDF-povezava",
-	"droplets-pdflink-description": "Povezava, ki prenese drugo vikistran kot PDF"
+	"droplets-pdflink-description": "Povezava, ki prenese drugo vikistran kot PDF",
+	"droplets-buttonlink-desc": "Povezava, oblikovana kot gumb"
 }
