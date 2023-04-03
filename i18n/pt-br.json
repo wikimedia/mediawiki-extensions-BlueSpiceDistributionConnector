@@ -168,5 +168,6 @@
 	"droplets-video-name": "Vídeo",
 	"droplets-pdflink-name": "link para PDF",
 	"droplets-pdflink-description": "Link que baixa outra página wiki como PDF",
-	"droplets-pdf-link-label-label": "Texto para link exibido"
+	"droplets-pdf-link-label-label": "Texto para link exibido",
+	"droplets-buttonlink-desc": "Link que é estalizado como um botão"
 }
