@@ -176,5 +176,6 @@
 	"droplets-video-name": "Vidéo",
 	"droplets-video-description": "Incorpore des vidéos depuis différentes plateformes",
 	"droplets-pdflink-name": "Lien PDF",
-	"droplets-pdflink-description": "Lien qui télécharge une autre page du wiki sous forme de PDF"
+	"droplets-pdflink-description": "Lien qui télécharge une autre page du wiki sous forme de PDF",
+	"droplets-buttonlink-desc": "Lien stylé comme un bouton"
 }
