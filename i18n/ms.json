@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Hakimi97",
 			"Tofeiku"
 		]
 	},
@@ -17,6 +18,7 @@
 	"droplets-create-input-name": "Cipta laman",
 	"droplets-pdf-link-template-label": "Templat PDF",
 	"droplets-buttonlink-name": "Butang",
+	"droplets-buttonlink-desc": "Pautan yang digayakan dalam bentuk butang",
 	"droplets-gallery-name": "Galeri",
 	"droplets-map-name": "Peta",
 	"droplets-subpages-name": "Sublaman",

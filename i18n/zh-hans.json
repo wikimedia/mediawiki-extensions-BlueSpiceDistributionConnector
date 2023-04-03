@@ -183,6 +183,7 @@
 	"droplets-pdf-link-template-label": "PDF模板",
 	"droplets-pdf-link-label-label": "显示链接的文本",
 	"droplets-buttonlink-name": "按钮",
+	"droplets-buttonlink-desc": "有着按钮样式的链接链接",
 	"droplets-categorytree-name": "分类树",
 	"droplets-categorytree-description": "所选类别在分类树结构显示",
 	"droplets-circled-number-name": "被圈中的数字",
@@ -195,5 +196,6 @@
 	"droplets-subpages-description": "维基页面的子页面列表",
 	"droplets-video-name": "视频",
 	"droplets-video-description": "嵌入来自不同平台的视频",
-	"droplets-pdflink-name": "PDF链接"
+	"droplets-pdflink-name": "PDF链接",
+	"droplets-pdflink-description": "用于把另一个wiki页面下载成PDF的链接"
 }
