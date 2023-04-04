@@ -178,5 +178,8 @@
 	"droplets-video-description": "Bettet Videos von unterschiedlichen Plattformen ein",
 	"droplets-pdflink-name": "PDF Link",
 	"droplets-pdflink-description": "Ein Link, um eine gewünschte Seite als PDF herunterzuladen",
-	"droplets-buttonlink-desc": "Ein Link, der als Schaltfläche dargestellt wird"
+	"droplets-buttonlink-desc": "Ein Link, der als Schaltfläche dargestellt wird",
+	"droplets-map-center-label-help": "Lege den Ort für die Fokusnadel fest, auch ein Text für das Popup ist möglich. Zum Beispiel: Regensburg ~ Mein eigener Text",
+	"droplets-map-center-map-label": "Mittelpunkt der Karte",
+	"droplets-map-center-map-label-help": "Ort, der sich in der Mitte der Karte befindet. Zum Beispiel: Regensburg, Deutschland"
 }

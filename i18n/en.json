@@ -170,5 +170,8 @@
 	"droplets-video-description": "Embeds videos from different platforms",
 	"droplets-pdflink-name": "PDF link",
 	"droplets-pdflink-description": "Link that downloads another wiki page as PDF",
-	"droplets-buttonlink-desc": "Link that is styled as a button"
+	"droplets-buttonlink-desc": "Link that is styled as a button",
+	"droplets-map-center-label-help": "Set location for focus needle, also text for popup is possible. For example: Regensburg ~ My custom text",
+	"droplets-map-center-map-label": "Center of map",
+	"droplets-map-center-map-label-help": "Location which is in center of map. For example: Regensburg, Germany"
 }
