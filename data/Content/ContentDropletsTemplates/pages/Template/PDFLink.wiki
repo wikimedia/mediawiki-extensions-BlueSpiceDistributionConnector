@@ -1,1 +1,1 @@
-<span class="plainlinks">[{{fullurl:Special:UniversalExport/{{{page|{{FULLPAGENAME}}}}}|ue%5Bmodule%5D=pdf&ue%5Btemplate%5D={{{template|}}} <span>{{{label|PDF-Link}}}</span>}}]</span>
+<div><span class="plainlinks">[{{fullurl:Special:UniversalExport/{{{page|{{FULLPAGENAME}}}}}|ue%5Bmodule%5D=pdf&ue%5Btemplate%5D={{{template|}}} <span>{{{label|PDF-Link}}}</span>}}]</span></div>

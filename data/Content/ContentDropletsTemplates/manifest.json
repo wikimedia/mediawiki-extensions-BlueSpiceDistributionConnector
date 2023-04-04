@@ -14,8 +14,10 @@
 		"description": "Number in colourable circle",
 		"target_title": "Template:CircledNumber",
 		"content_path": "/pages/Template/CircledNumber.wiki",
-		"sha1": "d17e867d93f4af82ec721be0e13f9ffeb5090aac",
-		"old_sha1": []
+		"sha1": "ae41bcdf92e634f1a41b580be5a3dfec2b317c67",
+		"old_sha1": [
+			"d17e867d93f4af82ec721be0e13f9ffeb5090aac"
+		]
 	},
 	"Template:CircledNumber/styles.css": {
 		"lang": "en",
@@ -32,8 +34,10 @@
 		"description": "Customisable button with adjustable action",
 		"target_title": "Template:ButtonLink",
 		"content_path": "/pages/Template/ButtonLink.wiki",
-		"sha1": "0b08ad7cc9a772eccaa0843df349a6a8145255fd",
-		"old_sha1": []
+		"sha1": "6ee813ca07b1e5438c758f279593d6454a889e97",
+		"old_sha1": [
+			"0b08ad7cc9a772eccaa0843df349a6a8145255fd"
+		]
 	},
 	"Template:PDFLink": {
 		"lang": "en",
@@ -41,8 +45,10 @@
 		"description": "Link to download PDF from a specific page",
 		"target_title": "Template:PDFLink",
 		"content_path": "/pages/Template/PDFLink.wiki",
-		"sha1": "1581a33de06cb88dc2b0b81f8b5a10b9ea954244",
-		"old_sha1": []
+		"sha1": "ab29e5d67d486f4ddfad22b961b15fbcebc65a7b",
+		"old_sha1": [
+			"1581a33de06cb88dc2b0b81f8b5a10b9ea954244"
+		]
 	},
 	"Template:Subpages": {
 		"lang": "en",
@@ -62,7 +68,9 @@
 		"lang": "en",
 		"target_title": "Template:CreateInput",
 		"content_path": "/pages/Template/CreateInput.wiki",
-		"sha1": "fa4b3ef5166b70b6c49c87b586762690f27a4b9d",
-		"old_sha1": []
+		"sha1": "bca00aa229381b88b5590492efb39208be4fa02c",
+		"old_sha1": [
+			"fa4b3ef5166b70b6c49c87b586762690f27a4b9d"
+		]
 	}
 }
