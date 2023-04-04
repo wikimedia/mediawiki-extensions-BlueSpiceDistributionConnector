@@ -388,8 +388,10 @@
 				"stylesheets/bluespice.contentdroplets.map.css"
 			],
 			"messages": [
-				"droplets-map-condition-label",
-				"droplets-map-center-label"
+				"droplets-map-center-map-label",
+				"droplets-map-center-map-label-help",
+				"droplets-map-center-label",
+				"droplets-map-center-label-help"
 			]
 		},
 		"ext.bluespice.distribution.object.buttonlink": {

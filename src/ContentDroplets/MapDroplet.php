@@ -58,7 +58,8 @@ class MapDroplet extends TemplateDroplet {
 	 */
 	protected function getParams(): array {
 		return [
-			'center' => ''
+			'1' => '',
+			'2' => ''
 		];
 	}
 
