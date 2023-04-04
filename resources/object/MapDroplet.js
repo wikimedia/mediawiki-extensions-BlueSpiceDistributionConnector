@@ -21,19 +21,20 @@
 	};
 
 	bs.distributionConnector.object.MapDroplet.prototype.getFormItems = function() {
-
 		var formItems = [
 			{
-				name: '1',
-				label: mw.message( 'droplets-map-condition-label' ).plain(),
-				type: 'textarea',
-				row: 1
-			},
-			{
 				name: '2',
-				label:  mw.message( 'droplets-map-center-label' ).plain(),
+				label:  mw.message( 'droplets-map-center-map-label' ).plain(),
+				help: mw.message( 'droplets-map-center-map-label-help' ).plain(),
 				type: 'textarea',
 				row: 3
+			},
+			{
+				name: '1',
+				label: mw.message( 'droplets-map-center-label' ).plain(),
+				help: mw.message( 'droplets-map-center-label-help' ).plain(),
+				type: 'textarea',
+				row: 1
 			}
 		];
 
