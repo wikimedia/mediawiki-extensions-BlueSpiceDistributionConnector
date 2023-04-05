@@ -177,5 +177,8 @@
 	"droplets-video-description": "Incorpore des vidéos depuis différentes plateformes",
 	"droplets-pdflink-name": "Lien PDF",
 	"droplets-pdflink-description": "Lien qui télécharge une autre page du wiki sous forme de PDF",
-	"droplets-buttonlink-desc": "Lien stylé comme un bouton"
+	"droplets-buttonlink-desc": "Lien stylé comme un bouton",
+	"droplets-map-center-label-help": "Définir l’emplacement visé par l’épingle, facultativement suivi d’un texte pour la fenêtre contextuelle. Par exemple : Ratisbonne ~ Mon texte personnalisé",
+	"droplets-map-center-map-label": "Centre de la carte",
+	"droplets-map-center-map-label-help": "Emplacement qui est au centre de la carte. Par exemple : Ratisbonne, Allemagne"
 }
