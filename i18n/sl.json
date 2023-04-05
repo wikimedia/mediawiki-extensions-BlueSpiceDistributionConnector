@@ -169,5 +169,8 @@
 	"droplets-video-description": "Vdela videoposnetke z različnih platform",
 	"droplets-pdflink-name": "PDF-povezava",
 	"droplets-pdflink-description": "Povezava, ki prenese drugo vikistran kot PDF",
-	"droplets-buttonlink-desc": "Povezava, oblikovana kot gumb"
+	"droplets-buttonlink-desc": "Povezava, oblikovana kot gumb",
+	"droplets-map-center-label-help": "Nastavite lokacijo za fokusno iglo, možno je tudi besedilo za pojavno okno. Na primer: Regensburg ~ Moje besedilo po meri",
+	"droplets-map-center-map-label": "Središče zemljevida",
+	"droplets-map-center-map-label-help": "Lokacija, ki je v središču zemljevida. Na primer: Regensburg, Nemčija"
 }
