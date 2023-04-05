@@ -140,7 +140,6 @@
 	"droplets-subpages-cols-help": "\"ja\" erstellt 3 Spalten, \"nein\" erstellt keine Spalten",
 	"droplets-subpages-bullets-label": "Aufzählungszeichen",
 	"droplets-subpages-bullets-help": "\"nein\" entfernt Aufzählungszeichen",
-	"droplets-map-condition-label": "Bedingung",
 	"droplets-map-center-label": "Fokus",
 	"droplets-map-center-label-help": "Lege den Ort für die Fokusnadel fest, auch ein Text für das Popup ist möglich. Zum Beispiel: Regensburg ~ Mein eigener Text",
 	"droplets-map-center-map-label": "Mittelpunkt der Karte",
