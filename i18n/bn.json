@@ -22,11 +22,13 @@
 	"right-duplicate": "সদৃশ পাতাসমূহ",
 	"action-duplicate": "সদৃশ পাতা",
 	"droplets-create-input-alignment-left-label": "বামে",
+	"droplets-buttonlink-name": "বোতাম",
 	"droplets-categorytree-name": "বিষয়শ্রেণীবৃক্ষ",
 	"droplets-categorytree-description": "নির্বাচিত বিষয়শ্রেণীগুলো একটি বৃক্ষাকার কাঠামোতে দেখানো হয়েছে",
 	"droplets-circled-number-description": "কাস্টমাইজযোগ্য রঙসহ একটি বৃত্তের মধ্যে সংখ্যা",
 	"droplets-gallery-name": "চিত্রশালা",
 	"droplets-gallery-description": "একটি চিত্রশালা প্রদর্শন করে",
+	"droplets-map-name": "মানচিত্র",
 	"droplets-subpages-description": "একটি উইকিপাতার উপপাতাগুলোর তালিকা",
 	"droplets-video-name": "ভিডিও",
 	"droplets-pdflink-name": "পিডিএফ লিঙ্ক"
