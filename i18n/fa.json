@@ -90,5 +90,6 @@
 	"droplets-buttonlink-target-label": "هدف",
 	"droplets-buttonlink-label-label": "متن روی دکمه",
 	"droplets-buttonlink-format-label": "رنگ پس‌زمینه",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "تعداد مشاهده‌ٔ صفحه‌"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "تعداد مشاهده‌ٔ صفحه‌",
+	"droplets-map-center-map-label": "وسط نقشه"
 }
