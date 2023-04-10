@@ -175,5 +175,8 @@
 	"droplets-video-name": "ビデオ",
 	"droplets-video-description": "様々なプラットフォームから動画を埋め込みます",
 	"droplets-pdflink-name": "PDFリンク",
-	"droplets-pdflink-description": "別のWikiページをPDFでダウンロードするリンク"
+	"droplets-pdflink-description": "別のWikiページをPDFでダウンロードするリンク",
+	"droplets-map-center-map-label": "地図の中心",
+	"droplets-map-center-map-label-help": "地図の中心にある場所。例: レーゲンスブルク、ドイツ",
+	"droplets-buttonlink-desc": "ボタンとしてスタイルが設定されたリンク"
 }

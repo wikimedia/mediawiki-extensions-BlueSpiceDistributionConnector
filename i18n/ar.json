@@ -72,5 +72,7 @@
 	"droplets-subpages-namespace-label": "النطاق",
 	"droplets-buttonlink-name": "زر",
 	"droplets-map-name": "خريطة",
-	"droplets-video-name": "فيديو"
+	"droplets-video-name": "فيديو",
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "العنوان المقدم غير صالح",
+	"droplets-buttonlink-external-label": "وصلة خارجية"
 }
