@@ -4,7 +4,8 @@
 			"Chrumps",
 			"Kareyac",
 			"Mruczek",
-			"Rail"
+			"Rail",
+			"WaldiSt"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "Twoja domena",
@@ -18,5 +19,7 @@
 	"bs-distributionconnector-pref-openidconnect-config-scope": "Zakres",
 	"bs-distributionconnector-workflows-form-expert-user": "Ekspert",
 	"bs-distributionconnector-checkpermissions-label-user": "Użytkownik",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Liczba wyświetleń strony"
+	"droplets-map-center-map-label": "Środek mapy",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Liczba wyświetleń strony",
+	"droplets-buttonlink-desc": "Łącze stylizowane na przycisk"
 }
