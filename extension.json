@@ -408,7 +408,10 @@
 				"droplets-buttonlink-external-label",
 				"droplets-buttonlink-target-label",
 				"droplets-buttonlink-label-label",
-				"droplets-buttonlink-format-label"
+				"droplets-buttonlink-format-label",
+				"droplets-buttonlink-format-blue",
+				"droplets-buttonlink-format-neutral",
+				"droplets-buttonlink-format-red"
 			]
 		},
 		"ext.bluespice.distribution.droplet.subpages": {
@@ -480,7 +483,7 @@
 			"messages": [
 				"droplets-pdf-link-page-label",
 				"droplets-pdf-link-template-label",
-				"droplets-pdf-link-label-label"
+				"droplets-pdf-link-link-label"
 			]
 		}
 	},
