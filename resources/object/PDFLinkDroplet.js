@@ -47,7 +47,7 @@
 			},
 			{
 				name: 'label',
-				label: mw.message( 'droplets-pdf-link-label-label' ).plain(),
+				label: mw.message( 'droplets-pdf-link-link-label' ).plain(),
 				type: 'text'
 			}
 		];
