@@ -173,5 +173,9 @@
 	"droplets-buttonlink-desc": "Link that is styled as a button",
 	"droplets-map-center-label-help": "Set location for focus needle, also text for popup is possible. For example: Regensburg ~ My custom text",
 	"droplets-map-center-map-label": "Center of map",
-	"droplets-map-center-map-label-help": "Location which is in center of map. For example: Regensburg, Germany"
+	"droplets-map-center-map-label-help": "Location which is in center of map. For example: Regensburg, Germany",
+	"droplets-buttonlink-format-blue": "blue",
+	"droplets-buttonlink-format-neutral": "white",
+	"droplets-buttonlink-format-red": "red",
+	"droplets-pdf-link-link-label": "Link label"
 }

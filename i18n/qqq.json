@@ -180,5 +180,9 @@
 	"droplets-buttonlink-desc": "Description of droplet for template Buttonlink",
 	"droplets-map-center-label-help": "Help message for focus input field",
 	"droplets-map-center-map-label": "Label for condition input field",
-	"droplets-map-center-map-label-help": "Help message for condition input field"
+	"droplets-map-center-map-label-help": "Help message for condition input field",
+	"droplets-buttonlink-format-blue": "Label for option of background color",
+	"droplets-buttonlink-format-neutral": "Label for option of background color",
+	"droplets-buttonlink-format-red": "Label for option of background color",
+	"droplets-pdf-link-link-label": "Label for text input to insert label of link"
 }
