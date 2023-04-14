@@ -179,5 +179,9 @@
 	"droplets-video-description": "Description of droplet video",
 	"droplets-pdflink-name": "Title of droplet for template PDFLink",
 	"droplets-pdflink-description": "Description of droplet for template PDFLink",
-	"droplets-buttonlink-desc": "Description of droplet for template Buttonlink"
+	"droplets-buttonlink-desc": "Description of droplet for template Buttonlink",
+	"droplets-buttonlink-format-blue": "Label for option of background color",
+	"droplets-buttonlink-format-neutral": "Label for option of background color",
+	"droplets-buttonlink-format-red": "Label for option of background color",
+	"droplets-pdf-link-link-label": "Label for text input to insert label of link"
 }

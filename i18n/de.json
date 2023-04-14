@@ -181,5 +181,9 @@
 	"droplets-video-description": "Bettet Videos von unterschiedlichen Plattformen ein",
 	"droplets-pdflink-name": "PDF Link",
 	"droplets-pdflink-description": "Ein Link, um eine gewünschte Seite als PDF herunterzuladen",
-	"droplets-buttonlink-desc": "Ein Link, der als Schaltfläche dargestellt wird"
+	"droplets-buttonlink-desc": "Ein Link, der als Schaltfläche dargestellt wird",
+	"droplets-buttonlink-format-blue": "blau",
+	"droplets-buttonlink-format-neutral": "weiß",
+	"droplets-buttonlink-format-red": "rot",
+	"droplets-pdf-link-link-label": "Link-Label"
 }
