@@ -10,7 +10,8 @@
 			"Optilete",
 			"Robin van der Vliet",
 			"Romaine",
-			"Rots61"
+			"Rots61",
+			"Sjoerddebruin"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Verbindt BlueSpice met verscheidene MediaWiki-uitbreidingen",
@@ -148,6 +149,9 @@
 	"droplets-buttonlink-target-label": "Doel",
 	"droplets-buttonlink-label-label": "Tekst op knop",
 	"droplets-buttonlink-format-label": "Achtergrondkleur",
+	"droplets-buttonlink-format-blue": "blauw",
+	"droplets-buttonlink-format-neutral": "wit",
+	"droplets-buttonlink-format-red": "rood",
 	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Aantal keren bekeken",
 	"droplets-create-input-button-label": "Tekst op knop",
 	"droplets-create-input-preload-label": "Vooraf geladen pagina-inhoud",
@@ -160,7 +164,6 @@
 	"droplets-create-input-desc": "Formulierveld voor het maken van vooraf gedefinieerde pagina's",
 	"droplets-pdf-link-page-label": "Pagina om te exporteren",
 	"droplets-pdf-link-template-label": "PDF-sjabloon",
-	"droplets-pdf-link-label-label": "Tekst voor weergegeven koppeling",
 	"droplets-buttonlink-name": "Knop",
 	"droplets-categorytree-name": "Categorieënboom",
 	"droplets-categorytree-description": "Geselecteerde categorieën worden weergegeven in een boomstructuur",
