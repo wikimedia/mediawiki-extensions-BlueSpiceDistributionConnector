@@ -141,5 +141,6 @@
 	"droplets-map-name": "地圖",
 	"droplets-map-description": "可在地圖上標記位置",
 	"droplets-subpages-name": "子頁面",
-	"droplets-pdflink-name": "PDF連結"
+	"droplets-pdflink-name": "PDF連結",
+	"droplets-pdf-link-link-label": "連結文字"
 }

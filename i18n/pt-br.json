@@ -169,5 +169,8 @@
 	"droplets-pdflink-name": "link para PDF",
 	"droplets-pdflink-description": "Link que baixa outra página wiki como PDF",
 	"droplets-pdf-link-label-label": "Texto para link exibido",
-	"droplets-buttonlink-desc": "Link que é estalizado como um botão"
+	"droplets-buttonlink-desc": "Link que é estalizado como um botão",
+	"droplets-buttonlink-format-blue": "azul",
+	"droplets-buttonlink-format-neutral": "branco",
+	"droplets-buttonlink-format-red": "vermelho"
 }
