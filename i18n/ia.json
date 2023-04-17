@@ -172,5 +172,9 @@
 	"droplets-buttonlink-desc": "Ligamine in stilo de button",
 	"droplets-map-center-label-help": "Definir le loco visate pro le spinula, e un possibile texto pro le fenestra contextual. Per exemplo: Ratisbona ~ Mi proprie texto",
 	"droplets-map-center-map-label": "Centro del carta",
-	"droplets-map-center-map-label-help": "Loco que es al centro del carta. Per exemplo: Ratisbona, Germania"
+	"droplets-map-center-map-label-help": "Loco que es al centro del carta. Per exemplo: Ratisbona, Germania",
+	"droplets-buttonlink-format-blue": "blau",
+	"droplets-buttonlink-format-neutral": "blanc",
+	"droplets-buttonlink-format-red": "rubie",
+	"droplets-pdf-link-link-label": "Etiquetta del ligamine"
 }

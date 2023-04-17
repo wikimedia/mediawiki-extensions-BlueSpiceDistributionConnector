@@ -178,5 +178,8 @@
 	"droplets-pdflink-description": "別のWikiページをPDFでダウンロードするリンク",
 	"droplets-map-center-map-label": "地図の中心",
 	"droplets-map-center-map-label-help": "地図の中心にある場所。例: レーゲンスブルク、ドイツ",
-	"droplets-buttonlink-desc": "ボタンとしてスタイルが設定されたリンク"
+	"droplets-buttonlink-desc": "ボタンとしてスタイルが設定されたリンク",
+	"droplets-buttonlink-format-blue": "青",
+	"droplets-buttonlink-format-neutral": "白",
+	"droplets-buttonlink-format-red": "赤"
 }

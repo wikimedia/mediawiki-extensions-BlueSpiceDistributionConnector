@@ -162,5 +162,11 @@
 	"droplets-map-description": "Las ubicaciones pueden marcarse en el mapa",
 	"droplets-subpages-name": "Subpáginas",
 	"droplets-subpages-description": "Lista de las subpáginas de una página del wiki",
-	"droplets-pdflink-description": "Enlace que descarga otra página del wiki como PDF"
+	"droplets-pdflink-description": "Enlace que descarga otra página del wiki como PDF",
+	"droplets-buttonlink-format-blue": "azul",
+	"droplets-buttonlink-format-neutral": "blanco",
+	"droplets-buttonlink-format-red": "rojo",
+	"droplets-create-input-alignment-left-label": "izquierda",
+	"droplets-create-input-alignment-right-label": "derecha",
+	"droplets-create-input-desc": "Campo del formulario para la creación de páginas predefinidas"
 }
