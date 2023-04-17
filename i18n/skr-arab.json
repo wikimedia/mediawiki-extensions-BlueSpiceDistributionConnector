@@ -27,5 +27,9 @@
 	"droplets-video-name": "وڈیو",
 	"droplets-pdflink-name": "پی ڈی ایف لنک",
 	"droplets-create-input-alignment-left-label": "کھبا",
-	"droplets-create-input-alignment-right-label": "سڄا"
+	"droplets-create-input-alignment-right-label": "سڄا",
+	"droplets-buttonlink-format-blue": "نیلا",
+	"droplets-buttonlink-format-neutral": "بگّا",
+	"droplets-buttonlink-format-red": "رتا",
+	"droplets-pdf-link-link-label": "لنک لیبل"
 }

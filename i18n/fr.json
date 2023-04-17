@@ -180,5 +180,9 @@
 	"droplets-buttonlink-desc": "Lien stylé comme un bouton",
 	"droplets-map-center-label-help": "Définir l’emplacement visé par l’épingle, facultativement suivi d’un texte pour la fenêtre contextuelle. Par exemple : Ratisbonne ~ Mon texte personnalisé",
 	"droplets-map-center-map-label": "Centre de la carte",
-	"droplets-map-center-map-label-help": "Emplacement qui est au centre de la carte. Par exemple : Ratisbonne, Allemagne"
+	"droplets-map-center-map-label-help": "Emplacement qui est au centre de la carte. Par exemple : Ratisbonne, Allemagne",
+	"droplets-buttonlink-format-blue": "bleu",
+	"droplets-buttonlink-format-neutral": "blanc",
+	"droplets-buttonlink-format-red": "rouge",
+	"droplets-pdf-link-link-label": "Libellé du lien"
 }

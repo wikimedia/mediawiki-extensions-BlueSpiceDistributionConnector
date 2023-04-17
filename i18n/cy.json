@@ -8,5 +8,8 @@
 	"bs-distributionconnector-setting-path-authentication": "Dilysu",
 	"bs-sandbox": "Pwll Tywod",
 	"bs-distributionconnector-notification-logged-in": "Rydych chi newydd mewngofnodi",
-	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "dim"
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "dim",
+	"droplets-buttonlink-format-blue": "glas",
+	"droplets-buttonlink-format-neutral": "gwyn",
+	"droplets-buttonlink-format-red": "coch"
 }

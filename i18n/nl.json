@@ -10,7 +10,8 @@
 			"Optilete",
 			"Robin van der Vliet",
 			"Romaine",
-			"Rots61"
+			"Rots61",
+			"Sjoerddebruin"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Verbindt BlueSpice met verscheidene MediaWiki-uitbreidingen",
@@ -177,5 +178,8 @@
 	"droplets-video-name": "Video",
 	"droplets-video-description": "Sluit video's van verschillende platforms in",
 	"droplets-pdflink-name": "PDF-koppeling",
-	"droplets-pdflink-description": "Link die een andere wikipagina als PDF downloadt"
+	"droplets-pdflink-description": "Link die een andere wikipagina als PDF downloadt",
+	"droplets-buttonlink-format-blue": "blauw",
+	"droplets-buttonlink-format-neutral": "wit",
+	"droplets-buttonlink-format-red": "rood"
 }

@@ -172,5 +172,9 @@
 	"droplets-buttonlink-desc": "Povezava, oblikovana kot gumb",
 	"droplets-map-center-label-help": "Nastavite lokacijo za fokusno iglo, možno je tudi besedilo za pojavno okno. Na primer: Regensburg ~ Moje besedilo po meri",
 	"droplets-map-center-map-label": "Središče zemljevida",
-	"droplets-map-center-map-label-help": "Lokacija, ki je v središču zemljevida. Na primer: Regensburg, Nemčija"
+	"droplets-map-center-map-label-help": "Lokacija, ki je v središču zemljevida. Na primer: Regensburg, Nemčija",
+	"droplets-buttonlink-format-blue": "modra",
+	"droplets-buttonlink-format-neutral": "bela",
+	"droplets-buttonlink-format-red": "rdeča",
+	"droplets-pdf-link-link-label": "Oznaka povezave"
 }

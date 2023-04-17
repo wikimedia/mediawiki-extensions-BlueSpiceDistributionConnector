@@ -31,5 +31,8 @@
 	"droplets-video-name": "ভিডিও",
 	"droplets-pdflink-name": "পিডিএফ লিঙ্ক",
 	"droplets-buttonlink-name": "বোতাম",
-	"droplets-map-name": "মানচিত্র"
+	"droplets-map-name": "মানচিত্র",
+	"droplets-buttonlink-format-blue": "নীল",
+	"droplets-buttonlink-format-neutral": "সাদা",
+	"droplets-buttonlink-format-red": "লাল"
 }

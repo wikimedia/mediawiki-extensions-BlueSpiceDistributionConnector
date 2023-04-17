@@ -27,5 +27,8 @@
 	"droplets-subpages-name": "Подстранице",
 	"droplets-video-name": "Видео",
 	"droplets-pdf-link-template-label": "PDF шаблон",
-	"droplets-pdflink-name": "PDF веза"
+	"droplets-pdflink-name": "PDF веза",
+	"droplets-buttonlink-format-blue": "плава",
+	"droplets-buttonlink-format-neutral": "бела",
+	"droplets-buttonlink-format-red": "црвена"
 }
