@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			50829,
 			"500000000006城",
+			"850710247liu",
 			"A Chinese Wikipedian",
 			"AYZ04",
 			"Dianliang233",
@@ -29,8 +31,7 @@
 			"沈澄心",
 			"落花有意12138",
 			"铁桶",
-			"飞小RAN",
-			50829
+			"飞小RAN"
 		]
 	},
 	"bs-distributionconnector-extension-description": "将BlueSpice连接到各种MediaWiki的扩展",
@@ -168,6 +169,9 @@
 	"droplets-buttonlink-target-label": "目标",
 	"droplets-buttonlink-label-label": "按钮上的文字",
 	"droplets-buttonlink-format-label": "背景颜色",
+	"droplets-buttonlink-format-blue": "蓝色",
+	"droplets-buttonlink-format-neutral": "白色",
+	"droplets-buttonlink-format-red": "红色",
 	"bs-distributionconnector-statistics-report-page-hits-axis-label": "查看次数",
 	"droplets-create-input-button-label": "按钮上的文字",
 	"droplets-create-input-preload-label": "预加载页面内容",
