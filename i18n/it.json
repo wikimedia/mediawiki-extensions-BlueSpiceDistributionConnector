@@ -141,5 +141,9 @@
 	"droplets-subpages-description": "Elenco delle sottopagine di una pagina wiki",
 	"droplets-video-name": "Video",
 	"droplets-video-description": "Incorpora video da diverse piattaforme",
-	"droplets-pdflink-name": "Collegamento PDF"
+	"droplets-pdflink-name": "Collegamento PDF",
+	"droplets-buttonlink-format-blue": "blu",
+	"droplets-buttonlink-format-neutral": "bianco",
+	"droplets-buttonlink-format-red": "rosso",
+	"droplets-pdf-link-link-label": "Etichetta del collegamento"
 }
