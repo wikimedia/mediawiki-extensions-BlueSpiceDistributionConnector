@@ -10,5 +10,8 @@
 	"bs-distributionconnector-checkpermissions-label-user": "सदस्य",
 	"bs-distributionconnector-checkpermissions-label-title": "शीर्षक",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "सभी",
-	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "कोई नहीं"
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "कोई नहीं",
+	"droplets-buttonlink-format-blue": "नीला",
+	"droplets-buttonlink-format-neutral": "सफ़ेद",
+	"droplets-buttonlink-format-red": "लाल"
 }
