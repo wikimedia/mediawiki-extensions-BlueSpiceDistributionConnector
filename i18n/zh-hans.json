@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			50829,
 			"500000000006城",
+			"850710247liu",
 			"A Chinese Wikipedian",
 			"AYZ04",
 			"Dianliang233",
@@ -29,8 +31,7 @@
 			"沈澄心",
 			"落花有意12138",
 			"铁桶",
-			"飞小RAN",
-			50829
+			"飞小RAN"
 		]
 	},
 	"bs-distributionconnector-extension-description": "将BlueSpice连接到各种MediaWiki的扩展",
@@ -198,5 +199,8 @@
 	"droplets-buttonlink-description": "可打开可配置的模式对话框的可配置的按钮",
 	"droplets-circled-number-description": "圆圈中的数字有可自定义的颜色",
 	"droplets-buttonlink-desc": "有着按钮样式的链接链接",
-	"droplets-pdflink-description": "用于把另一个wiki页面下载成PDF的链接"
+	"droplets-pdflink-description": "用于把另一个wiki页面下载成PDF的链接",
+	"droplets-buttonlink-format-blue": "蓝色",
+	"droplets-buttonlink-format-neutral": "白色",
+	"droplets-buttonlink-format-red": "红色"
 }
