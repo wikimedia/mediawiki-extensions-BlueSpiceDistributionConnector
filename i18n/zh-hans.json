@@ -1,7 +1,6 @@
 {
 	"@metadata": {
 		"authors": [
-			50829,
 			"500000000006城",
 			"850710247liu",
 			"A Chinese Wikipedian",
@@ -31,7 +30,8 @@
 			"沈澄心",
 			"落花有意12138",
 			"铁桶",
-			"飞小RAN"
+			"飞小RAN",
+			50829
 		]
 	},
 	"bs-distributionconnector-extension-description": "将BlueSpice连接到各种MediaWiki的扩展",
