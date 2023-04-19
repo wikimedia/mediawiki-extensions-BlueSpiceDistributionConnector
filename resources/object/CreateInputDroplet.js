@@ -29,22 +29,25 @@
 			{
 				name: 'preload',
 				label: mw.message( 'droplets-create-input-preload-label' ).plain(),
-				type: 'textarea',
-				rows: 5
+				help: mw.message( 'droplets-create-input-preload-help' ).plain(),
+				type: 'text'
 			},
 			{
 				name: 'placeholder',
 				label: mw.message( 'droplets-create-input-placeholder-label' ).plain(),
+				help: mw.message( 'droplets-create-input-placeholder-help' ).plain(),
 				type: 'text'
 			},
 			{
 				name: 'prefix',
 				label: mw.message( 'droplets-create-input-prefix-label' ).plain(),
+				help: mw.message( 'droplets-create-input-prefix-help' ).plain(),
 				type: 'text'
 			},
 			{
 				name: 'alignment',
 				label: mw.message( 'droplets-create-input-alignment-label' ).plain(),
+				help: mw.message( 'droplets-create-input-alignment-help' ).plain(),
 				type: 'dropdown',
 				default: '',
 				options: [
@@ -57,7 +60,7 @@
 						data: 'right'
 					},
 					{
-						label: '',
+						label: mw.message( 'droplets-create-input-alignment-center-label' ).plain(),
 						data: ''
 					}
 				]
