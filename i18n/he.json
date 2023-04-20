@@ -16,6 +16,7 @@
 	"bs-distributionconnector-tag-categorytree-desc": "מציג מבנה עץ דינמי במערכת הקטגוריות בוויקי. בין התגים יש לציין את קטגוריית השורש.",
 	"bs-distributionconnector-tag-ref-desc": "מסמן את הטקסט בין התגים כהערת שוליים.",
 	"bs-distributionconnector-tag-references-desc": "מציג את רשימת הערות השוליים שהוכנסו לערכים.",
+	"bs-distributionconnector-tag-embedvideo-desc": "הטבעת קטעי וידאו מפלטפורמות שיתוף פופולריות.",
 	"bs-distributionconnector-flyout-hitcounters-text": "מספר צפיות",
 	"bs-distributionconnector-ve-categorytreeinpector-title": "עץ קטגוריות",
 	"bs-distributionconnector-ve-categorytree-title": "עץ קטגוריות",
@@ -131,5 +132,16 @@
 	"droplets-create-input-alignment-left-label": "שמאל",
 	"droplets-create-input-alignment-right-label": "ימין",
 	"droplets-create-input-name": "יצירת דף",
-	"droplets-pdf-link-page-label": "דף ליצוא"
+	"droplets-pdf-link-page-label": "דף ליצוא",
+	"droplets-pdf-link-template-label": "תבנית PDF",
+	"droplets-buttonlink-name": "כפתור",
+	"droplets-categorytree-name": "עץ קטגוריות",
+	"droplets-circled-number-name": "מספר בעיגול",
+	"droplets-gallery-name": "גלריה",
+	"droplets-gallery-description": "הצגת גלריית תמונות",
+	"droplets-map-name": "מפה",
+	"droplets-subpages-name": "דפי־משנה",
+	"droplets-subpages-description": "רשימת דפי־המשנה של דף ויקי",
+	"droplets-video-name": "וידאו",
+	"droplets-video-description": "הטבעת סרטונים מפלטפורמות שונות"
 }
