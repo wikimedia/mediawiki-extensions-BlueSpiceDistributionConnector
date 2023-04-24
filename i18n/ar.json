@@ -74,5 +74,9 @@
 	"droplets-map-name": "خريطة",
 	"droplets-video-name": "فيديو",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "العنوان المقدم غير صالح",
-	"droplets-buttonlink-external-label": "وصلة خارجية"
+	"droplets-buttonlink-external-label": "وصلة خارجية",
+	"bs-distributionconnector-pref-eventbus-eventservices-key": "اسم الخدمة",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "الكل",
+	"droplets-gallery-name": "معرض صور",
+	"droplets-gallery-description": "تظهر معرضًا للصور"
 }
