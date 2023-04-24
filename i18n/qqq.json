@@ -179,5 +179,7 @@
 	"droplets-video-name": "Title of droplet video",
 	"droplets-video-description": "Description of droplet video",
 	"droplets-pdflink-name": "Title of droplet for template PDFLink",
-	"droplets-pdflink-description": "Description of droplet for template PDFLink"
+	"droplets-pdflink-description": "Description of droplet for template PDFLink",
+	"bs-distributionconnector-videodropletinspector-video-link-label": "Label for textarea where a link to a video is inserted",
+	"bs-distributionconnector-videodropletinspector-title": "Title for inspector video"
 }
