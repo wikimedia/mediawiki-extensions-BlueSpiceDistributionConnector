@@ -15,5 +15,8 @@
 	"droplets-gallery-name": "Պատկերասրահ",
 	"droplets-map-name": "Քարտեզ",
 	"droplets-subpages-name": "Ենթաէջեր",
-	"droplets-map-center-map-label": "Քարտեզի կենտրոն"
+	"droplets-map-center-map-label": "Քարտեզի կենտրոն",
+	"droplets-buttonlink-format-blue": "կապույտ",
+	"droplets-buttonlink-format-neutral": "սպիտակ",
+	"droplets-buttonlink-format-red": "կարմիր"
 }
