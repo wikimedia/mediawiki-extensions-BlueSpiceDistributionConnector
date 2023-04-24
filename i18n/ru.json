@@ -25,8 +25,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Скрыть префикс",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Пространство имён",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Тег CSS",
-	"bs-distributionconnector-hitcounters-sesp-alias": "Счетчик посещений",
-	"bs-distributionconnector-hitcounters-sesp-desc": "Счетчик посещений",
 	"bs-distributionconnector-collection-type-hitcounter": "Просмотров страниц",
 	"bs-distributionconnector-collection-var-pagetitle": "Заголовок страницы",
 	"bs-distributionconnector-collection-var-numberhits": "Счетчики",

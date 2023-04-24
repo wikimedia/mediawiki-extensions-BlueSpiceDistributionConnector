@@ -37,8 +37,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Ocultar prefijo",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Espacio de nombres",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Etiqueta de estilo CSS",
-	"bs-distributionconnector-hitcounters-sesp-alias": "Contador de ediciones",
-	"bs-distributionconnector-hitcounters-sesp-desc": "Contador de ediciones",
 	"bs-distributionconnector-collection-type-hitcounter": "Vistas de página",
 	"bs-distributionconnector-collection-var-pagetitle": "Título de página",
 	"bs-distributionconnector-collection-var-numberhits": "Vistas",

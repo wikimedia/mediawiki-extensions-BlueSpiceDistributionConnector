@@ -31,8 +31,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Voorvoegsel verbergen",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Naamruimte",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS-stijltag",
-	"bs-distributionconnector-hitcounters-sesp-alias": "Weergaventeller",
-	"bs-distributionconnector-hitcounters-sesp-desc": "Weergaventeller",
 	"bs-distributionconnector-collection-type-hitcounter": "Paginaweergaven",
 	"bs-distributionconnector-collection-var-pagetitle": "Paginanaam",
 	"bs-distributionconnector-collection-var-numberhits": "Weergaven",

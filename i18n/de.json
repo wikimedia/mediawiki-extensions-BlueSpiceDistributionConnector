@@ -27,8 +27,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Prefix verbergen",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Namensraum",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS Style Tag",
-	"bs-distributionconnector-hitcounters-sesp-alias": "Bearbeitungszähler",
-	"bs-distributionconnector-hitcounters-sesp-desc": "Bearbeitungszähler",
 	"bs-distributionconnector-collection-type-hitcounter": "Seitenaufrufe",
 	"bs-distributionconnector-collection-var-pagetitle": "Seitentitel",
 	"bs-distributionconnector-collection-var-numberhits": "Aufrufe",

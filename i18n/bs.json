@@ -16,8 +16,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Pokaži brojač",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Sakrij prefiks",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Imenski prostor",
-	"bs-distributionconnector-hitcounters-sesp-alias": "Brojač pregleda",
-	"bs-distributionconnector-hitcounters-sesp-desc": "Brojač pregleda",
 	"bs-distributionconnector-collection-type-hitcounter": "Pregledi stranice",
 	"bs-distributionconnector-collection-var-pagetitle": "Naslov stranice"
 }

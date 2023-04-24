@@ -28,8 +28,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "隱藏字首",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "命名空間",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS 樣式標籤",
-	"bs-distributionconnector-hitcounters-sesp-alias": "相符計數器",
-	"bs-distributionconnector-hitcounters-sesp-desc": "相符計數器",
 	"bs-distributionconnector-collection-type-hitcounter": "頁面檢視",
 	"bs-distributionconnector-collection-var-pagetitle": "頁面標題",
 	"bs-distributionconnector-collection-var-numberhits": "相符",

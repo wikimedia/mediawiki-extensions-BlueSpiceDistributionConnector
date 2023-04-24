@@ -26,8 +26,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Приховати префікс",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Простір назв",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Тег стилю CSS",
-	"bs-distributionconnector-hitcounters-sesp-alias": "Лічильник спрацьовувань",
-	"bs-distributionconnector-hitcounters-sesp-desc": "Лічильник спрацьовувань",
 	"bs-distributionconnector-collection-type-hitcounter": "Перегляди сторінки",
 	"bs-distributionconnector-collection-var-pagetitle": "Назва сторінки",
 	"bs-distributionconnector-collection-var-numberhits": "Спрацьовування",

@@ -15,8 +15,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Скриј претставка",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Именски простор",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Ознака за стил на CSS",
-	"bs-distributionconnector-hitcounters-sesp-alias": "Бројач на посети",
-	"bs-distributionconnector-hitcounters-sesp-desc": "Бројач на посети",
 	"bs-distributionconnector-collection-type-hitcounter": "Посети на страницата",
 	"bs-distributionconnector-collection-var-pagetitle": "Наслов на страницата",
 	"bs-distributionconnector-collection-var-numberhits": "Погодоци",

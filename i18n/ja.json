@@ -28,8 +28,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "接頭辞を非表示",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "名前空間",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS スタイルタグ",
-	"bs-distributionconnector-hitcounters-sesp-alias": "編集カウンター",
-	"bs-distributionconnector-hitcounters-sesp-desc": "編集カウンター",
 	"bs-distributionconnector-collection-type-hitcounter": "ページ閲覧回数",
 	"bs-distributionconnector-collection-var-pagetitle": "ページタイトル",
 	"bs-distributionconnector-collection-var-numberhits": "当たり",

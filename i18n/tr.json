@@ -30,8 +30,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Öneki gizle",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Ad alanı",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS stil etiketi",
-	"bs-distributionconnector-hitcounters-sesp-alias": "İsabet Sayacı",
-	"bs-distributionconnector-hitcounters-sesp-desc": "İsabet Sayacı",
 	"bs-distributionconnector-collection-type-hitcounter": "Sayfa görüntülenmesi",
 	"bs-distributionconnector-collection-var-pagetitle": "Sayfa başlığı",
 	"bs-distributionconnector-collection-var-numberhits": "İsabetler",

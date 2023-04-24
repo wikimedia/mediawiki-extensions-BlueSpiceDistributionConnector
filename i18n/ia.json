@@ -21,8 +21,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Celar prefixo",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Spatio de nomines",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Etiquetta de stilo CSS",
-	"bs-distributionconnector-hitcounters-sesp-alias": "Contator de visitas",
-	"bs-distributionconnector-hitcounters-sesp-desc": "Contator de visitas",
 	"bs-distributionconnector-collection-type-hitcounter": "Visitas de pagina",
 	"bs-distributionconnector-collection-var-pagetitle": "Titulo del pagina",
 	"bs-distributionconnector-collection-var-numberhits": "Visitas",

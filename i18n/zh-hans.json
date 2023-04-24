@@ -51,8 +51,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "隐藏前缀",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "命名空间",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS样式标签",
-	"bs-distributionconnector-hitcounters-sesp-alias": "命中计数器",
-	"bs-distributionconnector-hitcounters-sesp-desc": "命中计数器",
 	"bs-distributionconnector-collection-type-hitcounter": "页面查看次数",
 	"bs-distributionconnector-collection-var-pagetitle": "页面标题",
 	"bs-distributionconnector-collection-var-numberhits": "命中",

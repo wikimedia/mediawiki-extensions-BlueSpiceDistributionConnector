@@ -21,8 +21,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Skrij predpono",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Imenski prostor",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Oznaka sloga CSS",
-	"bs-distributionconnector-hitcounters-sesp-alias": "Števec zadetkov",
-	"bs-distributionconnector-hitcounters-sesp-desc": "Števec zadetkov",
 	"bs-distributionconnector-collection-type-hitcounter": "Ogledi strani",
 	"bs-distributionconnector-collection-var-pagetitle": "Naslov strani",
 	"bs-distributionconnector-collection-var-numberhits": "Zadetki",

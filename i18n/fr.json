@@ -29,8 +29,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Masquer le préfixe",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Espace de noms",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "balise de style CSS",
-	"bs-distributionconnector-hitcounters-sesp-alias": "Compteur de vues uniques",
-	"bs-distributionconnector-hitcounters-sesp-desc": "Compteur de vues uniques",
 	"bs-distributionconnector-collection-type-hitcounter": "Pages vues",
 	"bs-distributionconnector-collection-var-pagetitle": "Titre de page",
 	"bs-distributionconnector-collection-var-numberhits": "Vues uniques",

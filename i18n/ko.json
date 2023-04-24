@@ -18,8 +18,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "접두사 숨기기",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "이름공간",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS 스타일 태그",
-	"bs-distributionconnector-hitcounters-sesp-alias": "히트 카운터",
-	"bs-distributionconnector-hitcounters-sesp-desc": "히트 카운터",
 	"bs-distributionconnector-collection-type-hitcounter": "문서 조회수",
 	"bs-distributionconnector-collection-var-pagetitle": "문서 제목",
 	"bs-distributionconnector-setting-path-authentication": "인증",
