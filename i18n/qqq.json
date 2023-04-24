@@ -181,5 +181,7 @@
 	"droplets-buttonlink-format-blue": "Label for option of background color",
 	"droplets-buttonlink-format-neutral": "Label for option of background color",
 	"droplets-buttonlink-format-red": "Label for option of background color",
-	"droplets-pdf-link-link-label": "Label for text input to insert label of link"
+	"droplets-pdf-link-link-label": "Label for text input to insert label of link",
+	"bs-distributionconnector-videodropletinspector-video-link-label": "Label for textarea where a link to a video is inserted",
+	"bs-distributionconnector-videodropletinspector-title": "Title for inspector video"
 }

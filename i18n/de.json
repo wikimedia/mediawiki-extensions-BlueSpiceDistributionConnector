@@ -185,5 +185,7 @@
 	"droplets-buttonlink-format-blue": "blau",
 	"droplets-buttonlink-format-neutral": "weiß",
 	"droplets-buttonlink-format-red": "rot",
-	"droplets-pdf-link-link-label": "Link-Label"
+	"droplets-pdf-link-link-label": "Link-Label",
+	"bs-distributionconnector-videodropletinspector-video-link-label": "Füge einen Link zu einem Video ein",
+	"bs-distributionconnector-videodropletinspector-title": "Video"
 }
