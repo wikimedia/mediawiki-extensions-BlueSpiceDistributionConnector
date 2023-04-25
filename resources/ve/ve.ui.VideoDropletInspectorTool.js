@@ -6,7 +6,8 @@ ve.ui.VideoDropletInspectorTool.static.name = 'embedVideo';
 ve.ui.VideoDropletInspectorTool.static.group = 'none';
 ve.ui.VideoDropletInspectorTool.static.autoAddToCatchall = false;
 ve.ui.VideoDropletInspectorTool.static.icon = 'play';
-ve.ui.VideoDropletInspectorTool.static.title = 'VideoDroplet';
+ve.ui.VideoDropletInspectorTool.static.title =
+	mw.message( 'bs-distributionconnector-videodropletinspector-title' ).text();
 ve.ui.VideoDropletInspectorTool.static.modelClasses = [ve.dm.VideoDropletNode];
 ve.ui.VideoDropletInspectorTool.static.commandName = 'videoDropletTool';
 ve.ui.toolFactory.register(ve.ui.VideoDropletInspectorTool);

@@ -10,7 +10,8 @@ OO.inheritClass( ve.ui.VideoDropletInspector, ve.ui.MWLiveExtensionInspector );
 
 ve.ui.VideoDropletInspector.static.name = 'videoDropletInspector';
 
-ve.ui.VideoDropletInspector.static.title = 'Video';
+ve.ui.VideoDropletInspector.static.title =
+	mw.message( 'bs-distributionconnector-videodropletinspector-title' ).text();
 
 ve.ui.VideoDropletInspector.static.modelClasses = [ ve.dm.VideoDropletNode ];
 
@@ -21,6 +22,11 @@ ve.ui.VideoDropletInspector.static.selfCloseEmptyBody = false;
 
 ve.ui.VideoDropletInspector.prototype.initialize = function () {
 	ve.ui.VideoDropletInspector.super.prototype.initialize.call( this );
+	// Add label for input field
+	let label = new OO.ui.LabelWidget( {
+		label: mw.message( 'bs-distributionconnector-videodropletinspector-video-link-label' ).text()
+	});
+	this.form.$element.prepend( label.$element );
 
 	this.indexLayout = new OO.ui.PanelLayout( {
 		scrollable: false,
