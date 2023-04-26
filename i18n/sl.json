@@ -176,5 +176,7 @@
 	"droplets-buttonlink-format-blue": "modra",
 	"droplets-buttonlink-format-neutral": "bela",
 	"droplets-buttonlink-format-red": "rdeča",
-	"droplets-pdf-link-link-label": "Oznaka povezave"
+	"droplets-pdf-link-link-label": "Oznaka povezave",
+	"bs-distributionconnector-videodropletinspector-video-link-label": "Vstavite povezavo na video",
+	"bs-distributionconnector-videodropletinspector-title": "Video"
 }
