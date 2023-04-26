@@ -176,5 +176,6 @@
 	"droplets-video-name": "ビデオ",
 	"droplets-video-description": "様々なプラットフォームから動画を埋め込みます",
 	"droplets-pdflink-name": "PDFリンク",
-	"droplets-pdflink-description": "別のWikiページをPDFでダウンロードするリンク"
+	"droplets-pdflink-description": "別のWikiページをPDFでダウンロードするリンク",
+	"bs-distributionconnector-videodropletinspector-title": "動画"
 }

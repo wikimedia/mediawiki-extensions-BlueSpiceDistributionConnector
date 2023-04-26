@@ -171,5 +171,7 @@
 	"droplets-video-name": "Video",
 	"droplets-video-description": "Incastra videos de differente platteformas",
 	"droplets-pdflink-name": "Ligamine PDF",
-	"droplets-pdflink-description": "Ligamine que discarga un altere pagina wiki como PDF"
+	"droplets-pdflink-description": "Ligamine que discarga un altere pagina wiki como PDF",
+	"bs-distributionconnector-videodropletinspector-video-link-label": "Inserer un ligamine a un video",
+	"bs-distributionconnector-videodropletinspector-title": "Video"
 }

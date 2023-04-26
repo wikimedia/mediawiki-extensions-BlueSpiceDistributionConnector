@@ -179,5 +179,7 @@
 	"droplets-video-name": "Vidéo",
 	"droplets-video-description": "Incorpore des vidéos depuis différentes plateformes",
 	"droplets-pdflink-name": "Lien PDF",
-	"droplets-pdflink-description": "Lien qui télécharge une autre page du wiki sous forme de PDF"
+	"droplets-pdflink-description": "Lien qui télécharge une autre page du wiki sous forme de PDF",
+	"bs-distributionconnector-videodropletinspector-video-link-label": "Insérer un lien vers une vidéo",
+	"bs-distributionconnector-videodropletinspector-title": "Vidéo"
 }
