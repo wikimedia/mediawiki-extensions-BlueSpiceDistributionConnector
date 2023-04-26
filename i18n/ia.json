@@ -176,5 +176,7 @@
 	"droplets-buttonlink-format-blue": "blau",
 	"droplets-buttonlink-format-neutral": "blanc",
 	"droplets-buttonlink-format-red": "rubie",
-	"droplets-pdf-link-link-label": "Etiquetta del ligamine"
+	"droplets-pdf-link-link-label": "Etiquetta del ligamine",
+	"bs-distributionconnector-videodropletinspector-video-link-label": "Inserer un ligamine a un video",
+	"bs-distributionconnector-videodropletinspector-title": "Video"
 }
