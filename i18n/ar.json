@@ -57,8 +57,10 @@
 	"bs-support": "دعم",
 	"bs-distributionconnector-default-definition-report-review": "مراجعة",
 	"bs-distributionconnector-default-definition-report-approve": "موافقة",
+	"bs-distributionconnector-pref-eventbus-eventservices-key": "اسم الخدمة",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "المسار",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "المهلة",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "الكل",
 	"bs-distributionconnector-checkpermissions": "التحقق من الصلاحيات",
 	"bs-distributionconnector-checkpermissions-label-user": "المستخدم",
 	"bs-distributionconnector-checkpermissions-label-permission": "الصلاحيات",
@@ -73,6 +75,8 @@
 	"droplets-buttonlink-format-label": "لون الخلفية",
 	"bs-distributionconnector-statistics-report-page-hits-axis-label": "عدد مشاهدات الصفحة",
 	"droplets-buttonlink-name": "زر",
+	"droplets-gallery-name": "معرض صور",
+	"droplets-gallery-description": "تظهر معرضًا للصور",
 	"droplets-map-name": "خريطة",
 	"droplets-video-name": "فيديو"
 }
