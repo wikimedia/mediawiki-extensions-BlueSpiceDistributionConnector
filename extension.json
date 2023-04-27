@@ -373,8 +373,20 @@
 			],
 			"messages": [
 				"bs-distributionconnector-videodropletinspector-service-label",
+				"bs-distributionconnector-videodropletinspector-service-help",
 				"bs-distributionconnector-videodropletinspector-video-link-label",
-				"bs-distributionconnector-videodropletinspector-title"
+				"bs-distributionconnector-videodropletinspector-title",
+				"bs-distributionconnector-videodropletinspector-description-label",
+				"bs-distributionconnector-videodropletinspector-description-help",
+				"bs-distributionconnector-videodropletinspector-description-placeholder",
+				"bs-distributionconnector-videodropletinspector-dimension-label",
+				"bs-distributionconnector-videodropletinspector-dimension-help",
+				"bs-distributionconnector-videodropletinspector-alignment-label",
+				"bs-distributionconnector-videodropletinspector-alignment-left",
+				"bs-distributionconnector-videodropletinspector-alignment-center",
+				"bs-distributionconnector-videodropletinspector-alignment-right",
+				"bs-distributionconnector-videodropletinspector-container-label",
+				"bs-distributionconnector-videodropletinspector-container-help"
 			]
 		},
 		"ext.bluespice.distribution.droplet.map": {

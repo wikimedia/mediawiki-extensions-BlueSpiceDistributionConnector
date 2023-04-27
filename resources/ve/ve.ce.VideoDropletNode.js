@@ -8,12 +8,12 @@ ve.ce.VideoDropletNode = function VeCeVideoDropletNode() {
 OO.inheritClass( ve.ce.VideoDropletNode, ve.ce.MWInlineExtensionNode );
 
 /* Static properties */
-ve.ce.VideoDropletNode.static.name = 'embedVideo';
+ve.ce.VideoDropletNode.static.name = 'embedvideo';
 
-ve.ce.VideoDropletNode.static.primaryCommandName = 'embedVideo';
+ve.ce.VideoDropletNode.static.primaryCommandName = 'embedvideo';
 
 // If body is empty, tag does not render anything
-ve.ce.VideoDropletNode.static.rendersEmpty = true;
+ve.ce.VideoDropletNode.static.rendersEmpty = false;
 
 /**
  * @inheritdoc

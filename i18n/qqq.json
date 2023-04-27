@@ -181,5 +181,18 @@
 	"droplets-pdflink-name": "Title of droplet for template PDFLink",
 	"droplets-pdflink-description": "Description of droplet for template PDFLink",
 	"bs-distributionconnector-videodropletinspector-video-link-label": "Label for textarea where a link to a video is inserted",
-	"bs-distributionconnector-videodropletinspector-title": "Title for inspector video"
+	"bs-distributionconnector-videodropletinspector-title": "Title for inspector video",
+	"bs-distributionconnector-videodropletinspector-service-help": "Help text for dropdown to select service",
+	"bs-distributionconnector-videodropletinspector-description-placeholder": "Insert video description...",
+	"bs-distributionconnector-videodropletinspector-description-label": "Label for text input to write a description",
+	"bs-distributionconnector-videodropletinspector-description-help": "Help text for text input field",
+	"bs-distributionconnector-videodropletinspector-dimension-label": "Label for text input to set dimension",
+	"bs-distributionconnector-videodropletinspector-dimension-help": "Help text for text input field to set dimension",
+	"bs-distributionconnector-videodropletinspector-alignment-label": "Label for dropdown to select alignment",
+	"bs-distributionconnector-videodropletinspector-alignent-help": "Help text for dropdown to select alignment",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "Label for option in dropdown",
+	"bs-distributionconnector-videodropletinspector-alignment-center": "Label for option in dropdown",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "Label for option in dropdown",
+	"bs-distributionconnector-videodropletinspector-container-label": "Label for checkbox to decide if video container should be framed or not",
+	"bs-distributionconnector-videodropletinspector-container-help": "Help text for checkbox if video container should be framed or not"
 }
