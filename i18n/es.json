@@ -165,5 +165,7 @@
 	"droplets-subpages-name": "Subpáginas",
 	"droplets-subpages-description": "Lista de las subpáginas de una página del wiki",
 	"droplets-video-name": "Vídeo",
-	"droplets-pdflink-description": "Enlace que descarga otra página del wiki como PDF"
+	"droplets-pdflink-description": "Enlace que descarga otra página del wiki como PDF",
+	"bs-distributionconnector-videodropletinspector-video-link-label": "Insertar un enlace a un vídeo",
+	"bs-distributionconnector-videodropletinspector-title": "Vídeo"
 }
