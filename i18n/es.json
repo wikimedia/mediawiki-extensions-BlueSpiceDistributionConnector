@@ -168,5 +168,7 @@
 	"droplets-buttonlink-format-red": "rojo",
 	"droplets-create-input-alignment-left-label": "izquierda",
 	"droplets-create-input-alignment-right-label": "derecha",
-	"droplets-create-input-desc": "Campo del formulario para la creación de páginas predefinidas"
+	"droplets-create-input-desc": "Campo del formulario para la creación de páginas predefinidas",
+	"bs-distributionconnector-videodropletinspector-video-link-label": "Insertar un enlace a un vídeo",
+	"bs-distributionconnector-videodropletinspector-title": "Vídeo"
 }
