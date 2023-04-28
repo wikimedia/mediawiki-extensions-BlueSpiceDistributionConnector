@@ -1,0 +1,3 @@
+<div class="profileimg">[[User:WikiSysop|<profileimage username="WikiSysop" width="60" height="60" raw="1" />]]</div>Kontaktiere '''[[User:WikiSysop|Liz]]''' für alle Fragen zum Wiki. 
+
+Für tiefgreifende Fragen gibt es auch 1-stündige Supportstunden.

@@ -1,0 +1,3 @@
+<div class="profileimg">[[User:WikiSysop|<profileimage username="WikiSysop" width="60" height="60" raw="1" />]]</div>Contact '''[[User:WikiSysop|Liz]]''' for any questions about our wiki. 
+
+You can also schedule a one-hour wiki training with her or send her an e-mail whenever you have questions about our new wiki.

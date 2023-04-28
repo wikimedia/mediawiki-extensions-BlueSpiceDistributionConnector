@@ -1,0 +1,90 @@
+/*Startpage sectionflex layout */
+.sectionflex {display: flex; flex-wrap: wrap; justify-content:space-between;}
+.sectionflex.col1 > div {flex-basis:100%; padding:10px 20px 20px 20px; margin:10px 0;}
+.sectionflex.col2 > div {flex-basis:49%; padding:10px 20px 20px 20px; margin:10px 0;}
+.sectionflex.col3 > div {flex-basis:32%; padding:10px 20px 20px 20px; margin:10px 0;}
+.sectionflex > div.double {flex-basis:66%;}
+.sectionflex > div h2 {margin:0 0 1em 0; font-size:1.1em; border-bottom:none}
+.sectionflex > div h3 {margin:1.2em 0 0 0; font-size:1em}
+.sectionflex.frame > div {border: 1px solid #e7e7e7}
+.sectionflex.background> div {background: #f1f3f9}
+.sectionflex table {font-size:1em;}
+.sectionflex .mw-editsection, .sectionflex .mw-editdrawio {display:none}
+@media (max-width: 767px) {.sectionflex.col2 > div, .sectionflex.col3 > div {flex-basis:100%; margin-top:2em}}
+.sectionflex table {font-size:1em;}
+.sectionflex table td, .sectionflex table th {font-size:1em; vertical-align:top; padding:4px}
+
+/*Startpage arrow icon */
+.sectionflex .bi, .sectionflex  .fa {vertical-align:middle;}
+
+/*Startpage/iconnav */
+.iconnav {background:#f1f3f9;  margin-bottom:12px; padding:0 5px 2px 5px}
+.imgcard {margin-bottom:0!important;}
+
+/*Startpage tables in sectionflex */
+table.eventtable {font-size:1em;}
+table.small td, table.small th {font-size:0.9em;}
+
+/*Startpage/Events */
+.startpageevents td {padding:8px 0; font-size:1em}
+
+/*Startpage/Contacts */
+.startpagecontacts tr {background:#f1f3f9;border: 2px solid white}
+.startpagecontacts td {padding:6px 2px 2px 2px}
+
+/*Startpage/Announcements */
+.announcement {background:#eff6dd; margin-top:20px}
+
+/*Startpage/Contacts */
+.profileimg img {float:right; margin:0 0 0 10px}
+
+/*visual editing mode*/
+.sectionflex .ve-ce-branchNode-slug {display:none !important} /*remove placeholders to allow adding content between flex boxes, since it would mess up flex layout*/
+
+
+/*Startseitenblog */
+.bs-social-entity-userimage {display: none;}
+.bs-social-entity .bs-social-entity-title h3 {font-size:1em!important; font-weight:700;}
+.bs-social-entity .bs-social-entity-title h3::before {font-family: bootstrap-icons !important; font-weight:300; content: "\F25C" ; vertical-align:-0.2em; margin-right:5px; }
+.bs-social-entity div.bs-social-entity-right {margin: 0;}
+#content .bs-social-entity-content > p {padding: 0.4em 0 0 0;}
+#content .bs-social-entitylist-children {margin-left:20px;background-color:#f1f3f9; border-left:1px solid #d8d8d9; width:90%}
+ul.bs-social-entitylist .bs-social-entity-edit-mode form input, ul.bs-social-entitylist .bs-social-entity-edit-mode form.short textarea {font-size:0.9em}
+ul.bs-social-entitylist .bs-social-entity-edit-mode form.short textarea {padding:2px 0; overflow:hidden; line-height: 1.8em; width:9em!important}
+.bs-social-entity .bs-social-entity-title {margin-bottom: 5px; background-color:transparent;  border-bottom: 1px solid #a6a6a7; width:100%}
+.bs-social-entity-content {background-color: transparent; width: 80%;}
+#content .bs-social-entitylist.children {margin-left: 20px; border-left:4px solid #d8d8d9; background-color: #f1f3f9!important}
+.bs-social-entity .bs-social-entity-aftercontent {margin-left:20px}
+#content .bs-social-entity-content > p {padding: 0.4em 0 0 0;}
+.bs-social-entitylist .bs-social-entity-comment.bs-social-entity-output-Short div.bs-social-entity-right {margin: 0 0 0 8px !important;}
+.bs-social-entity .bs-social-entity-aftercontent {margin-left: 5px}
+.bs-social-entitylist-more  {background:#747474;  margin: 0px auto;}
+ul.bs-social-entitylist {background:transparent!important}
+.bs-social-entity .bs-social-entity-author {font-size: 1.1em;}
+
+
+/* Simple list view of blog items */
+.bloglist .bs-social-entity .bs-social-entity-right .bs-social-entity-actions {display:none}
+.bloglist .bs-social-entity.bs-social-entity-edit-mode form.oo-ui-formLayout.oo-ui-layout {display:none}
+.bloglist  ul.bs-social-entitylist {background-color:transparent!important; list-style-type:disc; padding:0!important}
+.bloglist  ul.bs-social-entitylist li {margin:0!important;}
+.bloglist  .bs-social-entity div.bs-social-entity-right {margin: 0}
+.bloglist  .bs-social-entity-actions {display:none!important}
+.bloglist  .bs-social-entity .bs-social-entity-title h3 {font-weight:400;}
+.bloglist  .bs-social-entity-title {width:100%; margin:0!important; border-bottom:0!important;}
+#content .bloglist .bs-social-entity-right a, #content  .bloglist .bs-social-entity-title a, #content  .bloglist .bs-social-entity-title a:before   {color:#3e5389!important}
+/* Style text-based tag cloud to match other cards */
+.bs-tagcloud.text {text-align: center; border: 1px solid #e7e7e7; border-radius:0}
+
+/*dropdown template*/
+#edit-Drop-down-list {float:right;z-index: 100; position:relative}
+#edit-Drop-down-list .mw-customtoggle-edit {padding:5px 0 5px 10px; text-align:right}  
+/*#edit-Drop-down-list .mw-collapsible-content {padding:5px 14px; font-size:0.95em; background:#f1f3f9}*/
+#edit-Drop-down-list .mw-collapsible-content  .subpagelist ul {list-style-type:none; margin-left:0}
+#edit-Drop-down-list  .dropdown-menu {position:absolute;  top: 0px; left:-8px; transform: translate(-129px, 30px); padding: 8px 12px; font-size:0.95em}
+#edit-Drop-down-list .dropdown-menu li  {line-height:1.2; margin-bottom:0.5em}
+
+
+#content .bs-social-entity-right a,#content .bs-social-entity a, #content .bs-social-entity-right a::before {
+    color: red !important;
+}

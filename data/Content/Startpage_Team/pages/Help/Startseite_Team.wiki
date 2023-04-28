@@ -1,0 +1,37 @@
+<templatestyles src="Startseite/styles.css" />
+= Willkommen Team! =
+<!--start container-->
+<div class="sectionflex col2 background">
+<div>
+==Wochenplan==
+{{{{NAMESPACE}}:{{PAGENAME}}/Wochenplan}}</div>
+<div>
+==Telefonverzeichnis==
+{{#dpl: title={{NAMESPACE}}:{{PAGENAME}}/Durchwahlen|include=#Wichtige Nummern}}
+[[{{NAMESPACE}}:{{PAGENAME}}/Durchwahlen|<i class="bi bi-headset"></i> alle Durchwahlen]]</div>
+<div>
+==Team-Meetings==
+{{{{NAMESPACE}}:{{PAGENAME}}/Protokolle}}
+</div><div>
+==Kontaktinfo==
+{{{{NAMESPACE}}:{{PAGENAME}}/Kontakt}}
+</div>
+<div>
+==Letzte Änderungen==
+{{{{NAMESPACE}}:{{PAGENAME}}/Letzte Änderungen}}
+</div>
+<div>
+==Quick links==
+* Anwesenheiten
+* Vertretungsregelungen
+</div>
+</div>
+<div class="sectionflex col1 background">
+<div>
+==Wichtige Dateien==
+<attachments>
+</attachments></div></div>
+{{Dropdown|ddid=edit|Content={{#subpages:{{FULLPAGENAME}}|kidsonly=yes}}}}
+__HIDETITLE__
+__NOTOC__
+__NODISCUSSION__

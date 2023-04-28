@@ -1,0 +1,61 @@
+/*all sizes */
+.imgcard {display:flex; gap:20px; margin-bottom:10px;}
+.imgcard > div,.ve-ce-branchNode .imgcard > div {background:#f1f3f9; text-align:center; border-radius:5px; outline:1px solid #f1f3f9; overflow:hidden}
+.ve-ce-branchNode .imgcard > div {overflow:hidden}
+.imgcard > div:hover {background:#e9e9ee;}
+.imgcard img, .ve-ce-branchNode .imgcard img {min-width: 100%; object-fit: cover;  border-radius:5px 5px 0 0; }
+.imgcard .imgcardlink {padding:5px; font-size:0.95em}
+.imgcard span, .imgcard a {display:block;}
+.imgcard >div:hover {text-decoration:none!important;}
+.imgcard .icon {padding-top:8px;}
+.imgcard .icon > a.external {background-image:none!important}
+.imgcard a {text-decoration:none!important}
+
+/*placeholder empty cards if justify-content is used with line-break*/
+.imgcard > div.placeholder.textonly {background:none; outline:0}
+.imgcard > div.placeholder.textonly:hover {box-shadow:none!important}
+
+/*medium images or icons - by default */
+.imgcard > div,.ve-ce-branchNode .imgcard > div { width:180px;}
+.imgcard img, .ve-ce-branchNode .imgcard img { min-height:140px;  max-height:140px}
+.imgcard .fa, .imgcard .fas, .imgcard.large .bi {margin-top:10px; padding:2px}
+.imgcard .fa:before, .imgcard .fas:before, .imgcard .bi:before {font-size:2.2em}
+
+/*small images or icons*/
+.imgcard.small > div,.ve-ce-branchNode .imgcard.small > div {width:140px;}
+.imgcard.small img, .ve-ce-branchNode .imgcard.small img {min-height:110px;  max-height:110px; }
+.imgcard.small .fa:before, .imgcard.small .fas:before, .imgcard.small .bi:before {font-size:1.8em}
+.imgcard.small .imgcardlink {font-size:1em}
+
+/*large images or icons*/
+.imgcard.large {flex-wrap:wrap}
+.imgcard.large > div,.ve-ce-branchNode .imgcard.large > div {width:350px;}
+.imgcard.large img, .ve-ce-branchNode .imgcard.large img {min-height:220px;  max-height:220px; }
+.imgcard.large .fa:before, .imgcard.large .fas:before, .imgcard.large .bi:before {font-size:3em; }
+.ve-ce-branchNode .imgcard.large span {min-height:220px;  max-height:220px; }
+.imgcard.large .icon span {min-height:auto; }
+.imgcard.large .icon .imgcardlink {font-size:1em}
+
+/*text-only for iconcards*/
+.imgcard .textonly .imgcardlink {height:100%;}
+.imgcard .textonly .imgcardlink a  {height:100%; width:100%; display: flex; justify-content: center; align-items:center}
+.imgcard.large .textonly .imgcardlink {font-size:1em}
+
+/*placeholder no image */
+.imgcard .placeholder.bi-card-image:before {font-size:120px!important; min-height: 140px; max-height: 140px; color:#d2d2d2}
+.imgcard.small .placeholder.bi-card-image:before {font-size: 80px!important; min-height: 110px; max-height: 110px;}
+.imgcard.large .placeholder.bi-card-image:before {font-size:174px!important;min-height:206px; max-height: 206px}
+.imgcard .pic > a.external {background-image:none!important} /*don't show external link arrow next to placeholder image */
+
+
+@media (max-width: 850px) {
+    .imgcard {flex-wrap:wrap!important}
+    .imgcard > div {width:45%!important}
+    .imgcardlink {padding:5px; font-size:1rem!important}
+}
+
+@media (max-width: 650px) {
+    .imgcard {flex-wrap:wrap!important}
+    .imgcard > div {width:100%!important}
+    .imgcardlink {padding:5px; font-size:1rem!important}
+}
