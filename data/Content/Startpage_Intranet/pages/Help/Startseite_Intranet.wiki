@@ -1,0 +1,42 @@
+<templatestyles src="Startseite/styles.css" />
+{{{{NAMESPACE}}:{{PAGENAME}}/Banner}}
+<span></span>
+{{{{NAMESPACE}}:{{PAGENAME}}/Bildkarten}}
+<div class="sectionflex col2 frame">
+<div>
+==Ankündigungen der Betriebsleitung==
+{{{{NAMESPACE}}:{{PAGENAME}}/Blog}}
+</div>
+<div>
+==Veranstaltungen==
+{{{{NAMESPACE}}:{{PAGENAME}}/Veranstaltungen}}
+</div>
+</div>
+<div class="sectionflex col3 background">
+<div>
+==Verkauf==
+{{{{NAMESPACE}}:{{PAGENAME}}/Verkauf}}
+</div>
+<div>
+==Produktion==
+{{{{NAMESPACE}}:{{PAGENAME}}/Produktion}}
+</div>
+<div>
+==Personal==
+{{{{NAMESPACE}}:{{PAGENAME}}/Personal}}
+</div>
+</div>
+<div class="sectionflex col2 frame">
+<div>
+==Protokolle==
+{{{{NAMESPACE}}:{{PAGENAME}}/Protokolle}}
+</div>
+<div>
+==Kontakt==
+{{{{NAMESPACE}}:{{PAGENAME}}/Kontakt}}
+</div>
+</div>
+<bs:tagcloud renderer="text" store="category" width="100%" showcount="true" minsize="5" maxsize="30" />
+{{Dropdown|ddid=edit|Content={{#subpages:{{FULLPAGENAME}}|kidsonly=yes}}}}
+__NOTOC__
+__HIDETITLE__

@@ -1,0 +1,15 @@
+
+==Organisation==
+Ansprechpartnerin für die Organisation: <name>
+==Gewährleistung des Nachmittagssupports außerhalb der Kernzeiten==
+Beschreibung
+
+===Der Telefondienst===
+*Checkliste
+*...
+===Die technische Notfallbereitschaft===
+*Checkliste
+*...
+==Supportpostfach==
+*Checkliste
+*...

@@ -1,0 +1,24 @@
+{| class="wikitable small" style="width:100%;"
+!
+!Mon
+!Tue
+!Wed
+!Thu
+!Fri
+|-
+|<span class="fas fa-headphones-alt"></span>
+| Michael
+|Claire
+|Justin
+| Atri
+|Christophe
+|-
+|<span class="fas fa-cogs"></span>
+|Joe
+|Elisa
+|Claudette
+|Mike
+|Robert
+|}
+What to do during [[{{NAMESPACE}}:{{ROOTPAGENAME}}/Weekly support|weekly support]]
+__NOEDITSECTION__

@@ -1,0 +1,10 @@
+{| class="startpageevents" style="width:100%;"
+|- 
+|11/30||  ||Management Klausur
+|- 
+|12/15||  ||Prozess-Dokumentation aus allen Abteilungen fällig
+|- 
+|12/31||  ||Neujahrsparty (formal)
+|- 
+|04/30||  ||Eröffnung des neuen Standorts
+|}

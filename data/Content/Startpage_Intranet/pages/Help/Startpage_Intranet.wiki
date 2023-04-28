@@ -1,0 +1,44 @@
+<templatestyles src="Startpage/styles.css" />
+{{{{NAMESPACE}}:{{PAGENAME}}/Banner}}
+<span></span>
+{{{{NAMESPACE}}:{{PAGENAME}}/Image cards}}
+<div class="sectionflex col2 frame">
+<div>
+==Management announcements==
+{{{{NAMESPACE}}:{{PAGENAME}}/Blog}}
+</div>
+<div>
+==Events==
+{{{{NAMESPACE}}:{{PAGENAME}}/Events}}
+</div>
+</div>
+<div class="sectionflex col3 background">
+<div>
+==Sales==
+{{{{NAMESPACE}}:{{PAGENAME}}/Sales}}
+</div>
+<div>
+==Production==
+{{{{NAMESPACE}}:{{PAGENAME}}/Production}}
+</div>
+<div>
+==HR==
+{{{{NAMESPACE}}:{{PAGENAME}}/HR}}
+</div>
+</div>
+<div class="sectionflex col2 frame">
+<div>
+==Meeting minutes==
+{{{{NAMESPACE}}:{{PAGENAME}}/Minutes}}
+</div>
+<div>
+==Contact==
+{{{{NAMESPACE}}:{{PAGENAME}}/Contact}}
+</div>
+</div>
+<div style="margin-top:10px">
+<bs:tagcloud renderer="text" store="category" width="100%" showcount="true" minsize="5" maxsize="30" />
+</div>
+{{Dropdown|ddid=edit|Content={{#subpages:{{FULLPAGENAME}}|kidsonly=yes}}}}
+__NOTOC__
+__HIDETITLE__
