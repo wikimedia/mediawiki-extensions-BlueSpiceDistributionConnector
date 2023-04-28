@@ -1,0 +1,200 @@
+{
+	"Help:Startpage_Intranet": {
+		"lang": "en",
+		"label": "Startpage Intranet",
+		"description": "The root of the startpage structure",
+		"target_title": "Help:Startpage Intranet",
+		"content_path": "/pages/Help/Startpage_Intranet.wiki",
+		"sha1": "e1c712deedd1c756da685616599dbc242d006195",
+		"old_sha1": []
+	},
+	"Help:Startpage_Intranet/Banner": {
+		"lang": "en",
+		"label": "Startpage Intranet - Banner",
+		"description": "The Banner section of the startpage structure",
+		"target_title": "Help:Startpage Intranet/Banner",
+		"content_path": "/pages/Help/Startpage_IntranetBanner.wiki",
+		"sha1": "9138afd73b184da7c707016442b612e8c1d67ae4",
+		"old_sha1": []
+	},
+	"Help:Startpage_Intranet/Image_cards": {
+		"lang": "en",
+		"label": "Startpage Intranet - Image cards",
+		"description": "The Image cards section of the startpage structure",
+		"target_title": "Help:Startpage Intranet/Image cards",
+		"content_path": "/pages/Help/Startpage_IntranetImage_cards.wiki",
+		"sha1": "b52bee6bd69e216f7f7e163a5f225e84f6c4a52a",
+		"old_sha1": []
+	},
+	"Help:Startpage_Intranet/Blog": {
+		"lang": "en",
+		"label": "Startpage Intranet - Blog",
+		"description": "The Blog section of the startpage structure",
+		"target_title": "Help:Startpage Intranet/Blog",
+		"content_path": "/pages/Help/Startpage_IntranetBlog.wiki",
+		"sha1": "2673ecbd25a5ad8bbebc7693fc00747873cd58ce",
+		"old_sha1": []
+	},
+	"Help:Startpage_Intranet/Events": {
+		"lang": "en",
+		"label": "Startpage Intranet - Events",
+		"description": "The Events section of the startpage structure",
+		"target_title": "Help:Startpage Intranet/Events",
+		"content_path": "/pages/Help/Startpage_IntranetEvents.wiki",
+		"sha1": "870af1bf49314d5300c484dcc1fdcfc9ac30a9aa",
+		"old_sha1": []
+	},
+	"Help:Startpage_Intranet/Sales": {
+		"lang": "en",
+		"label": "Startpage Intranet - Sales",
+		"description": "The sales section of the startpage structure",
+		"target_title": "Help:Startpage Intranet/Sales",
+		"content_path": "/pages/Help/Startpage_IntranetSales.wiki",
+		"sha1": "e70d88ecc1a33c06216a05ddf34bef7c01a03020",
+		"old_sha1": []
+	},
+	"Help:Startpage_Intranet/Production": {
+		"lang": "en",
+		"label": "Startpage Intranet - Production",
+		"description": "The production section of the startpage structure",
+		"target_title": "Help:Startpage Intranet/Production",
+		"content_path": "/pages/Help/Startpage_IntranetProduction.wiki",
+		"sha1": "7ec9b19c50fb8634aa301301161ea168917b6d93",
+		"old_sha1": []
+	},
+	"Help:Startpage_Intranet/HR": {
+		"lang": "en",
+		"label": "Startpage Intranet - Banner",
+		"description": "The HR section of the startpage structure",
+		"target_title": "Help:Startpage Intranet/HR",
+		"content_path": "/pages/Help/Startpage_IntranetHR.wiki",
+		"sha1": "5d13161b7e8c97da47fbedbb1167a28b5d976154",
+		"old_sha1": []
+	},
+	"Help:Startpage_Intranet/Minutes": {
+		"lang": "en",
+		"label": "Startpage Intranet - Minutes",
+		"description": "The Minutes section of the startpage structure",
+		"target_title": "Help:Startpage Intranet/Minutes",
+		"content_path": "/pages/Help/Startpage_IntranetMinutes.wiki",
+		"sha1": "ef332efb1f1e7b722be41fa54282720ae12adc0c",
+		"old_sha1": []
+	},
+	"Help:Startpage_Intranet/Contact": {
+		"lang": "en",
+		"label": "Startpage Intranet - Contact",
+		"description": "The Contact section of the startpage structure",
+		"target_title": "Help:Startpage Intranet/Contact",
+		"content_path": "/pages/Help/Startpage_IntranetContact.wiki",
+		"sha1": "967dd660a9c61b0a199d12ce887faab9977d42b3",
+		"old_sha1": []
+	},
+	"Help:Startseite_Intranet": {
+		"lang": "de",
+		"label": "Startseite Intranet",
+		"description": "Eine Startseite f\u00fcr das Intranet",
+		"target_title": "Help:Startseite Intranet",
+		"content_path": "/pages/Help/Startseite_Intranet.wiki",
+		"sha1": "e36c9f67158913b24e2a5ed1fbcff3ae01dfe5e4",
+		"old_sha1": []
+	},
+	"Help:Startseite_Intranet/Banner": {
+		"lang": "de",
+		"label": "Startseite Intranet - Banner",
+		"description": "Der Banner Abschnitt der Startseite",
+		"target_title": "Help:Startseite Intranet/Banner",
+		"content_path": "/pages/Help/Startseite_IntranetBanner.wiki",
+		"sha1": "9eb926e838fde593da65982bfc6916de3b9ab5ce",
+		"old_sha1": []
+	},
+	"Help:Startseite_Intranet/Bildkarten": {
+		"lang": "de",
+		"label": "Startseite Intranet - Bildkarten",
+		"description": "Der Bildkarten Abschnitt der Startseite",
+		"target_title": "Help:Startseite Intranet/Bildkarten",
+		"content_path": "/pages/Help/Startseite_IntranetBildkarten.wiki",
+		"sha1": "aec77defb6ad70ced857480a15b712a474d91965",
+		"old_sha1": []
+	},
+	"Help:Startseite_Intranet/Blog": {
+		"lang": "de",
+		"label": "Startseite Intranet - Blog",
+		"description": "Der Blog Abschnitt der Startseite",
+		"target_title": "Help:Startseite Intranet/Blog",
+		"content_path": "/pages/Help/Startseite_IntranetBlog.wiki",
+		"sha1": "5c4c4897f6b90385980644e90abdf8289c24118b",
+		"old_sha1": []
+	},
+	"Help:Startseite_Intranet/Veranstaltungen": {
+		"lang": "de",
+		"label": "Startseite Intranet - Veranstaltungen",
+		"description": "Der Veranstaltungen Abschnitt der Startseite",
+		"target_title": "Help:Startseite Intranet/Veranstaltungen",
+		"content_path": "/pages/Help/Startseite_IntranetVeranstaltungen.wiki",
+		"sha1": "17cddbdcac7deaf7498811bae0e86fbbd5f0ee8f",
+		"old_sha1": []
+	},
+	"Help:Startseite_Intranet/Verkauf": {
+		"lang": "de",
+		"label": "Startseite Intranet - Verkauf",
+		"description": "Der Verkauf Abschnitt der Startseite",
+		"target_title": "Help:Startseite Intranet/Verkauf",
+		"content_path": "/pages/Help/Startseite_IntranetVerkauf.wiki",
+		"sha1": "a7e599263da360bca377c18a49a9d2a45e7c568b",
+		"old_sha1": []
+	},
+	"Help:Startseite_Intranet/Produktion": {
+		"lang": "de",
+		"label": "Startseite Intranet - Produktion",
+		"description": "Der Produktion Abschnitt der Startseite",
+		"target_title": "Help:Startseite Intranet/Produktion",
+		"content_path": "/pages/Help/Startseite_IntranetProduktion.wiki",
+		"sha1": "179ad8a17edc2f3a40b21989efd6bd361d6ee3cb",
+		"old_sha1": []
+	},
+	"Help:Startseite_Intranet/Personal": {
+		"lang": "de",
+		"label": "Startseite Intranet - Personal",
+		"description": "Der Personal Abschnitt der Startseite",
+		"target_title": "Help:Startseite Intranet/Personal",
+		"content_path": "/pages/Help/Startseite_IntranetPersonal.wiki",
+		"sha1": "cb928a825833a9c3fabac776a594ea2a6dc17d75",
+		"old_sha1": []
+	},
+	"Help:Startseite_Intranet/Protokolle": {
+		"lang": "de",
+		"label": "Startseite Intranet - Protokolle",
+		"description": "Der Protokolle Abschnitt der Startseite",
+		"target_title": "Help:Startseite Intranet/Protokolle",
+		"content_path": "/pages/Help/Startseite_IntranetProtokolle.wiki",
+		"sha1": "7a25eba17bf3c59fd7af10f9fa81c950cfc75838",
+		"old_sha1": []
+	},
+	"Help:Startseite_Intranet/Kontakt": {
+		"lang": "de",
+		"label": "Startseite Intranet - Kontakt",
+		"description": "Der Kontakt Abschnitt der Startseite",
+		"target_title": "Help:Startseite Intranet/Kontakt",
+		"content_path": "/pages/Help/Startseite_IntranetKontakt.wiki",
+		"sha1": "c5652ca8dc9ed91147f252bb56697a143f7bccfe",
+		"old_sha1": []
+	},
+	"Template:Blog": {
+		"lang": "en",
+		"label": "Blog",
+		"description": "A blog",
+		"target_title": "Template:Blog",
+		"content_path": "/pages/Template/Blog.wiki",
+		"sha1": "9dbf6930b6711689529a8656d8b9f77107c0fc89",
+		"old_sha1": []
+	},
+	"Template:Blog/de": {
+		"lang": "de",
+		"label": "Blog",
+		"description": "Ein Blog",
+		"target_title": "Template:Blog",
+		"content_path": "/pages/Template/Blogde.wiki",
+		"sha1": "a699e282f69246a7354a819f64dc5f2fb2bdda23",
+		"old_sha1": []
+	}
+}

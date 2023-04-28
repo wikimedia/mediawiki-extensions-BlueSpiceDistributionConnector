@@ -1,0 +1,25 @@
+{| class="wikitable small" style="width:100%;"
+!
+!Mo
+!Di
+!Mi
+!Do
+!Fr
+|-
+|<i class="bi bi-headset"></i>
+| Michael
+|Klara
+|Justin
+| Atri
+|Christoph
+|-
+|<i class="bi bi-gear-fill"></i>
+|Josef
+|Elisa
+|Claudette
+|Mike
+|Robert
+|}
+Aufgaben für den  [[{{NAMESPACE}}:{{ROOTPAGENAME}}/Wöchentlicher Support|wöchentlichen Support]]
+
+__NOEDITSECTION__

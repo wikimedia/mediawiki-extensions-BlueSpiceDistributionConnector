@@ -1,0 +1,10 @@
+{| class="startpageevents" style=""
+|- 
+|11/30||  ||Management retreat
+|- 
+|12/15||  ||Deadline for departments to update their documentation
+|- 
+|12/31||  ||New Year's Party (formal event)
+|- 
+|04/30<span />||  ||New office opening
+|}

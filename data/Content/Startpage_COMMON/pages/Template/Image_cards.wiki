@@ -1,0 +1,69 @@
+<includeonly><div class=" {{#if:{{{iconname|}}}|icon|pic}}">{{#if:{{{imgname|}}}|[[File:{{{imgname}}}|alt={{#if:{{alt|}}}|{{{alt|}}}|{{{label|}}}}}|400px|link={{#if:{{{imglink|}}}|{{{imglink|}}}| }}]]|{{#if:{{{iconname|}}}|{{#if:{{{imglink|}}}|{{#ifeq:{{#sub:{{{imglink}}}||5}}|http:|[{{{imglink|}}} <span class="{{{iconname|}}}" style="{{#if:{{{iconcolor|}}}|color:{{{iconcolor|}}};|}}"></span>]|{{#ifeq:{{#sub:{{{imglink}}}||6}}|https:|[{{{imglink|}}} <span class="{{{iconname|}}}" style="{{#if:{{{iconcolor|}}}|color:{{{iconcolor|}}};|}}"></span>]|[[{{{imglink|}}}|<span class="{{{iconname|}}}" style="{{#if:{{{iconcolor|}}}|color:{{{iconcolor|}}};|}}"></span>]]}}}}|<span class="{{{iconname|}}}" style="{{#if:{{{iconcolor|}}}|color:{{{iconcolor|}}};|}}"></span>}}|{{#if:{{{imglink|}}}|{{#ifeq:{{#sub:{{{imglink}}}||5}}|http:|[{{{imglink|}}} <span class="placeholder bi bi-card-image"></span>]|{{#ifeq:{{#sub:{{{imglink}}}||6}}|https:|[{{{imglink|}}} <span class="placeholder bi bi-card-image"></span>]|{{#ifeq:{{#sub:{{{imglink}}}||7}}|mailto:|[{{{imglink|}}} <span class="placeholder bi bi-card-image"></span>]|[[{{{imglink|}}}|<span class="placeholder bi bi-card-image"></span>]]}}}}}}|<span class="placeholder bi bi-card-image"></span>}}}}}}<div class="imgcardlink">{{#if:{{{imglink|}}}|{{#ifeq:{{#sub:{{{imglink}}}||5}}|http:|[{{{imglink|}}} {{{label|}}}]|{{#ifeq:{{#sub:{{{imglink}}}||6}}|https:|[{{{imglink|}}} {{{label|}}}]|{{#ifeq:{{#sub:{{{imglink}}}||7}}|mailto:|[{{{imglink|}}} {{{label|}}}]|[[{{{imglink|}}}|{{{label|}}}]]}}}}}}|{{{label|}}}}}</div></div></includeonly><noinclude>
+'''Note: '''Images are set here in the template to load the 400px thumbnail. If images appear blurry in mobile view, it can be adjusted to a larger size. Consider, however, that larger sizes mean longer load times and larger data volume especially on mobile devices.
+<templatedata>
+{
+	"params": {
+		"imgname": {
+			"label": {
+				"en": "Image name",
+				"de": "Bildname"
+			},
+			"type": "wiki-file-name",
+			"required": true,
+			"description": {
+				"en": "Enter as imagename.jpg or imagename.png",
+				"de": "Als meinbild.jpg oder meinbild.png eingeben"
+			}
+		},
+		"label": {
+			"label": {
+				"en": "Link label",
+				"de": "Beschriftung"
+			},
+			"suggested": true,
+			"description": {
+				"en": "Label for the linked page",
+				"de": "Angzeigte Linkbezeichnung"
+			}
+		},
+		"imglink": {
+			"label": {
+				"en": "Link target",
+				"de": "Zielseite"
+			},
+			"type": "wiki-page-name",
+			"suggested": true,
+			"description": {
+				"en": "Name of the page this card links to",
+				"de": "Wikiseite, auf die verlinkt wird"
+			}
+		},
+		"alt": {
+			"label": {
+				"en": "Alternative image text",
+				"de": "Alternativtext "
+			},
+			"description": {
+				"en": "for screenreaders to understand the image",
+				"de": "Zusatzinfo für blinde Benutzer, wird nicht angezeigt"
+			},
+			"suggested": true
+		},
+		"iconname": {},
+		"iconcolor": {}
+	},
+	"description": {
+		"en": "Image cards with links",
+		"de": "Bildkarten mit Links"
+	},
+	"paramOrder": [
+		"imgname",
+		"label",
+		"imglink",
+		"alt",
+		"iconname",
+		"iconcolor"
+	]
+}
+</templatedata>
+</noinclude>

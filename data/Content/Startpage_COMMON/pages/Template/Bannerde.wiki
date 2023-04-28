@@ -1,0 +1,211 @@
+<includeonly><templatestyles src="Banner/styles.css" /><div class="bannerbox {{{boxbgicon|}}}" style="align-items:start;{{#ifeq:{{{imagealign|}}}|right|flex-direction:row-reverse;|flex-dirction:row;}}{{#if:{{{boxbgcolor|}}}|background:{{{boxbgcolor}}};|}}{{#if:{{{boxpadding|}}}|padding:{{{boxpadding|0px}}};}}">
+{{#if:{{{banner-image|}}}|<div class="banner-image">[[File:{{{banner-image}}}{{!}}{{#if:{{{image-width|}}}|{{{image-width}}}x{{{image-width}}}px|200x200px}}{{!}}link=]]</div>|}}<div class="banner-content" style="padding:{{#if:{{{contentpadding|}}}|{{{contentpadding}}}"|10px}}>{{#if:{{{banner-title|}}}|<div class="banner-title"><div class="bannerhd" style="margin-top:0; {{#if:{{{titlesize|}}}|font-size:{{{titlesize}}};|font-size:1.6em;}}{{#if:{{{titlecolor|}}}|color:{{{titlecolor}}};|}}">{{{banner-title}}}</div></div>|}}{{#if:{{{banner-text|}}}|<div class="banner-text" style="{{#if:{{{textcolor|}}}|color:{{{textcolor}}};|}}{{#if:{{{textsize|}}}|font-size:{{{textsize}}};|}}">{{{banner-text}}}</div>|}}</div></div></includeonly><noinclude>
+This template creates an intro banner on a page. The banner should contain an image (optional), a title and 2-3 lines of text.
+<templatedata>
+{
+    "params": {
+        "boxbgcolor": {
+            "label": {
+                "en": "Background color (optional)",
+                "de": "Hintergrundfarbe der Box (optional)"
+            },
+            "description": {
+                "en": "Default is grey (#f1f3f9). Replace with any hex value, (e.g. #ffffe6)",
+                "de": "Standard ist grau (#f1f3f9). Kann mit beliebigem Hex-Wert ersetzt werden (z.B. #ffffe6)"
+            },
+            "type": "string",
+            "suggested": true,
+            "default": {
+                "en": "#efefef",
+                "de": "#efefef"
+            }
+        },
+        "boxpadding": {
+            "label": {
+                "en": "Padding of the container box (optional)",
+                "de": "Abstand des Inhalts zur Box"
+            },
+            "description": {
+                "en": "Sets the padding for the box. Default is 0.",
+                "de": "Setzt den Abstand in Pixeln, Standard ist 0"
+            },
+            "example": {
+                "en": "10px (default is 0)",
+                "de": "10px (Standard ist 0)"
+            },
+            "suggested": true,
+            "autovalue": ""
+        },
+        "contentpadding": {
+            "label": {
+                "en": "Content padding (optional)",
+                "de": "Textabstand"
+            },
+            "description": {
+                "en": "Padding around text. Default is 10px.",
+                "de": "Abstand um den Text. Standard ist 10px."
+            },
+            "type": "number",
+            "example": {
+                "en": "20px",
+                "de": "20px"
+            },
+            "suggested": true
+        },
+        "banner-image": {
+            "description": {
+                "en": "Image name, without the File: prefix, but with namespace prefix (if it exists)",
+                "de": "Bildname, ohne das Datei-Präfix, aber mit Namensraum-Präfix (falls es existiert)"
+            },
+            "label": {
+                "en": "Banner image (optional)",
+                "de": "Bannergrafik (optional)"
+            },
+            "example": {
+                "en": "myimage.png",
+                "de": "meinbild.png"
+            },
+            "suggested": true
+        },
+        "image-width": {
+            "label": {
+                "en": "Image width",
+                "de": "Bildbreite"
+            },
+            "description": {
+                "en": "Width in pixels. Default setting is 200",
+                "de": "Breite in Pixel. Standard ist 200"
+            },
+            "suggested": true,
+            "default": {
+                "de-formal": "200"
+            },
+            "example": {
+                "de": "z.B. 300 (Standard ist 200)",
+                "en": "e.g., 300 (default is 200)"
+            }
+        },
+        "imagealign": {
+            "label": {
+                "en": "Image alignment",
+                "de": "Bildposition"
+            },
+            "example": {
+                "en": "left, right",
+                "de": "left, right"
+            },
+            "default": {
+                "en": "left",
+                "de": "left"
+            },
+            "suggested": true,
+            "description": "Links oder rechts in der Box"
+        },
+        "banner-title": {
+            "type": "string",
+            "suggested": true,
+            "label": {
+                "en": "Heading",
+                "de": "Überschrift"
+            },
+            "description": "Box heading"
+        },
+        "titlesize": {
+            "label": {
+                "en": "Heading size",
+                "de": "Größe der Überschrift"
+            },
+            "example": {
+                "en": "2em, 15px",
+                "de": "2em,  15px"
+            },
+            "default": {
+                "en": "1.6em",
+                "de": "1.6em"
+            },
+            "suggested": true
+        },
+        "titlecolor": {
+            "label": {
+                "en": "Heading color",
+                "de": "Farbe der Überschrift"
+            },
+            "description": "Color of the heading. ",
+            "example": {
+                "en": "#ffffff",
+                "de": "#ffffff"
+            },
+            "suggested": true
+        },
+        "banner-text": {
+            "label": {
+                "en": "Text",
+                "de": "Text"
+            },
+            "description": {
+                "en": "1-3 lines of text",
+                "de": "1-3 Zeilen Text"
+            },
+            "type": "content",
+            "suggested": true
+        },
+        "textcolor": {
+            "label": {
+                "en": "Text color",
+                "de": "Textfarbe"
+            },
+            "example": {
+                "en": "#000000",
+                "de": "#000000"
+            },
+            "suggested": true
+        },
+        "textsize": {
+            "label": {
+                "en": "Text size",
+                "de": "Textgröße"
+            },
+            "example": {
+                "en": "12px, 1em",
+                "de": "12px, 1em"
+            },
+            "default": {
+                "en": "1.3em",
+                "de": "1.3em"
+            },
+            "suggested": true
+        },
+        "boxbgimg": {
+            "label": {
+                "en": "Backbground image",
+                "de": "Hintergrundbild"
+            },
+            "suggested": true
+        },
+        "boxbgicon": {
+            "label": {
+                "en": "Background icon",
+                "de": "Hintergrundicon"
+            },
+            "suggested": true
+        }
+    },
+    "paramOrder": [
+        "banner-image",
+        "image-width",
+        "imagealign",
+        "banner-title",
+        "titlesize",
+        "titlecolor",
+        "banner-text",
+        "textsize",
+        "textcolor",
+        "contentpadding",
+        "boxpadding",
+        "boxbgcolor",
+        "boxbgimg",
+        "boxbgicon"
+    ]
+}
+</templatedata>
+</noinclude>

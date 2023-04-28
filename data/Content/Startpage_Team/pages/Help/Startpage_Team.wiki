@@ -1,0 +1,40 @@
+<templatestyles src="Startpage/styles.css" />
+= Welcome team! =
+<!--start container-->
+<div class="sectionflex col2 background">
+<div>
+==Support schedule==
+{{{{NAMESPACE}}:{{PAGENAME}}/Weekly schedule}}
+</div>
+<div>
+==Phone directory==
+{{#dpl: title={{NAMESPACE}}:{{PAGENAME}}/Extensions list|include=#Featured}}
+[[{{NAMESPACE}}:{{PAGENAME}}/Extensions list|<i class="bi bi-headset"></i> all extensions]]
+</div>
+<div>
+==Team meetings==
+{{{{NAMESPACE}}:{{PAGENAME}}/Minutes}}
+</div>
+<div>
+==Contact info==
+{{{{NAMESPACE}}:{{PAGENAME}}/Contact info}}
+</div>
+<div>
+==Recent changes==
+{{{{NAMESPACE}}:{{PAGENAME}}/Recent changes}}
+</div>
+<div>
+==Quick links==
+{{{{NAMESPACE}}:{{PAGENAME}}/Quick links}}
+</div>
+</div>
+<div class="sectionflex col1 background">
+<div>
+==Important files==
+<attachments>
+* [[Media:ProjectOutline.docx]]
+</attachments></div></div>
+{{Dropdown|ddid=edit|Content={{#subpages:{{FULLPAGENAME}}|kidsonly=yes}}}}
+__HIDETITLE__
+__NOTOC__
+__NODISCUSSION__
