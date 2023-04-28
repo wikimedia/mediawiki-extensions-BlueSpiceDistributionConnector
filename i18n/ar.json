@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"AA800",
+			"Alshamiri1",
 			"FiberAhmed",
 			"Michel Bakni",
 			"Mohanad Kh",
@@ -78,5 +79,28 @@
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "اسم الخدمة",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "الكل",
 	"droplets-gallery-name": "معرض صور",
-	"droplets-gallery-description": "تظهر معرضًا للصور"
+	"droplets-gallery-description": "تظهر معرضًا للصور",
+	"bs-distributionconnector-pref-openidconnect-config": "مزود",
+	"bs-distributionconnector-pref-openidconnect-useemailasusername": "استخدم عنوان البريد الإلكتروني كاسم مستخدم",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyusername": "ترحيل المستخدمين حسب اسم المستخدم",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "ترحيل المستخدمين عن طريق البريد الإلكتروني",
+	"bs-distributionconnector-pref-openidconnect-config-clientid": "معرف العميل",
+	"bs-distributionconnector-pref-openidconnect-config-clientsecret": "سر العميل",
+	"bs-distributionconnector-pref-openidconnect-config-name": "اسم العرض",
+	"bs-distributionconnector-pref-simplesamlphp-emailattribute": "اسم السمة لـ \"البريد الإلكتروني\"",
+	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "اسم السمة لـ \"المجموعات\"",
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "اسم السمة لـ \"اسم المستخدم\"",
+	"bs-distributionconnector-workflows-form-expert-user": "خبير",
+	"bs-distributionconnector-workflows-form-expert-instructions": "تعليمات للخبير",
+	"bs-distributionconnector-workflows-form-tw-user": "كاتب فني",
+	"bs-distributionconnector-workflows-form-tw-instructions": "تعليمات للكاتب الفني",
+	"bs-distributionconnector-workflows-form-head-instructions": "تعليمات لرئيس القسم",
+	"bs-distributionconnector-workflows-form-reportrecipient": "إرسال التقرير إلى (بريد إلكتروني أو اسم مستخدم صالح)",
+	"bs-distributionconnector-workflows-form-group-instructions": "تعليمات للمجموعة",
+	"bs-distributionconnector-workflows-form-instructions-editor": "تعليمات للمحرر",
+	"bs-distributionconnector-workflows-form-instructions-reviewer": "تعليمات للمراجع",
+	"bs-distributionconnector-workflows-form-label-approver": "الموافق",
+	"bs-distributionconnector-workflows-form-instructions-approver": "تعليمات للموافق",
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "٪ نمو",
+	"workflows-workflow-file-definition-user-approval-title": "موافقة مستخدم واحد"
 }
