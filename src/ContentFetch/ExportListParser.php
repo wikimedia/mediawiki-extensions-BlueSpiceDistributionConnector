@@ -79,7 +79,7 @@ class ExportListParser {
 			$attributeNumber++;
 		}
 
-		// If target title was not specified - use template title
+		// If target title was not specified, use source title
 		foreach ( $pagesList as $title => &$data ) {
 			if ( !isset( $data['target_title'] ) ) {
 				$data['target_title'] = $title;

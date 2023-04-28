@@ -140,8 +140,8 @@ class SourceWikiReader {
 				$status->warning( "Page \"{$page['title']}\" content was not found in the source wiki!" );
 				continue;
 			}
-
-			$pages[$page['title']] = $page['revisions'][0]['slots']['main']['content'];
+			$normalizedName = str_replace( ' ', '_', $page['title'] );
+			$pages[$normalizedName] = $page['revisions'][0]['slots']['main']['content'];
 		}
 
 		$status->setResult( true, $pages );
