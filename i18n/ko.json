@@ -92,5 +92,7 @@
 	"droplets-circled-number-fg-color-label": "전경색",
 	"droplets-subpages-namespace-label": "이름공간",
 	"droplets-buttonlink-external-label": "외부 링크",
-	"droplets-buttonlink-format-label": "배경색"
+	"droplets-buttonlink-format-label": "배경색",
+	"bs-distributionconnector-videodropletinspector-video-link-label": "동영상 링크 추가",
+	"bs-distributionconnector-videodropletinspector-title": "동영상"
 }
