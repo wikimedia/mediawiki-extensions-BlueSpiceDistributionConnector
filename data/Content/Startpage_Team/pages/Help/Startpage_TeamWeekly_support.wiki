@@ -1,0 +1,14 @@
+==Organization==
+Contact person for the organization: <name>
+==Ensuring afternoon support outside core hours==
+Description
+
+===Phone service===
+*checklist
+*...
+===Technical emergency preparedness===
+*checklist
+*...
+==Support mailbox==
+*checklist
+*...
