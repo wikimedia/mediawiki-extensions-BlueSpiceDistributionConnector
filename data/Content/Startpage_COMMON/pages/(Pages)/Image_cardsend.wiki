@@ -1,0 +1,1 @@
+{{Special:PrefixIndex/{{FULLPAGENAME}}/ |hideredirects=1 |stripprefix=1}}

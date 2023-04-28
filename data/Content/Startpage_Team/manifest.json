@@ -1,0 +1,137 @@
+{
+	"Help:Startpage_Team": {
+		"lang": "en",
+		"label": "Startpage Team",
+		"description": "The root of the startpage structure",
+		"target_title": "Help:Startpage Team",
+		"content_path": "/pages/Help/Startpage_Team.wiki",
+		"sha1": "368e5492b785b1b96150d3ca50121e303c282ed2",
+		"old_sha1": []
+	},
+	"Help:Startpage_Team/Contact_info": {
+		"lang": "en",
+		"label": "Startpage Team - Contact info",
+		"description": "The Contact info section of the startpage structure",
+		"target_title": "Help:Startpage Team/Contact info",
+		"content_path": "/pages/Help/Startpage_TeamContact_info.wiki",
+		"sha1": "a18a6a3cbb57916671a63ba87a2d7518e3281f0a",
+		"old_sha1": []
+	},
+	"Help:Startpage_Team/Extensions_list": {
+		"lang": "en",
+		"label": "Startpage Team - Extensions list",
+		"description": "The Extensions list section of the startpage structure",
+		"target_title": "Help:Startpage Team/Extensions list",
+		"content_path": "/pages/Help/Startpage_TeamExtensions_list.wiki",
+		"sha1": "37a6b8e831b70ebea19d4291d831dd073ea5f8fa",
+		"old_sha1": []
+	},
+	"Help:Startpage_Team/Minutes": {
+		"lang": "en",
+		"label": "Startpage Team - Minutes",
+		"description": "The Minutes section of the startpage structure",
+		"target_title": "Help:Startpage Team/Minutes",
+		"content_path": "/pages/Help/Startpage_TeamMinutes.wiki",
+		"sha1": "ef332efb1f1e7b722be41fa54282720ae12adc0c",
+		"old_sha1": []
+	},
+	"Help:Startpage_Team/Quick_links": {
+		"lang": "en",
+		"label": "Startpage Team - Quick links",
+		"description": "The Quick links section of the startpage structure",
+		"target_title": "Help:Startpage Team/Quick links",
+		"content_path": "/pages/Help/Startpage_TeamQuick_links.wiki",
+		"sha1": "46b2e4adcd71b068bfc7ba79d3d53b7f7f51f0d2",
+		"old_sha1": []
+	},
+	"Help:Startpage_Team/Recent_changes": {
+		"lang": "en",
+		"label": "Startpage Team - Recent changes",
+		"description": "The Recent changes section of the startpage structure",
+		"target_title": "Help:Startpage Team/Recent changes",
+		"content_path": "/pages/Help/Startpage_TeamRecent_changes.wiki",
+		"sha1": "90c8b3112ed951d485f93a7c0825e454baebc828",
+		"old_sha1": []
+	},
+	"Help:Startpage_Team/Weekly_schedule": {
+		"lang": "en",
+		"label": "Startpage Team - Weekly schedule",
+		"description": "The Weekly schedule section of the startpage structure",
+		"target_title": "Help:Startpage Team/Weekly schedule",
+		"content_path": "/pages/Help/Startpage_TeamWeekly_schedule.wiki",
+		"sha1": "ce438c1759accaf987944beb0803a166aa211508",
+		"old_sha1": []
+	},
+	"Help:Startpage_Team/Weekly_support": {
+		"lang": "en",
+		"label": "Startpage Team - Weekly_support",
+		"description": "The Weekly_support section of the startpage structure",
+		"target_title": "Help:Startpage Team/Weekly_support",
+		"content_path": "/pages/Help/Startpage_TeamWeekly_support.wiki",
+		"sha1": "bb3958b41a2d506c29573e19dcea548d9a417e79",
+		"old_sha1": []
+	},
+	"Help:Startseite_Team": {
+		"lang": "de",
+		"label": "Startseite Team",
+		"description": "Eine Startseite f\u00fcr ein Team",
+		"target_title": "Help:Startseite Team",
+		"content_path": "/pages/Help/Startseite_Team.wiki",
+		"sha1": "760d1a13691db1ab07b03a591bc8f9c63aa8d9a3",
+		"old_sha1": []
+	},
+	"Help:Startseite_Team/Durchwahlen": {
+		"lang": "de",
+		"label": "Startseite Team - Durchwahlen",
+		"description": "Der Durchwahlen Abschnitt der Startseite",
+		"target_title": "Help:Startseite Team/Durchwahlen",
+		"content_path": "/pages/Help/Startseite_TeamDurchwahlen.wiki",
+		"sha1": "7f9de2476c9a477dfbb1492684771636fce139a4",
+		"old_sha1": []
+	},
+	"Help:Startseite_Team/Kontakt": {
+		"lang": "de",
+		"label": "Startseite Team - Kontakt",
+		"description": "Der Kontakt Abschnitt der Startseite",
+		"target_title": "Help:Startseite Team/Kontakt",
+		"content_path": "/pages/Help/Startseite_TeamKontakt.wiki",
+		"sha1": "35620bb770e1b0958f2425a7d11fd0aa52fb3d4b",
+		"old_sha1": []
+	},
+	"Help:Startseite_Team/Letzte_\u00c4nderungen": {
+		"lang": "de",
+		"label": "Startseite Team - Letzte \u00c4nderungen",
+		"description": "Der Letzte \u00c4nderungen Abschnitt der Startseite",
+		"target_title": "Help:Startseite Team/Letzte \u00c4nderungen",
+		"content_path": "/pages/Help/Startseite_TeamLetzte_\u00c4nderungen.wiki",
+		"sha1": "e10aded8483f53389fe6fe92c4bc1096bbb39b0b",
+		"old_sha1": []
+	},
+	"Help:Startseite_Team/Protokolle": {
+		"lang": "de",
+		"label": "Startseite Team - Protokolle",
+		"description": "Der Protokolle Abschnitt der Startseite",
+		"target_title": "Help:Startseite Team/Protokolle",
+		"content_path": "/pages/Help/Startseite_TeamProtokolle.wiki",
+		"sha1": "7a25eba17bf3c59fd7af10f9fa81c950cfc75838",
+		"old_sha1": []
+	},
+	"Help:Startseite_Team/Wochenplan": {
+		"lang": "de",
+		"label": "Startseite Team - Wochenplan",
+		"description": "Der Wochenplan Abschnitt der Startseite",
+		"target_title": "Help:Startseite Team/Wochenplan",
+		"content_path": "/pages/Help/Startseite_TeamWochenplan.wiki",
+		"sha1": "2d4564248309627f43e924c9aa8c7c363f6b67b0",
+		"old_sha1": []
+	},
+	"Help:Startseite_Team/W\u00f6chentlicher_Support": {
+		"lang": "de",
+		"label": "Startseite Team - W\u00f6chentlicher Support",
+		"description": "Der W\u00f6chentlicher Support Abschnitt der Startseite",
+		"target_title": "Help:Startseite Team/W\u00f6chentlicher Support",
+		"content_path": "/pages/Help/Startseite_TeamW\u00f6chentlicher_Support.wiki",
+		"sha1": "40cd52fb9a407a4554711f6825e63428bbf0141c",
+		"old_sha1": []
+	}
+}

@@ -1,0 +1,25 @@
+<noinclude>{{DISPLAYTITLE:Meeting minutes}}</noinclude>
+<inputbox>
+type=create
+default={{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}
+prefix=Minutes/
+preload=Template:PT Meeting minutes Standard
+buttonlabel=Create minutes
+break=no
+width=24
+useve=true
+arialabel=Create minutes
+</inputbox>
+<includeonly>
+===Latest minutes===
+<dpl>
+titlematch=%Minutes/%
+replaceintitle=@Minutes/@,
+count=2
+ordermethod=lastedit
+order=descending
+</dpl>
+<span class="far fa-arrow-alt-circle-right"></span> [[{{NAMESPACE}}:{{PAGENAME}}/Minutes|view minutes]]</includeonly>
+<noinclude>
+{{Special:PrefixIndex/Minutes/ |hideredirects=1 |stripprefix=1}}
+</noinclude>

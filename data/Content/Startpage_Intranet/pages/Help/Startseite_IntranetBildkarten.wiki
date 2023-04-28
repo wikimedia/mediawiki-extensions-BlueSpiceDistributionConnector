@@ -1,0 +1,5 @@
+{{Bildkarten/start|cardsize= large}}
+{{Bildkarten|imgname=|label=Produkte|imglink=Hauptseite}}
+{{Bildkarten|imgname=|label=Projekte|imglink=Hauptseite|alt=}}
+{{Bildkarten|imgname=|label=Standorte|imglink=Hauptseite}}
+{{Bildkarten/end}}

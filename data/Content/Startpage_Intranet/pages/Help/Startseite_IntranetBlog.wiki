@@ -1,0 +1,4 @@
+<noinclude>
+{{Blog|showmenu=false|pagetag=Intranet Blog|headline=Intranet Blog|outputtype=Default|showheadline=false|limit=5|morelink=false|morescroll=true}}</noinclude><includeonly><div class="bloglist">{{Blog|showmenu=false|createbutton=false|headline=Intranet|outputtype=List|showheadline=false|limit=5|showmorebutton=false}}
+[[{{NAMESPACE}}:{{PAGENAME}}/Blog|<i class="bi bi-arrow-right-circle"> </i> alle Beiträge]]
+</div><includeonly>

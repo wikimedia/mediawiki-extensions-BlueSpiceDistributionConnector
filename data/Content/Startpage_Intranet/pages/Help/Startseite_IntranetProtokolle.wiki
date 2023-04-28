@@ -1,0 +1,25 @@
+<inputbox>
+type=create
+default={{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}
+prefix=Protokolle/
+preload=Vorlage:SV Standardprotokoll
+buttonlabel=Protokoll erstellen
+break=no
+width=24
+useve=true
+</inputbox>
+<includeonly>
+===Neueste Protokolle===
+<dpl>
+titlematch=%Protokolle/%
+replaceintitle=@Protokolle/@,
+count=2
+ordermethod=lastedit
+order=descending
+noresultsheader=Es existieren keine Protokolle.
+</dpl>
+
+[[{{NAMESPACE}}:{{PAGENAME}}/Protokolle|<i class="bi bi-arrow-right-circle"></i> alle Protokolle]]</includeonly>
+<noinclude>
+{{Special:PrefixIndex/Protokolle/ |hideredirects=1 |stripprefix=1}}
+</noinclude>

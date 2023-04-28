@@ -1,0 +1,60 @@
+<includeonly><templatestyles src="Image cards/styles.css" />
+<div class="imgcard {{#if:{{{cardsize|}}}|{{{cardsize}}}|}}" style="justify-content:{{#if:{{{justifycontent|}}}|{{{justifycontent}}}|space-between}}; flex-wrap:{{#if:{{{flexwrap|}}}|{{{flexwrap}}}|nowrap}};">
+</includeonly><noinclude>
+<templatedata>
+{
+	"params": {
+		"cardsize": {
+			"label": {
+				"en": "Card size",
+				"de": "Kartengröße"
+			},
+			"example": {
+				"en": "large, medium (default), small",
+				"de": "large, medium (standard), small"
+			},
+			"default": {
+				"en": "medium",
+				"de": "medium"
+			},
+			"suggested": true
+		},
+		"justifycontent": {
+			"label": {
+				"en": "Justify-content",
+				"de": "Anordnung der Bilder"
+			},
+			"description": {
+				"en": "Flex-property justify-content",
+				"de": "Flex-Eigenschaft justify-content"
+			},
+			"default": {
+				"en": "space-between",
+				"de": "space-between"
+			},
+			"suggested": true
+		},
+		"flexwrap": {
+			"label": {
+				"en": "Wrapping type",
+				"de": "Umbruchsart"
+			},
+			"description": {
+				"en": "Flex property flex-wrap",
+				"de": "Flex-Eigenschaft flex-wrap"
+			},
+			"example": "Whether images should wrap or rescale if space is used up",
+			"default": {
+				"en": "nowrap",
+				"de": "nowrap"
+			},
+			"suggested": true
+		}
+	},
+	"paramOrder": [
+		"cardsize",
+		"justifycontent",
+		"flexwrap"
+	]
+}
+</templatedata></noinclude>
