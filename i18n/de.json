@@ -189,5 +189,18 @@
 	"droplets-pdflink-name": "PDF Link",
 	"droplets-pdflink-description": "Ein Link, um eine gewünschte Seite als PDF herunterzuladen",
 	"bs-distributionconnector-videodropletinspector-video-link-label": "Füge einen Link zu einem Video ein",
-	"bs-distributionconnector-videodropletinspector-title": "Video"
+	"bs-distributionconnector-videodropletinspector-title": "Video",
+	"bs-distributionconnector-videodropletinspector-service-help": "Wähle den Dienst aus, der zum Einbinden des Videos verwendet werden soll",
+	"bs-distributionconnector-videodropletinspector-description-label": "Beschreibung",
+	"bs-distributionconnector-videodropletinspector-description-help": "Füge eine Beschreibung unterhalb des Videos ein. Für Zeilenumbrüche verwende \"&#10\"",
+	"bs-distributionconnector-videodropletinspector-description-placeholder": "Videobeschreibung eingeben...",
+	"bs-distributionconnector-videodropletinspector-dimension-label": "Größe",
+	"bs-distributionconnector-videodropletinspector-dimension-help": "Um die Größe des Videos zu setzen, verwnde das Format \"Breite x Höhe\" in Pixeln. Falls die Höhe nicht angegeben wird, wird diese automatisch von der Breite berechnet. Wenn du die Höhe angeben möchtest muss \"x\" vorangestellt werden.\nBeispiele: 480, 480x320,x320 - für eine Breite von 480 und eine Höhe von 320",
+	"bs-distributionconnector-videodropletinspector-alignment-label": "Ausrichtung",
+	"bs-distributionconnector-videodropletinspector-alignent-help": "Ordne das Video links, zentriert oder rechts aus",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "links",
+	"bs-distributionconnector-videodropletinspector-alignment-center": "zentriert",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "rechts",
+	"bs-distributionconnector-videodropletinspector-container-label": "Eingerahmt",
+	"bs-distributionconnector-videodropletinspector-container-help": "Wenn ausgewählt, wird das Video in einer Miniaturansicht angezeigt"
 }

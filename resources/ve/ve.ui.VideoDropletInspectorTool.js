@@ -2,7 +2,7 @@ ve.ui.VideoDropletInspectorTool = function VeUiVideoDropletInspectorTool(toolGro
 	ve.ui.VideoDropletInspectorTool.super.call(this, toolGroup, config);
 };
 OO.inheritClass(ve.ui.VideoDropletInspectorTool, ve.ui.FragmentInspectorTool);
-ve.ui.VideoDropletInspectorTool.static.name = 'embedVideo';
+ve.ui.VideoDropletInspectorTool.static.name = 'embedvideo';
 ve.ui.VideoDropletInspectorTool.static.group = 'none';
 ve.ui.VideoDropletInspectorTool.static.autoAddToCatchall = false;
 ve.ui.VideoDropletInspectorTool.static.icon = 'play';
