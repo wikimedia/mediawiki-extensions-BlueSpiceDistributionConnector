@@ -460,11 +460,16 @@
 			"messages": [
 				"droplets-create-input-button-label",
 				"droplets-create-input-preload-label",
+				"droplets-create-input-preload-help",
 				"droplets-create-input-placeholder-label",
+				"droplets-create-input-placeholder-help",
 				"droplets-create-input-prefix-label",
+				"droplets-create-input-prefix-help",
 				"droplets-create-input-alignment-label",
+				"droplets-create-input-alignment-help",
 				"droplets-create-input-alignment-left-label",
-				"droplets-create-input-alignment-right-label"
+				"droplets-create-input-alignment-right-label",
+				"droplets-create-input-alignment-center-label"
 			]
 		},
 		"ext.bluespice.distribution.droplet.pdflink": {

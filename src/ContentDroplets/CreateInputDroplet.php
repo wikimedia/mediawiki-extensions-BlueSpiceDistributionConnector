@@ -26,11 +26,11 @@ class CreateInputDroplet extends TemplateDroplet {
 	 */
 	protected function getParams(): array {
 		return [
-			'alignment' => '',
+			'alignment' => 'center',
 			'buttonlabel' => 'Create',
 			'preload' => '',
 			'placeholder' => 'Enter page name',
-			'prefix' => 'prefix'
+			'prefix' => ''
 		];
 	}
 
