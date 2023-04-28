@@ -43,6 +43,8 @@ class BSFetchContents extends Maintenance {
 		global $IP;
 
 		$this->sourcePage = $this->getOption( 'source' );
+		// Normalize provided page name
+		$this->sourcePage = str_replace( ' ', '_', $this->sourcePage );
 		$this->targetPath = $this->getOption( 'target' );
 
 		$this->targetPath = $IP . '/' . $this->targetPath;
@@ -104,7 +106,12 @@ class BSFetchContents extends Maintenance {
 		// Put pages contents to files
 		foreach ( $pagesContents as $title => $pageContent ) {
 			$title = str_replace( ' ', '_', $title );
-			list( $nsTitle, $pageTitle ) = explode( ':', $title );
+			$nsTitle = '(Pages)';
+			$titleParts = explode( ':', $title, 2 );
+			if ( count( $titleParts ) === 2 ) {
+				$nsTitle = $titleParts[0];
+				$pageTitle = $titleParts[1];
+			}
 
 			$fileName = $this->makeFilename( $pageTitle );
 
@@ -151,9 +158,7 @@ class BSFetchContents extends Maintenance {
 	 */
 	private function makeFilename( string $name ): string {
 		$name = str_replace( ' ', '_', $name );
-
 		$illegalFilenameSymbols = [ '/', '\\', '<', '>', '?', ':', '*', '"', '|', ';', '!' ];
-
 		$filename = str_replace( $illegalFilenameSymbols, '', $name );
 
 		return $filename . '.wiki';
@@ -167,8 +172,16 @@ class BSFetchContents extends Maintenance {
 	 */
 	private function outputErrors( Status $status ): void {
 		foreach ( $status->getErrors() as $error ) {
+			$this->output( var_export( $error, true ) );
 			$errorType = ucfirst( $error['type'] );
-			$this->output( "$errorType: {$error['message']}\n" );
+			$this->output( "$errorType:\n" );
+			$errorMessages = $error['message'];
+			if ( !is_array( $errorMessages ) ) {
+				$errorMessages = [ $errorMessages ];
+			}
+			foreach ( $errorMessages as $message ) {
+				$this->output( "\t$message\n" );
+			}
 		}
 	}
 
@@ -246,6 +259,9 @@ class BSFetchContents extends Maintenance {
 		}
 
 		$manifestContent = FormatJson::encode( $pagesList, true );
+		// Alter JSON formatting to make it comply to the CI/CD pipeline requirements
+		$manifestContent = str_replace( '    ', "\t", $manifestContent );
+		$manifestContent .= "\n";
 		file_put_contents( $manifestPath, $manifestContent );
 
 		return $manifestPath;
