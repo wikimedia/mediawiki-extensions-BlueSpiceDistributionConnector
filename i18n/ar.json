@@ -102,5 +102,7 @@
 	"bs-distributionconnector-workflows-form-label-approver": "الموافق",
 	"bs-distributionconnector-workflows-form-instructions-approver": "تعليمات للموافق",
 	"bs-distributionconnector-statistics-report-page-trends-axis-value": "٪ نمو",
-	"workflows-workflow-file-definition-user-approval-title": "موافقة مستخدم واحد"
+	"workflows-workflow-file-definition-user-approval-title": "موافقة مستخدم واحد",
+	"bs-distributionconnector-pref-openidconnect-config-authparam": "معلمات المصادقة (JSON)",
+	"bs-distributionconnector-workflows-form-feedback": "أدخل ملاحظاتك ..."
 }

@@ -1,8 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hakim1bal"
+			"Hakim1bal",
+			"ⵣⵉⵔⵉ ⴰⵎⵖⵏⴰⵙ"
 		]
 	},
-	"bs-distributionconnector-pref-openidconnect-config-name": "ⵙⵎⴰⵍ ⵉⵙⵎ"
+	"bs-distributionconnector-pref-openidconnect-config-name": "ⵙⵎⴰⵍ ⵉⵙⵎ",
+	"droplets-buttonlink-format-blue": "ⴰⵏⵉⵍⵉ",
+	"droplets-buttonlink-format-neutral": "ⴰⵎⵍⵍⴰⵍ",
+	"droplets-buttonlink-format-red": "ⴰⵣⴳⴳⵯⴰⵖ",
+	"droplets-create-input-alignment-center-label": "ⴰⵎⵎⴰⵙ",
+	"bs-distributionconnector-videodropletinspector-description-label": "ⴰⴳⵍⴰⵎ",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "ⴰⵥⵍⵎⴰⴹ",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "ⴰⴼⴰⵙⵉ"
 }

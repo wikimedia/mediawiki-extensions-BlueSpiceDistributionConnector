@@ -30,5 +30,11 @@
 	"droplets-pdflink-name": "PDF веза",
 	"droplets-buttonlink-format-blue": "плава",
 	"droplets-buttonlink-format-neutral": "бела",
-	"droplets-buttonlink-format-red": "црвена"
+	"droplets-buttonlink-format-red": "црвена",
+	"droplets-create-input-alignment-center-label": "центар",
+	"bs-distributionconnector-videodropletinspector-description-label": "Опис",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "лево",
+	"bs-distributionconnector-videodropletinspector-alignment-center": "центар",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "десно",
+	"bs-distributionconnector-videodropletinspector-container-label": "Оквир"
 }
