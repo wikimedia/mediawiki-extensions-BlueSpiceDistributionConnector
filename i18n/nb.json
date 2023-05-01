@@ -125,5 +125,20 @@
 	"droplets-circled-number-bg-color-label": "Bakgrunnsfarge",
 	"droplets-circled-number-fg-color-label": "Forgrunnsfarge",
 	"droplets-subpages-namespace-help": "La stå tomt for hovednavnerom",
-	"droplets-subpages-parentpage-label": "Forelderside"
+	"droplets-subpages-parentpage-label": "Forelderside",
+	"droplets-map-center-map-label": "Midt på kartet",
+	"droplets-map-center-map-label-help": "Sted som er i midten av kartet. For eksempel: Regensburg i Tyskland",
+	"droplets-buttonlink-label-label": "Knappetekst",
+	"droplets-buttonlink-format-blue": "blå",
+	"droplets-buttonlink-format-neutral": "hvit",
+	"droplets-buttonlink-format-red": "rød",
+	"bs-distributionconnector-videodropletinspector-video-link-label": "Sett inn en lenke til en video",
+	"bs-distributionconnector-videodropletinspector-title": "Video",
+	"bs-distributionconnector-videodropletinspector-description-label": "Beskrivelse",
+	"bs-distributionconnector-videodropletinspector-alignment-label": "Justering",
+	"bs-distributionconnector-videodropletinspector-alignent-help": "Juster videoen til venstre, midten eller til høyre",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "venstre",
+	"bs-distributionconnector-videodropletinspector-alignment-center": "sentrert",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "høyre",
+	"bs-distributionconnector-videodropletinspector-container-label": "Innrammet"
 }

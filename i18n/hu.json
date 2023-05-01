@@ -7,5 +7,19 @@
 	"bs-distributionconnector-workflows-form-groupname": "Csoport",
 	"bs-distributionconnector-workflows-form-username": "Felhasználó",
 	"bs-distributionconnector-workflows-form-comment": "Megjegyzés",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "Megjegyzés"
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Megjegyzés",
+	"droplets-create-input-alignment-center-label": "középre",
+	"bs-distributionconnector-videodropletinspector-title": "Video",
+	"bs-distributionconnector-videodropletinspector-description-label": "Leírás",
+	"bs-distributionconnector-videodropletinspector-service-help": "Válaszd ki, milyen szolgáltatással szeretnéd beágyazni a videót",
+	"bs-distributionconnector-videodropletinspector-description-help": "Rendelj leírást a videóhoz! Sortöréshez használd a \"&#10\" kódot.",
+	"bs-distributionconnector-videodropletinspector-description-placeholder": "Video leírás beillesztése...",
+	"bs-distributionconnector-videodropletinspector-dimension-label": "Méret",
+	"bs-distributionconnector-videodropletinspector-dimension-help": "A video méretezéséhez megadhatod pixelben a szélességet és magasságot. Amennyiben nem adsz meg magasságot, automaikusan képződik az érték, szélesség alapján. A magasságot \"x-szel\" adhatod meg. Példa: 480, 480x320,x320 - 480-as szélességhez és 320-as magassághoz",
+	"bs-distributionconnector-videodropletinspector-alignment-label": "Igazítás",
+	"bs-distributionconnector-videodropletinspector-alignent-help": "Video balra, középre vagy jobbra igazítása",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "balra",
+	"bs-distributionconnector-videodropletinspector-alignment-center": "középre",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "jobbra",
+	"bs-distributionconnector-videodropletinspector-container-label": "Bekeretezett"
 }
