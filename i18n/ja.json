@@ -182,5 +182,6 @@
 	"droplets-buttonlink-format-blue": "青",
 	"droplets-buttonlink-format-neutral": "白",
 	"droplets-buttonlink-format-red": "赤",
-	"bs-distributionconnector-videodropletinspector-title": "動画"
+	"bs-distributionconnector-videodropletinspector-title": "動画",
+	"bs-distributionconnector-videodropletinspector-description-label": "説明"
 }
