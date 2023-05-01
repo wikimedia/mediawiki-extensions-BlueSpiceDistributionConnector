@@ -176,5 +176,11 @@
 	"droplets-video-name": "Video",
 	"droplets-video-description": "Sluit video's van verschillende platforms in",
 	"droplets-pdflink-name": "PDF-koppeling",
-	"droplets-pdflink-description": "Link die een andere wikipagina als PDF downloadt"
+	"droplets-pdflink-description": "Link die een andere wikipagina als PDF downloadt",
+	"bs-distributionconnector-videodropletinspector-title": "Video",
+	"bs-distributionconnector-videodropletinspector-description-label": "Beschrijving",
+	"bs-distributionconnector-videodropletinspector-dimension-label": "Afmetingen",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "links",
+	"bs-distributionconnector-videodropletinspector-alignment-center": "gecentreerd",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "rechts"
 }

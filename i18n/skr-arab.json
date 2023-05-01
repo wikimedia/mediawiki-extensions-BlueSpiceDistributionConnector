@@ -24,6 +24,7 @@
 	"droplets-create-input-alignment-label": "سیدھ",
 	"droplets-create-input-alignment-left-label": "کھبا",
 	"droplets-create-input-alignment-right-label": "سڄا",
+	"droplets-create-input-alignment-center-label": "مرکز",
 	"droplets-create-input-name": "ورقہ بݨاؤ",
 	"droplets-pdf-link-link-label": "لنک لیبل",
 	"droplets-buttonlink-name": "بٹݨ",
@@ -31,5 +32,10 @@
 	"droplets-map-name": "نقشہ",
 	"droplets-video-name": "وڈیو",
 	"droplets-pdflink-name": "پی ڈی ایف لنک",
-	"bs-distributionconnector-videodropletinspector-title": "وڈیو"
+	"bs-distributionconnector-videodropletinspector-title": "وڈیو",
+	"bs-distributionconnector-videodropletinspector-description-label": "تفصیل",
+	"bs-distributionconnector-videodropletinspector-alignment-label": "سیدھ",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "کھبا",
+	"bs-distributionconnector-videodropletinspector-alignment-center": "ادھ وچ",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "سڄا"
 }

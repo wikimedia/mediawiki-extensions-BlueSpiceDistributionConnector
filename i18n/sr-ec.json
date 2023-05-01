@@ -20,6 +20,7 @@
 	"droplets-create-input-button-label": "Текст дугмета",
 	"droplets-create-input-alignment-left-label": "лево",
 	"droplets-create-input-alignment-right-label": "десно",
+	"droplets-create-input-alignment-center-label": "центар",
 	"droplets-create-input-name": "Направи страницу",
 	"droplets-pdf-link-page-label": "Страница за извоз",
 	"droplets-pdf-link-template-label": "PDF шаблон",
@@ -30,5 +31,10 @@
 	"droplets-map-name": "Мапа",
 	"droplets-subpages-name": "Подстранице",
 	"droplets-video-name": "Видео",
-	"droplets-pdflink-name": "PDF веза"
+	"droplets-pdflink-name": "PDF веза",
+	"bs-distributionconnector-videodropletinspector-description-label": "Опис",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "лево",
+	"bs-distributionconnector-videodropletinspector-alignment-center": "центар",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "десно",
+	"bs-distributionconnector-videodropletinspector-container-label": "Оквир"
 }
