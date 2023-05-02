@@ -197,5 +197,7 @@
 	"droplets-video-name": "视频",
 	"droplets-video-description": "嵌入来自不同平台的视频",
 	"droplets-pdflink-name": "PDF链接",
-	"droplets-pdflink-description": "用于把另一个wiki页面下载成PDF的链接"
+	"droplets-pdflink-description": "用于把另一个wiki页面下载成PDF的链接",
+	"bs-distributionconnector-videodropletinspector-description-label": "描述",
+	"bs-distributionconnector-videodropletinspector-description-help": "在视频下方添加描述。使用“&#10”换行"
 }
