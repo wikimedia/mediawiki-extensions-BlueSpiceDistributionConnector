@@ -202,5 +202,7 @@
 	"droplets-pdflink-description": "用于把另一个wiki页面下载成PDF的链接",
 	"droplets-buttonlink-format-blue": "蓝色",
 	"droplets-buttonlink-format-neutral": "白色",
-	"droplets-buttonlink-format-red": "红色"
+	"droplets-buttonlink-format-red": "红色",
+	"bs-distributionconnector-videodropletinspector-description-label": "描述",
+	"bs-distributionconnector-videodropletinspector-description-help": "在视频下方添加描述。使用“&#10”换行"
 }
