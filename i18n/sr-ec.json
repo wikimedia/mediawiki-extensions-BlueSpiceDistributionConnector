@@ -36,5 +36,7 @@
 	"bs-distributionconnector-videodropletinspector-alignment-left": "лево",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "центар",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "десно",
-	"bs-distributionconnector-videodropletinspector-container-label": "Оквир"
+	"bs-distributionconnector-videodropletinspector-container-label": "Оквир",
+	"bs-distributionconnector-videodropletinspector-title": "Видео",
+	"bs-distributionconnector-videodropletinspector-dimension-label": "Димензија"
 }
