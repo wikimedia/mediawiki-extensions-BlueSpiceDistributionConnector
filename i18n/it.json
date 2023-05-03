@@ -145,5 +145,9 @@
 	"droplets-buttonlink-format-blue": "blu",
 	"droplets-buttonlink-format-neutral": "bianco",
 	"droplets-buttonlink-format-red": "rosso",
-	"droplets-pdf-link-link-label": "Etichetta del collegamento"
+	"droplets-pdf-link-link-label": "Etichetta del collegamento",
+	"bs-distributionconnector-videodropletinspector-alignment-label": "Allineamento",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "sinistra",
+	"bs-distributionconnector-videodropletinspector-alignment-center": "centrato",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "destra"
 }
