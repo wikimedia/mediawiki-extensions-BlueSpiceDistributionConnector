@@ -141,5 +141,9 @@
 	"droplets-subpages-description": "Elenco delle sottopagine di una pagina wiki",
 	"droplets-video-name": "Video",
 	"droplets-video-description": "Incorpora video da diverse piattaforme",
-	"droplets-pdflink-name": "Collegamento PDF"
+	"droplets-pdflink-name": "Collegamento PDF",
+	"bs-distributionconnector-videodropletinspector-alignment-label": "Allineamento",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "sinistra",
+	"bs-distributionconnector-videodropletinspector-alignment-center": "centrato",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "destra"
 }
