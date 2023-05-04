@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kareyac"
+			"Kareyac",
+			"StanProg"
 		]
 	},
+	"bs-distributionconnector-collection-var-pagetitle": "Заглавие на страницата",
 	"droplets-gallery-name": "Галерия",
 	"droplets-map-name": "Карта",
 	"droplets-subpages-name": "Подстраници",
