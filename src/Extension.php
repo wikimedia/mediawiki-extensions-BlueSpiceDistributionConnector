@@ -2,6 +2,8 @@
 
 namespace BlueSpice\DistributionConnector;
 
+use BlueSpice\DistributionConnector\SearchBackend\BlueSpiceTitleSearch;
+
 class Extension extends \BlueSpice\Extension {
 
 	public static function onRegistration() {
@@ -17,5 +19,7 @@ class Extension extends \BlueSpice\Extension {
 			$GLOBALS['bsgDistributionConnectorEventBusEventServices']
 				= $GLOBALS['wgEventServices'];
 		}
+
+		$GLOBALS['wgSearchType'] = BlueSpiceTitleSearch::class;
 	}
 }
