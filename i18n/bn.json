@@ -35,5 +35,6 @@
 	"droplets-subpages-description": "একটি উইকিপাতার উপপাতাগুলোর তালিকা",
 	"droplets-video-name": "ভিডিও",
 	"droplets-pdflink-name": "পিডিএফ লিঙ্ক",
-	"bs-distributionconnector-videodropletinspector-title": "ভিডিও"
+	"bs-distributionconnector-videodropletinspector-title": "ভিডিও",
+	"bs-distributionconnector-videodropletinspector-description-label": "বিবরণ"
 }

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eleassar"
+			"Eleassar",
+			"Shirayuki"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Povezuje BlueSpice z različnimi razširitvami MediaWikija",
@@ -85,7 +86,7 @@
 	"bs-distributionconnector-default-user-approval-report-subject": "Postopek »Odobritev uporabnika« za stran »$1« je končan",
 	"bs-distributionconnector-default-user-approval-report-body": "Podrobnosti postopka:\nZačetek: $1 \nKonec: $2 \nStran: $3 \nRedakcija: $4 \nUporabnik: $5 \nNavodila: $6 \nKomentar:\n$7 \n\nTo e-poštno sporočilo vam je bilo poslano, ker vas je $8 {{GENDER:$8|določil|določila|določil_a}} kot prejemnika e-poštnega sporočila za ta postopek.",
 	"bs-distributionconnector-default-document-control-report-subject": "Potek dela »Strokovni pregled dokumenta« za stran »$1« je končan",
-	"bs-distributionconnector-default-document-control-report-body": "Podrobnosti o postopku:\nZačetek: $1 \nKonec: $2 \nStran: $3 \nRedakcija: $4 \nUrejevalec: $5 \nPregledovalec: $6 \nOdobritelj: $7\nNavodila za urejevalca: $8 \nNavodila za pregledovalca: $9 \nNavodila za odobritelja: $1 0\nKomentar:\n$11\n\nTo e-poštno sporočilo vam je bilo poslano, ker vas je $12 {{PLURAL:$12|določil|določila|določil_a}} kot prejemnika e-poštnega sporočila za ta postopek.",
+	"bs-distributionconnector-default-document-control-report-body": "Podrobnosti o postopku:\nZačetek: $1 \nKonec: $2 \nStran: $3 \nRedakcija: $4 \nUrejevalec: $5 \nPregledovalec: $6 \nOdobritelj: $7\nNavodila za urejevalca: $8 \nNavodila za pregledovalca: $9 \nNavodila za odobritelja: $10\nKomentar:\n$11\n\nTo e-poštno sporočilo vam je bilo poslano, ker vas je $12 {{PLURAL:$12|določil|določila|določil_a}} kot prejemnika e-poštnega sporočila za ta postopek.",
 	"bs-distributionconnector-default-user-vote-report-delegated-message": "delegirano $1",
 	"bs-distributionconnector-default-definition-report-review": "Pregled",
 	"bs-distributionconnector-default-definition-report-approve": "Odobri",
