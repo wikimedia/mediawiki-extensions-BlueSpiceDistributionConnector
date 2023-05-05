@@ -35,5 +35,6 @@
 	"droplets-buttonlink-format-blue": "নীল",
 	"droplets-buttonlink-format-neutral": "সাদা",
 	"droplets-buttonlink-format-red": "লাল",
-	"bs-distributionconnector-videodropletinspector-title": "ভিডিও"
+	"bs-distributionconnector-videodropletinspector-title": "ভিডিও",
+	"bs-distributionconnector-videodropletinspector-description-label": "বিবরণ"
 }
