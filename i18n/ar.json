@@ -193,5 +193,11 @@
 	"bs-distributionconnector-videodropletinspector-alignment-left": "يسار",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "يمين",
 	"bs-distributionconnector-videodropletinspector-container-label": "مؤطر",
-	"bs-distributionconnector-videodropletinspector-container-help": "إذا تم تحديده ، فسيتم عرض الفيديو في صورة مصغرة"
+	"bs-distributionconnector-videodropletinspector-container-help": "إذا تم تحديده ، فسيتم عرض الفيديو في صورة مصغرة",
+	"bs-distributionconnector-pref-eventbus-eventservices": "خدمات المناسبات",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "لا شيء",
+	"bs-distributionconnector-checkpermissions-success": "[[المستخدم: $1 | تم منح $1 ] الإذن \" $2 \" من أجل [[ $3 ]]",
+	"bs-distributionconnector-workflows-ui-trigger-field-property": "الخاصية الدلالية (من النوع: التاريخ)",
+	"right-duplicate": "صفحات مكررة",
+	"droplets-subpages-bullets-help": "\"لا\" يزيل النقاط"
 }

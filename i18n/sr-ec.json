@@ -39,5 +39,6 @@
 	"bs-distributionconnector-videodropletinspector-container-label": "Оквир",
 	"bs-distributionconnector-videodropletinspector-title": "Видео",
 	"bs-distributionconnector-videodropletinspector-dimension-label": "Димензија",
-	"bs-distributionconnector-videodropletinspector-alignment-label": "Позиционирање"
+	"bs-distributionconnector-videodropletinspector-alignment-label": "Позиционирање",
+	"bs-distributionconnector-videodropletinspector-description-placeholder": "Уметни опис видеа..."
 }
