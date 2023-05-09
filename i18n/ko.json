@@ -93,6 +93,15 @@
 	"droplets-subpages-namespace-label": "이름공간",
 	"droplets-buttonlink-external-label": "외부 링크",
 	"droplets-buttonlink-format-label": "배경색",
+	"droplets-create-input-alignment-center-label": "가운데",
 	"bs-distributionconnector-videodropletinspector-video-link-label": "동영상 링크 추가",
-	"bs-distributionconnector-videodropletinspector-title": "동영상"
+	"bs-distributionconnector-videodropletinspector-title": "동영상",
+	"bs-distributionconnector-videodropletinspector-description-label": "설명",
+	"bs-distributionconnector-videodropletinspector-description-placeholder": "동영상 설명 추가...",
+	"bs-distributionconnector-videodropletinspector-dimension-label": "크기",
+	"bs-distributionconnector-videodropletinspector-alignment-label": "맞춤",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "왼쪽",
+	"bs-distributionconnector-videodropletinspector-alignment-center": "가운데",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "오른쪽",
+	"bs-distributionconnector-videodropletinspector-container-label": "프레임"
 }
