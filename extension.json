@@ -29,17 +29,7 @@
 				}
 			},
 			"ConfigDefinitionRegistry": {
-				"DistributionConnectorOpenIDConnectConfig": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\Config::getInstance",
-				"DistributionConnectorOpenIDConnectUseRealNameAsUserName": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\UseRealNameAsUserName::getInstance",
-				"DistributionConnectorOpenIDConnectUseEmailNameAsUserName": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\UseEmailNameAsUserName::getInstance",
-				"DistributionConnectorOpenIDConnectMigrateUsersByUserName": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\MigrateUsersByUserName::getInstance",
-				"DistributionConnectorOpenIDConnectMigrateUsersByEmail": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\MigrateUsersByEmail::getInstance",
-				"DistributionConnectorOpenIDConnectForceLogout": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\OpenIDConnect\\ForceLogout::getInstance",
-				"DistributionConnectorSimpleSAMLphpEmailAttribute": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\EmailAttribute::getInstance",
-				"DistributionConnectorSimpleSAMLphpGroupAttributeDelimiter": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\GroupAttributeDelimiter::getInstance",
-				"DistributionConnectorSimpleSAMLphpRealNameAttribute": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\RealNameAttribute::getInstance",
-				"DistributionConnectorSimpleSAMLphpSyncAllGroupsGroupAttributeName": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\SyncAllGroupsGroupAttributeName::getInstance",
-				"DistributionConnectorSimpleSAMLphpUsernameAttribute": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SimpleSAMLphp\\UsernameAttribute::getInstance",
+				"DistributionConnectorPluggableAuthConfig": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\PluggableAuth\\Config::getInstance",
 				"DistributionConnectorEventBusEnableEventBus": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\EventBus\\EnableEventBus::getInstance",
 				"DistributionConnectorEventBusEventServices": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\EventBus\\EventServices::getInstance",
 				"DistributionConnectorEventBusEventServiceDefault": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\EventBus\\EventServiceDefault::getInstance"
@@ -510,59 +500,9 @@
 	},
 	"config_prefix": "bsg",
 	"config": {
-		"DistributionConnectorOpenIDConnectConfig": {
+		"DistributionConnectorPluggableAuthConfig": {
 			"value": [],
-			"descriptionmsg": "bs-distributionconnector-pref-openidconnect-config",
-			"public": true
-		},
-		"DistributionConnectorOpenIDConnectUseRealNameAsUserName": {
-			"value": false,
-			"descriptionmsg": "bs-distributionconnector-pref-openidconnect-userealnameasusername",
-			"public": true
-		},
-		"DistributionConnectorOpenIDConnectUseEmailNameAsUserName": {
-			"value": false,
-			"descriptionmsg": "bs-distributionconnector-pref-openidconnect-useemailasusername",
-			"public": true
-		},
-		"DistributionConnectorOpenIDConnectMigrateUsersByUserName": {
-			"value": false,
-			"descriptionmsg": "bs-distributionconnector-pref-openidconnect-migrateusersbyusername",
-			"public": true
-		},
-		"DistributionConnectorOpenIDConnectMigrateUsersByEmail": {
-			"value": false,
-			"descriptionmsg": "bs-distributionconnector-pref-openidconnect-migrateusersbyemail",
-			"public": true
-		},
-		"DistributionConnectorOpenIDConnectForceLogout": {
-			"value": false,
-			"descriptionmsg": "bs-distributionconnector-pref-openidconnect-forcelogout",
-			"public": true
-		},
-		"DistributionConnectorSimpleSAMLphpEmailAttribute": {
-			"value": [],
-			"descriptionmsg": "bs-distributionconnector-pref-simplesamlphp-emailattribute",
-			"public": true
-		},
-		"DistributionConnectorSimpleSAMLphpGroupAttributeDelimiter": {
-			"value": [],
-			"descriptionmsg": "bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter",
-			"public": true
-		},
-		"DistributionConnectorSimpleSAMLphpRealNameAttribute": {
-			"value": [],
-			"descriptionmsg": "bs-distributionconnector-pref-simplesamlphp-realnameattribute",
-			"public": true
-		},
-		"DistributionConnectorSimpleSAMLphpSyncAllGroupsGroupAttributeName": {
-			"value": [],
-			"descriptionmsg": "bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename",
-			"public": true
-		},
-		"DistributionConnectorSimpleSAMLphpUsernameAttribute": {
-			"value": [],
-			"descriptionmsg": "bs-distributionconnector-pref-simplesamlphp-usernameattribute",
+			"descriptionmsg": "bs-distributionconnector-pref-pluggableauth-config",
 			"public": true
 		},
 		"DistributionConnectorEventBusEnableEventBus": {
@@ -605,7 +545,8 @@
 			"\\BlueSpice\\DistributionConnector\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\ModifySidebar::callback"
 		],
 		"LoadExtensionSchemaUpdates": [
-			"BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\AddTemplateUserPageStandardContent::callback"
+			"BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\AddTemplateUserPageStandardContent::callback",
+			"migrate-pluggable-auth-config"
 		],
 		"WikiExplorer::getFieldDefinitions": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onGetFieldDefinitions",
 		"WikiExplorer::getColumnDefinitions": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onGetColumnDefinitions",
@@ -616,6 +557,9 @@
 	"HookHandlers": {
 		"user-manager": {
 			"class": "\\BlueSpice\\DistributionConnector\\Hook\\AddInviteLink"
+		},
+		"migrate-pluggable-auth-config": {
+			"class": "\\BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\MigratePluggableAuthConfig"
 		}
 	},
 	"manifest_version": 2
