@@ -112,6 +112,7 @@
 	"droplets-buttonlink-format-neutral": "hvit",
 	"droplets-buttonlink-format-red": "rød",
 	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Antall sidevisninger",
+	"droplets-create-input-preload-help": "Angi navnet til en eksisterende side hvis innhold skal forhåndslastes til den nye siden",
 	"droplets-create-input-alignment-label": "Justering",
 	"droplets-create-input-alignment-left-label": "venstre",
 	"droplets-create-input-alignment-right-label": "høyre",
@@ -132,10 +133,14 @@
 	"bs-distributionconnector-videodropletinspector-video-link-label": "Sett inn en lenke til en video",
 	"bs-distributionconnector-videodropletinspector-title": "Video",
 	"bs-distributionconnector-videodropletinspector-description-label": "Beskrivelse",
+	"bs-distributionconnector-videodropletinspector-service-help": "Velg tjenesten som skal brukes for å bygge inn video",
+	"bs-distributionconnector-videodropletinspector-description-placeholder": "Sett inn videobeskrivelse …",
+	"bs-distributionconnector-videodropletinspector-dimension-label": "Dimensjon",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "Justering",
 	"bs-distributionconnector-videodropletinspector-alignent-help": "Juster videoen til venstre, midten eller til høyre",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "venstre",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "sentrert",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "høyre",
-	"bs-distributionconnector-videodropletinspector-container-label": "Innrammet"
+	"bs-distributionconnector-videodropletinspector-container-label": "Innrammet",
+	"bs-distributionconnector-videodropletinspector-container-help": "Hvis denne er valgt blir videoen vist i miniatyrversjon"
 }
