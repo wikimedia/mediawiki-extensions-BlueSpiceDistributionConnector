@@ -42,5 +42,9 @@
 	"droplets-subpages-name": "Ënnersäiten",
 	"droplets-subpages-description": "Lëscht vun den Ënnersäite vun enger Wikisäit",
 	"droplets-video-name": "Video",
-	"droplets-pdflink-name": "PDF-Link"
+	"droplets-pdflink-name": "PDF-Link",
+	"bs-distributionconnector-videodropletinspector-title": "Video",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "lénks",
+	"bs-distributionconnector-videodropletinspector-alignment-center": "zentréiert",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "riets"
 }
