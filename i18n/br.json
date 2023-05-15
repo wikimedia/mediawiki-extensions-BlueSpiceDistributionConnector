@@ -1,9 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
+			"Adriendelucca",
 			"Gwendal"
 		]
 	},
 	"bs-distributionconnector-checkpermissions-label-permission": "Aotre",
-	"bs-distributionconnector-checkpermissions-label-title": "Titl"
+	"bs-distributionconnector-checkpermissions-label-title": "Titl",
+	"droplets-create-input-alignment-center-label": "kreiz",
+	"bs-distributionconnector-videodropletinspector-title": "Video",
+	"bs-distributionconnector-videodropletinspector-description-label": "Deskrivadur",
+	"bs-distributionconnector-videodropletinspector-dimension-label": "Mentoù",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "kleiz",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "dehou",
+	"bs-distributionconnector-videodropletinspector-container-label": "Enframmet"
 }
