@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kareyac",
 			"Vlad5250"
 		]
 	},
@@ -51,5 +52,6 @@
 	"bs-distributionconnector-checkpermissions-label-user": "Корисник",
 	"bs-distributionconnector-checkpermissions-label-permission": "Дозвола",
 	"bs-distributionconnector-checkpermissions-label-title": "Наслов",
-	"bs-distributionconnector-notification-logged-in": "Сега сте најавени"
+	"bs-distributionconnector-notification-logged-in": "Сега сте најавени",
+	"bs-distributionconnector-videodropletinspector-title": "Видео"
 }
