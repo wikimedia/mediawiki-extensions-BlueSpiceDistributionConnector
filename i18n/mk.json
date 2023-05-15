@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kareyac",
 			"Vlad5250"
 		]
 	},
@@ -49,5 +50,6 @@
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Покани",
 	"bs-distributionconnector-invite-signup-dialog-title": "Покани корисник",
 	"right-duplicate": "Дуплирање на страници",
-	"action-duplicate": "дуплирање на страница"
+	"action-duplicate": "дуплирање на страница",
+	"bs-distributionconnector-videodropletinspector-title": "Видео"
 }

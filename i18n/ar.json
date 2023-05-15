@@ -193,6 +193,7 @@
 	"bs-distributionconnector-videodropletinspector-description-placeholder": "أدخل وصف الفيديو ...",
 	"bs-distributionconnector-videodropletinspector-dimension-label": "البعد",
 	"bs-distributionconnector-videodropletinspector-dimension-help": "لتعيين حجم الفيديو ، يمكنك استخدام التنسيق \"العرض × الارتفاع\" بالبكسل. إذا لم يتم توفير الارتفاع فسيتم حسابه تلقائيًا من العرض. إذا كنت تريد ضبط الارتفاع ، يجب أن تشير إلى ذلك بـ \"x\".! N! أمثلة: 480 ، 480x320 ، x320 - لعرض 480 وارتفاع 320",
+	"bs-distributionconnector-videodropletinspector-alignment-label": "المحاذاة",
 	"bs-distributionconnector-videodropletinspector-alignent-help": "قم بمحاذاة الفيديو إلى اليسار أو الوسط أو اليمين",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "يسار",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "يمين",
