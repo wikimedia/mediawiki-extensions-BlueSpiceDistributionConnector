@@ -144,5 +144,13 @@
 	"droplets-subpages-name": "דפי־משנה",
 	"droplets-subpages-description": "רשימת דפי־המשנה של דף ויקי",
 	"droplets-video-name": "וידאו",
-	"droplets-video-description": "הטבעת סרטונים מפלטפורמות שונות"
+	"droplets-video-description": "הטבעת סרטונים מפלטפורמות שונות",
+	"droplets-buttonlink-format-blue": "כחול",
+	"droplets-buttonlink-format-neutral": "לבן",
+	"droplets-buttonlink-format-red": "אדום",
+	"droplets-create-input-alignment-center-label": "מרכז",
+	"bs-distributionconnector-videodropletinspector-title": "וידאו",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "שמאל",
+	"bs-distributionconnector-videodropletinspector-alignment-center": "מרכז",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "ימין"
 }
