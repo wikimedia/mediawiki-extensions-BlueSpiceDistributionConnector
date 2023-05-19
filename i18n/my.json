@@ -18,5 +18,16 @@
 	"droplets-circled-number-fg-color-label": "ရှေ့မျက်နှာစာအရောင်",
 	"droplets-subpages-parentpage-label": "မိခင်စာမျက်နှာ",
 	"droplets-buttonlink-external-label": "ပြင်ပ လင့်ခ်",
-	"droplets-buttonlink-format-label": "နောက်ခံအရောင်"
+	"droplets-buttonlink-format-label": "နောက်ခံအရောင်",
+	"bs-distributionconnector-workflows-form-groupname": "အုပ်စု",
+	"bs-distributionconnector-workflows-form-instructions": "လမ်းညွှန်ချက်များ",
+	"bs-distributionconnector-workflows-form-expert-user": "အထူးကျွမ်းကျင်သူ",
+	"bs-distributionconnector-workflows-form-comment": "မှတ်ချက်",
+	"droplets-create-input-name": "စာမျက်နှာ ဖန်တီးရန်",
+	"droplets-gallery-name": "ပြခန်း",
+	"droplets-map-name": "မြေပုံ",
+	"droplets-subpages-name": "စာမျက်နှာခွဲများ",
+	"droplets-video-name": "ဗီဒီယို",
+	"bs-distributionconnector-videodropletinspector-title": "ဗီဒီယို",
+	"bs-distributionconnector-videodropletinspector-description-label": "ဖော်ပြချက်"
 }
