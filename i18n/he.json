@@ -152,5 +152,7 @@
 	"bs-distributionconnector-videodropletinspector-title": "וידאו",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "שמאל",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "מרכז",
-	"bs-distributionconnector-videodropletinspector-alignment-right": "ימין"
+	"bs-distributionconnector-videodropletinspector-alignment-right": "ימין",
+	"droplets-subpages-bullets-label": "תבליטים",
+	"bs-distributionconnector-videodropletinspector-alignment-label": "יישור"
 }
