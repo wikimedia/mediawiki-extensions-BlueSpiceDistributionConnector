@@ -118,6 +118,7 @@
 	"droplets-subpages-namespace-help": "להשאיר ריק עבור מרחב השמות הראשי",
 	"droplets-subpages-parentpage-label": "דף הורה",
 	"droplets-subpages-cols-label": "פריסת עמודות",
+	"droplets-subpages-bullets-label": "תבליטים",
 	"droplets-map-center-label": "התמקדות",
 	"droplets-buttonlink-external-label": "קישור חיצוני",
 	"droplets-buttonlink-target-label": "יעד",
@@ -146,6 +147,7 @@
 	"droplets-video-name": "וידאו",
 	"droplets-video-description": "הטבעת סרטונים מפלטפורמות שונות",
 	"bs-distributionconnector-videodropletinspector-title": "וידאו",
+	"bs-distributionconnector-videodropletinspector-alignment-label": "יישור",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "שמאל",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "מרכז",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "ימין"

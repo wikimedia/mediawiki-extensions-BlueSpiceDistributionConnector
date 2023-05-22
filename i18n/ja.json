@@ -137,7 +137,7 @@
 	"droplets-subpages-namespace-label": "名前空間",
 	"droplets-subpages-namespace-help": "メイン名前空間は空のままにします",
 	"droplets-subpages-parentpage-label": "親ページ",
-	"droplets-subpages-parentpage-help": "サブページをリストするページ",
+	"droplets-subpages-parentpage-help": "下位ページを列挙するページ",
 	"droplets-subpages-cols-label": "列のレイアウト",
 	"droplets-subpages-cols-help": "「はい」は 3 列のレイアウトを作成し、「いいえ」は列を作成しません",
 	"droplets-subpages-bullets-label": "箇条書き",
