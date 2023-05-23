@@ -202,5 +202,9 @@
 	"bs-distributionconnector-videodropletinspector-alignment-center": "Label for option in dropdown",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "Label for option in dropdown",
 	"bs-distributionconnector-videodropletinspector-container-label": "Label for checkbox to decide if video container should be framed or not",
-	"bs-distributionconnector-videodropletinspector-container-help": "Help text for checkbox if video container should be framed or not"
+	"bs-distributionconnector-videodropletinspector-container-help": "Help text for checkbox if video container should be framed or not",
+	"bs-distributionconnector-pref-pluggableauth-config": "Label for config variable \"DistributionConnectorPluggableAuthConfig\" that allows to set up PluggableAuth plugins and necessary for them settings.",
+	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Sub key for data object field of config variable \"DistributionConnectorPluggableAuthConfig\" that allows to set up PluggableAuth plugins and necessary for them settings.",
+	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Sub key for button label field of config variable \"DistributionConnectorPluggableAuthConfig\" that allows to set up PluggableAuth plugins and necessary for them settings.",
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Sub key for plugin name field of config variable \"DistributionConnectorPluggableAuthConfig\" that allows to set up PluggableAuth plugins and necessary for them settings."
 }
