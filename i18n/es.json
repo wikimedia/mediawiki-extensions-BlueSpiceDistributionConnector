@@ -170,5 +170,8 @@
 	"droplets-create-input-alignment-right-label": "derecha",
 	"droplets-create-input-desc": "Campo del formulario para la creación de páginas predefinidas",
 	"bs-distributionconnector-videodropletinspector-video-link-label": "Insertar un enlace a un vídeo",
-	"bs-distributionconnector-videodropletinspector-title": "Vídeo"
+	"bs-distributionconnector-videodropletinspector-title": "Vídeo",
+	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Objeto de datos (JSON)",
+	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Etiqueta de botón",
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nombre de complemento"
 }
