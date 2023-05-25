@@ -114,5 +114,8 @@
 	"droplets-subpages-name": "Подстраницы",
 	"droplets-video-name": "Видео",
 	"bs-distributionconnector-extension-description": "Подключает BlueSpice к различным расширениям MediaWiki.",
-	"droplets-map-center-map-label": "Центр карты"
+	"droplets-map-center-map-label": "Центр карты",
+	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Объект данных (JSON)",
+	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Метка кнопки",
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Название плагина"
 }
