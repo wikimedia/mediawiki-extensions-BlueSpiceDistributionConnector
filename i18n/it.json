@@ -145,5 +145,6 @@
 	"bs-distributionconnector-videodropletinspector-alignment-label": "Allineamento",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "sinistra",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "centrato",
-	"bs-distributionconnector-videodropletinspector-alignment-right": "destra"
+	"bs-distributionconnector-videodropletinspector-alignment-right": "destra",
+	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Etichetta del pulsante"
 }

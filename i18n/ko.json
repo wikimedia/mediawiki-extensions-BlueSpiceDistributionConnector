@@ -103,5 +103,8 @@
 	"bs-distributionconnector-videodropletinspector-alignment-left": "왼쪽",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "가운데",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "오른쪽",
-	"bs-distributionconnector-videodropletinspector-container-label": "프레임"
+	"bs-distributionconnector-videodropletinspector-container-label": "프레임",
+	"bs-distributionconnector-pref-pluggableauth-config-data-object": "데이터 객체 (JSON)",
+	"bs-distributionconnector-pref-pluggableauth-config-button-label": "버튼 레이블",
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "플러그인 이름"
 }

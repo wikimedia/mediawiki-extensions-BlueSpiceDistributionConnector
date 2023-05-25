@@ -111,5 +111,8 @@
 	"droplets-gallery-name": "Галерея",
 	"droplets-map-name": "Карта",
 	"droplets-subpages-name": "Подстраницы",
-	"droplets-video-name": "Видео"
+	"droplets-video-name": "Видео",
+	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Объект данных (JSON)",
+	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Метка кнопки",
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Название плагина"
 }
