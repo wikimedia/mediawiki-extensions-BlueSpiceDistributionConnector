@@ -42,6 +42,7 @@
 .imgcard.large .textonly .imgcardlink {font-size:1em}
 
 /*placeholder no image */
+.imgcard .placeholder {background-color:#f1f3f9;}
 .imgcard .placeholder.bi-card-image:before {font-size:120px!important; min-height: 140px; max-height: 140px; color:#d2d2d2}
 .imgcard.small .placeholder.bi-card-image:before {font-size: 80px!important; min-height: 110px; max-height: 110px;}
 .imgcard.large .placeholder.bi-card-image:before {font-size:174px!important;min-height:206px; max-height: 206px}

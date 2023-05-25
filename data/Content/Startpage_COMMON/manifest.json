@@ -4,7 +4,7 @@
 		"label": "Minutes overview",
 		"description": "An overview of meeting minutes",
 		"target_title": "Minutes",
-		"content_path": "/pages/(Pages)/Image_cardsend.wiki",
+		"content_path": "/pages/(Pages)/Minutes.wiki",
 		"sha1": "9eb9e2618b2411840d4fda95bdd4be4467685bbe",
 		"old_sha1": []
 	},
@@ -32,7 +32,7 @@
 		"description": "A banner",
 		"target_title": "Template:Banner",
 		"content_path": "/pages/Template/Banner.wiki",
-		"sha1": "8814c630aa118e8bbdb0df34d26ed06664756e82",
+		"sha1": "80a17cb74231418400902af8ef525564a140519c",
 		"old_sha1": []
 	},
 	"Template:Banner/styles.css": {
@@ -41,7 +41,7 @@
 		"description": "CSS for the banner",
 		"target_title": "Template:Banner/styles.css",
 		"content_path": "/pages/Template/Bannerstyles.css.wiki",
-		"sha1": "74a6b10b96ef9b627b3d808a910aedbfed2bb0b6",
+		"sha1": "fa67a1afc80d3d17702da832116301120f3870c0",
 		"old_sha1": []
 	},
 	"Template:Image_cards": {
@@ -50,7 +50,7 @@
 		"description": "Image card",
 		"target_title": "Template:Image cards",
 		"content_path": "/pages/Template/Image_cards.wiki",
-		"sha1": "0f734c66a2c59b83a9e9af1837263adf76817a4c",
+		"sha1": "d1fe7938989f470720721b79255099f4d8543d0a",
 		"old_sha1": []
 	},
 	"Template:Image_cards/end": {
@@ -77,7 +77,16 @@
 		"description": "CSS for the image cards",
 		"target_title": "Template:Image cards/styles.css",
 		"content_path": "/pages/Template/Image_cardsstyles.css.wiki",
-		"sha1": "b3680fa90e0fa6c2af0dbc81265ecdac7cb67008",
+		"sha1": "d4abf03c13b52f79f4334f1377c90d1bbdbf7cf8",
+		"old_sha1": []
+	},
+	"Template:Startpage": {
+		"lang": "en",
+		"label": "Startpage",
+		"description": "List of available start pages",
+		"target_title": "Template:Startpage",
+		"content_path": "/pages/Template/Startpage.wiki",
+		"sha1": "e41172e3714f73e6e3b327c75d32b85254624087",
 		"old_sha1": []
 	},
 	"Template:Startpage/styles.css": {
@@ -86,7 +95,7 @@
 		"description": "CSS for the startpage",
 		"target_title": "Template:Startpage/styles.css",
 		"content_path": "/pages/Template/Startpagestyles.css.wiki",
-		"sha1": "d5fa9df394b8cef7aff177db948be9aa5665ed36",
+		"sha1": "91005f4c1e1120dc7c679bd762d54db7c9c13ea4",
 		"old_sha1": []
 	},
 	"Template:Dropdown": {
@@ -112,7 +121,7 @@
 		"label": "Protokoll\u00fcbersicht",
 		"description": "Eine \u00dcbersicht \u00fcber Protokolle",
 		"target_title": "Protokolle",
-		"content_path": "/pages/(Pages)/MediaWikiDpl-tag-tracking-categoryde.wiki",
+		"content_path": "/pages/(Pages)/Protokolle.wiki",
 		"sha1": "9eb9e2618b2411840d4fda95bdd4be4467685bbe",
 		"old_sha1": []
 	},
@@ -149,7 +158,7 @@
 		"description": "CSS f\u00fcr einen Banner",
 		"target_title": "Template:Banner/styles.css",
 		"content_path": "/pages/Template/Bannerdestyles.css.wiki",
-		"sha1": "74a6b10b96ef9b627b3d808a910aedbfed2bb0b6",
+		"sha1": "fa67a1afc80d3d17702da832116301120f3870c0",
 		"old_sha1": []
 	},
 	"Template:Bildkarten": {
@@ -158,7 +167,7 @@
 		"description": "Eine Vorlage f\u00fcr Bildkarten",
 		"target_title": "Template:Bildkarten",
 		"content_path": "/pages/Template/Bildkarten.wiki",
-		"sha1": "0f734c66a2c59b83a9e9af1837263adf76817a4c",
+		"sha1": "a479259cefa2d3318756426acb19a72761758254",
 		"old_sha1": []
 	},
 	"Template:Bildkarten/end": {
@@ -185,7 +194,16 @@
 		"description": "CSS f\u00fcr einen Bildkartenabschnitt",
 		"target_title": "Template:Bildkarten/styles.css",
 		"content_path": "/pages/Template/Bildkartenstyles.css.wiki",
-		"sha1": "b3680fa90e0fa6c2af0dbc81265ecdac7cb67008",
+		"sha1": "71e3aee3075688b58dda7b0eb537851d81fe6e12",
+		"old_sha1": []
+	},
+	"Template:Startseite": {
+		"lang": "de",
+		"label": "Startseite",
+		"description": "Liste der verf\u00fcgbaren Startseiten",
+		"target_title": "Template:Startseite",
+		"content_path": "/pages/Template/Startseite.wiki",
+		"sha1": "05ce3a620cd9ed48ef7324c7d998249c0ec691b6",
 		"old_sha1": []
 	},
 	"Template:Startseite/styles.css": {
@@ -194,7 +212,7 @@
 		"description": "CSS f\u00fcr die Startseite",
 		"target_title": "Template:Startseite/styles.css",
 		"content_path": "/pages/Template/Startseitestyles.css.wiki",
-		"sha1": "d5fa9df394b8cef7aff177db948be9aa5665ed36",
+		"sha1": "91005f4c1e1120dc7c679bd762d54db7c9c13ea4",
 		"old_sha1": []
 	}
 }

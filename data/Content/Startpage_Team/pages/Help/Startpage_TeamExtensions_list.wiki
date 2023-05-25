@@ -1,5 +1,5 @@
 ==Phone extensions==
-<span class="fas fa-phone"></span> <big> Main line: 0941-66080-'''0'''</big>
+<span class="bi bi-telephone-fill"></span> <big> Main line: 0941-66080-'''0'''</big>
 
 ===Featured===
 {| class="wikitable small" style="width:100%;"

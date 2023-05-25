@@ -6,14 +6,14 @@
 !Thu
 !Fri
 |-
-|<span class="fas fa-headphones-alt"></span>
+|<span class="bi bi-headset"></span>
 | Michael
 |Claire
 |Justin
 | Atri
 |Christophe
 |-
-|<span class="fas fa-cogs"></span>
+|<span class="bi bi-gear-fill"></span>
 |Joe
 |Elisa
 |Claudette

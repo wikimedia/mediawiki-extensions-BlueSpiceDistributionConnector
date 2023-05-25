@@ -1,0 +1,16 @@
+<noinclude>The wiki contains the following startpage templates in the "Help" namespace. In order to use a template, it must be '''copied to another existing namespace'''.
+
+
+<div style="border-top: 1px solid #00000020; border-bottom: 1px solid #00000020; padding:10px; background:#f4f4f4">[https://en.wiki.bluespice.com/wiki/Manual:Startpage_templates <span class="bi bi-arrow-right-circle" style="font-size:1.4em; vertical-align:middle; padding:0 5px"></span>  Helpdesk documentation]</div>
+==Available Startpage templates==
+
+{{#dpl:
+|namespace=Help
+|shownamespace=false
+|titlematch=Startpage%
+|nottitlematch=%/%
+|columns=1
+|mode=unordered
+|rowcolformat=width=100%
+}}
+</noinclude>
