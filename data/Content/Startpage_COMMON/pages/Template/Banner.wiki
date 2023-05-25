@@ -175,13 +175,6 @@ This template creates an intro banner on a page. The banner should contain an im
 			},
 			"suggested": true
 		},
-		"boxbgimg": {
-			"label": {
-				"en": "Backbground image",
-				"de": "Hintergrundbild"
-			},
-			"suggested": true
-		},
 		"boxbgicon": {
 			"label": {
 				"en": "Background icon",
@@ -203,7 +196,6 @@ This template creates an intro banner on a page. The banner should contain an im
 		"contentpadding",
 		"boxpadding",
 		"boxbgcolor",
-		"boxbgimg",
 		"boxbgicon"
 	]
 }

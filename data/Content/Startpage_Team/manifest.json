@@ -5,7 +5,7 @@
 		"description": "The root of the startpage structure",
 		"target_title": "Help:Startpage Team",
 		"content_path": "/pages/Help/Startpage_Team.wiki",
-		"sha1": "368e5492b785b1b96150d3ca50121e303c282ed2",
+		"sha1": "2739e599e917afa45bae1c0a5296c73a7cb59941",
 		"old_sha1": []
 	},
 	"Help:Startpage_Team/Contact_info": {
@@ -23,7 +23,7 @@
 		"description": "The Extensions list section of the startpage structure",
 		"target_title": "Help:Startpage Team/Extensions list",
 		"content_path": "/pages/Help/Startpage_TeamExtensions_list.wiki",
-		"sha1": "37a6b8e831b70ebea19d4291d831dd073ea5f8fa",
+		"sha1": "29e8b698e4c77716604919fb173ad37a086ced18",
 		"old_sha1": []
 	},
 	"Help:Startpage_Team/Minutes": {
@@ -32,7 +32,7 @@
 		"description": "The Minutes section of the startpage structure",
 		"target_title": "Help:Startpage Team/Minutes",
 		"content_path": "/pages/Help/Startpage_TeamMinutes.wiki",
-		"sha1": "ef332efb1f1e7b722be41fa54282720ae12adc0c",
+		"sha1": "5a99352d399cd774892604a65d5789f9413d911a",
 		"old_sha1": []
 	},
 	"Help:Startpage_Team/Quick_links": {
@@ -59,7 +59,7 @@
 		"description": "The Weekly schedule section of the startpage structure",
 		"target_title": "Help:Startpage Team/Weekly schedule",
 		"content_path": "/pages/Help/Startpage_TeamWeekly_schedule.wiki",
-		"sha1": "ce438c1759accaf987944beb0803a166aa211508",
+		"sha1": "6e778d74d24e6b99149611f4efb64aedb23bc7d6",
 		"old_sha1": []
 	},
 	"Help:Startpage_Team/Weekly_support": {

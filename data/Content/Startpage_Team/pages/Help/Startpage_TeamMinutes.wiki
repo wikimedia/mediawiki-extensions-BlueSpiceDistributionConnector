@@ -19,7 +19,7 @@ count=2
 ordermethod=lastedit
 order=descending
 </dpl>
-<span class="far fa-arrow-alt-circle-right"></span> [[{{NAMESPACE}}:{{PAGENAME}}/Minutes|view minutes]]</includeonly>
+<span class="bi bi-arrow-right-circle"></span> [[{{NAMESPACE}}:{{PAGENAME}}/Minutes|view minutes]]</includeonly>
 <noinclude>
 {{Special:PrefixIndex/Minutes/ |hideredirects=1 |stripprefix=1}}
 </noinclude>

@@ -9,7 +9,7 @@
 				"de": "Bildname"
 			},
 			"type": "wiki-file-name",
-			"required": true,
+			"suggested": true,
 			"description": {
 				"en": "Enter as imagename.jpg or imagename.png",
 				"de": "Als meinbild.jpg oder meinbild.png eingeben"
@@ -49,8 +49,15 @@
 			},
 			"suggested": true
 		},
-		"iconname": {},
-		"iconcolor": {}
+		"iconname": {
+			"label": "Icon ",
+			"description": "(Font Awesome or Bootstrap)",
+			"suggested": true
+		},
+		"iconcolor": {
+			"label": "Icon color",
+			"suggested": true
+		}
 	},
 	"description": {
 		"en": "Image cards with links",
