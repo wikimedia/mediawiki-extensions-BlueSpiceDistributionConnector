@@ -4,8 +4,8 @@
 {{{{NAMESPACE}}:{{PAGENAME}}/Bildkarten}}
 <div class="sectionflex col2 frame">
 <div>
-==Ankündigungen der Betriebsleitung==
-{{{{NAMESPACE}}:{{PAGENAME}}/Blog}}
+==Ankündigungen==
+{{{{NAMESPACE}}:{{PAGENAME}}/Ankündigungen}}
 </div>
 <div>
 ==Veranstaltungen==
@@ -36,7 +36,8 @@
 {{{{NAMESPACE}}:{{PAGENAME}}/Kontakt}}
 </div>
 </div>
-<bs:tagcloud renderer="text" store="category" width="100%" showcount="true" minsize="5" maxsize="30" />
+<bs:tagcloud renderer="text" store="category" width="100%" showcount="true" minsize="5" maxsize="30" exclude="BPMN, Imported vocabulary, Pages using DynamicPageList parser function, Pages using DynamicPageList3 parser tag" />
 {{Dropdown|ddid=edit|Content={{#subpages:{{FULLPAGENAME}}|kidsonly=yes}}}}
 __NOTOC__
 __HIDETITLE__
+__NODISCUSSION__

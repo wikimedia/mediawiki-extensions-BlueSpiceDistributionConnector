@@ -1,0 +1,15 @@
+{|
+|- 
+| 11/04
+|| Another news item
+|- 
+| 10/19
+|| Deep learning with light
+|- 
+| 08/18
+|| Hallo Welt! moves cloud instances to Hetzner  data centers
+|- 
+| 07/17
+|| Another news item
+|-
+|}

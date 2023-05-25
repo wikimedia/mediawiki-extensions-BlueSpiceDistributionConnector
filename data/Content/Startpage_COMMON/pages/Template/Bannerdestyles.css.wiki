@@ -7,11 +7,11 @@
 .bannerbox .banner-title .bannerhd {font-size:1.6em; font-weight:bold}
 .bannerbox .banner-text {font-size:1.3em;}
 .banner-content {padding:10px;}
-.bannerbox.bgicon1, .bannerbox.bgicon2, .bannerbox.bgicon3, bannerbox.swoosh  {position:relative;overflow:hidden}
-.bannerbox.bgicon1::before {color:white; opacity: 0.5; font-size:15em;font-family: "Font Awesome 5 Free";  font-weight: 900;  content: "\f0ac";
+.bannerbox.bgicon1, .bannerbox.bgicon2, .bannerbox.bgicon3, .bannerbox.swoosh  {position:relative;overflow:hidden}
+.bannerbox.bgicon1::before {color:white; opacity: 0.5; font-size:15em;font-family: "Font Awesome 6 Free";  font-weight: 900;  content: "\f0ac";
  position: absolute; top: -95px;right: 10px;}
 .bannerbox.bgicon2::before {color:white; opacity: 0.5; font-size:9.5em; font-family: "bootstrap-icons"; font-weight: 400;  content: "\f1dd"; position: absolute; top: -40px; right: 10px;}
-.bannerbox.bgicon3::before {color:black; opacity: 0.5; font-size:9.5em; font-family: "Font Awesome 5 Free"; font-weight: 400;  content: "\f05a"; position: absolute; top: -40px; right: 10px;}
+.bannerbox.bgicon3::before {color:white; opacity: 0.5; font-size:9.5em; font-family: "Font Awesome 6 Free"; font-weight: 900;  content: "\e592"; position: absolute; top: -38px; right: 5px;}
 .bannerbox.swoosh {border-bottom: 1px solid #a6a6a7;border-radius: 0 0 80% 0%; overflow: hidden;position:relative;}
 @media only screen
   and (max-width: 600px) {

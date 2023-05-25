@@ -5,7 +5,7 @@
 		"description": "The root of the startpage structure",
 		"target_title": "Help:Startpage Intranet",
 		"content_path": "/pages/Help/Startpage_Intranet.wiki",
-		"sha1": "e1c712deedd1c756da685616599dbc242d006195",
+		"sha1": "94f22689d602161ee9e135f4060ef4711b8c1182",
 		"old_sha1": []
 	},
 	"Help:Startpage_Intranet/Banner": {
@@ -26,13 +26,13 @@
 		"sha1": "b52bee6bd69e216f7f7e163a5f225e84f6c4a52a",
 		"old_sha1": []
 	},
-	"Help:Startpage_Intranet/Blog": {
+	"Help:Startpage_Intranet/News": {
 		"lang": "en",
-		"label": "Startpage Intranet - Blog",
-		"description": "The Blog section of the startpage structure",
-		"target_title": "Help:Startpage Intranet/Blog",
-		"content_path": "/pages/Help/Startpage_IntranetBlog.wiki",
-		"sha1": "2673ecbd25a5ad8bbebc7693fc00747873cd58ce",
+		"label": "Startpage Intranet - News",
+		"description": "The News section of the startpage structure",
+		"target_title": "Help:Startpage Intranet/News",
+		"content_path": "/pages/Help/Startpage_IntranetNews.wiki",
+		"sha1": "ff34d7d38bafb0e2089733fb5bcf12045e8f1dec",
 		"old_sha1": []
 	},
 	"Help:Startpage_Intranet/Events": {
@@ -77,7 +77,7 @@
 		"description": "The Minutes section of the startpage structure",
 		"target_title": "Help:Startpage Intranet/Minutes",
 		"content_path": "/pages/Help/Startpage_IntranetMinutes.wiki",
-		"sha1": "ef332efb1f1e7b722be41fa54282720ae12adc0c",
+		"sha1": "5a99352d399cd774892604a65d5789f9413d911a",
 		"old_sha1": []
 	},
 	"Help:Startpage_Intranet/Contact": {
@@ -95,7 +95,7 @@
 		"description": "Eine Startseite f\u00fcr das Intranet",
 		"target_title": "Help:Startseite Intranet",
 		"content_path": "/pages/Help/Startseite_Intranet.wiki",
-		"sha1": "e36c9f67158913b24e2a5ed1fbcff3ae01dfe5e4",
+		"sha1": "2c9e27712f0783e275b1dbdd7c8eabbbacbc4661",
 		"old_sha1": []
 	},
 	"Help:Startseite_Intranet/Banner": {
@@ -116,13 +116,13 @@
 		"sha1": "aec77defb6ad70ced857480a15b712a474d91965",
 		"old_sha1": []
 	},
-	"Help:Startseite_Intranet/Blog": {
+	"Help:Startseite_Intranet/Ank\u00fcndigungen": {
 		"lang": "de",
-		"label": "Startseite Intranet - Blog",
-		"description": "Der Blog Abschnitt der Startseite",
-		"target_title": "Help:Startseite Intranet/Blog",
-		"content_path": "/pages/Help/Startseite_IntranetBlog.wiki",
-		"sha1": "5c4c4897f6b90385980644e90abdf8289c24118b",
+		"label": "Startseite Intranet - Ank\u00fcndigungen",
+		"description": "Der Ank\u00fcndigungen Abschnitt der Startseite",
+		"target_title": "Help:Startseite Intranet/Ank\u00fcndigungen",
+		"content_path": "/pages/Help/Startseite_IntranetAnk\u00fcndigungen.wiki",
+		"sha1": "761d240ceb5afddbfbdb45a4f7ba5d53ad3aee82",
 		"old_sha1": []
 	},
 	"Help:Startseite_Intranet/Veranstaltungen": {
@@ -177,24 +177,6 @@
 		"target_title": "Help:Startseite Intranet/Kontakt",
 		"content_path": "/pages/Help/Startseite_IntranetKontakt.wiki",
 		"sha1": "c5652ca8dc9ed91147f252bb56697a143f7bccfe",
-		"old_sha1": []
-	},
-	"Template:Blog": {
-		"lang": "en",
-		"label": "Blog",
-		"description": "A blog",
-		"target_title": "Template:Blog",
-		"content_path": "/pages/Template/Blog.wiki",
-		"sha1": "9dbf6930b6711689529a8656d8b9f77107c0fc89",
-		"old_sha1": []
-	},
-	"Template:Blog/de": {
-		"lang": "de",
-		"label": "Blog",
-		"description": "Ein Blog",
-		"target_title": "Template:Blog",
-		"content_path": "/pages/Template/Blogde.wiki",
-		"sha1": "a699e282f69246a7354a819f64dc5f2fb2bdda23",
 		"old_sha1": []
 	}
 }

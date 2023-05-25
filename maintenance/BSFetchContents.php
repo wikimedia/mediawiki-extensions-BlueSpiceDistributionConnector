@@ -107,6 +107,7 @@ class BSFetchContents extends Maintenance {
 		foreach ( $pagesContents as $title => $pageContent ) {
 			$title = str_replace( ' ', '_', $title );
 			$nsTitle = '(Pages)';
+			$pageTitle = $title;
 			$titleParts = explode( ':', $title, 2 );
 			if ( count( $titleParts ) === 2 ) {
 				$nsTitle = $titleParts[0];

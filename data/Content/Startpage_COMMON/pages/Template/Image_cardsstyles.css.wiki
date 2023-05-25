@@ -18,13 +18,14 @@
 /*medium images or icons - by default */
 .imgcard > div,.ve-ce-branchNode .imgcard > div { width:180px;}
 .imgcard img, .ve-ce-branchNode .imgcard img { min-height:140px;  max-height:140px}
-.imgcard .fa, .imgcard .fas, .imgcard.large .bi {margin-top:10px; padding:2px}
-.imgcard .fa:before, .imgcard .fas:before, .imgcard .bi:before {font-size:2.2em}
+.imgcard .fas, .imgcard.large .bi {margin-top:10px; padding:2px}
+.imgcard .fa-solid {padding:2px;}
+.imgcard .fa-solid:before, .imgcard .fas:before, .imgcard .bi:before {font-size:2.2em}
 
 /*small images or icons*/
 .imgcard.small > div,.ve-ce-branchNode .imgcard.small > div {width:140px;}
 .imgcard.small img, .ve-ce-branchNode .imgcard.small img {min-height:110px;  max-height:110px; }
-.imgcard.small .fa:before, .imgcard.small .fas:before, .imgcard.small .bi:before {font-size:1.8em}
+.imgcard.small span[class|=".fa"], .imgcard.small .fas:before, .imgcard.small .bi:before {font-size:1.8em}
 .imgcard.small .imgcardlink {font-size:1em}
 
 /*large images or icons*/

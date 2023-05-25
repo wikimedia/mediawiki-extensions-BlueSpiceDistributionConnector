@@ -9,7 +9,7 @@
 				"de": "Bildname"
 			},
 			"type": "wiki-file-name",
-			"required": true,
+			"suggested": true,
 			"description": {
 				"en": "Enter as imagename.jpg or imagename.png",
 				"de": "Als meinbild.jpg oder meinbild.png eingeben"

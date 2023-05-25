@@ -1,0 +1,17 @@
+<noinclude>Das Wiki enthält die folgenden Startseitenvorlagen im Namensraum "Hilfe". Um eine Vorlage zu verwenden, muss sie '''in einen anderen Namensraum kopiert''' werden.
+
+
+<div style="border-top: 1px solid #00000020; border-bottom: 1px solid #00000020; padding:10px; background:#f4f4f4">[https://de.wiki.bluespice.com/wiki/Handbuch:Startseitenvorlagen <span class="bi bi-arrow-right-circle" style="font-size:1.4em; vertical-align:middle; padding:0 5px"></span>  Helpdesk Dokumentation]</div>
+
+==Verfügbare Startseitenvorlagen==
+
+{{#dpl:
+|namespace=Help
+|shownamespace=false
+|titlematch=Startpage%
+|nottitlematch=%/%
+|columns=1
+|mode=unordered
+|rowcolformat=width=100%
+}}
+</noinclude>

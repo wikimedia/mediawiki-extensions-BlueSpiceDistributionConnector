@@ -32,7 +32,6 @@
 <div>
 ==Important files==
 <attachments>
-* [[Media:ProjectOutline.docx]]
 </attachments></div></div>
 {{Dropdown|ddid=edit|Content={{#subpages:{{FULLPAGENAME}}|kidsonly=yes}}}}
 __HIDETITLE__
