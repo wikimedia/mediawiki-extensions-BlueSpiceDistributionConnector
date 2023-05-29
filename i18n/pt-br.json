@@ -100,7 +100,6 @@
 	"bs-distributionconnector-default-definition-report-vote": "vote",
 	"bs-distributionconnector-pref-eventbus-eventservices": "Serviços de eventos",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Nome do Serviço",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Tempo esgotado",
 	"bs-distributionconnector-pref-eventbus-eventservices-help": "Os serviços definidos para a extensão \"EventBus\" que propagam mudanças de estado (editar, mover, excluir, visibilidade de revisão, etc.)",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "todos",

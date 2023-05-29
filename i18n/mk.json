@@ -41,7 +41,6 @@
 	"bs-distributionconnector-default-definition-report-vote": "гласај",
 	"bs-distributionconnector-pref-eventbus-eventservices": "Услуги за настани",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Име на услугата",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Истек",
 	"bs-distributionconnector-checkpermissions-label-user": "Корисник",
 	"bs-distributionconnector-checkpermissions-label-permission": "Дозвола",

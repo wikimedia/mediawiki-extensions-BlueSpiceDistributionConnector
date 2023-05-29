@@ -33,7 +33,6 @@
 	"bs-support": "Tuki",
 	"bs-distributionconnector-default-definition-report-approve": "Hyväksy",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Palvelun nimi",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "kaikki",
 	"bs-distributionconnector-checkpermissions": "Tarkista käyttöoikeudet",
 	"bs-distributionconnector-checkpermissions-label-user": "Käyttäjä",

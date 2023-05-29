@@ -93,7 +93,6 @@
 	"bs-distributionconnector-default-definition-report-vote": "glasuj",
 	"bs-distributionconnector-pref-eventbus-eventservices": "Storitve dogodkov",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Ime storitve",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Časovna omejitev",
 	"bs-distributionconnector-pref-eventbus-eventservices-help": "Določene storitve za razširitev »EventBus«, ki posreduje spremembe stanja (urejanje, prestavljanje, brisanje, vidnost redakcije idr.) v storitev dogodkov RESTful, s čimer uporabnikom storitve zagotavlja možnost sledenja spremembam vsebine MediaWiki",
 	"bs-distributionconnector-pref-eventbus-enableeventbus": "Omogoči EventBus za naslednje dogodke",
@@ -193,7 +192,6 @@
 	"bs-distributionconnector-videodropletinspector-alignment-right": "desno",
 	"bs-distributionconnector-videodropletinspector-container-label": "Uokvirjeno",
 	"bs-distributionconnector-videodropletinspector-container-help": "Če je izbrano, bo video prikazan kot sličica",
-	"bs-distributionconnector-pref-pluggableauth-config": "PluggableAuth",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Podatkovni objekt (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Oznaka gumba",
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Ime vtičnika"

@@ -102,7 +102,6 @@
 	"bs-distributionconnector-default-definition-report-vote": "投票",
 	"bs-distributionconnector-pref-eventbus-eventservices": "イベントサービス",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "デバイス名",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "タイムアウト",
 	"bs-distributionconnector-pref-eventbus-eventservices-help": "状態の変更 (編集、移動、削除、版の可視性など) を RESTful イベント サービスに伝達する拡張機能「EventBus」用に定義されたサービスであり、MediaWiki コンテンツへの変更を追跡する手段をサービスの利用者に提供します。",
 	"bs-distributionconnector-pref-eventbus-enableeventbus": "イベントバスをこのイベントに対して適用する",

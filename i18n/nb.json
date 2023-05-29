@@ -79,7 +79,6 @@
 	"bs-distributionconnector-default-definition-report-approve": "Godkjenn",
 	"bs-distributionconnector-default-definition-report-vote": "stem",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Tjeneste-navn",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Tidsavbrudd",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "alle",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "ingen",

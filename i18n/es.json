@@ -108,7 +108,6 @@
 	"bs-distributionconnector-default-definition-report-vote": "Votar",
 	"bs-distributionconnector-pref-eventbus-eventservices": "Servicios para eventos",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Nombre del servicio",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Tiempo de espera",
 	"bs-distributionconnector-pref-eventbus-eventservices-help": "Los servicios definidos para la extensión \"EventBus\" que propaga los cambios de estado (editar, mover, borrar, visibilidad de la revisión, etc.) a un servicio de eventos RESTful, proporcionando a los consumidores del servicio los medios para seguir los cambios en el contenido de MediaWiki",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "todo",

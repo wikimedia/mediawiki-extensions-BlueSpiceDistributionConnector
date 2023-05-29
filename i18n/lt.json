@@ -68,7 +68,6 @@
 	"bs-distributionconnector-default-definition-report-review": "Apžvalga",
 	"bs-distributionconnector-default-definition-report-approve": "Patvirtinti",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Paslaugos pavadinimas",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Laikas baigėsi",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "visi",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "nėra",

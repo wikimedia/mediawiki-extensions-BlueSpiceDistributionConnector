@@ -97,7 +97,6 @@
 	"bs-distributionconnector-default-definition-report-vote": "голосування",
 	"bs-distributionconnector-pref-eventbus-eventservices": "Сервіси подій",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Назва сервісу",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Час очікування",
 	"bs-distributionconnector-pref-eventbus-eventservices-help": "Визначені служби для розширення \"EventBus\", яке поширює зміни стану (редагування, переміщення, видалення, перегляд видимості тощо) до служби подій RESTful, надаючи споживачам служби засоби відстеження змін у вмісті MediaWiki",
 	"bs-distributionconnector-checkpermissions": "Перевірити дозволи",

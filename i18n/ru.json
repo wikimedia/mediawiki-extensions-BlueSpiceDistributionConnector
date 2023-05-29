@@ -88,7 +88,6 @@
 	"bs-distributionconnector-default-definition-report-vote": "голос",
 	"bs-distributionconnector-pref-eventbus-eventservices": "Event services",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Название службы",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-checkpermissions": "Проверить разрешения",
 	"bs-distributionconnector-checkpermissions-label-user": "Участник",
 	"bs-distributionconnector-checkpermissions-label-permission": "Разрешение",

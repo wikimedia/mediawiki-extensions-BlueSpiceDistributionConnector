@@ -95,7 +95,6 @@
 	"bs-distributionconnector-default-definition-report-vote": "oyla",
 	"bs-distributionconnector-pref-eventbus-eventservices": "Etkinlik hizmetleri",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Hizmet adı",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Zaman aşımı",
 	"bs-distributionconnector-checkpermissions": "İzinleri kontrol et",
 	"bs-distributionconnector-checkpermissions-label-user": "Kullanıcı",
