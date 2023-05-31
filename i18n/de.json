@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abcdefg",
 			"Brettchenweber",
 			"Laurinm",
 			"McDutchie",
@@ -203,5 +204,8 @@
 	"bs-distributionconnector-videodropletinspector-alignment-center": "zentriert",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "rechts",
 	"bs-distributionconnector-videodropletinspector-container-label": "Eingerahmt",
-	"bs-distributionconnector-videodropletinspector-container-help": "Wenn ausgewählt, wird das Video in einer Miniaturansicht angezeigt"
+	"bs-distributionconnector-videodropletinspector-container-help": "Wenn ausgewählt, wird das Video in einer Miniaturansicht angezeigt",
+	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Datenobjekt (JSON)",
+	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Knopfbeschriftung (button label)",
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Plugin-Namen"
 }
