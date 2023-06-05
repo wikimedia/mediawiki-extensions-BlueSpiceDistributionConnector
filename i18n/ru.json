@@ -117,5 +117,12 @@
 	"droplets-map-center-map-label": "Центр карты",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Объект данных (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Метка кнопки",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Название плагина"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Название плагина",
+	"droplets-buttonlink-format-blue": "синий",
+	"droplets-buttonlink-format-neutral": "белый",
+	"droplets-buttonlink-format-red": "красный",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Количество просмотров страницы",
+	"droplets-create-input-button-label": "Текст на кнопке",
+	"bs-distributionconnector-videodropletinspector-title": "Видео",
+	"bs-distributionconnector-videodropletinspector-description-label": "Описание"
 }
