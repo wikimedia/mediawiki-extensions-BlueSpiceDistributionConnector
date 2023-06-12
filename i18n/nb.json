@@ -147,5 +147,9 @@
 	"bs-distributionconnector-videodropletinspector-dimension-label": "Dimensjon",
 	"bs-distributionconnector-videodropletinspector-container-help": "Hvis denne er valgt blir videoen vist i miniatyrversjon",
 	"droplets-subpages-cols-help": "«ja» gir et oppsett med tre kolonner, «nei» gir ingen kolonner",
-	"droplets-create-input-button-label": "Knappetekst"
+	"droplets-create-input-button-label": "Knappetekst",
+	"bs-distributionconnector-workflows-form-instructions-editor": "Instruksjoner til bidragsyteren",
+	"droplets-subpages-cols-label": "Kolonneoppsett",
+	"droplets-subpages-bullets-help": "«no» fjerner kulepunkter",
+	"droplets-map-center-label": "Fokus"
 }
