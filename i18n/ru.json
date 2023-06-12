@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Butko",
 			"DDPAT",
 			"Gulka.nik",
 			"Ice bulldog",
@@ -124,5 +125,17 @@
 	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Количество просмотров страницы",
 	"droplets-create-input-button-label": "Текст на кнопке",
 	"bs-distributionconnector-videodropletinspector-title": "Видео",
-	"bs-distributionconnector-videodropletinspector-description-label": "Описание"
+	"bs-distributionconnector-videodropletinspector-description-label": "Описание",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "все",
+	"droplets-subpages-cols-label": "Расположение столбцов",
+	"droplets-create-input-alignment-left-label": "слева",
+	"droplets-create-input-alignment-right-label": "справа",
+	"droplets-create-input-alignment-center-label": "по центру",
+	"droplets-create-input-name": "Создать страницу",
+	"droplets-pdf-link-template-label": "шаблон PDF",
+	"droplets-pdf-link-link-label": "Метка ссылки",
+	"bs-distributionconnector-videodropletinspector-alignment-label": "Выравнивание",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "слева",
+	"bs-distributionconnector-videodropletinspector-alignment-center": "по центру",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "справа"
 }
