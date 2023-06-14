@@ -21,5 +21,21 @@
 	"bs-distributionconnector-checkpermissions-label-user": "Użytkownik",
 	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Liczba wyświetleń strony",
 	"droplets-map-center-map-label": "Środek mapy",
-	"droplets-buttonlink-desc": "Łącze stylizowane na przycisk"
+	"droplets-buttonlink-desc": "Łącze stylizowane na przycisk",
+	"bs-distributionconnector-workflows-form-groupname": "Grupa",
+	"bs-distributionconnector-workflows-form-instructions": "Instrukcje",
+	"bs-distributionconnector-checkpermissions-label-title": "Tytuł",
+	"droplets-subpages-namespace-label": "Przestrzeń nazw",
+	"droplets-subpages-parentpage-label": "Strona nadrzędna",
+	"droplets-buttonlink-label-label": "Tekst na przycisku",
+	"droplets-buttonlink-format-label": "Kolor tła",
+	"droplets-buttonlink-format-blue": "niebieski",
+	"droplets-buttonlink-format-neutral": "biały",
+	"droplets-buttonlink-format-red": "czerwony",
+	"droplets-create-input-button-label": "Tekst na przycisku",
+	"droplets-buttonlink-name": "Przycisk",
+	"droplets-subpages-name": "Podstrony",
+	"bs-distributionconnector-videodropletinspector-description-label": "Opis",
+	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Etykieta przycisku",
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nazwa wtyczki"
 }
