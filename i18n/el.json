@@ -8,5 +8,5 @@
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "κανένα",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Αντικείμενο δεδομένων (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Ετικέτα κουμπιού",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Όνομα Plugin"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Όνομα προσθήκης"
 }
