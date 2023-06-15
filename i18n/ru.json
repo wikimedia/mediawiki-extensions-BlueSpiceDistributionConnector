@@ -10,7 +10,8 @@
 			"Pacha Tchernof",
 			"PlushBoy",
 			"WindEwriX",
-			"Артём 13327"
+			"Артём 13327",
+			"Butko"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Подключает BlueSpice к различным расширениям MediaWiki.",
@@ -91,6 +92,7 @@
 	"bs-distributionconnector-pref-eventbus-eventservices": "Event services",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Название службы",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "все",
 	"bs-distributionconnector-checkpermissions": "Проверить разрешения",
 	"bs-distributionconnector-checkpermissions-label-user": "Участник",
 	"bs-distributionconnector-checkpermissions-label-permission": "Разрешение",
@@ -103,6 +105,7 @@
 	"bs-distributionconnector-invite-signup-dialog-title": "Пригласить участника",
 	"droplets-circled-number-bg-color-label": "Цвет  фона",
 	"droplets-subpages-namespace-label": "Пространство имён",
+	"droplets-subpages-cols-label": "Расположение столбцов",
 	"droplets-map-condition-label": "Условие",
 	"droplets-map-center-label": "Фокус",
 	"droplets-buttonlink-external-label": "Внешняя ссылка",
@@ -110,6 +113,10 @@
 	"droplets-buttonlink-format-label": "Цвет  фона",
 	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Количество просмотров страницы",
 	"droplets-create-input-button-label": "Текст на кнопке",
+	"droplets-create-input-alignment-left-label": "слева",
+	"droplets-create-input-alignment-right-label": "справа",
+	"droplets-create-input-name": "Создать страницу",
+	"droplets-pdf-link-template-label": "шаблон PDF",
 	"droplets-buttonlink-name": "Кнопка",
 	"droplets-categorytree-name": "Дерево категорий",
 	"droplets-gallery-name": "Галерея",
