@@ -1,6 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
+			")8",
+			50829,
 			"500000000006城",
 			"850710247liu",
 			"A Chinese Wikipedian",
@@ -30,8 +32,7 @@
 			"沈澄心",
 			"落花有意12138",
 			"铁桶",
-			"飞小RAN",
-			50829
+			"飞小RAN"
 		]
 	},
 	"bs-distributionconnector-extension-description": "将BlueSpice连接到各种MediaWiki的扩展",
@@ -204,5 +205,8 @@
 	"droplets-buttonlink-format-neutral": "白色",
 	"droplets-buttonlink-format-red": "红色",
 	"bs-distributionconnector-videodropletinspector-description-label": "描述",
-	"bs-distributionconnector-videodropletinspector-description-help": "在视频下方添加描述。使用“&#10”换行"
+	"bs-distributionconnector-videodropletinspector-description-help": "在视频下方添加描述。使用“&#10”换行",
+	"bs-distributionconnector-videodropletinspector-title": "视频",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "左",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "右"
 }
