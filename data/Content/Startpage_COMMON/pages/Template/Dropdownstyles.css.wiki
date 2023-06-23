@@ -1,0 +1,6 @@
+/*dropdown template*/
+.ddlist {float:right;z-index: 100; position:relative}
+.ddlist .mw-customtoggle-edit {padding:5px 0 5px 10px; text-align:right}  
+.ddlist .mw-collapsible-content  .subpagelist ul {list-style-type:none; margin-left:0}
+.ddlist .dropdown-menu {position:absolute;  top: 0px; left:-8px; transform: translate(-129px, 30px); padding: 8px 12px; font-size:0.95em}
+.ddlist .dropdown-menu li  {line-height:1.2; margin-bottom:0.5em}

@@ -1,14 +1,16 @@
 <templatestyles src="Startseite/styles.css" />
 = Willkommen Team! =
+<div id="startpage">
 <!--start container-->
-<div class="sectionflex col2 background">
+<div class="sectionflexcontainer col2 background">
 <div>
 ==Wochenplan==
 {{{{NAMESPACE}}:{{PAGENAME}}/Wochenplan}}</div>
 <div>
 ==Telefonverzeichnis==
 {{#dpl: title={{NAMESPACE}}:{{PAGENAME}}/Durchwahlen|include=#Wichtige Nummern}}
-[[{{NAMESPACE}}:{{PAGENAME}}/Durchwahlen|<i class="bi bi-headset"></i> alle Durchwahlen]]</div>
+[[{{NAMESPACE}}:{{PAGENAME}}/Durchwahlen|<i class="bi bi-headset"></i> alle Durchwahlen]]
+</div>
 <div>
 ==Team-Meetings==
 {{{{NAMESPACE}}:{{PAGENAME}}/Protokolle}}
@@ -26,11 +28,12 @@
 * Vertretungsregelungen
 </div>
 </div>
-<div class="sectionflex col1 background">
+<div class="sectionflexcontainer col1 background">
 <div>
 ==Wichtige Dateien==
 <attachments>
 </attachments></div></div>
+</div>
 {{Dropdown|ddid=edit|Content={{#subpages:{{FULLPAGENAME}}|kidsonly=yes}}}}
 __HIDETITLE__
 __NOTOC__
