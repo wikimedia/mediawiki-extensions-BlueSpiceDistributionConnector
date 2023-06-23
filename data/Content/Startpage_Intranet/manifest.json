@@ -5,16 +5,16 @@
 		"description": "The root of the startpage structure",
 		"target_title": "Help:Startpage Intranet",
 		"content_path": "/pages/Help/Startpage_Intranet.wiki",
-		"sha1": "94f22689d602161ee9e135f4060ef4711b8c1182",
+		"sha1": "d5e5757705505ea964826a44a4c57b152ee90599",
 		"old_sha1": []
 	},
-	"Help:Startpage_Intranet/Banner": {
+	"Help:Startpage_Intranet/Bannerbox": {
 		"lang": "en",
 		"label": "Startpage Intranet - Banner",
 		"description": "The Banner section of the startpage structure",
-		"target_title": "Help:Startpage Intranet/Banner",
-		"content_path": "/pages/Help/Startpage_IntranetBanner.wiki",
-		"sha1": "9138afd73b184da7c707016442b612e8c1d67ae4",
+		"target_title": "Help:Startpage Intranet/Bannerbox",
+		"content_path": "/pages/Help/Startpage_IntranetBannerbox.wiki",
+		"sha1": "87b2a586faf1c296dff524217e16781f85c41d61",
 		"old_sha1": []
 	},
 	"Help:Startpage_Intranet/Image_cards": {
@@ -95,16 +95,16 @@
 		"description": "Eine Startseite f\u00fcr das Intranet",
 		"target_title": "Help:Startseite Intranet",
 		"content_path": "/pages/Help/Startseite_Intranet.wiki",
-		"sha1": "2c9e27712f0783e275b1dbdd7c8eabbbacbc4661",
+		"sha1": "2d678bfbfde6c24d9a440ac3aa9aac3fc7b62337",
 		"old_sha1": []
 	},
-	"Help:Startseite_Intranet/Banner": {
+	"Help:Startseite_Intranet/Bannerbox": {
 		"lang": "de",
-		"label": "Startseite Intranet - Banner",
-		"description": "Der Banner Abschnitt der Startseite",
-		"target_title": "Help:Startseite Intranet/Banner",
-		"content_path": "/pages/Help/Startseite_IntranetBanner.wiki",
-		"sha1": "9eb926e838fde593da65982bfc6916de3b9ab5ce",
+		"label": "Startseite Intranet - Bannerbox",
+		"description": "Der Bannerbox Abschnitt der Startseite",
+		"target_title": "Help:Startseite Intranet/Bannerbox",
+		"content_path": "/pages/Help/Startseite_IntranetBannerbox.wiki",
+		"sha1": "6bcf9f39948c7c587eaed11683cc1e9f36f3a898",
 		"old_sha1": []
 	},
 	"Help:Startseite_Intranet/Bildkarten": {

@@ -8,7 +8,7 @@
 {{#dpl:
 |namespace=Help
 |shownamespace=false
-|titlematch=Startpage%
+|titlematch=Startseite%
 |nottitlematch=%/%
 |columns=1
 |mode=unordered
