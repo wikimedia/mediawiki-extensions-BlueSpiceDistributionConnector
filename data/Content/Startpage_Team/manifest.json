@@ -5,7 +5,7 @@
 		"description": "The root of the startpage structure",
 		"target_title": "Help:Startpage Team",
 		"content_path": "/pages/Help/Startpage_Team.wiki",
-		"sha1": "2739e599e917afa45bae1c0a5296c73a7cb59941",
+		"sha1": "ca4bda68d7a750f34766f3591a03f92c2c1973d5",
 		"old_sha1": []
 	},
 	"Help:Startpage_Team/Contact_info": {
@@ -77,7 +77,7 @@
 		"description": "Eine Startseite f\u00fcr ein Team",
 		"target_title": "Help:Startseite Team",
 		"content_path": "/pages/Help/Startseite_Team.wiki",
-		"sha1": "760d1a13691db1ab07b03a591bc8f9c63aa8d9a3",
+		"sha1": "3e7a5a1b6356f331887517f323251f766e09ffe2",
 		"old_sha1": []
 	},
 	"Help:Startseite_Team/Durchwahlen": {

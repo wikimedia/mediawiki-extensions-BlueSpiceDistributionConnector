@@ -1,8 +1,10 @@
 <templatestyles src="Startpage/styles.css" />
-{{{{NAMESPACE}}:{{PAGENAME}}/Banner}}
-<span></span>
+<div id="startpage">
+{{{{NAMESPACE}}:{{PAGENAME}}/Bannerbox}}
+<div style="margin:20px 0">
 {{{{NAMESPACE}}:{{PAGENAME}}/Image cards}}
-<div class="sectionflex col2 frame">
+</div>
+<div class="sectionflexcontainer col2 frame">
 <div>
 ==News==
 {{{{NAMESPACE}}:{{PAGENAME}}/News}}
@@ -12,7 +14,7 @@
 {{{{NAMESPACE}}:{{PAGENAME}}/Events}}
 </div>
 </div>
-<div class="sectionflex col3 background">
+<div class="sectionflexcontainer col3 background">
 <div>
 ==Sales==
 {{{{NAMESPACE}}:{{PAGENAME}}/Sales}}
@@ -26,7 +28,7 @@
 {{{{NAMESPACE}}:{{PAGENAME}}/HR}}
 </div>
 </div>
-<div class="sectionflex col2 frame">
+<div class="sectionflexcontainer col2 frame">
 <div>
 ==Meeting minutes==
 {{{{NAMESPACE}}:{{PAGENAME}}/Minutes}}
@@ -39,6 +41,8 @@
 <div style="margin-top:10px">
 <bs:tagcloud renderer="text" store="category" width="100%" showcount="true" minsize="5" maxsize="30" exclude=" BPMN, Imported vocabulary, Pages using DynamicPageList3 parser tag, Pages using DynamicPageList parser function" />
 </div>
+</div>
 {{Dropdown|ddid=edit|Content={{#subpages:{{FULLPAGENAME}}|kidsonly=yes}}}}
 __NOTOC__
 __HIDETITLE__
+__NODISCUSSION__

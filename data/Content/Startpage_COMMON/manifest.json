@@ -26,21 +26,21 @@
 		"sha1": "3bc15c8aae3e4124dd409035f32ea2fd6835efc9",
 		"old_sha1": []
 	},
-	"Template:Banner": {
+	"Template:Bannerbox": {
 		"lang": "en",
 		"label": "Banner template",
 		"description": "A banner",
-		"target_title": "Template:Banner",
-		"content_path": "/pages/Template/Banner.wiki",
-		"sha1": "80a17cb74231418400902af8ef525564a140519c",
+		"target_title": "Template:Bannerbox",
+		"content_path": "/pages/Template/Bannerbox.wiki",
+		"sha1": "15901720bfd0a6d72e4d4031a675e566206c3040",
 		"old_sha1": []
 	},
-	"Template:Banner/styles.css": {
+	"Template:Bannerbox/styles.css": {
 		"lang": "en",
-		"label": "Banner template styles",
+		"label": "Bannerbox template styles",
 		"description": "CSS for the banner",
-		"target_title": "Template:Banner/styles.css",
-		"content_path": "/pages/Template/Bannerstyles.css.wiki",
+		"target_title": "Template:Bannerbox/styles.css",
+		"content_path": "/pages/Template/Bannerboxstyles.css.wiki",
 		"sha1": "fa67a1afc80d3d17702da832116301120f3870c0",
 		"old_sha1": []
 	},
@@ -95,7 +95,7 @@
 		"description": "CSS for the startpage",
 		"target_title": "Template:Startpage/styles.css",
 		"content_path": "/pages/Template/Startpagestyles.css.wiki",
-		"sha1": "91005f4c1e1120dc7c679bd762d54db7c9c13ea4",
+		"sha1": "6ff2eaa28845d5b4d4eb3a694fff48ab4bdaeb04",
 		"old_sha1": []
 	},
 	"Template:Dropdown": {
@@ -104,7 +104,16 @@
 		"description": "A template for a dropdown",
 		"target_title": "Template:Dropdown",
 		"content_path": "/pages/Template/Dropdown.wiki",
-		"sha1": "0632bc0aebeac7f54797ea566c17eb0f06e6486e",
+		"sha1": "6829517636f4060feed1f9a62e233d09f84b5ff1",
+		"old_sha1": []
+	},
+	"Template:Dropdown/styles.css": {
+		"lang": "en",
+		"label": "Dropdown styles",
+		"description": "Styles for the dropdown template",
+		"target_title": "Template:Dropdown/styles.css",
+		"content_path": "/pages/Template/Dropdownstyles.css.wiki",
+		"sha1": "dc55c4a3e484bc8a5b722e870c860d77f7131f69",
 		"old_sha1": []
 	},
 	"Template:Dropdown/de": {
@@ -113,7 +122,16 @@
 		"description": "Eine Vorlage f\u00fcr ein Dropdown",
 		"target_title": "Template:Dropdown",
 		"content_path": "/pages/Template/Dropdownde.wiki",
-		"sha1": "0632bc0aebeac7f54797ea566c17eb0f06e6486e",
+		"sha1": "6d960054c0f7f12dbd1102640fc2195df4803bb0",
+		"old_sha1": []
+	},
+	"Template:Dropdown/de/styles.css": {
+		"lang": "en",
+		"label": "Dropdown styles",
+		"description": "Styles for the dropdown template",
+		"target_title": "Template:Dropdown/de/styles.css",
+		"content_path": "/pages/Template/Dropdowndestyles.css.wiki",
+		"sha1": "dc55c4a3e484bc8a5b722e870c860d77f7131f69",
 		"old_sha1": []
 	},
 	"Protokolle": {
@@ -143,21 +161,21 @@
 		"sha1": "3bc15c8aae3e4124dd409035f32ea2fd6835efc9",
 		"old_sha1": []
 	},
-	"Template:Banner/de": {
+	"Template:Bannerbox/de": {
 		"lang": "de",
-		"label": "Banner Vorlage",
+		"label": "Bannerbox Vorlage",
 		"description": "Eine Vorlage f\u00fcr einen Banner",
-		"target_title": "Template:Banner",
-		"content_path": "/pages/Template/Bannerde.wiki",
-		"sha1": "245acc13e33579ea8a90797c559a2a241bd133da",
+		"target_title": "Template:Bannerbox/de",
+		"content_path": "/pages/Template/Bannerboxde.wiki",
+		"sha1": "15901720bfd0a6d72e4d4031a675e566206c3040",
 		"old_sha1": []
 	},
-	"Template:Banner/de/styles.css": {
+	"Template:Bannerbox/de/styles.css": {
 		"lang": "de",
 		"label": "Banner Vorlage Styles",
 		"description": "CSS f\u00fcr einen Banner",
-		"target_title": "Template:Banner/styles.css",
-		"content_path": "/pages/Template/Bannerdestyles.css.wiki",
+		"target_title": "Template:Bannerbox/de/styles.css",
+		"content_path": "/pages/Template/Bannerboxdestyles.css.wiki",
 		"sha1": "fa67a1afc80d3d17702da832116301120f3870c0",
 		"old_sha1": []
 	},
@@ -203,7 +221,7 @@
 		"description": "Liste der verf\u00fcgbaren Startseiten",
 		"target_title": "Template:Startseite",
 		"content_path": "/pages/Template/Startseite.wiki",
-		"sha1": "05ce3a620cd9ed48ef7324c7d998249c0ec691b6",
+		"sha1": "e7527d5975b8f40bee8f7947e83bfecdda15eba9",
 		"old_sha1": []
 	},
 	"Template:Startseite/styles.css": {
@@ -212,7 +230,7 @@
 		"description": "CSS f\u00fcr die Startseite",
 		"target_title": "Template:Startseite/styles.css",
 		"content_path": "/pages/Template/Startseitestyles.css.wiki",
-		"sha1": "91005f4c1e1120dc7c679bd762d54db7c9c13ea4",
+		"sha1": "6ff2eaa28845d5b4d4eb3a694fff48ab4bdaeb04",
 		"old_sha1": []
 	}
 }

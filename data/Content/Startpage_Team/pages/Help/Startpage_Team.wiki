@@ -1,7 +1,8 @@
-<templatestyles src="Startpage/styles.css" />
+<!--<templatestyles src="Startpage/styles.css" />-->
 = Welcome team! =
+<div id="startpage">
 <!--start container-->
-<div class="sectionflex col2 background">
+<div class="sectionflexcontainer col2 background">
 <div>
 ==Support schedule==
 {{{{NAMESPACE}}:{{PAGENAME}}/Weekly schedule}}
@@ -28,11 +29,13 @@
 {{{{NAMESPACE}}:{{PAGENAME}}/Quick links}}
 </div>
 </div>
-<div class="sectionflex col1 background">
+<div class="sectionflexcontainer col1 background">
 <div>
 ==Important files==
+
 <attachments>
 </attachments></div></div>
+</div>
 {{Dropdown|ddid=edit|Content={{#subpages:{{FULLPAGENAME}}|kidsonly=yes}}}}
 __HIDETITLE__
 __NOTOC__
