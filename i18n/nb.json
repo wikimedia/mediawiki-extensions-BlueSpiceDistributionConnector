@@ -151,5 +151,6 @@
 	"bs-distributionconnector-workflows-form-instructions-editor": "Instruksjoner til bidragsyteren",
 	"droplets-subpages-cols-label": "Kolonneoppsett",
 	"droplets-subpages-bullets-help": "«no» fjerner kulepunkter",
-	"droplets-map-center-label": "Fokus"
+	"droplets-map-center-label": "Fokus",
+	"droplets-create-input-prefix-label": "Prefiks for sidenavn"
 }
