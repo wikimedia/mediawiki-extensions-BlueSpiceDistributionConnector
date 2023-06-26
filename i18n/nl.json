@@ -187,5 +187,19 @@
 	"bs-distributionconnector-videodropletinspector-dimension-label": "Afmetingen",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "links",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "gecentreerd",
-	"bs-distributionconnector-videodropletinspector-alignment-right": "rechts"
+	"bs-distributionconnector-videodropletinspector-alignment-right": "rechts",
+	"droplets-map-center-label-help": "Locatie instellen voor focusnaald, ook is tekst voor pop-up mogelijk. Bijvoorbeeld: Regensburg ~ Mijn aangepaste tekst",
+	"droplets-map-center-map-label": "Midden van de kaart",
+	"droplets-map-center-map-label-help": "Locatie die zich in het midden van de kaart bevindt. Bijvoorbeeld: Regensburg, Duitsland",
+	"droplets-create-input-preload-help": "Geef de naam op van een bestaande pagina waarvan de inhoud vooraf op de nieuwe pagina moet worden geladen",
+	"droplets-create-input-placeholder-help": "Voer in dit invoerveld de plaatsaanduidingstekst in die moet worden weergegeven",
+	"droplets-create-input-prefix-help": "Geef het voorvoegsel op dat vóór het invoerveld moet worden geplaatst. Het voorvoegsel kan een naamruimte of een andere tekst zijn. Laat het veld leeg om geen voorvoegsel te gebruiken.",
+	"droplets-create-input-alignment-help": "Selecteer de uitlijning van het invoerveld op de pagina. U kunt kiezen of het invoerveld links uitgelijnd, rechts uitgelijnd of gecentreerd op de pagina moet zijn.",
+	"droplets-create-input-alignment-center-label": "gecentreerd",
+	"droplets-pdf-link-link-label": "Koppelingslabel",
+	"droplets-buttonlink-desc": "Koppeling die is vormgegeven als een knop",
+	"bs-distributionconnector-videodropletinspector-video-link-label": "Een koppeling naar een video invoegen",
+	"bs-distributionconnector-videodropletinspector-service-help": "Selecteer de dienst die moet worden gebruikt om video's in te sluiten",
+	"bs-distributionconnector-videodropletinspector-description-help": "Voeg een beschrijving toe onder de video. Gebruik voor regeleinden \"&#10\".",
+	"bs-distributionconnector-videodropletinspector-description-placeholder": "Videobeschrijving invoegen…"
 }
