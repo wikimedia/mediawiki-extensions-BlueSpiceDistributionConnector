@@ -27,7 +27,7 @@ class PluggableAuthMigrator {
 			'DistributionConnectorSimpleSAMLphpEmailAttribute' => 'emailAttribute',
 			'DistributionConnectorSimpleSAMLphpGroupAttributeDelimiter' => 'groupAttributeDelimiter',
 			'DistributionConnectorSimpleSAMLphpRealNameAttribute' => 'realNameAttribute',
-			'DistributionConnectorSimpleSAMLphpSyncAllGroupsGroupAttributeName' => 'syncAllGroups_GroupAttributeName',
+			'DistributionConnectorSimpleSAMLphpSyncAllGroupsGroupAttributeName' => 'groupAttributeName',
 			'DistributionConnectorSimpleSAMLphpUsernameAttribute' => 'usernameAttribute'
 		],
 
@@ -143,6 +143,27 @@ class PluggableAuthMigrator {
 		if ( isset( $GLOBALS['wgSimpleSAMLphp_AuthSourceId'] ) ) {
 			// We need to manually add 'authSourceId' data key directly from the global
 			$pluginData['authSourceId'] = $GLOBALS['wgSimpleSAMLphp_AuthSourceId'];
+		}
+
+		// In PluggableAuth 7.0 there is separate sub-array for groups syncs
+		$groupSync = [];
+
+		if ( !empty( $pluginData['groupAttributeName'] ) ) {
+			$groupSync['groupAttributeName'] = $pluginData['groupAttributeName'];
+
+			// Set "group attribute delimiter" only if "group attribute name" is set
+			if ( !empty( $pluginData['groupAttributeDelimiter'] ) ) {
+				$groupSync['groupAttributeDelimiter'] = $pluginData['groupAttributeDelimiter'];
+			}
+		}
+
+		unset( $pluginData['groupAttributeName'] );
+		unset( $pluginData['groupAttributeDelimiter'] );
+
+		if ( $groupSync ) {
+			$groupSync['type'] = 'syncall';
+
+			$pluginData['groupsyncs'] = [ $groupSync ];
 		}
 
 		return $pluginData;
