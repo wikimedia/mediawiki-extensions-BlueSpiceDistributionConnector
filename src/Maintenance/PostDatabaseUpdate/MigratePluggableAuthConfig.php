@@ -37,7 +37,7 @@ class MigratePluggableAuthConfig extends LoggedUpdateMaintenance {
 			'DistributionConnectorSimpleSAMLphpEmailAttribute' => 'emailAttribute',
 			'DistributionConnectorSimpleSAMLphpGroupAttributeDelimiter' => 'groupAttributeDelimiter',
 			'DistributionConnectorSimpleSAMLphpRealNameAttribute' => 'realNameAttribute',
-			'DistributionConnectorSimpleSAMLphpSyncAllGroupsGroupAttributeName' => 'syncAllGroups_GroupAttributeName',
+			'DistributionConnectorSimpleSAMLphpSyncAllGroupsGroupAttributeName' => 'groupAttributeName',
 			'DistributionConnectorSimpleSAMLphpUsernameAttribute' => 'usernameAttribute'
 		],
 
