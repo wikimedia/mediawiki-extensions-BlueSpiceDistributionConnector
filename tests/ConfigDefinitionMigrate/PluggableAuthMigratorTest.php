@@ -111,10 +111,15 @@ class PluggableAuthMigratorTest extends TestCase {
 						'plugin' => 'SampleSAMLphp',
 						'data' => [
 							'emailAttribute' => 'email',
-							'groupAttributeDelimiter' => ',',
 							'realNameAttribute' => 'realname',
-							'syncAllGroups_GroupAttributeName' => 'ingroup',
-							'usernameAttribute' => 'uid'
+							'usernameAttribute' => 'uid',
+							'groupsyncs' => [
+								[
+									'type' => 'syncall',
+									'groupAttributeName' => 'ingroup',
+									'groupAttributeDelimiter' => ','
+								]
+							]
 						]
 					],
 
@@ -193,7 +198,7 @@ class PluggableAuthMigratorTest extends TestCase {
 							'migrateUsersByUserName' => true,
 							'useEmailNameAsUserName' => true,
 							'useRealNameAsUserName' => true
-								]
+						]
 					],
 
 					'Log in using OpenIDConnect (2)' => [
@@ -242,10 +247,15 @@ class PluggableAuthMigratorTest extends TestCase {
 						'plugin' => 'SampleSAMLphp',
 						'data' => [
 							'emailAttribute' => 'email2',
-							'groupAttributeDelimiter' => ',2',
 							'realNameAttribute' => 'realname2',
-							'syncAllGroups_GroupAttributeName' => 'ingroup2',
-							'usernameAttribute' => 'uid2'
+							'usernameAttribute' => 'uid2',
+							'groupsyncs' => [
+								[
+									'type' => 'syncall',
+									'groupAttributeName' => 'ingroup2',
+									'groupAttributeDelimiter' => ',2'
+								]
+							]
 						]
 					]
 				],
@@ -254,10 +264,15 @@ class PluggableAuthMigratorTest extends TestCase {
 						'plugin' => 'SampleSAMLphp',
 						'data' => [
 							'emailAttribute' => 'email',
-							'groupAttributeDelimiter' => ',',
 							'realNameAttribute' => 'realname',
-							'syncAllGroups_GroupAttributeName' => 'ingroup',
-							'usernameAttribute' => 'uid'
+							'usernameAttribute' => 'uid',
+							'groupsyncs' => [
+								[
+									'type' => 'syncall',
+									'groupAttributeName' => 'ingroup',
+									'groupAttributeDelimiter' => ','
+								]
+							]
 						]
 					],
 
@@ -265,10 +280,15 @@ class PluggableAuthMigratorTest extends TestCase {
 						'plugin' => 'SampleSAMLphp',
 						'data' => [
 							'emailAttribute' => 'email2',
-							'groupAttributeDelimiter' => ',2',
 							'realNameAttribute' => 'realname2',
-							'syncAllGroups_GroupAttributeName' => 'ingroup2',
-							'usernameAttribute' => 'uid2'
+							'usernameAttribute' => 'uid2',
+							'groupsyncs' => [
+								[
+									'type' => 'syncall',
+									'groupAttributeName' => 'ingroup2',
+									'groupAttributeDelimiter' => ',2'
+								]
+							]
 						]
 					],
 				]
@@ -286,10 +306,15 @@ class PluggableAuthMigratorTest extends TestCase {
 						'plugin' => 'SampleSAMLphp',
 						'data' => [
 							'emailAttribute' => 'email2',
-							'groupAttributeDelimiter' => ',2',
 							'realNameAttribute' => 'realname2',
-							'syncAllGroups_GroupAttributeName' => 'ingroup2',
-							'usernameAttribute' => 'uid2'
+							'usernameAttribute' => 'uid2',
+							'groupsyncs' => [
+								[
+									'type' => 'syncall',
+									'groupAttributeName' => 'ingroup2',
+									'groupAttributeDelimiter' => ',2'
+								]
+							]
 						]
 					]
 				],
@@ -299,9 +324,35 @@ class PluggableAuthMigratorTest extends TestCase {
 						'plugin' => 'SampleSAMLphp',
 						'data' => [
 							'emailAttribute' => 'email',
-							'groupAttributeDelimiter' => ',',
 							'realNameAttribute' => 'realname',
-							'syncAllGroups_GroupAttributeName' => 'ingroup',
+							'usernameAttribute' => 'uid',
+							'groupsyncs' => [
+								[
+									'type' => 'syncall',
+									'groupAttributeName' => 'ingroup',
+									'groupAttributeDelimiter' => ','
+								]
+							]
+						]
+					]
+				]
+			],
+			'SAML config with empty GroupsGroupAttributeName' => [
+				[
+					'DistributionConnectorSimpleSAMLphpEmailAttribute' => 'email',
+					'DistributionConnectorSimpleSAMLphpGroupAttributeDelimiter' => ',',
+					'DistributionConnectorSimpleSAMLphpRealNameAttribute' => 'realname',
+					'DistributionConnectorSimpleSAMLphpSyncAllGroupsGroupAttributeName' => '',
+					'DistributionConnectorSimpleSAMLphpUsernameAttribute' => 'uid'
+				],
+				[],
+				[
+					// Here configuration is overridden with migrated one
+					'Log in using SAML' => [
+						'plugin' => 'SampleSAMLphp',
+						'data' => [
+							'emailAttribute' => 'email',
+							'realNameAttribute' => 'realname',
 							'usernameAttribute' => 'uid'
 						]
 					]
