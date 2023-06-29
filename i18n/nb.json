@@ -115,6 +115,7 @@
 	"droplets-buttonlink-format-label": "Bakgrunnsfarge",
 	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Antall sidevisninger",
 	"droplets-create-input-button-label": "Knappetekst",
+	"droplets-create-input-prefix-label": "Prefiks for sidenavn",
 	"droplets-create-input-alignment-label": "Justering",
 	"droplets-create-input-alignment-left-label": "venstre",
 	"droplets-create-input-alignment-right-label": "høyre",
