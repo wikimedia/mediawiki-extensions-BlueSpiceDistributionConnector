@@ -14,8 +14,10 @@
 		"description": "Number in colourable circle",
 		"target_title": "Template:CircledNumber",
 		"content_path": "/pages/Template/CircledNumber.wiki",
-		"sha1": "ae41bcdf92e634f1a41b580be5a3dfec2b317c67",
-		"old_sha1": []
+		"sha1": "d17e867d93f4af82ec721be0e13f9ffeb5090aac",
+		"old_sha1": [
+			"ae41bcdf92e634f1a41b580be5a3dfec2b317c67"
+		]
 	},
 	"Template:CircledNumber/styles.css": {
 		"lang": "en",
