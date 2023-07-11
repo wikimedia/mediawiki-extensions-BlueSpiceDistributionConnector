@@ -33,7 +33,7 @@ class MigratePluggableAuthConfig extends LoggedUpdateMaintenance {
 	 */
 	private $configMigrationMap = [
 
-		'SampleSAMLphp' => [
+		'SimpleSAMLphp' => [
 			'DistributionConnectorSimpleSAMLphpEmailAttribute' => 'emailAttribute',
 			'DistributionConnectorSimpleSAMLphpGroupAttributeDelimiter' => 'groupAttributeDelimiter',
 			'DistributionConnectorSimpleSAMLphpRealNameAttribute' => 'realNameAttribute',

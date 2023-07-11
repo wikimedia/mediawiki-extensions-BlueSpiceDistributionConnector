@@ -23,7 +23,7 @@ class PluggableAuthMigrator {
 	 */
 	private $configMigrationMap = [
 
-		'SampleSAMLphp' => [
+		'SimpleSAMLphp' => [
 			'DistributionConnectorSimpleSAMLphpEmailAttribute' => 'emailAttribute',
 			'DistributionConnectorSimpleSAMLphpGroupAttributeDelimiter' => 'groupAttributeDelimiter',
 			'DistributionConnectorSimpleSAMLphpRealNameAttribute' => 'realNameAttribute',
@@ -94,7 +94,7 @@ class PluggableAuthMigrator {
 		$simpleSamlPhpData = $this->makeSimpleSamlPhpData();
 		if ( $simpleSamlPhpData ) {
 			$pluggableAuthConfig[$this->simpleSamlPhpButtonLabel] = [
-				'plugin' => 'SampleSAMLphp',
+				'plugin' => 'SimpleSAMLphp',
 				'data' => $simpleSamlPhpData
 			];
 		}
@@ -138,7 +138,7 @@ class PluggableAuthMigrator {
 	 * @return array Array which should be added to "data" key in "$wgPluggableAuth_Config" for "SimpleSAMLPphp"
 	 */
 	private function makeSimpleSamlPhpData(): array {
-		$pluginData = $this->makePluginDataFromConfigs( 'SampleSAMLphp' );
+		$pluginData = $this->makePluginDataFromConfigs( 'SimpleSAMLphp' );
 
 		if ( isset( $GLOBALS['wgSimpleSAMLphp_AuthSourceId'] ) ) {
 			// We need to manually add 'authSourceId' data key directly from the global
