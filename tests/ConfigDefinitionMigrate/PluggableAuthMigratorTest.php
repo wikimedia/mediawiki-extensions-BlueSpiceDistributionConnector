@@ -108,7 +108,7 @@ class PluggableAuthMigratorTest extends TestCase {
 				[],
 				[
 					'Log in using SAML' => [
-						'plugin' => 'SampleSAMLphp',
+						'plugin' => 'SimpleSAMLphp',
 						'data' => [
 							'emailAttribute' => 'email',
 							'realNameAttribute' => 'realname',
@@ -244,7 +244,7 @@ class PluggableAuthMigratorTest extends TestCase {
 				],
 				[
 					'Log in using SAML 2' => [
-						'plugin' => 'SampleSAMLphp',
+						'plugin' => 'SimpleSAMLphp',
 						'data' => [
 							'emailAttribute' => 'email2',
 							'realNameAttribute' => 'realname2',
@@ -261,7 +261,7 @@ class PluggableAuthMigratorTest extends TestCase {
 				],
 				[
 					'Log in using SAML' => [
-						'plugin' => 'SampleSAMLphp',
+						'plugin' => 'SimpleSAMLphp',
 						'data' => [
 							'emailAttribute' => 'email',
 							'realNameAttribute' => 'realname',
@@ -277,7 +277,7 @@ class PluggableAuthMigratorTest extends TestCase {
 					],
 
 					'Log in using SAML 2' => [
-						'plugin' => 'SampleSAMLphp',
+						'plugin' => 'SimpleSAMLphp',
 						'data' => [
 							'emailAttribute' => 'email2',
 							'realNameAttribute' => 'realname2',
@@ -303,7 +303,7 @@ class PluggableAuthMigratorTest extends TestCase {
 				],
 				[
 					'Log in using SAML' => [
-						'plugin' => 'SampleSAMLphp',
+						'plugin' => 'SimpleSAMLphp',
 						'data' => [
 							'emailAttribute' => 'email2',
 							'realNameAttribute' => 'realname2',
@@ -321,7 +321,7 @@ class PluggableAuthMigratorTest extends TestCase {
 				[
 					// Here configuration is overridden with migrated one
 					'Log in using SAML' => [
-						'plugin' => 'SampleSAMLphp',
+						'plugin' => 'SimpleSAMLphp',
 						'data' => [
 							'emailAttribute' => 'email',
 							'realNameAttribute' => 'realname',
@@ -349,7 +349,7 @@ class PluggableAuthMigratorTest extends TestCase {
 				[
 					// Here configuration is overridden with migrated one
 					'Log in using SAML' => [
-						'plugin' => 'SampleSAMLphp',
+						'plugin' => 'SimpleSAMLphp',
 						'data' => [
 							'emailAttribute' => 'email',
 							'realNameAttribute' => 'realname',
