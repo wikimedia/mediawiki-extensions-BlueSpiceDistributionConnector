@@ -196,5 +196,7 @@
 	"bs-distributionconnector-pref-pluggableauth-config": "PluggableAuth",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Data object (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Button label",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Plugin name"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Plugin name",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Should login occur automatically when a user visits the wiki?",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Enables automatic login to the wiki"
 }
