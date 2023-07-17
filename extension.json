@@ -30,6 +30,7 @@
 			},
 			"ConfigDefinitionRegistry": {
 				"DistributionConnectorPluggableAuthConfig": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\PluggableAuth\\Config::getInstance",
+				"DistributionConnectorEnableAutoLogin": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\PluggableAuth\\EnableAutoLogin::getInstance",
 				"DistributionConnectorEventBusEnableEventBus": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\EventBus\\EnableEventBus::getInstance",
 				"DistributionConnectorEventBusEventServices": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\EventBus\\EventServices::getInstance",
 				"DistributionConnectorEventBusEventServiceDefault": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\EventBus\\EventServiceDefault::getInstance"
@@ -500,6 +501,11 @@
 	},
 	"config_prefix": "bsg",
 	"config": {
+		"DistributionConnectorEnableAutoLogin": {
+			"value": false,
+			"descriptionmsg": "bs-distributionconnector-pref-pluggableauth-enableautologin",
+			"public": true
+		},
 		"DistributionConnectorPluggableAuthConfig": {
 			"value": [],
 			"descriptionmsg": "bs-distributionconnector-pref-pluggableauth-config",
