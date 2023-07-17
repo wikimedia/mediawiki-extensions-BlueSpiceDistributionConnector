@@ -4,21 +4,8 @@
 			"Piano1forte2"
 		]
 	},
-	"bs-distributionconnector-pref-simplesamlphp-emailattribute": "Attribute name for 'email'",
-	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "Delimiter for a single-value 'group' attribute",
-	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "Attribute name for 'realname'",
-	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Attribute name for 'groups'",
-	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Attribute name for 'username'",
-	"bs-distributionconnector-default-user-approval-report-subject": "The workflow 'User approval' for page '$1' has finished",
-	"bs-distributionconnector-default-document-control-report-subject": "The workflow 'Expert document control' for page '$1' has finished",
-	"bs-distributionconnector-pref-eventbus-eventservices-help": "The defined services for extension 'EventBus' that propagates state changes (edit, move, delete, revision visibility, etc.) to a RESTful event service, providing consumers of the service with the means of tracking changes to MediaWiki content",
-	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] has been granted permission '$2' for [[$3]]",
 	"droplets-circled-number-bg-color-label": "Background colour",
 	"droplets-circled-number-fg-color-label": "Foreground colour",
-	"droplets-subpages-cols-help": "'yes' creates 3-column layout, 'no' creates no columns",
-	"droplets-subpages-bullets-help": "'no' removes bullet points",
 	"droplets-buttonlink-format-label": "Background colour",
-	"droplets-circled-number-description": "Number in a circle with customisable colour",
-	"bs-distributionconnector-videodropletinspector-description-help": "Add a description under the video. For line breaks, use '&#10'",
-	"bs-distributionconnector-videodropletinspector-dimension-help": "To set the size of the video you can use the format 'width x height' in pixels. If the height is not provided it will be calculated automatically from the width. If you want to set the height you have to indicate this with 'x'.\nExamples: 480, 480x320,x320 - for a width of 480 and a height of 320"
+	"droplets-circled-number-description": "Number in a circle with customisable colour"
 }
