@@ -137,5 +137,10 @@
 	"bs-distributionconnector-videodropletinspector-alignment-label": "Выравнивание",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "слева",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "по центру",
-	"bs-distributionconnector-videodropletinspector-alignment-right": "справа"
+	"bs-distributionconnector-videodropletinspector-alignment-right": "справа",
+	"droplets-circled-number-fg-color-label": "Цвет текста",
+	"droplets-subpages-parentpage-label": "Родительская страница",
+	"droplets-buttonlink-label-label": "Текст на кнопке",
+	"droplets-create-input-alignment-label": "Выравнивание",
+	"droplets-pdflink-name": "PDF-ссылка"
 }
