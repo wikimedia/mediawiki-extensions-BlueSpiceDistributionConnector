@@ -173,5 +173,16 @@
 	"bs-distributionconnector-videodropletinspector-title": "Vídeo",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Objeto de datos (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Etiqueta de botón",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nombre de complemento"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nombre de complemento",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "ninguno",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault": "Servicio de eventos predeterminado",
+	"droplets-subpages-parentpage-label": "Página principal",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Número de vistas de página",
+	"droplets-pdflink-name": "enlace PDF",
+	"bs-distributionconnector-videodropletinspector-description-label": "Descripción",
+	"bs-distributionconnector-videodropletinspector-service-help": "Seleccione el servicio que debe usarse para incrustar video",
+	"bs-distributionconnector-videodropletinspector-dimension-label": "Dimensión",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "izquierda",
+	"bs-distributionconnector-videodropletinspector-alignment-center": "Centrado",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "derecha"
 }
