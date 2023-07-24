@@ -4,6 +4,7 @@
 			"Aranka",
 			"Danieldegroot2",
 			"DiGro",
+			"HanV",
 			"Mainframe98",
 			"McDutchie",
 			"Nickthijssen1994",
@@ -193,7 +194,15 @@
 	"bs-distributionconnector-videodropletinspector-description-help": "Voeg een beschrijving toe onder de video. Gebruik voor regeleinden \"&#10\".",
 	"bs-distributionconnector-videodropletinspector-description-placeholder": "Videobeschrijving invoegen…",
 	"bs-distributionconnector-videodropletinspector-dimension-label": "Afmetingen",
+	"bs-distributionconnector-videodropletinspector-dimension-help": "Om de grootte van de video in te stellen kunt u het formaat \"breedte x hoogte\" in pixels gebruiken. Als de hoogte niet is opgegeven, wordt deze automatisch berekend op basis van de breedte. Als je de hoogte wilt instellen moet je dit aangeven met \"x\".\nVoorbeelden: 480, 480x320,x320 - voor een breedte van 480 en een hoogte van 320",
+	"bs-distributionconnector-videodropletinspector-alignment-label": "Uitlijning",
+	"bs-distributionconnector-videodropletinspector-alignent-help": "Lijn de video links, gecentreerd of rechts uit",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "links",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "gecentreerd",
-	"bs-distributionconnector-videodropletinspector-alignment-right": "rechts"
+	"bs-distributionconnector-videodropletinspector-alignment-right": "rechts",
+	"bs-distributionconnector-videodropletinspector-container-label": "Ingelijst",
+	"bs-distributionconnector-videodropletinspector-container-help": "Indien geselecteerd, wordt de video weergegeven in een miniatuur",
+	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Gegevensobject (JSON)",
+	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Knop label",
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Plug-in naam"
 }
