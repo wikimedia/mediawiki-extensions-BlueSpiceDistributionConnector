@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Albertoleoncio",
 			"Dianakc",
 			"Duke of Wikipädia",
 			"Eduardo Addad de Oliveira",
@@ -166,5 +167,8 @@
 	"droplets-subpages-description": "Lista de sub-páginas de uma página wiki",
 	"droplets-video-name": "Vídeo",
 	"droplets-pdflink-name": "link para PDF",
-	"droplets-pdflink-description": "Link que baixa outra página wiki como PDF"
+	"droplets-pdflink-description": "Link que baixa outra página wiki como PDF",
+	"bs-distributionconnector-videodropletinspector-title": "Vídeo",
+	"bs-distributionconnector-videodropletinspector-description-label": "Descrição",
+	"bs-distributionconnector-videodropletinspector-dimension-label": "Dimensão"
 }
