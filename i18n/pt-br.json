@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Albertoleoncio",
 			"Dianakc",
 			"Duke of Wikipädia",
 			"Eduardo Addad de Oliveira",
@@ -172,5 +173,8 @@
 	"droplets-buttonlink-desc": "Link que é estalizado como um botão",
 	"droplets-buttonlink-format-blue": "azul",
 	"droplets-buttonlink-format-neutral": "branco",
-	"droplets-buttonlink-format-red": "vermelho"
+	"droplets-buttonlink-format-red": "vermelho",
+	"bs-distributionconnector-videodropletinspector-title": "Vídeo",
+	"bs-distributionconnector-videodropletinspector-description-label": "Descrição",
+	"bs-distributionconnector-videodropletinspector-dimension-label": "Dimensão"
 }
