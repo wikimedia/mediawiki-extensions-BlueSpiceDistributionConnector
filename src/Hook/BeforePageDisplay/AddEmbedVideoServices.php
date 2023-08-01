@@ -4,6 +4,7 @@ namespace BlueSpice\DistributionConnector\Hook\BeforePageDisplay;
 
 use BlueSpice\Hook\BeforePageDisplay;
 use ExtensionRegistry;
+use MediaWiki\Extension\EmbedVideo\EmbedService\EmbedServiceFactory;
 
 class AddEmbedVideoServices extends BeforePageDisplay {
 
@@ -19,7 +20,7 @@ class AddEmbedVideoServices extends BeforePageDisplay {
 	 * @return bool
 	 */
 	protected function doProcess() {
-		$services = \EmbedVideo\VideoService::getAvailableServices();
+		$services = EmbedServiceFactory::getAvailableServices();
 		$this->out->addJsConfigVars( [
 			'bsgEmbedVideoServices' => $services
 		] );
