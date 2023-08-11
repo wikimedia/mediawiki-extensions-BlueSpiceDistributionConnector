@@ -6,6 +6,7 @@
 			"850710247liu",
 			"A Chinese Wikipedian",
 			"AYZ04",
+			"CrownedWharf566",
 			"Dianliang233",
 			"Dimension",
 			"Evesiesta",
@@ -208,5 +209,17 @@
 	"bs-distributionconnector-videodropletinspector-description-help": "在视频下方添加描述。使用“&#10”换行",
 	"bs-distributionconnector-videodropletinspector-title": "视频",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "左",
-	"bs-distributionconnector-videodropletinspector-alignment-right": "右"
+	"bs-distributionconnector-videodropletinspector-alignment-right": "右",
+	"droplets-map-center-map-label": "地图中心",
+	"droplets-create-input-alignment-center-label": "居中",
+	"droplets-pdf-link-link-label": "链接标签",
+	"bs-distributionconnector-videodropletinspector-video-link-label": "插入视频链接",
+	"bs-distributionconnector-videodropletinspector-description-placeholder": "插入视频描述...",
+	"bs-distributionconnector-videodropletinspector-dimension-label": "尺寸",
+	"bs-distributionconnector-videodropletinspector-alignment-label": "对齐",
+	"bs-distributionconnector-videodropletinspector-alignment-center": "居中的",
+	"bs-distributionconnector-videodropletinspector-container-label": "加框",
+	"bs-distributionconnector-pref-pluggableauth-config-data-object": "数据对象 (JSON)",
+	"bs-distributionconnector-pref-pluggableauth-config-button-label": "按钮标签",
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "插件名称"
 }
