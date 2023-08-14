@@ -142,5 +142,13 @@
 	"droplets-map-description": "可在地圖上標記位置",
 	"droplets-subpages-name": "子頁面",
 	"droplets-pdflink-name": "PDF連結",
-	"droplets-pdf-link-link-label": "連結文字"
+	"droplets-pdf-link-link-label": "連結文字",
+	"droplets-create-input-alignment-label": "對齊方式",
+	"droplets-create-input-alignment-center-label": "置中",
+	"droplets-pdf-link-page-label": "要匯出的頁面",
+	"bs-distributionconnector-videodropletinspector-title": "影片",
+	"bs-distributionconnector-videodropletinspector-description-label": "描述",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "置左",
+	"bs-distributionconnector-videodropletinspector-alignment-center": "置中",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "置右"
 }

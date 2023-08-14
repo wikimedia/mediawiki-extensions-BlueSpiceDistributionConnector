@@ -23,6 +23,7 @@
 			"Stang",
 			"StarrySky",
 			"TsuyaMarisa",
+			"Vikarna",
 			"VulpesVulpes825",
 			"Xiplus",
 			"Yining Chen",
@@ -221,5 +222,6 @@
 	"bs-distributionconnector-videodropletinspector-container-label": "加框",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "数据对象 (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "按钮标签",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "插件名称"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "插件名称",
+	"bs-distributionconnector-videodropletinspector-alignent-help": "将视频左对齐、居中或右对齐"
 }
