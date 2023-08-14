@@ -126,9 +126,12 @@
 	"droplets-create-input-button-label": "按鈕文字",
 	"droplets-create-input-preload-label": "預載入頁面內容",
 	"droplets-create-input-prefix-label": "頁面名稱的前綴",
+	"droplets-create-input-alignment-label": "對齊方式",
 	"droplets-create-input-alignment-left-label": "左",
 	"droplets-create-input-alignment-right-label": "右",
+	"droplets-create-input-alignment-center-label": "置中",
 	"droplets-create-input-name": "建立頁面",
+	"droplets-pdf-link-page-label": "要匯出的頁面",
 	"droplets-pdf-link-template-label": "PDF範本",
 	"droplets-pdf-link-link-label": "連結文字",
 	"droplets-buttonlink-name": "按鈕",
@@ -140,5 +143,10 @@
 	"droplets-subpages-name": "子頁面",
 	"droplets-subpages-description": "維基頁面的子頁面列表",
 	"droplets-video-name": "影片",
-	"droplets-pdflink-name": "PDF連結"
+	"droplets-pdflink-name": "PDF連結",
+	"bs-distributionconnector-videodropletinspector-title": "影片",
+	"bs-distributionconnector-videodropletinspector-description-label": "描述",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "置左",
+	"bs-distributionconnector-videodropletinspector-alignment-center": "置中",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "置右"
 }
