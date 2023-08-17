@@ -142,5 +142,6 @@
 	"droplets-subpages-parentpage-label": "Родительская страница",
 	"droplets-buttonlink-label-label": "Текст на кнопке",
 	"droplets-create-input-alignment-label": "Выравнивание",
-	"droplets-pdflink-name": "PDF-ссылка"
+	"droplets-pdflink-name": "PDF-ссылка",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Тайм-аут"
 }
