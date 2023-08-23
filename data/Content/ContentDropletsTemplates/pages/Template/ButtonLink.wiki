@@ -1,5 +1,5 @@
 <noinclude>Inspired by https://www.mediawiki.org/wiki/Template:Clickable_button_2
-</noinclude><includeonly><div>{{#ifeq:{{#switch: {{{external}}}|yes|ja=yes}} |yes|<span class="plainlinks">[{{{target}}} <span role="button" class="mw-ui-button {{#switch: {{{format}}}|blue|blau=mw-ui-progressive|red|rot=mw-ui-destructive|}}">{{{label}}}</span>]</span>|[[{{{target}}}|<span role="button" class="mw-ui-button {{#switch: {{{format}}}|blue|blau=mw-ui-progressive|red|rot=mw-ui-destructive|}}">{{{label}}}</span>]]}}</div></includeonly>
+</noinclude><includeonly>{{#ifeq:{{#switch: {{{external}}}|yes|ja=yes}} |yes|<span class="plainlinks">[{{{target}}} <span role="button" class="mw-ui-button {{#switch: {{{format}}}|blue|blau=mw-ui-progressive|red|rot=mw-ui-destructive|}}">{{{label}}}</span>]</span>|[[{{{target}}}|<span role="button" class="mw-ui-button {{#switch: {{{format}}}|blue|blau=mw-ui-progressive|red|rot=mw-ui-destructive|}}">{{{label}}}</span>]]}}</includeonly>
 <noinclude>
 <templatedata>
 {
