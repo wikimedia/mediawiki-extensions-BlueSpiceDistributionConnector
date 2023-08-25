@@ -185,9 +185,6 @@
 				"categorytree": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\CategoryTreeDroplet"
 				},
-				"video": {
-					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\VideoDroplet"
-				},
 				"circled-number": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\CircledNumberDroplet"
 				},
@@ -199,9 +196,6 @@
 				},
 				"buttonlink": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\ButtonLinkDroplet"
-				},
-				"createInput": {
-					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\CreateInputDroplet"
 				},
 				"pdflink": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\PDFLinkDroplet"
