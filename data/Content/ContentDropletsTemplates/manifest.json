@@ -34,8 +34,10 @@
 		"description": "Customisable button with adjustable action",
 		"target_title": "Template:ButtonLink",
 		"content_path": "/pages/Template/ButtonLink.wiki",
-		"sha1": "6ee813ca07b1e5438c758f279593d6454a889e97",
-		"old_sha1": []
+		"sha1": "0b08ad7cc9a772eccaa0843df349a6a8145255fd",
+		"old_sha1": [
+			"6ee813ca07b1e5438c758f279593d6454a889e97"
+		]
 	},
 	"Template:PDFLink": {
 		"lang": "en",
