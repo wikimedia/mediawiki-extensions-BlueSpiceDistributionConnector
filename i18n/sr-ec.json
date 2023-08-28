@@ -40,5 +40,6 @@
 	"bs-distributionconnector-videodropletinspector-title": "Видео",
 	"bs-distributionconnector-videodropletinspector-dimension-label": "Димензија",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "Позиционирање",
-	"bs-distributionconnector-videodropletinspector-description-placeholder": "Уметни опис видеа..."
+	"bs-distributionconnector-videodropletinspector-description-placeholder": "Уметни опис видеа...",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Омогућује аутоматско пријављивање на вики"
 }
