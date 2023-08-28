@@ -200,5 +200,7 @@
 	"bs-distributionconnector-pref-pluggableauth-config": "PluggableAuth",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Objecto de datos (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Etiquetta del button",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nomine del plug-in"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nomine del plug-in",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Debe un session esser aperite automaticamente quando un usator visita le wiki?",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Activa le apertura de session automatic sur le wiki"
 }
