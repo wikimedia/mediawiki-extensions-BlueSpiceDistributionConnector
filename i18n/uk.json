@@ -3,6 +3,7 @@
 		"authors": [
 			"DDPAT",
 			"Ice bulldog",
+			"Marvire",
 			"Piramidion",
 			"Samflint",
 			"Ата",
@@ -115,5 +116,9 @@
 	"bs-distributionconnector-invite-signup-dialog-text": "Залишити цю сторінку, щоб запросити нового користувача?",
 	"right-duplicate": "Дублювання сторінок",
 	"action-duplicate": "дублювати сторінку",
-	"bs-distributionconnector-statistics-report-page-hits-relation": "Відвідування сторінок у відношенні"
+	"bs-distributionconnector-statistics-report-page-hits-relation": "Відвідування сторінок у відношенні",
+	"droplets-circled-number-bg-color-label": "Колір тла",
+	"droplets-circled-number-fg-color-label": "Колір переднього плану",
+	"droplets-circled-number-label": "Число",
+	"droplets-subpages-namespace-label": "Простір назв"
 }

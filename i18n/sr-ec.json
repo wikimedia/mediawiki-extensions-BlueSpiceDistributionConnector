@@ -40,5 +40,6 @@
 	"bs-distributionconnector-videodropletinspector-alignment-left": "лево",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "центар",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "десно",
-	"bs-distributionconnector-videodropletinspector-container-label": "Оквир"
+	"bs-distributionconnector-videodropletinspector-container-label": "Оквир",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Омогућује аутоматско пријављивање на вики"
 }

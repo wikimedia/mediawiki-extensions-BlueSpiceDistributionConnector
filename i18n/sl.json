@@ -194,5 +194,7 @@
 	"bs-distributionconnector-videodropletinspector-container-help": "Če je izbrano, bo video prikazan kot sličica",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Podatkovni objekt (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Oznaka gumba",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Ime vtičnika"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Ime vtičnika",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Ali naj se prijava izvede samodejno, ko uporabnik obišče viki?",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Omogoča samodejno prijavo v viki"
 }
