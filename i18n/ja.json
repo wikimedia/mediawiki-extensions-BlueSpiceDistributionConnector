@@ -6,6 +6,7 @@
 			"Ajeje Brazorf",
 			"Anonymoususer12321",
 			"Chqaz",
+			"M1660661",
 			"MathXplore",
 			"Mugenpman",
 			"Shirayuki",
@@ -210,5 +211,7 @@
 	"bs-distributionconnector-videodropletinspector-container-help": "選択すると、動画のサムネイルが表示されます",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "データオブジェクト(JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "ボタンラベル",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "プラグイン名"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "プラグイン名",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin": "ユーザーが Wiki にアクセスしたときにログインが自動的に行われる必要がありますか?",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Wiki への自動ログインを有効にします"
 }
