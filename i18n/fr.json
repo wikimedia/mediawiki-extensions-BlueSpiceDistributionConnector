@@ -201,5 +201,7 @@
 	"bs-distributionconnector-videodropletinspector-container-help": "Si sélectionné, la vidéo sera affichée dans une vignette.",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Objet de données (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Libellé du bouton",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nom du module"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nom du module",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin": "La connexion doit-elle se faire automatiquement quand un utilisateur visite le wiki ?",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Active la connexion automatique au wiki"
 }
