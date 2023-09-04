@@ -201,5 +201,7 @@
 	"bs-distributionconnector-videodropletinspector-description-help": "Legg til en beskrivelse under videoen. For linjeskift, bruk «&#10»",
 	"bs-distributionconnector-videodropletinspector-dimension-help": "For å sette størrelsen til en video kan du bruke formatet «bredde x høyde» i piksler. Om høyden ikke er angitt, blir den automatisk kalkulert ifra bredden. Om du vil sette høyden, kan du indikere det med en «x».\nEksempler: 480, 480x320, x320 – for en bredde på 480 og en høyde på 320",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Dataobjekt (JSON)",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Navn på tillegg"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Navn på tillegg",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Bør innlogging skje automatisk når en bruker besøker wikien?",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Aktiverer automatisk innlogging på wikien"
 }
