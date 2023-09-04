@@ -197,5 +197,7 @@
 	"bs-distributionconnector-videodropletinspector-container-help": "Hvis denne er valgt blir videoen vist i miniatyrversjon",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Dataobjekt (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Knappeetikett",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Navn på tillegg"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Navn på tillegg",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Bør innlogging skje automatisk når en bruker besøker wikien?",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Aktiverer automatisk innlogging på wikien"
 }
