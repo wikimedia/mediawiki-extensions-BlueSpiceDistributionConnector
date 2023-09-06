@@ -210,5 +210,7 @@
 	"bs-distributionconnector-videodropletinspector-container-help": "Indien geselecteerd, wordt de video weergegeven in een miniatuur",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Gegevensobject (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Knop label",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Plug-in naam"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Plug-in naam",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Moet inloggen automatisch plaatsvinden wanneer een gebruiker de wiki bezoekt?",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Maakt automatisch inloggen op de wiki mogelijk"
 }
