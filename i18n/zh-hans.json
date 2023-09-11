@@ -166,6 +166,7 @@
 	"droplets-subpages-bullets-help": "“否”删除要点",
 	"droplets-map-center-label": "焦点",
 	"droplets-map-center-map-label": "地图中心",
+	"droplets-map-center-map-label-help": "地图中心的位置。例如：德国雷根斯堡",
 	"droplets-buttonlink-external-label": "外部链接",
 	"droplets-buttonlink-target-label": "目标",
 	"droplets-buttonlink-label-label": "按钮上的文字",

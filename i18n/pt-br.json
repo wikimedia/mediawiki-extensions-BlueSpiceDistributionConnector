@@ -10,7 +10,8 @@
 			"Juan90264",
 			"Mello25",
 			"Re demz",
-			"Trooper57"
+			"Trooper57",
+			"VasbXBR"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Conecta o BlueSpice a várias extensões do MediaWiki",
@@ -137,6 +138,7 @@
 	"droplets-subpages-bullets-label": "Marcadores de lista",
 	"droplets-subpages-bullets-help": "\"no\" remove os marcadores de lista",
 	"droplets-map-center-label": "Foco",
+	"droplets-map-center-map-label": "Centro do mapa",
 	"droplets-buttonlink-external-label": "Link externo",
 	"droplets-buttonlink-target-label": "Destino",
 	"droplets-buttonlink-label-label": "Texto no botão",
@@ -151,6 +153,7 @@
 	"droplets-create-input-alignment-label": "Alinhamento",
 	"droplets-create-input-alignment-left-label": "esquerda",
 	"droplets-create-input-alignment-right-label": "direita",
+	"droplets-create-input-alignment-center-label": "centro",
 	"droplets-create-input-name": "Criar página",
 	"droplets-create-input-desc": "Formar campo para a criação predefinida de páginas",
 	"droplets-pdf-link-page-label": "Página para exportar",
@@ -170,5 +173,8 @@
 	"droplets-pdflink-description": "Link que baixa outra página wiki como PDF",
 	"bs-distributionconnector-videodropletinspector-title": "Vídeo",
 	"bs-distributionconnector-videodropletinspector-description-label": "Descrição",
-	"bs-distributionconnector-videodropletinspector-dimension-label": "Dimensão"
+	"bs-distributionconnector-videodropletinspector-dimension-label": "Dimensão",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "esquerda",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "direita",
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nome do plugin"
 }
