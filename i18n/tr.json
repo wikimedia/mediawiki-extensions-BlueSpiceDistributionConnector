@@ -112,5 +112,21 @@
 	"droplets-subpages-namespace-label": "Ad alanı",
 	"droplets-subpages-parentpage-label": "Üst sayfa",
 	"droplets-subpages-cols-label": "Sütun düzeni",
-	"droplets-map-center-label": "Dikkat"
+	"droplets-map-center-label": "Dikkat",
+	"droplets-buttonlink-target-label": "Hedef",
+	"droplets-buttonlink-format-label": "Arkaplan rengi",
+	"droplets-buttonlink-format-blue": "mavi",
+	"droplets-buttonlink-format-neutral": "beyaz",
+	"droplets-buttonlink-format-red": "kırmızı",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Sayfa görüntüleme sayısı",
+	"droplets-create-input-preload-label": "Önceden yüklenmiş sayfa içeriği",
+	"droplets-create-input-alignment-left-label": "sol",
+	"droplets-create-input-alignment-right-label": "sağ",
+	"droplets-create-input-alignment-center-label": "merkez",
+	"droplets-create-input-name": "Sayfa oluştur",
+	"droplets-create-input-desc": "Önceden tanımlanmış sayfa oluşturmaya yönelik form alanı",
+	"droplets-pdf-link-page-label": "Dışa aktarılacak sayfa",
+	"droplets-pdf-link-template-label": "PDF şablonu",
+	"droplets-pdf-link-link-label": "Bağlantı etiketi",
+	"droplets-buttonlink-name": "Düğme"
 }
