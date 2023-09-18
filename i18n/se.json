@@ -8,5 +8,7 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Čiega prefivssa",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Nammagomuvuohta",
 	"bs-distributionconnector-checkpermissions-label-user": "Geavaheaddji",
-	"bs-distributionconnector-checkpermissions-label-permission": "Geavahanvuoigatvuohta"
+	"bs-distributionconnector-checkpermissions-label-permission": "Geavahanvuoigatvuohta",
+	"droplets-video-name": "Video",
+	"bs-distributionconnector-videodropletinspector-title": "Video"
 }

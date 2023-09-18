@@ -10,6 +10,7 @@
 			"Okras",
 			"Pacha Tchernof",
 			"PlushBoy",
+			"Rich Flight22",
 			"WindEwriX",
 			"Артём 13327"
 		]
@@ -91,6 +92,7 @@
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Название службы",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Тайм-аут",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "все",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "ничего",
 	"bs-distributionconnector-checkpermissions": "Проверить разрешения",
 	"bs-distributionconnector-checkpermissions-label-user": "Участник",
 	"bs-distributionconnector-checkpermissions-label-permission": "Разрешение",
@@ -103,6 +105,7 @@
 	"bs-distributionconnector-invite-signup-dialog-title": "Пригласить участника",
 	"droplets-circled-number-bg-color-label": "Цвет  фона",
 	"droplets-circled-number-fg-color-label": "Цвет текста",
+	"droplets-circled-number-label": "Число",
 	"droplets-subpages-namespace-label": "Пространство имён",
 	"droplets-subpages-parentpage-label": "Родительская страница",
 	"droplets-subpages-cols-label": "Расположение столбцов",

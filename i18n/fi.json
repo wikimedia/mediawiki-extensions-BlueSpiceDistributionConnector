@@ -6,7 +6,8 @@
 			"Markus Mikkonen",
 			"Pyscowicz",
 			"Rönttönen",
-			"Silvonen"
+			"Silvonen",
+			"Yupik"
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "Verkkotunnuksesi",
@@ -53,5 +54,7 @@
 	"droplets-gallery-name": "Galleria",
 	"droplets-map-name": "Kartta",
 	"droplets-subpages-name": "Alasivut",
-	"droplets-pdflink-name": "PDF-linkki"
+	"droplets-video-name": "Video",
+	"droplets-pdflink-name": "PDF-linkki",
+	"bs-distributionconnector-videodropletinspector-title": "Video"
 }
