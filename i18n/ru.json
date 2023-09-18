@@ -10,6 +10,7 @@
 			"Okras",
 			"Pacha Tchernof",
 			"PlushBoy",
+			"Rich Flight22",
 			"WindEwriX",
 			"Артём 13327"
 		]
@@ -143,5 +144,7 @@
 	"droplets-buttonlink-label-label": "Текст на кнопке",
 	"droplets-create-input-alignment-label": "Выравнивание",
 	"droplets-pdflink-name": "PDF-ссылка",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Тайм-аут"
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Тайм-аут",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "ничего",
+	"droplets-circled-number-label": "Число"
 }
