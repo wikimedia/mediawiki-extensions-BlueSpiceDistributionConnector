@@ -121,7 +121,7 @@
 	"bs-distributionconnector-default-document-control-report-body": "工作流程详细信息：\n开始于： $1 \n完成于： $2 \n页面： $3 \n修订： $4 \n编辑： $5 \n修订人： $6 \n批准人： $7\n修订说明： $8 \n审稿说明： $9 \n批准说明： $10\n意见反馈：\n$11\n\n此电子邮件已发送给您，因为$12已将您指定为此工作流程的电子邮件收件人。",
 	"bs-distributionconnector-default-user-vote-report-delegated-message": "委托给$1",
 	"bs-distributionconnector-default-definition-report-review": "复核",
-	"bs-distributionconnector-default-definition-report-approve": "批准",
+	"bs-distributionconnector-default-definition-report-approve": "核准",
 	"bs-distributionconnector-default-definition-report-vote": "投票",
 	"bs-distributionconnector-pref-eventbus-eventservices": "活动系列",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "设备名称",
