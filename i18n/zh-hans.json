@@ -118,7 +118,7 @@
 	"workflows-workflow-file-definition-document-control-title": "专家文档控制",
 	"bs-distributionconnector-default-user-vote-report-delegated-message": "委托给$1",
 	"bs-distributionconnector-default-definition-report-review": "复核",
-	"bs-distributionconnector-default-definition-report-approve": "批准",
+	"bs-distributionconnector-default-definition-report-approve": "核准",
 	"bs-distributionconnector-default-definition-report-vote": "投票",
 	"bs-distributionconnector-pref-eventbus-eventservices": "活动系列",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "设备名称",
