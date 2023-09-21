@@ -115,7 +115,7 @@
 	"workflows-workflow-file-definition-user-feedback-title": "单个用户反馈",
 	"workflows-workflow-file-definition-user-feedback-desc": "当巡查一个页面时向一名用户询问反馈意见。完成此操作后，特定接收人将会收到电子邮件通知。",
 	"bs-distributionconnector-default-definition-report-review": "复核",
-	"bs-distributionconnector-default-definition-report-approve": "批准",
+	"bs-distributionconnector-default-definition-report-approve": "核准",
 	"bs-distributionconnector-default-definition-report-vote": "投票",
 	"bs-distributionconnector-pref-eventbus-eventservices": "活动系列",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "设备名称",
