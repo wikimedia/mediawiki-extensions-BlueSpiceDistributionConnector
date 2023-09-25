@@ -157,7 +157,7 @@
 	"droplets-circled-number-fg-color-label": "前景颜色",
 	"droplets-circled-number-label": "数字",
 	"droplets-subpages-namespace-label": "命名空间",
-	"droplets-subpages-namespace-help": "留空主命名空间",
+	"droplets-subpages-namespace-help": "留空为主命名空间",
 	"droplets-subpages-parentpage-label": "父页面",
 	"droplets-subpages-parentpage-help": "应列出其子页面的页面",
 	"droplets-subpages-cols-label": "列布局",
