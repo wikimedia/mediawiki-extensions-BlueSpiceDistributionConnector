@@ -150,5 +150,20 @@
 	"bs-distributionconnector-videodropletinspector-description-label": "描述",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "置左",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "置中",
-	"bs-distributionconnector-videodropletinspector-alignment-right": "置右"
+	"bs-distributionconnector-videodropletinspector-alignment-right": "置右",
+	"droplets-subpages-cols-label": "分行配置",
+	"droplets-subpages-cols-help": "「yes」建立3行佈局，「no」不建立行",
+	"droplets-buttonlink-format-blue": "藍色",
+	"droplets-buttonlink-format-neutral": "白色",
+	"droplets-buttonlink-format-red": "紅色",
+	"bs-distributionconnector-videodropletinspector-video-link-label": "插入影片連結",
+	"bs-distributionconnector-videodropletinspector-service-help": "選取用於嵌入影片的服務",
+	"bs-distributionconnector-videodropletinspector-description-help": "在影片下方新增說明。使用「&#10」換行",
+	"bs-distributionconnector-videodropletinspector-description-placeholder": "插入影片描述…",
+	"bs-distributionconnector-videodropletinspector-dimension-label": "尺寸",
+	"bs-distributionconnector-videodropletinspector-alignment-label": "對齊方式",
+	"bs-distributionconnector-videodropletinspector-alignent-help": "將影片向左對齊、居中或向右對齊",
+	"bs-distributionconnector-videodropletinspector-container-label": "帶框",
+	"bs-distributionconnector-pref-pluggableauth-config-button-label": "按鈕文字",
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "外掛名稱"
 }
