@@ -11,7 +11,8 @@
 			"Mello25",
 			"Re demz",
 			"Trooper57",
-			"VasbXBR"
+			"VasbXBR",
+			"YuriNikolai"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Conecta o BlueSpice a várias extensões do MediaWiki",
@@ -182,5 +183,6 @@
 	"droplets-create-input-alignment-center-label": "centro",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "esquerda",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "direita",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nome do plugin"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nome do plugin",
+	"droplets-categorytree-description": "Categorias selecionadas são mostradas em uma estrutura de árvore"
 }
