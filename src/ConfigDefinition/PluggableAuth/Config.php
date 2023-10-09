@@ -65,6 +65,15 @@ class Config extends ArraySetting implements ISettingPaths, IOverwriteGlobal {
 					'label' => $this->context->msg(
 						'bs-distributionconnector-pref-pluggableauth-config-data-object'
 					)->text()
+				],
+				'groupsyncs' => [
+					'type' => KeyObjectInputWidget::TYPE_JSON,
+					'widget' => [
+						'required' => false
+					],
+					'label' => $this->context->msg(
+						'bs-distributionconnector-pref-pluggableauth-config-groupsync-object'
+					)->text()
 				]
 			]
 		] );
