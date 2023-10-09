@@ -534,13 +534,6 @@
 		],
 		"OutputPageBodyAttributes": "\\BlueSpice\\DistributionConnector\\Hook\\OutputPageBodyAttributes\\InitRcFilters::onOutputPageBodyAttributes",
 		"BaseTemplateToolbox": "BlueSpiceDistributionHooks::onBaseTemplateToolbox",
-		"BSInsertMagicAjaxGetData": [
-			"\\BlueSpice\\DistributionConnector\\Hook\\BSInsertMagicAjaxGetData\\CategoryTree::callback",
-			"\\BlueSpice\\DistributionConnector\\Hook\\BSInsertMagicAjaxGetData\\Ref::callback",
-			"\\BlueSpice\\DistributionConnector\\Hook\\BSInsertMagicAjaxGetData\\References::callback",
-			"\\BlueSpice\\DistributionConnector\\Hook\\BSInsertMagicAjaxGetData\\EmbedVideo::callback",
-			"\\BlueSpice\\DistributionConnector\\Hook\\BSInsertMagicAjaxGetData\\DynamicPageList::callback"
-		],
 		"ChameleonSkinTemplateOutputPageBeforeExec": [
 			"\\BlueSpice\\DistributionConnector\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\ModifySidebar::callback"
 		],
