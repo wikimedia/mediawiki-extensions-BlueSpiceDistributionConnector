@@ -539,7 +539,8 @@
 		],
 		"LoadExtensionSchemaUpdates": [
 			"BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\AddTemplateUserPageStandardContent::callback",
-			"migrate-pluggable-auth-config"
+			"migrate-pluggable-auth-config",
+			"fix-pluggable-auth-group-sync"
 		],
 		"WikiExplorer::getFieldDefinitions": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onGetFieldDefinitions",
 		"WikiExplorer::getColumnDefinitions": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onGetColumnDefinitions",
@@ -553,6 +554,9 @@
 		},
 		"migrate-pluggable-auth-config": {
 			"class": "\\BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\MigratePluggableAuthConfig"
+		},
+		"fix-pluggable-auth-group-sync": {
+			"class": "\\BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\FixPluggableAuthGroupSync"
 		}
 	},
 	"manifest_version": 2
