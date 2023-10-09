@@ -112,13 +112,13 @@ class PluggableAuthMigratorTest extends TestCase {
 						'data' => [
 							'emailAttribute' => 'email',
 							'realNameAttribute' => 'realname',
-							'usernameAttribute' => 'uid',
-							'groupsyncs' => [
-								[
-									'type' => 'syncall',
-									'groupAttributeName' => 'ingroup',
-									'groupAttributeDelimiter' => ','
-								]
+							'usernameAttribute' => 'uid'
+						],
+						'groupsyncs' => [
+							[
+								'type' => 'syncall',
+								'groupAttributeName' => 'ingroup',
+								'groupAttributeDelimiter' => ','
 							]
 						]
 					],
@@ -248,13 +248,13 @@ class PluggableAuthMigratorTest extends TestCase {
 						'data' => [
 							'emailAttribute' => 'email2',
 							'realNameAttribute' => 'realname2',
-							'usernameAttribute' => 'uid2',
-							'groupsyncs' => [
-								[
-									'type' => 'syncall',
-									'groupAttributeName' => 'ingroup2',
-									'groupAttributeDelimiter' => ',2'
-								]
+							'usernameAttribute' => 'uid2'
+						],
+						'groupsyncs' => [
+							[
+								'type' => 'syncall',
+								'groupAttributeName' => 'ingroup2',
+								'groupAttributeDelimiter' => ',2'
 							]
 						]
 					]
@@ -265,13 +265,13 @@ class PluggableAuthMigratorTest extends TestCase {
 						'data' => [
 							'emailAttribute' => 'email',
 							'realNameAttribute' => 'realname',
-							'usernameAttribute' => 'uid',
-							'groupsyncs' => [
-								[
-									'type' => 'syncall',
-									'groupAttributeName' => 'ingroup',
-									'groupAttributeDelimiter' => ','
-								]
+							'usernameAttribute' => 'uid'
+						],
+						'groupsyncs' => [
+							[
+								'type' => 'syncall',
+								'groupAttributeName' => 'ingroup',
+								'groupAttributeDelimiter' => ','
 							]
 						]
 					],
@@ -281,13 +281,13 @@ class PluggableAuthMigratorTest extends TestCase {
 						'data' => [
 							'emailAttribute' => 'email2',
 							'realNameAttribute' => 'realname2',
-							'usernameAttribute' => 'uid2',
-							'groupsyncs' => [
-								[
-									'type' => 'syncall',
-									'groupAttributeName' => 'ingroup2',
-									'groupAttributeDelimiter' => ',2'
-								]
+							'usernameAttribute' => 'uid2'
+						],
+						'groupsyncs' => [
+							[
+								'type' => 'syncall',
+								'groupAttributeName' => 'ingroup2',
+								'groupAttributeDelimiter' => ',2'
 							]
 						]
 					],
@@ -307,13 +307,13 @@ class PluggableAuthMigratorTest extends TestCase {
 						'data' => [
 							'emailAttribute' => 'email2',
 							'realNameAttribute' => 'realname2',
-							'usernameAttribute' => 'uid2',
-							'groupsyncs' => [
-								[
-									'type' => 'syncall',
-									'groupAttributeName' => 'ingroup2',
-									'groupAttributeDelimiter' => ',2'
-								]
+							'usernameAttribute' => 'uid2'
+						],
+						'groupsyncs' => [
+							[
+								'type' => 'syncall',
+								'groupAttributeName' => 'ingroup2',
+								'groupAttributeDelimiter' => ',2'
 							]
 						]
 					]
@@ -325,13 +325,13 @@ class PluggableAuthMigratorTest extends TestCase {
 						'data' => [
 							'emailAttribute' => 'email',
 							'realNameAttribute' => 'realname',
-							'usernameAttribute' => 'uid',
-							'groupsyncs' => [
-								[
-									'type' => 'syncall',
-									'groupAttributeName' => 'ingroup',
-									'groupAttributeDelimiter' => ','
-								]
+							'usernameAttribute' => 'uid'
+						],
+						'groupsyncs' => [
+							[
+								'type' => 'syncall',
+								'groupAttributeName' => 'ingroup',
+								'groupAttributeDelimiter' => ','
 							]
 						]
 					]
