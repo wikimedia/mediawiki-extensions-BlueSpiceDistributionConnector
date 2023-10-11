@@ -546,7 +546,8 @@
 		"WikiExplorer::getColumnDefinitions": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onGetColumnDefinitions",
 		"WikiExplorer::buildDataSets": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onBuildDataSets",
 		"UserLoggedIn": "BlueSpice\\DistributionConnector\\Hook\\UserLoggedIn\\AddLoginNotification::onUserLoggedIn",
-		"BSUserManagerRegisterModules": "user-manager"
+		"BSUserManagerRegisterModules": "user-manager",
+		"MWStakeCommonUIRegisterSkinSlotComponents": "addGlobalAction"
 	},
 	"HookHandlers": {
 		"user-manager": {
@@ -557,6 +558,10 @@
 		},
 		"fix-pluggable-auth-group-sync": {
 			"class": "\\BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\FixPluggableAuthGroupSync"
+		},
+		"addGlobalAction": {
+			"class": "\\BlueSpice\\DistributionConnector\\Hook\\AddGlobalAction",
+			"services": [ "SpecialPageFactory" ]
 		}
 	},
 	"manifest_version": 2
