@@ -207,5 +207,6 @@
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Sub key for button label field of config variable \"DistributionConnectorPluggableAuthConfig\" that allows to set up PluggableAuth plugins and necessary for them settings.",
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Sub key for plugin name field of config variable \"DistributionConnectorPluggableAuthConfig\" that allows to set up PluggableAuth plugins and necessary for them settings.",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Label for config variable \"DistributionConnectorEnableAutoLogin\" that allows to switch PluggableAuth \"wgPluggableAuth_EnableAutoLogin\"",
-	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Help message for \"DistributionConnectorEnableAutoLogin\" config variable"
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Help message for \"DistributionConnectorEnableAutoLogin\" config variable",
+	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Sub key for group syncs array field of config variable \"DistributionConnectorPluggableAuthConfig\" that allows to set up PluggableAuth group syncs"
 }
