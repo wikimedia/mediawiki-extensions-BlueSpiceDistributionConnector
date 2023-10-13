@@ -91,12 +91,22 @@ class PluggableAuthMigrator {
 	public function migrateConfigs( array $currentPluggableAuthConfig = [] ): array {
 		$pluggableAuthConfig = $currentPluggableAuthConfig;
 
-		$simpleSamlPhpData = $this->makeSimpleSamlPhpData();
+		list( $simpleSamlPhpData, $simpleSamlPhpGroupSync ) = $this->makeSimpleSamlPhpData();
 		if ( $simpleSamlPhpData ) {
 			$pluggableAuthConfig[$this->simpleSamlPhpButtonLabel] = [
 				'plugin' => 'SimpleSAMLphp',
 				'data' => $simpleSamlPhpData
 			];
+
+			if ( $simpleSamlPhpGroupSync ) {
+				// In this script we just migrate old "SimpleSAMLphp" and "OpenIDConnect" configs
+				// In old "SimpleSAMLphp" configs only "syncall" can be configured, see":
+				// \BlueSpice\DistributionConnector\ConfigDefinitionMigrate\PluggableAuthMigrator::$configMigrationMap
+				// Specifically "DistributionConnectorSimpleSAMLphpSyncAllGroupsGroupAttributeName"
+
+				// So there will always be only one entry in "groupsyncs" array in that case
+				$pluggableAuthConfig[$this->simpleSamlPhpButtonLabel]['groupsyncs'] = [ $simpleSamlPhpGroupSync ];
+			}
 		}
 
 		// "OpenIDConnect" may add multiple login buttons, one per provider
@@ -135,7 +145,8 @@ class PluggableAuthMigrator {
 	}
 
 	/**
-	 * @return array Array which should be added to "data" key in "$wgPluggableAuth_Config" for "SimpleSAMLPphp"
+	 * @return array Two arrays which should be added to "data" key and "groupsync" correspondingly
+	 * 		in "$wgPluggableAuth_Config" for "SimpleSAMLPphp"
 	 */
 	private function makeSimpleSamlPhpData(): array {
 		$pluginData = $this->makePluginDataFromConfigs( 'SimpleSAMLphp' );
@@ -162,11 +173,9 @@ class PluggableAuthMigrator {
 
 		if ( $groupSync ) {
 			$groupSync['type'] = 'syncall';
-
-			$pluginData['groupsyncs'] = [ $groupSync ];
 		}
 
-		return $pluginData;
+		return [ $pluginData, $groupSync ];
 	}
 
 	/**
