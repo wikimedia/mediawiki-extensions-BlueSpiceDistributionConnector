@@ -191,5 +191,6 @@
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Oznaka gumba",
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Ime vtičnika",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Ali naj se prijava izvede samodejno, ko uporabnik obišče viki?",
-	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Omogoča samodejno prijavo v viki"
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Omogoča samodejno prijavo v viki",
+	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Nastavitve skupinske sinhronizacije (JSON)"
 }

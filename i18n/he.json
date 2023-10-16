@@ -197,5 +197,6 @@
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "תווית כפתור",
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "שם התוסף",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin": "האם הכניסה לחשבון צריכה להתרחש באופן אוטומטי כאשר משתמש מבקר בוויקי?",
-	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "הפעלת כניסה אוטומטית לוויקי"
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "הפעלת כניסה אוטומטית לוויקי",
+	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "הגדרות סנכרון קבוצתי (JSON)"
 }
