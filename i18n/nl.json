@@ -212,5 +212,6 @@
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Knop label",
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Plug-in naam",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Moet inloggen automatisch plaatsvinden wanneer een gebruiker de wiki bezoekt?",
-	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Maakt automatisch inloggen op de wiki mogelijk"
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Maakt automatisch inloggen op de wiki mogelijk",
+	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Instellingen voor groepssynchronisatie (JSON)"
 }
