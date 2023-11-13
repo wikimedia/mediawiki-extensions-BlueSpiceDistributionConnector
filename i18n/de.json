@@ -8,6 +8,7 @@
 			"Mglaser",
 			"Mschlindwein",
 			"Pittigrilli",
+			"SehrGuterCode",
 			"Umherirrender",
 			"Umlaut"
 		]
@@ -210,5 +211,8 @@
 	"bs-distributionconnector-videodropletinspector-container-help": "Wenn ausgewählt, wird das Video in einer Miniaturansicht angezeigt",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Datenobjekt (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Knopfbeschriftung (button label)",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Plugin-Namen"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Plugin-Namen",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Sollte die Anmeldung automatisch erfolgen, wenn ein Benutzer das Wiki besucht?",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Aktiviert die automatische Anmeldung beim Wiki",
+	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Gruppensynchronisierungseinstellungen (JSON)"
 }
