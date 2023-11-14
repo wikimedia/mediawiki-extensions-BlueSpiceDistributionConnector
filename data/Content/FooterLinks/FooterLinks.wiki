@@ -1,0 +1,4 @@
+* Site:Privacy_policy|Privacy policy
+* Site:General_disclaimer|Disclaimer
+* Site:Imprint|Imprint
+* Site:About|About

@@ -1,0 +1,4 @@
+* Site:Datenschutz|Datenschutz
+* Site:Haftungsausschluss|Haftungsausschluss
+* Site:Impressum|Impressum
+* Site:Über|Über
