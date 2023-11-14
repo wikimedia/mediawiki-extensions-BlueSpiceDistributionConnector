@@ -209,7 +209,8 @@
 					"extensions/BlueSpiceDistributionConnector/data/Content/ContentDropletsTemplates/manifest.json",
 					"extensions/BlueSpiceDistributionConnector/data/Content/Startpage_COMMON/manifest.json",
 					"extensions/BlueSpiceDistributionConnector/data/Content/Startpage_Intranet/manifest.json",
-					"extensions/BlueSpiceDistributionConnector/data/Content/Startpage_Team/manifest.json"
+					"extensions/BlueSpiceDistributionConnector/data/Content/Startpage_Team/manifest.json",
+					"extensions/BlueSpiceDistributionConnector/data/Content/FooterLinks/manifest.json"
 				]
 			}
 		}

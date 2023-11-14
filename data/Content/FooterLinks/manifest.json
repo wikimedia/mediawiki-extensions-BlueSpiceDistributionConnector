@@ -1,0 +1,16 @@
+{
+	"MediaWiki:FooterLinks": {
+		"lang": "en",
+		"target_title": "MediaWiki:FooterLinks",
+		"content_path": "/FooterLinks.wiki",
+		"sha1": "e0a16697fb253aa080ba52fda0cdac2e4b579977",
+		"old_sha1": []
+	},
+	"MediaWiki:FooterLinks DE": {
+		"lang": "de",
+		"target_title": "MediaWiki:FooterLinks",
+		"content_path": "/FooterLinks.DE.wiki",
+		"sha1": "ecc30e05b8dc2554320a4e38cc5c7c261ea49f5f",
+		"old_sha1": []
+	}
+}
