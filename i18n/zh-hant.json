@@ -4,6 +4,7 @@
 			"Ericliu1912",
 			"Impartial just",
 			"Kly",
+			"Lionpancake",
 			"Madeleinemcc",
 			"Seikan Tunnel",
 			"Weather Top Wizard",
@@ -165,5 +166,10 @@
 	"bs-distributionconnector-videodropletinspector-alignent-help": "將影片向左對齊、居中或向右對齊",
 	"bs-distributionconnector-videodropletinspector-container-label": "帶框",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "按鈕文字",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "外掛名稱"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "外掛名稱",
+	"droplets-subpages-bullets-label": "項目符號",
+	"droplets-subpages-bullets-help": "「否」刪除項目符號",
+	"droplets-map-center-label": "焦點",
+	"droplets-create-input-placeholder-label": "占位文字",
+	"bs-distributionconnector-pref-pluggableauth-config-data-object": "資料物件（JSON）"
 }
