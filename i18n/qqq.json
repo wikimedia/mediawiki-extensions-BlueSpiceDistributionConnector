@@ -3,6 +3,7 @@
 		"authors": [
 			"Ajeje Brazorf",
 			"Amire80",
+			"Kizule",
 			"McDutchie",
 			"Robby",
 			"Vlad5250",
@@ -12,8 +13,8 @@
 	"bs-distributionconnector-extension-description": "description of distributionconnector extensio",
 	"bs-distributionconnector-yourdomainname": "Inputfield for domain on Userlogin for mobiletemplate",
 	"bs-distributionconnector-flyout-hitcounters-text": "The Text for number of times the page has been viewed.",
-	"bs-distributionconnector-ve-categorytreeinpector-title": "Title of the Inspector for CategoryTree",
-	"bs-distributionconnector-ve-categorytree-title": "Title of the Inspector for CategoryTree",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "{{optional|CategoryTree is the name of the extension}}\nTitle of the Inspector for CategoryTree",
+	"bs-distributionconnector-ve-categorytree-title": "{{optional|CategoryTree is the name of the extension}}\nTitle of the Inspector for CategoryTree",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Form label for CategorTree Mode",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Form label for CategorTree Depth",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Form label for CategorTree Hide root",
