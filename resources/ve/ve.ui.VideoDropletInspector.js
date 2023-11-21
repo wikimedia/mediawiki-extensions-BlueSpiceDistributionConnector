@@ -50,6 +50,8 @@ ve.ui.VideoDropletInspector.prototype.initialize = function () {
 	this.form.$element.append(
 		this.indexLayout.$element
 	);
+
+	this.defaultService = 'YouTube';
 };
 
 ve.ui.VideoDropletInspector.prototype.createFields = function () {
@@ -67,12 +69,16 @@ ve.ui.VideoDropletInspector.prototype.createFields = function () {
 		} );
 		serviceData.push( item );
 	}
+
 	this.serviceInput = new OO.ui.DropdownWidget( {
 		menu: {
 			items: serviceData
 		}
 	} );
-	this.serviceInput.getMenu().selectItemByData( 'youtube' );
+
+	if ( services.includes( this.defaultService ) ) {
+		this.serviceInput.getMenu().selectItemByData( this.defaultService );
+	}
 
 	this.descriptionInput = new OO.ui.MultilineTextInputWidget( {
 		rows: 2,
@@ -117,7 +123,6 @@ ve.ui.VideoDropletInspector.prototype.setLayouts = function () {
 		label: mw.message( 'bs-distributionconnector-videodropletinspector-service-label' ).plain(),
 		help: mw.message( 'bs-distributionconnector-videodropletinspector-service-help' ).plain()
 	});
-
 	this.descriptionLayout = new OO.ui.FieldLayout( this.descriptionInput, {
 		align: 'left',
 		label: mw.message( 'bs-distributionconnector-videodropletinspector-description-label' ).plain(),
@@ -147,7 +152,8 @@ ve.ui.VideoDropletInspector.prototype.getSetupProcess = function ( data ) {
 	return ve.ui.VideoDropletInspector.super.prototype.getSetupProcess.call( this, data )
 		.next( function () {
 			var attributes = this.selectedNode.getAttribute( 'mw' ).attrs;
-			this.serviceInput.getMenu().selectItemByData( attributes.service || 'youtube' );
+
+			this.serviceInput.getMenu().selectItemByData( attributes.service || this.defaultService );
 
 			if ( attributes.description ) {
 				this.descriptionInput.setValue( attributes.description );
