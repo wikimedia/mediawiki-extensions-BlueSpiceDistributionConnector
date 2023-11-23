@@ -5,8 +5,10 @@
 		"description": "The root of the startpage structure",
 		"target_title": "Help:Startpage Team",
 		"content_path": "/pages/Help/Startpage_Team.wiki",
-		"sha1": "ca4bda68d7a750f34766f3591a03f92c2c1973d5",
-		"old_sha1": []
+		"sha1": "5db51ebc5e41ec27582a66003c558aa395f4259f",
+		"old_sha1": [
+			"ca4bda68d7a750f34766f3591a03f92c2c1973d5"
+		]
 	},
 	"Help:Startpage_Team/Contact_info": {
 		"lang": "en",
