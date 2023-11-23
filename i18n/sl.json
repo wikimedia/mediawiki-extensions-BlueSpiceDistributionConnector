@@ -197,5 +197,11 @@
 	"bs-distributionconnector-videodropletinspector-alignment-center": "usredinjeno",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "desno",
 	"bs-distributionconnector-videodropletinspector-container-label": "Uokvirjeno",
-	"bs-distributionconnector-videodropletinspector-container-help": "Če je izbrano, bo video prikazan kot sličica"
+	"bs-distributionconnector-videodropletinspector-container-help": "Če je izbrano, bo video prikazan kot sličica",
+	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Podatkovni objekt (JSON)",
+	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Oznaka gumba",
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Ime vtičnika",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Ali naj se prijava izvede samodejno, ko uporabnik obišče viki?",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Omogoča samodejno prijavo v viki",
+	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Nastavitve skupinske sinhronizacije (JSON)"
 }

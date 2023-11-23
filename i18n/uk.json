@@ -3,6 +3,7 @@
 		"authors": [
 			"DDPAT",
 			"Ice bulldog",
+			"Marvire",
 			"Piramidion",
 			"Samflint",
 			"Ата",
@@ -118,5 +119,9 @@
 	"action-duplicate": "дублювати сторінку",
 	"bs-distributionconnector-pref-eventbus-eventservices-help": "Визначені служби для розширення \"EventBus\", яке поширює зміни стану (редагування, переміщення, видалення, перегляд видимості тощо) до служби подій RESTful, надаючи споживачам служби засоби відстеження змін у вмісті MediaWiki",
 	"bs-distributionconnector-statistics-report-page-hits-relation": "Відвідування сторінок у відношенні",
-	"bs-distributionconnector-workflows-ui-trigger-field-days": "Зміщення днів від дати у властивості"
+	"bs-distributionconnector-workflows-ui-trigger-field-days": "Зміщення днів від дати у властивості",
+	"droplets-circled-number-bg-color-label": "Колір тла",
+	"droplets-circled-number-fg-color-label": "Колір переднього плану",
+	"droplets-circled-number-label": "Число",
+	"droplets-subpages-namespace-label": "Простір назв"
 }

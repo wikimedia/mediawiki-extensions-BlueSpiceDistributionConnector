@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Albertoleoncio",
 			"Dianakc",
 			"Duke of Wikipädia",
 			"Eduardo Addad de Oliveira",
@@ -9,7 +10,9 @@
 			"Juan90264",
 			"Mello25",
 			"Re demz",
-			"Trooper57"
+			"Trooper57",
+			"VasbXBR",
+			"YuriNikolai"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Conecta o BlueSpice a várias extensões do MediaWiki",
@@ -172,5 +175,14 @@
 	"droplets-buttonlink-desc": "Link que é estalizado como um botão",
 	"droplets-buttonlink-format-blue": "azul",
 	"droplets-buttonlink-format-neutral": "branco",
-	"droplets-buttonlink-format-red": "vermelho"
+	"droplets-buttonlink-format-red": "vermelho",
+	"droplets-map-center-map-label": "Centro do mapa",
+	"droplets-create-input-alignment-center-label": "centro",
+	"droplets-categorytree-description": "Categorias selecionadas são mostradas em uma estrutura de árvore",
+	"bs-distributionconnector-videodropletinspector-title": "Vídeo",
+	"bs-distributionconnector-videodropletinspector-description-label": "Descrição",
+	"bs-distributionconnector-videodropletinspector-dimension-label": "Dimensão",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "esquerda",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "direita",
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nome do plugin"
 }

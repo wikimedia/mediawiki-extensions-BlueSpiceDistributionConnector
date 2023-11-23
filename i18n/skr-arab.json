@@ -39,5 +39,7 @@
 	"bs-distributionconnector-videodropletinspector-alignment-left": "کھبا",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "ادھ وچ",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "سڄا",
-	"bs-distributionconnector-videodropletinspector-dimension-label": "پاسے"
+	"bs-distributionconnector-videodropletinspector-dimension-label": "پاسے",
+	"bs-distributionconnector-pref-pluggableauth-config-button-label": "بٹݨ لیبل",
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "پلگ ان ناں"
 }

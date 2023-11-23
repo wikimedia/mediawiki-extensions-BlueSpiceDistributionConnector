@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piano1forte2"
+		]
+	},
+	"droplets-circled-number-bg-color-label": "Background colour",
+	"droplets-circled-number-fg-color-label": "Foreground colour",
+	"droplets-buttonlink-format-label": "Background colour",
+	"droplets-circled-number-description": "Number in a circle with customisable colour"
+}

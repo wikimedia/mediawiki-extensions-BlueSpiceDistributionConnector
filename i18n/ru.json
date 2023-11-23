@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Butko",
 			"DDPAT",
 			"Gulka.nik",
 			"Ice bulldog",
@@ -9,6 +10,7 @@
 			"Okras",
 			"Pacha Tchernof",
 			"PlushBoy",
+			"Rich Flight22",
 			"WindEwriX",
 			"Артём 13327"
 		]
@@ -114,5 +116,35 @@
 	"droplets-subpages-name": "Подстраницы",
 	"droplets-video-name": "Видео",
 	"bs-distributionconnector-extension-description": "Подключает BlueSpice к различным расширениям MediaWiki.",
-	"droplets-map-center-map-label": "Центр карты"
+	"droplets-map-center-map-label": "Центр карты",
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Тайм-аут",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "все",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "ничего",
+	"droplets-circled-number-fg-color-label": "Цвет текста",
+	"droplets-circled-number-label": "Число",
+	"droplets-subpages-parentpage-label": "Родительская страница",
+	"droplets-subpages-cols-label": "Расположение столбцов",
+	"droplets-buttonlink-label-label": "Текст на кнопке",
+	"droplets-buttonlink-format-blue": "синий",
+	"droplets-buttonlink-format-neutral": "белый",
+	"droplets-buttonlink-format-red": "красный",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Количество просмотров страницы",
+	"droplets-create-input-button-label": "Текст на кнопке",
+	"droplets-create-input-alignment-label": "Выравнивание",
+	"droplets-create-input-alignment-left-label": "слева",
+	"droplets-create-input-alignment-right-label": "справа",
+	"droplets-create-input-alignment-center-label": "по центру",
+	"droplets-create-input-name": "Создать страницу",
+	"droplets-pdf-link-template-label": "шаблон PDF",
+	"droplets-pdf-link-link-label": "Метка ссылки",
+	"droplets-pdflink-name": "PDF-ссылка",
+	"bs-distributionconnector-videodropletinspector-title": "Видео",
+	"bs-distributionconnector-videodropletinspector-description-label": "Описание",
+	"bs-distributionconnector-videodropletinspector-alignment-label": "Выравнивание",
+	"bs-distributionconnector-videodropletinspector-alignment-left": "слева",
+	"bs-distributionconnector-videodropletinspector-alignment-center": "по центру",
+	"bs-distributionconnector-videodropletinspector-alignment-right": "справа",
+	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Объект данных (JSON)",
+	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Метка кнопки",
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Название плагина"
 }

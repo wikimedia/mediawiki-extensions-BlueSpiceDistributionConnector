@@ -4,6 +4,8 @@
 			"AA800",
 			"Alshamiri1",
 			"FiberAhmed",
+			"Hubaishan",
+			"LaMagiaaa",
 			"Michel Bakni",
 			"Mohanad Kh",
 			"Omda4wady",
@@ -131,7 +133,7 @@
 	"bs-distributionconnector-workflows-ui-trigger-field-days": "أيام الإزاحة من التاريخ في الممتلكات",
 	"workflows-triggers-type-time-smw-prop-desc": "قم بتشغيل سير عمل بناءً على تاريخ من خاصية دلالية",
 	"workflows-triggers-type-time-smw-prop-label": "بناء على خاصية دلالية",
-	"bs-distributionconnector-invite-signup-dialog-title": "قم بدعوة المستخدم",
+	"bs-distributionconnector-invite-signup-dialog-title": "ادعُ المستخدم",
 	"action-duplicate": "صفحة مكررة",
 	"bs-distributionconnector-statistics-report-page-hits-relation": "زيارات الصفحة فيما يتعلق",
 	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "زيارات الصفحة فيما يتعلق بإجمالي الزيارات",
@@ -199,5 +201,6 @@
 	"bs-distributionconnector-checkpermissions-success": "[[المستخدم: $1 | تم منح $1 ] الإذن \" $2 \" من أجل [[ $3 ]]",
 	"bs-distributionconnector-workflows-ui-trigger-field-property": "الخاصية الدلالية (من النوع: التاريخ)",
 	"right-duplicate": "صفحات مكررة",
-	"droplets-subpages-bullets-help": "\"لا\" يزيل النقاط"
+	"droplets-subpages-bullets-help": "\"لا\" يزيل النقاط",
+	"bs-distributionconnector-videodropletinspector-alignment-label": "المحاذاة"
 }
