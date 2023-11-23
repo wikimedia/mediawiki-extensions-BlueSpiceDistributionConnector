@@ -1,4 +1,4 @@
-<!--<templatestyles src="Startpage/styles.css" />-->
+<templatestyles src="Startpage/styles.css" />
 = Welcome team! =
 <div id="startpage">
 <!--start container-->
