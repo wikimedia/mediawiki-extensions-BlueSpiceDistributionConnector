@@ -25,8 +25,8 @@ class AddEmbedVideoServices extends BeforePageDisplay {
 	protected function doProcess(): bool {
 		$services = EmbedServiceFactory::getAvailableServices();
 		$this->out->addJsConfigVars( [
-			'bsgEmbedVideoServices' => array_map( function ( $serviceClass ) {
-				$reflect = new ReflectionClass($serviceClass);
+			'bsgEmbedVideoServices' => array_map( static function ( $serviceClass ) {
+				$reflect = new ReflectionClass( $serviceClass );
 				return $reflect->getShortName();
 			}, $services )
 		] );
