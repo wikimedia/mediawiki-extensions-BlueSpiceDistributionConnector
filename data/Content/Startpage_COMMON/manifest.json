@@ -68,8 +68,10 @@
 		"description": "Start of image cards section",
 		"target_title": "Template:Image cards/start",
 		"content_path": "/pages/Template/Image_cardsstart.wiki",
-		"sha1": "c2cf7a8d3dff7a44e2b7966d4ca2719a31047ee7",
-		"old_sha1": []
+		"sha1": "b2f6dfb0188fa81cb4f62b98e78ee46dcfbe96a7",
+		"old_sha1": [
+			"c2cf7a8d3dff7a44e2b7966d4ca2719a31047ee7"
+		]
 	},
 	"Template:Image_cards/styles.css": {
 		"lang": "en",
@@ -77,8 +79,10 @@
 		"description": "CSS for the image cards",
 		"target_title": "Template:Image cards/styles.css",
 		"content_path": "/pages/Template/Image_cardsstyles.css.wiki",
-		"sha1": "d4abf03c13b52f79f4334f1377c90d1bbdbf7cf8",
-		"old_sha1": []
+		"sha1": "1057f15ae5899a16a44b6454c2d0c9ecc7feae79",
+		"old_sha1": [
+			"d4abf03c13b52f79f4334f1377c90d1bbdbf7cf8"
+		]
 	},
 	"Template:Startpage": {
 		"lang": "en",
@@ -126,10 +130,10 @@
 		"old_sha1": []
 	},
 	"Template:Dropdown/de/styles.css": {
-		"lang": "en",
+		"lang": "de",
 		"label": "Dropdown styles",
 		"description": "Styles for the dropdown template",
-		"target_title": "Template:Dropdown/de/styles.css",
+		"target_title": "Template:Dropdown/styles.css",
 		"content_path": "/pages/Template/Dropdowndestyles.css.wiki",
 		"sha1": "dc55c4a3e484bc8a5b722e870c860d77f7131f69",
 		"old_sha1": []
@@ -165,7 +169,7 @@
 		"lang": "de",
 		"label": "Bannerbox Vorlage",
 		"description": "Eine Vorlage f\u00fcr einen Banner",
-		"target_title": "Template:Bannerbox/de",
+		"target_title": "Template:Bannerbox",
 		"content_path": "/pages/Template/Bannerboxde.wiki",
 		"sha1": "15901720bfd0a6d72e4d4031a675e566206c3040",
 		"old_sha1": []
@@ -174,7 +178,7 @@
 		"lang": "de",
 		"label": "Banner Vorlage Styles",
 		"description": "CSS f\u00fcr einen Banner",
-		"target_title": "Template:Bannerbox/de/styles.css",
+		"target_title": "Template:Bannerbox/styles.css",
 		"content_path": "/pages/Template/Bannerboxdestyles.css.wiki",
 		"sha1": "fa67a1afc80d3d17702da832116301120f3870c0",
 		"old_sha1": []
@@ -203,8 +207,10 @@
 		"description": "Eine Vorlage f\u00fcr den Anfang eines Bildkartenabschnitts",
 		"target_title": "Template:Bildkarten/start",
 		"content_path": "/pages/Template/Bildkartenstart.wiki",
-		"sha1": "15c0b5748c7dd4c3be042b3a5bf0647b3db8d8e8",
-		"old_sha1": []
+		"sha1": "15ef1ec003ee9452364fdad11b773561f5f2f836",
+		"old_sha1": [
+			"15c0b5748c7dd4c3be042b3a5bf0647b3db8d8e8"
+		]
 	},
 	"Template:Bildkarten/styles.css": {
 		"lang": "de",
@@ -212,8 +218,10 @@
 		"description": "CSS f\u00fcr einen Bildkartenabschnitt",
 		"target_title": "Template:Bildkarten/styles.css",
 		"content_path": "/pages/Template/Bildkartenstyles.css.wiki",
-		"sha1": "71e3aee3075688b58dda7b0eb537851d81fe6e12",
-		"old_sha1": []
+		"sha1": "354faaa03cf50b68b8290ad543adeeac2a1576fe",
+		"old_sha1": [
+			"71e3aee3075688b58dda7b0eb537851d81fe6e12"
+		]
 	},
 	"Template:Startseite": {
 		"lang": "de",
