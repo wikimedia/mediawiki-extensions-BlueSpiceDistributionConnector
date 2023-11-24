@@ -1,3 +1,6 @@
+/*BS 4.3x fontawesome support for use in templates*/
+.facss{height:1px; overflow:hidden; display:block}
+
 /*all sizes */
 .imgcard {display:flex; gap:20px; margin-bottom:10px;}
 .imgcard > div,.ve-ce-branchNode .imgcard > div {background:#f1f3f9; text-align:center; border-radius:5px; outline:1px solid #f1f3f9; overflow:hidden}
