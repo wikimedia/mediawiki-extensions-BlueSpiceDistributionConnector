@@ -193,6 +193,7 @@
 	"bs-distributionconnector-videodropletinspector-alignment-label": "المحاذاة",
 	"bs-distributionconnector-videodropletinspector-alignent-help": "قم بمحاذاة الفيديو إلى اليسار أو الوسط أو اليمين",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "يسار",
+	"bs-distributionconnector-videodropletinspector-alignment-center": "توسيط",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "يمين",
 	"bs-distributionconnector-videodropletinspector-container-label": "مؤطر",
 	"bs-distributionconnector-videodropletinspector-container-help": "إذا تم تحديده ، فسيتم عرض الفيديو في صورة مصغرة"
