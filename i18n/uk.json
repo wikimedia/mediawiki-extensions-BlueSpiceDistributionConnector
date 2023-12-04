@@ -123,5 +123,12 @@
 	"droplets-circled-number-bg-color-label": "Колір тла",
 	"droplets-circled-number-fg-color-label": "Колір переднього плану",
 	"droplets-circled-number-label": "Число",
-	"droplets-subpages-namespace-label": "Простір назв"
+	"droplets-subpages-namespace-label": "Простір назв",
+	"bs-distributionconnector-pref-eventbus-enableeventbus": "Увімкнути EventBus для наступних подій",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-help": "Вмикає EventBus для вибраних подій.",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "усі",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "жодна",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault": "Служба подій за замовчуванням",
+	"droplets-video-description": "Вставляє відео з різних платформ",
+	"droplets-pdflink-name": "PDF посилання"
 }
