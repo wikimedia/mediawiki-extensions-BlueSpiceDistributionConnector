@@ -132,14 +132,6 @@
 				"ext.bluespice.distribution.categoryTree.visualEditor"
 			]
 		},
-		"BlueSpiceArticleInfo": {
-			"FlyoutModules": {
-				"hitcounters": {
-					"module": "ext.bluespice.hitcounters.flyout",
-					"make-items-callback": "bs.hitcounters.flyout.makeItems"
-				}
-			}
-		},
 		"Workflows": {
 			"WorkflowDefinitions": {
 				"user-approval": "BlueSpiceDistributionConnector/workflow/UserApproval.bpmn",
@@ -237,18 +229,6 @@
 		"ext.bluespice.distribution.styles": {
 			"styles": [
 				"bluespice.distribution.less"
-			]
-		},
-		"ext.bluespice.hitcounters.flyout": {
-			"scripts": [
-				"bluespice.hitcounters.flyout.js"
-			],
-			"messages": [
-				"bs-distributionconnector-flyout-hitcounters-text"
-			],
-			"dependencies": [
-				"ext.bluespice",
-				"ext.bluespice.extjs"
 			]
 		},
 		"ext.bluespice.distribution.categoryTree.visualEditor": {
@@ -530,7 +510,6 @@
 	"Hooks": {
 		"BeforePageDisplay": [
 			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddResources::callback",
-			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddHitCounters::callback",
 			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddEmbedVideoServices::callback"
 		],
 		"OutputPageBodyAttributes": "\\BlueSpice\\DistributionConnector\\Hook\\OutputPageBodyAttributes\\InitRcFilters::onOutputPageBodyAttributes",
