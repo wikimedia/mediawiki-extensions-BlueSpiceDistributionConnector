@@ -37,5 +37,13 @@
 	"droplets-subpages-name": "Podstrony",
 	"bs-distributionconnector-videodropletinspector-description-label": "Opis",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Etykieta przycisku",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nazwa wtyczki"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nazwa wtyczki",
+	"bs-distributionconnector-setting-path-authentication": "Uwierzytelnianie",
+	"bs-distributionconnector-workflows-form-username": "Użytkownik",
+	"bs-sandbox": "Brudnopis",
+	"droplets-circled-number-bg-color-label": "Kolor tła",
+	"droplets-create-input-alignment-label": "Wyrównanie",
+	"droplets-categorytree-name": "Drzewo kategorii",
+	"droplets-gallery-name": "Galeria",
+	"bs-distributionconnector-videodropletinspector-alignment-label": "Wyrównanie"
 }
