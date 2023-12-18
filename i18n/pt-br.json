@@ -8,6 +8,7 @@
 			"Eduardoaddad",
 			"Fúlvio",
 			"Juan90264",
+			"Juwan",
 			"Mello25",
 			"Re demz",
 			"Trooper57",
@@ -184,5 +185,8 @@
 	"bs-distributionconnector-videodropletinspector-dimension-label": "Dimensão",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "esquerda",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "direita",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nome do plugin"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nome do plugin",
+	"bs-distributionconnector-pref-eventbus-enableeventbus": "Ativar EventBus para os seguintes eventos",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-help": "Ativar EventBus para os eventos selecionados.",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault": "Serviço de evento predeterminado"
 }
