@@ -11,6 +11,7 @@
 			"Francodiaz7",
 			"Ihojose",
 			"Jakeukalane",
+			"Jmabel",
 			"Joanmp17",
 			"MarcoAurelio",
 			"Mnivar",
@@ -184,5 +185,6 @@
 	"bs-distributionconnector-videodropletinspector-dimension-label": "Dimensión",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "izquierda",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "Centrado",
-	"bs-distributionconnector-videodropletinspector-alignment-right": "derecha"
+	"bs-distributionconnector-videodropletinspector-alignment-right": "derecha",
+	"droplets-create-input-alignment-center-label": "centro"
 }
