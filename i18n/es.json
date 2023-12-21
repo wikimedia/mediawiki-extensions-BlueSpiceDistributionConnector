@@ -11,6 +11,7 @@
 			"Francodiaz7",
 			"Ihojose",
 			"Jakeukalane",
+			"Jmabel",
 			"Joanmp17",
 			"MarcoAurelio",
 			"Mnivar",
@@ -184,5 +185,6 @@
 	"bs-distributionconnector-videodropletinspector-alignment-right": "derecha",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Objeto de datos (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Etiqueta de botón",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nombre de complemento"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nombre de complemento",
+	"droplets-create-input-alignment-center-label": "centro"
 }
