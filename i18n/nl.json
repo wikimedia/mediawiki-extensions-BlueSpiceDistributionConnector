@@ -200,7 +200,7 @@
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Gegevensobject (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Knoplabel",
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Naam plug-in",
-	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Moet inloggen automatisch plaatsvinden wanneer een gebruiker de wiki bezoekt?",
-	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Maakt automatisch inloggen op de wiki mogelijk",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Moet het aanmelden automatisch plaatsvinden wanneer een gebruiker de wiki bezoekt?",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Maakt automatisch aanmelden bij de wiki mogelijk",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Instellingen voor groepssynchronisatie (JSON)"
 }
