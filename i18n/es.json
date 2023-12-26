@@ -186,5 +186,8 @@
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Objeto de datos (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Etiqueta de botón",
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nombre de complemento",
-	"droplets-create-input-alignment-center-label": "centro"
+	"droplets-create-input-alignment-center-label": "centro",
+	"droplets-circled-number-name": "Número encerrado en un círculo",
+	"droplets-circled-number-description": "Número encerrado en un círculo con color personalizable",
+	"bs-distributionconnector-videodropletinspector-alignment-label": "Alineación"
 }
