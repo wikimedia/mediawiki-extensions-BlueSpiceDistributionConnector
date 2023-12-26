@@ -186,5 +186,8 @@
 	"bs-distributionconnector-videodropletinspector-alignment-left": "izquierda",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "Centrado",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "derecha",
-	"droplets-create-input-alignment-center-label": "centro"
+	"droplets-create-input-alignment-center-label": "centro",
+	"droplets-circled-number-name": "Número encerrado en un círculo",
+	"droplets-circled-number-description": "Número encerrado en un círculo con color personalizable",
+	"bs-distributionconnector-videodropletinspector-alignment-label": "Alineación"
 }
