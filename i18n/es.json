@@ -16,6 +16,7 @@
 			"MarcoAurelio",
 			"Mnivar",
 			"Reverse88",
+			"Rodney Araujo",
 			"SpikeShroom",
 			"Warming Hearth",
 			"Whovian Biologist"
@@ -189,5 +190,7 @@
 	"droplets-create-input-alignment-center-label": "centro",
 	"droplets-circled-number-name": "Número encerrado en un círculo",
 	"droplets-circled-number-description": "Número encerrado en un círculo con color personalizable",
-	"bs-distributionconnector-videodropletinspector-alignment-label": "Alineación"
+	"bs-distributionconnector-videodropletinspector-alignment-label": "Alineación",
+	"droplets-map-center-map-label": "Centro del mapa",
+	"droplets-map-center-map-label-help": "Ubicación que está en el centro del mapa. Por ejemplo: Ratisbona, Alemania"
 }
