@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Fahimrazick",
 			"Sridhar G"
 		]
 	},
@@ -9,6 +10,6 @@
 	"droplets-create-input-alignment-label": "ஒழுங்கமை",
 	"droplets-create-input-alignment-left-label": "இடது",
 	"droplets-create-input-alignment-right-label": "வலது",
-	"droplets-create-input-name": "பக்கத்தை உருவாக்கவும்",
+	"droplets-create-input-name": "பக்கத்தை ஆக்கு",
 	"droplets-create-input-desc": "முன் வரையறுக்கப்பட்ட பக்க உருவாக்கத்திற்கான படிவப் புலம்"
 }
