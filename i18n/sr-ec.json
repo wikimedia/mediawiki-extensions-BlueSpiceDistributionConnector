@@ -6,13 +6,9 @@
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "Ваш домен",
-	"bs-distributionconnector-flyout-hitcounters-text": "Број прегледа",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Режим",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Дубина",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Именски простор",
-	"bs-distributionconnector-collection-type-hitcounter": "Прегледи странице",
-	"bs-distributionconnector-collection-var-pagetitle": "Наслов странице",
-	"bs-distributionconnector-collection-var-numberhits": "Погодци",
 	"bs-distributionconnector-setting-path-authentication": "Аутентификација",
 	"bs-distributionconnector-pref-openidconnect-config": "Провајдер",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Користи право име као корисничко име",

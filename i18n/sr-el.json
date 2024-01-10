@@ -3,13 +3,9 @@
 		"authors": []
 	},
 	"bs-distributionconnector-yourdomainname": "Vaš domen",
-	"bs-distributionconnector-flyout-hitcounters-text": "Broj pregleda",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Režim",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Dubina",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Imenski prostor",
-	"bs-distributionconnector-collection-type-hitcounter": "Pregledi stranice",
-	"bs-distributionconnector-collection-var-pagetitle": "Naslov stranice",
-	"bs-distributionconnector-collection-var-numberhits": "Pogodci",
 	"bs-distributionconnector-setting-path-authentication": "Autentikacija",
 	"bs-distributionconnector-pref-openidconnect-config": "Provajder",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Koristi pravo ime kao korisničko ime",

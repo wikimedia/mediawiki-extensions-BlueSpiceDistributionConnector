@@ -5,7 +5,6 @@
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "Хьан домен",
-	"bs-distributionconnector-flyout-hitcounters-text": "Хьовсаран дукхалла",
 	"bs-distributionconnector-ve-categorytreeinpector-title": "Категорин дитта",
 	"bs-distributionconnector-ve-categorytree-title": "Категорин дитта",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Раж",
@@ -15,8 +14,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Къайлайаккха префикс",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "ЦӀерийн меттиг",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS тег",
-	"bs-distributionconnector-collection-type-hitcounter": "АгӀонашка хьовсийна",
-	"bs-distributionconnector-collection-var-pagetitle": "АгӀонан корта",
 	"bs-distributionconnector-setting-path-authentication": "Аутентификаци",
 	"bs-distributionconnector-pref-openidconnect-config": "Провайдер",
 	"bs-distributionconnector-pref-openidconnect-forcelogout": "Ницкъбина арабовлар",

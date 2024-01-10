@@ -11,7 +11,6 @@
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "دامنهٔ شما",
-	"bs-distributionconnector-flyout-hitcounters-text": "شمار بازدیدها",
 	"bs-distributionconnector-ve-categorytreeinpector-title": "درخت رده",
 	"bs-distributionconnector-ve-categorytree-title": "درخت رده",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "حالت",
@@ -21,9 +20,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "نهفتن پیشوند",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "فضای نام",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "برچسب استایل سی‌اس‌اس",
-	"bs-distributionconnector-collection-type-hitcounter": "بازدیدهای صفحه",
-	"bs-distributionconnector-collection-var-pagetitle": "عنوان صفحه",
-	"bs-distributionconnector-collection-var-numberhits": "برخوردها",
 	"bs-distributionconnector-setting-path-authentication": "اعتبارسنجی",
 	"bs-distributionconnector-pref-openidconnect-config": "ارائه‌دهنده",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "استفاده از نام واقعی به‌عنوان نام کاربری",

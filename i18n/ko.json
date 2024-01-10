@@ -7,7 +7,6 @@
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "내 도메인",
-	"bs-distributionconnector-flyout-hitcounters-text": "조회수",
 	"bs-distributionconnector-ve-categorytreeinpector-title": "분류트리",
 	"bs-distributionconnector-ve-categorytree-title": "분류트리",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "모드",
@@ -17,8 +16,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "접두사 숨기기",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "이름공간",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS 스타일 태그",
-	"bs-distributionconnector-collection-type-hitcounter": "문서 조회수",
-	"bs-distributionconnector-collection-var-pagetitle": "문서 제목",
 	"bs-distributionconnector-setting-path-authentication": "인증",
 	"bs-distributionconnector-pref-openidconnect-config": "제공자",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "실명을 사용자 이름으로 사용",
