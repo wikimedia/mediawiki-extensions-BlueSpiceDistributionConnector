@@ -203,5 +203,6 @@
 	"right-duplicate": "صفحات مكررة",
 	"droplets-subpages-bullets-help": "\"لا\" يزيل النقاط",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "المحاذاة",
-	"bs-distributionconnector-videodropletinspector-alignment-center": "توسيط"
+	"bs-distributionconnector-videodropletinspector-alignment-center": "توسيط",
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "اسم الإضافة"
 }
