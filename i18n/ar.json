@@ -192,5 +192,6 @@
 	"bs-distributionconnector-videodropletinspector-alignment-center": "توسيط",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "يمين",
 	"bs-distributionconnector-videodropletinspector-container-label": "مؤطر",
-	"bs-distributionconnector-videodropletinspector-container-help": "إذا تم تحديده ، فسيتم عرض الفيديو في صورة مصغرة"
+	"bs-distributionconnector-videodropletinspector-container-help": "إذا تم تحديده ، فسيتم عرض الفيديو في صورة مصغرة",
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "اسم الإضافة"
 }
