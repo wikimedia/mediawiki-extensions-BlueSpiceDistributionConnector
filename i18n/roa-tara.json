@@ -39,7 +39,21 @@
 	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "Nome de l'attrebbute pe \"group\"",
 	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "Nome de l'attrebbute pe \"username\"",
 	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "Visite sus 'a pàgene",
+	"bs-distributionconnector-workflows-form-groupname": "Gruppe",
+	"bs-distributionconnector-workflows-form-instructions": "'Struziune",
+	"bs-distributionconnector-workflows-form-username": "Utende",
+	"bs-distributionconnector-workflows-form-expert-user": "Esperte",
+	"bs-distributionconnector-workflows-form-comment": "Commende",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Commende",
+	"bs-distributionconnector-workflows-form-label-editor": "Cangiatore",
 	"workflows-workflow-file-definition-group-feedback-title": "Segnalazione d'u gruppe",
-	"workflows-workflow-file-definition-user-approval-title": "Approvazione de l'utende",
-	"workflows-workflow-file-definition-user-feedback-title": "Segnalazione de l'utende"
+	"workflows-workflow-file-definition-user-approval-title": "Approvazione de l'utende singole",
+	"workflows-workflow-file-definition-user-feedback-title": "Segnalazione de l'utende singole",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "tutte",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "ninde",
+	"bs-distributionconnector-checkpermissions-label-user": "Utende",
+	"bs-distributionconnector-checkpermissions-label-permission": "Permesse",
+	"bs-distributionconnector-checkpermissions-label-title": "Titole",
+	"droplets-circled-number-label": "Numere",
+	"droplets-subpages-namespace-label": "Namespace"
 }
