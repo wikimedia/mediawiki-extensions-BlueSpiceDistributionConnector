@@ -60,6 +60,20 @@
 	"workflows-workflow-file-definition-revision-control-title": "Condrolle d'a revisione",
 	"workflows-workflow-file-definition-six-eyes-principle-title": "Pringipie de le sei uecchije",
 	"workflows-workflow-file-definition-three-step-approval-title": "Approvazione 'a tre stuèzze",
-	"workflows-workflow-file-definition-user-approval-title": "Approvazione de l'utende",
-	"workflows-workflow-file-definition-user-feedback-title": "Segnalazione de l'utende"
+	"workflows-workflow-file-definition-user-approval-title": "Approvazione de l'utende singole",
+	"workflows-workflow-file-definition-user-feedback-title": "Segnalazione de l'utende singole",
+	"bs-distributionconnector-workflows-form-groupname": "Gruppe",
+	"bs-distributionconnector-workflows-form-instructions": "'Struziune",
+	"bs-distributionconnector-workflows-form-username": "Utende",
+	"bs-distributionconnector-workflows-form-expert-user": "Esperte",
+	"bs-distributionconnector-workflows-form-comment": "Commende",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Commende",
+	"bs-distributionconnector-workflows-form-label-editor": "Cangiatore",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "tutte",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "ninde",
+	"bs-distributionconnector-checkpermissions-label-user": "Utende",
+	"bs-distributionconnector-checkpermissions-label-permission": "Permesse",
+	"bs-distributionconnector-checkpermissions-label-title": "Titole",
+	"droplets-circled-number-label": "Numere",
+	"droplets-subpages-namespace-label": "Namespace"
 }
