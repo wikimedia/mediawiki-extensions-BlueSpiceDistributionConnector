@@ -527,7 +527,8 @@
 		"WikiExplorer::buildDataSets": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onBuildDataSets",
 		"UserLoggedIn": "BlueSpice\\DistributionConnector\\Hook\\UserLoggedIn\\AddLoginNotification::onUserLoggedIn",
 		"BSUserManagerRegisterModules": "user-manager",
-		"MWStakeCommonUIRegisterSkinSlotComponents": "addGlobalAction"
+		"MWStakeCommonUIRegisterSkinSlotComponents": "addGlobalAction",
+		"SkinTemplateNavigation::Universal": "addNewPageLink"
 	},
 	"HookHandlers": {
 		"user-manager": {
@@ -542,6 +543,10 @@
 		"addGlobalAction": {
 			"class": "\\BlueSpice\\DistributionConnector\\Hook\\AddGlobalAction",
 			"services": [ "SpecialPageFactory" ]
+		},
+		"addNewPageLink": {
+			"class": "\\BlueSpice\\DistributionConnector\\Hook\\SkinTemplateNavigation\\AddNewPageLink",
+			"services": [ "PermissionManager" ]
 		}
 	},
 	"manifest_version": 2
