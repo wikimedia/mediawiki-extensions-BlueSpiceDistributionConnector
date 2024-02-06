@@ -30,6 +30,15 @@ class AddGlobalAction implements MWStakeCommonUIRegisterSkinSlotComponents {
 		}
 
 		$special = $this->specialPageFactory->getPage( 'ReplaceText' );
+
+		// Check if the user has the necessary permissions to access the special page
+		// If not, do not register the link
+		try {
+			$special->checkPermissions();
+		} catch ( \PermissionsError $e ) {
+			return;
+		}
+
 		$registry->register(
 			'GlobalActionsEditing',
 			[
