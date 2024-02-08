@@ -25,7 +25,8 @@ class BlueSpiceTitleSearch extends SearchEngine {
 			$services->getDBLoadBalancer(),
 			$services->getTitleFactory(),
 			$services->getContentLanguage(),
-			$services->getNamespaceInfo()
+			$services->getNamespaceInfo(),
+			$services->getPageProps()
 		);
 		$this->titleFactory = $services->getTitleFactory();
 		$fallbackClass = $services->getSearchEngineFactory()::getSearchEngineClass(
