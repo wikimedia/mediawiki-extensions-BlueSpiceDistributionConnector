@@ -76,15 +76,17 @@ class BlueSpiceTitleSearch extends SearchEngine {
 		$params = [
 			'limit' => $this->limit,
 			'offset' => $this->offset,
-			'filter' => [
+		];
+		if ( is_array( $this->namespaces ) && !empty( $this->namespaces ) ) {
+			$params['filter'] = [
 				[
 					'type' => 'list',
 					'value' => $this->namespaces,
 					'operator' => 'in',
 					'property' => 'namespace',
 				]
-			]
-		];
+			];
+		}
 		if ( $term ) {
 			if ( $mustStartWithTerm ) {
 				$params['filter'][] = [
