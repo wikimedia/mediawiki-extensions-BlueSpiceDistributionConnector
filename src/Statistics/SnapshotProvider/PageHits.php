@@ -103,6 +103,7 @@ class PageHits implements ISnapshotProvider {
 					$props['growth'] = 100;
 				} else {
 					$hitDiff = $props['hits'] - $previousHits;
+					$props['hitDiff'] = $hitDiff;
 					$props['growth'] = ( $hitDiff / $previousHits ) * 100;
 				}
 			}
