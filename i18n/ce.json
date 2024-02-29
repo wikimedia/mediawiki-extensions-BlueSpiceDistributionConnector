@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Исмаил Садуев",
 			"Умар"
 		]
 	},
@@ -55,7 +56,7 @@
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Сервисан цӀе",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Тайм-аут",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "йерриге",
-	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "хӀума а",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "хӀумма а",
 	"bs-distributionconnector-checkpermissions-label-user": "Декъашхо",
 	"bs-distributionconnector-checkpermissions-label-permission": "Магор",
 	"bs-distributionconnector-checkpermissions-label-title": "Корта",
