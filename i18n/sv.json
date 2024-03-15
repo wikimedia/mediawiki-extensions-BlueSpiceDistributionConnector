@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"JohanahoJ",
+			"Josve05a",
 			"Mjälten",
 			"WikiPhoenix"
 		]
@@ -31,5 +32,9 @@
 	"bs-sandbox": "Sandlåda",
 	"bs-distributionconnector-default-user-vote-report-delegated-message": "delegerad till $1",
 	"bs-distributionconnector-checkpermissions-label-title": "Titel",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Antal sidvisningar"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Antal sidvisningar",
+	"bs-distributionconnector-pref-openidconnect-useemailasusername": "Använd e-postadress som användarnamn",
+	"bs-distributionconnector-pref-openidconnect-forcelogout": "Tvinga utloggning",
+	"bs-distributionconnector-checkpermissions-label-user": "Användare",
+	"bs-distributionconnector-notification-logged-in": "Du är nu inloggad"
 }
