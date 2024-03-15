@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"JohanahoJ",
+			"Josve05a",
 			"Mjälten",
 			"WikiPhoenix"
 		]
@@ -16,6 +17,8 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Dölj prefix",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Namnrymd",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS-stiltagg",
+	"bs-distributionconnector-pref-openidconnect-useemailasusername": "Använd e-postadress som användarnamn",
+	"bs-distributionconnector-pref-openidconnect-forcelogout": "Tvinga utloggning",
 	"bs-distributionconnector-pref-openidconnect-config-name": "Visa namn",
 	"bs-distributionconnector-pref-openidconnect-config-icon": "Ikon-URL",
 	"bs-distributionconnector-workflows-form-instructions": "Instruktioner",
@@ -24,6 +27,8 @@
 	"bs-distributionconnector-workflows-form-label-editor": "Redigerare",
 	"bs-sandbox": "Sandlåda",
 	"bs-distributionconnector-default-user-vote-report-delegated-message": "delegerad till $1",
+	"bs-distributionconnector-checkpermissions-label-user": "Användare",
 	"bs-distributionconnector-checkpermissions-label-title": "Titel",
+	"bs-distributionconnector-notification-logged-in": "Du är nu inloggad",
 	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Antal sidvisningar"
 }
