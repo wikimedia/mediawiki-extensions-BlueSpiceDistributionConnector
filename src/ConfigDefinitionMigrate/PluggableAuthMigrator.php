@@ -91,7 +91,7 @@ class PluggableAuthMigrator {
 	public function migrateConfigs( array $currentPluggableAuthConfig = [] ): array {
 		$pluggableAuthConfig = $currentPluggableAuthConfig;
 
-		list( $simpleSamlPhpData, $simpleSamlPhpGroupSync ) = $this->makeSimpleSamlPhpData();
+		[ $simpleSamlPhpData, $simpleSamlPhpGroupSync ] = $this->makeSimpleSamlPhpData();
 		if ( $simpleSamlPhpData ) {
 			$pluggableAuthConfig[$this->simpleSamlPhpButtonLabel] = [
 				'plugin' => 'SimpleSAMLphp',

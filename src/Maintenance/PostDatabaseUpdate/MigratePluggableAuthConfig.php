@@ -83,7 +83,7 @@ class MigratePluggableAuthConfig extends LoggedUpdateMaintenance {
 	public function doDBUpdates() {
 		$this->db = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
 
-		list( $currentPluggableAuthConfig, $configExists ) = $this->getCurrentPluggableAuthConfig();
+		[ $currentPluggableAuthConfig, $configExists ] = $this->getCurrentPluggableAuthConfig();
 
 		// If some keys already exist in "$pluggableAuthConfig", they'll be silently overridden
 		// It should be okay since that script will be executed just after update
