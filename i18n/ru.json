@@ -12,6 +12,7 @@
 			"PlushBoy",
 			"Rich Flight22",
 			"WindEwriX",
+			"Yurina Tatiana",
 			"Артём 13327"
 		]
 	},
@@ -132,6 +133,7 @@
 	"droplets-pdflink-name": "PDF-ссылка",
 	"bs-distributionconnector-videodropletinspector-title": "Видео",
 	"bs-distributionconnector-videodropletinspector-description-label": "Описание",
+	"bs-distributionconnector-videodropletinspector-description-placeholder": "Вставить описание видео...",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "Выравнивание",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "слева",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "по центру",

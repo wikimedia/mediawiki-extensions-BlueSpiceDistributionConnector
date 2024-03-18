@@ -5,6 +5,8 @@
 			"Volvox"
 		]
 	},
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Modus",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Déift",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Nummraum",
 	"bs-distributionconnector-workflows-form-groupname": "Grupp",
 	"bs-distributionconnector-workflows-form-instructions": "Instruktiounen",
@@ -31,6 +33,7 @@
 	"bs-distributionconnector-checkpermissions-label-title": "Titel",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "de benotzte Benotzernumm ass net valabel",
 	"bs-distributionconnector-notification-logged-in": "Dir sidd elo ageloggt",
+	"droplets-buttonlink-external-label": "Externe Link",
 	"droplets-create-input-alignment-left-label": "lénks",
 	"droplets-create-input-alignment-right-label": "riets",
 	"droplets-buttonlink-name": "Knäppchen",
