@@ -46,5 +46,8 @@
 	"bs-distributionconnector-videodropletinspector-title": "Video",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "lénks",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "zentréiert",
-	"bs-distributionconnector-videodropletinspector-alignment-right": "riets"
+	"bs-distributionconnector-videodropletinspector-alignment-right": "riets",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Modus",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Déift",
+	"droplets-buttonlink-external-label": "Externe Link"
 }
