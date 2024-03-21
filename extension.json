@@ -517,7 +517,8 @@
 		"LoadExtensionSchemaUpdates": [
 			"BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\AddTemplateUserPageStandardContent::callback",
 			"migrate-pluggable-auth-config",
-			"fix-pluggable-auth-group-sync"
+			"fix-pluggable-auth-group-sync",
+			"addVariablesPageProperties"
 		],
 		"WikiExplorer::getFieldDefinitions": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onGetFieldDefinitions",
 		"WikiExplorer::getColumnDefinitions": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onGetColumnDefinitions",
@@ -525,7 +526,9 @@
 		"UserLoggedIn": "BlueSpice\\DistributionConnector\\Hook\\UserLoggedIn\\AddLoginNotification::onUserLoggedIn",
 		"BSUserManagerRegisterModules": "user-manager",
 		"MWStakeCommonUIRegisterSkinSlotComponents": "addGlobalAction",
-		"SkinTemplateNavigation::Universal": "addNewPageLink"
+		"SkinTemplateNavigation::Universal": "addNewPageLink",
+		"ContentAlterParserOutput": "addVariablesPageProperty",
+		"BSUsageTrackerRegisterCollectors": "BlueSpice\\DistributionConnector\\Hook\\BSUsageTrackerRegisterCollectors\\NoOfVariables::callback"
 	},
 	"HookHandlers": {
 		"user-manager": {
@@ -544,6 +547,12 @@
 		"addNewPageLink": {
 			"class": "\\BlueSpice\\DistributionConnector\\Hook\\SkinTemplateNavigation\\AddNewPageLink",
 			"services": [ "PermissionManager" ]
+		},
+		"addVariablesPageProperty": {
+			"class": "BlueSpice\\DistributionConnector\\HookHandler\\AddVariablesPageProperty"
+		},
+		"addVariablesPageProperties": {
+			"class": "BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\AddVariablesPageProperties"
 		}
 	},
 	"manifest_version": 2
