@@ -1,6 +1,8 @@
 <?php
 namespace BlueSpice\DistributionConnector\Hook\WikiExplorer;
 
+use MediaWiki\MediaWikiServices;
+
 class AddHitCounterColumn {
 
 	/**
@@ -39,7 +41,8 @@ class AddHitCounterColumn {
 		}
 
 		$pageIds = array_keys( $rows );
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancer()
+			->getConnection( DB_REPLICA );
 		$res = $dbr->select(
 			'hit_counter',
 			[ 'page_counter', 'page_id' ],
