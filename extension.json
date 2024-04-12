@@ -205,6 +205,9 @@
 					"extensions/BlueSpiceDistributionConnector/data/Content/FooterLinks/manifest.json"
 				]
 			}
+		},
+		"BlueSpiceDistributionConnector": {
+			"EchoEventsCompatibilityMapping": {}
 		}
 	},
 	"callback": "\\BlueSpice\\DistributionConnector\\Extension::onRegistration",
@@ -223,7 +226,8 @@
 		"CheckPermissions": "BlueSpice\\DistributionConnector\\Specials\\CheckPermissions"
 	},
 	"AutoloadClasses": {
-		"BlueSpiceDistributionHooks": "includes/BlueSpiceDistributionHooks.php"
+		"BlueSpiceDistributionHooks": "includes/BlueSpiceDistributionHooks.php",
+		"EchoEvent": "src/EchoEvent.php"
 	},
 	"ResourceModules": {
 		"ext.bluespice.distribution.styles": {
