@@ -5,8 +5,9 @@
 			"Volvox"
 		]
 	},
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Modus",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Déift",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Nummraum",
-	"bs-distributionconnector-collection-var-pagetitle": "Titel vun der Säit",
 	"bs-distributionconnector-workflows-form-groupname": "Grupp",
 	"bs-distributionconnector-workflows-form-instructions": "Instruktiounen",
 	"bs-distributionconnector-workflows-form-username": "Benotzer",
@@ -24,14 +25,15 @@
 	"bs-sandbox": "Sandkëscht",
 	"bs-helpdesk": "Helpdesk",
 	"bs-support": "Ënnerstëtzung",
-	"workflows-workflow-file-definition-user-feedback-title": "Benotzer-Feedback",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "all",
 	"bs-distributionconnector-checkpermissions": "Autorisatiounen nokucken",
 	"bs-distributionconnector-checkpermissions-label-user": "Benotzer",
 	"bs-distributionconnector-checkpermissions-label-permission": "Autorisatioun",
 	"bs-distributionconnector-checkpermissions-label-title": "Titel",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "de benotzte Benotzernumm ass net valabel",
 	"bs-distributionconnector-notification-logged-in": "Dir sidd elo ageloggt",
-	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "all",
+	"droplets-subpages-namespace-label": "Nummraum",
+	"droplets-buttonlink-external-label": "Externe Link",
 	"droplets-create-input-alignment-left-label": "lénks",
 	"droplets-create-input-alignment-right-label": "riets",
 	"droplets-buttonlink-name": "Knäppchen",
@@ -46,8 +48,5 @@
 	"bs-distributionconnector-videodropletinspector-title": "Video",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "lénks",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "zentréiert",
-	"bs-distributionconnector-videodropletinspector-alignment-right": "riets",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Modus",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Déift",
-	"droplets-buttonlink-external-label": "Externe Link"
+	"bs-distributionconnector-videodropletinspector-alignment-right": "riets"
 }
