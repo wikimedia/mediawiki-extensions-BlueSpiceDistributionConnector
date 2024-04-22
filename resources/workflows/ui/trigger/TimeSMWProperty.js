@@ -3,7 +3,7 @@
 
 	bs.distributionConnector.workflows.trigger.TimeSMWProperty = function( data ) {
 		bs.distributionConnector.workflows.trigger.TimeSMWProperty.parent.call( this, data );
-		workflows.ui.trigger.mixin.WorkflowSelector.call( this );
+		workflows.ui.trigger.mixin.WorkflowSelector.call( this, {} );
 	};
 
 	OO.inheritClass( bs.distributionConnector.workflows.trigger.TimeSMWProperty, workflows.ui.trigger.PageRelated );
