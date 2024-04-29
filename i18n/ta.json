@@ -5,11 +5,11 @@
 			"Sridhar G"
 		]
 	},
-	"droplets-create-input-preload-label": "முன்பே ஏற்றப்பட்ட பக்க உள்ளடக்கம்",
-	"droplets-create-input-alignment-left-label": "இடது",
-	"droplets-create-input-prefix-label": "பக்கப் பெயருக்கான முன்னொட்டு",
-	"droplets-create-input-alignment-label": "ஒழுங்கமை",
-	"droplets-create-input-alignment-right-label": "வலது",
-	"droplets-create-input-name": "பக்கத்தை ஆக்கு",
-	"droplets-create-input-desc": "முன் வரையறுக்கப்பட்ட பக்க உருவாக்கத்திற்கான படிவப் புலம்"
+	"droplets-create-input-preload-label": "\u0bae\u0bc1\u0ba9\u0bcd\u0baa\u0bc7 \u0b8f\u0bb1\u0bcd\u0bb1\u0baa\u0bcd\u0baa\u0b9f\u0bcd\u0b9f \u0baa\u0b95\u0bcd\u0b95 \u0b89\u0bb3\u0bcd\u0bb3\u0b9f\u0b95\u0bcd\u0b95\u0bae\u0bcd",
+	"droplets-create-input-alignment-left-label": "\u0b87\u0b9f\u0ba4\u0bc1",
+	"droplets-create-input-prefix-label": "\u0baa\u0b95\u0bcd\u0b95\u0baa\u0bcd \u0baa\u0bc6\u0baf\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0ba9 \u0bae\u0bc1\u0ba9\u0bcd\u0ba9\u0bca\u0b9f\u0bcd\u0b9f\u0bc1",
+	"droplets-create-input-alignment-label": "\u0b92\u0bb4\u0bc1\u0b99\u0bcd\u0b95\u0bae\u0bc8",
+	"droplets-create-input-alignment-right-label": "\u0bb5\u0bb2\u0ba4\u0bc1",
+	"droplets-create-input-name": "\u0baa\u0b95\u0bcd\u0b95\u0ba4\u0bcd\u0ba4\u0bc8 \u0b86\u0b95\u0bcd\u0b95\u0bc1",
+	"droplets-create-input-desc": "\u0bae\u0bc1\u0ba9\u0bcd \u0bb5\u0bb0\u0bc8\u0baf\u0bb1\u0bc1\u0b95\u0bcd\u0b95\u0baa\u0bcd\u0baa\u0b9f\u0bcd\u0b9f \u0baa\u0b95\u0bcd\u0b95 \u0b89\u0bb0\u0bc1\u0bb5\u0bbe\u0b95\u0bcd\u0b95\u0ba4\u0bcd\u0ba4\u0bbf\u0bb1\u0bcd\u0b95\u0bbe\u0ba9 \u0baa\u0b9f\u0bbf\u0bb5\u0baa\u0bcd \u0baa\u0bc1\u0bb2\u0bae\u0bcd"
 }

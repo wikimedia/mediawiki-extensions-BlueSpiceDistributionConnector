@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Алия"
+			"\u0410\u043b\u0438\u044f"
 		]
 	},
-	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Бөлгин синхрон тохруллһ (JSON)",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Җурм",
-	"bs-distributionconnector-videodropletinspector-title": "Дүрс бичлһ",
-	"bs-distributionconnector-videodropletinspector-description-label": "Тәәлвр"
+	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "\u0411\u04e9\u043b\u0433\u0438\u043d \u0441\u0438\u043d\u0445\u0440\u043e\u043d \u0442\u043e\u0445\u0440\u0443\u043b\u043b\u04bb (JSON)",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "\u0496\u0443\u0440\u043c",
+	"bs-distributionconnector-videodropletinspector-title": "\u0414\u04af\u0440\u0441 \u0431\u0438\u0447\u043b\u04bb",
+	"bs-distributionconnector-videodropletinspector-description-label": "\u0422\u04d9\u04d9\u043b\u0432\u0440"
 }
