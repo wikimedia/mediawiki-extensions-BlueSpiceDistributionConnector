@@ -5,17 +5,17 @@
 			"Tajamul9"
 		]
 	},
-	"action-duplicate": "منگڈتھ صفہٕ",
-	"bs-distributionconnector-statistics-report-page-hits-relation": "تال میلس مٕنٛز صَفُک وُچھمُت",
-	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "تال میلس مٕنٛز صَفُک وُچھمُت تا کُل وُچھمٕتی",
-	"droplets-create-input-alignment-right-label": "دٔچھُن",
-	"droplets-gallery-name": "نِگار خانہٕ",
-	"droplets-video-name": "ویڈیو",
-	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "سٲری",
-	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "کانٛہہ تہِ نہٕ",
-	"droplets-create-input-alignment-left-label": "کھووُر",
-	"droplets-create-input-name": "صَفہٕ بَنٲوِو",
-	"droplets-buttonlink-name": "بَٹَن",
-	"droplets-map-name": "نَقشہٕ",
-	"droplets-pdflink-name": "پی ڈی ایف لِِنک"
+	"action-duplicate": "\u0645\u0646\u06af\u0688\u062a\u06be \u0635\u0641\u06c1\u0655",
+	"bs-distributionconnector-statistics-report-page-hits-relation": "\u062a\u0627\u0644 \u0645\u06cc\u0644\u0633 \u0645\u0655\u0646\u065b\u0632 \u0635\u064e\u0641\u064f\u06a9 \u0648\u064f\u0686\u06be\u0645\u064f\u062a",
+	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "\u062a\u0627\u0644 \u0645\u06cc\u0644\u0633 \u0645\u0655\u0646\u065b\u0632 \u0635\u064e\u0641\u064f\u06a9 \u0648\u064f\u0686\u06be\u0645\u064f\u062a \u062a\u0627 \u06a9\u064f\u0644 \u0648\u064f\u0686\u06be\u0645\u0655\u062a\u06cc",
+	"droplets-create-input-alignment-right-label": "\u062f\u0654\u0686\u06be\u064f\u0646",
+	"droplets-gallery-name": "\u0646\u0650\u06af\u0627\u0631 \u062e\u0627\u0646\u06c1\u0655",
+	"droplets-video-name": "\u0648\u06cc\u0688\u06cc\u0648",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "\u0633\u0672\u0631\u06cc",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "\u06a9\u0627\u0646\u065b\u06c1\u06c1 \u062a\u06c1\u0650 \u0646\u06c1\u0655",
+	"droplets-create-input-alignment-left-label": "\u06a9\u06be\u0648\u0648\u064f\u0631",
+	"droplets-create-input-name": "\u0635\u064e\u0641\u06c1\u0655 \u0628\u064e\u0646\u0672\u0648\u0650\u0648",
+	"droplets-buttonlink-name": "\u0628\u064e\u0679\u064e\u0646",
+	"droplets-map-name": "\u0646\u064e\u0642\u0634\u06c1\u0655",
+	"droplets-pdflink-name": "\u067e\u06cc \u0688\u06cc \u0627\u06cc\u0641 \u0644\u0650\u0650\u0646\u06a9"
 }

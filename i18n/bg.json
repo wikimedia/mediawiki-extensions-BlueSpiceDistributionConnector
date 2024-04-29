@@ -5,10 +5,10 @@
 			"StanProg"
 		]
 	},
-	"droplets-gallery-name": "Галерия",
-	"droplets-map-name": "Карта",
-	"droplets-subpages-name": "Подстраници",
-	"droplets-video-name": "Видео",
-	"bs-distributionconnector-collection-var-pagetitle": "Заглавие на страницата",
-	"bs-distributionconnector-videodropletinspector-description-label": "Описание"
+	"droplets-gallery-name": "\u0413\u0430\u043b\u0435\u0440\u0438\u044f",
+	"droplets-map-name": "\u041a\u0430\u0440\u0442\u0430",
+	"droplets-subpages-name": "\u041f\u043e\u0434\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0438",
+	"droplets-video-name": "\u0412\u0438\u0434\u0435\u043e",
+	"bs-distributionconnector-collection-var-pagetitle": "\u0417\u0430\u0433\u043b\u0430\u0432\u0438\u0435 \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430\u0442\u0430",
+	"bs-distributionconnector-videodropletinspector-description-label": "\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435"
 }

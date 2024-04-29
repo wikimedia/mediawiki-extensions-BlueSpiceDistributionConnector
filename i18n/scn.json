@@ -4,10 +4,10 @@
 			"Ajeje Brazorf"
 		]
 	},
-	"bs-distributionconnector-ve-categorytreeinpector-title": "ÀrvuluDîCatigurìi",
-	"bs-distributionconnector-ve-categorytree-title": "ÀrvuluDîCatigurìi",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "\u00c0rvuluD\u00eeCatigur\u00eci",
+	"bs-distributionconnector-ve-categorytree-title": "\u00c0rvuluD\u00eeCatigur\u00eci",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Namespace",
-	"bs-distributionconnector-collection-var-pagetitle": "Tìtulu dâ pàggina",
+	"bs-distributionconnector-collection-var-pagetitle": "T\u00ectulu d\u00e2 p\u00e0ggina",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Usa lu nomu veru comu nomu utenti",
 	"bs-distributionconnector-pref-openidconnect-useemailasusername": "Usa lu nnirizzu email comu nomu utenti",
 	"bs-distributionconnector-pref-openidconnect-config-icon": "URL cona",
@@ -20,5 +20,5 @@
 	"bs-distributionconnector-default-definition-report-approve": "Appruva",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-checkpermissions-label-user": "Utenti",
-	"bs-distributionconnector-checkpermissions-label-title": "Tìtulu"
+	"bs-distributionconnector-checkpermissions-label-title": "T\u00ectulu"
 }

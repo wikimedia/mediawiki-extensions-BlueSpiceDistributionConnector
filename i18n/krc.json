@@ -1,28 +1,28 @@
 {
 	"@metadata": {
 		"authors": [
-			"Къарачайлы"
+			"\u041a\u044a\u0430\u0440\u0430\u0447\u0430\u0439\u043b\u044b"
 		]
 	},
-	"bs-distributionconnector-statistics-report-page-hits-relation": "Бетге кириуле",
-	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Бютеулей кириулеге кёре, бетге кириуле",
-	"bs-distributionconnector-videodropletinspector-service-label": "Къуллукъ",
-	"droplets-circled-number-bg-color-label": "Арт планны бояуу",
-	"droplets-circled-number-fg-color-label": "Ал планны бояуу",
-	"droplets-circled-number-label": "Тарх",
-	"droplets-subpages-namespace-label": "Ат юс",
-	"droplets-subpages-namespace-help": "Баш ат алан ючюн бош къоюгъузг",
-	"droplets-subpages-parentpage-label": "Тамал бет",
-	"droplets-subpages-parentpage-help": "Тюб бетлери тизмеленирик бетле",
-	"droplets-subpages-cols-label": "Багъана макет",
-	"droplets-subpages-cols-help": "\"хоу\" 3 багъанадан макет къурайды, \"огъай\" багъанала къурамайды",
-	"droplets-subpages-bullets-label": "Белгиленнген нохтала",
-	"droplets-subpages-bullets-help": "кетерилген белги нохтала \"джокъдула\"",
-	"droplets-map-condition-label": "Шарт",
-	"droplets-map-center-label": "Фокус",
-	"droplets-buttonlink-external-label": "Тыш джибериу",
-	"droplets-buttonlink-target-label": "Ышан",
-	"droplets-buttonlink-label-label": "Тиекде текст",
-	"droplets-buttonlink-format-label": "Арт планны бояуу",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Бетлеге къарауну саны"
+	"bs-distributionconnector-statistics-report-page-hits-relation": "\u0411\u0435\u0442\u0433\u0435 \u043a\u0438\u0440\u0438\u0443\u043b\u0435",
+	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "\u0411\u044e\u0442\u0435\u0443\u043b\u0435\u0439 \u043a\u0438\u0440\u0438\u0443\u043b\u0435\u0433\u0435 \u043a\u0451\u0440\u0435, \u0431\u0435\u0442\u0433\u0435 \u043a\u0438\u0440\u0438\u0443\u043b\u0435",
+	"bs-distributionconnector-videodropletinspector-service-label": "\u041a\u044a\u0443\u043b\u043b\u0443\u043a\u044a",
+	"droplets-circled-number-bg-color-label": "\u0410\u0440\u0442 \u043f\u043b\u0430\u043d\u043d\u044b \u0431\u043e\u044f\u0443\u0443",
+	"droplets-circled-number-fg-color-label": "\u0410\u043b \u043f\u043b\u0430\u043d\u043d\u044b \u0431\u043e\u044f\u0443\u0443",
+	"droplets-circled-number-label": "\u0422\u0430\u0440\u0445",
+	"droplets-subpages-namespace-label": "\u0410\u0442 \u0430\u043b\u0430\u043c",
+	"droplets-subpages-namespace-help": "\u0411\u0430\u0448 \u0430\u0442 \u0430\u043b\u0430\u043d \u044e\u0447\u044e\u043d \u0431\u043e\u0448 \u043a\u044a\u043e\u044e\u0433\u044a\u0443\u0437\u0433",
+	"droplets-subpages-parentpage-label": "\u0422\u0430\u043c\u0430\u043b \u0431\u0435\u0442",
+	"droplets-subpages-parentpage-help": "\u0422\u044e\u0431 \u0431\u0435\u0442\u043b\u0435\u0440\u0438 \u0442\u0438\u0437\u043c\u0435\u043b\u0435\u043d\u0438\u0440\u0438\u043a \u0431\u0435\u0442\u043b\u0435",
+	"droplets-subpages-cols-label": "\u0411\u0430\u0433\u044a\u0430\u043d\u0430 \u043c\u0430\u043a\u0435\u0442",
+	"droplets-subpages-cols-help": "\"\u0445\u043e\u0443\" 3 \u0431\u0430\u0433\u044a\u0430\u043d\u0430\u0434\u0430\u043d \u043c\u0430\u043a\u0435\u0442 \u043a\u044a\u0443\u0440\u0430\u0439\u0434\u044b, \"\u043e\u0433\u044a\u0430\u0439\" \u0431\u0430\u0433\u044a\u0430\u043d\u0430\u043b\u0430 \u043a\u044a\u0443\u0440\u0430\u043c\u0430\u0439\u0434\u044b",
+	"droplets-subpages-bullets-label": "\u0411\u0435\u043b\u0433\u0438\u043b\u0435\u043d\u043d\u0433\u0435\u043d \u043d\u043e\u0445\u0442\u0430\u043b\u0430",
+	"droplets-subpages-bullets-help": "\u043a\u0435\u0442\u0435\u0440\u0438\u043b\u0433\u0435\u043d \u0431\u0435\u043b\u0433\u0438 \u043d\u043e\u0445\u0442\u0430\u043b\u0430 \"\u0434\u0436\u043e\u043a\u044a\u0434\u0443\u043b\u0430\"",
+	"droplets-map-condition-label": "\u0428\u0430\u0440\u0442",
+	"droplets-map-center-label": "\u0424\u043e\u043a\u0443\u0441",
+	"droplets-buttonlink-external-label": "\u0422\u044b\u0448 \u0434\u0436\u0438\u0431\u0435\u0440\u0438\u0443",
+	"droplets-buttonlink-target-label": "\u042b\u0448\u0430\u043d",
+	"droplets-buttonlink-label-label": "\u0422\u0438\u0435\u043a\u0434\u0435 \u0442\u0435\u043a\u0441\u0442",
+	"droplets-buttonlink-format-label": "\u0410\u0440\u0442 \u043f\u043b\u0430\u043d\u043d\u044b \u0431\u043e\u044f\u0443\u0443",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "\u0411\u0435\u0442\u043b\u0435\u0433\u0435 \u043a\u044a\u0430\u0440\u0430\u0443\u043d\u0443 \u0441\u0430\u043d\u044b"
 }
