@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ajeje Brazorf",
+			"Alien333",
 			"DreZhsh",
 			"Florian COLLIN",
 			"Gomoko",
@@ -210,5 +211,6 @@
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Libellé du bouton",
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nom du module",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin": "La connexion doit-elle se faire automatiquement quand un utilisateur visite le wiki ?",
-	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Active la connexion automatique au wiki"
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Active la connexion automatique au wiki",
+	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Paramètres de synchronisation de groupe (JSON)"
 }
