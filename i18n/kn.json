@@ -1,16 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"\u0cae\u0cb2\u0ccd\u0ca8\u0cbe\u0ca1\u0cbe\u0c9a\u0ccd \u0c95\u0cca\u0c82\u0c95\u0ccd\u0ca3\u0cca"
+			"ಮಲ್ನಾಡಾಚ್ ಕೊಂಕ್ಣೊ"
 		]
 	},
-	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "\u0ca8\u0cbe\u0cae\u0cb5\u0cb0\u0ccd\u0c97",
-	"bs-distributionconnector-collection-var-pagetitle": "\u0caa\u0cc1\u0c9f\u0ca6 \u0cb6\u0cc0\u0cb0\u0ccd\u0cb7\u0cbf\u0c95\u0cc6",
-	"bs-distributionconnector-workflows-form-groupname": "\u0c97\u0cc1\u0c82\u0caa\u0cc1",
-	"bs-distributionconnector-workflows-form-username": "\u0cac\u0cb3\u0c95\u0cc6\u0ca6\u0cbe\u0cb0",
-	"bs-distributionconnector-workflows-form-comment": "\u0c9f\u0cbf\u0caa\u0ccd\u0caa\u0ca3\u0cbf",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "\u0c9f\u0cbf\u0caa\u0ccd\u0caa\u0ca3\u0cbf",
-	"bs-distributionconnector-workflows-form-label-editor": "\u0cb8\u0c82\u0caa\u0cbe\u0ca6\u0c95",
-	"bs-sandbox": "\u0caa\u0ccd\u0cb0\u0caf\u0ccb\u0c97\u0caa\u0cc1\u0c9f",
-	"bs-support": "\u0cac\u0cc6\u0c82\u0cac\u0cb2"
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "ನಾಮವರ್ಗ",
+	"bs-distributionconnector-collection-var-pagetitle": "ಪುಟದ ಶೀರ್ಷಿಕೆ",
+	"bs-distributionconnector-workflows-form-groupname": "ಗುಂಪು",
+	"bs-distributionconnector-workflows-form-username": "ಬಳಕೆದಾರ",
+	"bs-distributionconnector-workflows-form-comment": "ಟಿಪ್ಪಣಿ",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "ಟಿಪ್ಪಣಿ",
+	"bs-distributionconnector-workflows-form-label-editor": "ಸಂಪಾದಕ",
+	"bs-sandbox": "ಪ್ರಯೋಗಪುಟ",
+	"bs-support": "ಬೆಂಬಲ"
 }

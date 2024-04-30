@@ -4,7 +4,7 @@
 			"Saederup92"
 		]
 	},
-	"bs-distributionconnector-yourdomainname": "Dit dom\u00e6ne",
+	"bs-distributionconnector-yourdomainname": "Dit domæne",
 	"bs-distributionconnector-flyout-hitcounters-text": "Antal visninger",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Tilstand",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Dybde",
@@ -23,7 +23,7 @@
 	"bs-distributionconnector-checkpermissions-label-title": "Titel",
 	"bs-distributionconnector-pref-openidconnect-config-scope": "Omfang",
 	"bs-distributionconnector-workflows-form-comment": "Kommentar",
-	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% v\u00e6kst",
-	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Invit\u00e9r",
-	"bs-distributionconnector-invite-signup-dialog-title": "Invit\u00e9r bruger"
+	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% vækst",
+	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Invitér",
+	"bs-distributionconnector-invite-signup-dialog-title": "Invitér bruger"
 }

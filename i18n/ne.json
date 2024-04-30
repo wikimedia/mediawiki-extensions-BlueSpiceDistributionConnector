@@ -2,12 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Bada Kaji",
-			"\u092c\u0921\u093e \u0915\u093e\u091c\u0940"
+			"बडा काजी"
 		]
 	},
-	"right-duplicate": "\u0905\u0928\u0941\u0932\u093f\u092a\u093f \u092a\u0943\u0937\u094d\u0920\u0939\u0930\u0942",
-	"action-duplicate": "\u0905\u0928\u0941\u0932\u093f\u092a\u093f \u092a\u0943\u0937\u094d\u0920",
-	"droplets-create-input-alignment-left-label": "\u092c\u093e\u092f\u093e\u0901",
-	"droplets-create-input-alignment-right-label": "\u0926\u093e\u092f\u093e\u0901",
-	"bs-distributionconnector-checkpermissions-label-user": "\u092a\u094d\u0930\u092f\u094b\u0917\u0915\u0930\u094d\u0924\u093e"
+	"right-duplicate": "अनुलिपि पृष्ठहरू",
+	"action-duplicate": "अनुलिपि पृष्ठ",
+	"droplets-create-input-alignment-left-label": "बायाँ",
+	"droplets-create-input-alignment-right-label": "दायाँ",
+	"bs-distributionconnector-checkpermissions-label-user": "प्रयोगकर्ता"
 }

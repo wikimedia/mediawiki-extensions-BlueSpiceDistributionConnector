@@ -4,15 +4,15 @@
 			"Yupik"
 		]
 	},
-	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "\u010ci\u00f5\u01e5\u01e5 prefiiks",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Čiõǥǥ prefiiks",
 	"bs-distributionconnector-workflows-form-groupname": "Joukk",
-	"bs-distributionconnector-workflows-form-username": "\u00d5\u00f5\u02b9nni",
-	"bs-distributionconnector-workflows-form-comment": "Komme\u02b9ntt",
-	"bs-distributionconnector-workflows-form-placeholder-comment": "Komme\u02b9ntt",
+	"bs-distributionconnector-workflows-form-username": "Õõʹnni",
+	"bs-distributionconnector-workflows-form-comment": "Kommeʹntt",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Kommeʹntt",
 	"bs-distributionconnector-default-definition-report-approve": "Priim",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
-	"bs-distributionconnector-checkpermissions-label-user": "\u00d5\u00f5\u02b9nni",
-	"bs-distributionconnector-notification-logged-in": "\u00c2\u00e2\u02b9n le\u00e4k \u01e9ee\u02b9rjt\u00f5\u00f5tt\u00e2m sizz",
+	"bs-distributionconnector-checkpermissions-label-user": "Õõʹnni",
+	"bs-distributionconnector-notification-logged-in": "Ââʹn leäk ǩeeʹrjtõõttâm sizz",
 	"droplets-video-name": "Video",
 	"bs-distributionconnector-videodropletinspector-title": "Video"
 }

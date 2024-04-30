@@ -1,17 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kimberli M\u00e4k\u00e4r\u00e4inen (WMNO)",
+			"Kimberli Mäkäräinen (WMNO)",
 			"Yupik"
 		]
 	},
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Nammagomuvuohta",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "\u010ciega prefivssa",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Čiega prefivssa",
 	"bs-distributionconnector-checkpermissions-label-permission": "Geavahanvuoigatvuohta",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-checkpermissions-label-user": "Geavaheaddji",
 	"droplets-video-name": "Video",
 	"bs-distributionconnector-videodropletinspector-title": "Video",
-	"droplets-map-name": "K\u00e1rta",
+	"droplets-map-name": "Kárta",
 	"bs-distributionconnector-workflows-form-username": "Geavaheaddji"
 }
