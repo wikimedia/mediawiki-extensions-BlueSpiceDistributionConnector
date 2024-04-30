@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ajeje Brazorf",
+			"Alien333",
 			"DreZhsh",
 			"Florian COLLIN",
 			"Gomoko",
@@ -9,8 +10,7 @@
 			"Thibaut120094",
 			"Vega",
 			"Verdy p",
-			"Wladek92",
-			"Alien333"
+			"Wladek92"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Connecte BlueSpice à diverses extensions de MediaWiki",
