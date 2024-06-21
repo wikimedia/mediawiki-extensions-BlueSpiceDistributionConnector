@@ -16,7 +16,7 @@ class CheckPermissions extends BlueSpice\SpecialPage {
 	private $permissionManager = null;
 
 	public function __construct() {
-		parent::__construct( 'CheckPermissions', '', false );
+		parent::__construct( 'CheckPermissions', 'userrights', false );
 	}
 
 	/**
@@ -56,7 +56,7 @@ class CheckPermissions extends BlueSpice\SpecialPage {
 	/**
 	 *
 	 * @param array $formData
-	 * @return array
+	 * @return Status|array
 	 */
 	public function processInput( $formData ) {
 		$user = $this->services->getUserFactory()->newFromName( $formData['username'] );
