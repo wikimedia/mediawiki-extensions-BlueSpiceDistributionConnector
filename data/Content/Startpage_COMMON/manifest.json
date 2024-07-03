@@ -32,8 +32,10 @@
 		"description": "A banner",
 		"target_title": "Template:Bannerbox",
 		"content_path": "/pages/Template/Bannerbox.wiki",
-		"sha1": "15901720bfd0a6d72e4d4031a675e566206c3040",
-		"old_sha1": []
+		"sha1": "de4d9b311c8a02ea8afc974f4d04b3ff7daf0ba4",
+		"old_sha1": [
+			"15901720bfd0a6d72e4d4031a675e566206c3040"
+		]
 	},
 	"Template:Bannerbox/styles.css": {
 		"lang": "en",
@@ -41,8 +43,10 @@
 		"description": "CSS for the banner",
 		"target_title": "Template:Bannerbox/styles.css",
 		"content_path": "/pages/Template/Bannerboxstyles.css.wiki",
-		"sha1": "fa67a1afc80d3d17702da832116301120f3870c0",
-		"old_sha1": []
+		"sha1": "46a2d927d191fd91d312e1a67ef405119b2ae0dc",
+		"old_sha1": [
+			"fa67a1afc80d3d17702da832116301120f3870c0"
+		]
 	},
 	"Template:Image_cards": {
 		"lang": "en",
@@ -68,9 +72,10 @@
 		"description": "Start of image cards section",
 		"target_title": "Template:Image cards/start",
 		"content_path": "/pages/Template/Image_cardsstart.wiki",
-		"sha1": "b2f6dfb0188fa81cb4f62b98e78ee46dcfbe96a7",
+		"sha1": "d434eacab4f628f32258f47cb457d99d5f4ce70b",
 		"old_sha1": [
-			"c2cf7a8d3dff7a44e2b7966d4ca2719a31047ee7"
+			"c2cf7a8d3dff7a44e2b7966d4ca2719a31047ee7",
+			"b2f6dfb0188fa81cb4f62b98e78ee46dcfbe96a7"
 		]
 	},
 	"Template:Image_cards/styles.css": {
@@ -79,9 +84,10 @@
 		"description": "CSS for the image cards",
 		"target_title": "Template:Image cards/styles.css",
 		"content_path": "/pages/Template/Image_cardsstyles.css.wiki",
-		"sha1": "1057f15ae5899a16a44b6454c2d0c9ecc7feae79",
+		"sha1": "a8da8b32876d0377eb33cd940383c19e17fd8d6c",
 		"old_sha1": [
-			"d4abf03c13b52f79f4334f1377c90d1bbdbf7cf8"
+			"d4abf03c13b52f79f4334f1377c90d1bbdbf7cf8",
+			"1057f15ae5899a16a44b6454c2d0c9ecc7feae79"
 		]
 	},
 	"Template:Startpage": {
@@ -99,8 +105,10 @@
 		"description": "CSS for the startpage",
 		"target_title": "Template:Startpage/styles.css",
 		"content_path": "/pages/Template/Startpagestyles.css.wiki",
-		"sha1": "6ff2eaa28845d5b4d4eb3a694fff48ab4bdaeb04",
-		"old_sha1": []
+		"sha1": "cc2028e0841cb8a25508b34ff34f76ec3f5cddca",
+		"old_sha1": [
+			"6ff2eaa28845d5b4d4eb3a694fff48ab4bdaeb04"
+		]
 	},
 	"Template:Dropdown": {
 		"lang": "en",
@@ -108,8 +116,10 @@
 		"description": "A template for a dropdown",
 		"target_title": "Template:Dropdown",
 		"content_path": "/pages/Template/Dropdown.wiki",
-		"sha1": "6829517636f4060feed1f9a62e233d09f84b5ff1",
-		"old_sha1": []
+		"sha1": "6544a0c25bdcbb1093fcb50274df80479bac32de",
+		"old_sha1": [
+			"6829517636f4060feed1f9a62e233d09f84b5ff1"
+		]
 	},
 	"Template:Dropdown/styles.css": {
 		"lang": "en",
@@ -126,8 +136,10 @@
 		"description": "Eine Vorlage f\u00fcr ein Dropdown",
 		"target_title": "Template:Dropdown",
 		"content_path": "/pages/Template/Dropdownde.wiki",
-		"sha1": "6d960054c0f7f12dbd1102640fc2195df4803bb0",
-		"old_sha1": []
+		"sha1": "5da1bdbf029cba4cf830b8651035c484f9620f5b",
+		"old_sha1": [
+			"6d960054c0f7f12dbd1102640fc2195df4803bb0"
+		]
 	},
 	"Template:Dropdown/de/styles.css": {
 		"lang": "de",
@@ -136,15 +148,6 @@
 		"target_title": "Template:Dropdown/styles.css",
 		"content_path": "/pages/Template/Dropdowndestyles.css.wiki",
 		"sha1": "dc55c4a3e484bc8a5b722e870c860d77f7131f69",
-		"old_sha1": []
-	},
-	"Protokolle": {
-		"lang": "de",
-		"label": "Protokoll\u00fcbersicht",
-		"description": "Eine \u00dcbersicht \u00fcber Protokolle",
-		"target_title": "Protokolle",
-		"content_path": "/pages/(Pages)/Protokolle.wiki",
-		"sha1": "9eb9e2618b2411840d4fda95bdd4be4467685bbe",
 		"old_sha1": []
 	},
 	"MediaWiki:Dpl-parserfunc-tracking-category/de": {
@@ -171,8 +174,10 @@
 		"description": "Eine Vorlage f\u00fcr einen Banner",
 		"target_title": "Template:Bannerbox",
 		"content_path": "/pages/Template/Bannerboxde.wiki",
-		"sha1": "15901720bfd0a6d72e4d4031a675e566206c3040",
-		"old_sha1": []
+		"sha1": "de4d9b311c8a02ea8afc974f4d04b3ff7daf0ba4",
+		"old_sha1": [
+			"15901720bfd0a6d72e4d4031a675e566206c3040"
+		]
 	},
 	"Template:Bannerbox/de/styles.css": {
 		"lang": "de",
@@ -180,8 +185,10 @@
 		"description": "CSS f\u00fcr einen Banner",
 		"target_title": "Template:Bannerbox/styles.css",
 		"content_path": "/pages/Template/Bannerboxdestyles.css.wiki",
-		"sha1": "fa67a1afc80d3d17702da832116301120f3870c0",
-		"old_sha1": []
+		"sha1": "46a2d927d191fd91d312e1a67ef405119b2ae0dc",
+		"old_sha1": [
+			"fa67a1afc80d3d17702da832116301120f3870c0"
+		]
 	},
 	"Template:Bildkarten": {
 		"lang": "de",
@@ -238,7 +245,9 @@
 		"description": "CSS f\u00fcr die Startseite",
 		"target_title": "Template:Startseite/styles.css",
 		"content_path": "/pages/Template/Startseitestyles.css.wiki",
-		"sha1": "6ff2eaa28845d5b4d4eb3a694fff48ab4bdaeb04",
-		"old_sha1": []
+		"sha1": "1776d96c5223210ba3ffef93e9b2bcd19b7ed056",
+		"old_sha1": [
+			"6ff2eaa28845d5b4d4eb3a694fff48ab4bdaeb04"
+		]
 	}
 }

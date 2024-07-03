@@ -7,11 +7,11 @@
 ! class="background-color" |Room
 !Location
 |-
-|'''0'''
+!'''0'''
 |Reception
 |1st floor
 |-
-| style="width:60px;" class="background-color" |'''193'''
+! style="width:60px;" class="background-color" |'''193'''
 | class="background-color" |Conference room 1
 |2nd floor
 |}
@@ -23,23 +23,23 @@
 ! class="background-color" style="" |First name
 !Last name
 |-
-| style="width:60px;" class="background-color" |'''190'''
+! style="width:60px;" class="background-color" |'''190'''
 | class="background-color" style="" |Aiden
 |Robinson
 |-
-| style="width:60px;" class="background-color" |'''192'''
+! style="width:60px;" class="background-color" |'''192'''
 | class="background-color" style="" |Amelia
 |Williams
 |-
-| style="width:60px;" class="background-color" |'''195'''
+! style="width:60px;" class="background-color" |'''195'''
 | class="background-color" style="" |Aria
 |Patel
 |-
-| style="width:60px;" class="background-color" |'''194'''
+! style="width:60px;" class="background-color" |'''194'''
 | class="background-color" style="" |
 |
 |-
-| style="width:60px;" class="background-color" |'''196'''
+! style="width:60px;" class="background-color" |'''196'''
 | class="background-color" style="" |Emma
 |Smith
 |}

@@ -1,4 +1,4 @@
-<includeonly><templatestyles src="Dropdown/styles.css" /><div id="{{{ddid|edit}}}" class="ddlist">
+<includeonly><templatestyles src="Dropdown/styles.css" /><div id="{{{ddid|edit}}}" class="ddlist" role="list" aria-label="Links zu den Inhaltsseiten">
 <div><div class="mw-customtoggle-{{{id|edit}}}">{{{Name|}}} <i class="{{{ddicon|bi bi-pencil-fill}}}"></i></div> 
 <div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-{{{id|edit}}}">
 <div class="dropdown-menu mw-collapsible-content">

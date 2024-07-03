@@ -1,19 +1,19 @@
 {| class="wikitable small" style="width:100%;"
-!
-!Mon
+!Support type
+!Mo
 !Tue
-!Wed
+!W
 !Thu
 !Fri
 |-
-|<span class="bi bi-headset"></span>
+!<span class="bi bi-headset"> Phone</span>
 | Michael
 |Claire
 |Justin
 | Atri
 |Christophe
 |-
-|<span class="bi bi-gear-fill"></span>
+!<span class="bi bi-gear-fill"> Admin</span>
 |Joe
 |Elisa
 |Claudette
