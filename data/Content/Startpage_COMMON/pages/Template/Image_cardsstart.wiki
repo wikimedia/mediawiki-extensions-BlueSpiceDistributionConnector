@@ -1,6 +1,5 @@
-<includeonly><templatestyles src="Image cards/styles.css" />
-<div class="imgcard {{#if:{{{cardsize|}}}|{{{cardsize}}}|}}" style="justify-content:{{#if:{{{justifycontent|}}}|{{{justifycontent}}}|space-between}}; flex-wrap:{{#if:{{{flexwrap|}}}|{{{flexwrap}}}|nowrap}};"><span class="facss">{{#fas:}}</span>
-</includeonly><noinclude>
+<includeonly><templatestyles src="Image cards/styles.css" /><span class="facss">{{#fas:}}</span>
+<div class="imgcard {{#if:{{{cardsize|}}}|{{{cardsize}}}|}}" style="justify-content:{{#if:{{{justifycontent|}}}|{{{justifycontent}}}|space-between}}; flex-wrap:{{#if:{{{flexwrap|}}}|{{{flexwrap}}}|nowrap}};"></includeonly><noinclude>
 <templatedata>
 {
 	"params": {

@@ -4,8 +4,9 @@
 .bannerbox .floatleft {margin:0;}
 .banner-image { flex-grow:0;  flex-basis:auto;}
 .banner-content {flex-grow:1; flex-shrink:1; flex-basis:60%}
-.bannerbox .banner-title .bannerhd {font-size:1.6em; font-weight:bold}
-.bannerbox .banner-text {font-size:1.3em;}
+.bannerbox .banner-title .bannerhd {font-size:1.6rem; font-weight:bold}
+.bannerbox  h1.bannerhd  {font-size:1.6rem; font-weight:bold; margin:0; padding:0}
+.bannerbox .banner-text {font-size:1.3rem;}
 .banner-content {padding:10px;}
 .bannerbox.bgicon1, .bannerbox.bgicon2, .bannerbox.bgicon3, .bannerbox.swoosh  {position:relative;overflow:hidden}
 .bannerbox.bgicon1::before {color:white; opacity: 0.5; font-size:15em;font-family: "Font Awesome 6 Free";  font-weight: 900;  content: "\f0ac";
