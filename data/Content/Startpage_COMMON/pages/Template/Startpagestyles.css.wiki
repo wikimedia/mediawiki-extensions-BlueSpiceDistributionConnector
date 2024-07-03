@@ -9,6 +9,10 @@
 .sectionflexcontainer.background> div {background: #f1f3f9}
 .sectionflexcontainer table {font-size:1em!important;}
 .sectionflexcontainer .mw-editsection, .sectionflexcontainer .mw-editdrawio {display:none}
+/*Hide section headings in portal pages */
+.sectionflexcontainer .mw-headline-number {display:none}
+
+.sectionflexcontainer .mw-headline-number {display:none}
 @media (max-width: 1600px) {
 .sectionflexcontainer.col2 > div {flex-basis:48.5%;}
 .sectionflexcontainer.col3 > div {flex-basis:31.5%;}

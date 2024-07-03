@@ -14,6 +14,10 @@
 .imgcard .icon > a.external {background-image:none!important}
 .imgcard a {text-decoration:none!important}
 
+.imgcard a:focus {outline:2px solid #3e5389;    outline-offset:-2px}
+/*hide image placeholder text  for screenreaders*/
+.placeholder-text {height: 0; overflow: hidden; position: absolute; margin-left: -5000px; }
+
 /*placeholder empty cards if justify-content is used with line-break*/
 .imgcard > div.placeholder.textonly {background:none; outline:0}
 .imgcard > div.placeholder.textonly:hover {box-shadow:none!important}
