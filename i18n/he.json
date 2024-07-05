@@ -96,7 +96,7 @@
 	"bs-distributionconnector-checkpermissions-label-title": "כותרת",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "שם המשתמש שסופק אינו תקין",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "הכותרת שסופקה אינה תקינה",
-	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] קיבל את ההרשאה \"$2\" לדף [[$3]]",
+	"bs-distributionconnector-checkpermissions-success": "למשתמש [[User:$1|$1]] ישנה ההרשאה \"$2\" בהקשר של [[$3]]",
 	"bs-distributionconnector-notification-logged-in": "עכשיו נכנסת לחשבון",
 	"bs-distributionconnector-workflows-ui-trigger-field-property": "מאפיין סמנטי (מהסוג: Date)",
 	"bs-distributionconnector-workflows-ui-trigger-field-days": "זמן בימים מהתאריך במאפיין",
