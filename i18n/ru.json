@@ -148,5 +148,9 @@
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Тайм-аут",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "ничего",
 	"droplets-circled-number-label": "Число",
-	"bs-distributionconnector-videodropletinspector-description-placeholder": "Вставить описание видео..."
+	"bs-distributionconnector-videodropletinspector-description-placeholder": "Вставить описание видео...",
+	"bs-distributionconnector-videodropletinspector-service-label": "Служба",
+	"droplets-subpages-namespace-help": "Оставьте пустым для основного пространства имён",
+	"droplets-create-input-placeholder-label": "Текст-заполнитель",
+	"droplets-pdf-link-page-label": "Страница для экспорта"
 }

@@ -3,6 +3,7 @@
 		"authors": [
 			")8",
 			"500000000006城",
+			"50829",
 			"850710247liu",
 			"A Chinese Wikipedian",
 			"AYZ04",
@@ -33,8 +34,7 @@
 			"沈澄心",
 			"落花有意12138",
 			"铁桶",
-			"飞小RAN",
-			50829
+			"飞小RAN"
 		]
 	},
 	"bs-distributionconnector-extension-description": "将BlueSpice连接到各种MediaWiki的扩展",
@@ -224,5 +224,8 @@
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "按钮标签",
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "插件名称",
 	"bs-distributionconnector-videodropletinspector-alignent-help": "将视频左对齐、居中或右对齐",
-	"droplets-map-center-map-label-help": "地图中心的位置。例如：德国雷根斯堡"
+	"droplets-map-center-map-label-help": "地图中心的位置。例如：德国雷根斯堡",
+	"droplets-map-center-label-help": "设置焦点指针的位置，也可以设置弹出文本。例如：雷根斯堡 ~ 我的自定义文本",
+	"droplets-create-input-placeholder-help": "输入要在此输入字段中显示的占位符文本",
+	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "群组同步设置 (JSON)"
 }
