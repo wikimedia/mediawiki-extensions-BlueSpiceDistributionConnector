@@ -103,7 +103,7 @@
 	"bs-distributionconnector-checkpermissions-label-title": "Titulo",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "Le nomine de usator fornite non es valide",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "Le titulo fornite non es valide",
-	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] ha recipite le permission \"$2\" pro [[$3]]",
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] ha le permission “$2” in le contexto de [[$3]]",
 	"bs-distributionconnector-notification-logged-in": "Tu ha aperite session",
 	"bs-distributionconnector-workflows-ui-trigger-field-property": "Proprietate semantic (del typo: Data)",
 	"bs-distributionconnector-workflows-ui-trigger-field-days": "Numero de dies desde le data in le proprietate",

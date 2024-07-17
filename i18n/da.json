@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Fugithora",
 			"Saederup92"
 		]
 	},
@@ -25,5 +26,8 @@
 	"bs-distributionconnector-workflows-form-comment": "Kommentar",
 	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% vækst",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Invitér",
-	"bs-distributionconnector-invite-signup-dialog-title": "Invitér bruger"
+	"bs-distributionconnector-invite-signup-dialog-title": "Invitér bruger",
+	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Brug rigtige navn som brugernavn",
+	"bs-distributionconnector-pref-openidconnect-useemailasusername": "Brug e-mailadresse som brugernavn",
+	"droplets-subpages-name": "Undersider"
 }

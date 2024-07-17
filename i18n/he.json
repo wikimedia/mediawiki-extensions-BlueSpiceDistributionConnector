@@ -57,7 +57,7 @@
 	"bs-distributionconnector-checkpermissions-label-user": "משתמש",
 	"bs-distributionconnector-checkpermissions-label-permission": "הרשאה",
 	"bs-distributionconnector-checkpermissions-label-title": "כותרת",
-	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] קיבל את ההרשאה \"$2\" לדף [[$3]]",
+	"bs-distributionconnector-checkpermissions-success": "למשתמש [[User:$1|$1]] ישנה ההרשאה \"$2\" בהקשר של [[$3]]",
 	"bs-distributionconnector-ve-categorytree-title": "עץ קטגוריות",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "הסתרת שורש",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "הצגת ספירה",
