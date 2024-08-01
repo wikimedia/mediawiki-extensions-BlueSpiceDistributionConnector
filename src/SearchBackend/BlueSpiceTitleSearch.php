@@ -45,6 +45,16 @@ class BlueSpiceTitleSearch extends SearchEngine {
 	}
 
 	/**
+	 * @param int $limit
+	 * @param int $offset
+	 * @return void
+	 */
+	public function setLimitOffset( $limit, $offset = 0 ) {
+		parent::setLimitOffset( $limit, $offset );
+		$this->fallbackSearchEngine->setLimitOffset( $limit, $offset );
+	}
+
+	/**
 	 *
 	 * @param string $term
 	 * @return SearchResultSet
@@ -75,7 +85,7 @@ class BlueSpiceTitleSearch extends SearchEngine {
 
 		$params = [
 			'limit' => $this->limit,
-			'offset' => $this->offset,
+			'start' => $this->offset,
 		];
 		if ( is_array( $this->namespaces ) && !empty( $this->namespaces ) ) {
 			$params['filter'] = [
