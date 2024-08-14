@@ -16,7 +16,7 @@ class CheckPermissions extends BlueSpice\SpecialPage {
 	private $permissionManager = null;
 
 	public function __construct() {
-		parent::__construct( 'CheckPermissions', 'userrights', false );
+		parent::__construct( 'CheckPermissions', 'checkpermissions', false );
 	}
 
 	/**
@@ -25,6 +25,7 @@ class CheckPermissions extends BlueSpice\SpecialPage {
 	 * @return void
 	 */
 	public function execute( $par ) {
+		$this->checkPermissions();
 		$this->setHeaders();
 		$out = $this->getOutput();
 		$out->setPageTitle( $this->msg( 'bs-distributionconnector-checkpermissions' ) );
