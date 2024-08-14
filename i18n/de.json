@@ -211,5 +211,7 @@
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Plugin-Namen",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Sollte die Anmeldung automatisch erfolgen, wenn ein Benutzer das Wiki besucht?",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Aktiviert die automatische Anmeldung beim Wiki",
-	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Gruppensynchronisierungseinstellungen (JSON)"
+	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Gruppensynchronisierungseinstellungen (JSON)",
+	"action-checkpermissions": "die Benutzerberechtigungen zu überprüfen",
+	"right-checkpermissions": "Überprüfung der Benutzerberechtigungen auf der Spezialseite [[Special:Check_Permissions]]"
 }
