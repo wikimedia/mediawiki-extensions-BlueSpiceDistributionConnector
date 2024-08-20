@@ -121,6 +121,14 @@
 						"admin",
 						"maintenanceadmin"
 					]
+				},
+				"checkpermissions": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"maintenanceadmin",
+						"structuremanager"
+					]
 				}
 			},
 			"SettingPathRegistry": {
@@ -210,6 +218,20 @@
 			"EchoEventsCompatibilityMapping": {}
 		}
 	},
+	"GroupPermissions": {
+		"*": {
+			"checkpermissions": false
+		},
+		"user": {
+			"checkpermissions": false
+		},
+		"sysop": {
+			"checkpermissions": true
+		}
+	},
+	"AvailableRights": [
+		"checkpermissions"
+	],
 	"callback": "\\BlueSpice\\DistributionConnector\\Extension::onRegistration",
 	"MessagesDirs": {
 		"BlueSpiceDistributionConnector": [
