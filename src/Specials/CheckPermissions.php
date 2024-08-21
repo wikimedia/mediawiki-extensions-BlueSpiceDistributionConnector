@@ -64,7 +64,7 @@ class CheckPermissions extends BlueSpice\SpecialPage {
 
 		if ( !$user ) {
 			return Status::newFatal(
-				'bs-distributionconnector-checkpermissions-error-invalid-username'
+				'bs-distributionconnector-checkpermissions-error-invalid-user'
 			);
 		}
 
