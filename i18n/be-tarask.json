@@ -2,10 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Nieszczarda2",
+			"Renessaince",
 			"W"
 		]
 	},
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Глыбіня",
 	"bs-distributionconnector-pref-openidconnect-config-scope": "Ахоп",
-	"bs-distributionconnector-workflows-form-instructions": "Інструкцыі"
+	"bs-distributionconnector-workflows-form-instructions": "Інструкцыі",
+	"action-checkpermissions": "праверыць дазволы карыстальніка",
+	"right-checkpermissions": "Праверце дазволы карыстальніка на спэцыяльнай старонцы [[Special:Check_Permissions|Спэцыяльныя:Праверка дазволаў]]"
 }
