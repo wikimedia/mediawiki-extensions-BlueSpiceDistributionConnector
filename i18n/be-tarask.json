@@ -2,13 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Nieszczarda2",
-			"W"
+			"W",
+			"Renessaince"
 		]
 	},
-	"bs-distributionconnector-flyout-hitcounters-text": "Лік праглядаў",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Глыбіня",
-	"bs-distributionconnector-collection-type-hitcounter": "Прагляды старонкі",
-	"bs-distributionconnector-collection-var-pagetitle": "Загаловак старонкі",
 	"bs-distributionconnector-pref-openidconnect-config-scope": "Ахоп",
-	"bs-distributionconnector-workflows-form-instructions": "Інструкцыі"
+	"bs-distributionconnector-workflows-form-instructions": "Інструкцыі",
+	"action-checkpermissions": "праверыць дазволы карыстальніка",
+	"right-checkpermissions": "Праверце дазволы карыстальніка на спэцыяльнай старонцы [[Special:Check_Permissions|Спэцыяльныя:Праверка дазволаў]]"
 }
