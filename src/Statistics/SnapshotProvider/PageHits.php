@@ -4,8 +4,11 @@ namespace BlueSpice\DistributionConnector\Statistics\SnapshotProvider;
 
 use BlueSpice\ExtendedStatistics\ISnapshotProvider;
 use BlueSpice\ExtendedStatistics\ISnapshotStore;
+use BlueSpice\ExtendedStatistics\PageHitsSnapshot;
 use BlueSpice\ExtendedStatistics\Snapshot;
 use BlueSpice\ExtendedStatistics\SnapshotDate;
+use BlueSpice\ExtendedStatistics\SnapshotFactory;
+use Exception;
 use Title;
 use Wikimedia\Rdbms\LoadBalancer;
 
@@ -15,18 +18,29 @@ class PageHits implements ISnapshotProvider {
 	/** @var ISnapshotStore */
 	private $snapshotStore;
 
+	/** @var SnapshotFactory */
+	private SnapshotFactory $snapshotFactory;
+
 	/**
 	 * @param LoadBalancer $loadBalancer
 	 * @param ISnapshotStore $store
+	 * @param SnapshotFactory $snapshotFactory
 	 */
-	public function __construct( LoadBalancer $loadBalancer, ISnapshotStore $store ) {
+	public function __construct(
+		LoadBalancer $loadBalancer,
+		ISnapshotStore $store,
+		SnapshotFactory $snapshotFactory
+	) {
 		$this->loadBalancer = $loadBalancer;
 		$this->snapshotStore = $store;
+		$this->snapshotFactory = $snapshotFactory;
 	}
 
 	/**
 	 * @param SnapshotDate $date
+	 *
 	 * @return Snapshot
+	 * @throws Exception
 	 */
 	public function generateSnapshot( SnapshotDate $date ): Snapshot {
 		$db = $this->loadBalancer->getConnection( DB_REPLICA );
@@ -41,36 +55,24 @@ class PageHits implements ISnapshotProvider {
 		);
 
 		$data = [];
-		$totalHits = 0;
 		foreach ( $res as $row ) {
 			$title = Title::newFromRow( $row );
 			$page = $title->getPrefixedDBkey();
 			$hits = (int)$row->page_counter;
-			$hitDiff = $hits;
-			$growth = 0;
-			if ( $previousSnapshot instanceof Snapshot ) {
-				$previousHits = $this->getPreviousHits( $previousSnapshot, $page );
-				if ( $previousHits === 0 ) {
-					$growth = 100;
-				} else {
-					$hitDiff = $hits - $previousHits;
-					$growth = ( $hitDiff / $previousHits ) * 100;
-				}
-			}
-			$totalHits += $hitDiff;
 			$data[$page] = [
 				'hits' => $hits,
-				'hitDiff' => $hitDiff,
-				'growth' => $growth < 0 ? 0 : $growth
+				'hitDiff' => $this->calcHitDiff( $hits, $previousSnapshot, $page )
 			];
 		}
-		$data['total'] = $totalHits;
 
-		return new Snapshot( $date, $this->getType(), $data );
+		return $this->snapshotFactory->createSnapshot(
+			$date, $this->getType(), $data
+		);
 	}
 
 	/**
 	 * @inheritDoc
+	 * @throws Exception
 	 */
 	public function aggregate(
 		array $snapshots, $interval = Snapshot::INTERVAL_DAY, $date = null
@@ -92,24 +94,13 @@ class PageHits implements ISnapshotProvider {
 					];
 				}
 				$data[$page]['hits'] += $props['hits'];
-				// Growth set below
-				$data[$page]['growth'] = 0;
 			}
 		}
-		if ( $previous instanceof Snapshot ) {
-			foreach ( $data as $page => &$props ) {
-				$previousHits = $this->getPreviousHits( $previous, $page );
-				if ( $previousHits === 0 ) {
-					$props['growth'] = 100;
-				} else {
-					$hitDiff = $props['hits'] - $previousHits;
-					$props['hitDiff'] = $hitDiff;
-					$props['growth'] = ( $hitDiff / $previousHits ) * 100;
-				}
-			}
+		foreach ( $data as $page => &$props ) {
+			$props['hitDiff'] = $this->calcHitDiff( $props['hits'], $previous, $page );
 		}
 
-		return new Snapshot(
+		return $this->snapshotFactory->createSnapshot(
 			$date ?? new SnapshotDate(), $this->getType(), $data, $interval
 		);
 	}
@@ -118,7 +109,31 @@ class PageHits implements ISnapshotProvider {
 	 * @inheritDoc
 	 */
 	public function getType() {
-		return 'dc-pagehits';
+		return PageHitsSnapshot::TYPE;
+	}
+
+	/**
+	 * hitDiff must not be negative
+	 *
+	 * @param int $hits
+	 * @param Snapshot|null $previous
+	 * @param string $page
+	 *
+	 * @return int
+	 * @throws Exception
+	 */
+	private function calcHitDiff( int $hits, Snapshot|null $previous, string $page ): int {
+		if ( !( $previous instanceof Snapshot ) ) {
+			return 0;
+		}
+
+		$hitDiff = $hits - $this->getPreviousHits( $previous, $page );
+
+		if ( $hitDiff < 0 ) {
+			throw new Exception( 'Calculating hitDiff failed. hitDiff is negative.' );
+		}
+
+		return $hitDiff;
 	}
 
 	/**
@@ -126,7 +141,7 @@ class PageHits implements ISnapshotProvider {
 	 * @param string $page
 	 * @return int
 	 */
-	private function getPreviousHits( Snapshot $previous, $page ) {
+	private function getPreviousHits( Snapshot $previous, string $page ): int {
 		$data = $previous->getData();
 		if ( isset( $data[$page] ) ) {
 			return $data[$page]['hits'];
