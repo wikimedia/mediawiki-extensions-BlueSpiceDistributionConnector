@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
+			"Freddy9",
 			"Neriah",
 			"Steeve815",
 			"Xnet1234",
@@ -208,5 +209,7 @@
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "שם התוסף",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin": "האם הכניסה לחשבון צריכה להתרחש באופן אוטומטי כאשר משתמש מבקר בוויקי?",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "הפעלת כניסה אוטומטית לוויקי",
-	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "הגדרות סנכרון קבוצתי (JSON)"
+	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "הגדרות סנכרון קבוצתי (JSON)",
+	"action-checkpermissions": "בדיקת הרשאות משתמש",
+	"right-checkpermissions": "לבדוק את הרשאות המשתמש בדף המיוחד [[Special:Check_Permissions]]"
 }

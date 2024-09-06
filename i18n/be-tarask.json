@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Nieszczarda2",
+			"Renessaince",
 			"W"
 		]
 	},
@@ -10,5 +11,7 @@
 	"bs-distributionconnector-collection-type-hitcounter": "Прагляды старонкі",
 	"bs-distributionconnector-collection-var-pagetitle": "Загаловак старонкі",
 	"bs-distributionconnector-pref-openidconnect-config-scope": "Ахоп",
-	"bs-distributionconnector-workflows-form-instructions": "Інструкцыі"
+	"bs-distributionconnector-workflows-form-instructions": "Інструкцыі",
+	"action-checkpermissions": "праверыць дазволы карыстальніка",
+	"right-checkpermissions": "Праверце дазволы карыстальніка на спэцыяльнай старонцы [[Special:Check_Permissions|Спэцыяльныя:Праверка дазволаў]]"
 }

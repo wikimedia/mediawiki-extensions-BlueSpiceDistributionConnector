@@ -182,5 +182,7 @@
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Plugin name",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Should login occur automatically when a user visits the wiki?",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Enables automatic login to the wiki",
-	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Group sync settings (JSON)"
+	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Group sync settings (JSON)",
+	"action-checkpermissions": "check user permissions",
+	"right-checkpermissions": "Check user permissions on the special page [[Special:Check_Permissions]]"
 }
