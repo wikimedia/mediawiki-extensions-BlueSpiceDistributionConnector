@@ -29,7 +29,7 @@
 			<bpmn:property name="usernameApprover" validation="existing-user,valid-reviewer">{{ROOTPAGENAME:{{#show:{{FULLPAGENAME}}|?QM Approver|link=none}}}}</bpmn:property>
 			<bpmn:property name="instructionsApprover" />
 			<bpmn:property name="reportrecipient" validation="email-recipient">{{#show:{{#if:{{NAMESPACE}}|{{NAMESPACE}}:|}}{{MediaWiki:mainpage}}|?Report mail|link=none|default={{#if:{{NAMESPACE}}|{{NAMESPACE}}-|}}report@{{SERVERNAME}}}}</bpmn:property>
-			<bpmn:property name="due_date">{{#time:YmdHis}}</bpmn:property>
+			<bpmn:property name="due_date">{{#time:YmdHis|now + 7days}}</bpmn:property>
 			<bpmn:incoming>FromTheStartToCollectData</bpmn:incoming>
 			<bpmn:outgoing>FromCollectDataToCheckoutPage_1</bpmn:outgoing>
 		</bpmn:userTask>
@@ -51,7 +51,7 @@
 			</bpmn:extensionElements>
 			<bpmn:property name="assigned_user">{{{CollectData.usernameEditor}}}</bpmn:property>
 			<bpmn:property name="instructions">{{{CollectData.instructionsEditor}}}</bpmn:property>
-			<bpmn:property name="due_date">{{#time:YmdHis|{{{CollectData.due_date}}} + 7days}}</bpmn:property>
+			<bpmn:property name="due_date">{{{CollectData.due_date}}}</bpmn:property>
 			<bpmn:incoming>FromCheckoutPage_1ToRequestPageEdit</bpmn:incoming>
 			<bpmn:incoming>FromGatewayReviewToRequestPageEdit</bpmn:incoming>
 			<bpmn:outgoing>FromRequestPageEditToUserVoteReview</bpmn:outgoing>
