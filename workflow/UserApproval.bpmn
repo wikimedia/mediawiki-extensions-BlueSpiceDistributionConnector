@@ -25,7 +25,7 @@
 			<bpmn:property name="username" validation="existing-user,valid-reviewer">{{ROOTPAGENAME:{{#show:{{FULLPAGENAME}}|?Page creator|link=none}}}}</bpmn:property>
 			<bpmn:property name="instructions"/>
 			<bpmn:property name="reportrecipient" validation="email-recipient">{{#show:{{#if:{{NAMESPACE}}|{{NAMESPACE}}:|}}{{MediaWiki:mainpage}}|?Report mail|link=none|default={{#if:{{NAMESPACE}}|{{NAMESPACE}}-|}}report@{{SERVERNAME}}}}</bpmn:property>
-			<bpmn:property name="due_date">{{#time:YmdHis|now}}</bpmn:property>
+			<bpmn:property name="due_date">{{#time:YmdHis|now + 7days}}</bpmn:property>
 			<bpmn:incoming>FromTheStartToCollectData</bpmn:incoming>
 			<bpmn:outgoing>FromCollectDataToPageCheckout</bpmn:outgoing>
 		</bpmn:userTask>
@@ -46,7 +46,7 @@
 				<wf:type>user_vote</wf:type>
 			</bpmn:extensionElements>
 			<bpmn:property name="instructions">{{{CollectData.instructions}}}</bpmn:property>
-			<bpmn:property name="due_date">{{#time:YmdHis|{{{CollectData.due_date}}} + 7days}}</bpmn:property>
+			<bpmn:property name="due_date">{{{CollectData.due_date}}}</bpmn:property>
 			<bpmn:property name="vote"/>
 			<bpmn:property name="comment"/>
 			<bpmn:property name="delegate_to"/>
