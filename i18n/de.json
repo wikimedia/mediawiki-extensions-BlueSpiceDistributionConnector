@@ -3,6 +3,7 @@
 		"authors": [
 			"Abcdefg",
 			"Brettchenweber",
+			"Justman10000",
 			"Laurinm",
 			"McDutchie",
 			"Mglaser",
@@ -118,7 +119,7 @@
 	"bs-distributionconnector-checkpermissions-label-title": "Titel",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "Genannter Nutzername ist ungültig",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "Genannter Titel ist ungültig",
-	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] hat die Berechtigung \"$2\" für [[$3]] erhalten",
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] hat die Berechtigung \"$2\" im Kontext von [[$3]]",
 	"bs-distributionconnector-notification-logged-in": "Du bist nun angemeldet",
 	"bs-distributionconnector-workflows-ui-trigger-field-property": "Semantische Eigenschaft (vom Typ: Datum)",
 	"bs-distributionconnector-workflows-ui-trigger-field-days": "Versetzte Tage ab dem Datum in der Eigenschaft",
