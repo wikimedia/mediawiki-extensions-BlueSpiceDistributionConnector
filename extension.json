@@ -248,8 +248,7 @@
 		"CheckPermissions": "BlueSpice\\DistributionConnector\\Specials\\CheckPermissions"
 	},
 	"AutoloadClasses": {
-		"BlueSpiceDistributionHooks": "includes/BlueSpiceDistributionHooks.php",
-		"EchoEvent": "src/EchoEvent.php"
+		"BlueSpiceDistributionHooks": "includes/BlueSpiceDistributionHooks.php"
 	},
 	"ResourceModules": {
 		"ext.bluespice.distribution.styles": {
