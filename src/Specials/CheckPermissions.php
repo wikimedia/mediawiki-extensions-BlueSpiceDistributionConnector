@@ -4,6 +4,9 @@ namespace BlueSpice\DistributionConnector\Specials;
 
 use BlueSpice;
 use Html;
+use HTMLSelectField;
+use HTMLTitleTextField;
+use HTMLUserTextField;
 use MWException;
 use OOUIHTMLForm;
 use Status;
@@ -36,16 +39,16 @@ class CheckPermissions extends BlueSpice\SpecialPage {
 		}
 		$formDescriptor = [
 			'username' => [
-				'class' => 'HTMLUserTextField',
+				'class' => HTMLUserTextField::class,
 				'label-message' => 'bs-distributionconnector-checkpermissions-label-user'
 			],
 			'permission' => [
-				'class' => 'HTMLSelectField',
+				'class' => HTMLSelectField::class,
 				'label-message' => 'bs-distributionconnector-checkpermissions-label-permission',
 				'options' => $options
 			],
 			'title' => [
-				'class' => 'HTMLTitleTextField',
+				'class' => HTMLTitleTextField::class,
 				'label-message' => 'bs-distributionconnector-checkpermissions-label-title'
 			],
 		];
