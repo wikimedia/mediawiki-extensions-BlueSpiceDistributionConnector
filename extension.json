@@ -216,6 +216,11 @@
 		},
 		"BlueSpiceDistributionConnector": {
 			"EchoEventsCompatibilityMapping": {}
+		},
+		"BlueSpiceWikiExplorer": {
+			"PluginModules": [
+				"ext.bluespice.distribution.wikiExplorer.columns"
+			]
 		}
 	},
 	"GroupPermissions": {
@@ -493,6 +498,14 @@
 				"droplets-pdf-link-template-label",
 				"droplets-pdf-link-link-label"
 			]
+		},
+		"ext.bluespice.distribution.wikiExplorer.columns": {
+			"scripts": [
+				"wikiexplorer/bluespice.distribution.wikiExplorer.columns.js"
+			],
+			"messages": [
+				"bs-distributionconnector-hit-counter-wikiexplorer-column-name"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {
@@ -545,8 +558,6 @@
 			"fix-pluggable-auth-group-sync",
 			"addVariablesPageProperties"
 		],
-		"WikiExplorer::getFieldDefinitions": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onGetFieldDefinitions",
-		"WikiExplorer::getColumnDefinitions": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onGetColumnDefinitions",
 		"WikiExplorer::buildDataSets": "\\BlueSpice\\DistributionConnector\\Hook\\WikiExplorer\\AddHitCounterColumn::onBuildDataSets",
 		"UserLoggedIn": "BlueSpice\\DistributionConnector\\Hook\\UserLoggedIn\\AddLoginNotification::onUserLoggedIn",
 		"BSUserManagerRegisterModules": "user-manager",

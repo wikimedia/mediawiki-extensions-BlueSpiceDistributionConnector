@@ -6,32 +6,6 @@ use MediaWiki\MediaWikiServices;
 class AddHitCounterColumn {
 
 	/**
-	 * @param array &$fields
-	 * @return bool
-	 */
-	public static function onGetFieldDefinitions( array &$fields ) {
-		$fields[] = [
-			'name' => 'page_hits',
-			'type' => 'int'
-		];
-		return true;
-	}
-
-	/**
-	 * @param array &$columns
-	 * @return bool
-	 */
-	public static function onGetColumnDefinitions( &$columns ) {
-		$columns[] = [
-			'header' => wfMessage(
-				'bs-distributionconnector-hit-counter-wikiexplorer-column-name'
-			)->plain(),
-			'dataIndex' => 'page_hits'
-		];
-		return true;
-	}
-
-	/**
 	 * @param array &$rows
 	 * @return bool
 	 */
@@ -51,6 +25,12 @@ class AddHitCounterColumn {
 
 		foreach ( $res as $row ) {
 			$rows[$row->page_id]['page_hits'] = $row->page_counter;
+		}
+
+		foreach ( $rows as &$row ) {
+			if ( !isset( $row['page_hits'] ) ) {
+				$row['page_hits'] = 0;
+			}
 		}
 
 		return true;
