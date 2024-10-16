@@ -49,6 +49,7 @@ class AddGlobalAction implements MWStakeCommonUIRegisterSkinSlotComponents {
 					'factory' => static function () use ( $special ) {
 						return new RestrictedTextLink( [
 							'id' => 'special-replacetext',
+							'role' => 'menuitem',
 							'href' => $special->getPageTitle()->getLocalURL(),
 							'text' => new RawMessage( $special->getDescription() ),
 							'title' => new RawMessage( $special->getDescription() ),
