@@ -203,5 +203,7 @@
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nomine del plug-in",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Debe un session esser aperite automaticamente quando un usator visita le wiki?",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Activa le apertura de session automatic sur le wiki",
-	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Parametros de synchronisation del gruppo (JSON)"
+	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Parametros de synchronisation del gruppo (JSON)",
+	"action-checkpermissions": "verificar permissiones de usator",
+	"right-checkpermissions": "Verificar permissiones de usator sur le pagina special [[Special:Check_Permissions]]"
 }
