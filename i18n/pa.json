@@ -5,5 +5,7 @@
 		]
 	},
 	"bs-distributionconnector-workflows-form-username": "ਵਰਤੋਂਕਾਰ",
-	"bs-distributionconnector-checkpermissions-label-user": "ਵਰਤੋਂਕਾਰ"
+	"bs-distributionconnector-checkpermissions-label-user": "ਵਰਤੋਂਕਾਰ",
+	"droplets-buttonlink-external-label": "ਬਾਹਰੀ ਕੜੀ",
+	"droplets-pdflink-name": "PDF ਕੜੀ"
 }
