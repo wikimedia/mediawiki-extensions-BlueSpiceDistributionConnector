@@ -1,9 +1,9 @@
 ( function ( mw, $ ) {
 	bs.util.registerNamespace( 'bs.distributionConnector.workflows.trigger' );
 
-	bs.distributionConnector.workflows.trigger.TimeSMWProperty = function( data ) {
-		bs.distributionConnector.workflows.trigger.TimeSMWProperty.parent.call( this, data );
-		workflows.ui.trigger.mixin.WorkflowSelector.call( this, {} );
+	bs.distributionConnector.workflows.trigger.TimeSMWProperty = function( data, cfg ) {
+		bs.distributionConnector.workflows.trigger.TimeSMWProperty.parent.call( this, data, cfg );
+		workflows.ui.trigger.mixin.WorkflowSelector.call( this, cfg );
 	};
 
 	OO.inheritClass( bs.distributionConnector.workflows.trigger.TimeSMWProperty, workflows.ui.trigger.PageRelated );
