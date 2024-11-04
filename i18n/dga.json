@@ -5,6 +5,10 @@
 			"Robert"
 		]
 	},
+	"droplets-create-input-preload-label": "Leɛ maale eŋ gampɛle",
+	"droplets-create-input-placeholder-label": "Zinyɔgraa kaŋa",
+	"droplets-create-input-alignment-left-label": "Bare",
+	"droplets-create-input-desc": "Zie naŋ are ko gampɛllɛ",
 	"droplets-pdf-link-page-label": "Toɔloŋ ganpɛle",
 	"droplets-pdf-link-template-label": "PDF manewulaa",
 	"droplets-buttonlink-name": "Zineɛraa",
@@ -20,12 +24,6 @@
 	"droplets-subpages-description": "Gaŋpɛlbilii noɔre a wiki gaŋpɛle poɔ",
 	"droplets-video-name": "Vudiyo",
 	"droplets-video-description": "Laŋtaa a vudie naŋ yi zi tɛɛtɛɛ",
-	"droplets-pdflink-description": "Miri na maŋ tage wiki gaŋpɛle yuo k'o e PDF",
-	"droplets-create-input-preload-label": "Leɛ maale eŋ gampɛle",
-	"droplets-create-input-placeholder-label": "Zinyɔgraa kaŋa",
-	"droplets-create-input-alignment-left-label": "Bare",
-	"droplets-create-input-desc": "Zie naŋ are ko gampɛllɛ",
-	"droplets-pdf-link-label-label": "Vuo a ko bontonne",
-	"droplets-buttonlink-description": "Lera kaŋa naŋ yuo zivelaa.",
-	"droplets-pdflink-name": "PDF bontonaa"
+	"droplets-pdflink-name": "PDF bontonaa",
+	"droplets-pdflink-description": "Miri na maŋ tage wiki gaŋpɛle yuo k'o e PDF"
 }

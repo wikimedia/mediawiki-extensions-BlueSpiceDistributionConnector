@@ -5,13 +5,12 @@
 			"Yupik"
 		]
 	},
-	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Nammagomuvuohta",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Čiega prefivssa",
-	"bs-distributionconnector-checkpermissions-label-permission": "Geavahanvuoigatvuohta",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Nammagomuvuohta",
+	"bs-distributionconnector-workflows-form-username": "Geavaheaddji",
 	"bs-distributionconnector-checkpermissions-label-user": "Geavaheaddji",
-	"droplets-video-name": "Video",
-	"bs-distributionconnector-videodropletinspector-title": "Video",
+	"bs-distributionconnector-checkpermissions-label-permission": "Geavahanvuoigatvuohta",
 	"droplets-map-name": "Kárta",
-	"bs-distributionconnector-workflows-form-username": "Geavaheaddji"
+	"droplets-video-name": "Video",
+	"bs-distributionconnector-videodropletinspector-title": "Video"
 }

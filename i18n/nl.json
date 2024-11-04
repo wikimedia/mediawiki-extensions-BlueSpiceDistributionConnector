@@ -86,7 +86,6 @@
 	"bs-distributionconnector-default-definition-report-vote": "stemmen",
 	"bs-distributionconnector-pref-eventbus-eventservices": "Evenementendiensten",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Dienstnaam",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Verloop",
 	"bs-distributionconnector-pref-eventbus-eventservices-help": "De diensten die gedefinieerd zijn voor de uitbreiding \"EventBus\" die toestandsveranderingen (bewerken, verplaatsen, verwijderen, zichtbaarheid van versies, enz.) doorgeeft aan een \"RESTful event service\", waardoor de gebruikers ervan in staat worden gesteld om veranderingen in MediaWiki-inhoud te volgen.",
 	"bs-distributionconnector-pref-eventbus-enableeventbus": "EventBus inschakelen voor de volgende gebeurtenissen",

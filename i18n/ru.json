@@ -80,7 +80,6 @@
 	"bs-distributionconnector-default-definition-report-vote": "голос",
 	"bs-distributionconnector-pref-eventbus-eventservices": "Event services",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "Название службы",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Тайм-аут",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "все",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "ничего",

@@ -108,7 +108,6 @@
 	"bs-distributionconnector-default-definition-report-vote": "投票",
 	"bs-distributionconnector-pref-eventbus-eventservices": "活动系列",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "设备名称",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "超时",
 	"bs-distributionconnector-pref-eventbus-eventservices-help": "“EventBus”扩展的定义服务的状态将更改（编辑、移动、删除、修订等）RESTful的事件服务，为服务的使用者提供跟踪 MediaWiki 内容更改的方法",
 	"bs-distributionconnector-pref-eventbus-enableeventbus": "为以下事件启用EventBus",
@@ -123,7 +122,7 @@
 	"bs-distributionconnector-checkpermissions-label-title": "标题",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "提供用户名无效",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "提供标题无效",
-	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]]已被授予用于[[$3]]的权限“$2”",
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]]在[[$3]]的上下文中拥有权限“$2”",
 	"bs-distributionconnector-notification-logged-in": "你已登录",
 	"bs-distributionconnector-workflows-ui-trigger-field-property": "语义属性（类型：日期）",
 	"bs-distributionconnector-workflows-ui-trigger-field-days": "与属性中的日期偏移的天数",
@@ -205,5 +204,7 @@
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "数据对象 (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "按钮标签",
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "插件名称",
-	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "群组同步设置 (JSON)"
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "启用自动登录wiki",
+	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "群组同步设置 (JSON)",
+	"action-checkpermissions": "检查用户权限"
 }

@@ -83,7 +83,6 @@
 	"bs-distributionconnector-default-definition-report-vote": "הצבעה",
 	"bs-distributionconnector-pref-eventbus-eventservices": "שירותי אירועים",
 	"bs-distributionconnector-pref-eventbus-eventservices-key": "שם השירות",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-url": "כתובת URL",
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "זמן קצוב",
 	"bs-distributionconnector-pref-eventbus-eventservices-help": "השירותים המוגדרים עבור הרחבה \"EventBus\" המפיצה שינויי מצב (עריכה, העברה, מחיקה, נראות גרסאות וכו') לשירות אירועים RESTful, המספקת לצרכני השירות אמצעי מעקב אחר שינויים בתוכני מדיה־ויקי",
 	"bs-distributionconnector-pref-eventbus-enableeventbus": "הפעלת EventBus עבור האירועים הבאים",

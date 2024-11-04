@@ -8,7 +8,6 @@
 		]
 	},
 	"bs-distributionconnector-checkpermissions-label-permission": "Izin",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Jumlah tampilan halaman",
 	"bs-distributionconnector-videodropletinspector-service-label": "Layanan",
 	"droplets-circled-number-fg-color-label": "Warna latar depan",
 	"droplets-circled-number-label": "Nomor",
@@ -20,6 +19,7 @@
 	"droplets-buttonlink-external-label": "Tautan eksternal",
 	"droplets-buttonlink-target-label": "Target",
 	"droplets-buttonlink-format-label": "Warna latar belakang",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Jumlah tampilan halaman",
 	"droplets-create-input-alignment-left-label": "kiri",
 	"droplets-create-input-alignment-right-label": "kanan",
 	"droplets-create-input-name": "Buat halaman",
