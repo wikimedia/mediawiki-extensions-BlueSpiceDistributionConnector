@@ -122,7 +122,7 @@ class PageHits implements ISnapshotProvider {
 	 * @return int
 	 * @throws Exception
 	 */
-	private function calcHitDiff( int $hits, Snapshot|null $previous, string $page ): int {
+	private function calcHitDiff( int $hits, ?Snapshot $previous, string $page ): int {
 		if ( !( $previous instanceof Snapshot ) ) {
 			return 0;
 		}
