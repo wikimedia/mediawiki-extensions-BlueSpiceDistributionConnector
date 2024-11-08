@@ -163,7 +163,11 @@
 			"SnapshotProviders": {
 				"dc-pagehits": {
 					"class": "\\BlueSpice\\DistributionConnector\\Statistics\\SnapshotProvider\\PageHits",
-					"services": [ "DBLoadBalancer", "ExtendedStatisticsSnapshotStore" ]
+					"services": [
+						"DBLoadBalancer",
+						"ExtendedStatisticsSnapshotStore",
+						"ExtendedStatisticsSnapshotFactory"
+					]
 				}
 			},
 			"Reports": {
