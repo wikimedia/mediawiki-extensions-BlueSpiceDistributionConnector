@@ -41,6 +41,7 @@ ve.ui.VideoDropletInspector.prototype.initialize = function () {
 	this.indexLayout.$element.append(
 		this.inputLayout.$element,
 		this.serviceLayout.$element,
+		this.titleLayout.$element,
 		this.descriptionLayout.$element,
 		this.dimensionLayout.$element,
 		this.alignmentLayout.$element,
@@ -59,11 +60,11 @@ ve.ui.VideoDropletInspector.prototype.createFields = function () {
 		rows: 2
 	} );
 
-	let services = mw.config.get( 'bsgEmbedVideoServices' );
+	const services = mw.config.get( 'bsgEmbedVideoServices' );
 
-	let serviceData = [];
-	for ( let service in services ) {
-		let item =  new OO.ui.MenuOptionWidget( {
+	const serviceData = [];
+	for ( const service in services ) {
+		const item = new OO.ui.MenuOptionWidget( {
 			data: services[ service ],
 			label: services[ service ]
 		} );
@@ -76,10 +77,13 @@ ve.ui.VideoDropletInspector.prototype.createFields = function () {
 		}
 	} );
 
-	if ( services.includes( this.defaultService ) ) {
+	if ( services.includes( this.defaultService ) ) { // eslint-disable-line no-restricted-syntax
 		this.serviceInput.getMenu().selectItemByData( this.defaultService );
 	}
 
+	this.titleInput = new OO.ui.TextInputWidget( {
+		placeholder: mw.message( 'bs-distributionconnector-videodropletinspector-title-placeholder' ).plain()
+	} );
 	this.descriptionInput = new OO.ui.MultilineTextInputWidget( {
 		rows: 2,
 		placeholder: mw.message( 'bs-distributionconnector-videodropletinspector-description-placeholder' ).plain()
@@ -88,17 +92,18 @@ ve.ui.VideoDropletInspector.prototype.createFields = function () {
 		placeholder: '640'
 	} );
 
-	let alignmentsData = [ 'left', 'center', 'right' ];
-	let alignments = [];
-	for ( let alignmentKey in alignmentsData ) {
-		let alignment = alignmentsData[ alignmentKey ];
-		let item =  new OO.ui.MenuOptionWidget( {
+	const alignmentsData = [ 'left', 'center', 'right' ];
+	const alignments = [];
+	for ( const alignmentKey in alignmentsData ) {
+		const alignment = alignmentsData[ alignmentKey ];
+		const item = new OO.ui.MenuOptionWidget( {
 			data: alignment,
 			// bs-distributionconnector-videodropletinspector-alignment-left
 			// bs-distributionconnector-videodropletinspector-alignment-center
 			// bs-distributionconnector-videodropletinspector-alignment-right
+			// eslint-disable-next-line mediawiki/msg-doc
 			label: mw.message(
-				"bs-distributionconnector-videodropletinspector-alignment-" + alignment ).plain()
+				'bs-distributionconnector-videodropletinspector-alignment-' + alignment ).plain()
 		} );
 		alignments.push( item );
 	}
@@ -111,39 +116,44 @@ ve.ui.VideoDropletInspector.prototype.createFields = function () {
 	this.containerInput = new OO.ui.CheckboxInputWidget( {
 		value: 'frame'
 	} );
-}
+};
 
 ve.ui.VideoDropletInspector.prototype.setLayouts = function () {
 	this.inputLayout = new OO.ui.FieldLayout( this.input, {
 		align: 'top',
 		label: mw.message( 'bs-distributionconnector-videodropletinspector-video-link-label' ).plain()
-	});
+	} );
 	this.serviceLayout = new OO.ui.FieldLayout( this.serviceInput, {
 		align: 'left',
 		label: mw.message( 'bs-distributionconnector-videodropletinspector-service-label' ).plain(),
 		help: mw.message( 'bs-distributionconnector-videodropletinspector-service-help' ).plain()
-	});
+	} );
+	this.titleLayout = new OO.ui.FieldLayout( this.titleInput, {
+		align: 'left',
+		label: mw.message( 'bs-distributionconnector-videodropletinspector-title-label' ).plain(),
+		help: mw.message( 'bs-distributionconnector-videodropletinspector-title-help' ).plain()
+	} );
 	this.descriptionLayout = new OO.ui.FieldLayout( this.descriptionInput, {
 		align: 'left',
 		label: mw.message( 'bs-distributionconnector-videodropletinspector-description-label' ).plain(),
 		help: mw.message( 'bs-distributionconnector-videodropletinspector-description-help' ).plain()
-	});
+	} );
 	this.dimensionLayout = new OO.ui.FieldLayout( this.dimensionsInput, {
 		align: 'left',
 		label: mw.message( 'bs-distributionconnector-videodropletinspector-dimension-label' ).plain(),
 		help: mw.message( 'bs-distributionconnector-videodropletinspector-dimension-help' ).plain()
-	});
+	} );
 	this.alignmentLayout = new OO.ui.FieldLayout( this.alignmentInput, {
 		align: 'left',
 		label: mw.message( 'bs-distributionconnector-videodropletinspector-alignment-label' ).plain(),
 		help: mw.message( 'bs-distributionconnector-videodropletinspector-alignent-help' ).plain()
-	});
+	} );
 	this.containerLayout = new OO.ui.FieldLayout( this.containerInput, {
 		align: 'left',
 		label: mw.message( 'bs-distributionconnector-videodropletinspector-container-label' ).plain(),
 		help: mw.message( 'bs-distributionconnector-videodropletinspector-container-help' ).plain()
-	});
-}
+	} );
+};
 
 /**
  * @inheritdoc
@@ -151,10 +161,13 @@ ve.ui.VideoDropletInspector.prototype.setLayouts = function () {
 ve.ui.VideoDropletInspector.prototype.getSetupProcess = function ( data ) {
 	return ve.ui.VideoDropletInspector.super.prototype.getSetupProcess.call( this, data )
 		.next( function () {
-			var attributes = this.selectedNode.getAttribute( 'mw' ).attrs;
+			const attributes = this.selectedNode.getAttribute( 'mw' ).attrs;
 
 			this.serviceInput.getMenu().selectItemByData( attributes.service || this.defaultService );
 
+			if ( attributes.title ) {
+				this.titleInput.setValue( attributes.title );
+			}
 			if ( attributes.description ) {
 				this.descriptionInput.setValue( attributes.description );
 			}
@@ -166,7 +179,7 @@ ve.ui.VideoDropletInspector.prototype.getSetupProcess = function ( data ) {
 				this.alignmentInput.getMenu().selectItemByData( attributes.alignment );
 			}
 
-			if ( attributes.container == 'frame' ) {
+			if ( attributes.container === 'frame' ) {
 				this.containerInput.setSelected( true );
 			}
 
@@ -180,6 +193,11 @@ ve.ui.VideoDropletInspector.prototype.updateMwData = function ( mwData ) {
 	mwData.attrs.service = this.serviceInput.getMenu().findSelectedItem().getData();
 	mwData.attrs.alignment = this.alignmentInput.getMenu().findSelectedItem().getData();
 
+	if ( this.titleInput.getValue() ) {
+		mwData.attrs.title = this.titleInput.getValue();
+	} else {
+		delete ( mwData.attrs.title );
+	}
 	if ( this.descriptionInput.getValue() !== '' ) {
 		mwData.attrs.description = this.descriptionInput.getValue();
 	} else {
@@ -200,7 +218,7 @@ ve.ui.VideoDropletInspector.prototype.updateMwData = function ( mwData ) {
 /**
  * @inheritdoc
  */
-ve.ui.VideoDropletInspector.prototype.formatGeneratedContentsError = function ($element) {
+ve.ui.VideoDropletInspector.prototype.formatGeneratedContentsError = function ( $element ) {
 	return $element.text().trim();
 };
 
@@ -208,7 +226,7 @@ ve.ui.VideoDropletInspector.prototype.formatGeneratedContentsError = function ($
  * Append the error to the current tab panel.
  */
 ve.ui.VideoDropletInspector.prototype.onTabPanelSet = function () {
-	this.indexLayout.getCurrentTabPanel().$element.append(this.generatedContentsError.$element);
+	this.indexLayout.getCurrentTabPanel().$element.append( this.generatedContentsError.$element );
 };
 
-ve.ui.windowFactory.register(ve.ui.VideoDropletInspector);
+ve.ui.windowFactory.register( ve.ui.VideoDropletInspector );
