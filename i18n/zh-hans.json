@@ -138,7 +138,7 @@
 	"bs-distributionconnector-invite-signup-dialog-text": "离开此页面以邀请新用户？",
 	"right-duplicate": "复制页面",
 	"action-duplicate": "复制页面",
-	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]]已被授予用于[[$3]]的权限“$2”",
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]]在[[$3]]的上下文中拥有权限“$2”",
 	"workflows-workflow-file-definition-document-control-desc": "请一位用户编辑页面，并请另一位专家用户复核这些更改。然后请第三个用户接受并发布该页面。完成此操作后，一封电子邮件通知将发送给指定的收件人。",
 	"bs-distributionconnector-default-user-approval-report-subject": "页面“$1”的“用户核准”工作流程已完成",
 	"bs-distributionconnector-default-user-approval-report-body": "工作流程详细信息：\n开始时间：$1\n完成时间：$2\n页面：$3\n修订：$4\n用户：$5\n说明：$6\n反馈：\n$7 \n\n这封电子邮件已发送给您，因为$8已将您指定为此工作流程的电子邮件收件人。",
@@ -227,5 +227,7 @@
 	"droplets-map-center-map-label-help": "地图中心的位置。例如：德国雷根斯堡",
 	"droplets-map-center-label-help": "设置焦点指针的位置，也可以设置弹出文本。例如：雷根斯堡 ~ 我的自定义文本",
 	"droplets-create-input-placeholder-help": "输入要在此输入字段中显示的占位符文本",
-	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "群组同步设置 (JSON)"
+	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "群组同步设置 (JSON)",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "启用自动登录wiki",
+	"action-checkpermissions": "检查用户权限"
 }

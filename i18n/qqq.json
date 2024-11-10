@@ -176,8 +176,6 @@
 	"bs-distributionconnector-videodropletinspector-title-help": "Help text for title text input field",
 	"bs-distributionconnector-videodropletinspector-title-placeholder": "Placeholder text for title text input field",
 	"bs-distributionconnector-videodropletinspector-service-help": "Help text for dropdown to select service",
-	"bs-distributionconnector-videodropletinspector-description-help": "Help text for text input field",
-	"bs-distributionconnector-videodropletinspector-description-placeholder": "Insert video description...",
 	"bs-distributionconnector-videodropletinspector-description-help": "Help text for description text input field",
 	"bs-distributionconnector-videodropletinspector-description-placeholder": "Placeholder text for description text input field",
 	"bs-distributionconnector-videodropletinspector-dimension-label": "Label for text input to set dimension",
