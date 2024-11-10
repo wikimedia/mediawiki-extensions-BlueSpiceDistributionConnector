@@ -12,5 +12,6 @@
 	"bs-sandbox": "Probeyo",
 	"bs-helpdesk": "Helpo-loko",
 	"bs-support": "Suporto",
-	"bs-distributionconnector-checkpermissions-label-title": "Titulo"
+	"bs-distributionconnector-checkpermissions-label-title": "Titulo",
+	"bs-distributionconnector-checkpermissions-label-user": "Uzero"
 }
