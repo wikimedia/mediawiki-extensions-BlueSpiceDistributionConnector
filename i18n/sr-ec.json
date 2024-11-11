@@ -89,5 +89,6 @@
 	"droplets-create-input-preload-label": "Преучитан садржај странице",
 	"droplets-create-input-prefix-label": "Префикс за назив странице",
 	"droplets-create-input-alignment-label": "Поравнање",
-	"droplets-circled-number-name": "Заокружен број"
+	"droplets-circled-number-name": "Заокружен број",
+	"bs-distributionconnector-videodropletinspector-title-label": "Наслов"
 }

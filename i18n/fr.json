@@ -184,7 +184,7 @@
 	"bs-distributionconnector-videodropletinspector-alignment-center": "centré",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "à droite",
 	"bs-distributionconnector-videodropletinspector-container-label": "Encadré",
-	"bs-distributionconnector-videodropletinspector-container-help": "Si sélectionné, la vidéo sera affichée dans une vignette.",
+	"bs-distributionconnector-videodropletinspector-container-help": "Si sélectionné, la vidéo sera affichée dans un cadre",
 	"bs-distributionconnector-pref-pluggableauth-config": "PluggableAuth",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Objet de données (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Libellé du bouton",
@@ -193,5 +193,8 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Active la connexion automatique au wiki",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Paramètres de synchronisation de groupe (JSON)",
 	"action-checkpermissions": "vérifier les autorisations des utilisateurs",
-	"right-checkpermissions": "Vérifiez les autorisations des utilisateurs sur la page spéciale [[Special:Check_Permissions]]"
+	"right-checkpermissions": "Vérifiez les autorisations des utilisateurs sur la page spéciale [[Special:Check_Permissions]]",
+	"bs-distributionconnector-videodropletinspector-title-label": "Titre",
+	"bs-distributionconnector-videodropletinspector-title-help": "Titre de la vidéo",
+	"bs-distributionconnector-videodropletinspector-title-placeholder": "Insérer le titre de la vidéo..."
 }

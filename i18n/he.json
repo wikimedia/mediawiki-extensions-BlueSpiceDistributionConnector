@@ -203,7 +203,7 @@
 	"bs-distributionconnector-videodropletinspector-dimension-help": "כדי להגדיר את גודל הסרטון ניתן להשתמש בתסדיר \"width x height\" בפיקסלים. אם הגובה לא מסופק, הוא יחושב אוטומטית מהרוחב. אם ברצונך להגדיר את הגובה, יש לציין זאת ב־\"x\".\nדוגמאות: 480, 480x320,x320 - לרוחב של 480 ולגובה של 320",
 	"bs-distributionconnector-videodropletinspector-alignent-help": "ליישר את הסרטון לשמאל, למרכז או לימין",
 	"bs-distributionconnector-videodropletinspector-container-label": "ממוסגר",
-	"bs-distributionconnector-videodropletinspector-container-help": "אם זה נבחר, הסרטון יוצג בתמונה ממוזערת",
+	"bs-distributionconnector-videodropletinspector-container-help": "אם זה נבחר, הסרטון יוצג בתוך מסגרת",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "עצם נתונים (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "תווית כפתור",
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "שם התוסף",
@@ -211,5 +211,8 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "הפעלת כניסה אוטומטית לוויקי",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "הגדרות סנכרון קבוצתי (JSON)",
 	"action-checkpermissions": "בדיקת הרשאות משתמש",
-	"right-checkpermissions": "לבדוק את הרשאות המשתמש בדף המיוחד [[Special:Check_Permissions]]"
+	"right-checkpermissions": "לבדוק את הרשאות המשתמש בדף המיוחד [[Special:Check_Permissions]]",
+	"bs-distributionconnector-videodropletinspector-title-label": "כותרת",
+	"bs-distributionconnector-videodropletinspector-title-help": "כותרת הסרטון",
+	"bs-distributionconnector-videodropletinspector-title-placeholder": "נא להכניס את כותרת הסרטון..."
 }
