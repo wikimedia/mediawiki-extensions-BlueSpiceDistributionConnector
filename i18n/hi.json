@@ -19,5 +19,6 @@
 	"bs-distributionconnector-videodropletinspector-dimension-label": "आकार",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "बाएँ ओर",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "केंद्रित",
-	"bs-distributionconnector-videodropletinspector-alignment-right": "दाएँ ओर"
+	"bs-distributionconnector-videodropletinspector-alignment-right": "दाएँ ओर",
+	"bs-distributionconnector-videodropletinspector-title-label": "शीर्षक"
 }

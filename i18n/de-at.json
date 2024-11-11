@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aline Goetz"
+		]
+	},
+	"bs-distributionconnector-videodropletinspector-title-label": "Titel",
+	"bs-distributionconnector-videodropletinspector-title-help": "Titel des Videos",
+	"bs-distributionconnector-videodropletinspector-title-placeholder": "Videotitel eingeben ...",
+	"bs-distributionconnector-videodropletinspector-container-help": "Falls das Video ausgewählt wird, wird es in einem Rahmen vorgeführt werden."
+}
