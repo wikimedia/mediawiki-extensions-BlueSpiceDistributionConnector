@@ -115,5 +115,8 @@
 	"bs-distributionconnector-videodropletinspector-container-label": "프레임",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "데이터 객체 (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "버튼 레이블",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "플러그인 이름"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "플러그인 이름",
+	"bs-distributionconnector-videodropletinspector-title-label": "제목",
+	"bs-distributionconnector-videodropletinspector-title-help": "동영상 제목",
+	"bs-distributionconnector-videodropletinspector-title-placeholder": "동영상 제목을 삽입하세요..."
 }
