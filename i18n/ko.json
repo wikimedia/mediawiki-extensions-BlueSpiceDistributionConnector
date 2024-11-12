@@ -125,5 +125,8 @@
 	"droplets-subpages-description": "위키 문서의 하위 문서 목록",
 	"droplets-video-name": "동영상",
 	"droplets-pdflink-name": "PDF 링크",
-	"droplets-pdflink-description": "다른 위키 페이지를 PDF로 다운로드하는 링크"
+	"droplets-pdflink-description": "다른 위키 페이지를 PDF로 다운로드하는 링크",
+	"bs-distributionconnector-videodropletinspector-title-label": "제목",
+	"bs-distributionconnector-videodropletinspector-title-help": "동영상 제목",
+	"bs-distributionconnector-videodropletinspector-title-placeholder": "동영상 제목을 삽입하세요..."
 }

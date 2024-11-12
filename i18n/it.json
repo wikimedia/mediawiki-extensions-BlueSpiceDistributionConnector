@@ -150,5 +150,7 @@
 	"bs-distributionconnector-videodropletinspector-alignment-left": "sinistra",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "centrato",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "destra",
-	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Etichetta del pulsante"
+	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Etichetta del pulsante",
+	"bs-distributionconnector-videodropletinspector-title-label": "Titolo",
+	"bs-distributionconnector-videodropletinspector-title-help": "Titolo del video"
 }
