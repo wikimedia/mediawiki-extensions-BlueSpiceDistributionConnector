@@ -12,7 +12,8 @@
 			"Omda4wady",
 			"أَحمد",
 			"ديفيد",
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"Meno25"
 		]
 	},
 	"bs-distributionconnector-extension-description": "يربط BlueSpice بامتدادات ميدياويكي المختلفة",
@@ -77,9 +78,9 @@
 	"bs-helpdesk": "مكتب المساعدة",
 	"bs-support": "دعم",
 	"bs-distributionconnector-default-user-approval-report-subject": "انتهى سير العمل \"موافقة المستخدم\" للصفحة \" $1 \"",
-	"bs-distributionconnector-default-user-approval-report-body": "تفاصيل سير العمل:! N! بدأ في: $1 ! N! انتهى في: $2 ! N! الصفحة: $3 ! N! المراجعة: $4 ! N! المستخدم: $5 ! N! التعليمات: $6 ! N! الملاحظات:! N! $7 ! N !! N! لقد تم إرسال هذا البريد الإلكتروني إليك ، لأن $8 قد عينتك كمستلم بريد إلكتروني لسير العمل هذا.",
+	"bs-distributionconnector-default-user-approval-report-body": "تفاصيل سير العمل:\nبدأ في: $1 \nانتهى في: $2 \nالصفحة: $3 \nالمراجعة: $4 \nالمستخدم: $5 \nالتعليمات: $6 \nالملاحظات:\n $7 \n\nتم إرسال هذا البريد الإلكتروني إليك، لأن $8 قد عينك كمستلم بريد إلكتروني لسير العمل هذا.",
 	"bs-distributionconnector-default-document-control-report-subject": "انتهى سير العمل \"Expert Document Control\" للصفحة \" $1 \"",
-	"bs-distributionconnector-default-document-control-report-body": "تفاصيل سير العمل:! N! بدأ في: $1 ! N! انتهى في: $2 ! N! الصفحة: $3 ! N! مراجعة: $4 ! N! محرر: $5 ! N! مراجعة: $6 ! N! موافقة: $7 ! $1 $8 $9 $1 1! N !! N! تم إرسال هذا البريد الإلكتروني إليك ، لأن $1 2 عينك كمستلم بريد إلكتروني لسير العمل هذا.",
+	"bs-distributionconnector-default-document-control-report-body": "تفاصيل سير العمل:\nبدأ في: $1 \nانتهى في: $2 \nالصفحة: $3 \nالمراجعة: $4 \nالمحرر: $5 \nالمراجعة بواسطة: $6 \nالموافقة بواسطة: $7 \nتعليمات المحرر: $8 \nتعليمات المراجعة: $9 \nتعليمات الموافقة: $1 0\nالتعليقات:\n $1 1\n\nتم إرسال هذا البريد الإلكتروني إليك، لأن $1 2 قد عينك كمستلم بريد إلكتروني لسير العمل هذا.",
 	"bs-distributionconnector-default-user-vote-report-delegated-message": "تفويض إلى $1",
 	"bs-distributionconnector-default-definition-report-review": "مراجعة",
 	"bs-distributionconnector-default-definition-report-approve": "موافقة",
@@ -101,7 +102,7 @@
 	"bs-distributionconnector-checkpermissions-label-title": "العنوان",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "اسم المستخدم المقدم غير صالح",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "العنوان المقدم غير صالح",
-	"bs-distributionconnector-checkpermissions-success": "[[المستخدم: $1 | تم منح $1 ] الإذن \" $2 \" من أجل [[ $3 ]]",
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] لديه الإذن \" $2 \" في سياق [[$3]]",
 	"bs-distributionconnector-notification-logged-in": "قمت بتسجيل الدخول الآن في",
 	"bs-distributionconnector-workflows-ui-trigger-field-property": "الخاصية الدلالية (من النوع: التاريخ)",
 	"bs-distributionconnector-workflows-ui-trigger-field-days": "أيام الإزاحة من التاريخ في الممتلكات",
@@ -185,6 +186,6 @@
 	"bs-distributionconnector-videodropletinspector-alignment-center": "توسيط",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "يمين",
 	"bs-distributionconnector-videodropletinspector-container-label": "مؤطر",
-	"bs-distributionconnector-videodropletinspector-container-help": "إذا تم تحديده ، فسيتم عرض الفيديو في صورة مصغرة",
+	"bs-distributionconnector-videodropletinspector-container-help": "إذا تم تحديد هذا الخيار، سيتم عرض الفيديو في إطار",
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "اسم الإضافة"
 }

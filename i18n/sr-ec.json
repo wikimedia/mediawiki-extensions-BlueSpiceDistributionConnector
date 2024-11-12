@@ -77,6 +77,7 @@
 	"droplets-video-name": "Видео",
 	"droplets-pdflink-name": "PDF веза",
 	"bs-distributionconnector-videodropletinspector-title": "Видео",
+	"bs-distributionconnector-videodropletinspector-title-label": "Наслов",
 	"bs-distributionconnector-videodropletinspector-description-label": "Опис",
 	"bs-distributionconnector-videodropletinspector-description-placeholder": "Уметни опис видеа...",
 	"bs-distributionconnector-videodropletinspector-dimension-label": "Димензија",
