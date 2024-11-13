@@ -36,5 +36,6 @@
 	"droplets-video-name": "ভিডিও",
 	"droplets-pdflink-name": "পিডিএফ লিঙ্ক",
 	"bs-distributionconnector-videodropletinspector-title": "ভিডিও",
+	"bs-distributionconnector-videodropletinspector-title-label": "শিরোনাম",
 	"bs-distributionconnector-videodropletinspector-description-label": "বিবরণ"
 }
