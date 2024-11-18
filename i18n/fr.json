@@ -171,6 +171,9 @@
 	"droplets-pdflink-description": "Lien qui télécharge une autre page du wiki sous forme de PDF",
 	"bs-distributionconnector-videodropletinspector-video-link-label": "Insérer un lien vers une vidéo",
 	"bs-distributionconnector-videodropletinspector-title": "Vidéo",
+	"bs-distributionconnector-videodropletinspector-title-label": "Titre",
+	"bs-distributionconnector-videodropletinspector-title-help": "Titre de la vidéo",
+	"bs-distributionconnector-videodropletinspector-title-placeholder": "Insérer le titre de la vidéo...",
 	"bs-distributionconnector-videodropletinspector-description-label": "Description",
 	"bs-distributionconnector-videodropletinspector-service-help": "Sélectionnez le service qui doit être utilisé pour intégrer la vidéo.",
 	"bs-distributionconnector-videodropletinspector-description-help": "Ajoutez une description sous la vidéo. Pour les sauts de ligne, utilisez « &#10; ».",
@@ -191,8 +194,5 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Active la connexion automatique au wiki",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Paramètres de synchronisation de groupe (JSON)",
 	"action-checkpermissions": "vérifier les autorisations des utilisateurs",
-	"right-checkpermissions": "Vérifiez les autorisations des utilisateurs sur la page spéciale [[Special:Check_Permissions]]",
-	"bs-distributionconnector-videodropletinspector-title-label": "Titre",
-	"bs-distributionconnector-videodropletinspector-title-help": "Titre de la vidéo",
-	"bs-distributionconnector-videodropletinspector-title-placeholder": "Insérer le titre de la vidéo..."
+	"right-checkpermissions": "Vérifiez les autorisations des utilisateurs sur la page spéciale [[Special:Check_Permissions]]"
 }

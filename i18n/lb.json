@@ -46,10 +46,10 @@
 	"droplets-video-name": "Video",
 	"droplets-pdflink-name": "PDF-Link",
 	"bs-distributionconnector-videodropletinspector-title": "Video",
+	"bs-distributionconnector-videodropletinspector-title-label": "Titel",
+	"bs-distributionconnector-videodropletinspector-title-help": "Titel vum Video",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "lénks",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "zentréiert",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "riets",
-	"action-checkpermissions": "Benotzerrechter iwwerpréiwen",
-	"bs-distributionconnector-videodropletinspector-title-label": "Titel",
-	"bs-distributionconnector-videodropletinspector-title-help": "Titel vum Video"
+	"action-checkpermissions": "Benotzerrechter iwwerpréiwen"
 }

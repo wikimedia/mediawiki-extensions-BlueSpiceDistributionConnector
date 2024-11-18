@@ -105,6 +105,9 @@
 	"droplets-pdflink-description": "다른 위키 페이지를 PDF로 다운로드하는 링크",
 	"bs-distributionconnector-videodropletinspector-video-link-label": "동영상 링크 추가",
 	"bs-distributionconnector-videodropletinspector-title": "동영상",
+	"bs-distributionconnector-videodropletinspector-title-label": "제목",
+	"bs-distributionconnector-videodropletinspector-title-help": "동영상 제목",
+	"bs-distributionconnector-videodropletinspector-title-placeholder": "동영상 제목을 삽입하세요...",
 	"bs-distributionconnector-videodropletinspector-description-label": "설명",
 	"bs-distributionconnector-videodropletinspector-description-placeholder": "동영상 설명 추가...",
 	"bs-distributionconnector-videodropletinspector-dimension-label": "크기",
@@ -115,8 +118,5 @@
 	"bs-distributionconnector-videodropletinspector-container-label": "프레임",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "데이터 객체 (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "버튼 레이블",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "플러그인 이름",
-	"bs-distributionconnector-videodropletinspector-title-label": "제목",
-	"bs-distributionconnector-videodropletinspector-title-help": "동영상 제목",
-	"bs-distributionconnector-videodropletinspector-title-placeholder": "동영상 제목을 삽입하세요..."
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "플러그인 이름"
 }
