@@ -30,9 +30,9 @@ class BlueSpiceTitleSearch extends SearchEngine {
 		);
 		$this->titleFactory = $services->getTitleFactory();
 		$fallbackClass = $services->getSearchEngineFactory()::getSearchEngineClass(
-			$services->getDBLoadBalancer()
+			$services->getConnectionProvider()
 		);
-		$this->fallbackSearchEngine = new $fallbackClass( $services->getDBLoadBalancer() );
+		$this->fallbackSearchEngine = new $fallbackClass( $services->getConnectionProvider() );
 	}
 
 	/**
