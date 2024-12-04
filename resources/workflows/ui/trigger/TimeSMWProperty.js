@@ -62,7 +62,7 @@
 
 	bs.distributionConnector.workflows.trigger.TimeSMWProperty.prototype.generatePagesQuery = function() {
 		var days = this.daysInput.getValue(),
-			sign = days >= 0 ? '+' : '-',
+			sign = days >= 0 ? '+' : '',
 			query = "[[{0}::>={{#time:Y-m-d|{1}{2} days}}]][[{0}::<{{#time:Y-m-d|{{#time:Y-m-d|{1}{2} days}}+1 days}}]]"
 				.format( this.propertyInput.getValue(), sign, days ),
 			params = [
