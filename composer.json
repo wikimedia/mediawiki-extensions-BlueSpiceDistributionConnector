@@ -5,7 +5,7 @@
 	"description": "Connect BlueSpice with some extensions",
 	"require": {
 		"composer/installers": "~1.0|~2",
-		"mwstake/mediawiki-component-commonwebapis": "~2"
+		"mwstake/mediawiki-component-commonwebapis": "~3"
 	},
 	"autoload": {
 		"psr-4": {
