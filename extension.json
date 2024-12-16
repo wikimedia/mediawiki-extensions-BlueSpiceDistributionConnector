@@ -254,7 +254,10 @@
 		"BlueSpice\\DistributionConnector\\": "src/"
 	},
 	"SpecialPages": {
-		"CheckPermissions": "BlueSpice\\DistributionConnector\\Specials\\CheckPermissions"
+		"CheckPermissions": {
+			"class": "BlueSpice\\DistributionConnector\\Specials\\CheckPermissions",
+			"services": [ "PermissionManager", "TitleFactory", "UserFactory" ]
+		}
 	},
 	"ResourceModules": {
 		"ext.bluespice.distribution.styles": {
@@ -346,18 +349,15 @@
 		},
 		"ext.bluespice.distribution.usermanager.invite": {
 			"scripts": [
-				"usermanager/bluespice.distribution.invite.js",
-				"usermanager/InviteDialog.js"
-			],
-			"styles": [
-				"usermanager/bluespice.usermanager.css"
+				"usermanager/bluespice.distribution.invite.js"
 			],
 			"dependencies": [
-				"ext.bluespice.extjs"
+				"ext.bluespice",
+				"oojs-ui",
+				"oojs-ui.styles.icons-alerts"
 			],
 			"messages": [
 				"bs-distributionconnector-invite-signup-btn-tooltip-label",
-				"bs-distributionconnector-invite-signup-dialog-title",
 				"bs-distributionconnector-invite-signup-dialog-text"
 			]
 		},
