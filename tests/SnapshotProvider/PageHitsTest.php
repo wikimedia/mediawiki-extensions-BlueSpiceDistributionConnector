@@ -39,7 +39,7 @@ class PageHitsTest extends TestCase {
 	 * @return void
 	 * @throws Exception
 	 *
-	 * @covers PageHits::generateSnapshot
+	 * @covers \BlueSpice\DistributionConnector\Statistics\SnapshotProvider\PageHits::generateSnapshot
 	 */
 	public function testGenerateSnapshot(): void {
 		// Current hits
@@ -67,39 +67,39 @@ class PageHitsTest extends TestCase {
 
 		$this->assertEquals( $snapshotDate, $snapshot->getDate() );
 		$data = $snapshot->getData();
-		$this->assertEquals( $data['a'], [
+		$this->assertEquals( [
 			'hits' => 3,
 			'hitDiff' => 2,
 			'growth' => 200.0
-		] );
+		], $data['a'] );
 		// Hint: growth is zero because you cant express growth from 0 to 2 in percentage
-		$this->assertEquals( $data['b'], [
+		$this->assertEquals( [
 			'hits' => 2,
 			'hitDiff' => 2,
 			'growth' => 0
-		] );
-		$this->assertEquals( $data['c'], [
+		], $data['b'] );
+		$this->assertEquals( [
 			'hits' => 7,
 			'hitDiff' => 3,
 			'growth' => 75.0
-		] );
-		$this->assertEquals( $data['d'], [
+		], $data['c'] );
+		$this->assertEquals( [
 			'hits' => 0,
 			'hitDiff' => 0,
 			'growth' => 0
-		] );
-		$this->assertEquals( $data['e'], [
+		], $data['d'] );
+		$this->assertEquals( [
 			'hits' => 1,
 			'hitDiff' => 0,
 			'growth' => 0
-		] );
+		], $data['e'] );
 	}
 
 	/**
 	 * @return void
 	 * @throws Exception
 	 *
-	 * @covers PageHits::generateSnapshot
+	 * @covers \BlueSpice\DistributionConnector\Statistics\SnapshotProvider\PageHits::generateSnapshot
 	 */
 	public function testGenerateSnapshotNegativeHitDiff(): void {
 		$this->dbMock->method( 'select' )->willReturn( [
@@ -121,7 +121,7 @@ class PageHitsTest extends TestCase {
 	 * @return void
 	 * @throws Exception
 	 *
-	 * @covers PageHits::aggregate
+	 * @covers \BlueSpice\DistributionConnector\Statistics\SnapshotProvider\PageHits::aggregate
 	 */
 	public function testAggregate(): void {
 		// Current hits
@@ -155,29 +155,29 @@ class PageHitsTest extends TestCase {
 		$snapshot = $this->pageHits->aggregate( $snapshots, Snapshot::INTERVAL_MONTH, new SnapshotDate() );
 
 		$data = $snapshot->getData();
-		$this->assertEquals( $data['a'], [
+		$this->assertEquals( [
 			'hits' => 103,
 			'hitDiff' => 73,
 			'growth' => 243.33333333333331
-		] );
+		], $data['a'] );
 		// Hint: growth is zero because you cant express growth from 0 to 2 in percentage
-		$this->assertEquals( $data['b'], [
+		$this->assertEquals( [
 			'hits' => 0,
 			'hitDiff' => 0,
 			'growth' => 0.0
-		] );
-		$this->assertEquals( $data['c'], [
+		], $data['b'] );
+		$this->assertEquals( [
 			'hits' => 6,
 			'hitDiff' => 0,
 			'growth' => 0.0
-		] );
+		], $data['c'] );
 	}
 
 	/**
 	 * @return void
 	 * @throws Exception
 	 *
-	 * @covers PageHits::aggregate
+	 * @covers \BlueSpice\DistributionConnector\Statistics\SnapshotProvider\PageHits::aggregate
 	 */
 	public function testAggregateNegativeHitDiff(): void {
 		// Current hits
