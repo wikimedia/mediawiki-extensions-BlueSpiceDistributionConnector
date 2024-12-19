@@ -10,9 +10,9 @@ use BlueSpice\ExtendedStatistics\SnapshotDate;
 use BlueSpice\ExtendedStatistics\SnapshotFactory;
 use BlueSpice\ExtendedStatistics\SnapshotStore\DatabaseStore;
 use Exception;
-use IDatabase;
 use PHPUnit\Framework\TestCase;
 use stdClass;
+use Wikimedia\Rdbms\IDatabase;
 use Wikimedia\Rdbms\LoadBalancer;
 
 class PageHitsTest extends TestCase {
