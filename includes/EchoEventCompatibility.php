@@ -1,9 +1,6 @@
 <?php
 
-namespace BlueSpice\DistributionConnector;
-
-use Exception;
-use MediaWiki\Extension\Notifications\EventFactory;
+use MediaWiki\Extension\NotifyMe\EventFactory;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Registration\ExtensionRegistry;
 use MWStake\MediaWiki\Component\Events\NotificationEvent;
@@ -12,7 +9,7 @@ use MWStake\MediaWiki\Component\Events\Notifier;
 class EchoEvent {
 
 	/** @var array */
-	private $compatMapping = [];
+	private $compatMapping;
 
 	/** @var Notifier */
 	private $notifier;
@@ -44,7 +41,7 @@ class EchoEvent {
 			'BlueSpiceDistributionConnectorEchoEventsCompatibilityMapping'
 		);
 		$this->notifier = MediaWikiServices::getInstance()->getService( 'MWStake.Notifier' );
-		$this->eventFactory = MediaWikiServices::getInstance()->getService( 'Notifications.EventFactory' );
+		$this->eventFactory = MediaWikiServices::getInstance()->getService( 'NotifyMe.EventFactory' );
 	}
 
 	/**

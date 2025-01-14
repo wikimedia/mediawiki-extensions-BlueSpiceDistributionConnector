@@ -250,6 +250,9 @@
 	"AutoloadNamespaces": {
 		"BlueSpice\\DistributionConnector\\": "src/"
 	},
+	"AutoloadClasses": {
+		"EchoEvent": "includes/EchoEventCompatibility.php"
+	},
 	"SpecialPages": {
 		"CheckPermissions": {
 			"class": "BlueSpice\\DistributionConnector\\Specials\\CheckPermissions",
