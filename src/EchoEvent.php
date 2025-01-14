@@ -1,7 +1,11 @@
 <?php
 
+namespace BlueSpice\DistributionConnector;
+
+use Exception;
 use MediaWiki\Extension\Notifications\EventFactory;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Registration\ExtensionRegistry;
 use MWStake\MediaWiki\Component\Events\NotificationEvent;
 use MWStake\MediaWiki\Component\Events\Notifier;
 
