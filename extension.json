@@ -256,9 +256,6 @@
 	"SpecialPages": {
 		"CheckPermissions": "BlueSpice\\DistributionConnector\\Specials\\CheckPermissions"
 	},
-	"AutoloadClasses": {
-		"BlueSpiceDistributionHooks": "includes/BlueSpiceDistributionHooks.php"
-	},
 	"ResourceModules": {
 		"ext.bluespice.distribution.styles": {
 			"styles": [
@@ -558,7 +555,6 @@
 			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddEmbedVideoServices::callback"
 		],
 		"OutputPageBodyAttributes": "\\BlueSpice\\DistributionConnector\\Hook\\OutputPageBodyAttributes\\InitRcFilters::onOutputPageBodyAttributes",
-		"BaseTemplateToolbox": "BlueSpiceDistributionHooks::onBaseTemplateToolbox",
 		"LoadExtensionSchemaUpdates": [
 			"BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\AddTemplateUserPageStandardContent::callback",
 			"migrate-pluggable-auth-config",
