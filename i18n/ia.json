@@ -196,7 +196,7 @@
 	"bs-distributionconnector-videodropletinspector-alignment-center": "centro",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "dextra",
 	"bs-distributionconnector-videodropletinspector-container-label": "Inquadrate",
-	"bs-distributionconnector-videodropletinspector-container-help": "Si seligite, le video apparera in un quadro de miniatura",
+	"bs-distributionconnector-videodropletinspector-container-help": "Si seligite, le video apparera in un quadro",
 	"bs-distributionconnector-pref-pluggableauth-config": "PluggableAuth",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Objecto de datos (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Etiquetta del button",

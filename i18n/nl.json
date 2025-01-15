@@ -207,11 +207,16 @@
 	"bs-distributionconnector-videodropletinspector-alignment-label": "Uitlijning",
 	"bs-distributionconnector-videodropletinspector-alignent-help": "Lijn de video links, gecentreerd of rechts uit",
 	"bs-distributionconnector-videodropletinspector-container-label": "Ingelijst",
-	"bs-distributionconnector-videodropletinspector-container-help": "Indien geselecteerd, wordt de video weergegeven in een miniatuur",
+	"bs-distributionconnector-videodropletinspector-container-help": "Bij aanvinken wordt de video in een kader weergegeven",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Gegevensobject (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Knoplabel",
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Naam plug-in",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Moet het aanmelden automatisch plaatsvinden wanneer een gebruiker de wiki bezoekt?",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Maakt automatisch aanmelden bij de wiki mogelijk",
-	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Instellingen voor groepssynchronisatie (JSON)"
+	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Instellingen voor groepssynchronisatie (JSON)",
+	"bs-distributionconnector-videodropletinspector-title-label": "Titel",
+	"bs-distributionconnector-videodropletinspector-title-help": "Titel van de video",
+	"bs-distributionconnector-videodropletinspector-title-placeholder": "Videotitel invoegen…",
+	"action-checkpermissions": "gebruikersbevoegdheden te controleren",
+	"right-checkpermissions": "Gebruikersbevoegdheden controleren op de speciale pagina [[Special:Check_Permissions|]]"
 }

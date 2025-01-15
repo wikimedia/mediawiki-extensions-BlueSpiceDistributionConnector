@@ -13,6 +13,7 @@
 			"Evesiesta",
 			"Func",
 			"GuoPC",
+			"Huajing",
 			"Hydra",
 			"Jbyccc",
 			"John Smith Ri",
@@ -229,5 +230,12 @@
 	"droplets-create-input-placeholder-help": "输入要在此输入字段中显示的占位符文本",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "群组同步设置 (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "启用自动登录wiki",
-	"action-checkpermissions": "检查用户权限"
+	"action-checkpermissions": "检查用户权限",
+	"bs-distributionconnector-videodropletinspector-title-label": "标题",
+	"bs-distributionconnector-videodropletinspector-title-help": "视频标题",
+	"bs-distributionconnector-videodropletinspector-title-placeholder": "插入视频标题...",
+	"bs-distributionconnector-videodropletinspector-service-help": "选择用于嵌入视频的服务",
+	"bs-distributionconnector-videodropletinspector-dimension-help": "要设置视频的尺寸，您可以使用“宽度x高度”（以像素为单位）的格式。如果未提供高度，则将根据宽度自动计算。如果您想设置高度，则必须使用“x”指示。\n示例：480、480x320、x320会设置宽度为 480，高度为 320",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin": "当用户访问wiki时，是否应该自动登录？",
+	"right-checkpermissions": "在特殊页面 [[Special:Check_Permissions]] 检查用户权限"
 }
