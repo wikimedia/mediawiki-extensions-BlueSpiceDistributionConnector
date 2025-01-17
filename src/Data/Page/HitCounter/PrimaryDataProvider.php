@@ -4,8 +4,8 @@ namespace BlueSpice\DistributionConnector\Data\Page\HitCounter;
 
 use BlueSpice\Data\Page\PrimaryDataProvider as PageDataProvider;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 use MWStake\MediaWiki\Component\DataStore\ReaderParams;
-use Title;
 
 class PrimaryDataProvider extends PageDataProvider {
 

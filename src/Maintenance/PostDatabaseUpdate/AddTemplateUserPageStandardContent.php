@@ -7,7 +7,7 @@ use LoggedUpdateMaintenance;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\RevisionRecord;
 use MediaWiki\Revision\SlotRecord;
-use Title;
+use MediaWiki\Title\Title;
 use User;
 
 class AddTemplateUserPageStandardContent extends LoggedUpdateMaintenance {
