@@ -5,7 +5,7 @@ namespace BlueSpice\DistributionConnector\Hook;
 use BlueSpice\Hook;
 use Config;
 use IContextSource;
-use User;
+use MediaWiki\User\User;
 
 abstract class MergeAccountFromTo extends Hook {
 	/**
