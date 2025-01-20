@@ -3,6 +3,7 @@
 		"authors": [
 			"AA800",
 			"Alshamiri1",
+			"Cigaryno",
 			"FiberAhmed",
 			"Hubaishan",
 			"LaMagiaaa",
@@ -206,5 +207,8 @@
 	"droplets-subpages-bullets-help": "\"لا\" يزيل النقاط",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "المحاذاة",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "توسيط",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "اسم الإضافة"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "اسم الإضافة",
+	"bs-distributionconnector-videodropletinspector-title-label": "العنوان",
+	"bs-distributionconnector-videodropletinspector-title-help": "عنوان الفيديو",
+	"bs-distributionconnector-videodropletinspector-title-placeholder": "إدخل عنوان الفيديو..."
 }
