@@ -3,6 +3,7 @@
 		"authors": [
 			"AA800",
 			"Alshamiri1",
+			"Cigaryno",
 			"FiberAhmed",
 			"Hubaishan",
 			"LaMagiaaa",
@@ -174,6 +175,9 @@
 	"droplets-pdflink-description": "الرابط الذي يقوم بتنزيل صفحة wiki أخرى بتنسيق PDF",
 	"bs-distributionconnector-videodropletinspector-video-link-label": "أدخل رابط الفيديو",
 	"bs-distributionconnector-videodropletinspector-title": "فيديو",
+	"bs-distributionconnector-videodropletinspector-title-label": "العنوان",
+	"bs-distributionconnector-videodropletinspector-title-help": "عنوان الفيديو",
+	"bs-distributionconnector-videodropletinspector-title-placeholder": "إدخل عنوان الفيديو...",
 	"bs-distributionconnector-videodropletinspector-description-label": "وصف",
 	"bs-distributionconnector-videodropletinspector-service-help": "حدد الخدمة التي يجب استخدامها لتضمين الفيديو",
 	"bs-distributionconnector-videodropletinspector-description-help": "أضف وصفًا أسفل الفيديو. بالنسبة لفواصل الأسطر ، استخدم \"\"",
