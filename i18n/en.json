@@ -98,7 +98,6 @@
 	"workflows-triggers-type-time-smw-prop-desc": "Trigger a workflow based on a date from a semantic property",
 	"workflows-triggers-type-time-smw-prop-label": "Based on a semantic property",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Invite",
-	"bs-distributionconnector-invite-signup-dialog-title": "Invite user",
 	"bs-distributionconnector-invite-signup-dialog-text": "Leave this page to invite a new user?",
 	"right-duplicate": "Duplicate pages",
 	"action-duplicate": "duplicate page",
