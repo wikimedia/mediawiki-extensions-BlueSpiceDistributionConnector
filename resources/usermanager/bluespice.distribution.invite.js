@@ -1,24 +1,23 @@
 ( function ( mw ) {
-
-	mw.hook( 'usermanager.toolbar.init' ).add( function ( headerItems ) {
-		inviteBtn = new Ext.Button( {
-			id: 'btn-invite-user',
-			icon: mw.config.get( 'wgScriptPath') + 
-				'/extensions/BlueSpiceDistributionConnector/resources/images/inviteUser-icon.svg',
-			iconCls: 'btn-invite-user',
-			tooltip: mw.message( 'bs-distributionconnector-invite-signup-btn-tooltip-label' ).text(),
-			ariaLabel: mw.message( 'bs-distributionconnector-invite-signup-btn-tooltip-label' ).text(),
-			height: 50,
-			width: 52
-		} );
-		inviteBtn.on( 'click', onBtnInviteClick, this );
-
-		headerItems.push( inviteBtn );
+	mw.hook( 'usermanager.toolbar.init' ).add( function ( actions ) {
+		actions.push( new OOJSPlus.ui.toolbar.tool.ToolbarTool( {
+			name: 'invite',
+			displayBothIconAndLabel: true,
+			icon: 'message',
+			hidden: true,
+			title: mw.msg( 'bs-distributionconnector-invite-signup-btn-tooltip-label' ),
+			callback: function () {
+				OO.ui.confirm( mw.msg( 'bs-distributionconnector-invite-signup-dialog-text' ) ).done(
+					function ( confirmed ) {
+						this.setActive( false );
+						if ( !confirmed ) {
+							return;
+						}
+						window.location.href = mw.Title.makeTitle( -1, 'InviteSignup' ).getUrl();
+					}.bind( this )
+				);
+			}
+		} ) );
 	} );
-
-	function onBtnInviteClick ( event ) {
-		userInvite = new InviteUser();
-		userInvite.show();
-	}
 
 }( mediaWiki ) );
