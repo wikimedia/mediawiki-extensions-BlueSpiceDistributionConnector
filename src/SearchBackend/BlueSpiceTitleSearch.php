@@ -3,13 +3,13 @@
 namespace BlueSpice\DistributionConnector\SearchBackend;
 
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\TitleFactory;
 use MWStake\MediaWiki\Component\CommonWebAPIs\Data\TitleQueryStore\Store;
 use MWStake\MediaWiki\Component\CommonWebAPIs\Data\TitleQueryStore\TitleRecord;
 use MWStake\MediaWiki\Component\DataStore\Filter;
 use MWStake\MediaWiki\Component\DataStore\ReaderParams;
 use RevisionSearchResult;
 use SearchEngine;
-use TitleFactory;
 
 class BlueSpiceTitleSearch extends SearchEngine {
 	/** @var SearchEngine */
