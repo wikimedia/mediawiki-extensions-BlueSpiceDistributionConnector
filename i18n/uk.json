@@ -100,7 +100,6 @@
 	"bs-distributionconnector-workflows-ui-trigger-field-days": "Зміщення днів від дати у властивості",
 	"workflows-triggers-type-time-smw-prop-label": "На основі семантичної властивості",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Запросити",
-	"bs-distributionconnector-invite-signup-dialog-title": "Запросити користувача",
 	"bs-distributionconnector-invite-signup-dialog-text": "Залишити цю сторінку, щоб запросити нового користувача?",
 	"right-duplicate": "Дублювання сторінок",
 	"action-duplicate": "дублювати сторінку",

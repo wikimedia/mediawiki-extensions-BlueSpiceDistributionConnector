@@ -87,7 +87,6 @@
 	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] dispone dell'autorizzazione \"$2\" nel contesto di [[$3]]",
 	"bs-distributionconnector-notification-logged-in": "Accesso effettuato",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Invita",
-	"bs-distributionconnector-invite-signup-dialog-title": "Invita utente",
 	"bs-distributionconnector-invite-signup-dialog-text": "Abbandonare questa pagina per invitare un nuovo utente?",
 	"right-duplicate": "Duplica pagine",
 	"action-duplicate": "duplicare pagine",

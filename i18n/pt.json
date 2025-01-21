@@ -91,7 +91,6 @@
 	"workflows-triggers-type-time-smw-prop-desc": "Desencadear um fluxo de trabalho com base na data de uma propriedade semântica",
 	"workflows-triggers-type-time-smw-prop-label": "Com base numa propriedade semântica",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Convidar",
-	"bs-distributionconnector-invite-signup-dialog-title": "Convidar utilizador",
 	"bs-distributionconnector-invite-signup-dialog-text": "Sair desta página para convidar um utilizador novo?",
 	"right-duplicate": "Duplicar páginas",
 	"action-duplicate": "duplicar páginas",

@@ -13,7 +13,8 @@
 			"أَحمد",
 			"ديفيد",
 			"محمد أحمد عبد الفتاح",
-			"Meno25"
+			"Meno25",
+			"Cigaryno"
 		]
 	},
 	"bs-distributionconnector-extension-description": "يربط BlueSpice بامتدادات ميدياويكي المختلفة",
@@ -109,7 +110,6 @@
 	"workflows-triggers-type-time-smw-prop-desc": "قم بتشغيل سير عمل بناءً على تاريخ من خاصية دلالية",
 	"workflows-triggers-type-time-smw-prop-label": "بناء على خاصية دلالية",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "دعوة",
-	"bs-distributionconnector-invite-signup-dialog-title": "ادعُ المستخدم",
 	"bs-distributionconnector-invite-signup-dialog-text": "غادر هذه الصفحة لدعوة مستخدم جديد؟",
 	"right-duplicate": "صفحات مكررة",
 	"action-duplicate": "صفحة مكررة",
@@ -174,6 +174,9 @@
 	"droplets-pdflink-description": "الرابط الذي يقوم بتنزيل صفحة wiki أخرى بتنسيق PDF",
 	"bs-distributionconnector-videodropletinspector-video-link-label": "أدخل رابط الفيديو",
 	"bs-distributionconnector-videodropletinspector-title": "فيديو",
+	"bs-distributionconnector-videodropletinspector-title-label": "العنوان",
+	"bs-distributionconnector-videodropletinspector-title-help": "عنوان الفيديو",
+	"bs-distributionconnector-videodropletinspector-title-placeholder": "إدخل عنوان الفيديو...",
 	"bs-distributionconnector-videodropletinspector-description-label": "وصف",
 	"bs-distributionconnector-videodropletinspector-service-help": "حدد الخدمة التي يجب استخدامها لتضمين الفيديو",
 	"bs-distributionconnector-videodropletinspector-description-help": "أضف وصفًا أسفل الفيديو. بالنسبة لفواصل الأسطر ، استخدم \"\"",

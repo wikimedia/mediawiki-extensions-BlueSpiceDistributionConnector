@@ -130,7 +130,6 @@
 	"workflows-triggers-type-time-smw-prop-desc": "根据语义属性中的日期触发工作流",
 	"workflows-triggers-type-time-smw-prop-label": "基于语义性质",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "邀请",
-	"bs-distributionconnector-invite-signup-dialog-title": "邀请用户",
 	"bs-distributionconnector-invite-signup-dialog-text": "离开此页面以邀请新用户？",
 	"right-duplicate": "复制页面",
 	"action-duplicate": "复制页面",

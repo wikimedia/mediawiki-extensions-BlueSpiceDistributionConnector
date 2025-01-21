@@ -107,7 +107,6 @@
 	"workflows-triggers-type-time-smw-prop-desc": "Een werkstroom opstarten op basis van een datum uit een semantische eigenschap",
 	"workflows-triggers-type-time-smw-prop-label": "Gebaseerd op een semantische eigenschap",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Uitnodigen",
-	"bs-distributionconnector-invite-signup-dialog-title": "Gebruiker uitnodigen",
 	"bs-distributionconnector-invite-signup-dialog-text": "Deze pagina verlaten om een nieuwe gebruiker uit te nodigen?",
 	"right-duplicate": "Pagina's dupliceren",
 	"action-duplicate": "pagina's te dupliceren",

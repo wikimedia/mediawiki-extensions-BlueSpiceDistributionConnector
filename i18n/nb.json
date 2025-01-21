@@ -100,7 +100,6 @@
 	"workflows-triggers-type-time-smw-prop-desc": "Utløs en arbeidsflyt basert på datoen fra en semantisk egenskap",
 	"workflows-triggers-type-time-smw-prop-label": "Basert på en semantisk egenskap",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Inviter",
-	"bs-distributionconnector-invite-signup-dialog-title": "Inviter bruker",
 	"bs-distributionconnector-invite-signup-dialog-text": "Vil du forlate denne siden for å invitere en ny bruker?",
 	"right-duplicate": "Duplisere sider",
 	"action-duplicate": "duplisere side",
