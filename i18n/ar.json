@@ -110,7 +110,6 @@
 	"workflows-triggers-type-time-smw-prop-desc": "قم بتشغيل سير عمل بناءً على تاريخ من خاصية دلالية",
 	"workflows-triggers-type-time-smw-prop-label": "بناء على خاصية دلالية",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "دعوة",
-	"bs-distributionconnector-invite-signup-dialog-title": "ادعُ المستخدم",
 	"bs-distributionconnector-invite-signup-dialog-text": "غادر هذه الصفحة لدعوة مستخدم جديد؟",
 	"right-duplicate": "صفحات مكررة",
 	"action-duplicate": "صفحة مكررة",
@@ -191,5 +190,12 @@
 	"bs-distributionconnector-videodropletinspector-alignment-right": "يمين",
 	"bs-distributionconnector-videodropletinspector-container-label": "مؤطر",
 	"bs-distributionconnector-videodropletinspector-container-help": "إذا تم تحديد هذا الخيار، سيتم عرض الفيديو في إطار",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "اسم الإضافة"
+	"bs-distributionconnector-pref-pluggableauth-config-data-object": "كائن البيانات (JSON)",
+	"bs-distributionconnector-pref-pluggableauth-config-button-label": "ملصق الزر",
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "اسم الإضافة",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin": "هل يجب أن يتم تسجيل الدخول تلقائيًا عندما يزور المستخدم الويكي؟",
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "تمكين تسجيل الدخول التلقائي إلى الويكي",
+	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "إعدادات مزامنة المجموعة (JSON)",
+	"action-checkpermissions": "التحقق من أذونات المستخدم",
+	"right-checkpermissions": "التحقق من أذونات المستخدم على الصفحة الخاصة [[Special:Check_Permissions]]"
 }

@@ -42,7 +42,6 @@
 	"bs-distributionconnector-checkpermissions-success": "Käyttäjälle [[User:$1|$1]] myönnettiin käyttöoikeus \"$2\" sivulle [[$3]]",
 	"bs-distributionconnector-notification-logged-in": "Olet nyt kirjautunut sisään",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Kutsu",
-	"bs-distributionconnector-invite-signup-dialog-title": "Kutsu käyttäjä",
 	"bs-distributionconnector-videodropletinspector-service-label": "Palvelu",
 	"droplets-circled-number-bg-color-label": "Taustaväri",
 	"droplets-circled-number-fg-color-label": "Taustaväri",

@@ -106,7 +106,6 @@
 	"workflows-triggers-type-time-smw-prop-desc": "根據來自語義屬性中的日期，來觸發工作流程",
 	"workflows-triggers-type-time-smw-prop-label": "基於語義屬性",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "邀請",
-	"bs-distributionconnector-invite-signup-dialog-title": "邀請用戶",
 	"bs-distributionconnector-invite-signup-dialog-text": "離開這個頁面並邀請新用戶？",
 	"right-duplicate": "重複頁面",
 	"action-duplicate": "複制頁面",

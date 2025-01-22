@@ -109,7 +109,6 @@
 	"workflows-triggers-type-time-smw-prop-desc": "セマンティックプロパティの日付に基づいてワークフローをトリガーする",
 	"workflows-triggers-type-time-smw-prop-label": "セマンティックプロパティに基づく",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "招待",
-	"bs-distributionconnector-invite-signup-dialog-title": "利用者を招待する",
 	"bs-distributionconnector-invite-signup-dialog-text": "このページを離れて新しい利用者を招待しますか?",
 	"right-duplicate": "ページを複製",
 	"action-duplicate": "ページの複製",

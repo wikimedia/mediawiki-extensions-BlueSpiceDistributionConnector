@@ -106,7 +106,6 @@
 	"workflows-triggers-type-time-smw-prop-desc": "Einen Workflow basierend auf einem Datum aus einer semantischen Eigenschaft auslösen",
 	"workflows-triggers-type-time-smw-prop-label": "Basierend auf einer semantischen Eigenschaft",
 	"bs-distributionconnector-invite-signup-btn-tooltip-label": "Einladen",
-	"bs-distributionconnector-invite-signup-dialog-title": "Benutzer einladen",
 	"bs-distributionconnector-invite-signup-dialog-text": "Diese Seite verlassen, um einen neuen Benutzer einzuladen?",
 	"right-duplicate": "Seiten duplizieren",
 	"action-duplicate": "Seite duplizieren",
