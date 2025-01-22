@@ -5,7 +5,7 @@ declare( strict_types = 1 );
 namespace BlueSpice\DistributionConnector\ContentDroplets;
 
 use MediaWiki\Extension\ContentDroplets\Droplet\TemplateDroplet;
-use Message;
+use MediaWiki\Message\Message;
 
 class MapDroplet extends TemplateDroplet {
 

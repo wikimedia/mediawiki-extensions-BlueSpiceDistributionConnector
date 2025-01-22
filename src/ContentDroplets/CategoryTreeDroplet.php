@@ -3,7 +3,7 @@
 namespace BlueSpice\DistributionConnector\ContentDroplets;
 
 use MediaWiki\Extension\ContentDroplets\Droplet\TagDroplet;
-use Message;
+use MediaWiki\Message\Message;
 
 class CategoryTreeDroplet extends TagDroplet {
 
