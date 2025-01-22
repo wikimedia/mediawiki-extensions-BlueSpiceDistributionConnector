@@ -3,7 +3,7 @@
 namespace BlueSpice\DistributionConnector\ContentDroplets;
 
 use MediaWiki\Extension\ContentDroplets\Droplet\GenericDroplet;
-use Message;
+use MediaWiki\Message\Message;
 
 class VideoDroplet extends GenericDroplet {
 

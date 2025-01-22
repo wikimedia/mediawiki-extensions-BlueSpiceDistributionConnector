@@ -3,7 +3,7 @@
 namespace BlueSpice\DistributionConnector\ContentDroplets;
 
 use MediaWiki\Extension\ContentDroplets\Droplet\TemplateDroplet;
-use Message;
+use MediaWiki\Message\Message;
 
 class CreateInputDroplet extends TemplateDroplet {
 

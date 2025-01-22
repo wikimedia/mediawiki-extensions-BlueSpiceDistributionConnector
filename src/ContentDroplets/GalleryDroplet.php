@@ -5,7 +5,7 @@ declare( strict_types = 1 );
 namespace BlueSpice\DistributionConnector\ContentDroplets;
 
 use MediaWiki\Extension\ContentDroplets\Droplet\TagDroplet;
-use Message;
+use MediaWiki\Message\Message;
 
 class GalleryDroplet extends TagDroplet {
 
