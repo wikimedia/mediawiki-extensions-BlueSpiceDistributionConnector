@@ -3,8 +3,8 @@
 namespace BlueSpice\DistributionConnector\Hook;
 
 use BlueSpice\Hook;
-use Config;
 use IContextSource;
+use MediaWiki\Config\Config;
 
 abstract class UserMergeAccountFields extends Hook {
 	/**
