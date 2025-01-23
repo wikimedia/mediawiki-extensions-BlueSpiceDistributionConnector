@@ -3,7 +3,7 @@
 namespace BlueSpice\DistributionConnector\Data\Page\HitCounter;
 
 use BlueSpice\Data\Page\Reader as PageReader;
-use IContextSource;
+use MediaWiki\Context\IContextSource;
 use MWStake\MediaWiki\Component\DataStore\ReaderParams;
 use Wikimedia\Rdbms\LoadBalancer;
 

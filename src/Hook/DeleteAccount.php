@@ -3,8 +3,8 @@
 namespace BlueSpice\DistributionConnector\Hook;
 
 use BlueSpice\Hook;
-use IContextSource;
 use MediaWiki\Config\Config;
+use MediaWiki\Context\IContextSource;
 use MediaWiki\User\User;
 
 abstract class DeleteAccount extends Hook {
