@@ -9,11 +9,11 @@ use InvalidArgumentException;
 use MediaWiki\Html\Html;
 use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\SpecialPage\SpecialPage;
+use MediaWiki\Status\Status;
 use MediaWiki\Title\TitleFactory;
 use MediaWiki\User\UserFactory;
 use OOUIHTMLForm;
 use PermissionsError;
-use Status;
 use StatusValue;
 
 class CheckPermissions extends SpecialPage {
