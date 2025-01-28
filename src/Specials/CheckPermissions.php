@@ -2,11 +2,11 @@
 
 namespace BlueSpice\DistributionConnector\Specials;
 
-use Html;
 use HTMLSelectField;
 use HTMLTitleTextField;
 use HTMLUserTextField;
 use InvalidArgumentException;
+use MediaWiki\Html\Html;
 use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\TitleFactory;
