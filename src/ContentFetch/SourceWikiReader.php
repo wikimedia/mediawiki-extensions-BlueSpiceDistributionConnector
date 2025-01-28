@@ -3,7 +3,7 @@
 namespace BlueSpice\DistributionConnector\ContentFetch;
 
 use FormatJson;
-use Status;
+use MediaWiki\Status\Status;
 
 class SourceWikiReader {
 
