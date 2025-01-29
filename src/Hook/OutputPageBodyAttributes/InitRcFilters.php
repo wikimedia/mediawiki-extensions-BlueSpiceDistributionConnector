@@ -2,7 +2,7 @@
 
 namespace BlueSpice\DistributionConnector\Hook\OutputPageBodyAttributes;
 
-use OutputPage;
+use MediaWiki\Output\OutputPage;
 use Skin;
 
 class InitRcFilters {
