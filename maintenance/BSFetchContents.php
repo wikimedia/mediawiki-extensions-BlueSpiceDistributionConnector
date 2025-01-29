@@ -2,6 +2,7 @@
 
 use BlueSpice\DistributionConnector\ContentFetch\ExportListParser;
 use BlueSpice\DistributionConnector\ContentFetch\SourceWikiReader;
+use MediaWiki\Json\FormatJson;
 use MediaWiki\Status\Status;
 
 require_once dirname( dirname( dirname( __DIR__ ) ) ) . "/maintenance/Maintenance.php";
