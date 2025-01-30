@@ -21,8 +21,8 @@ class PDFLinkDroplet extends TemplateDroplet {
 	 */
 	protected function getParams(): array {
 		return [
-			'page' => 'Main Page',
-			'template' => 'BlueSpice',
+			'page' => '',
+			'template' => '',
 			'label' => 'PDF Link'
 		];
 	}

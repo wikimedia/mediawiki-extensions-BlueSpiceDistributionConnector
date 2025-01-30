@@ -201,9 +201,6 @@
 				},
 				"buttonlink": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\ButtonLinkDroplet"
-				},
-				"pdflink": {
-					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\PDFLinkDroplet"
 				}
 			}
 		},
@@ -488,8 +485,12 @@
 			]
 		},
 		"ext.bluespice.distribution.droplet.pdflink": {
-			"scripts": [
-				"object/PDFLinkDroplet.js"
+			"packageFiles": [
+				"object/PDFLinkDroplet.js",
+				{
+					"name": "object/config.json",
+					"callback": "\\BlueSpice\\DistributionConnector\\ClientConfig::getPDFTemplates"
+				}
 			],
 			"styles": [
 				"stylesheets/bluespice.contentdroplets.pdflink.css"
