@@ -46,8 +46,10 @@
 		"description": "Link to download PDF from a specific page",
 		"target_title": "Template:PDFLink",
 		"content_path": "/pages/Template/PDFLink.wiki",
-		"sha1": "ab29e5d67d486f4ddfad22b961b15fbcebc65a7b",
-		"old_sha1": []
+		"sha1": "e3b1ffb79359df29ddf61d9ffeafe5011c75835d",
+		"old_sha1": [
+			"ab29e5d67d486f4ddfad22b961b15fbcebc65a7b"
+		]
 	},
 	"Template:Subpages": {
 		"lang": "en",

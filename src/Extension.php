@@ -3,7 +3,7 @@
 namespace BlueSpice\DistributionConnector;
 
 use BlueSpice\DistributionConnector\SearchBackend\BlueSpiceTitleSearch;
-use ExtensionRegistry;
+use MediaWiki\Registration\ExtensionRegistry;
 
 class Extension extends \BlueSpice\Extension {
 
@@ -31,6 +31,11 @@ class Extension extends \BlueSpice\Extension {
 		if ( ExtensionRegistry::getInstance()->isLoaded( 'InputBox' ) ) {
 			$GLOBALS['wgContentDropletsDroplets']['createInput'] = [
 				"class" => "\\BlueSpice\\DistributionConnector\\ContentDroplets\\CreateInputDroplet"
+			];
+		}
+		if ( ExtensionRegistry::getInstance()->isLoaded( 'PDFCreator' ) ) {
+			$GLOBALS['wgContentDropletsDroplets']['pdflink'] = [
+				"class" => "\\BlueSpice\\DistributionConnector\\ContentDroplets\\PDFLinkDroplet"
 			];
 		}
 	}

@@ -21,13 +21,11 @@
 	};
 
 	bs.distributionConnector.object.PDFLinkDroplet.prototype.getFormItems = function() {
-		var defaultTemplate = mw.config.get( 'bsUEModulePDFDefaultTemplate' );
-		var availableTemplate = mw.config.get( 'bsUEModulePDFAvailableTemplates');
-
+		var config = require( './config.json' );
 		var templates = [];
-		for ( var entry in availableTemplate ) {
-			var item =  {
-				data: availableTemplate[ entry ]
+		for ( var entry in config.templates ) {
+			var item = {
+				data: config.templates[ entry ]
 			};
 			templates.push( item );
 		}
@@ -36,13 +34,13 @@
 			{
 				name: 'page',
 				label: mw.message( 'droplets-pdf-link-page-label' ).plain(),
-				type: 'text'
+				type: 'title'
 			},
 			{
 				name: 'template',
 				label: mw.message( 'droplets-pdf-link-template-label' ).plain(),
 				type: 'dropdown',
-				default: defaultTemplate,
+				default: config.default,
 				options: templates
 			},
 			{
