@@ -108,7 +108,7 @@
 	"bs-distributionconnector-checkpermissions-label-title": "Назва",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "Вказане ім'я користувача недійсне",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "Вказана назва недійсна",
-	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] отримав дозвіл «$2» для [[$3]]",
+	"bs-distributionconnector-checkpermissions-success": "[[User:$1|$1]] має дозвіл «$2» у контексті [[$3]]",
 	"bs-distributionconnector-notification-logged-in": "Ви увійшли в систему",
 	"bs-distributionconnector-workflows-ui-trigger-field-property": "Семантична властивість (типу: Дата)",
 	"workflows-triggers-type-time-smw-prop-label": "На основі семантичної властивості",
