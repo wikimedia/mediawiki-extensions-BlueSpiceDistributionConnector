@@ -2,7 +2,7 @@
 
 namespace BlueSpice\DistributionConnector\Maintenance\PostDatabaseUpdate;
 
-use LoggedUpdateMaintenance;
+use MediaWiki\Maintenance\LoggedUpdateMaintenance;
 use MediaWiki\MediaWikiServices;
 use WikiPage;
 use WikitextContent;

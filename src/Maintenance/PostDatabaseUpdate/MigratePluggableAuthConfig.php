@@ -3,7 +3,7 @@
 namespace BlueSpice\DistributionConnector\Maintenance\PostDatabaseUpdate;
 
 use BlueSpice\DistributionConnector\ConfigDefinitionMigrate\PluggableAuthMigrator;
-use LoggedUpdateMaintenance;
+use MediaWiki\Maintenance\LoggedUpdateMaintenance;
 use MediaWiki\MediaWikiServices;
 
 require_once dirname( __DIR__, 5 ) . "/maintenance/Maintenance.php";
