@@ -2,7 +2,7 @@
 
 namespace BlueSpice\DistributionConnector\Maintenance\PostDatabaseUpdate;
 
-use CommentStoreComment;
+use MediaWiki\CommentStore\CommentStoreComment;
 use MediaWiki\Maintenance\LoggedUpdateMaintenance;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\RevisionRecord;
