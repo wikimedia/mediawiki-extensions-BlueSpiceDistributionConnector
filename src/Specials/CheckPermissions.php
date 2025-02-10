@@ -7,12 +7,12 @@ use MediaWiki\Html\Html;
 use MediaWiki\HTMLForm\Field\HTMLSelectField;
 use MediaWiki\HTMLForm\Field\HTMLTitleTextField;
 use MediaWiki\HTMLForm\Field\HTMLUserTextField;
+use MediaWiki\HTMLForm\OOUIHTMLForm;
 use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Status\Status;
 use MediaWiki\Title\TitleFactory;
 use MediaWiki\User\UserFactory;
-use OOUIHTMLForm;
 use PermissionsError;
 use StatusValue;
 
