@@ -3,7 +3,7 @@
 namespace BlueSpice\DistributionConnector\HookHandler;
 
 use MediaWiki\Content\Hook\ContentAlterParserOutputHook;
-use WikitextContent;
+use MediaWiki\Content\WikitextContent;
 
 class AddVariablesPageProperty implements ContentAlterParserOutputHook {
 
