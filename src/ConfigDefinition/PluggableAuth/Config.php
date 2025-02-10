@@ -7,7 +7,7 @@ use BlueSpice\ConfigDefinition\IOverwriteGlobal;
 use BlueSpice\DistributionConnector\ISettingPaths;
 use BlueSpice\Html\FormField\KeyObjectField;
 use BlueSpice\Html\OOUI\KeyObjectInputWidget;
-use ExtensionRegistry;
+use MediaWiki\Registration\ExtensionRegistry;
 
 class Config extends ArraySetting implements ISettingPaths, IOverwriteGlobal {
 

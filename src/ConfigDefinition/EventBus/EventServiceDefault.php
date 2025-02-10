@@ -5,7 +5,7 @@ namespace BlueSpice\DistributionConnector\ConfigDefinition\EventBus;
 use BlueSpice\ConfigDefinition\IOverwriteGlobal;
 use BlueSpice\ConfigDefinition\StringSetting;
 use BlueSpice\DistributionConnector\ISettingPaths;
-use ExtensionRegistry;
+use MediaWiki\Registration\ExtensionRegistry;
 
 class EventServiceDefault extends StringSetting implements ISettingPaths, IOverwriteGlobal {
 	private const EXTENSION_EVENT_BUS = 'EventBus';

@@ -3,7 +3,7 @@
 namespace BlueSpice\DistributionConnector\Hook;
 
 use BlueSpice\UserManager\Hook\BSUserManagerRegisterModules;
-use ExtensionRegistry;
+use MediaWiki\Registration\ExtensionRegistry;
 
 class AddInviteLink implements BSUserManagerRegisterModules {
 
