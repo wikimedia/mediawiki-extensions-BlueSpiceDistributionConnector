@@ -5,7 +5,7 @@ namespace BlueSpice\DistributionConnector\ConfigDefinition\EventBus;
 use BlueSpice\ConfigDefinition\ArraySetting;
 use BlueSpice\ConfigDefinition\IOverwriteGlobal;
 use BlueSpice\DistributionConnector\ISettingPaths;
-use HTMLSelectField;
+use MediaWiki\HTMLForm\Field\HTMLSelectField;
 use MediaWiki\Registration\ExtensionRegistry;
 
 class EnableEventBus extends ArraySetting implements ISettingPaths, IOverwriteGlobal {
