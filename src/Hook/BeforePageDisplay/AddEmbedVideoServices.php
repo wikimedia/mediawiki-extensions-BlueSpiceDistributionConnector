@@ -3,8 +3,8 @@
 namespace BlueSpice\DistributionConnector\Hook\BeforePageDisplay;
 
 use BlueSpice\Hook\BeforePageDisplay;
-use ExtensionRegistry;
 use MediaWiki\Extension\EmbedVideo\EmbedService\EmbedServiceFactory;
+use MediaWiki\Registration\ExtensionRegistry;
 use ReflectionClass;
 use ReflectionException;
 

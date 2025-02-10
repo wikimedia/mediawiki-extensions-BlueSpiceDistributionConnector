@@ -3,9 +3,9 @@
 namespace BlueSpice\DistributionConnector\Hook\SkinTemplateNavigation;
 
 use BlueSpice\Discovery\Skin as DiscoverySkin;
-use ExtensionRegistry;
 use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
 use MediaWiki\Permissions\PermissionManager;
+use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\Title\Title;
 
 class AddNewPageLink implements SkinTemplateNavigation__UniversalHook {

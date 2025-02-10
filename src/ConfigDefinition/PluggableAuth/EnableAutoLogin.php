@@ -5,7 +5,7 @@ namespace BlueSpice\DistributionConnector\ConfigDefinition\PluggableAuth;
 use BlueSpice\ConfigDefinition\BooleanSetting;
 use BlueSpice\ConfigDefinition\IOverwriteGlobal;
 use BlueSpice\DistributionConnector\ISettingPaths;
-use ExtensionRegistry;
+use MediaWiki\Registration\ExtensionRegistry;
 
 class EnableAutoLogin extends BooleanSetting implements ISettingPaths, IOverwriteGlobal {
 

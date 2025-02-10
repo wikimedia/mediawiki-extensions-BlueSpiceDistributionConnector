@@ -5,8 +5,8 @@ namespace BlueSpice\DistributionConnector\ConfigDefinition\EventBus;
 use BlueSpice\ConfigDefinition\ArraySetting;
 use BlueSpice\ConfigDefinition\IOverwriteGlobal;
 use BlueSpice\DistributionConnector\ISettingPaths;
-use ExtensionRegistry;
 use HTMLSelectField;
+use MediaWiki\Registration\ExtensionRegistry;
 
 class EnableEventBus extends ArraySetting implements ISettingPaths, IOverwriteGlobal {
 	private const EXTENSION_EVENT_BUS = 'EventBus';
