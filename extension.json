@@ -288,9 +288,6 @@
 	"TestAutoloadNamespaces": {
 		"BlueSpice\\DistributionConnector\\Tests\\": "tests/phpunit/"
 	},
-	"AutoloadClasses": {
-		"EchoEvent": "includes/EchoEventCompatibility.php"
-	},
 	"SpecialPages": {
 		"CheckPermissions": {
 			"class": "BlueSpice\\DistributionConnector\\Specials\\CheckPermissions",
