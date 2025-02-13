@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * Autoloaded in settings.d/015-BlueSpiceFreeDistribution.php
+ * Overrides Extension:Echo (important for CI tests)
+ */
+
 use MediaWiki\Extension\NotifyMe\EventFactory;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Registration\ExtensionRegistry;
