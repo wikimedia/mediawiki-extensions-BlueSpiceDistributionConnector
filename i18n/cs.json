@@ -3,19 +3,33 @@
 		"authors": [
 			"Adam N.",
 			"Fraxinus.cs",
+			"Jrobicek",
 			"Kendo13"
 		]
 	},
+	"bs-distributionconnector-workflows-form-groupname": "Skupina",
 	"bs-distributionconnector-workflows-form-instructions": "Instrukce",
+	"bs-distributionconnector-workflows-form-username": "Uživatel",
 	"bs-distributionconnector-workflows-form-expert-user": "Expert",
 	"bs-distributionconnector-workflows-form-expert-instructions": "Pokyny pro experta",
 	"bs-distributionconnector-workflows-form-tw-user": "Technický redaktor",
 	"bs-distributionconnector-workflows-form-tw-instructions": "Pokyny pro technického redaktora",
 	"bs-distributionconnector-workflows-form-head-user": "Vedoucí oddělení",
+	"bs-distributionconnector-workflows-form-head-instructions": "Pokyny pro vedoucí oddělení",
+	"bs-distributionconnector-workflows-form-comment": "Komentář",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Komentář",
 	"bs-distributionconnector-workflows-form-reportrecipient": "Pošlete zprávu (na platnou emailovou adresu nebo uživateli)",
+	"bs-distributionconnector-workflows-form-feedback": "Vložte zpětnou vazbu...",
 	"bs-distributionconnector-workflows-form-group-instructions": "Pokyny pro skupinu",
+	"bs-distributionconnector-workflows-form-label-editor": "Editor",
+	"bs-distributionconnector-workflows-form-instructions-editor": "Pokyny pro editora",
+	"bs-distributionconnector-workflows-form-label-reviewer": "Recenzent",
+	"bs-distributionconnector-workflows-form-instructions-reviewer": "Pokyny pro recenzenta",
+	"bs-distributionconnector-workflows-form-label-approver": "Schvalovatel",
+	"bs-distributionconnector-workflows-form-instructions-approver": "Pokyny pro schvalovatele",
 	"bs-distributionconnector-statistics-report-page-hits": "Návštěvy dle stránek",
 	"bs-distributionconnector-statistics-report-page-trends": "Trendy v návštěvnosti stránek",
 	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% růst",
-	"action-duplicate": "duplikovat stránku"
+	"action-duplicate": "duplikovat stránku",
+	"droplets-pdf-link-template-label": "PDF šablona"
 }
