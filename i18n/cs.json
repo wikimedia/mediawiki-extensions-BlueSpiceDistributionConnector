@@ -3,6 +3,7 @@
 		"authors": [
 			"Adam N.",
 			"Fraxinus.cs",
+			"Jrobicek",
 			"Kendo13"
 		]
 	},
@@ -17,5 +18,18 @@
 	"bs-distributionconnector-statistics-report-page-hits": "Návštěvy dle stránek",
 	"bs-distributionconnector-statistics-report-page-trends": "Trendy v návštěvnosti stránek",
 	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% růst",
-	"action-duplicate": "duplikovat stránku"
+	"action-duplicate": "duplikovat stránku",
+	"bs-distributionconnector-workflows-form-groupname": "Skupina",
+	"bs-distributionconnector-workflows-form-username": "Uživatel",
+	"bs-distributionconnector-workflows-form-head-instructions": "Pokyny pro vedoucí oddělení",
+	"bs-distributionconnector-workflows-form-comment": "Komentář",
+	"bs-distributionconnector-workflows-form-placeholder-comment": "Komentář",
+	"bs-distributionconnector-workflows-form-feedback": "Vložte zpětnou vazbu...",
+	"bs-distributionconnector-workflows-form-label-editor": "Editor",
+	"bs-distributionconnector-workflows-form-instructions-editor": "Pokyny pro editora",
+	"bs-distributionconnector-workflows-form-label-reviewer": "Recenzent",
+	"bs-distributionconnector-workflows-form-instructions-reviewer": "Pokyny pro recenzenta",
+	"bs-distributionconnector-workflows-form-label-approver": "Schvalovatel",
+	"bs-distributionconnector-workflows-form-instructions-approver": "Pokyny pro schvalovatele",
+	"droplets-pdf-link-template-label": "PDF šablona"
 }
