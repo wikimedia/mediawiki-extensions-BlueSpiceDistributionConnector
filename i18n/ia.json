@@ -161,6 +161,9 @@
 	"droplets-pdflink-description": "Ligamine que discarga un altere pagina wiki como PDF",
 	"bs-distributionconnector-videodropletinspector-video-link-label": "Inserer un ligamine a un video",
 	"bs-distributionconnector-videodropletinspector-title": "Video",
+	"bs-distributionconnector-videodropletinspector-title-label": "Titulo",
+	"bs-distributionconnector-videodropletinspector-title-help": "Titulo del video",
+	"bs-distributionconnector-videodropletinspector-title-placeholder": "Insere le titulo del video…",
 	"bs-distributionconnector-videodropletinspector-description-label": "Description",
 	"bs-distributionconnector-videodropletinspector-service-help": "Selige le servicio a usar pro incastrar video",
 	"bs-distributionconnector-videodropletinspector-description-help": "Adde un description sub le video. Pro saltos de linea, usa \"&#10\"",
@@ -181,8 +184,5 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Activa le apertura de session automatic sur le wiki",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Parametros de synchronisation del gruppo (JSON)",
 	"action-checkpermissions": "verificar permissiones de usator",
-	"right-checkpermissions": "Verificar permissiones de usator sur le pagina special [[Special:Check_Permissions]]",
-	"bs-distributionconnector-videodropletinspector-title-label": "Titulo",
-	"bs-distributionconnector-videodropletinspector-title-help": "Titulo del video",
-	"bs-distributionconnector-videodropletinspector-title-placeholder": "Insere le titulo del video…"
+	"right-checkpermissions": "Verificar permissiones de usator sur le pagina special [[Special:Check_Permissions]]"
 }
