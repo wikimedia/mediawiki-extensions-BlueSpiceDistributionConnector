@@ -201,6 +201,24 @@
 				},
 				"buttonlink": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\ButtonLinkDroplet"
+				},
+				"video": {
+					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\VideoDroplet",
+					"requires": {
+						"EmbedVideo": "*"
+					}
+				},
+				"createInput": {
+					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\CreateInputDroplet",
+					"requires": {
+						"InputBox": "*"
+					}
+				},
+				"pdflink": {
+					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\PDFLinkDroplet",
+					"requires": {
+						"PDFCreator": "*"
+					}
 				}
 			}
 		},
