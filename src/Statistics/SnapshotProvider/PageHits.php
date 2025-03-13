@@ -88,20 +88,27 @@ class PageHits implements ISnapshotProvider {
 
 		foreach ( $snapshots as $snapshot ) {
 			foreach ( $snapshot->getData() as $page => $props ) {
+				// Initialize array for page if not exists
 				if ( !isset( $data[$page] ) ) {
 					$data[$page] = [
-						'hits' => 0,
+						'hitDiff' => 0,
 					];
 				}
-				$data[$page]['hits'] += $props['hits'];
+
+				$data[$page]['hitDiff'] += $props['hitDiff'];
+				$data[$page]['hits'] = $data[$page]['hitDiff'];
+
+				if ( $previous ) {
+					$data[$page]['hits'] += $previous->getData()[$page]['hits'];
+				}
 			}
-		}
-		foreach ( $data as $page => &$props ) {
-			$props['hitDiff'] = $this->calcHitDiff( $props['hits'], $previous, $page );
 		}
 
 		return $this->snapshotFactory->createSnapshot(
-			$date ?? new SnapshotDate(), $this->getType(), $data, $interval
+			$date ?? new SnapshotDate(),
+			$this->getType(),
+			$data,
+			$interval
 		);
 	}
 
@@ -115,19 +122,19 @@ class PageHits implements ISnapshotProvider {
 	/**
 	 * hitDiff must not be negative
 	 *
-	 * @param int $hits
+	 * @param int $totalHits
 	 * @param Snapshot|null $previous
 	 * @param string $page
 	 *
 	 * @return int
 	 * @throws Exception
 	 */
-	private function calcHitDiff( int $hits, ?Snapshot $previous, string $page ): int {
+	private function calcHitDiff( int $totalHits, ?Snapshot $previous, string $page ): int {
 		if ( !( $previous instanceof Snapshot ) ) {
-			return 0;
+			return $totalHits;
 		}
 
-		$hitDiff = $hits - $this->getPreviousHits( $previous, $page );
+		$hitDiff = $totalHits - $this->getPreviousHits( $previous, $page );
 
 		if ( $hitDiff < 0 ) {
 			throw new Exception( 'Calculating hitDiff failed. hitDiff is negative.' );
