@@ -133,7 +133,8 @@ class PluggableAuthMigrator {
 			$currentConfigValue = $this->db->selectField(
 				$this->configTable,
 				's_value',
-				"s_name = '$configName'"
+				"s_name = '$configName'",
+				__METHOD__
 			);
 
 			if ( $currentConfigValue ) {
@@ -186,7 +187,8 @@ class PluggableAuthMigrator {
 		$currentConfigRaw = $this->db->selectField(
 			$this->configTable,
 			's_value',
-			"s_name = '{$this->openIdConnectConfigKey}'"
+			"s_name = '{$this->openIdConnectConfigKey}'",
+			__METHOD__
 		);
 
 		// There could be not config
