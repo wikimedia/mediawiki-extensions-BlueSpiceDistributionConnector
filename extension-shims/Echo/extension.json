@@ -1,0 +1,10 @@
+{
+	"name": "Echo",
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\Notifications\\": "src/"
+	},
+	"AutoloadClasses": {
+		"EchoEvent": "src/Model/Event.php"
+	},
+	"manifest_version": 2
+}
