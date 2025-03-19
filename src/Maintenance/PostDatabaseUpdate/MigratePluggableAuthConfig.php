@@ -182,9 +182,8 @@ class MigratePluggableAuthConfig extends LoggedUpdateMaintenance {
 
 		$this->db->delete(
 			$this->configTable,
-			[
-				's_name' => $configsToDelete
-			]
+			[ 's_name' => $configsToDelete ],
+			__METHOD__
 		);
 	}
 
