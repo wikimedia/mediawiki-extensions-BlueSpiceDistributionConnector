@@ -1,18 +1,21 @@
 <?php
 
+namespace MediaWiki\Extension\Notifications\Model;
+
 /**
  * Autoloaded in settings.d/015-BlueSpiceFreeDistribution.php
  * Overrides Extension:Echo (important for CI tests)
  */
 
+use Exception;
 use MediaWiki\Extension\NotifyMe\EventFactory;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Registration\ExtensionRegistry;
 use MWStake\MediaWiki\Component\Events\NotificationEvent;
 use MWStake\MediaWiki\Component\Events\Notifier;
 
-class EchoEvent {
 
+class Event {
 	/** @var array */
 	private $compatMapping;
 
@@ -61,14 +64,13 @@ class EchoEvent {
 
 		$replacement = $this->compatMapping[$info['type']];
 		$event = $this->getReplacementEvent( $info, $replacement );
-
 		if ( $event ) {
 			try {
-				$this->notifier->emit( $replacement );
+				$this->notifier->emit( $event );
 			} catch ( Exception $e ) {
+				throw new Exception( 'Failed to emit event: ' . $e->getMessage() );
 				// Do nothing
 			}
-
 		}
 	}
 
@@ -79,9 +81,11 @@ class EchoEvent {
 	 */
 	private function getReplacementEvent( array $info, string $eventKey ): ?NotificationEvent {
 		try {
-			return $this->eventFactory->create( $eventKey, $info );
+			return $this->eventFactory->create( $eventKey, [ $info ] );
 		} catch ( Exception $e ) {
 			return null;
 		}
 	}
 }
+
+class_alias( Event::class, 'EchoEvent' );
