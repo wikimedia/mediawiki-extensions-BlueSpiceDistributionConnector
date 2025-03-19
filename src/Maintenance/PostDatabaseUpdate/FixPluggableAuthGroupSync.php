@@ -85,10 +85,9 @@ class FixPluggableAuthGroupSync extends LoggedUpdateMaintenance {
 	private function updatePluggableAuthConfig( array $newConfigValue ): void {
 		$this->db->update(
 			$this->configTable,
-			[
-				's_value' => json_encode( $newConfigValue )
-			],
-			"s_name = '{$this->pluggableAuthConfigKey}'"
+			[ 's_value' => json_encode( $newConfigValue ) ],
+			"s_name = '{$this->pluggableAuthConfigKey}'",
+			__METHOD__
 		);
 
 		$this->output( "Config '{$this->pluggableAuthConfigKey}' updated.\n" );
