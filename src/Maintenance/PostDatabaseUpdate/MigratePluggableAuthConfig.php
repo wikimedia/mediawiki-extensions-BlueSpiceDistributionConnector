@@ -141,10 +141,9 @@ class MigratePluggableAuthConfig extends LoggedUpdateMaintenance {
 		if ( $configExists ) {
 			$this->db->update(
 				$this->configTable,
-				[
-					's_value' => $newConfigValue
-				],
-				"s_name = '{$this->pluggableAuthConfigKey}'"
+				[ 's_value' => $newConfigValue ],
+				"s_name = '{$this->pluggableAuthConfigKey}'",
+				__METHOD__
 			);
 
 			$this->output( "Config '{$this->pluggableAuthConfigKey}' updated.\n" );
