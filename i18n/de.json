@@ -11,7 +11,8 @@
 			"Pittigrilli",
 			"SehrGuterCode",
 			"Umherirrender",
-			"Umlaut"
+			"Umlaut",
+			"Vhoesl"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Verbindet BlueSpice mit verschiedenen MediaWiki-Erweiterungen",
@@ -65,8 +66,8 @@
 	"bs-distributionconnector-workflows-form-group-instructions": "Anweisungen für die Gruppe",
 	"bs-distributionconnector-workflows-form-label-editor": "Bearbeiter",
 	"bs-distributionconnector-workflows-form-instructions-editor": "Anweisungen für den Bearbeiter",
-	"bs-distributionconnector-workflows-form-label-reviewer": "Begutachter",
-	"bs-distributionconnector-workflows-form-instructions-reviewer": "Anweisungen für den Begutachter",
+	"bs-distributionconnector-workflows-form-label-reviewer": "Prüfer",
+	"bs-distributionconnector-workflows-form-instructions-reviewer": "Anweisungen für den Prüfer",
 	"bs-distributionconnector-workflows-form-label-approver": "Freigabeberechtigter",
 	"bs-distributionconnector-workflows-form-instructions-approver": "Anweisungen für den Freigabeberechtigten",
 	"bs-distributionconnector-statistics-report-page-hits": "Besuche pro Seite",
