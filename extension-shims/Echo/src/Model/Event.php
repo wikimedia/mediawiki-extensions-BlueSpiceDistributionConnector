@@ -14,7 +14,6 @@ use MediaWiki\Registration\ExtensionRegistry;
 use MWStake\MediaWiki\Component\Events\NotificationEvent;
 use MWStake\MediaWiki\Component\Events\Notifier;
 
-
 class Event {
 	/** @var array */
 	private $compatMapping;
