@@ -1,7 +1,6 @@
 <includeonly>
 <templatestyles src="Subpages/styles.css" /><div class="{{#switch: {{{cols}}}|no=template-subpages||nein=template-subpages|}} {{#switch: {{{bullets}}}|no=no-bullets|nein=no-bullets|}}">{{Special:Prefixindex|prefix={{{parentnamespace}}}:{{{parentpage}}}/|hideredirects=1|stripprefix=1}}</div></includeonly>
 <noinclude>
-This template lists all subpages of a wiki page. The result is displayed as a bulleted list and can be set to 1-3 columns.
 <templatedata>
 {
 	"params": {
@@ -69,8 +68,8 @@ This template lists all subpages of a wiki page. The result is displayed as a bu
 		}
 	},
 	"description": {
-		"en": "Subpages",
-		"de": "Unterseite"
+		"en": "This template lists all subpages of a wiki page. The result is displayed as a bulleted list and can be set to 1-3 columns.",
+		"de": "Diese Vorlage listet alle Unterseiten einer Wikiseite auf. Das Ergebnis wird als Aufzählungsliste angezeigt und kann auf 1-3 Spalten eingestellt werden."
 	}
 }
 </templatedata>

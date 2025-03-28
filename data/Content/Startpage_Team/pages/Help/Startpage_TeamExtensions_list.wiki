@@ -17,7 +17,7 @@
 |}
 
 ===Staff===
-{| class="sortable wikitable" style="width:100%;" 
+{| class="sortable wikitable" style="width:100%;"
 |-
 ! style="width:60px;" class="background-color" |Extension
 ! class="background-color" style="" |First name
@@ -36,8 +36,8 @@
 |Patel
 |-
 ! style="width:60px;" class="background-color" |'''194'''
-| class="background-color" style="" |
-|
+| class="background-color" style="" |Daniel
+|Mayer
 |-
 ! style="width:60px;" class="background-color" |'''196'''
 | class="background-color" style="" |Emma

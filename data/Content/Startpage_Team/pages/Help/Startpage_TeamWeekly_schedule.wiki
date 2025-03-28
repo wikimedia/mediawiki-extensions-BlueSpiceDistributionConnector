@@ -1,16 +1,16 @@
 {| class="wikitable small" style="width:100%;"
 !Support type
-!Mo
+!Mon
 !Tue
-!W
+!Wed
 !Thu
 !Fri
 |-
 !<span class="bi bi-headset"> Phone</span>
-| Michael
+|Michael
 |Claire
 |Justin
-| Atri
+|Atri
 |Christophe
 |-
 !<span class="bi bi-gear-fill"> Admin</span>

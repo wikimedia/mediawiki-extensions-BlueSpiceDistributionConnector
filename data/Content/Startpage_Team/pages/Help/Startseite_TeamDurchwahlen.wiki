@@ -1,5 +1,5 @@
 ==Durchwahlen==
-<big> Zentrale: 0941-66080-'''0'''</big>
+<span class="bi bi-telephone-fill"></span> <big> Zentrale: 0941-66080-'''0'''</big>
 
 ===Wichtige Nummern===
 {| class="wikitable small" style="width:100%;"
@@ -17,7 +17,7 @@
 |}
 
 ===Mitarbeiter===
-{| class="sortable wikitable" style="width:100%;" 
+{| class="sortable wikitable" style="width:100%;"
 |-
 ! style="width:60px;" class="background-color" |Durchwahl
 ! class="background-color" style="" |Vorname

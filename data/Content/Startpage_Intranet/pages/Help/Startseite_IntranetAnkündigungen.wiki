@@ -1,10 +1,10 @@
-{| class="eventtable"
+{|
 |- 
 | 11/04
 || Ankündigung 1
 |- 
 | 10/19
-|| Deep learning with light
+|| Deep learning mit Licht
 |- 
 | 08/18
 || Hallo Welt! zieht Cloud-Instanzen um in Hetzner Data Center
