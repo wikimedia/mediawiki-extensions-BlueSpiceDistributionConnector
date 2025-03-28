@@ -1,0 +1,11 @@
+<div style="float:{{{alignment|}}}">
+{{#tag:inputbox |
+type=create
+useve=true
+break=no
+buttonlabel={{{buttonlabel|Erstellen}}}
+preload={{{preload|}}}
+placeholder={{{placeholder|Gib einen Seitennamen ein}}}
+prefix={{{prefix|}}}
+}}
+</div>

@@ -1,4 +1,4 @@
-{| class="startpageevents" style="width:100%;"
+{| class="startpageevents" style=""
 |- 
 |11/30||  ||Management Klausur
 |- 

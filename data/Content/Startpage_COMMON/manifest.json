@@ -32,9 +32,10 @@
 		"description": "A banner",
 		"target_title": "Template:Bannerbox",
 		"content_path": "/pages/Template/Bannerbox.wiki",
-		"sha1": "de4d9b311c8a02ea8afc974f4d04b3ff7daf0ba4",
+		"sha1": "b5f648689ca565d833f957f709e68aa3a035723e",
 		"old_sha1": [
-			"15901720bfd0a6d72e4d4031a675e566206c3040"
+			"15901720bfd0a6d72e4d4031a675e566206c3040",
+			"de4d9b311c8a02ea8afc974f4d04b3ff7daf0ba4"
 		]
 	},
 	"Template:Bannerbox/styles.css": {
@@ -174,9 +175,10 @@
 		"description": "Eine Vorlage f\u00fcr einen Banner",
 		"target_title": "Template:Bannerbox",
 		"content_path": "/pages/Template/Bannerboxde.wiki",
-		"sha1": "de4d9b311c8a02ea8afc974f4d04b3ff7daf0ba4",
+		"sha1": "b5f648689ca565d833f957f709e68aa3a035723e",
 		"old_sha1": [
-			"15901720bfd0a6d72e4d4031a675e566206c3040"
+			"15901720bfd0a6d72e4d4031a675e566206c3040",
+			"de4d9b311c8a02ea8afc974f4d04b3ff7daf0ba4"
 		]
 	},
 	"Template:Bannerbox/de/styles.css": {
@@ -196,8 +198,10 @@
 		"description": "Eine Vorlage f\u00fcr Bildkarten",
 		"target_title": "Template:Bildkarten",
 		"content_path": "/pages/Template/Bildkarten.wiki",
-		"sha1": "a479259cefa2d3318756426acb19a72761758254",
-		"old_sha1": []
+		"sha1": "c2d0c319c99593ae028258c66d09691212d4fe2e",
+		"old_sha1": [
+			"a479259cefa2d3318756426acb19a72761758254"
+		]
 	},
 	"Template:Bildkarten/end": {
 		"lang": "de",

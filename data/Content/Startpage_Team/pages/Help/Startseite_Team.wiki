@@ -34,7 +34,7 @@
 <attachments>
 </attachments></div></div>
 </div>
-{{Dropdown|ddid=edit|Content={{#subpages:{{FULLPAGENAME}}|kidsonly=yes}}}}
+{{#ifingroup: sysop, editor|{{Dropdown|ddid=edit|Content={{#subpages:{{FULLPAGENAME}}}}|kidsonly=yes}}|}}
 __HIDETITLE__
 __NOTOC__
-__NODISCUSSION__
+<no-comment-streams />
