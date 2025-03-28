@@ -39,10 +39,10 @@
 </div>
 </div>
 <div style="margin-top:10px">
-<bs:tagcloud renderer="text" store="category" width="100%" showcount="true" minsize="5" maxsize="30" exclude=" BPMN, Imported vocabulary, Pages using DynamicPageList3 parser tag, Pages using DynamicPageList parser function" />
+<bs:tagcloud renderer="text" store="category" width="100%" showcount="true" minsize="5" maxsize="30" exclude="BPMN, Imported vocabulary, Pages using DynamicPageList3 parser tag, Pages using DynamicPageList parser function" />
 </div>
 </div>
 {{Dropdown|ddid=edit|Content={{#subpages:{{FULLPAGENAME}}|kidsonly=yes}}}}
 __NOTOC__
 __HIDETITLE__
-__NODISCUSSION__
+<no-comment-streams />

@@ -1,25 +1,24 @@
 {| class="wikitable small" style="width:100%;"
-!
+!Unterstützungsart
 !Mo
 !Di
 !Mi
 !Do
 !Fr
 |-
-|<i class="bi bi-headset"></i>
-| Michael
-|Klara
+!<span class="bi bi-headset"> Phone</span>
+|Michael
+|Claire
 |Justin
-| Atri
-|Christoph
+|Atri
+|Christophe
 |-
-|<i class="bi bi-gear-fill"></i>
-|Josef
+!<span class="bi bi-gear-fill"> Admin</span>
+|Joe
 |Elisa
 |Claudette
 |Mike
 |Robert
 |}
-Aufgaben für den  [[{{NAMESPACE}}:{{ROOTPAGENAME}}/Wöchentlicher Support|wöchentlichen Support]]
-
+Aufgaben für den [[{{NAMESPACE}}:{{ROOTPAGENAME}}/Wöchentlicher Support|wöchentlichen Support]]
 __NOEDITSECTION__

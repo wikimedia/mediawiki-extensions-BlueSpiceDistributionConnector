@@ -1,6 +1,5 @@
 <includeonly><templatestyles src="Bannerbox/styles.css" /><div class="bannerbox {{{boxbgicon|}}}" style="align-items:start;{{#ifeq:{{{imagealign|}}}|right|flex-direction:row-reverse;|flex-dirction:row;}}{{#if:{{{boxbgcolor|}}}|background:{{{boxbgcolor}}};|}}{{#if:{{{boxpadding|}}}|padding:{{{boxpadding|0px}}};}}">
 {{#if:{{{banner-image|}}}|<div class="banner-image">[[File:{{{banner-image}}}{{!}}{{#if:{{{image-width|}}}|{{{image-width}}}x{{{image-width}}}px|200x200px}}|alt={{{banner-image-alt|banner image}}}|{{!}}link=]]</div>|}}<div class="banner-content" style="padding:{{#if:{{{contentpadding|}}}|{{{contentpadding}}}"|10px}}>{{#if:{{{banner-title|}}}|{{#ifeq:{{{title-h1|1}}}|1|<h1 class="bannerhd" style="margin-top:0; {{#if:{{{titlesize|}}}|font-size:{{{titlesize}}};|font-size:1.6rem;}}{{#if:{{{titlecolor|}}}|color:{{{titlecolor}}};|}}">{{{banner-title}}}</h1>|<div class="banner-title"><div class="bannerhd" style="margin-top:0; {{#if:{{{titlesize|}}}|font-size:{{{titlesize}}};|font-size:1.6rem;}}{{#if:{{{titlecolor|}}}|color:{{{titlecolor}}};|}}">{{{banner-title}}}</div></div>}}|}}{{#if:{{{banner-text|}}}|<div class="banner-text" style="{{#if:{{{textcolor|}}}|color:{{{textcolor}}};|}}{{#if:{{{textsize|}}}|font-size:{{{textsize}}};|}}">{{{banner-text}}}</div>|}}</div></div></includeonly><noinclude>
-This template creates an intro banner on a page. The banner should contain an image (optional), a title and 2-3 lines of text.
 <templatedata>
 {
 	"params": {
@@ -227,7 +226,11 @@ This template creates an intro banner on a page. The banner should contain an im
 		"boxpadding",
 		"boxbgcolor",
 		"boxbgicon"
-	]
+	],
+	"description": {
+		"en": "This template creates an intro banner on a page. The banner should contain a title, 2-3 lines of text, and optionally, an image.",
+		"de": "Diese Vorlage erstellt ein Intro-Banner auf einer Seite. Das Banner sollte einen Titel, 2-3 Zeilen Text und optional ein Bild enthalten."
+	}
 }
 </templatedata>
 </noinclude>

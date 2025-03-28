@@ -1,1 +1,1 @@
-{{Bannerbox|banner-image=|image-width=|imagealign=|banner-title=Willkommen im BlueSpice Wiki!|titlesize=|titlecolor=#2e6096|banner-text=Wo unser Wissen wächst.|textsize=|textcolor=#2e6096|contentpadding=|boxpadding=8px|boxbgcolor=#ffffff|boxbgimg=|boxbgicon=swoosh}}
+{{Bannerbox|banner-image=|banner-image-alt=|image-width=|imagealign=|banner-title=Willkommen im BlueSpice Wiki!|title-h1=1|titlesize=|titlecolor=#2e6096|banner-text=Wo unser Wissen wächst.|textsize=|textcolor=#2e6096|contentpadding=|boxpadding=8px|boxbgcolor=#ffffff|boxbgimg=|boxbgicon=swoosh}}
