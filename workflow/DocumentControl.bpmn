@@ -99,6 +99,7 @@
 				<wf:type>page_checkout</wf:type>
 			</bpmn:extensionElements>
 			<bpmn:property name="user">Mediawiki default</bpmn:property>
+			<bpmn:property name="force">true</bpmn:property>
 			<bpmn:incoming>FromCheckinPage_1ToCheckoutPage_2</bpmn:incoming>
 			<bpmn:outgoing>FromCheckoutPage_2ToUserVoteApproval</bpmn:outgoing>
 		</bpmn:task>
