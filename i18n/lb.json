@@ -53,5 +53,12 @@
 	"bs-distributionconnector-videodropletinspector-alignment-left": "lénks",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "zentréiert",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "riets",
-	"action-checkpermissions": "Benotzerrechter iwwerpréiwen"
+	"action-checkpermissions": "Benotzerrechter iwwerpréiwen",
+	"droplets-buttonlink-format-label": "Hannergrondfaarf",
+	"droplets-buttonlink-format-blue": "blo",
+	"droplets-buttonlink-format-neutral": "wäiss",
+	"droplets-buttonlink-format-red": "rout",
+	"droplets-create-input-button-label": "Text vum Knäppchen",
+	"droplets-create-input-name": "Säit uleeën",
+	"droplets-pdf-link-page-label": "Säit fir z'exportéieren"
 }
