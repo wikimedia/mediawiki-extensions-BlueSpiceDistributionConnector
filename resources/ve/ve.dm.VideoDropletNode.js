@@ -1,10 +1,10 @@
 ve.dm.VideoDropletNode = function VeDmVideoDropletNode() {
 	// Parent constructor
-	ve.dm.VideoDropletNode.super.apply(this, arguments);
+	ve.dm.VideoDropletNode.super.apply( this, arguments );
 };
 
 /* Inheritance */
-OO.inheritClass(ve.dm.VideoDropletNode, ve.dm.MWInlineExtensionNode);
+OO.inheritClass( ve.dm.VideoDropletNode, ve.dm.MWInlineExtensionNode );
 
 /* Static members */
 ve.dm.VideoDropletNode.static.name = 'embedvideo';

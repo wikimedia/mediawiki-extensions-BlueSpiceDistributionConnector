@@ -1,4 +1,4 @@
-(function ( mw, $, bs) {
+( function ( mw, $, bs ) {
 	bs.util.registerNamespace( 'bs.distributionConnector.report' );
 
 	bs.distributionConnector.report.PageHitsReport = function ( cfg ) {
@@ -7,7 +7,7 @@
 
 	OO.inheritClass( bs.distributionConnector.report.PageHitsReport, bs.aggregatedStatistics.report.ReportBase );
 
-	bs.distributionConnector.report.PageHitsReport.static.label = mw.message( "bs-distributionconnector-statistics-report-page-hits" ).text();
+	bs.distributionConnector.report.PageHitsReport.static.label = mw.message( 'bs-distributionconnector-statistics-report-page-hits' ).text();
 
 	bs.distributionConnector.report.PageHitsReport.prototype.getFilters = function () {
 		return [
@@ -26,4 +26,4 @@
 		};
 	};
 
-} )( mediaWiki, jQuery , blueSpice);
+}( mediaWiki, jQuery, blueSpice ) );

@@ -1,12 +1,12 @@
-mw.loader.using(["ext.bluespice.visualEditorConnector"], function() {
+mw.loader.using( [ 'ext.bluespice.visualEditorConnector' ], () => {
 	ve.dm.CategoryTreeNode = function VeDmCategoryTreeNode() {
 		// Parent constructor
-		ve.dm.CategoryTreeNode.super.apply(this, arguments);
+		ve.dm.CategoryTreeNode.super.apply( this, arguments );
 	};
 
 	/* Inheritance */
 
-	OO.inheritClass(ve.dm.CategoryTreeNode, ve.dm.MWInlineExtensionNode);
+	OO.inheritClass( ve.dm.CategoryTreeNode, ve.dm.MWInlineExtensionNode );
 
 	/* Static members */
 
@@ -14,14 +14,14 @@ mw.loader.using(["ext.bluespice.visualEditorConnector"], function() {
 
 	ve.dm.CategoryTreeNode.static.tagName = 'categorytree';
 
-// Name of the parser tag
+	// Name of the parser tag
 	ve.dm.CategoryTreeNode.static.extensionName = 'categorytree';
 
-// This tag renders without content
+	// This tag renders without content
 	ve.dm.CategoryTreeNode.static.childNodeTypes = [];
 	ve.dm.CategoryTreeNode.static.isContent = true;
 
 	/* Registration */
 
-	ve.dm.modelRegistry.register(ve.dm.CategoryTreeNode);
+	ve.dm.modelRegistry.register( ve.dm.CategoryTreeNode );
 } );

@@ -1,12 +1,12 @@
 ( function ( mw, $, bs ) {
 	bs.util.registerNamespace( 'bs.distributionConnector.workflows.form' );
-	bs.distributionConnector.workflows.form.UserCollectData = function( cfg, activity ) {
+	bs.distributionConnector.workflows.form.UserCollectData = function ( cfg, activity ) {
 		bs.distributionConnector.workflows.form.UserCollectData.parent.call( this, cfg, activity );
 	};
 
 	OO.inheritClass( bs.distributionConnector.workflows.form.UserCollectData, workflows.object.form.Form );
 
-	bs.distributionConnector.workflows.form.UserCollectData.prototype.getDefinitionItems = function() {
+	bs.distributionConnector.workflows.form.UserCollectData.prototype.getDefinitionItems = function () {
 		return [
 			{
 				name: 'username',
@@ -27,4 +27,4 @@
 		];
 	};
 
-} )( mediaWiki, jQuery, blueSpice );
+}( mediaWiki, jQuery, blueSpice ) );
