@@ -1,29 +1,28 @@
 ( function ( mw, $, bs ) {
 	bs.util.registerNamespace( 'bs.distributionConnector.object' );
 
-	bs.distributionConnector.object.SubpagesDroplet = function( cfg ) {
+	bs.distributionConnector.object.SubpagesDroplet = function ( cfg ) {
 		bs.distributionConnector.object.SubpagesDroplet.parent.call( this, cfg );
 	};
 
 	OO.inheritClass( bs.distributionConnector.object.SubpagesDroplet, ext.contentdroplets.object.TransclusionDroplet );
 
-	bs.distributionConnector.object.SubpagesDroplet.prototype.templateMatches = function( templateData ) {
+	bs.distributionConnector.object.SubpagesDroplet.prototype.templateMatches = function ( templateData ) {
 		if ( !templateData ) {
 			return false;
 		}
-		var target = templateData.target.wt;
+		const target = templateData.target.wt;
 
-		return target.trim( '\n' ) === 'Subpages' && 'subpages' === this.getKey();
+		return target.trim( '\n' ) === 'Subpages' && this.getKey() === 'subpages';
 	};
 
-
-	bs.distributionConnector.object.SubpagesDroplet.prototype.toDataElement = function( domElements, converter  ) {
+	bs.distributionConnector.object.SubpagesDroplet.prototype.toDataElement = function ( domElements, converter ) { // eslint-disable-line no-unused-vars
 		return false;
 	};
 
-	bs.distributionConnector.object.SubpagesDroplet.prototype.getFormItems = function() {
+	bs.distributionConnector.object.SubpagesDroplet.prototype.getFormItems = function () {
 
-		var formItems = [
+		const formItems = [
 			{
 				name: 'parentnamespace',
 				label: mw.message( 'droplets-subpages-namespace-label' ).plain(),
@@ -55,4 +54,4 @@
 
 	ext.contentdroplets.registry.register( 'subpages', bs.distributionConnector.object.SubpagesDroplet );
 
-} )( mediaWiki, jQuery, blueSpice );
+}( mediaWiki, jQuery, blueSpice ) );

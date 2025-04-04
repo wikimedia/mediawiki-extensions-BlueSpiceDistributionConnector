@@ -1,25 +1,25 @@
 ( function ( mw, $, bs ) {
 	bs.util.registerNamespace( 'bs.distributionConnector.object' );
 
-	bs.distributionConnector.object.CreateInputDroplet = function( cfg ) {
+	bs.distributionConnector.object.CreateInputDroplet = function ( cfg ) {
 		bs.distributionConnector.object.CreateInputDroplet.parent.call( this, cfg );
 	};
 
 	OO.inheritClass( bs.distributionConnector.object.CreateInputDroplet, ext.contentdroplets.object.TransclusionDroplet );
 
-	bs.distributionConnector.object.CreateInputDroplet.prototype.templateMatches = function( templateData ) {
+	bs.distributionConnector.object.CreateInputDroplet.prototype.templateMatches = function ( templateData ) {
 		if ( !templateData ) {
 			return false;
 		}
-		var target = templateData.target.wt;
+		const target = templateData.target.wt;
 		return target.trim( '\n' ) === 'CreateInput';
 	};
 
-	bs.distributionConnector.object.CreateInputDroplet.prototype.toDataElement = function( domElements, converter  ) {
+	bs.distributionConnector.object.CreateInputDroplet.prototype.toDataElement = function ( domElements, converter ) { // eslint-disable-line no-unused-vars
 		return false;
 	};
 
-	bs.distributionConnector.object.CreateInputDroplet.prototype.getFormItems = function() {
+	bs.distributionConnector.object.CreateInputDroplet.prototype.getFormItems = function () {
 		return [
 			{
 				name: 'buttonlabel',
@@ -70,4 +70,4 @@
 
 	ext.contentdroplets.registry.register( 'createInput', bs.distributionConnector.object.CreateInputDroplet );
 
-} )( mediaWiki, jQuery, blueSpice );
+}( mediaWiki, jQuery, blueSpice ) );

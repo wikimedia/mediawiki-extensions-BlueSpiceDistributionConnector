@@ -2,29 +2,29 @@
 
 	bs.util.registerNamespace( 'bs.distributionConnector.object' );
 
-	bs.distributionConnector.object.PDFLinkDroplet = function( cfg ) {
+	bs.distributionConnector.object.PDFLinkDroplet = function ( cfg ) {
 		bs.distributionConnector.object.PDFLinkDroplet.parent.call( this, cfg );
 	};
 
 	OO.inheritClass( bs.distributionConnector.object.PDFLinkDroplet, ext.contentdroplets.object.TransclusionDroplet );
 
-	bs.distributionConnector.object.PDFLinkDroplet.prototype.templateMatches = function( templateData ) {
+	bs.distributionConnector.object.PDFLinkDroplet.prototype.templateMatches = function ( templateData ) {
 		if ( !templateData ) {
 			return false;
 		}
-		var target = templateData.target.wt;
+		const target = templateData.target.wt;
 		return target.trim( '\n' ) === 'PDFLink';
 	};
 
-	bs.distributionConnector.object.PDFLinkDroplet.prototype.toDataElement = function( domElements, converter  ) {
+	bs.distributionConnector.object.PDFLinkDroplet.prototype.toDataElement = function ( domElements, converter ) { // eslint-disable-line no-unused-vars
 		return false;
 	};
 
-	bs.distributionConnector.object.PDFLinkDroplet.prototype.getFormItems = function() {
-		var config = require( './config.json' );
-		var templates = [];
-		for ( var entry in config.templates ) {
-			var item = {
+	bs.distributionConnector.object.PDFLinkDroplet.prototype.getFormItems = function () {
+		const config = require( './config.json' );
+		const templates = [];
+		for ( const entry in config.templates ) {
+			const item = {
 				data: config.templates[ entry ]
 			};
 			templates.push( item );
@@ -53,4 +53,4 @@
 
 	ext.contentdroplets.registry.register( 'pdflink', bs.distributionConnector.object.PDFLinkDroplet );
 
-} )( mediaWiki, jQuery, blueSpice );
+}( mediaWiki, jQuery, blueSpice ) );

@@ -1,12 +1,12 @@
 ( function ( mw, $, bs ) {
 	bs.util.registerNamespace( 'bs.distributionConnector.workflows.form' );
-	bs.distributionConnector.workflows.form.DocumentControlCollectDataForm = function( cfg, activity ) {
+	bs.distributionConnector.workflows.form.DocumentControlCollectDataForm = function ( cfg, activity ) {
 		bs.distributionConnector.workflows.form.DocumentControlCollectDataForm.parent.call( this, cfg, activity );
 	};
 
 	OO.inheritClass( bs.distributionConnector.workflows.form.DocumentControlCollectDataForm, workflows.object.form.Form );
 
-	bs.distributionConnector.workflows.form.DocumentControlCollectDataForm.prototype.getDefinitionItems = function() {
+	bs.distributionConnector.workflows.form.DocumentControlCollectDataForm.prototype.getDefinitionItems = function () {
 		return [
 			{
 				name: 'usernameEditor',
@@ -17,7 +17,7 @@
 			{
 				name: 'instructionsEditor',
 				label: mw.message( 'bs-distributionconnector-workflows-form-instructions-editor' ).text(),
-				type: 'textarea',
+				type: 'textarea'
 			},
 			{
 				name: 'usernameReviewer',
@@ -49,4 +49,4 @@
 		];
 	};
 
-} )( mediaWiki, jQuery, blueSpice );
+}( mediaWiki, jQuery, blueSpice ) );

@@ -1,4 +1,4 @@
-mw.loader.using(["ext.bluespice.visualEditorConnector"], function() {
+mw.loader.using( [ 'ext.bluespice.visualEditorConnector' ], () => {
 	ve.ce.CategoryTreeNode = function VeCeCategoryTreeNode() {
 		// Parent constructor
 		ve.ce.CategoryTreeNode.super.apply( this, arguments );
@@ -14,7 +14,7 @@ mw.loader.using(["ext.bluespice.visualEditorConnector"], function() {
 
 	ve.ce.CategoryTreeNode.static.primaryCommandName = 'categorytree';
 
-// If body is empty, tag does not render anything
+	// If body is empty, tag does not render anything
 	ve.ce.CategoryTreeNode.static.rendersEmpty = false;
 
 	/**
@@ -41,4 +41,4 @@ mw.loader.using(["ext.bluespice.visualEditorConnector"], function() {
 	/* Registration */
 
 	ve.ce.nodeFactory.register( ve.ce.CategoryTreeNode );
-} ) ;
+} );
