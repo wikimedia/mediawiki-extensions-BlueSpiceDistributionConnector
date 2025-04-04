@@ -77,7 +77,7 @@ ve.ui.VideoDropletInspector.prototype.createFields = function () {
 		}
 	} );
 
-	if ( services.includes( this.defaultService ) ) { // eslint-disable-line no-restricted-syntax
+	if ( services.includes( this.defaultService ) ) {
 		this.serviceInput.getMenu().selectItemByData( this.defaultService );
 	}
 

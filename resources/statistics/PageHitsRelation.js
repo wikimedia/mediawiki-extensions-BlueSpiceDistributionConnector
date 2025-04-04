@@ -1,4 +1,4 @@
-(function ( mw, $, bs) {
+( function ( mw, $, bs ) {
 	bs.util.registerNamespace( 'bs.distributionConnector.report' );
 
 	bs.distributionConnector.report.PageHitsRelationReport = function ( cfg ) {
@@ -8,7 +8,7 @@
 	OO.inheritClass( bs.distributionConnector.report.PageHitsRelationReport, bs.aggregatedStatistics.report.ReportBase );
 
 	bs.distributionConnector.report.PageHitsRelationReport.static.label =
-		mw.message( "bs-distributionconnector-statistics-report-page-hits-relation" ).text();
+		mw.message( 'bs-distributionconnector-statistics-report-page-hits-relation' ).text();
 
 	bs.distributionConnector.report.PageHitsRelationReport.prototype.getFilters = function () {
 		return [
@@ -23,8 +23,8 @@
 
 	bs.distributionConnector.report.PageHitsRelationReport.prototype.getAxisLabels = function () {
 		return {
-			value: mw.message( "bs-distributionconnector-statistics-report-page-hits-relation-axis-label" ).text()
+			value: mw.message( 'bs-distributionconnector-statistics-report-page-hits-relation-axis-label' ).text()
 		};
 	};
 
-} )( mediaWiki, jQuery , blueSpice);
+}( mediaWiki, jQuery, blueSpice ) );

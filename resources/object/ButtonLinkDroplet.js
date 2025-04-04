@@ -1,25 +1,25 @@
 ( function ( mw, $, bs ) {
 	bs.util.registerNamespace( 'bs.distributionConnector.object' );
 
-	bs.distributionConnector.object.ButtonLinkDroplet = function( cfg ) {
+	bs.distributionConnector.object.ButtonLinkDroplet = function ( cfg ) {
 		bs.distributionConnector.object.ButtonLinkDroplet.parent.call( this, cfg );
 	};
 
 	OO.inheritClass( bs.distributionConnector.object.ButtonLinkDroplet, ext.contentdroplets.object.TransclusionDroplet );
 
-	bs.distributionConnector.object.ButtonLinkDroplet.prototype.templateMatches = function( templateData ) {
+	bs.distributionConnector.object.ButtonLinkDroplet.prototype.templateMatches = function ( templateData ) {
 		if ( !templateData ) {
 			return false;
 		}
-		var target = templateData.target.wt;
-		return target.trim( '\n' ) === 'ButtonLink' && 'buttonlink' === this.getKey();
+		const target = templateData.target.wt;
+		return target.trim( '\n' ) === 'ButtonLink' && this.getKey() === 'buttonlink';
 	};
 
-	bs.distributionConnector.object.ButtonLinkDroplet.prototype.toDataElement = function( domElements, converter  ) {
+	bs.distributionConnector.object.ButtonLinkDroplet.prototype.toDataElement = function ( domElements, converter ) { // eslint-disable-line no-unused-vars
 		return false;
 	};
 
-	bs.distributionConnector.object.ButtonLinkDroplet.prototype.getFormItems = function() {
+	bs.distributionConnector.object.ButtonLinkDroplet.prototype.getFormItems = function () {
 		return [
 			{
 				name: 'external',
@@ -61,8 +61,8 @@
 	bs.distributionConnector.object.ButtonLinkDroplet.prototype.modifyFormDataBeforeSubmission =
 	function ( dataPromise ) {
 		// Convert true/false from checkbox control, to yes/no expected by the ButtonLink template
-		var dfd = $.Deferred();
-		dataPromise.done( function ( data ) {
+		const dfd = $.Deferred();
+		dataPromise.done( ( data ) => {
 			data.external = data.external ? 'yes' : 'no';
 			dfd.resolve( data );
 		} ).fail( function () {
@@ -84,4 +84,4 @@
 
 	ext.contentdroplets.registry.register( 'buttonlink', bs.distributionConnector.object.ButtonLinkDroplet );
 
-} )( mediaWiki, jQuery, blueSpice );
+}( mediaWiki, jQuery, blueSpice ) );
