@@ -11,7 +11,8 @@
 			"Thibaut120094",
 			"Vega",
 			"Verdy p",
-			"Wladek92"
+			"Wladek92",
+			"EmDashUser002"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Connecte BlueSpice à diverses extensions de MediaWiki",
@@ -88,7 +89,7 @@
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Expiration du délai",
 	"bs-distributionconnector-pref-eventbus-eventservices-help": "Les services définis pour l’extension « EventBus » qui propage les modifications d’état (modifier, déplacer, supprimer, visibilité de révision, etc.) vers un service RESTful d’événement, fournissant aux consommateurs du service les moyens de suivre les modifications du contenu MediaWiki",
 	"bs-distributionconnector-pref-eventbus-enableeventbus": "Activer EventBus pour les événements suivants :",
-	"bs-distributionconnector-pref-eventbus-enableeventbus-help": "Activer EventBus pour les événements sélectionnés.",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-help": "Active EventBus pour les événements sélectionnés.",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "tous",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "aucun",
 	"bs-distributionconnector-pref-eventbus-eventservicedefault": "Service d’événements par défaut",
