@@ -133,6 +133,9 @@
 			},
 			"SettingPathRegistry": {
 				"authentication": "bs-distributionconnector-setting-path-authentication"
+			},
+			"TagRegistry": {
+				"uenoexport": "BlueSpice\\DistributionConnector\\Tag\\UENoExport"
 			}
 		},
 		"VisualEditor": {
