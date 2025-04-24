@@ -120,7 +120,7 @@
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "tutti",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "nessuno",
 	"bs-distributionconnector-pref-eventbus-eventservicedefault": "Servizio eventi predefinito",
-	"bs-distributionconnector-pref-eventbus-eventservicedefault-help": "Utilizza questo servizio eventi come predefinito per tutti gli eventi.",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault-help": "Utilizza questo servizio eventi come predefinito per tutti gli eventi",
 	"droplets-create-input-button-label": "Testo sul pulsante",
 	"droplets-create-input-placeholder-label": "Testo segnaposto",
 	"droplets-create-input-prefix-label": "Prefisso per il nome della pagina",

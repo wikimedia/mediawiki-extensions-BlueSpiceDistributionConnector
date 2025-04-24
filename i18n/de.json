@@ -11,7 +11,8 @@
 			"Pittigrilli",
 			"SehrGuterCode",
 			"Umherirrender",
-			"Umlaut"
+			"Umlaut",
+			"Vhoesl"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Verbindet BlueSpice mit verschiedenen MediaWiki-Erweiterungen",
@@ -76,8 +77,8 @@
 	"bs-distributionconnector-workflows-form-group-instructions": "Anweisungen für die Gruppe",
 	"bs-distributionconnector-workflows-form-label-editor": "Bearbeiter",
 	"bs-distributionconnector-workflows-form-instructions-editor": "Anweisungen für den Bearbeiter",
-	"bs-distributionconnector-workflows-form-label-reviewer": "Begutachter",
-	"bs-distributionconnector-workflows-form-instructions-reviewer": "Anweisungen für den Begutachter",
+	"bs-distributionconnector-workflows-form-label-reviewer": "Prüfer",
+	"bs-distributionconnector-workflows-form-instructions-reviewer": "Anweisungen für den Prüfer",
 	"bs-distributionconnector-workflows-form-label-approver": "Freigabeberechtigter",
 	"bs-distributionconnector-workflows-form-instructions-approver": "Anweisungen für den Freigabeberechtigten",
 	"bs-distributionconnector-statistics-report-page-hits": "Besuche pro Seite",
@@ -206,7 +207,7 @@
 	"bs-distributionconnector-videodropletinspector-alignment-center": "zentriert",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "rechts",
 	"bs-distributionconnector-videodropletinspector-container-label": "Eingerahmt",
-	"bs-distributionconnector-videodropletinspector-container-help": "Wenn ausgewählt, wird das Video in einer Miniaturansicht angezeigt",
+	"bs-distributionconnector-videodropletinspector-container-help": "Falls ausgewählt, wird das Video in einem Rahmen angezeigt",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Datenobjekt (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Knopfbeschriftung (button label)",
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Plugin-Namen",
@@ -214,5 +215,8 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Aktiviert die automatische Anmeldung beim Wiki",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Gruppensynchronisierungseinstellungen (JSON)",
 	"action-checkpermissions": "die Benutzerberechtigungen zu überprüfen",
-	"right-checkpermissions": "Überprüfung der Benutzerberechtigungen auf der Spezialseite [[Special:Check_Permissions]]"
+	"right-checkpermissions": "Überprüfung der Benutzerberechtigungen auf der Spezialseite [[Special:Check_Permissions]]",
+	"bs-distributionconnector-videodropletinspector-title-label": "Titel",
+	"bs-distributionconnector-videodropletinspector-title-help": "Titel des Videos",
+	"bs-distributionconnector-videodropletinspector-title-placeholder": "Videotitel einfügen..."
 }

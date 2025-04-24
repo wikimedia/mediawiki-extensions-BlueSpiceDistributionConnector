@@ -53,5 +53,12 @@
 	"bs-distributionconnector-videodropletinspector-title-label": "Titel",
 	"bs-distributionconnector-videodropletinspector-title-help": "Titel vum Video",
 	"bs-distributionconnector-videodropletinspector-description-label": "Beschreiwung",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Zuel vun de Säitenopriff"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Zuel vun de Säitenopriff",
+	"droplets-buttonlink-format-label": "Hannergrondfaarf",
+	"droplets-buttonlink-format-blue": "blo",
+	"droplets-buttonlink-format-neutral": "wäiss",
+	"droplets-buttonlink-format-red": "rout",
+	"droplets-create-input-button-label": "Text vum Knäppchen",
+	"droplets-create-input-name": "Säit uleeën",
+	"droplets-pdf-link-page-label": "Säit fir z'exportéieren"
 }
