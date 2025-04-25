@@ -1,0 +1,48 @@
+<html xmlns:bs="http://www.blue-spice.org/XML/Schema-2011-09">
+	<head>
+		<title></title>
+		<link href="stylesheets/page.css" type="text/css" rel="stylesheet" />
+		<link href="stylesheets/mediawiki.css" type="text/css" rel="stylesheet" />
+		<link href="stylesheets/styles.css" type="text/css" rel="stylesheet" />
+		<link href="stylesheets/geshi-php.css" type="text/css" rel="stylesheet" />
+		<link href="stylesheets/bluespice.css" type="text/css" rel="stylesheet" />
+		<link href="stylesheets/tables.css" type="text/css" rel="stylesheet" />
+		<link href="stylesheets/fonts.css" type="text/css" rel="stylesheet" />
+		<link href="stylesheets/mediawiki.action.history.diff.css" type="text/css" rel="stylesheet" />
+		<!-- This is where additional resources and meta information is appended to -->
+	</head>
+	<body>
+		<div id="bs-runningheaderfix">
+			<table>
+				<tr>
+					<td>
+						<div class="bs-runningheader-logo"></div>
+					</td>
+					<td>
+						<h1 class="title">
+							<bs:meta key="title" />
+						</h1>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="bs-runningfooterfix">
+			<table>
+				<tr>
+					<td>
+						<bs:msg key="exportdate" /> <bs:meta key="exportdate" />
+					</td>
+					<td>
+						<bs:msg key="disclaimer" />
+						<bs:msg key="does-not-exist" />
+					</td>
+					<td>
+						<bs:msg key="page" /><span class="bs-currentpagenumber"></span>
+						<bs:msg key="of" /> <span class="bs-totalpagescount"></span>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<bs:content key="content" /> <!-- This is where the content is inserted before -->
+	</body>
+</html>
