@@ -243,6 +243,14 @@
 			"PluginModules": [
 				"ext.bluespice.distribution.wikiExplorer.columns"
 			]
+		},
+		"PDFCreator": {
+			"TemplateProvider": {
+				"legacy": {
+					"class": "BlueSpice\\DistributionConnector\\Integration\\PDFCreator\\TemplateProvider\\Legacy",
+					"services": [ "ConfigFactory" ]
+				}
+			}
 		}
 	},
 	"GroupPermissions": {
@@ -575,6 +583,12 @@
 			"value": "eventbus",
 			"descriptionmsg": "bs-distributionconnector-pref-eventbus-eventservicedefault",
 			"public": true
+		},
+		"PDFCreatorLegacyTemplateDirectory": {
+			"value": ""
+		},
+		"PDFCreatorDefaultLegacyTemplate": {
+			"value": ""
 		}
 	},
 	"Hooks": {
