@@ -21,7 +21,7 @@ class ClientConfig {
 		$services = MediaWikiServices::getInstance();
 		$titleFactory = $services->getTitleFactory();
 		$pdfCreatorUtil = $services->getService( 'PDFCreator.Util' );
-		$templates = $pdfCreatorUtil->getAllWikiTemplates();
+		$templates = $pdfCreatorUtil->getAvailableTemplateNames();
 
 		$template = $config->get( 'PDFCreatorDefaultTemplate' );
 		$templateTitle = $titleFactory->newFromText( 'MediaWiki:PDFCreator/' . $template );
