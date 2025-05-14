@@ -92,16 +92,17 @@
 		"description": "The Recent changes section of the startpage structure",
 		"target_title": "Help:Startpage Team/Recent changes",
 		"content_path": "/pages/Help/Startpage_TeamRecent_changes.wiki",
-		"sha1": "18b0d98345f15d257ab96c56791972fc67a41af1",
+		"sha1": "8a2bd66c4ead1bbc92ed2038f357980ea1407086",
 		"old_sha1": [
-			"90c8b3112ed951d485f93a7c0825e454baebc828"
+			"90c8b3112ed951d485f93a7c0825e454baebc828",
+			"18b0d98345f15d257ab96c56791972fc67a41af1"
 		]
 	},
 	"Help:Startseite_Team/Letzte_Änderungen": {
 		"lang": "de",
 		"target_title": "Help:Startseite Team/Letzte_Änderungen",
 		"content_path": "/pages/Help/Startseite_TeamLetzte_Änderungen.wiki",
-		"sha1": "18b0d98345f15d257ab96c56791972fc67a41af1",
+		"sha1": "8a2bd66c4ead1bbc92ed2038f357980ea1407086",
 		"old_sha1": []
 	},
 	"Help:Startpage_Team/Weekly_schedule": {
