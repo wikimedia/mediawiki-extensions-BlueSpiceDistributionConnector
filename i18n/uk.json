@@ -84,7 +84,7 @@
 	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Час очікування",
 	"bs-distributionconnector-pref-eventbus-eventservices-help": "Визначені служби для розширення \"EventBus\", яке поширює зміни стану (редагування, переміщення, видалення, перегляд видимості тощо) до служби подій RESTful, надаючи споживачам служби засоби відстеження змін у вмісті MediaWiki",
 	"bs-distributionconnector-pref-eventbus-enableeventbus": "Увімкнути EventBus для наступних подій",
-	"bs-distributionconnector-pref-eventbus-enableeventbus-help": "Вмикає EventBus для вибраних подій.",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-help": "Вмикає EventBus для вибраних подій",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "усі",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "жодна",
 	"bs-distributionconnector-pref-eventbus-eventservicedefault": "Служба подій за замовчуванням",
