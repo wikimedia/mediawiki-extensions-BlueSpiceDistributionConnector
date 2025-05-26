@@ -92,12 +92,13 @@ ve.ui.VideoDropletInspector.prototype.createFields = function () {
 		placeholder: '640'
 	} );
 
-	const alignmentsData = [ 'left', 'center', 'right' ];
+	const alignmentsData = [ 'inline', 'left', 'center', 'right' ];
 	const alignments = [];
 	for ( const alignmentKey in alignmentsData ) {
 		const alignment = alignmentsData[ alignmentKey ];
 		const item = new OO.ui.MenuOptionWidget( {
 			data: alignment,
+			// bs-distributionconnector-videodropletinspector-alignment-inline
 			// bs-distributionconnector-videodropletinspector-alignment-left
 			// bs-distributionconnector-videodropletinspector-alignment-center
 			// bs-distributionconnector-videodropletinspector-alignment-right
