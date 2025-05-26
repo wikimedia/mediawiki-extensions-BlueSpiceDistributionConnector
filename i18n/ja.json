@@ -144,7 +144,7 @@
 	"droplets-create-input-placeholder-label": "プレースホルダー テキスト",
 	"droplets-create-input-placeholder-help": "この入力フィールドに表示されるプレースホルダー テキストを入力します",
 	"droplets-create-input-prefix-label": "ページ名のプリフィックス",
-	"droplets-create-input-prefix-help": "入力フィールドの前に置くプレフィックスを指定します。プレフィックスは、名前空間またはその他のテキストにすることができます。プレフィックスを使用しない場合は、フィールドを空のままにしてください",
+	"droplets-create-input-prefix-help": "入力フィールドの前に配置する接頭辞を指定します。接頭辞は名前空間やその他の任意のテキストにできます。接頭辞を使用しない場合は、フィールドを空欄のままにしてください。",
 	"droplets-create-input-alignment-label": "配置",
 	"droplets-create-input-alignment-help": "ページ上の入力フィールドの配置を選択します。入力フィールドをページの左揃え、右揃え、中央揃えのいずれにするかを選択できます",
 	"droplets-create-input-alignment-left-label": "左",
