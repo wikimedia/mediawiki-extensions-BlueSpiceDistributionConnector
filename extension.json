@@ -17,7 +17,8 @@
 	"requires": {
 		"MediaWiki": ">= 1.43.0",
 		"extensions": {
-			"BlueSpiceFoundation": ">= 5.0.0"
+			"BlueSpiceFoundation": ">= 5.0.0",
+			"OOJSPlus": ">= 3.0.0"
 		}
 	},
 	"attributes": {
@@ -411,6 +412,9 @@
 				"bs-distributionconnector-videodropletinspector-description-label",
 				"bs-distributionconnector-videodropletinspector-description-help",
 				"bs-distributionconnector-videodropletinspector-description-placeholder",
+				"bs-distributionconnector-videodropletinspector-cover-label",
+				"bs-distributionconnector-videodropletinspector-cover-help",
+				"bs-distributionconnector-videodropletinspector-cover-placeholder",
 				"bs-distributionconnector-videodropletinspector-dimension-label",
 				"bs-distributionconnector-videodropletinspector-dimension-help",
 				"bs-distributionconnector-videodropletinspector-alignment-label",
