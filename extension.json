@@ -134,9 +134,6 @@
 			},
 			"SettingPathRegistry": {
 				"authentication": "bs-distributionconnector-setting-path-authentication"
-			},
-			"TagRegistry": {
-				"uenoexport": "BlueSpice\\DistributionConnector\\Tag\\UENoExport"
 			}
 		},
 		"VisualEditor": {
@@ -597,7 +594,8 @@
 		"MWStakeCommonUIRegisterSkinSlotComponents": "addGlobalAction",
 		"SkinTemplateNavigation::Universal": "addNewPageLink",
 		"ContentAlterParserOutput": "addVariablesPageProperty",
-		"BSUsageTrackerRegisterCollectors": "BlueSpice\\DistributionConnector\\Hook\\BSUsageTrackerRegisterCollectors\\NoOfVariables::callback"
+		"BSUsageTrackerRegisterCollectors": "BlueSpice\\DistributionConnector\\Hook\\BSUsageTrackerRegisterCollectors\\NoOfVariables::callback",
+		"MWStakeGenericTagHandlerInitTags": "registerTags"
 	},
 	"HookHandlers": {
 		"user-manager": {
@@ -622,6 +620,9 @@
 		},
 		"addVariablesPageProperties": {
 			"class": "BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\AddVariablesPageProperties"
+		},
+		"registerTags": {
+			"class": "\\BlueSpice\\DistributionConnector\\HookHandler\\RegisterTags"
 		}
 	},
 	"manifest_version": 2
