@@ -2,45 +2,59 @@
 
 namespace BlueSpice\DistributionConnector\Tag;
 
-use BlueSpice\Tag\Tag;
-use MediaWiki\Parser\Parser;
-use MediaWiki\Parser\PPFrame;
+use MediaWiki\MediaWikiServices;
+use MWStake\MediaWiki\Component\GenericTagHandler\ClientTagSpecification;
+use MWStake\MediaWiki\Component\GenericTagHandler\GenericTag;
+use MWStake\MediaWiki\Component\GenericTagHandler\ITagHandler;
 
-class UENoExport extends Tag {
+class UENoExport extends GenericTag {
 
 	/**
-	 *
-	 * @param string $processedInput
-	 * @param array $processedArgs
-	 * @param Parser $parser
-	 * @param PPFrame $frame
-	 * @return UENoExportHandler
+	 * @inheritDoc
 	 */
-	public function getHandler( $processedInput, array $processedArgs, Parser $parser,
-		PPFrame $frame ) {
-		return new UENoExportHandler(
-			$processedInput,
-			$processedArgs,
-			$parser,
-			$frame
-		);
+	public function getTagNames(): array {
+		return [ 'bs:uenoexport' ];
 	}
 
 	/**
-	 *
-	 * @return string[]
+	 * @return bool
 	 */
-	public function getTagNames() {
-		return [
-			'bs:uenoexport'
-		];
+	public function hasContent(): bool {
+		return true;
 	}
 
 	/**
-	 *
-	 * @return string
+	 * @inheritDoc
 	 */
-	public function getContainerElementName() {
+	public function shouldParseInput(): bool {
+		return true;
+	}
+
+	/**
+	 * @inheritDoc
+	 */
+	public function getContainerElementName(): ?string {
 		return 'div';
+	}
+
+	/**
+	 * @inheritDoc
+	 */
+	public function getHandler( MediaWikiServices $services ): ITagHandler {
+		return new UENoExportHandler();
+	}
+
+	/**
+	 * @inheritDoc
+	 */
+	public function getParamDefinition(): ?array {
+		return null;
+	}
+
+	/**
+	 * @inheritDoc
+	 */
+	public function getClientTagSpecification(): ClientTagSpecification|null {
+		return null;
 	}
 }
