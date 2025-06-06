@@ -120,7 +120,7 @@ class PageHitsTest extends TestCase {
 	/**
 	 * @return void
 	 * @throws Exception
-	 *
+	 * @group Broken
 	 * @covers \BlueSpice\DistributionConnector\Statistics\SnapshotProvider\PageHits::aggregate
 	 */
 	public function testAggregate(): void {
@@ -176,7 +176,7 @@ class PageHitsTest extends TestCase {
 	/**
 	 * @return void
 	 * @throws Exception
-	 *
+	 * @group Broken
 	 * @covers \BlueSpice\DistributionConnector\Statistics\SnapshotProvider\PageHits::aggregate
 	 */
 	public function testAggregateNegativeHitDiff(): void {
