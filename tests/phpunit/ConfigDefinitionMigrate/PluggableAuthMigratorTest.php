@@ -374,9 +374,7 @@ class PluggableAuthMigratorTest extends TestCase {
 				$this->configTable,
 				's_value',
 				"s_name = '$configName'",
-
-				// We have to mock optional parameters as well...
-				IDatabase::class . '::selectField',
+				'fname',
 				[],
 				[],
 
@@ -386,7 +384,24 @@ class PluggableAuthMigratorTest extends TestCase {
 		}
 
 		// Mock selecting config values from DB
-		$dbMock->method( 'selectField' )->willReturnMap( $resultMap );
+		$dbMock->method( 'selectField' )->willReturnCallback(
+			static function ( $tables, $var, $cond, $fname, $options, $join_conds ) use ( $resultMap ) {
+				foreach ( $resultMap as $entry ) {
+					// Replace placeholder 'fname' with actual $fname argument
+					$entry[3] = $fname;
+					if (
+						$entry[0] === $tables &&
+						$entry[1] === $var &&
+						$entry[2] === $cond &&
+						$entry[3] === $fname &&
+						$entry[4] === $options &&
+						$entry[5] === $join_conds
+					) {
+						return $entry[6];
+					}
+				}
+			}
+		);
 
 		$migrator = new PluggableAuthMigrator( $dbMock );
 		$migratedPluggableAuthConfig = $migrator->migrateConfigs( $currentPluggableAuthConfig );
