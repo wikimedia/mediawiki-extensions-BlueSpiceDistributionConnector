@@ -25,6 +25,9 @@ class PageHitsTest extends TestCase {
 	/** @var ISnapshotStore */
 	private ISnapshotStore $snapshotStore;
 
+	/** @var SnapshotFactory */
+	private SnapshotFactory $snapshotFactory;
+
 	public function setUp(): void {
 		parent::setUp();
 
@@ -32,7 +35,8 @@ class PageHitsTest extends TestCase {
 		$loadBalancerMock = $this->createMock( LoadBalancer::class );
 		$loadBalancerMock->method( 'getConnection' )->willReturn( $this->dbMock );
 		$this->snapshotStore = $this->createMock( DatabaseStore::class );
-		$this->pageHits = new PageHits( $loadBalancerMock, $this->snapshotStore, new SnapshotFactory() );
+		$this->snapshotFactory = new SnapshotFactory();
+		$this->pageHits = new PageHits( $loadBalancerMock, $this->snapshotStore, $this->snapshotFactory );
 	}
 
 	/**
@@ -54,11 +58,26 @@ class PageHitsTest extends TestCase {
 		// Previous hits
 		$this->snapshotStore->method( 'getPrevious' )->willReturn(
 			$this->mockSnapshot( [
-				'a' => [ 'hits' => 1 ],
-				'b' => [ 'hits' => 0 ],
-				'c' => [ 'hits' => 4 ],
-				'd' => [ 'hits' => 0 ],
-				'e' => [ 'hits' => 1 ],
+				'a' => [
+					'hits' => 1,
+					'hitDiff' => 0
+				],
+				'b' => [
+					'hits' => 0,
+					'hitDiff' => 0
+				],
+				'c' => [
+					'hits' => 4,
+					'hitDiff' => 0
+				],
+				'd' => [
+					'hits' => 0,
+					'hitDiff' => 0
+				],
+				'e' => [
+					'hits' => 1,
+					'hitDiff' => 0
+				],
 			] ),
 		);
 
@@ -67,28 +86,28 @@ class PageHitsTest extends TestCase {
 
 		$this->assertEquals( $snapshotDate, $snapshot->getDate() );
 		$data = $snapshot->getData();
-		$this->assertEquals( $data['a'], [
+		$this->assertEquals( $data[ 'a' ], [
 			'hits' => 3,
 			'hitDiff' => 2,
 			'growth' => 200.0
 		] );
 		// Hint: growth is zero because you cant express growth from 0 to 2 in percentage
-		$this->assertEquals( $data['b'], [
+		$this->assertEquals( $data[ 'b' ], [
 			'hits' => 2,
 			'hitDiff' => 2,
 			'growth' => 0
 		] );
-		$this->assertEquals( $data['c'], [
+		$this->assertEquals( $data[ 'c' ], [
 			'hits' => 7,
 			'hitDiff' => 3,
 			'growth' => 75.0
 		] );
-		$this->assertEquals( $data['d'], [
+		$this->assertEquals( $data[ 'd' ], [
 			'hits' => 0,
 			'hitDiff' => 0,
 			'growth' => 0
 		] );
-		$this->assertEquals( $data['e'], [
+		$this->assertEquals( $data[ 'e' ], [
 			'hits' => 1,
 			'hitDiff' => 0,
 			'growth' => 0
@@ -108,7 +127,10 @@ class PageHitsTest extends TestCase {
 
 		$this->snapshotStore->method( 'getPrevious' )->willReturn(
 			$this->mockSnapshot( [
-				'a' => [ 'hits' => 2 ]
+				'a' => [
+					'hits' => 2,
+					'hitDiff' => 0
+				]
 			] ),
 		);
 
@@ -121,56 +143,102 @@ class PageHitsTest extends TestCase {
 	 * @return void
 	 * @throws Exception
 	 *
-	 * @covers PageHits::aggregate
+	 * @dataProvider intervalProvider
+	 *
+	 * @covers       PageHits::aggregate
 	 */
-	public function testAggregate(): void {
+	public function testAggregate( string $interval ): void {
 		// Current hits
 		$snapshots = [
 			$this->mockSnapshot( [
-				'a' => [ 'hits' => 1 ],
-				'b' => [ 'hits' => 0 ],
-				'c' => [ 'hits' => 3 ]
+				'a' => [
+					'hits' => 1,
+					'hitDiff' => 0
+				],
+				'b' => [
+					'hits' => 0,
+					'hitDiff' => 0
+				],
+				'c' => [
+					'hits' => 3,
+					'hitDiff' => 0
+				]
 			] ),
 			$this->mockSnapshot( [
-				'a' => [ 'hits' => 3 ],
-				'b' => [ 'hits' => 0 ],
-				'c' => [ 'hits' => 2 ]
+				'a' => [
+					'hits' => 3,
+					'hitDiff' => 2
+				],
+				'b' => [
+					'hits' => 0,
+					'hitDiff' => 0
+				],
+				'c' => [
+					'hits' => 4,
+					'hitDiff' => 1
+				]
 			] ),
 			$this->mockSnapshot( [
-				'a' => [ 'hits' => 99 ],
-				'b' => [ 'hits' => 0 ],
-				'c' => [ 'hits' => 1 ]
+				'a' => [
+					'hits' => 99,
+					'hitDiff' => 96
+				],
+				'b' => [
+					'hits' => 0,
+					'hitDiff' => 0
+				],
+				'c' => [
+					'hits' => 5,
+					'hitDiff' => 1
+				]
 			] ),
 		];
 
 		// Previous hits
 		$this->snapshotStore->method( 'getPrevious' )->willReturn(
 			$this->mockSnapshot( [
-				'a' => [ 'hits' => 30 ],
-				'b' => [ 'hits' => 0 ],
-				'c' => [ 'hits' => 6 ],
+				'a' => [
+					'hits' => 30,
+					'hitDiff' => 0
+				],
+				'b' => [
+					'hits' => 0,
+					'hitDiff' => 0
+				],
+				'c' => [
+					'hits' => 2,
+					'hitDiff' => 0
+				],
 			] ),
 		);
 
-		$snapshot = $this->pageHits->aggregate( $snapshots, Snapshot::INTERVAL_MONTH, new SnapshotDate() );
+		$snapshot = $this->pageHits->aggregate( $snapshots, $interval, new SnapshotDate() );
 
 		$data = $snapshot->getData();
-		$this->assertEquals( $data['a'], [
-			'hits' => 103,
-			'hitDiff' => 73,
-			'growth' => 243.33333333333331
+		$this->assertEquals( $data[ 'a' ], [
+			'hits' => 99,
+			'hitDiff' => 69,
+			'growth' => 229.99999999999997
 		] );
 		// Hint: growth is zero because you cant express growth from 0 to 2 in percentage
-		$this->assertEquals( $data['b'], [
+		$this->assertEquals( $data[ 'b' ], [
 			'hits' => 0,
 			'hitDiff' => 0,
 			'growth' => 0.0
 		] );
-		$this->assertEquals( $data['c'], [
-			'hits' => 6,
-			'hitDiff' => 0,
-			'growth' => 0.0
+		$this->assertEquals( $data[ 'c' ], [
+			'hits' => 5,
+			'hitDiff' => 3,
+			'growth' => 150.0
 		] );
+	}
+
+	public function intervalProvider(): array {
+		return [
+			[ Snapshot::INTERVAL_WEEK ],
+			[ Snapshot::INTERVAL_MONTH ],
+			[ Snapshot::INTERVAL_YEAR ],
+		];
 	}
 
 	/**
@@ -183,20 +251,32 @@ class PageHitsTest extends TestCase {
 		// Current hits
 		$snapshots = [
 			$this->mockSnapshot( [
-				'a' => [ 'hits' => 1 ]
+				'a' => [
+					'hits' => 1,
+					'hitDiff' => 0
+				],
 			] ),
 			$this->mockSnapshot( [
-				'a' => [ 'hits' => 2 ]
+				'a' => [
+					'hits' => 3,
+					'hitDiff' => 2
+				],
 			] ),
 			$this->mockSnapshot( [
-				'a' => [ 'hits' => 3 ]
+				'a' => [
+					'hits' => 4,
+					'hitDiff' => 1
+				],
 			] ),
 		];
 
 		// Previous hits
 		$this->snapshotStore->method( 'getPrevious' )->willReturn(
 			$this->mockSnapshot( [
-				'a' => [ 'hits' => 10 ]
+				'a' => [
+					'hits' => 5,
+					'hitDiff' => 0
+				],
 			] ),
 		);
 
@@ -223,9 +303,13 @@ class PageHitsTest extends TestCase {
 	/**
 	 * @param array $data
 	 *
-	 * @return PageHitsSnapshot
+	 * @return Snapshot
 	 */
-	private function mockSnapshot( array $data ): PageHitsSnapshot {
-		return new PageHitsSnapshot( new SnapshotDate(), $data, Snapshot::INTERVAL_DAY );
+	private function mockSnapshot( array $data ): Snapshot {
+		return $this->snapshotFactory->createSnapshot(
+			new SnapshotDate(),
+			PageHitsSnapshot::TYPE,
+			$data
+		);
 	}
 }

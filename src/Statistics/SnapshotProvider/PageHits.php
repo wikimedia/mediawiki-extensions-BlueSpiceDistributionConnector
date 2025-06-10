@@ -14,9 +14,10 @@ use Wikimedia\Rdbms\LoadBalancer;
 
 class PageHits implements ISnapshotProvider {
 	/** @var LoadBalancer */
-	private $loadBalancer;
+	private LoadBalancer $loadBalancer;
+
 	/** @var ISnapshotStore */
-	private $snapshotStore;
+	private ISnapshotStore $snapshotStore;
 
 	/** @var SnapshotFactory */
 	private SnapshotFactory $snapshotFactory;
@@ -48,8 +49,16 @@ class PageHits implements ISnapshotProvider {
 		$previousSnapshot = $this->snapshotStore->getPrevious( clone $date, $this->getType() );
 
 		$res = $db->select(
-			[ 'h' => 'hit_counter', 'p' => 'page' ],
-			[ 'h.page_id', 'p.page_title', 'p.page_namespace', 'h.page_counter' ],
+			[
+				'h' => 'hit_counter',
+				'p' => 'page'
+			],
+			[
+				'h.page_id',
+				'p.page_title',
+				'p.page_namespace',
+				'h.page_counter'
+			],
 			[ 'h.page_id = p.page_id' ],
 			__METHOD__
 		);
@@ -59,14 +68,16 @@ class PageHits implements ISnapshotProvider {
 			$title = Title::newFromRow( $row );
 			$page = $title->getPrefixedDBkey();
 			$hits = (int)$row->page_counter;
-			$data[$page] = [
+			$data[ $page ] = [
 				'hits' => $hits,
 				'hitDiff' => $this->calcHitDiff( $hits, $previousSnapshot, $page )
 			];
 		}
 
 		return $this->snapshotFactory->createSnapshot(
-			$date, $this->getType(), $data
+			$date,
+			$this->getType(),
+			$data
 		);
 	}
 
@@ -75,31 +86,39 @@ class PageHits implements ISnapshotProvider {
 	 * @throws Exception
 	 */
 	public function aggregate(
-		array $snapshots, $interval = Snapshot::INTERVAL_DAY, $date = null
+		array $snapshots,
+		$interval = Snapshot::INTERVAL_DAY,
+		$date = null
 	): Snapshot {
-		$data = [];
-
-		$previous = null;
-		if ( $interval !== Snapshot::INTERVAL_DAY && $date ) {
-			$previous = $this->snapshotStore->getPrevious(
-				clone $date, $this->getType(), $interval
-			);
+		if ( empty( $snapshots ) ) {
+			throw new Exception( 'No snapshots provided for aggregation.' );
 		}
 
-		foreach ( $snapshots as $snapshot ) {
-			foreach ( $snapshot->getData() as $page => $props ) {
-				// Initialize array for page if not exists
-				if ( !isset( $data[$page] ) ) {
-					$data[$page] = [
-						'hitDiff' => 0,
-					];
-				}
+		$aggregatedData = [];
+		$lastSnapshot = array_pop( $snapshots );
 
-				$data[$page]['hitDiff'] += $props['hitDiff'];
-				$data[$page]['hits'] = $data[$page]['hitDiff'];
+		foreach ( $lastSnapshot->getData() as $page => $props ) {
 
-				if ( $previous ) {
-					$data[$page]['hits'] += $previous->getData()[$page]['hits'];
+			// Initialize array for page if not exists
+			if ( !isset( $aggregatedData[ $page ] ) ) {
+				$aggregatedData[ $page ] = [
+					'hitDiff' => 0
+				];
+			}
+
+			$aggregatedData[ $page ][ 'hits' ] = $props[ 'hits' ];
+		}
+
+		if ( $interval !== Snapshot::INTERVAL_DAY && $date ) {
+			$previous = $this->snapshotStore->getPrevious(
+				clone $date,
+				$this->getType(),
+				$interval
+			);
+
+			if ( $previous ) {
+				foreach ( $aggregatedData as $page => &$props ) {
+					$props[ 'hitDiff' ] = $this->calcHitDiff( $props[ 'hits' ], $previous, $page );
 				}
 			}
 		}
@@ -107,7 +126,7 @@ class PageHits implements ISnapshotProvider {
 		return $this->snapshotFactory->createSnapshot(
 			$date ?? new SnapshotDate(),
 			$this->getType(),
-			$data,
+			$aggregatedData,
 			$interval
 		);
 	}
@@ -115,7 +134,7 @@ class PageHits implements ISnapshotProvider {
 	/**
 	 * @inheritDoc
 	 */
-	public function getType() {
+	public function getType(): string {
 		return PageHitsSnapshot::TYPE;
 	}
 
@@ -146,12 +165,13 @@ class PageHits implements ISnapshotProvider {
 	/**
 	 * @param Snapshot $previous
 	 * @param string $page
+	 *
 	 * @return int
 	 */
 	private function getPreviousHits( Snapshot $previous, string $page ): int {
 		$data = $previous->getData();
-		if ( isset( $data[$page] ) ) {
-			return $data[$page]['hits'];
+		if ( isset( $data[ $page ] ) ) {
+			return $data[ $page ][ 'hits' ];
 		}
 
 		return 0;
@@ -159,27 +179,36 @@ class PageHits implements ISnapshotProvider {
 
 	/**
 	 * @param Snapshot $snapshot
+	 *
 	 * @return array
 	 */
-	public function getSecondaryData( Snapshot $snapshot ) {
+	public function getSecondaryData( Snapshot $snapshot ): array {
 		$db = $this->loadBalancer->getConnection( DB_REPLICA );
 		$res = $db->select(
-			[ 'p' => 'page', 'h' => 'hit_counter', 'cl' => 'categorylinks' ],
 			[
-				'p.page_id', 'p.page_title', 'p.page_namespace',
-				'h.page_counter', 'GROUP_CONCAT( cl.cl_to ) as cats'
+				'p' => 'page',
+				'h' => 'hit_counter',
+				'cl' => 'categorylinks'
+			],
+			[
+				'p.page_id',
+				'p.page_title',
+				'p.page_namespace',
+				'h.page_counter',
+				'GROUP_CONCAT( cl.cl_to ) as cats'
 			],
 			[],
 			__METHOD__,
 			[
 				'GROUP BY' => 'p.page_id'
-			],
-			[
+			], [
 				'p' => [
-					'INNER JOIN', [ 'p.page_id=h.page_id' ]
+					'INNER JOIN',
+					[ 'p.page_id=h.page_id' ]
 				],
 				'cl' => [
-					'LEFT OUTER JOIN', [ 'p.page_id=cl.cl_from' ]
+					'LEFT OUTER JOIN',
+					[ 'p.page_id=cl.cl_from' ]
 				]
 			]
 		);
@@ -188,12 +217,12 @@ class PageHits implements ISnapshotProvider {
 		foreach ( $res as $row ) {
 			$title = Title::newFromRow( $row );
 			$page = $title->getPrefixedDBkey();
-			$data[$page] = [
+			$data[ $page ] = [
 				'id' => (int)$row->page_id,
 				'n' => (int)$row->page_namespace,
 				'c' => is_string( $row->cats ) ? explode( ',', $row->cats ) : [],
-				'h' => isset( $snapshotData[$page] ) ? $snapshotData[$page]['hits'] : 0,
-				'g' => isset( $snapshotData[$page] ) ? $snapshotData[$page]['growth'] : 0,
+				'h' => isset( $snapshotData[ $page ] ) ? $snapshotData[ $page ][ 'hits' ] : 0,
+				'g' => isset( $snapshotData[ $page ] ) ? $snapshotData[ $page ][ 'growth' ] : 0,
 			];
 		}
 
