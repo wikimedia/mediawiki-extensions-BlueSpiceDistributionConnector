@@ -4,6 +4,7 @@ namespace BlueSpice\DistributionConnector\Statistics\Report;
 
 use BlueSpice\ExtendedStatistics\ClientReportHandler;
 use BlueSpice\ExtendedStatistics\IReport;
+use BlueSpice\ExtendedStatistics\PageHitsSnapshot;
 
 class PageHits implements IReport {
 
@@ -11,7 +12,7 @@ class PageHits implements IReport {
 	 * @inheritDoc
 	 */
 	public function getSnapshotKey() {
-		return 'dc-pagehits';
+		return PageHitsSnapshot::TYPE;
 	}
 
 	/**

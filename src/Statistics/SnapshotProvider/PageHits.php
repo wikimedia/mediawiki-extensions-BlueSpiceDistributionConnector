@@ -4,29 +4,44 @@ namespace BlueSpice\DistributionConnector\Statistics\SnapshotProvider;
 
 use BlueSpice\ExtendedStatistics\ISnapshotProvider;
 use BlueSpice\ExtendedStatistics\ISnapshotStore;
+use BlueSpice\ExtendedStatistics\PageHitsSnapshot;
 use BlueSpice\ExtendedStatistics\Snapshot;
 use BlueSpice\ExtendedStatistics\SnapshotDate;
+use BlueSpice\ExtendedStatistics\SnapshotFactory;
+use Exception;
 use Title;
 use Wikimedia\Rdbms\LoadBalancer;
 
 class PageHits implements ISnapshotProvider {
 	/** @var LoadBalancer */
-	private $loadBalancer;
+	private LoadBalancer $loadBalancer;
+
 	/** @var ISnapshotStore */
-	private $snapshotStore;
+	private ISnapshotStore $snapshotStore;
+
+	/** @var SnapshotFactory */
+	private SnapshotFactory $snapshotFactory;
 
 	/**
 	 * @param LoadBalancer $loadBalancer
 	 * @param ISnapshotStore $store
+	 * @param SnapshotFactory $snapshotFactory
 	 */
-	public function __construct( LoadBalancer $loadBalancer, ISnapshotStore $store ) {
+	public function __construct(
+		LoadBalancer $loadBalancer,
+		ISnapshotStore $store,
+		SnapshotFactory $snapshotFactory
+	) {
 		$this->loadBalancer = $loadBalancer;
 		$this->snapshotStore = $store;
+		$this->snapshotFactory = $snapshotFactory;
 	}
 
 	/**
 	 * @param SnapshotDate $date
+	 *
 	 * @return Snapshot
+	 * @throws Exception
 	 */
 	public function generateSnapshot( SnapshotDate $date ): Snapshot {
 		$db = $this->loadBalancer->getConnection( DB_REPLICA );
@@ -34,102 +49,129 @@ class PageHits implements ISnapshotProvider {
 		$previousSnapshot = $this->snapshotStore->getPrevious( clone $date, $this->getType() );
 
 		$res = $db->select(
-			[ 'h' => 'hit_counter', 'p' => 'page' ],
-			[ 'h.page_id', 'p.page_title', 'p.page_namespace', 'h.page_counter' ],
+			[
+				'h' => 'hit_counter',
+				'p' => 'page'
+			],
+			[
+				'h.page_id',
+				'p.page_title',
+				'p.page_namespace',
+				'h.page_counter'
+			],
 			[ 'h.page_id = p.page_id' ],
 			__METHOD__
 		);
 
 		$data = [];
-		$totalHits = 0;
 		foreach ( $res as $row ) {
 			$title = Title::newFromRow( $row );
 			$page = $title->getPrefixedDBkey();
 			$hits = (int)$row->page_counter;
-			$hitDiff = $hits;
-			$growth = 0;
-			if ( $previousSnapshot instanceof Snapshot ) {
-				$previousHits = $this->getPreviousHits( $previousSnapshot, $page );
-				if ( $previousHits === 0 ) {
-					$growth = 100;
-				} else {
-					$hitDiff = $hits - $previousHits;
-					$growth = ( $hitDiff / $previousHits ) * 100;
-				}
-			}
-			$totalHits += $hitDiff;
-			$data[$page] = [
+			$data[ $page ] = [
 				'hits' => $hits,
-				'hitDiff' => $hitDiff,
-				'growth' => $growth < 0 ? 0 : $growth
+				'hitDiff' => $this->calcHitDiff( $hits, $previousSnapshot, $page )
 			];
 		}
-		$data['total'] = $totalHits;
 
-		return new Snapshot( $date, $this->getType(), $data );
+		return $this->snapshotFactory->createSnapshot(
+			$date,
+			$this->getType(),
+			$data
+		);
 	}
 
 	/**
 	 * @inheritDoc
+	 * @throws Exception
 	 */
 	public function aggregate(
-		array $snapshots, $interval = Snapshot::INTERVAL_DAY, $date = null
+		array $snapshots,
+		$interval = Snapshot::INTERVAL_DAY,
+		$date = null
 	): Snapshot {
-		$data = [];
+		if ( empty( $snapshots ) ) {
+			throw new Exception( 'No snapshots provided for aggregation.' );
+		}
 
-		$previous = null;
+		$aggregatedData = [];
+		$lastSnapshot = array_pop( $snapshots );
+
+		foreach ( $lastSnapshot->getData() as $page => $props ) {
+
+			// Initialize array for page if not exists
+			if ( !isset( $aggregatedData[ $page ] ) ) {
+				$aggregatedData[ $page ] = [
+					'hitDiff' => 0
+				];
+			}
+
+			$aggregatedData[ $page ][ 'hits' ] = $props[ 'hits' ];
+		}
+
 		if ( $interval !== Snapshot::INTERVAL_DAY && $date ) {
 			$previous = $this->snapshotStore->getPrevious(
-				clone $date, $this->getType(), $interval
+				clone $date,
+				$this->getType(),
+				$interval
 			);
-		}
 
-		foreach ( $snapshots as $snapshot ) {
-			foreach ( $snapshot->getData() as $page => $props ) {
-				if ( !isset( $data[$page] ) ) {
-					$data[$page] = [
-						'hits' => 0,
-					];
-				}
-				$data[$page]['hits'] += $props['hits'];
-				// Growth set below
-				$data[$page]['growth'] = 0;
-			}
-		}
-		if ( $previous instanceof Snapshot ) {
-			foreach ( $data as $page => &$props ) {
-				$previousHits = $this->getPreviousHits( $previous, $page );
-				if ( $previousHits === 0 ) {
-					$props['growth'] = 100;
-				} else {
-					$hitDiff = $props['hits'] - $previousHits;
-					$props['hitDiff'] = $hitDiff;
-					$props['growth'] = ( $hitDiff / $previousHits ) * 100;
+			if ( $previous ) {
+				foreach ( $aggregatedData as $page => &$props ) {
+					$props[ 'hitDiff' ] = $this->calcHitDiff( $props[ 'hits' ], $previous, $page );
 				}
 			}
 		}
 
-		return new Snapshot(
-			$date ?? new SnapshotDate(), $this->getType(), $data, $interval
+		return $this->snapshotFactory->createSnapshot(
+			$date ?? new SnapshotDate(),
+			$this->getType(),
+			$aggregatedData,
+			$interval
 		);
 	}
 
 	/**
 	 * @inheritDoc
 	 */
-	public function getType() {
-		return 'dc-pagehits';
+	public function getType(): string {
+		return PageHitsSnapshot::TYPE;
+	}
+
+	/**
+	 * hitDiff must not be negative
+	 *
+	 * @param int $totalHits
+	 * @param Snapshot|null $previous
+	 * @param string $page
+	 *
+	 * @return int
+	 * @throws Exception
+	 */
+	private function calcHitDiff( int $totalHits, ?Snapshot $previous, string $page ): int {
+		if ( !( $previous instanceof Snapshot ) ) {
+			return $totalHits;
+		}
+
+		$hitDiff = $totalHits - $this->getPreviousHits( $previous, $page );
+
+		if ( $hitDiff < 0 ) {
+			throw new Exception( 'Calculating hitDiff failed. hitDiff is negative.' );
+		}
+
+		return $hitDiff;
 	}
 
 	/**
 	 * @param Snapshot $previous
 	 * @param string $page
+	 *
 	 * @return int
 	 */
-	private function getPreviousHits( Snapshot $previous, $page ) {
+	private function getPreviousHits( Snapshot $previous, string $page ): int {
 		$data = $previous->getData();
-		if ( isset( $data[$page] ) ) {
-			return $data[$page]['hits'];
+		if ( isset( $data[ $page ] ) ) {
+			return $data[ $page ][ 'hits' ];
 		}
 
 		return 0;
@@ -137,27 +179,36 @@ class PageHits implements ISnapshotProvider {
 
 	/**
 	 * @param Snapshot $snapshot
+	 *
 	 * @return array
 	 */
-	public function getSecondaryData( Snapshot $snapshot ) {
+	public function getSecondaryData( Snapshot $snapshot ): array {
 		$db = $this->loadBalancer->getConnection( DB_REPLICA );
 		$res = $db->select(
-			[ 'p' => 'page', 'h' => 'hit_counter', 'cl' => 'categorylinks' ],
 			[
-				'p.page_id', 'p.page_title', 'p.page_namespace',
-				'h.page_counter', 'GROUP_CONCAT( cl.cl_to ) as cats'
+				'p' => 'page',
+				'h' => 'hit_counter',
+				'cl' => 'categorylinks'
+			],
+			[
+				'p.page_id',
+				'p.page_title',
+				'p.page_namespace',
+				'h.page_counter',
+				'GROUP_CONCAT( cl.cl_to ) as cats'
 			],
 			[],
 			__METHOD__,
 			[
 				'GROUP BY' => 'p.page_id'
-			],
-			[
+			], [
 				'p' => [
-					'INNER JOIN', [ 'p.page_id=h.page_id' ]
+					'INNER JOIN',
+					[ 'p.page_id=h.page_id' ]
 				],
 				'cl' => [
-					'LEFT OUTER JOIN', [ 'p.page_id=cl.cl_from' ]
+					'LEFT OUTER JOIN',
+					[ 'p.page_id=cl.cl_from' ]
 				]
 			]
 		);
@@ -166,12 +217,12 @@ class PageHits implements ISnapshotProvider {
 		foreach ( $res as $row ) {
 			$title = Title::newFromRow( $row );
 			$page = $title->getPrefixedDBkey();
-			$data[$page] = [
+			$data[ $page ] = [
 				'id' => (int)$row->page_id,
 				'n' => (int)$row->page_namespace,
 				'c' => is_string( $row->cats ) ? explode( ',', $row->cats ) : [],
-				'h' => isset( $snapshotData[$page] ) ? $snapshotData[$page]['hits'] : 0,
-				'g' => isset( $snapshotData[$page] ) ? $snapshotData[$page]['growth'] : 0,
+				'h' => isset( $snapshotData[ $page ] ) ? $snapshotData[ $page ][ 'hits' ] : 0,
+				'g' => isset( $snapshotData[ $page ] ) ? $snapshotData[ $page ][ 'growth' ] : 0,
 			];
 		}
 
