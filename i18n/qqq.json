@@ -181,6 +181,7 @@
 	"bs-distributionconnector-videodropletinspector-dimension-help": "Help text for text input field to set dimension",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "Label for dropdown to select alignment",
 	"bs-distributionconnector-videodropletinspector-alignent-help": "Help text for dropdown to select alignment",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "Label for option in dropdown",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "Label for option in dropdown",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "Label for option in dropdown",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "Label for option in dropdown",

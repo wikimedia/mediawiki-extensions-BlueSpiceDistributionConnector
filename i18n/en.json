@@ -173,6 +173,7 @@
 	"bs-distributionconnector-videodropletinspector-dimension-help": "To set the size of the video you can use the format \"width x height\" in pixels. If the height is not provided it will be calculated automatically from the width. If you want to set the height you have to indicate this with \"x\".\nExamples: 480, 480x320,x320 - for a width of 480 and a height of 320",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "Alignment",
 	"bs-distributionconnector-videodropletinspector-alignent-help": "Align the video to the left, centered or to the right",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "inline",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "left",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "centered",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "right",
