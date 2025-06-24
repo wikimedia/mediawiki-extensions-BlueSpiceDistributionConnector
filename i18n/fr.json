@@ -12,7 +12,8 @@
 			"Thibaut120094",
 			"Vega",
 			"Verdy p",
-			"Wladek92"
+			"Wladek92",
+			"Derugon"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Connecte BlueSpice à diverses extensions de MediaWiki",
@@ -178,10 +179,14 @@
 	"bs-distributionconnector-videodropletinspector-service-help": "Sélectionnez le service qui doit être utilisé pour intégrer la vidéo.",
 	"bs-distributionconnector-videodropletinspector-description-help": "Ajoutez une description sous la vidéo. Pour les sauts de ligne, utilisez « &#10; ».",
 	"bs-distributionconnector-videodropletinspector-description-placeholder": "Insérez la description de la vidéo...",
+	"bs-distributionconnector-videodropletinspector-cover-label": "Couverture",
+	"bs-distributionconnector-videodropletinspector-cover-help": "Couverture de la vidéo",
+	"bs-distributionconnector-videodropletinspector-cover-placeholder": "Sélectionnez la couverture de la vidéo…",
 	"bs-distributionconnector-videodropletinspector-dimension-label": "Dimension",
 	"bs-distributionconnector-videodropletinspector-dimension-help": "Pour définir la taille de la vidéo, vous pouvez utiliser le format « largeur x hauteur » en pixels. Si la hauteur n’est pas fournie, elle sera calculée automatiquement à partir de la largeur. Si vous voulez définir la hauteur, vous devez l’indiquer après un « x ».\nExemples : « 480 », « 480x320 », « x320 » pour une largeur de 480 pixels et une hauteur de 320 pixels.",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "Alignement",
 	"bs-distributionconnector-videodropletinspector-alignent-help": "Centrer ou cadrer à gauche ou à droite la vidéo",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "en ligne",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "à gauche",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "centré",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "à droite",
