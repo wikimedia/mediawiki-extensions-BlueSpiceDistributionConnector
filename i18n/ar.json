@@ -9,6 +9,7 @@
 			"LaMagiaaa",
 			"Meno25",
 			"Michel Bakni",
+			"Mohammed Qays",
 			"Mohanad",
 			"Mohanad Kh",
 			"Omda4wady",
@@ -197,5 +198,9 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "تمكين تسجيل الدخول التلقائي إلى الويكي",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "إعدادات مزامنة المجموعة (JSON)",
 	"action-checkpermissions": "التحقق من أذونات المستخدم",
-	"right-checkpermissions": "التحقق من أذونات المستخدم على الصفحة الخاصة [[Special:Check_Permissions]]"
+	"right-checkpermissions": "التحقق من أذونات المستخدم على الصفحة الخاصة [[Special:Check_Permissions]]",
+	"bs-distributionconnector-videodropletinspector-cover-label": "حُم",
+	"bs-distributionconnector-videodropletinspector-cover-help": "غلاف الفيديو",
+	"bs-distributionconnector-videodropletinspector-cover-placeholder": "حدد غلاف الفيديو...",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "مضمن"
 }

@@ -97,5 +97,6 @@
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "برچسب دکمه",
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "نام افزونه",
 	"action-checkpermissions": "بررسی اختیارات کاربر",
-	"right-checkpermissions": "بررسی اختیارات کاربر در صفحهٔ ویژهٔ [[Special:Check_Permissions]]"
+	"right-checkpermissions": "بررسی اختیارات کاربر در صفحهٔ ویژهٔ [[Special:Check_Permissions]]",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "درخط"
 }

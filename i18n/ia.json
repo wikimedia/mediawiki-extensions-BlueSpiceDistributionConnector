@@ -183,5 +183,9 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Activa le apertura de session automatic sur le wiki",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Parametros de synchronisation del gruppo (JSON)",
 	"action-checkpermissions": "verificar permissiones de usator",
-	"right-checkpermissions": "Verificar permissiones de usator sur le pagina special [[Special:Check_Permissions]]"
+	"right-checkpermissions": "Verificar permissiones de usator sur le pagina special [[Special:Check_Permissions]]",
+	"bs-distributionconnector-videodropletinspector-cover-label": "Copertura",
+	"bs-distributionconnector-videodropletinspector-cover-help": "Copertura del video",
+	"bs-distributionconnector-videodropletinspector-cover-placeholder": "Selige copertura de video…",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "integrate"
 }

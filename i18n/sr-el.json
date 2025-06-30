@@ -6,7 +6,7 @@
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Režim",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Dubina",
 	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Imenski prostor",
-	"bs-distributionconnector-setting-path-authentication": "Autentikacija",
+	"bs-distributionconnector-setting-path-authentication": "Autentifikacija",
 	"bs-distributionconnector-pref-openidconnect-config": "Provajder",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Koristi pravo ime kao korisničko ime",
 	"bs-distributionconnector-pref-openidconnect-useemailasusername": "Koristi imejl kao korisničko ime",
@@ -14,7 +14,7 @@
 	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "Migriraj korisnike po imejlu",
 	"bs-distributionconnector-pref-openidconnect-config-clientid": "ID klijenta",
 	"bs-distributionconnector-pref-openidconnect-config-name": "Ime za prikaz",
-	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "Preferirano korisničko ime",
+	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "Željeno korisničko ime",
 	"bs-distributionconnector-workflows-form-groupname": "Grupa",
 	"bs-distributionconnector-workflows-form-instructions": "Uputstva",
 	"bs-distributionconnector-workflows-form-username": "Korisnik",
@@ -38,7 +38,7 @@
 	"bs-distributionconnector-checkpermissions-label-user": "Korisnik",
 	"bs-distributionconnector-checkpermissions-label-permission": "Dozvola",
 	"bs-distributionconnector-checkpermissions-label-title": "Naslov",
-	"bs-distributionconnector-checkpermissions-error-invalid-user": "Navedeno korisničko ime nije važeće",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "Navedeno korisničko ime nije valjano",
 	"bs-distributionconnector-checkpermissions-error-invalid-title": "Navedeni naslov nije ispravan",
 	"bs-distributionconnector-notification-logged-in": "Sada ste prijavljeni",
 	"bs-distributionconnector-videodropletinspector-service-label": "Usluga",
@@ -82,5 +82,6 @@
 	"bs-distributionconnector-videodropletinspector-alignment-center": "centar",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "desno",
 	"bs-distributionconnector-videodropletinspector-container-label": "Okvir",
-	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Omogućuje automatsko prijavljivanje na viki"
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Omogućuje automatsko prijavljivanje na viki",
+	"bs-distributionconnector-videodropletinspector-title-label": "Naslov"
 }

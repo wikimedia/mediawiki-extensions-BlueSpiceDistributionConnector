@@ -3,7 +3,9 @@
 		"authors": [
 			"Ajeje Brazorf",
 			"Alien333",
+			"Derugon",
 			"DreZhsh",
+			"EmDashUser002",
 			"Florian COLLIN",
 			"Gomoko",
 			"Lewis2013",
@@ -11,8 +13,7 @@
 			"Thibaut120094",
 			"Vega",
 			"Verdy p",
-			"Wladek92",
-			"EmDashUser002"
+			"Wladek92"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Connecte BlueSpice à diverses extensions de MediaWiki",
@@ -194,5 +195,9 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Active la connexion automatique au wiki",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Paramètres de synchronisation de groupe (JSON)",
 	"action-checkpermissions": "vérifier les autorisations des utilisateurs",
-	"right-checkpermissions": "Vérifiez les autorisations des utilisateurs sur la page spéciale [[Special:Check_Permissions]]"
+	"right-checkpermissions": "Vérifiez les autorisations des utilisateurs sur la page spéciale [[Special:Check_Permissions]]",
+	"bs-distributionconnector-videodropletinspector-cover-label": "Couverture",
+	"bs-distributionconnector-videodropletinspector-cover-help": "Couverture de la vidéo",
+	"bs-distributionconnector-videodropletinspector-cover-placeholder": "Sélectionnez la couverture de la vidéo…",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "en ligne"
 }
