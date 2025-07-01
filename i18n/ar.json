@@ -182,10 +182,14 @@
 	"bs-distributionconnector-videodropletinspector-service-help": "حدد الخدمة التي يجب استخدامها لتضمين الفيديو",
 	"bs-distributionconnector-videodropletinspector-description-help": "أضف وصفًا أسفل الفيديو. بالنسبة لفواصل الأسطر ، استخدم \"\"",
 	"bs-distributionconnector-videodropletinspector-description-placeholder": "أدخل وصف الفيديو ...",
+	"bs-distributionconnector-videodropletinspector-cover-label": "حُم",
+	"bs-distributionconnector-videodropletinspector-cover-help": "غلاف الفيديو",
+	"bs-distributionconnector-videodropletinspector-cover-placeholder": "حدد غلاف الفيديو...",
 	"bs-distributionconnector-videodropletinspector-dimension-label": "البعد",
 	"bs-distributionconnector-videodropletinspector-dimension-help": "لتعيين حجم الفيديو ، يمكنك استخدام التنسيق \"العرض × الارتفاع\" بالبكسل. إذا لم يتم توفير الارتفاع فسيتم حسابه تلقائيًا من العرض. إذا كنت تريد ضبط الارتفاع ، يجب أن تشير إلى ذلك بـ \"x\".! N! أمثلة: 480 ، 480x320 ، x320 - لعرض 480 وارتفاع 320",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "المحاذاة",
 	"bs-distributionconnector-videodropletinspector-alignent-help": "قم بمحاذاة الفيديو إلى اليسار أو الوسط أو اليمين",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "مضمن",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "يسار",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "توسيط",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "يمين",
@@ -198,9 +202,5 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "تمكين تسجيل الدخول التلقائي إلى الويكي",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "إعدادات مزامنة المجموعة (JSON)",
 	"action-checkpermissions": "التحقق من أذونات المستخدم",
-	"right-checkpermissions": "التحقق من أذونات المستخدم على الصفحة الخاصة [[Special:Check_Permissions]]",
-	"bs-distributionconnector-videodropletinspector-cover-label": "حُم",
-	"bs-distributionconnector-videodropletinspector-cover-help": "غلاف الفيديو",
-	"bs-distributionconnector-videodropletinspector-cover-placeholder": "حدد غلاف الفيديو...",
-	"bs-distributionconnector-videodropletinspector-alignment-inline": "مضمن"
+	"right-checkpermissions": "التحقق من أذونات المستخدم على الصفحة الخاصة [[Special:Check_Permissions]]"
 }

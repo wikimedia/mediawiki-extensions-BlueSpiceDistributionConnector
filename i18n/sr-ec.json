@@ -82,10 +82,10 @@
 	"bs-distributionconnector-videodropletinspector-description-placeholder": "Уметни опис видеа...",
 	"bs-distributionconnector-videodropletinspector-dimension-label": "Димензија",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "Позиционирање",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "инлајн",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "лево",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "центар",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "десно",
 	"bs-distributionconnector-videodropletinspector-container-label": "Оквир",
-	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Омогућује аутоматско пријављивање на вики",
-	"bs-distributionconnector-videodropletinspector-alignment-inline": "инлајн"
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Омогућује аутоматско пријављивање на вики"
 }

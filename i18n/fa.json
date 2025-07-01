@@ -90,6 +90,7 @@
 	"droplets-video-name": "ویدئو",
 	"bs-distributionconnector-videodropletinspector-title": "ویدئو",
 	"bs-distributionconnector-videodropletinspector-description-label": "توضیحات",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "درخط",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "چپ",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "وسط",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "راست",
@@ -97,6 +98,5 @@
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "برچسب دکمه",
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "نام افزونه",
 	"action-checkpermissions": "بررسی اختیارات کاربر",
-	"right-checkpermissions": "بررسی اختیارات کاربر در صفحهٔ ویژهٔ [[Special:Check_Permissions]]",
-	"bs-distributionconnector-videodropletinspector-alignment-inline": "درخط"
+	"right-checkpermissions": "بررسی اختیارات کاربر در صفحهٔ ویژهٔ [[Special:Check_Permissions]]"
 }
