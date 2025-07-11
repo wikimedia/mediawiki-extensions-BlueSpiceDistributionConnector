@@ -94,5 +94,15 @@
 	"bs-distributionconnector-videodropletinspector-container-label": "Гура",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Хаамийн объект (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Нуьйдин билгало",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Плагинан цӀе"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Плагинан цӀе",
+	"bs-distributionconnector-hit-counter-wikiexplorer-column-name": "АгӀонаш ларар",
+	"bs-distributionconnector-default-definition-report-review": "Хьажар",
+	"droplets-map-center-map-label": "Картин центр",
+	"droplets-buttonlink-external-label": "Арахьара хьажорг",
+	"droplets-buttonlink-label-label": "Нуьйдин тӀера текст",
+	"droplets-buttonlink-format-label": "Фонан бос",
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "АгӀоне хьаьжина",
+	"droplets-create-input-button-label": "Нуьйдин тӀера текст",
+	"droplets-pdf-link-page-label": "АгӀо экспорт йан",
+	"bs-distributionconnector-videodropletinspector-title-label": "Корта"
 }

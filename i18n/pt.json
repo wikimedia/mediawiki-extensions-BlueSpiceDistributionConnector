@@ -113,5 +113,8 @@
 	"droplets-buttonlink-target-label": "Destino",
 	"droplets-buttonlink-label-label": "Texto no botão",
 	"droplets-buttonlink-format-label": "Cor de fundo",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Número de visualizações de página"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Número de visualizações de página",
+	"bs-distributionconnector-videodropletinspector-cover-label": "Capa",
+	"bs-distributionconnector-videodropletinspector-cover-help": "Capa do vídeo",
+	"bs-distributionconnector-videodropletinspector-cover-placeholder": "Selecionar capa do vídeo..."
 }
