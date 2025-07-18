@@ -241,6 +241,14 @@
 			"PluginModules": [
 				"ext.bluespice.distribution.wikiExplorer.columns"
 			]
+		},
+		"PDFCreator": {
+			"Processors": {
+				"PDFHandler": {
+					"class": "\\BlueSpice\\DistributionConnector\\Integration\\PDFCreator\\Processor\\PDFHandlerProcessor",
+					"services": [ "TitleFactory", "MainConfig", "RepoGroup", "UrlUtils" ]
+				}
+			}
 		}
 	},
 	"GroupPermissions": {
