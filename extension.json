@@ -251,6 +251,12 @@
 					"class": "BlueSpice\\DistributionConnector\\Integration\\PDFCreator\\TemplateProvider\\Legacy",
 					"services": [ "ConfigFactory" ]
 				}
+			},
+			"Processors": {
+				"PDFHandler": {
+					"class": "\\BlueSpice\\DistributionConnector\\Integration\\PDFCreator\\Processor\\PDFHandlerProcessor",
+					"services": [ "TitleFactory", "MainConfig", "RepoGroup", "UrlUtils" ]
+				}
 			}
 		}
 	},
