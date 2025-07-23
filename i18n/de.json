@@ -194,5 +194,8 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Aktiviert die automatische Anmeldung beim Wiki",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Gruppensynchronisierungseinstellungen (JSON)",
 	"action-checkpermissions": "die Benutzerberechtigungen zu überprüfen",
-	"right-checkpermissions": "Überprüfung der Benutzerberechtigungen auf der Spezialseite [[Special:Check_Permissions]]"
+	"right-checkpermissions": "Überprüfung der Benutzerberechtigungen auf der Spezialseite [[Special:Check_Permissions]]",
+	"bs-distributionconnector-videodropletinspector-cover-label": "Cover",
+	"bs-distributionconnector-videodropletinspector-cover-help": "Cover des Videos",
+	"bs-distributionconnector-videodropletinspector-cover-placeholder": "Videocover auswählen..."
 }
