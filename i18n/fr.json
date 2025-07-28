@@ -3,6 +3,7 @@
 		"authors": [
 			"Ajeje Brazorf",
 			"Alien333",
+			"Derugon",
 			"DreZhsh",
 			"EmDashUser002",
 			"Florian COLLIN",
@@ -197,5 +198,9 @@
 	"right-checkpermissions": "Vérifiez les autorisations des utilisateurs sur la page spéciale [[Special:Check_Permissions]]",
 	"bs-distributionconnector-videodropletinspector-title-label": "Titre",
 	"bs-distributionconnector-videodropletinspector-title-help": "Titre de la vidéo",
-	"bs-distributionconnector-videodropletinspector-title-placeholder": "Insérer le titre de la vidéo..."
+	"bs-distributionconnector-videodropletinspector-title-placeholder": "Insérer le titre de la vidéo...",
+	"bs-distributionconnector-videodropletinspector-cover-label": "Couverture",
+	"bs-distributionconnector-videodropletinspector-cover-help": "Couverture de la vidéo",
+	"bs-distributionconnector-videodropletinspector-cover-placeholder": "Sélectionnez la couverture de la vidéo…",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "en ligne"
 }

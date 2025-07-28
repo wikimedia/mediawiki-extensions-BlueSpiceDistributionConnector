@@ -125,7 +125,7 @@
 	"droplets-circled-number-label": "Число",
 	"droplets-subpages-namespace-label": "Простір назв",
 	"bs-distributionconnector-pref-eventbus-enableeventbus": "Увімкнути EventBus для наступних подій",
-	"bs-distributionconnector-pref-eventbus-enableeventbus-help": "Вмикає EventBus для вибраних подій.",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-help": "Вмикає EventBus для вибраних подій",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "усі",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-none": "жодна",
 	"bs-distributionconnector-pref-eventbus-eventservicedefault": "Служба подій за замовчуванням",

@@ -30,7 +30,7 @@
 	"bs-distributionconnector-checkpermissions-label-user": "Benotzer",
 	"bs-distributionconnector-checkpermissions-label-permission": "Autorisatioun",
 	"bs-distributionconnector-checkpermissions-label-title": "Titel",
-	"bs-distributionconnector-checkpermissions-error-invalid-user": "de benotzte Benotzernumm ass net valabel",
+	"bs-distributionconnector-checkpermissions-error-invalid-user": "De Benotzernumm, deen ugi gouf, ass ongülteg",
 	"bs-distributionconnector-notification-logged-in": "Dir sidd elo ageloggt",
 	"droplets-subpages-namespace-label": "Nummraum",
 	"droplets-buttonlink-external-label": "Externe Link",

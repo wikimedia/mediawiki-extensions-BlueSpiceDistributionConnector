@@ -195,5 +195,9 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Help message for \"DistributionConnectorEnableAutoLogin\" config variable",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Sub key for group syncs array field of config variable \"DistributionConnectorPluggableAuthConfig\" that allows to set up PluggableAuth group syncs",
 	"action-checkpermissions": "Allows to check permissions for each user\n\n{{Doc-action|checkpermissions}}",
-	"right-checkpermissions": "Allows to check permissions for each user\n\n{{Doc-right|checkpermissions}}"
+	"right-checkpermissions": "Allows to check permissions for each user\n\n{{Doc-right|checkpermissions}}",
+	"bs-distributionconnector-videodropletinspector-cover-label": "Label for file widget to select a cover",
+	"bs-distributionconnector-videodropletinspector-cover-help": "Help text for file widget to select a cover",
+	"bs-distributionconnector-videodropletinspector-cover-placeholder": "Placeholder text for file widget input field",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "Label for option in dropdown"
 }

@@ -187,5 +187,9 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Enables automatic login to the wiki",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Group sync settings (JSON)",
 	"action-checkpermissions": "check user permissions",
-	"right-checkpermissions": "Check user permissions on the special page [[Special:Check_Permissions]]"
+	"right-checkpermissions": "Check user permissions on the special page [[Special:Check_Permissions]]",
+	"bs-distributionconnector-videodropletinspector-cover-label": "Cover",
+	"bs-distributionconnector-videodropletinspector-cover-help": "Cover of the video",
+	"bs-distributionconnector-videodropletinspector-cover-placeholder": "Select video cover...",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "inline"
 }
