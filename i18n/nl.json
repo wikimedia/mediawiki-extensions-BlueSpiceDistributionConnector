@@ -218,5 +218,9 @@
 	"bs-distributionconnector-videodropletinspector-title-help": "Titel van de video",
 	"bs-distributionconnector-videodropletinspector-title-placeholder": "Videotitel invoegen…",
 	"action-checkpermissions": "gebruikersbevoegdheden te controleren",
-	"right-checkpermissions": "Gebruikersbevoegdheden controleren op de speciale pagina [[Special:Check_Permissions|]]"
+	"right-checkpermissions": "Gebruikersbevoegdheden controleren op de speciale pagina [[Special:Check_Permissions|]]",
+	"bs-distributionconnector-videodropletinspector-cover-label": "Omslag",
+	"bs-distributionconnector-videodropletinspector-cover-help": "Omslag van de video",
+	"bs-distributionconnector-videodropletinspector-cover-placeholder": "Kies video-omslag…",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "ingevoegd"
 }
