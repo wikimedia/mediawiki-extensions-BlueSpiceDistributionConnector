@@ -178,6 +178,9 @@
 	"bs-distributionconnector-videodropletinspector-service-help": "Wähle den Dienst aus, der zum Einbinden des Videos verwendet werden soll",
 	"bs-distributionconnector-videodropletinspector-description-help": "Füge eine Beschreibung unterhalb des Videos ein. Für Zeilenumbrüche verwende \"&#10\"",
 	"bs-distributionconnector-videodropletinspector-description-placeholder": "Videobeschreibung eingeben...",
+	"bs-distributionconnector-videodropletinspector-cover-label": "Cover",
+	"bs-distributionconnector-videodropletinspector-cover-help": "Cover des Videos",
+	"bs-distributionconnector-videodropletinspector-cover-placeholder": "Videocover auswählen...",
 	"bs-distributionconnector-videodropletinspector-dimension-label": "Größe",
 	"bs-distributionconnector-videodropletinspector-dimension-help": "Um die Größe des Videos zu setzen, verwende das Format \"Breite x Höhe\" in Pixeln. Falls die Höhe nicht angegeben wird, wird diese automatisch von der Breite berechnet. Wenn du die Höhe angeben möchtest, muss \"x\" vorangestellt werden.\nBeispiele: 480, 480x320,x320 - für eine Breite von 480 und eine Höhe von 320",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "Ausrichtung",
@@ -194,8 +197,5 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Aktiviert die automatische Anmeldung beim Wiki",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Gruppensynchronisierungseinstellungen (JSON)",
 	"action-checkpermissions": "die Benutzerberechtigungen zu überprüfen",
-	"right-checkpermissions": "Überprüfung der Benutzerberechtigungen auf der Spezialseite [[Special:Check_Permissions]]",
-	"bs-distributionconnector-videodropletinspector-cover-label": "Cover",
-	"bs-distributionconnector-videodropletinspector-cover-help": "Cover des Videos",
-	"bs-distributionconnector-videodropletinspector-cover-placeholder": "Videocover auswählen..."
+	"right-checkpermissions": "Überprüfung der Benutzerberechtigungen auf der Spezialseite [[Special:Check_Permissions]]"
 }
