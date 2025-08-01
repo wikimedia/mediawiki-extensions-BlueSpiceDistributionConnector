@@ -189,7 +189,7 @@
 	"droplets-pdflink-description": "الرابط الذي يقوم بتنزيل صفحة wiki أخرى بتنسيق PDF",
 	"bs-distributionconnector-videodropletinspector-video-link-label": "أدخل رابط الفيديو",
 	"bs-distributionconnector-videodropletinspector-title": "فيديو",
-	"bs-distributionconnector-videodropletinspector-description-label": "وصف",
+	"bs-distributionconnector-videodropletinspector-description-label": "الوصف",
 	"bs-distributionconnector-videodropletinspector-service-help": "حدد الخدمة التي يجب استخدامها لتضمين الفيديو",
 	"bs-distributionconnector-videodropletinspector-description-help": "أضف وصفًا أسفل الفيديو. بالنسبة لفواصل الأسطر ، استخدم \"\"",
 	"bs-distributionconnector-videodropletinspector-description-placeholder": "أدخل وصف الفيديو ...",
