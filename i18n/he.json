@@ -179,6 +179,7 @@
 	"bs-distributionconnector-videodropletinspector-dimension-help": "כדי להגדיר את גודל הסרטון ניתן להשתמש בתסדיר \"width x height\" בפיקסלים. אם הגובה לא מסופק, הוא יחושב אוטומטית מהרוחב. אם ברצונך להגדיר את הגובה, יש לציין זאת ב־\"x\".\nדוגמאות: 480, 480x320,x320 - לרוחב של 480 ולגובה של 320",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "יישור",
 	"bs-distributionconnector-videodropletinspector-alignent-help": "ליישר את הסרטון לשמאל, למרכז או לימין",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "בשורה",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "שמאל",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "מרכז",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "ימין",
