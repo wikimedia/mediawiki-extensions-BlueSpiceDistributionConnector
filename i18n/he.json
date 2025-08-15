@@ -214,5 +214,6 @@
 	"right-checkpermissions": "לבדוק את הרשאות המשתמש בדף המיוחד [[Special:Check_Permissions]]",
 	"bs-distributionconnector-videodropletinspector-title-label": "כותרת",
 	"bs-distributionconnector-videodropletinspector-title-help": "כותרת הסרטון",
-	"bs-distributionconnector-videodropletinspector-title-placeholder": "נא להכניס את כותרת הסרטון..."
+	"bs-distributionconnector-videodropletinspector-title-placeholder": "נא להכניס את כותרת הסרטון...",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "בשורה"
 }
