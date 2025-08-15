@@ -191,5 +191,6 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "הפעלת כניסה אוטומטית לוויקי",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "הגדרות סנכרון קבוצתי (JSON)",
 	"action-checkpermissions": "בדיקת הרשאות משתמש",
-	"right-checkpermissions": "לבדוק את הרשאות המשתמש בדף המיוחד [[Special:Check_Permissions]]"
+	"right-checkpermissions": "לבדוק את הרשאות המשתמש בדף המיוחד [[Special:Check_Permissions]]",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "בשורה"
 }
