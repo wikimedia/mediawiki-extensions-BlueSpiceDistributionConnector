@@ -324,10 +324,13 @@
 			],
 			"messages": [
 				"bs-distributionconnector-statistics-report-page-hits",
+				"bs-distributionconnector-statistics-report-page-hits-desc",
 				"bs-distributionconnector-statistics-report-page-hits-axis-label",
 				"bs-distributionconnector-statistics-report-page-trends",
+				"bs-distributionconnector-statistics-report-page-trends-desc",
 				"bs-distributionconnector-statistics-report-page-trends-axis-value",
 				"bs-distributionconnector-statistics-report-page-hits-relation",
+				"bs-distributionconnector-statistics-report-page-hits-relation-desc",
 				"bs-distributionconnector-statistics-report-page-hits-relation-axis-label"
 			]
 		},

@@ -9,6 +9,8 @@
 
 	bs.distributionConnector.report.PageHitsReport.static.label = mw.message( 'bs-distributionconnector-statistics-report-page-hits' ).text();
 
+	bs.distributionConnector.report.PageHitsReport.static.desc = mw.message( 'bs-distributionconnector-statistics-report-page-hits-desc' ).text();
+
 	bs.distributionConnector.report.PageHitsReport.prototype.getFilters = function () {
 		return [
 			new bs.aggregatedStatistics.filter.IntervalFilter(),
