@@ -9,6 +9,8 @@
 
 	bs.distributionConnector.report.PageTrendsReport.static.label = mw.message( 'bs-distributionconnector-statistics-report-page-trends' ).text();
 
+	bs.distributionConnector.report.PageTrendsReport.static.desc = mw.message( 'bs-distributionconnector-statistics-report-page-trends-desc' ).text();
+
 	bs.distributionConnector.report.PageTrendsReport.prototype.getAxisLabels = function () {
 		return {
 			value: mw.message( 'bs-distributionconnector-statistics-report-page-trends-axis-value' ).text()
