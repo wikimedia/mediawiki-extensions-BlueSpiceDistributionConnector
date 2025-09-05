@@ -199,5 +199,8 @@
 	"bs-distributionconnector-videodropletinspector-cover-label": "Label for file widget to select a cover",
 	"bs-distributionconnector-videodropletinspector-cover-help": "Help text for file widget to select a cover",
 	"bs-distributionconnector-videodropletinspector-cover-placeholder": "Placeholder text for file widget input field",
-	"bs-distributionconnector-videodropletinspector-alignment-inline": "Label for option in dropdown"
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "Label for option in dropdown",
+	"bs-distributionconnector-statistics-report-page-hits-desc": "Statistics report description",
+	"bs-distributionconnector-statistics-report-page-trends-desc": "Statistics report description",
+	"bs-distributionconnector-statistics-report-page-hits-relation-desc": "Statistics report description"
 }

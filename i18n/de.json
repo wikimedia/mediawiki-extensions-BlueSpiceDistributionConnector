@@ -221,5 +221,8 @@
 	"bs-distributionconnector-videodropletinspector-title-placeholder": "Videotitel einfügen...",
 	"bs-distributionconnector-videodropletinspector-cover-label": "Cover",
 	"bs-distributionconnector-videodropletinspector-cover-help": "Cover des Videos",
-	"bs-distributionconnector-videodropletinspector-cover-placeholder": "Videocover auswählen..."
+	"bs-distributionconnector-videodropletinspector-cover-placeholder": "Videocover auswählen...",
+	"bs-distributionconnector-statistics-report-page-hits-desc": "Seitenaufrufe im gewählten Zeitraum und Intervall",
+	"bs-distributionconnector-statistics-report-page-trends-desc": "Prozentuale Entwicklung der Seitenaufrufe im gewählten Zeitraum und Intervall.",
+	"bs-distributionconnector-statistics-report-page-hits-relation-desc": "Seitenaufrufe im gewählten Zeitraum und Intervall im Verhältnis zur Gesamtanzahl der Aufrufe"
 }
