@@ -13,7 +13,8 @@
 			"Thibaut120094",
 			"Vega",
 			"Verdy p",
-			"Wladek92"
+			"Wladek92",
+			"VIGNERON"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Connecte BlueSpice à diverses extensions de MediaWiki",
@@ -72,7 +73,9 @@
 	"bs-distributionconnector-workflows-form-label-approver": "Approbateur",
 	"bs-distributionconnector-workflows-form-instructions-approver": "Instructions pour l’approbateur",
 	"bs-distributionconnector-statistics-report-page-hits": "Visites par page",
+	"bs-distributionconnector-statistics-report-page-hits-desc": "Pages vues dans la période et l'intervalle sélectionnés",
 	"bs-distributionconnector-statistics-report-page-trends": "Tendances des visites par page",
+	"bs-distributionconnector-statistics-report-page-trends-desc": "Pourcentage de développement des vues d'une page dans la période et l'intervalle sélectionnés",
 	"bs-distributionconnector-statistics-report-page-trends-axis-value": "% de croissance",
 	"bs-sandbox": "Bac à sable",
 	"bs-helpdesk": "Service d’assistance",
@@ -112,6 +115,7 @@
 	"right-duplicate": "Dupliquer des pages",
 	"action-duplicate": "dupliquer des pages",
 	"bs-distributionconnector-statistics-report-page-hits-relation": "Visites de pages en relation",
+	"bs-distributionconnector-statistics-report-page-hits-relation-desc": "Pages vues dans la période et l'intervalle sélectionnés par rapport au nombre total de vues",
 	"bs-distributionconnector-statistics-report-page-hits-relation-axis-label": "Visites de pages en relation aux visites totales",
 	"bs-distributionconnector-videodropletinspector-service-label": "Service",
 	"droplets-circled-number-bg-color-label": "Couleur d’arrière-plan",
