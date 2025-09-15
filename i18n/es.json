@@ -23,7 +23,7 @@
 		]
 	},
 	"bs-distributionconnector-extension-description": "Conecta BlueSpice con varias extensiones para MediaWiki",
-	"bs-distributionconnector-yourdomainname": "Tu dominio",
+	"bs-distributionconnector-yourdomainname": "{{#FORMAL:Tu|Su}} dominio",
 	"bs-distributionconnector-ve-categorytreeinpector-title": "Árbol de categorías",
 	"bs-distributionconnector-ve-categorytree-title": "Árbol de categorías",
 	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Modo",
