@@ -9,6 +9,5 @@
 	"bs-distributionconnector-default-definition-report-review": "Duyệt",
 	"bs-distributionconnector-default-definition-report-approve": "Chấp nhận",
 	"bs-distributionconnector-default-definition-report-vote": "bình chọn",
-	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Quá hạn",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Số lần xem trang"
+	"bs-distributionconnector-pref-eventbus-eventservices-subkey-timeout": "Quá hạn"
 }
