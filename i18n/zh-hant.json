@@ -122,8 +122,8 @@
 	"droplets-buttonlink-target-label": "目標",
 	"droplets-buttonlink-format-label": "背景顏色",
 	"bs-distributionconnector-statistics-report-page-hits-axis-label": "頁面瀏覽字數",
-	"droplets-create-input-alignment-left-label": "左",
-	"droplets-create-input-alignment-right-label": "右",
+	"droplets-create-input-alignment-left-label": "置左",
+	"droplets-create-input-alignment-right-label": "置右",
 	"droplets-create-input-name": "建立頁面",
 	"droplets-subpages-description": "維基頁面的子頁面列表",
 	"droplets-video-name": "影片",
@@ -213,5 +213,13 @@
 	"action-checkpermissions": "檢查使用者權限",
 	"right-checkpermissions": "在特殊頁面 [[Special:Check_Permissions]] 上檢查使用者權限",
 	"bs-distributionconnector-statistics-report-page-hits-desc": "所選定的期間和間隔內的頁面瀏覽量",
-	"bs-distributionconnector-statistics-report-page-trends-desc": "所選定的期間和間隔內頁面瀏覽量的百分比發展"
+	"bs-distributionconnector-statistics-report-page-trends-desc": "所選定的期間和間隔內頁面瀏覽量的百分比發展",
+	"bs-distributionconnector-statistics-report-page-hits-relation-desc": "選定時段和間隔內的頁面瀏覽量與總瀏覽量的關係",
+	"bs-distributionconnector-videodropletinspector-title-label": "標題",
+	"bs-distributionconnector-videodropletinspector-title-help": "影片標題",
+	"bs-distributionconnector-videodropletinspector-title-placeholder": "插入影片標題…",
+	"bs-distributionconnector-videodropletinspector-cover-label": "封面",
+	"bs-distributionconnector-videodropletinspector-cover-help": "影片封面",
+	"bs-distributionconnector-videodropletinspector-cover-placeholder": "選擇影片封面…",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "行內"
 }
