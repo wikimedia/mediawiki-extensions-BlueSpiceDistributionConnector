@@ -187,5 +187,8 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Activa o inicio de sesión automático no wiki",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Configuración de sincronización de grupo (JSON)",
 	"action-checkpermissions": "comprobar os permisos dos usuarios",
-	"right-checkpermissions": "Comprobar os permisos dos usuarios na páxina especial [[Special:Check_Permissions]]"
+	"right-checkpermissions": "Comprobar os permisos dos usuarios na páxina especial [[Special:Check_Permissions]]",
+	"bs-distributionconnector-statistics-report-page-hits-desc": "Visitas á páxina no período e intervalo seleccionados",
+	"bs-distributionconnector-statistics-report-page-trends-desc": "Porcentaxe de desenvolvemento das visitas a unha páxina no período e intervalo seleccionados",
+	"bs-distributionconnector-statistics-report-page-hits-relation-desc": "Visitas á páxina no período e intervalo seleccionados en relación co número total de visitas"
 }

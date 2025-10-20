@@ -192,5 +192,11 @@
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "הגדרות סנכרון קבוצתי (JSON)",
 	"action-checkpermissions": "בדיקת הרשאות משתמש",
 	"right-checkpermissions": "לבדוק את הרשאות המשתמש בדף המיוחד [[Special:Check_Permissions]]",
-	"bs-distributionconnector-videodropletinspector-alignment-inline": "בשורה"
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "בשורה",
+	"bs-distributionconnector-statistics-report-page-hits-desc": "צפיות בדף בתקופה ובמרווח שנבחרו",
+	"bs-distributionconnector-statistics-report-page-trends-desc": "התפתחות אחוז הצפיות בדף בתקופה ובמרווח שנבחרו",
+	"bs-distributionconnector-statistics-report-page-hits-relation-desc": "צפיות בדף בתקופה ובמרווח שנבחרו ביחס למספר הצפיות הכולל",
+	"bs-distributionconnector-videodropletinspector-cover-label": "עטיפה",
+	"bs-distributionconnector-videodropletinspector-cover-help": "עטיפת הווידאו",
+	"bs-distributionconnector-videodropletinspector-cover-placeholder": "נא לבחור עטיפה לווידאו"
 }

@@ -11,6 +11,7 @@
 			"Lewis2013",
 			"Mahabarata",
 			"Thibaut120094",
+			"VIGNERON",
 			"Vega",
 			"Verdy p",
 			"Wladek92"
@@ -199,5 +200,8 @@
 	"bs-distributionconnector-videodropletinspector-cover-label": "Couverture",
 	"bs-distributionconnector-videodropletinspector-cover-help": "Couverture de la vidéo",
 	"bs-distributionconnector-videodropletinspector-cover-placeholder": "Sélectionnez la couverture de la vidéo…",
-	"bs-distributionconnector-videodropletinspector-alignment-inline": "en ligne"
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "en ligne",
+	"bs-distributionconnector-statistics-report-page-hits-desc": "Pages vues dans la période et l'intervalle sélectionnés",
+	"bs-distributionconnector-statistics-report-page-trends-desc": "Pourcentage de développement des vues d'une page dans la période et l'intervalle sélectionnés",
+	"bs-distributionconnector-statistics-report-page-hits-relation-desc": "Pages vues dans la période et l'intervalle sélectionnés par rapport au nombre total de vues"
 }
