@@ -13,5 +13,6 @@
 	"bs-helpdesk": "Helpo-loko",
 	"bs-support": "Suporto",
 	"bs-distributionconnector-checkpermissions-label-user": "Uzero",
-	"bs-distributionconnector-checkpermissions-label-title": "Titulo"
+	"bs-distributionconnector-checkpermissions-label-title": "Titulo",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault-help": "Uzez ca evento-servado kom predeterminita (''default'') por omna eventi"
 }
