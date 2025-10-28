@@ -24,7 +24,8 @@
 			{
 				name: 'external',
 				label: mw.message( 'droplets-buttonlink-external-label' ).text(),
-				type: 'checkbox'
+				type: 'checkbox',
+				labelAlign: 'inline'
 			},
 			{
 				name: 'target',
