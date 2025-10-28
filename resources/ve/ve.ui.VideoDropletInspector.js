@@ -130,37 +130,37 @@ ve.ui.VideoDropletInspector.prototype.setLayouts = function () {
 		label: mw.message( 'bs-distributionconnector-videodropletinspector-video-link-label' ).text()
 	} );
 	this.serviceLayout = new OO.ui.FieldLayout( this.serviceInput, {
-		align: 'left',
+		align: 'top',
 		label: mw.message( 'bs-distributionconnector-videodropletinspector-service-label' ).text(),
 		help: mw.message( 'bs-distributionconnector-videodropletinspector-service-help' ).text()
 	} );
 	this.titleLayout = new OO.ui.FieldLayout( this.titleInput, {
-		align: 'left',
+		align: 'top',
 		label: mw.message( 'bs-distributionconnector-videodropletinspector-title-label' ).text(),
 		help: mw.message( 'bs-distributionconnector-videodropletinspector-title-help' ).text()
 	} );
 	this.descriptionLayout = new OO.ui.FieldLayout( this.descriptionInput, {
-		align: 'left',
+		align: 'top',
 		label: mw.message( 'bs-distributionconnector-videodropletinspector-description-label' ).text(),
 		help: mw.message( 'bs-distributionconnector-videodropletinspector-description-help' ).text()
 	} );
 	this.coverLayout = new OO.ui.FieldLayout( this.coverInput, {
-		align: 'left',
+		align: 'top',
 		label: mw.message( 'bs-distributionconnector-videodropletinspector-cover-label' ).text(),
 		help: mw.message( 'bs-distributionconnector-videodropletinspector-cover-help' ).text()
 	} );
 	this.dimensionLayout = new OO.ui.FieldLayout( this.dimensionsInput, {
-		align: 'left',
+		align: 'top',
 		label: mw.message( 'bs-distributionconnector-videodropletinspector-dimension-label' ).text(),
 		help: mw.message( 'bs-distributionconnector-videodropletinspector-dimension-help' ).text()
 	} );
 	this.alignmentLayout = new OO.ui.FieldLayout( this.alignmentInput, {
-		align: 'left',
+		align: 'top',
 		label: mw.message( 'bs-distributionconnector-videodropletinspector-alignment-label' ).text(),
 		help: mw.message( 'bs-distributionconnector-videodropletinspector-alignent-help' ).text()
 	} );
 	this.containerLayout = new OO.ui.FieldLayout( this.containerInput, {
-		align: 'left',
+		align: 'inline',
 		label: mw.message( 'bs-distributionconnector-videodropletinspector-container-label' ).text(),
 		help: mw.message( 'bs-distributionconnector-videodropletinspector-container-help' ).text()
 	} );

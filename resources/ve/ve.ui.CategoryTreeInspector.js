@@ -119,31 +119,31 @@ mw.loader.using( [ 'ext.bluespice.visualEditorConnector' ], () => {
 
 	ve.ui.CategoryTreeInspector.prototype.setLayouts = function () {
 		this.modeLayout = new OO.ui.FieldLayout( this.modeInput, {
-			align: 'right',
+			align: 'top',
 			label: ve.msg( 'bs-distributionconnector-ve-categorytreeinspector-dd-mode' )
 		} );
 		this.depthLayout = new OO.ui.FieldLayout( this.depthInput, {
-			align: 'right',
+			align: 'top',
 			label: ve.msg( 'bs-distributionconnector-ve-categorytreeinspector-tb-depth' )
 		} );
 		this.hideRootLayout = new OO.ui.FieldLayout( this.hideRootInput, {
-			align: 'right',
+			align: 'left',
 			label: ve.msg( 'bs-distributionconnector-ve-categorytreeinspector-tb-hideroot' )
 		} );
 		this.hidePrefixLayout = new OO.ui.FieldLayout( this.hidePrefixInput, {
-			align: 'right',
+			align: 'top',
 			label: ve.msg( 'bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix' )
 		} );
 		this.showCountLayout = new OO.ui.FieldLayout( this.showCountInput, {
-			align: 'right',
+			align: 'top',
 			label: ve.msg( 'bs-distributionconnector-ve-categorytreeinspector-tb-showcount' )
 		} );
 		this.namespaceLayout = new OO.ui.FieldLayout( this.namespaceInput, {
-			align: 'right',
+			align: 'top',
 			label: ve.msg( 'bs-distributionconnector-ve-categorytreeinspector-tb-namespace' )
 		} );
 		this.styleLayout = new OO.ui.FieldLayout( this.styleInput, {
-			align: 'right',
+			align: 'top',
 			label: ve.msg( 'bs-distributionconnector-ve-categorytreeinspector-tb-style' )
 		} );
 	};
