@@ -23,15 +23,15 @@
 		const formItems = [
 			{
 				name: '2',
-				label: mw.message( 'droplets-map-center-map-label' ).plain(),
-				help: mw.message( 'droplets-map-center-map-label-help' ).plain(),
+				label: mw.message( 'droplets-map-center-map-label' ).text(),
+				help: mw.message( 'droplets-map-center-map-label-help' ).text(),
 				type: 'textarea',
 				row: 3
 			},
 			{
 				name: '1',
-				label: mw.message( 'droplets-map-center-label' ).plain(),
-				help: mw.message( 'droplets-map-center-label-help' ).plain(),
+				label: mw.message( 'droplets-map-center-label' ).text(),
+				help: mw.message( 'droplets-map-center-label-help' ).text(),
 				type: 'textarea',
 				row: 1
 			}
