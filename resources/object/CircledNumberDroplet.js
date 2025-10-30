@@ -23,17 +23,17 @@
 		return [
 			{
 				name: 'bgColor',
-				label: mw.message( 'droplets-circled-number-bg-color-label' ).plain(),
+				label: mw.message( 'droplets-circled-number-bg-color-label' ).text(),
 				type: 'text'
 			},
 			{
 				name: 'fgColor',
-				label: mw.message( 'droplets-circled-number-fg-color-label' ).plain(),
+				label: mw.message( 'droplets-circled-number-fg-color-label' ).text(),
 				type: 'text'
 			},
 			{
 				name: 'number',
-				label: mw.message( 'droplets-circled-number-label' ).plain(),
+				label: mw.message( 'droplets-circled-number-label' ).text(),
 				type: 'text'
 			}
 		];
