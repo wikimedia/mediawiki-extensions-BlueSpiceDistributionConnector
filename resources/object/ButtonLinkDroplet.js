@@ -23,35 +23,35 @@
 		return [
 			{
 				name: 'external',
-				label: mw.message( 'droplets-buttonlink-external-label' ).plain(),
+				label: mw.message( 'droplets-buttonlink-external-label' ).text(),
 				type: 'checkbox'
 			},
 			{
 				name: 'target',
-				label: mw.message( 'droplets-buttonlink-target-label' ).plain(),
+				label: mw.message( 'droplets-buttonlink-target-label' ).text(),
 				type: 'text'
 			},
 			{
 				name: 'label',
-				label: mw.message( 'droplets-buttonlink-label-label' ).plain(),
+				label: mw.message( 'droplets-buttonlink-label-label' ).text(),
 				type: 'text'
 			},
 			{
 				name: 'format',
-				label: mw.message( 'droplets-buttonlink-format-label' ).plain(),
+				label: mw.message( 'droplets-buttonlink-format-label' ).text(),
 				type: 'dropdown',
 				options: [
 					{
 						data: 'blue',
-						label: mw.message( 'droplets-buttonlink-format-blue' ).plain()
+						label: mw.message( 'droplets-buttonlink-format-blue' ).text()
 					},
 					{
 						data: 'neutral',
-						label: mw.message( 'droplets-buttonlink-format-neutral' ).plain()
+						label: mw.message( 'droplets-buttonlink-format-neutral' ).text()
 					},
 					{
 						data: 'red',
-						label: mw.message( 'droplets-buttonlink-format-red' ).plain()
+						label: mw.message( 'droplets-buttonlink-format-red' ).text()
 					}
 				]
 			}

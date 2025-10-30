@@ -33,19 +33,19 @@
 		return [
 			{
 				name: 'page',
-				label: mw.message( 'droplets-pdf-link-page-label' ).plain(),
+				label: mw.message( 'droplets-pdf-link-page-label' ).text(),
 				type: 'title'
 			},
 			{
 				name: 'template',
-				label: mw.message( 'droplets-pdf-link-template-label' ).plain(),
+				label: mw.message( 'droplets-pdf-link-template-label' ).text(),
 				type: 'dropdown',
 				default: config.default,
 				options: templates
 			},
 			{
 				name: 'label',
-				label: mw.message( 'droplets-pdf-link-link-label' ).plain(),
+				label: mw.message( 'droplets-pdf-link-link-label' ).text(),
 				type: 'text'
 			}
 		];

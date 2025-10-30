@@ -25,27 +25,27 @@
 		const formItems = [
 			{
 				name: 'parentnamespace',
-				label: mw.message( 'droplets-subpages-namespace-label' ).plain(),
+				label: mw.message( 'droplets-subpages-namespace-label' ).text(),
 				type: 'text',
-				help: mw.message( 'droplets-subpages-namespace-help' ).plain()
+				help: mw.message( 'droplets-subpages-namespace-help' ).text()
 			},
 			{
 				name: 'parentpage',
-				label: mw.message( 'droplets-subpages-parentpage-label' ).plain(),
+				label: mw.message( 'droplets-subpages-parentpage-label' ).text(),
 				type: 'text',
-				help: mw.message( 'droplets-subpages-parentpage-help' ).plain()
+				help: mw.message( 'droplets-subpages-parentpage-help' ).text()
 			},
 			{
 				name: 'cols',
-				label: mw.message( 'droplets-subpages-cols-label' ).plain(),
+				label: mw.message( 'droplets-subpages-cols-label' ).text(),
 				type: 'text',
-				help: mw.message( 'droplets-subpages-cols-help' ).plain()
+				help: mw.message( 'droplets-subpages-cols-help' ).text()
 			},
 			{
 				name: 'bullets',
-				label: mw.message( 'droplets-subpages-bullets-label' ).plain(),
+				label: mw.message( 'droplets-subpages-bullets-label' ).text(),
 				type: 'text',
-				help: mw.message( 'droplets-subpages-bullets-help' ).plain()
+				help: mw.message( 'droplets-subpages-bullets-help' ).text()
 			}
 		];
 
