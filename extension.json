@@ -258,6 +258,11 @@
 					"services": [ "TitleFactory", "MainConfig", "RepoGroup", "UrlUtils" ]
 				}
 			}
+		},
+		"BlueSpiceWikiFarm": {
+			"PostInstanceCreationCommandFactories": {
+				"migratePluggableAuthSettings": "BlueSpice\\DistributionConnector\\Integration\\WikiFarm\\PluggableAuthMigrationCommand::factory"
+			}
 		}
 	},
 	"GroupPermissions": {
