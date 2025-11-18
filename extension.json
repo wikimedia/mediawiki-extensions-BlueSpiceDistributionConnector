@@ -314,13 +314,21 @@
 			"messages": [
 				"bs-distributionconnector-ve-categorytreeinpector-title",
 				"bs-distributionconnector-ve-categorytree-title",
-				"bs-distributionconnector-ve-categorytreeinspector-dd-mode",
-				"bs-distributionconnector-ve-categorytreeinspector-tb-depth",
-				"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot",
-				"bs-distributionconnector-ve-categorytreeinspector-tb-showcount",
-				"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix",
-				"bs-distributionconnector-ve-categorytreeinspector-tb-namespace",
-				"bs-distributionconnector-ve-categorytreeinspector-tb-style"
+				"bs-distributionconnector-ve-categorytreeinspector-mode-label",
+				"bs-distributionconnector-ve-categorytreeinspector-mode-cat-label",
+				"bs-distributionconnector-ve-categorytreeinspector-mode-pages-label",
+				"bs-distributionconnector-ve-categorytreeinspector-mode-all-label",
+				"bs-distributionconnector-ve-categorytreeinspector-mode-parents-label",
+				"bs-distributionconnector-ve-categorytreeinspector-depth-label",
+				"bs-distributionconnector-ve-categorytreeinspector-hideroot-label",
+				"bs-distributionconnector-ve-categorytreeinspector-hideprefix-label",
+				"bs-distributionconnector-ve-categorytreeinspector-prefix-always-label",
+				"bs-distributionconnector-ve-categorytreeinspector-prefix-never-label",
+				"bs-distributionconnector-ve-categorytreeinspector-prefix-auto-label",
+				"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label",
+				"bs-distributionconnector-ve-categorytreeinspector-showcount-label",
+				"bs-distributionconnector-ve-categorytreeinspector-namespaces-label",
+				"bs-distributionconnector-ve-categorytreeinspector-style-label"
 			]
 		},
 		"ext.bluespice.distributionconnector.statistics": {
