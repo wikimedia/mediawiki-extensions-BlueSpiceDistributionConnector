@@ -118,14 +118,8 @@
 	"droplets-circled-number-bg-color-label": "Label for input field for background color",
 	"droplets-circled-number-fg-color-label": "Label for input field for foreground color",
 	"droplets-circled-number-label": "Label for input field for number",
-	"droplets-subpages-namespace-label": "Label for input field to set namespace",
 	"droplets-subpages-namespace-help": "Help message for input field to set namespace",
-	"droplets-subpages-parentpage-label": "Label for input field to set parent page",
 	"droplets-subpages-parentpage-help": "Help message for input field to set parent page",
-	"droplets-subpages-cols-label": "Label for input field to set layout",
-	"droplets-subpages-cols-help": "Help message for input field to set layout",
-	"droplets-subpages-bullets-label": "Label for input field to choose if bullet points should bet set",
-	"droplets-subpages-bullets-help": "Help message for input field to set bullet points",
 	"droplets-map-center-label": "Label for focus input field",
 	"droplets-map-center-label-help": "Help message for focus input field",
 	"droplets-map-center-map-label": "Label for condition input field",
@@ -201,5 +195,11 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Help message for \"DistributionConnectorEnableAutoLogin\" config variable",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Sub key for group syncs array field of config variable \"DistributionConnectorPluggableAuthConfig\" that allows to set up PluggableAuth group syncs",
 	"action-checkpermissions": "Allows to check permissions for each user\n\n{{Doc-action|checkpermissions}}",
-	"right-checkpermissions": "Allows to check permissions for each user\n\n{{Doc-right|checkpermissions}}"
+	"right-checkpermissions": "Allows to check permissions for each user\n\n{{Doc-right|checkpermissions}}",
+	"bs-distributionconnector-droplets-subpages-namespace-label": "Label for text input field to set namespace",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Label for text input field to set page",
+	"bs-distributionconnector-droplets-subpages-cols-label": "Label for checkbox if column layout should be used",
+	"bs-distributionconnector-droplets-subpages-cols-help": "Help text for checkbox to set column layout",
+	"bs-distributionconnector-droplets-subpages-bullets-label": "Label for checkbox to select if bullets should used",
+	"bs-distributionconnector-droplets-circled-number-color-help": "{doc-important|Do not translate \"'''white, blue and black'''\".}} Help text for input field to set color"
 }
