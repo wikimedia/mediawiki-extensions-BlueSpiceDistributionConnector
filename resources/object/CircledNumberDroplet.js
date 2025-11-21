@@ -24,11 +24,13 @@
 			{
 				name: 'bgColor',
 				label: mw.message( 'droplets-circled-number-bg-color-label' ).text(),
+				help: mw.message( 'bs-distributionconnector-droplets-circled-number-color-help' ).text(),
 				type: 'text'
 			},
 			{
 				name: 'fgColor',
 				label: mw.message( 'droplets-circled-number-fg-color-label' ).text(),
+				help: mw.message( 'bs-distributionconnector-droplets-circled-number-color-help' ).text(),
 				type: 'text'
 			},
 			{

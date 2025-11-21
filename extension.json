@@ -473,14 +473,13 @@
 				"stylesheets/bluespice.contentdroplets.subpages.css"
 			],
 			"messages": [
-				"droplets-subpages-namespace-label",
 				"droplets-subpages-namespace-help",
-				"droplets-subpages-parentpage-label",
 				"droplets-subpages-parentpage-help",
-				"droplets-subpages-cols-label",
-				"droplets-subpages-cols-help",
-				"droplets-subpages-bullets-label",
-				"droplets-subpages-bullets-help"
+				"bs-distributionconnector-droplets-subpages-namespace-label",
+				"bs-distributionconnector-droplets-subpages-parentpage-label",
+				"bs-distributionconnector-droplets-subpages-cols-label",
+				"bs-distributionconnector-droplets-subpages-cols-help",
+				"bs-distributionconnector-droplets-subpages-bullets-label"
 			]
 		},
 		"ext.bluespice.distribution.droplet.circlednumber": {
@@ -496,7 +495,8 @@
 			"messages": [
 				"droplets-circled-number-bg-color-label",
 				"droplets-circled-number-fg-color-label",
-				"droplets-circled-number-label"
+				"droplets-circled-number-label",
+				"bs-distributionconnector-droplets-circled-number-color-help"
 			]
 		},
 		"ext.bluespice.distribution.droplet.gallery": {
