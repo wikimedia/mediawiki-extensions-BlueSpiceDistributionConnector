@@ -25,31 +25,63 @@
 		const formItems = [
 			{
 				name: 'parentnamespace',
-				label: mw.message( 'droplets-subpages-namespace-label' ).text(),
+				label: mw.message( 'bs-distributionconnector-droplets-subpages-namespace-label' ).text(),
 				type: 'text',
 				help: mw.message( 'droplets-subpages-namespace-help' ).text()
 			},
 			{
 				name: 'parentpage',
-				label: mw.message( 'droplets-subpages-parentpage-label' ).text(),
+				label: mw.message( 'bs-distributionconnector-droplets-subpages-parentpage-label' ).text(),
 				type: 'text',
 				help: mw.message( 'droplets-subpages-parentpage-help' ).text()
 			},
 			{
 				name: 'cols',
-				label: mw.message( 'droplets-subpages-cols-label' ).text(),
-				type: 'text',
-				help: mw.message( 'droplets-subpages-cols-help' ).text()
+				label: mw.message( 'bs-distributionconnector-droplets-subpages-cols-label' ).text(),
+				help: mw.message( 'bs-distributionconnector-droplets-subpages-cols-help' ).text(),
+				type: 'checkbox',
+				labelAlign: 'inline'
 			},
 			{
 				name: 'bullets',
-				label: mw.message( 'droplets-subpages-bullets-label' ).text(),
-				type: 'text',
-				help: mw.message( 'droplets-subpages-bullets-help' ).text()
+				label: mw.message( 'bs-distributionconnector-droplets-subpages-bullets-label' ).text(),
+				type: 'checkbox',
+				labelAlign: 'inline'
 			}
 		];
 
 		return formItems;
+	};
+
+	bs.distributionConnector.object.SubpagesDroplet.prototype.modifyFormDataBeforeSubmission =
+	function ( dataPromise ) {
+		// Convert true/false from checkbox control, to yes/no expected by the ButtonLink template
+		const dfd = $.Deferred();
+		dataPromise.done( ( data ) => {
+			data.cols = data.cols ? 'yes' : 'no';
+			data.bullets = data.bullets ? 'yes' : 'no';
+
+			dfd.resolve( data );
+		} ).fail( function () {
+			dfd.reject( arguments );
+		} );
+
+		return dfd.promise();
+	};
+
+	bs.distributionConnector.object.SubpagesDroplet.prototype.getForm = function ( data ) {
+		// convert yes/no to true and false for checkbox control
+		if ( data.cols === 'yes' || data.cols === 'ja' ) {
+			data.cols = true;
+		} else {
+			data.cols = false;
+		}
+		if ( data.bullets === 'yes' || data.bullets === 'ja' ) {
+			data.bullets = true;
+		} else {
+			data.bullets = false;
+		}
+		return bs.distributionConnector.object.SubpagesDroplet.parent.prototype.getForm.call( this, data );
 	};
 
 	ext.contentdroplets.registry.register( 'subpages', bs.distributionConnector.object.SubpagesDroplet );

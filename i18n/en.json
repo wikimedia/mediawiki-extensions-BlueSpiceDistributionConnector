@@ -110,14 +110,8 @@
 	"droplets-circled-number-bg-color-label": "Background color",
 	"droplets-circled-number-fg-color-label": "Foreground color",
 	"droplets-circled-number-label": "Number",
-	"droplets-subpages-namespace-label": "Namespace",
 	"droplets-subpages-namespace-help": "Leave empty for main namespace",
-	"droplets-subpages-parentpage-label": "Parent page",
 	"droplets-subpages-parentpage-help": "Page whose subpages should be listed",
-	"droplets-subpages-cols-label": "Column layout",
-	"droplets-subpages-cols-help": "\"yes\" creates 3 column layout, \"no\" creates no columns",
-	"droplets-subpages-bullets-label": "Bullet points",
-	"droplets-subpages-bullets-help": "\"no\" removes bullet points",
 	"droplets-map-center-label": "Focus",
 	"droplets-map-center-label-help": "Set location for focus needle, also text for popup is possible. For example: Regensburg ~ My custom text",
 	"droplets-map-center-map-label": "Center of map",
@@ -193,5 +187,11 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Enables automatic login to the wiki",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Group sync settings (JSON)",
 	"action-checkpermissions": "check user permissions",
-	"right-checkpermissions": "Check user permissions on the special page [[Special:Check_Permissions]]"
+	"right-checkpermissions": "Check user permissions on the special page [[Special:Check_Permissions]]",
+	"bs-distributionconnector-droplets-subpages-namespace-label": "Namespace of page",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Parent page",
+	"bs-distributionconnector-droplets-subpages-cols-label": "Use column layout",
+	"bs-distributionconnector-droplets-subpages-cols-help": "When enabled, subpages are displayed in three columns instead of a simple list",
+	"bs-distributionconnector-droplets-subpages-bullets-label": "Use bullet points",
+	"bs-distributionconnector-droplets-circled-number-color-help": "All hex values (e.g., '#3366cc') can be used for colors, as well as CSS color descriptions such as 'white', 'blue' or 'black'"
 }

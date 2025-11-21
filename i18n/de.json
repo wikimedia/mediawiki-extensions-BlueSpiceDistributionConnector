@@ -200,5 +200,11 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Aktiviert die automatische Anmeldung beim Wiki",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Gruppensynchronisierungseinstellungen (JSON)",
 	"action-checkpermissions": "die Benutzerberechtigungen zu überprüfen",
-	"right-checkpermissions": "Überprüfung der Benutzerberechtigungen auf der Spezialseite [[Special:Check_Permissions]]"
+	"right-checkpermissions": "Überprüfung der Benutzerberechtigungen auf der Spezialseite [[Special:Check_Permissions]]",
+	"bs-distributionconnector-droplets-subpages-namespace-label": "Namensraum der Seite",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Übergeordnete Seite",
+	"bs-distributionconnector-droplets-subpages-cols-label": "Spaltenlayout verwenden",
+	"bs-distributionconnector-droplets-subpages-cols-help": "Wenn aktiviert, werden die Unterseiten in drei Spalten statt als einfache Liste angezeigt",
+	"bs-distributionconnector-droplets-subpages-bullets-label": "Aufzählungszeichen verwenden",
+	"bs-distributionconnector-droplets-circled-number-color-help": "Für Farben können alle Hex-Werte (z.B. '#3366cc') verwendet werden, wie auch CSS-Farbbeschreibungen wie z.B. 'white', 'blue' oder 'black'"
 }
