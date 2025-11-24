@@ -7,7 +7,9 @@ use DOMDocument;
 use MediaWiki\Extension\PDFCreator\Utility\ExportPage;
 use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\TitleFactory;
 use MediaWikiLangTestCase;
+use RepoGroup;
 
 /**
  * @covers BlueSpice\DistributionConnector\Integration\PDFCreator\Utility\PDFHandlerThumbFinder
@@ -29,7 +31,12 @@ class PDFHandlerThumbFinderTest extends MediaWikiLangTestCase {
 
 		$pages = $this->getPages();
 
-		$resolver = new PDFHandlerThumbFinder( $config );
+		$resolver = new PDFHandlerThumbFinder(
+			$config,
+			$this->createMock( TitleFactory::class ),
+			$services->getUrlUtils(),
+			$this->createMock( RepoGroup::class )
+		);
 		$data = $resolver->execute( $pages, [] );
 		$this->assertEquals( 'page1-600px-Test.pdf.jpg', $data[ 0 ]->getFilename() );
 
