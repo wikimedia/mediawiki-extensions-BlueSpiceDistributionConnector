@@ -5,58 +5,8 @@ namespace BlueSpice\DistributionConnector\Integration\PDFCreator\Utility;
 use DOMDocument;
 use DOMElement;
 use DOMXPath;
-use MediaWiki\Config\Config;
-use MediaWiki\Extension\PDFCreator\Utility\WikiFileResource;
 
-class PDFHandlerThumbFinder {
-
-	/** @var Config */
-	protected $config;
-
-	/** @var array */
-	protected $data = [];
-
-	/** @var array */
-	protected $filenames = [];
-
-	/**
-	 * @param Config $config
-	 */
-	public function __construct( Config $config	) {
-		$this->config = $config;
-	}
-
-	/**
-	 * @param array $pages
-	 * @param array $resources
-	 * @return array
-	 */
-	public function execute( array $pages, array $resources = [] ): array {
-		$files = [];
-
-		foreach ( $resources as $filename => $resourcePath ) {
-			$this->data[$filename] = [
-				'src' => [],
-				'absPath' => $resourcePath,
-				'filename' => $filename
-			];
-		}
-
-		foreach ( $pages as $page ) {
-			$dom = $page->getDOMDocument();
-			$this->find( $dom );
-		}
-
-		foreach ( $this->data as $data ) {
-			$files[] = new WikiFileResource(
-				$data['src'],
-				$data['absPath'],
-				$data['filename']
-			);
-		}
-
-		return $files;
-	}
+class PDFHandlerThumbFinder extends PDFHandlerImageFinder {
 
 	/**
 	 * @param DOMDocument $dom
@@ -69,88 +19,41 @@ class PDFHandlerThumbFinder {
 			$dom
 		);
 
-		/** @var FileResolver */
-		$fileResolver = $this->getFileResolver();
-
-		foreach ( $figures as $figure ) {
-			if ( $figure instanceof DOMElement === false ) {
-				continue;
-			}
-			$images = $figure->getElementsByTagName( 'img' );
-			/** @var DOMElement */
-			foreach ( $images as $image ) {
-				if ( !$image->hasAttribute( 'src' ) ) {
-					continue;
-				}
-
-				$fileData = $fileResolver->execute( $image );
-				if ( !$fileData ) {
-					continue;
-				}
-
-				$filename = $fileData['filename'];
-				$absPath = $fileData['absPath'];
-
-				$filename = $this->uncollideFilenames( $filename, $absPath );
-				$url = $image->getAttribute( 'src' );
-
-				if ( !isset( $this->data[$filename] ) ) {
-					$this->data[$filename] = [
-						'src' => [ $url ],
-						'absPath' => $absPath,
-						'filename' => str_replace( ':', '_', $filename )
-					];
-				} elseif ( $this->data[$filename]['absPath'] === $absPath ) {
-					$urls = &$this->data[$filename]['src'];
-					if ( !in_array( $url, $urls ) ) {
-						$urls[] = $url;
-					}
-				}
-
-				$classes = $image->getAttribute( 'class' );
-				$classes .= ' pdfhandler-thumb';
-				$image->setAttribute( 'class', trim( $classes ) );
-
-				if ( $image->hasAttribute( 'srcset' ) ) {
-					$image->setAttribute( 'srcset', '' );
-				}
-			}
-		}
+		$this->processFigures( $figures );
 	}
 
 	/**
+	 * @param DOMElement $element
+	 * @param string $url
+	 * @param string $filename
+	 * @param string $prefixedDBKey
 	 * @return void
 	 */
-	protected function getFileResolver() {
-		return new PDFHandlerThumbFileResolver( $this->config );
-	}
+	protected function appendLink( DOMElement $element, string $url, string $filename, string $prefixedDBKey ): void {
+		// Embedding attachments did not work if link has a img tag as child.
+		// To solve this we add a new link in thumb caption.
+		$container = $element->ownerDocument->createElement( 'div' );
+		$container->setAttribute( 'class', 'pdfhander-caption' );
 
-	/**
-	 * @param string $filename
-	 * @param array $absPath
-	 * @return string
-	 */
-	protected function uncollideFilenames( string $filename, string $absPath ): string {
-		if ( !isset( $this->data[$filename] ) ) {
-			return $filename;
+		$link = $element->ownerDocument->createElement( 'a', "({$filename})" );
+		$link->setAttribute( 'class', 'pdfhandler-media' );
+		$link->setAttribute( 'href', $url );
+		$link->setAttribute( 'data-prefixeddbkey', $prefixedDBKey );
+
+		$container->appendChild( $link );
+
+		if ( $element instanceof DOMElement && $element->hasChildNodes() ) {
+			foreach ( $element->childNodes as $childNode ) {
+				if ( $childNode->nodeName !== 'figcaption' ) {
+					continue;
+				}
+
+				if ( $childNode->nodeValue !== '' ) {
+					$childNode->nodeValue .= " ";
+				}
+
+				$childNode->appendChild( $container );
+			}
 		}
-
-		if ( $this->data[$filename]['absPath'] === $absPath ) {
-			return $filename;
-		}
-
-		$extPos = strrpos( $filename, '.' );
-		$ext = substr( $filename, $extPos + 1 );
-		$name = substr( $filename, 0, $extPos );
-
-		$uncollide = 1;
-		$newFilename = $filename;
-
-		while ( isset( $this->data[$newFilename] ) && $this->data[$newFilename]['absPath'] !== $absPath ) {
-			$uncollideStr = (string)$uncollide;
-			$newFilename = "{$name}_{$uncollideStr}.{$ext}";
-			$uncollide++;
-		}
-		return $newFilename;
 	}
 }

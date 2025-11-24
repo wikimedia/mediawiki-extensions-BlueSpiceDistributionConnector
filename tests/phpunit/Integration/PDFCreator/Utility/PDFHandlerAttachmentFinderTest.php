@@ -12,6 +12,7 @@ use MediaWiki\Title\Title;
 use MediaWiki\Title\TitleFactory;
 use MediaWiki\Utils\UrlUtils;
 use MediaWikiLangTestCase;
+use PHPUnit\Framework\MockObject\MockObject;
 use RepoGroup;
 
 /**
@@ -33,8 +34,7 @@ class PDFHandlerAttachmentFinderTest extends MediaWikiLangTestCase {
 		$titleFactory = $this->mockTitleFactory();
 		$config = $services->getMainConfig();
 		$repoGroup = $this->mockRepoGroup();
-		$urlUtils = $this->mockUrlUtils();
-		$fileFinder = new PDFHandlerAttachmentFinder( $titleFactory, $config, $repoGroup, $urlUtils );
+		$fileFinder = new PDFHandlerAttachmentFinder( $titleFactory, $config, $repoGroup );
 
 		$actual = $fileFinder->execute( $this->getPages() );
 		$expected = [
@@ -131,7 +131,7 @@ class PDFHandlerAttachmentFinderTest extends MediaWikiLangTestCase {
 		$localTitleFactory = $this->getMockBuilder( TitleFactory::class )
 			->disableOriginalConstructor()
 			->getMock();
-		$localTitleFactory->method( 'newFromText' )->willReturnCallback( function ( $text ) {
+		$localTitleFactory->method( 'newFromDBkey' )->willReturnCallback( function ( $text ) {
 			$titleMock = $this->getMockBuilder( Title::class )
 				->disableOriginalConstructor()
 				->getMock();
@@ -143,6 +143,9 @@ class PDFHandlerAttachmentFinderTest extends MediaWikiLangTestCase {
 				return NS_FILE;
 			} );
 			$titleMock->method( 'getDBkey' )->willReturnCallback( static function () {
+				return 'Test.pdf';
+			} );
+			$titleMock->method( 'getPrefixedText' )->willReturnCallback( static function () {
 				return 'Test.pdf';
 			} );
 			return $titleMock;
