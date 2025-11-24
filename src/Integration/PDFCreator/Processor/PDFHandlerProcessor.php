@@ -3,10 +3,11 @@
 namespace BlueSpice\DistributionConnector\Integration\PDFCreator\Processor;
 
 use BlueSpice\DistributionConnector\Integration\PDFCreator\Utility\PDFHandlerAttachmentFinder;
+use BlueSpice\DistributionConnector\Integration\PDFCreator\Utility\PDFHandlerImageFinder;
 use BlueSpice\DistributionConnector\Integration\PDFCreator\Utility\PDFHandlerThumbFinder;
 use MediaWiki\Config\Config;
 use MediaWiki\Extension\PDFCreator\Processor\ImageProcessor;
-use MediaWiki\Extension\PDFCreator\Utility\AttachmentUrlUpdater;
+use MediaWiki\Extension\PDFCreator\Utility\BoolValueGet;
 use MediaWiki\Extension\PDFCreator\Utility\ExportContext;
 use MediaWiki\Extension\PDFCreator\Utility\ImageUrlUpdater;
 use MediaWiki\Extension\PDFCreator\Utility\WikiFileResource;
@@ -56,33 +57,46 @@ class PDFHandlerProcessor extends ImageProcessor {
 		array &$pages, array &$images, array &$attachments,
 		?ExportContext $context = null, string $module = '', $params = []
 	): void {
-		// Find PDFHandler thumbs
-		$imageFinder = new PDFHandlerThumbFinder( $this->config );
-		$PdfImages = $imageFinder->execute( $pages, $images );
+		// Find PDFHandler images
+		$imageFinder = new PDFHandlerImageFinder( $this->config, $this->titleFactory, $this->urlUtils, $this->repoGroup );
+		$pdfImages = $imageFinder->execute( $pages, $images );
 
 		/** @var WikiFileResource */
-		foreach ( $PdfImages as $result ) {
+		foreach ( $pdfImages as $result ) {
 			$filename = $result->getFilename();
 			$images[$filename] = $result->getAbsolutePath();
 		}
 
-		// Update thumb url
-		$imageUrlUpdater = new ImageUrlUpdater();
-		$imageUrlUpdater->execute( $pages, $PdfImages );
+		// Find PDFHandler thumbs
+		$thumbFinder = new PDFHandlerThumbFinder( $this->config, $this->titleFactory, $this->urlUtils, $this->repoGroup );
+		$pdfThumbs = $thumbFinder->execute( $pages, $images );
 
-		// Find corresponding attachments
-		$attachmentFinder = new PDFHandlerAttachmentFinder( $this->titleFactory, $this->config, $this->repoGroup, $this->urlUtils );
-		$PdfAttachments = $attachmentFinder->execute( $pages, $attachments );
+		/** @var WikiFileResource */
+		foreach ( $pdfThumbs as $result ) {
+			$filename = $result->getFilename();
+			$images[$filename] = $result->getAbsolutePath();
+		}
+
+		// Update image url
+		$imageUrlUpdater = new ImageUrlUpdater();
+		$imageUrlUpdater->execute( $pages, $pdfImages );
+		$imageUrlUpdater->execute( $pages, $pdfThumbs );
+
+		if ( !isset( $params['attachments'] ) || !BoolValueGet::from( $params['attachments'] ) ) {
+			return;
+		}
+
+		// Find corresponding attachments and update attachment url and embedd attatchments
+		$attachmentFinder = new PDFHandlerAttachmentFinder(
+			$this->titleFactory, $this->config, $this->repoGroup
+		);
+		$PdfAttachments = $attachmentFinder->execute( $pages, $images );
 
 		/** @var WikiFileResource */
 		foreach ( $PdfAttachments as $result ) {
 			$filename = $result->getFilename();
 			$attachments[$filename] = $result->getAbsolutePath();
 		}
-
-		// Update attachment url and embedd attatchments
-		$attachmentUrlUpdater = new AttachmentUrlUpdater();
-		$attachmentUrlUpdater->execute( $pages, $PdfAttachments );
 
 		// Update thumb width
 		// In PDFHandlerThumbFinder the width is already handled.
@@ -92,6 +106,6 @@ class PDFHandlerProcessor extends ImageProcessor {
 	 * @inheritDoc
 	 */
 	public function getPosition(): int {
-		return 95;
+		return 85;
 	}
 }
