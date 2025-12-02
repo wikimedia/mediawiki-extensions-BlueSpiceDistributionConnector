@@ -4,6 +4,7 @@
 			"Joao Xavier"
 		]
 	},
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Nomaro (''namespace'')",
 	"bs-distributionconnector-workflows-form-label-editor": "Redaktero",
 	"bs-distributionconnector-workflows-form-label-reviewer": "Revizero",
 	"bs-distributionconnector-workflows-form-instructions-reviewer": "Instrukti por la revizero",
@@ -14,6 +15,5 @@
 	"bs-support": "Suporto",
 	"bs-distributionconnector-pref-eventbus-eventservicedefault-help": "Uzez ca evento-servado kom predeterminita (''default'') por omna eventi",
 	"bs-distributionconnector-checkpermissions-label-user": "Uzero",
-	"bs-distributionconnector-checkpermissions-label-title": "Titulo",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Nomaro (''namespace'')"
+	"bs-distributionconnector-checkpermissions-label-title": "Titulo"
 }
