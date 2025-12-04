@@ -7,7 +7,6 @@ use MediaWiki\Status\Status;
 use MediaWiki\Title\TitleFactory;
 use MWStake\MediaWiki\Component\CommonWebAPIs\Data\TitleQueryStore\Store;
 use MWStake\MediaWiki\Component\CommonWebAPIs\Data\TitleQueryStore\TitleRecord;
-use MWStake\MediaWiki\Component\DataStore\Filter;
 use MWStake\MediaWiki\Component\DataStore\ReaderParams;
 use RevisionSearchResult;
 use SearchEngine;
@@ -100,16 +99,7 @@ class BlueSpiceTitleSearch extends SearchEngine {
 			];
 		}
 		if ( $term ) {
-			if ( $mustStartWithTerm ) {
-				$params['filter'][] = [
-					'type' => 'string',
-					'value' => $term,
-					'operator' => Filter\StringValue::COMPARISON_STARTS_WITH,
-					'property' => 'title',
-				];
-			} else {
-				$params['query'] = $term;
-			}
+			$params['query'] = $term;
 		}
 		$params = new ReaderParams( $params );
 		$res = $this->store->getReader()->read( $params );
