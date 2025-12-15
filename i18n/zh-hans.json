@@ -21,6 +21,7 @@
 			"LaoShuBaby",
 			"LittlePaw365",
 			"Nervie",
+			"Peterxy12",
 			"Qiyue2001",
 			"Stang",
 			"StarrySky",
@@ -213,5 +214,16 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "启用自动登录wiki",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "群组同步设置 (JSON)",
 	"action-checkpermissions": "检查用户权限",
-	"right-checkpermissions": "在特殊页面 [[Special:Check_Permissions]] 检查用户权限"
+	"right-checkpermissions": "在特殊页面 [[Special:Check_Permissions]] 检查用户权限",
+	"bs-distributionconnector-statistics-report-page-hits-desc": "所选定的期间和间隔内的页面浏览量",
+	"bs-distributionconnector-statistics-report-page-trends-desc": "所选定的期间和间隔内页面浏览量的百分比发展",
+	"bs-distributionconnector-statistics-report-page-hits-relation-desc": "选定时段和间隔内的页面浏览量与总浏览量的关系",
+	"droplets-create-input-preload-help": "从应将其预先载入到新页面的内容来提供现有页面名称",
+	"droplets-create-input-prefix-help": "指定要放置在输入字段之前的前缀。前缀可以是名称空间或任何其他文字。若不使用前缀，请将字段留空",
+	"droplets-create-input-alignment-help": "选择页面上输入栏位的对齐方式。您可以挑选输入栏位是靠左对齐、靠右对齐、或是置中",
+	"bs-distributionconnector-videodropletinspector-cover-label": "封面",
+	"bs-distributionconnector-videodropletinspector-cover-help": "视频封面",
+	"bs-distributionconnector-videodropletinspector-cover-placeholder": "选择视频封面...",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "行内",
+	"bs-distributionconnector-videodropletinspector-container-help": "若有选择，视频会显示在图框内"
 }
