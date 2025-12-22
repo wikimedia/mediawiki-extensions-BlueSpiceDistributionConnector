@@ -35,7 +35,8 @@
 			"沈澄心",
 			"落花有意12138",
 			"铁桶",
-			"飞小RAN"
+			"飞小RAN",
+			"Peterxy12"
 		]
 	},
 	"bs-distributionconnector-extension-description": "将BlueSpice连接到各种MediaWiki的扩展",
@@ -162,10 +163,13 @@
 	"bs-distributionconnector-statistics-report-page-hits-axis-label": "查看次数",
 	"droplets-create-input-button-label": "按钮上的文字",
 	"droplets-create-input-preload-label": "预加载页面内容",
+	"droplets-create-input-preload-help": "从应将其预先载入到新页面的内容来提供现有页面名称",
 	"droplets-create-input-placeholder-label": "占位符文本",
 	"droplets-create-input-placeholder-help": "输入要在此输入字段中显示的占位符文本",
 	"droplets-create-input-prefix-label": "页面名称的前缀",
+	"droplets-create-input-prefix-help": "指定要放置在输入字段之前的前缀。前缀可以是名称空间或任何其他文字。若不使用前缀，请将字段留空",
 	"droplets-create-input-alignment-label": "对齐",
+	"droplets-create-input-alignment-help": "选择页面上输入栏位的对齐方式。您可以挑选输入栏位是靠左对齐、靠右对齐、或是置中",
 	"droplets-create-input-alignment-left-label": "左",
 	"droplets-create-input-alignment-right-label": "右",
 	"droplets-create-input-alignment-center-label": "居中",
@@ -207,6 +211,7 @@
 	"bs-distributionconnector-videodropletinspector-alignment-center": "居中的",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "右",
 	"bs-distributionconnector-videodropletinspector-container-label": "加框",
+	"bs-distributionconnector-videodropletinspector-container-help": "若有选择，视频会显示在图框内",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "数据对象 (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "按钮标签",
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "插件名称",
