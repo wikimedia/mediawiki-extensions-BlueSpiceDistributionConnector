@@ -4,11 +4,5 @@
 			"Semina x"
 		]
 	},
-	"bs-distributionconnector-yourdomainname": "Vaša domena",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Režim:",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Dubina",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Sakrij root",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Pokaži brojač",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Sakrij prefiks",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Imenski prostor"
+	"bs-distributionconnector-yourdomainname": "Vaša domena"
 }

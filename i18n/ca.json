@@ -6,10 +6,5 @@
 		]
 	},
 	"bs-distributionconnector-extension-description": "Connecta BlueSpice a diverses extensions MediaWiki",
-	"bs-distributionconnector-yourdomainname": "El vostre domini",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Mode",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Profunditat",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Amaga l'arrel",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Amaga el prefix",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Estil de marca CSS"
+	"bs-distributionconnector-yourdomainname": "El vostre domini"
 }

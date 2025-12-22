@@ -10,8 +10,6 @@
 	},
 	"bs-distributionconnector-yourdomainname": "Twoja domena",
 	"bs-distributionconnector-ve-categorytreeinpector-title": "Drzewo kategorii",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Ukryj przedrostek",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Przestrzeń nazw",
 	"bs-distributionconnector-setting-path-authentication": "Uwierzytelnianie",
 	"bs-distributionconnector-pref-openidconnect-config-clientsecret": "Sekret klienta",
 	"bs-distributionconnector-pref-openidconnect-config-icon": "URL ikony",
@@ -26,8 +24,6 @@
 	"bs-distributionconnector-checkpermissions-label-user": "Użytkownik",
 	"bs-distributionconnector-checkpermissions-label-title": "Tytuł",
 	"droplets-circled-number-bg-color-label": "Kolor tła",
-	"droplets-subpages-namespace-label": "Przestrzeń nazw",
-	"droplets-subpages-parentpage-label": "Strona nadrzędna",
 	"droplets-map-center-map-label": "Środek mapy",
 	"droplets-buttonlink-label-label": "Tekst na przycisku",
 	"droplets-buttonlink-format-label": "Kolor tła",
@@ -45,5 +41,6 @@
 	"bs-distributionconnector-videodropletinspector-description-label": "Opis",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "Wyrównanie",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Etykieta przycisku",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nazwa wtyczki"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nazwa wtyczki",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Strona nadrzędna"
 }

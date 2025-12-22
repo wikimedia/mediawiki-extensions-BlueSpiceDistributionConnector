@@ -20,13 +20,6 @@
 	"bs-distributionconnector-yourdomainname": "Ваш домен",
 	"bs-distributionconnector-ve-categorytreeinpector-title": "Дерево категорий",
 	"bs-distributionconnector-ve-categorytree-title": "Дерево категорий",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Режим",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Глубина",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Скрыть корень",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Показать корень",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Скрыть префикс",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Пространство имён",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Тег CSS",
 	"bs-distributionconnector-setting-path-authentication": "Аутентификация",
 	"bs-distributionconnector-pref-openidconnect-config": "Провайдер",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Использовать настоящее имя в качестве имени участника",
@@ -96,10 +89,7 @@
 	"droplets-circled-number-bg-color-label": "Цвет  фона",
 	"droplets-circled-number-fg-color-label": "Цвет текста",
 	"droplets-circled-number-label": "Число",
-	"droplets-subpages-namespace-label": "Пространство имён",
 	"droplets-subpages-namespace-help": "Оставьте пустым для основного пространства имён",
-	"droplets-subpages-parentpage-label": "Родительская страница",
-	"droplets-subpages-cols-label": "Расположение столбцов",
 	"droplets-map-center-label": "Фокус",
 	"droplets-map-center-map-label": "Центр карты",
 	"droplets-buttonlink-external-label": "Внешняя ссылка",
@@ -136,5 +126,6 @@
 	"bs-distributionconnector-videodropletinspector-alignment-right": "справа",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Объект данных (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Метка кнопки",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Название плагина"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Название плагина",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Родительская страница"
 }

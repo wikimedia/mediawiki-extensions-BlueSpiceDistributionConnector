@@ -7,13 +7,6 @@
 	"bs-distributionconnector-yourdomainname": "ستاسې واک‌سيمه",
 	"bs-distributionconnector-ve-categorytreeinpector-title": "وېشنيزه‌ونه",
 	"bs-distributionconnector-ve-categorytree-title": "وېشنيزه‌ونه",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "ونگ‌ډول",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "ژوروالی",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "ريښه پټول",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "شمېر ښودل",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "مختاړی پټول",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "نوم‌تشيال",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "د سي‌اېس‌اېس ښودبڼې نښلن",
 	"bs-distributionconnector-setting-path-authentication": "کره‌توب",
 	"bs-distributionconnector-pref-openidconnect-config": "چمتو‌ کوونکی",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "ار نوم د کارن‌نوم په توگه کارول",
@@ -73,5 +66,6 @@
 	"bs-distributionconnector-checkpermissions-label-permission": "پرېښولی",
 	"bs-distributionconnector-checkpermissions-label-title": "سرليک",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "چمتو‌شوی کارن‌نوم ناچله دی",
-	"bs-distributionconnector-checkpermissions-error-invalid-title": "چمتو‌شوی سرليک ناچله دی"
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "چمتو‌شوی سرليک ناچله دی",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-pages-label": "مخونه"
 }

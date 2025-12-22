@@ -13,13 +13,6 @@
 	"bs-distributionconnector-yourdomainname": "دامنهٔ شما",
 	"bs-distributionconnector-ve-categorytreeinpector-title": "درخت رده",
 	"bs-distributionconnector-ve-categorytree-title": "درخت رده",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "حالت",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "عمق",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "پنهان‌سازی ریشه",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "نمایش تعداد",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "نهفتن پیشوند",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "فضای نام",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "برچسب استایل سی‌اس‌اس",
 	"bs-distributionconnector-setting-path-authentication": "اعتبارسنجی",
 	"bs-distributionconnector-pref-openidconnect-config": "ارائه‌دهنده",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "استفاده از نام واقعی به‌عنوان نام کاربری",
@@ -72,8 +65,6 @@
 	"droplets-circled-number-bg-color-label": "رنگ پس‌زمینه",
 	"droplets-circled-number-fg-color-label": "رنگ پیش‌زمینه",
 	"droplets-circled-number-label": "شماره",
-	"droplets-subpages-namespace-label": "فضای نام",
-	"droplets-subpages-parentpage-label": "صفحه والد",
 	"droplets-map-center-map-label": "وسط نقشه",
 	"droplets-buttonlink-external-label": "پیوند به بیرون",
 	"droplets-buttonlink-target-label": "هدف",
@@ -98,5 +89,6 @@
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "برچسب دکمه",
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "نام افزونه",
 	"action-checkpermissions": "بررسی اختیارات کاربر",
-	"right-checkpermissions": "بررسی اختیارات کاربر در صفحهٔ ویژهٔ [[Special:Check_Permissions]]"
+	"right-checkpermissions": "بررسی اختیارات کاربر در صفحهٔ ویژهٔ [[Special:Check_Permissions]]",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "صفحه والد"
 }

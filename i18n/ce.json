@@ -8,13 +8,6 @@
 	"bs-distributionconnector-yourdomainname": "Хьан домен",
 	"bs-distributionconnector-ve-categorytreeinpector-title": "Категорин дитта",
 	"bs-distributionconnector-ve-categorytree-title": "Категорин дитта",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Раж",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "КӀоргалла",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Къайлайаккха орам",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Гайта орам",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Къайлайаккха префикс",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "ЦӀерийн меттиг",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS тег",
 	"bs-distributionconnector-setting-path-authentication": "Аутентификаци",
 	"bs-distributionconnector-pref-openidconnect-config": "Провайдер",
 	"bs-distributionconnector-pref-openidconnect-forcelogout": "Ницкъбина арабовлар",
@@ -81,9 +74,6 @@
 	"droplets-circled-number-bg-color-label": "Фонан бос",
 	"droplets-circled-number-fg-color-label": "Текстан бос",
 	"droplets-circled-number-label": "Терахь",
-	"droplets-subpages-namespace-label": "ЦӀерийн меттиг",
-	"droplets-subpages-parentpage-label": "Да-нана агӀо",
-	"droplets-subpages-cols-label": "БӀогӀамаш дӀахӀиттор",
 	"droplets-map-center-label": "Фокус",
 	"droplets-map-center-map-label": "Картин центр",
 	"droplets-buttonlink-external-label": "Арахьара хьажорг",
@@ -121,5 +111,6 @@
 	"bs-distributionconnector-videodropletinspector-container-label": "Гура",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Хаамийн объект (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Нуьйдин билгало",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Плагинан цӀе"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Плагинан цӀе",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Да-нана агӀо"
 }

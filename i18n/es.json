@@ -26,13 +26,6 @@
 	"bs-distributionconnector-yourdomainname": "{{#FORMAL:Tu|Su}} dominio",
 	"bs-distributionconnector-ve-categorytreeinpector-title": "Árbol de categorías",
 	"bs-distributionconnector-ve-categorytree-title": "Árbol de categorías",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Modo",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Profundidad",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Ocultar raíz",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Mostrar recuento",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Ocultar prefijo",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Espacio de nombres",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Etiqueta de estilo CSS",
 	"bs-distributionconnector-setting-path-authentication": "Autenticación",
 	"bs-distributionconnector-pref-openidconnect-config": "Proveedor",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Use su nombre real como su nombre de usuario",
@@ -120,10 +113,7 @@
 	"droplets-circled-number-bg-color-label": "Color de fondo",
 	"droplets-circled-number-fg-color-label": "Color de primer plano",
 	"droplets-circled-number-label": "Número",
-	"droplets-subpages-namespace-label": "Espacio de nombre",
 	"droplets-subpages-namespace-help": "Dejar vacío para el espacio de nombres principal",
-	"droplets-subpages-parentpage-label": "Página principal",
-	"droplets-subpages-cols-label": "Disposición de columnas",
 	"droplets-map-center-label": "Foco",
 	"droplets-map-center-map-label": "Centro del mapa",
 	"droplets-map-center-map-label-help": "Ubicación que está en el centro del mapa. Por ejemplo: Ratisbona, Alemania",
@@ -170,5 +160,6 @@
 	"bs-distributionconnector-videodropletinspector-alignment-right": "derecha",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Objeto de datos (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Etiqueta de botón",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nombre de complemento"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nombre de complemento",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Página principal"
 }

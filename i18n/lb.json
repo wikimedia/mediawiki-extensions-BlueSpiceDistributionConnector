@@ -5,9 +5,6 @@
 			"Volvox"
 		]
 	},
-	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Modus",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Déift",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Nummraum",
 	"bs-distributionconnector-workflows-form-groupname": "Grupp",
 	"bs-distributionconnector-workflows-form-instructions": "Instruktiounen",
 	"bs-distributionconnector-workflows-form-username": "Benotzer",
@@ -32,7 +29,6 @@
 	"bs-distributionconnector-checkpermissions-label-title": "Titel",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "De Benotzernumm, deen ugi gouf, ass ongülteg",
 	"bs-distributionconnector-notification-logged-in": "Dir sidd elo ageloggt",
-	"droplets-subpages-namespace-label": "Nummraum",
 	"droplets-buttonlink-external-label": "Externe Link",
 	"droplets-buttonlink-format-label": "Hannergrondfaarf",
 	"droplets-buttonlink-format-blue": "blo",
@@ -60,5 +56,11 @@
 	"bs-distributionconnector-videodropletinspector-alignment-left": "lénks",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "zentréiert",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "riets",
-	"action-checkpermissions": "Benotzerrechter iwwerpréiwen"
+	"action-checkpermissions": "Benotzerrechter iwwerpréiwen",
+	"bs-distributionconnector-droplets-subpages-namespace-label": "Nummraum vun der Säit",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-cat-label": "Kategorien",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-pages-label": "Säiten",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-all-label": "Alles",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-parents-label": "Iwwerkategorien",
+	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Nummraim sichen"
 }

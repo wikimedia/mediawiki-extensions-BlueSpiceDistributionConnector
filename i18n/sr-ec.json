@@ -6,9 +6,6 @@
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "Ваш домен",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Режим",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Дубина",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Именски простор",
 	"bs-distributionconnector-setting-path-authentication": "Аутентификација",
 	"bs-distributionconnector-pref-openidconnect-config": "Провајдер",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Користи право име као корисничко име",
@@ -47,7 +44,6 @@
 	"bs-distributionconnector-videodropletinspector-service-label": "Услуга",
 	"droplets-circled-number-bg-color-label": "Боја позадине",
 	"droplets-circled-number-label": "Број",
-	"droplets-subpages-namespace-label": "Именски простор",
 	"droplets-map-center-label": "Фокус",
 	"droplets-buttonlink-external-label": "Спољашња веза",
 	"droplets-buttonlink-target-label": "Циљ",
@@ -87,5 +83,8 @@
 	"bs-distributionconnector-videodropletinspector-alignment-center": "центар",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "десно",
 	"bs-distributionconnector-videodropletinspector-container-label": "Оквир",
-	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Омогућује аутоматско пријављивање на вики"
+	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Омогућује аутоматско пријављивање на вики",
+	"bs-distributionconnector-droplets-subpages-namespace-label": "Именски простор странице",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-cat-label": "Категорије",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-pages-label": "Странице"
 }
