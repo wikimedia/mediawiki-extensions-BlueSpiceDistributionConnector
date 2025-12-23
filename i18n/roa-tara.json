@@ -8,13 +8,6 @@
 	"bs-distributionconnector-yourdomainname": "'U dominie tune",
 	"bs-distributionconnector-ve-categorytreeinpector-title": "Arvule de le categorije",
 	"bs-distributionconnector-ve-categorytree-title": "Arvule de le categorije",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Mode",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Profunnetà",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Scunne 'a radice",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Fà 'ndrucà 'u condegge",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Scunne 'u prefisse",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Namespace",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Tag de stile CSS",
 	"bs-distributionconnector-setting-path-authentication": "Autendicazione",
 	"bs-distributionconnector-pref-openidconnect-config": "Provider",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Ause 'u nome vere cumme nome utende",
@@ -51,6 +44,5 @@
 	"bs-distributionconnector-checkpermissions-label-user": "Utende",
 	"bs-distributionconnector-checkpermissions-label-permission": "Permesse",
 	"bs-distributionconnector-checkpermissions-label-title": "Titole",
-	"droplets-circled-number-label": "Numere",
-	"droplets-subpages-namespace-label": "Namespace"
+	"droplets-circled-number-label": "Numere"
 }

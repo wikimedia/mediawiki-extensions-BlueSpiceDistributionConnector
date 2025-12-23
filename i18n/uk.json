@@ -14,13 +14,6 @@
 	"bs-distributionconnector-yourdomainname": "Ваш домен",
 	"bs-distributionconnector-ve-categorytreeinpector-title": "Дерево категорій",
 	"bs-distributionconnector-ve-categorytree-title": "Дерево категорій",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Режим",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Глибина",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Приховати корінь",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Показати кількість",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Приховати префікс",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Простір назв",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Тег стилю CSS",
 	"bs-distributionconnector-setting-path-authentication": "Автентифікація",
 	"bs-distributionconnector-pref-openidconnect-config": "Провайдер",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Використовувати справжнє ім'я як ім'я користувача",
@@ -107,7 +100,6 @@
 	"droplets-circled-number-bg-color-label": "Колір тла",
 	"droplets-circled-number-fg-color-label": "Колір переднього плану",
 	"droplets-circled-number-label": "Число",
-	"droplets-subpages-namespace-label": "Простір назв",
 	"droplets-video-description": "Вставляє відео з різних платформ",
 	"droplets-pdflink-name": "PDF посилання"
 }

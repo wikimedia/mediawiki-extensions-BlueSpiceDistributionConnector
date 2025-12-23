@@ -3,9 +3,6 @@
 		"authors": []
 	},
 	"bs-distributionconnector-yourdomainname": "Vaš domen",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Režim",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Dubina",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Imenski prostor",
 	"bs-distributionconnector-setting-path-authentication": "Autentifikacija",
 	"bs-distributionconnector-pref-openidconnect-config": "Provajder",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Koristi pravo ime kao korisničko ime",
@@ -44,7 +41,6 @@
 	"bs-distributionconnector-videodropletinspector-service-label": "Usluga",
 	"droplets-circled-number-bg-color-label": "Boja pozadine",
 	"droplets-circled-number-label": "Broj",
-	"droplets-subpages-namespace-label": "Imenski prostor",
 	"droplets-map-center-label": "Fokus",
 	"droplets-buttonlink-external-label": "Spoljašnja veza",
 	"droplets-buttonlink-target-label": "Cilj",

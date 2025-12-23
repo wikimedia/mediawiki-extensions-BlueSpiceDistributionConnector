@@ -6,9 +6,6 @@
 		]
 	},
 	"bs-distributionconnector-yourdomainname": "Dit domæne",
-	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Tilstand",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Dybde",
-	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Navnerum",
 	"bs-distributionconnector-pref-openidconnect-config": "Udbyder",
 	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "Brug rigtige navn som brugernavn",
 	"bs-distributionconnector-pref-openidconnect-useemailasusername": "Brug e-mailadresse som brugernavn",
