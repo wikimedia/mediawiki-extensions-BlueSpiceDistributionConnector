@@ -226,5 +226,6 @@
 	"bs-distributionconnector-videodropletinspector-alignment-inline": "مضمن",
 	"bs-distributionconnector-statistics-report-page-hits-desc": "عدد مرات مشاهدة الصفحة في الفترة والفاصل الزمني المحددين",
 	"bs-distributionconnector-statistics-report-page-trends-desc": "النسبة المئوية لتطور مشاهدات الصفحة خلال الفترة والفاصل الزمني المحددين",
-	"bs-distributionconnector-statistics-report-page-hits-relation-desc": "عدد مرات مشاهدة الصفحة في الفترة والفاصل الزمني المحددين بالنسبة إلى العدد الإجمالي للمشاهدات"
+	"bs-distributionconnector-statistics-report-page-hits-relation-desc": "عدد مرات مشاهدة الصفحة في الفترة والفاصل الزمني المحددين بالنسبة إلى العدد الإجمالي للمشاهدات",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "الصفحة الأصل"
 }

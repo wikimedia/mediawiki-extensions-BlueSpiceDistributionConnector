@@ -221,5 +221,6 @@
 	"bs-distributionconnector-statistics-report-page-hits-relation-desc": "צפיות בדף בתקופה ובמרווח שנבחרו ביחס למספר הצפיות הכולל",
 	"bs-distributionconnector-videodropletinspector-cover-label": "עטיפה",
 	"bs-distributionconnector-videodropletinspector-cover-help": "עטיפת הווידאו",
-	"bs-distributionconnector-videodropletinspector-cover-placeholder": "נא לבחור עטיפה לווידאו"
+	"bs-distributionconnector-videodropletinspector-cover-placeholder": "נא לבחור עטיפה לווידאו",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "דף הורה"
 }

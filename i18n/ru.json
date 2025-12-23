@@ -152,5 +152,6 @@
 	"bs-distributionconnector-videodropletinspector-service-label": "Служба",
 	"droplets-subpages-namespace-help": "Оставьте пустым для основного пространства имён",
 	"droplets-create-input-placeholder-label": "Текст-заполнитель",
-	"droplets-pdf-link-page-label": "Страница для экспорта"
+	"droplets-pdf-link-page-label": "Страница для экспорта",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Родительская страница"
 }

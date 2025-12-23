@@ -188,5 +188,6 @@
 	"droplets-categorytree-description": "Categorias selecionadas são mostradas em uma estrutura de árvore",
 	"bs-distributionconnector-pref-eventbus-enableeventbus": "Ativar EventBus para os seguintes eventos",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-help": "Ativar EventBus para os eventos selecionados.",
-	"bs-distributionconnector-pref-eventbus-eventservicedefault": "Serviço de evento predeterminado"
+	"bs-distributionconnector-pref-eventbus-eventservicedefault": "Serviço de evento predeterminado",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Página mãe"
 }

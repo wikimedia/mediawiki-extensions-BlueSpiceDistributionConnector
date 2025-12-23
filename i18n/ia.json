@@ -215,5 +215,6 @@
 	"bs-distributionconnector-videodropletinspector-alignment-inline": "integrate",
 	"bs-distributionconnector-statistics-report-page-hits-desc": "Visitas de pagina in le periodo e intervallo seligite",
 	"bs-distributionconnector-statistics-report-page-trends-desc": "Percentage de disveloppamento del visitas de un pagina in le periodo e intervallo seligite",
-	"bs-distributionconnector-statistics-report-page-hits-relation-desc": "Visitas de pagina in le periodo e intervallo seligite in relation al numero total de visitas"
+	"bs-distributionconnector-statistics-report-page-hits-relation-desc": "Visitas de pagina in le periodo e intervallo seligite in relation al numero total de visitas",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Pagina genitor"
 }

@@ -225,5 +225,6 @@
 	"bs-distributionconnector-videodropletinspector-alignment-inline": "ingevoegd",
 	"bs-distributionconnector-statistics-report-page-hits-desc": "Paginaweergaven in deze periode en dit interval",
 	"bs-distributionconnector-statistics-report-page-trends-desc": "Percentage ontwikkeling van de weergaven van een pagina in de geselecteerde periode en het geselecteerde interval",
-	"bs-distributionconnector-statistics-report-page-hits-relation-desc": "Paginaweergaven in de geselecteerde periode en het geselecteerde interval in verhouding tot het totale aantal weergaven"
+	"bs-distributionconnector-statistics-report-page-hits-relation-desc": "Paginaweergaven in de geselecteerde periode en het geselecteerde interval in verhouding tot het totale aantal weergaven",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Bovenliggende pagina"
 }

@@ -3,7 +3,9 @@
 		"authors": [
 			"Agam Riyandana",
 			"DARMAS BUDI SANTOSO",
+			"Fafau06",
 			"NFarras",
+			"Penyuwangi",
 			"Veracious"
 		]
 	},
@@ -30,5 +32,7 @@
 	"droplets-map-name": "Peta",
 	"droplets-video-name": "Video",
 	"droplets-pdflink-name": "Pranala PDF",
-	"droplets-pdflink-description": "Tautan untuk mengunduh halaman wiki lain sebagai PDF"
+	"droplets-pdflink-description": "Tautan untuk mengunduh halaman wiki lain sebagai PDF",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-cat-label": "Kategori",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-all-label": "Semuanya"
 }
