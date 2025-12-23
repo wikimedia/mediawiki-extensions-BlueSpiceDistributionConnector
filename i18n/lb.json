@@ -60,5 +60,11 @@
 	"bs-distributionconnector-videodropletinspector-alignment-left": "lénks",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "zentréiert",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "riets",
-	"action-checkpermissions": "Benotzerrechter iwwerpréiwen"
+	"action-checkpermissions": "Benotzerrechter iwwerpréiwen",
+	"bs-distributionconnector-droplets-subpages-namespace-label": "Nummraum vun der Säit",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-cat-label": "Kategorien",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-pages-label": "Säiten",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-all-label": "Alles",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-parents-label": "Iwwerkategorien",
+	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Nummraim sichen"
 }

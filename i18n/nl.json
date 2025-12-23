@@ -201,5 +201,6 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Maakt automatisch aanmelden bij de wiki mogelijk",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Instellingen voor groepssynchronisatie (JSON)",
 	"action-checkpermissions": "gebruikersbevoegdheden te controleren",
-	"right-checkpermissions": "Gebruikersbevoegdheden controleren op de speciale pagina [[Special:Check_Permissions|]]"
+	"right-checkpermissions": "Gebruikersbevoegdheden controleren op de speciale pagina [[Special:Check_Permissions|]]",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Bovenliggende pagina"
 }

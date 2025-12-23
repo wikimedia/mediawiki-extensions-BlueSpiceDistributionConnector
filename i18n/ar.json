@@ -206,5 +206,6 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "تمكين تسجيل الدخول التلقائي إلى الويكي",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "إعدادات مزامنة المجموعة (JSON)",
 	"action-checkpermissions": "التحقق من أذونات المستخدم",
-	"right-checkpermissions": "التحقق من أذونات المستخدم على الصفحة الخاصة [[Special:Check_Permissions]]"
+	"right-checkpermissions": "التحقق من أذونات المستخدم على الصفحة الخاصة [[Special:Check_Permissions]]",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "الصفحة الأصل"
 }

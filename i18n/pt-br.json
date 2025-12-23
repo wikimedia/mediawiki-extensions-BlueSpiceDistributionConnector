@@ -164,5 +164,6 @@
 	"bs-distributionconnector-videodropletinspector-dimension-label": "Dimensão",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "esquerda",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "direita",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nome do plugin"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nome do plugin",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Página mãe"
 }
