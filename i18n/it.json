@@ -125,5 +125,9 @@
 	"bs-distributionconnector-videodropletinspector-alignment-left": "sinistra",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "centrato",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "destra",
-	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Etichetta del pulsante"
+	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Etichetta del pulsante",
+	"bs-distributionconnector-droplets-subpages-namespace-label": "Namespace della pagina",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-label": "Pagine da visualizzare",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-pages-label": "Pagine",
+	"bs-distributionconnector-ve-categorytreeinspector-prefix-auto-label": "Nascondi automaticamente"
 }
