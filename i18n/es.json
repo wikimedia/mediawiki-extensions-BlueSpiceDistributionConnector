@@ -19,7 +19,8 @@
 			"Rodney Araujo",
 			"SpikeShroom",
 			"Warming Hearth",
-			"Whovian Biologist"
+			"Whovian Biologist",
+			"Avengium"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Conecta BlueSpice con varias extensiones para MediaWiki",
@@ -161,5 +162,7 @@
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Objeto de datos (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Etiqueta de botón",
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nombre de complemento",
-	"bs-distributionconnector-droplets-subpages-parentpage-label": "Página principal"
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Página principal",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-pages-label": "Páginas",
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Contenido para la etiqueta de estilo CSS"
 }
