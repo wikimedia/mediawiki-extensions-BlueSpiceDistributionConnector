@@ -128,5 +128,13 @@
 	"droplets-pdflink-description": "다른 위키 페이지를 PDF로 다운로드하는 링크",
 	"bs-distributionconnector-videodropletinspector-title-label": "제목",
 	"bs-distributionconnector-videodropletinspector-title-help": "동영상 제목",
-	"bs-distributionconnector-videodropletinspector-title-placeholder": "동영상 제목을 삽입하세요..."
+	"bs-distributionconnector-videodropletinspector-title-placeholder": "동영상 제목을 삽입하세요...",
+	"bs-distributionconnector-droplets-subpages-namespace-label": "문서 이름공간",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-label": "표시할 문서",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-cat-label": "분류",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-all-label": "모두",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-parents-label": "부모 분류",
+	"bs-distributionconnector-ve-categorytreeinspector-prefix-always-label": "항상 숨기기",
+	"bs-distributionconnector-ve-categorytreeinspector-prefix-auto-label": "자동으로 숨기기",
+	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "이름공간 선택"
 }
