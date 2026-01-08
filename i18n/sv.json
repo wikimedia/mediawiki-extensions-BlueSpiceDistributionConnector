@@ -4,6 +4,7 @@
 			"JohanahoJ",
 			"Josve05a",
 			"Mjälten",
+			"Stefan2255",
 			"WikiPhoenix"
 		]
 	},
@@ -36,5 +37,25 @@
 	"bs-distributionconnector-pref-openidconnect-useemailasusername": "Använd e-postadress som användarnamn",
 	"bs-distributionconnector-pref-openidconnect-forcelogout": "Tvinga utloggning",
 	"bs-distributionconnector-checkpermissions-label-user": "Användare",
-	"bs-distributionconnector-notification-logged-in": "Du är nu inloggad"
+	"bs-distributionconnector-notification-logged-in": "Du är nu inloggad",
+	"bs-distributionconnector-droplets-subpages-namespace-label": "Sidans namnrymd",
+	"bs-distributionconnector-droplets-subpages-cols-label": "Använd kolumnlayout",
+	"bs-distributionconnector-droplets-subpages-cols-help": "När det är aktiverat, visas undersidor i tre kolumner istället för en enkel lista.",
+	"bs-distributionconnector-droplets-subpages-bullets-label": "Använd punktlistor",
+	"bs-distributionconnector-droplets-circled-number-color-help": "Alla hex-värden (t.ex. '#3366cc') kan användas för färger, såväl som CSS-färgbeskrivningar som 'vit', 'blå' eller 'svart'.",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-label": "Sidor att visa",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-cat-label": "Kategorier",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-pages-label": "Sidor",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-all-label": "Allt",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-parents-label": "Överordnade kategorier",
+	"bs-distributionconnector-ve-categorytreeinspector-depth-label": "Antal nivåer av träd",
+	"bs-distributionconnector-ve-categorytreeinspector-hideroot-label": "Dölj trädets rotnod",
+	"bs-distributionconnector-ve-categorytreeinspector-hideprefix-label": "Dölj namnrymdsprefix",
+	"bs-distributionconnector-ve-categorytreeinspector-prefix-always-label": "Dölj alltid",
+	"bs-distributionconnector-ve-categorytreeinspector-prefix-never-label": "Dölj aldrig",
+	"bs-distributionconnector-ve-categorytreeinspector-prefix-auto-label": "Dölj automatiskt",
+	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "Dölj endast kategoriprefix",
+	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "Visa antal poster",
+	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Välj namnrymder",
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Innehåll för CSS-stiltagg"
 }
