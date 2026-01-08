@@ -109,5 +109,13 @@
 	"bs-distributionconnector-videodropletinspector-container-label": "프레임",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "데이터 객체 (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "버튼 레이블",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "플러그인 이름"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "플러그인 이름",
+	"bs-distributionconnector-droplets-subpages-namespace-label": "문서 이름공간",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-label": "표시할 문서",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-cat-label": "분류",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-all-label": "모두",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-parents-label": "부모 분류",
+	"bs-distributionconnector-ve-categorytreeinspector-prefix-always-label": "항상 숨기기",
+	"bs-distributionconnector-ve-categorytreeinspector-prefix-auto-label": "자동으로 숨기기",
+	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "이름공간 선택"
 }

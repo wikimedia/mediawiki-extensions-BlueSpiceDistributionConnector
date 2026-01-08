@@ -129,5 +129,9 @@
 	"bs-distributionconnector-droplets-subpages-namespace-label": "Namespace della pagina",
 	"bs-distributionconnector-ve-categorytreeinspector-mode-label": "Pagine da visualizzare",
 	"bs-distributionconnector-ve-categorytreeinspector-mode-pages-label": "Pagine",
-	"bs-distributionconnector-ve-categorytreeinspector-prefix-auto-label": "Nascondi automaticamente"
+	"bs-distributionconnector-ve-categorytreeinspector-prefix-auto-label": "Nascondi automaticamente",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-cat-label": "Categorie",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-all-label": "Tutto",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-parents-label": "Categorie superiori",
+	"bs-distributionconnector-ve-categorytreeinspector-prefix-always-label": "Nascondi sempre"
 }
