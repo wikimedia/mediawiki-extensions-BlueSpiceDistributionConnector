@@ -4,10 +4,12 @@
 			"Cabal"
 		]
 	},
+	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "ਮੇਜ਼ਬਾਨ ਦੀ ਪੜਚੋਲ ਕਰੋ",
 	"bs-distributionconnector-workflows-form-username": "ਵਰਤੋਂਕਾਰ",
 	"bs-distributionconnector-default-definition-report-review": "ਪਰਖੋ",
 	"bs-distributionconnector-checkpermissions-label-user": "ਵਰਤੋਂਕਾਰ",
 	"droplets-buttonlink-external-label": "ਬਾਹਰੀ ਕੜੀ",
+	"droplets-create-input-name": "ਵਰਕਾ ਬਣਾਓ",
 	"droplets-pdflink-name": "PDF ਕੜੀ",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "ਸਮੂਹ ਸਮਕਾਲੀਕਰਨ ਤਰਜੀਹਾਂ (JSON)"
 }
