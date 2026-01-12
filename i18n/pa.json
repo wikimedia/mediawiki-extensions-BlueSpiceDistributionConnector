@@ -9,5 +9,7 @@
 	"bs-distributionconnector-checkpermissions-label-user": "ਵਰਤੋਂਕਾਰ",
 	"droplets-buttonlink-external-label": "ਬਾਹਰੀ ਕੜੀ",
 	"droplets-pdflink-name": "PDF ਕੜੀ",
-	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "ਸਮੂਹ ਸਮਕਾਲੀਕਰਨ ਤਰਜੀਹਾਂ (JSON)"
+	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "ਸਮੂਹ ਸਮਕਾਲੀਕਰਨ ਤਰਜੀਹਾਂ (JSON)",
+	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "ਮੇਜ਼ਬਾਨ ਦੀ ਪੜਚੋਲ ਕਰੋ",
+	"droplets-create-input-name": "ਵਰਕਾ ਬਣਾਓ"
 }
