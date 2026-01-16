@@ -244,6 +244,9 @@
 		},
 		"PDFCreator": {
 			"Processors": {
+				"Lingo": {
+					"class": "\\BlueSpice\\DistributionConnector\\Integration\\PDFCreator\\Processor\\LingoProcessor"
+				},
 				"PDFHandler": {
 					"class": "\\BlueSpice\\DistributionConnector\\Integration\\PDFCreator\\Processor\\PDFHandlerProcessor",
 					"services": [ "TitleFactory", "MainConfig", "RepoGroup", "UrlUtils" ]
