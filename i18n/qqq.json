@@ -194,7 +194,7 @@
 	"bs-distributionconnector-droplets-subpages-cols-label": "Label for checkbox if column layout should be used",
 	"bs-distributionconnector-droplets-subpages-cols-help": "Help text for checkbox to set column layout",
 	"bs-distributionconnector-droplets-subpages-bullets-label": "Label for checkbox to select if bullets should used",
-	"bs-distributionconnector-droplets-circled-number-color-help": "{doc-important|Do not translate \"'''white, blue and black'''\".}} Help text for input field to set color",
+	"bs-distributionconnector-droplets-circled-number-color-help": "{{doc-important|Do not translate “white”, “blue” and “black”.}} Help text for input field to set color",
 	"bs-distributionconnector-ve-categorytreeinspector-mode-label": "Label for dropdown field",
 	"bs-distributionconnector-ve-categorytreeinspector-mode-cat-label": "Label for option in dropdown",
 	"bs-distributionconnector-ve-categorytreeinspector-mode-pages-label": "Label for option in dropdown",
