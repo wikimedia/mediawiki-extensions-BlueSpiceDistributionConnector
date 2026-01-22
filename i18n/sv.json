@@ -3,6 +3,7 @@
 		"authors": [
 			"JohanahoJ",
 			"Josve05a",
+			"McDutchie",
 			"Mjälten",
 			"Stefan2255",
 			"WikiPhoenix"
@@ -42,7 +43,7 @@
 	"bs-distributionconnector-droplets-subpages-cols-label": "Använd kolumnlayout",
 	"bs-distributionconnector-droplets-subpages-cols-help": "När det är aktiverat, visas undersidor i tre kolumner istället för en enkel lista.",
 	"bs-distributionconnector-droplets-subpages-bullets-label": "Använd punktlistor",
-	"bs-distributionconnector-droplets-circled-number-color-help": "Alla hex-värden (t.ex. '#3366cc') kan användas för färger, såväl som CSS-färgbeskrivningar som 'vit', 'blå' eller 'svart'.",
+	"bs-distributionconnector-droplets-circled-number-color-help": "Alla hex-värden (t.ex. '#3366cc') kan användas för färger, såväl som CSS-färgbeskrivningar som 'white', 'blue' eller 'black'.",
 	"bs-distributionconnector-ve-categorytreeinspector-mode-label": "Sidor att visa",
 	"bs-distributionconnector-ve-categorytreeinspector-mode-cat-label": "Kategorier",
 	"bs-distributionconnector-ve-categorytreeinspector-mode-pages-label": "Sidor",
