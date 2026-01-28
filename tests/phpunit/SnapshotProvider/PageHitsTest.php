@@ -10,6 +10,7 @@ use BlueSpice\ExtendedStatistics\SnapshotDate;
 use BlueSpice\ExtendedStatistics\SnapshotFactory;
 use BlueSpice\ExtendedStatistics\SnapshotStore\DatabaseStore;
 use Exception;
+use MediaWiki\Registration\ExtensionRegistry;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 use Wikimedia\Rdbms\IDatabase;
@@ -30,6 +31,10 @@ class PageHitsTest extends TestCase {
 
 	public function setUp(): void {
 		parent::setUp();
+
+		if ( !ExtensionRegistry::getInstance()->isLoaded( 'BlueSpiceExtendedStatistics' ) ) {
+			$this->markTestSkipped( 'Extension BlueSpiceExtendedStatistics is required for this test' );
+		}
 
 		$this->dbMock = $this->createMock( IDatabase::class );
 		$loadBalancerMock = $this->createMock( LoadBalancer::class );
@@ -234,6 +239,11 @@ class PageHitsTest extends TestCase {
 	}
 
 	public function intervalProvider(): array {
+		// BlueSpiceExtendedStatistics is required for this provider
+		if ( !class_exists( Snapshot::class ) ) {
+			return [];
+		}
+
 		return [
 			[ Snapshot::INTERVAL_WEEK ],
 			[ Snapshot::INTERVAL_MONTH ],
