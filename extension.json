@@ -380,19 +380,6 @@
 				"ext.oOJSPlus.formelements"
 			]
 		},
-		"ext.bluespice.distribution.workflows.trigger.editor": {
-			"scripts": [
-				"workflows/ui/trigger/TimeSMWProperty.js"
-			],
-			"dependencies": [
-				"ext.workflows.trigger.editors",
-				"ext.BSSMWConnector.widgets"
-			],
-			"messages": [
-				"bs-distributionconnector-workflows-ui-trigger-field-property",
-				"bs-distributionconnector-workflows-ui-trigger-field-days"
-			]
-		},
 		"ext.bluespice.distribution.usermanager.invite": {
 			"scripts": [
 				"usermanager/bluespice.distribution.invite.js"
@@ -476,87 +463,6 @@
 				"droplets-buttonlink-format-red"
 			]
 		},
-		"ext.bluespice.distribution.droplet.subpages": {
-			"scripts": [
-				"object/SubpagesDroplet.js"
-			],
-			"styles": [
-				"stylesheets/bluespice.contentdroplets.subpages.css"
-			],
-			"messages": [
-				"droplets-subpages-namespace-help",
-				"droplets-subpages-parentpage-help",
-				"bs-distributionconnector-droplets-subpages-namespace-label",
-				"bs-distributionconnector-droplets-subpages-parentpage-label",
-				"bs-distributionconnector-droplets-subpages-cols-label",
-				"bs-distributionconnector-droplets-subpages-cols-help",
-				"bs-distributionconnector-droplets-subpages-bullets-label"
-			]
-		},
-		"ext.bluespice.distribution.droplet.circlednumber": {
-			"scripts": [
-				"object/CircledNumberDroplet.js"
-			],
-			"styles": [
-				"stylesheets/bluespice.contentdroplets.circled-number.css"
-			],
-			"dependencies": [
-				"ext.contentdroplets.bootstrap"
-			],
-			"messages": [
-				"droplets-circled-number-bg-color-label",
-				"droplets-circled-number-fg-color-label",
-				"droplets-circled-number-label",
-				"bs-distributionconnector-droplets-circled-number-color-help"
-			]
-		},
-		"ext.bluespice.distribution.droplet.gallery": {
-			"styles": [
-				"stylesheets/bluespice.contentdroplets.gallery.css"
-			]
-		},
-		"ext.bluespice.distribution.droplet.createInput": {
-			"scripts": [
-				"object/CreateInputDroplet.js"
-			],
-			"styles": [
-				"stylesheets/bluespice.contentdroplets.createInput.css"
-			],
-			"messages": [
-				"droplets-create-input-button-label",
-				"droplets-create-input-preload-label",
-				"droplets-create-input-preload-help",
-				"droplets-create-input-placeholder-label",
-				"droplets-create-input-placeholder-help",
-				"droplets-create-input-prefix-label",
-				"droplets-create-input-prefix-help",
-				"droplets-create-input-alignment-label",
-				"droplets-create-input-alignment-help",
-				"droplets-create-input-alignment-left-label",
-				"droplets-create-input-alignment-right-label",
-				"droplets-create-input-alignment-center-label"
-			]
-		},
-		"ext.bluespice.distribution.droplet.pdflink": {
-			"packageFiles": [
-				"object/PDFLinkDroplet.js",
-				{
-					"name": "object/config.json",
-					"callback": "\\BlueSpice\\DistributionConnector\\ClientConfig::getPDFTemplates"
-				}
-			],
-			"styles": [
-				"stylesheets/bluespice.contentdroplets.pdflink.css"
-			],
-			"dependencies": [
-				"ext.contentdroplets.bootstrap"
-			],
-			"messages": [
-				"droplets-pdf-link-page-label",
-				"droplets-pdf-link-template-label",
-				"droplets-pdf-link-link-label"
-			]
-		},
 		"ext.bluespice.distribution.wikiExplorer.columns": {
 			"scripts": [
 				"wikiexplorer/bluespice.distribution.wikiExplorer.columns.js"
@@ -622,7 +528,8 @@
 		"SkinTemplateNavigation::Universal": "addNewPageLink",
 		"ContentAlterParserOutput": "addVariablesPageProperty",
 		"BSUsageTrackerRegisterCollectors": "BlueSpice\\DistributionConnector\\Hook\\BSUsageTrackerRegisterCollectors\\NoOfVariables::callback",
-		"MWStakeGenericTagHandlerInitTags": "registerTags"
+		"MWStakeGenericTagHandlerInitTags": "registerTags",
+		"ResourceLoaderRegisterModules": "ResourceLoaderRegisterModules"
 	},
 	"HookHandlers": {
 		"user-manager": {
@@ -650,6 +557,12 @@
 		},
 		"registerTags": {
 			"class": "\\BlueSpice\\DistributionConnector\\HookHandler\\RegisterTags"
+		},
+		"ResourceLoaderRegisterModules": {
+			"class": "\\BlueSpice\\DistributionConnector\\HookHandler\\ResourceLoaderRegisterModules",
+			"services": [
+				"ExtensionRegistry"
+			]
 		}
 	},
 	"manifest_version": 2
