@@ -3,6 +3,7 @@
 		"authors": [
 			"Nieszczarda2",
 			"Renessaince",
+			"Ucukor",
 			"W"
 		]
 	},
@@ -13,5 +14,6 @@
 	"bs-distributionconnector-pref-openidconnect-config-scope": "Ахоп",
 	"bs-distributionconnector-workflows-form-instructions": "Інструкцыі",
 	"action-checkpermissions": "праверыць дазволы карыстальніка",
-	"right-checkpermissions": "Праверце дазволы карыстальніка на спэцыяльнай старонцы [[Special:Check_Permissions|Спэцыяльныя:Праверка дазволаў]]"
+	"right-checkpermissions": "Праверце дазволы карыстальніка на спэцыяльнай старонцы [[Special:Check_Permissions|Спэцыяльныя:Праверка дазволаў]]",
+	"bs-distributionconnector-workflows-form-label-reviewer": "Рэцэнзэнт"
 }
