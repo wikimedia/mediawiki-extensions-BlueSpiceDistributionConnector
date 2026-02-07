@@ -12,6 +12,7 @@
 			"Robin van der Vliet",
 			"Romaine",
 			"Rots61",
+			"Siebrand",
 			"Sjoerddebruin"
 		]
 	},
@@ -226,5 +227,25 @@
 	"bs-distributionconnector-statistics-report-page-hits-desc": "Paginaweergaven in deze periode en dit interval",
 	"bs-distributionconnector-statistics-report-page-trends-desc": "Percentage ontwikkeling van de weergaven van een pagina in de geselecteerde periode en het geselecteerde interval",
 	"bs-distributionconnector-statistics-report-page-hits-relation-desc": "Paginaweergaven in de geselecteerde periode en het geselecteerde interval in verhouding tot het totale aantal weergaven",
-	"bs-distributionconnector-droplets-subpages-parentpage-label": "Bovenliggende pagina"
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Bovenliggende pagina",
+	"bs-distributionconnector-droplets-subpages-namespace-label": "Naamruimte van de pagina",
+	"bs-distributionconnector-droplets-subpages-cols-label": "Kolomindeling gebruiken",
+	"bs-distributionconnector-droplets-subpages-cols-help": "Wanneer deze optie is ingeschakeld, worden subpagina's in drie kolommen weergegeven in plaats van in een eenvoudige lijst.",
+	"bs-distributionconnector-droplets-subpages-bullets-label": "Opsommingstekens gebruiken",
+	"bs-distributionconnector-droplets-circled-number-color-help": "Alle hexadecimale waarden (bijv. '#3366cc') kunnen worden gebruikt voor kleuren, evenals CSS-kleurbeschrijvingen zoals 'white', 'blue' of 'black'",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-label": "Weer te geven pagina's",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-cat-label": "Categorieën",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-pages-label": "Pagina's",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-all-label": "Alles",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-parents-label": "Bovenliggende categorieën",
+	"bs-distributionconnector-ve-categorytreeinspector-depth-label": "Aantal niveaus van de boom",
+	"bs-distributionconnector-ve-categorytreeinspector-hideroot-label": "Hoofdknooppunt van de boom verbergen",
+	"bs-distributionconnector-ve-categorytreeinspector-hideprefix-label": "Naamruimte-voorvoegsel verbergen",
+	"bs-distributionconnector-ve-categorytreeinspector-prefix-always-label": "Altijd verbergen",
+	"bs-distributionconnector-ve-categorytreeinspector-prefix-never-label": "Nooit verbergen",
+	"bs-distributionconnector-ve-categorytreeinspector-prefix-auto-label": "Automatisch verbergen",
+	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "Alleen categorievoorvoegsel verbergen",
+	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "Aantal vermeldingen weergeven",
+	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Naamruimten selecteren",
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Inhoud voor CSS-stijltag"
 }

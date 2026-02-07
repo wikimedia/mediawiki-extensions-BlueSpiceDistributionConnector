@@ -222,5 +222,7 @@
 	"bs-distributionconnector-videodropletinspector-cover-label": "עטיפה",
 	"bs-distributionconnector-videodropletinspector-cover-help": "עטיפת הווידאו",
 	"bs-distributionconnector-videodropletinspector-cover-placeholder": "נא לבחור עטיפה לווידאו",
-	"bs-distributionconnector-droplets-subpages-parentpage-label": "דף הורה"
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "דף הורה",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-pages-label": "דפים",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-all-label": "הכול"
 }
