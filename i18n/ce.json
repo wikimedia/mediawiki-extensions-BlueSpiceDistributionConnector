@@ -121,5 +121,6 @@
 	"bs-distributionconnector-videodropletinspector-container-label": "Гура",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Хаамийн объект (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Нуьйдин билгало",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Плагинан цӀе"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Плагинан цӀе",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Да-нана агӀо"
 }

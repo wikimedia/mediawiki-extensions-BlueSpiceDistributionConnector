@@ -11,10 +11,10 @@
 			"Lewis2013",
 			"Mahabarata",
 			"Thibaut120094",
+			"VIGNERON",
 			"Vega",
 			"Verdy p",
-			"Wladek92",
-			"VIGNERON"
+			"Wladek92"
 		]
 	},
 	"bs-distributionconnector-extension-description": "Connecte BlueSpice à diverses extensions de MediaWiki",
@@ -203,5 +203,6 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Active la connexion automatique au wiki",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Paramètres de synchronisation de groupe (JSON)",
 	"action-checkpermissions": "vérifier les autorisations des utilisateurs",
-	"right-checkpermissions": "Vérifiez les autorisations des utilisateurs sur la page spéciale [[Special:Check_Permissions]]"
+	"right-checkpermissions": "Vérifiez les autorisations des utilisateurs sur la page spéciale [[Special:Check_Permissions]]",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Page parente"
 }

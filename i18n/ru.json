@@ -136,5 +136,6 @@
 	"bs-distributionconnector-videodropletinspector-alignment-right": "справа",
 	"bs-distributionconnector-pref-pluggableauth-config-data-object": "Объект данных (JSON)",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Метка кнопки",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Название плагина"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Название плагина",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Родительская страница"
 }

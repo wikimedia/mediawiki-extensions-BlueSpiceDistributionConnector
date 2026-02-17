@@ -149,5 +149,6 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Engedélyezi az automatikus bejelentkezést a wikibe",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Csoportszinkronizálási beállítások (JSON)",
 	"action-checkpermissions": "felhasználói jogosultságok ellenőrzése",
-	"right-checkpermissions": "Felhasználói jogosultságok ellenőrzése a [[Special:Check_Permissions]] speciális oldalon"
+	"right-checkpermissions": "Felhasználói jogosultságok ellenőrzése a [[Special:Check_Permissions]] speciális oldalon",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Szülőlap"
 }
