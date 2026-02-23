@@ -186,7 +186,15 @@
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "הגדרות סנכרון קבוצתי (JSON)",
 	"action-checkpermissions": "בדיקת הרשאות משתמש",
 	"right-checkpermissions": "לבדוק את הרשאות המשתמש בדף המיוחד [[Special:Check_Permissions]]",
+	"bs-distributionconnector-droplets-subpages-namespace-label": "מרחב השם של הדף",
 	"bs-distributionconnector-droplets-subpages-parentpage-label": "דף הורה",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-label": "דפים להצגה",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-cat-label": "קטגוריות",
 	"bs-distributionconnector-ve-categorytreeinspector-mode-pages-label": "דפים",
-	"bs-distributionconnector-ve-categorytreeinspector-mode-all-label": "הכול"
+	"bs-distributionconnector-ve-categorytreeinspector-mode-all-label": "הכול",
+	"bs-distributionconnector-ve-categorytreeinspector-prefix-always-label": "הסתר תמיד",
+	"bs-distributionconnector-ve-categorytreeinspector-prefix-never-label": "לעולם לא להסתיר",
+	"bs-distributionconnector-ve-categorytreeinspector-prefix-auto-label": "הסתר באופן אוטומטי",
+	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "הצג מספר הרשומות",
+	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "בחירת מרחבי שמות"
 }
