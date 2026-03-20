@@ -46,7 +46,6 @@ class SourceWikiReader {
 		curl_setopt( $ch, CURLOPT_COOKIEFILE, '/tmp/cookie.txt' );
 
 		$output = curl_exec( $ch );
-		curl_close( $ch );
 
 		$result = FormatJson::decode( $output, true );
 		return $result['query']['tokens']['logintoken'];
@@ -81,7 +80,6 @@ class SourceWikiReader {
 		curl_setopt( $ch, CURLOPT_COOKIEFILE, '/tmp/cookie.txt' );
 
 		$output = curl_exec( $ch );
-		curl_close( $ch );
 
 		$result = FormatJson::decode( $output, true );
 		if ( isset( $result['error'] ) ) {
@@ -125,7 +123,6 @@ class SourceWikiReader {
 		curl_setopt( $ch, CURLOPT_COOKIEJAR, '/tmp/cookie.txt' );
 		curl_setopt( $ch, CURLOPT_COOKIEFILE, '/tmp/cookie.txt' );
 		$output = curl_exec( $ch );
-		curl_close( $ch );
 
 		$result = FormatJson::decode( $output, true );
 		if ( isset( $result['error'] ) ) {
