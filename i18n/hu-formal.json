@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Krisztina"
+		]
+	},
+	"bs-distributionconnector-workflows-form-feedback": "Adjon visszajelzést...",
+	"bs-distributionconnector-default-user-approval-report-body": "Munkafolyamat részletei:\nKezdés dátuma: $1 \nBefejezés dátuma: $2 \nLap: $3 \nRevízió: $4 \nFelhasználó: $5 \nÚtmutatók: $6 \nVisszajelzés:\n $7 \n\nEzt az e-mailt azért küldtük el Önnek, mert $8 Önt megjelölte e-mail címzettként ehhez a munkafolyamathoz.",
+	"bs-distributionconnector-default-document-control-report-body": "Munkafolyamat részletei:\nKezdés dátuma: $1 \nBefejezés dátuma: $2 \nLap: $3 \nRevízió: $4 \nSzerkesztő: $5 \nEllenőrzés dátuma: $6 \nJóváhagyás dátuma: $7 \nSzerkesztői útmutatók: $8 \nEllenőrzési útmutatók: $9 \nJóváhagyási útmutatók: $10\nVisszajelzések:\n$11\n\nEz az e-mail azért lett elküldve, mert $12 Önt jelölte meg e-mail címzettként ehhez a munkafolyamathoz.",
+	"bs-distributionconnector-invite-signup-dialog-text": "Elhagyja ezt a lapot egy új felhasználó meghívásához?",
+	"droplets-subpages-namespace-help": "Hagyja üresen a főnévtérhez."
+}

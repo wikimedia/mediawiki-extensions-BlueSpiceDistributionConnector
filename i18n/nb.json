@@ -204,5 +204,6 @@
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Navn på tillegg",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Bør innlogging skje automatisk når en bruker besøker wikien?",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Aktiverer automatisk innlogging på wikien",
-	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Gruppesynkroniseringsinnstillinger (JSON)"
+	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Gruppesynkroniseringsinnstillinger (JSON)",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Forelderside"
 }

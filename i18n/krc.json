@@ -11,7 +11,7 @@
 	"droplets-circled-number-fg-color-label": "Ал планны бояуу",
 	"droplets-circled-number-label": "Тарх",
 	"droplets-subpages-namespace-label": "Ат юс",
-	"droplets-subpages-namespace-help": "Баш ат алан ючюн бош къоюгъузг",
+	"droplets-subpages-namespace-help": "Баш ат алам ючюн бош къоюгъуз",
 	"droplets-subpages-parentpage-label": "Тамал бет",
 	"droplets-subpages-parentpage-help": "Тюб бетлери тизмеленирик бетле",
 	"droplets-subpages-cols-label": "Багъана макет",
@@ -21,8 +21,9 @@
 	"droplets-map-condition-label": "Шарт",
 	"droplets-map-center-label": "Фокус",
 	"droplets-buttonlink-external-label": "Тыш джибериу",
-	"droplets-buttonlink-target-label": "Ышан",
+	"droplets-buttonlink-target-label": "Нюзюр",
 	"droplets-buttonlink-label-label": "Тиекде текст",
 	"droplets-buttonlink-format-label": "Арт планны бояуу",
-	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Бетлеге къарауну саны"
+	"bs-distributionconnector-statistics-report-page-hits-axis-label": "Бетлеге къарауну саны",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Тамал бет"
 }

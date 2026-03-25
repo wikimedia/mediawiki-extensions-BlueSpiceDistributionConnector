@@ -132,5 +132,6 @@
 	"droplets-pdf-link-page-label": "Dışa aktarılacak sayfa",
 	"droplets-pdf-link-template-label": "PDF şablonu",
 	"droplets-pdf-link-link-label": "Bağlantı etiketi",
-	"droplets-buttonlink-name": "Düğme"
+	"droplets-buttonlink-name": "Düğme",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Üst sayfa"
 }

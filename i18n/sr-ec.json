@@ -89,5 +89,10 @@
 	"droplets-create-input-preload-label": "Преучитан садржај странице",
 	"droplets-create-input-prefix-label": "Префикс за назив странице",
 	"droplets-create-input-alignment-label": "Поравнање",
-	"droplets-circled-number-name": "Заокружен број"
+	"droplets-circled-number-name": "Заокружен број",
+	"bs-distributionconnector-videodropletinspector-title-label": "Наслов",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "инлајн",
+	"bs-distributionconnector-droplets-subpages-namespace-label": "Именски простор странице",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-cat-label": "Категорије",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-pages-label": "Странице"
 }

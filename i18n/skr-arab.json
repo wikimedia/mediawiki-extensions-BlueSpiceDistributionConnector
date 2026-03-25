@@ -41,5 +41,10 @@
 	"bs-distributionconnector-videodropletinspector-alignment-right": "سڄا",
 	"bs-distributionconnector-videodropletinspector-dimension-label": "پاسے",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "بٹݨ لیبل",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "پلگ ان ناں"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "پلگ ان ناں",
+	"bs-distributionconnector-videodropletinspector-title-label": "عنوان",
+	"action-checkpermissions": "ورتݨ آلے دیاں اجازتاں دی پڑتال کرو",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "بݨیادی ورقہ",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-cat-label": "ونکیاں",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-pages-label": "ورقے"
 }

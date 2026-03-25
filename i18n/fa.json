@@ -108,5 +108,9 @@
 	"bs-distributionconnector-videodropletinspector-alignment-right": "راست",
 	"bs-distributionconnector-videodropletinspector-container-label": "قاب‌دار",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "برچسب دکمه",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "نام افزونه"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "نام افزونه",
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "درخط",
+	"action-checkpermissions": "بررسی اختیارات کاربر",
+	"right-checkpermissions": "بررسی اختیارات کاربر در صفحهٔ ویژهٔ [[Special:Check_Permissions]]",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "صفحه والد"
 }
