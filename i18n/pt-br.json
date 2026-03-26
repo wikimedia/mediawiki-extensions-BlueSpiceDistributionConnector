@@ -189,5 +189,7 @@
 	"bs-distributionconnector-pref-eventbus-enableeventbus": "Ativar EventBus para os seguintes eventos",
 	"bs-distributionconnector-pref-eventbus-enableeventbus-help": "Ativar EventBus para os eventos selecionados.",
 	"bs-distributionconnector-pref-eventbus-eventservicedefault": "Serviço de evento predeterminado",
-	"bs-distributionconnector-droplets-subpages-parentpage-label": "Página mãe"
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Página mãe",
+	"bs-distributionconnector-videodropletinspector-title-label": "Título",
+	"bs-distributionconnector-videodropletinspector-cover-label": "Capa"
 }

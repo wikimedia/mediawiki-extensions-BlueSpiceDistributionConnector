@@ -11,5 +11,6 @@
 	"bs-distributionconnector-default-definition-report-review": "ਪਰਖੋ",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "ਸਮੂਹ ਸਮਕਾਲੀਕਰਨ ਤਰਜੀਹਾਂ (JSON)",
 	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "ਮੇਜ਼ਬਾਨ ਦੀ ਪੜਚੋਲ ਕਰੋ",
-	"droplets-create-input-name": "ਵਰਕਾ ਬਣਾਓ"
+	"droplets-create-input-name": "ਵਰਕਾ ਬਣਾਓ",
+	"bs-distributionconnector-pref-openidconnect-config-scope": "ਕਾਰਜ-ਖੇਤਰ"
 }
