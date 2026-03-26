@@ -157,7 +157,7 @@ ve.ui.VideoDropletInspector.prototype.setLayouts = function () {
 	this.alignmentLayout = new OO.ui.FieldLayout( this.alignmentInput, {
 		align: 'left',
 		label: mw.message( 'bs-distributionconnector-videodropletinspector-alignment-label' ).text(),
-		help: mw.message( 'bs-distributionconnector-videodropletinspector-alignent-help' ).text()
+		help: mw.message( 'bs-distributionconnector-videodropletinspector-alignment-help' ).text()
 	} );
 	this.containerLayout = new OO.ui.FieldLayout( this.containerInput, {
 		align: 'left',
