@@ -163,7 +163,6 @@
 	"bs-distributionconnector-videodropletinspector-dimension-label": "Dimensión",
 	"bs-distributionconnector-videodropletinspector-dimension-help": "Para definires o tamaño do vídeo, podes empregar o formato \"largura x altura\" en píxeles. Se non proporcionas a altura, calcularase automaticamente a partir da largura. Se queres definir a altura, debes indicala con «x».\nExemplos: «480», «480x320», «x320» (para unha largura de 480 píxeles e unha altura de 320 píxeles).",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "Aliñamento",
-	"bs-distributionconnector-videodropletinspector-alignent-help": "Centra o vídeo ou alíñao á esquerda ou á dereita",
 	"bs-distributionconnector-videodropletinspector-alignment-inline": "en liña",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "esquerda",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "centrado",

@@ -174,7 +174,6 @@
 	"bs-distributionconnector-videodropletinspector-dimension-label": "Größe",
 	"bs-distributionconnector-videodropletinspector-dimension-help": "Um die Größe des Videos zu setzen, {{#FORMAL:verwende|verwenden Sie}} das Format \"Breite x Höhe\" in Pixeln. Falls die Höhe nicht angegeben wird, wird diese automatisch von der Breite berechnet. Wenn {{#FORMAL:du|Sie}} die Höhe angeben {{#FORMAL:möchtest|möchten}}, muss \"x\" vorangestellt werden.\nBeispiele: 480, 480x320,x320 - für eine Breite von 480 und eine Höhe von 320",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "Ausrichtung",
-	"bs-distributionconnector-videodropletinspector-alignent-help": "{{#FORMAL:Richte|Richten Sie}} das Video links, zentriert oder rechts aus",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "links",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "zentriert",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "rechts",

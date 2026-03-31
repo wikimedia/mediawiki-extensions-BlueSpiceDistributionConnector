@@ -4,6 +4,7 @@
 			"Cabal"
 		]
 	},
+	"bs-distributionconnector-pref-openidconnect-config-scope": "ਕਾਰਜ-ਖੇਤਰ",
 	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "ਮੇਜ਼ਬਾਨ ਦੀ ਪੜਚੋਲ ਕਰੋ",
 	"bs-distributionconnector-workflows-form-username": "ਵਰਤੋਂਕਾਰ",
 	"bs-distributionconnector-default-definition-report-review": "ਪਰਖੋ",

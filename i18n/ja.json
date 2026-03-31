@@ -167,7 +167,6 @@
 	"bs-distributionconnector-videodropletinspector-dimension-label": "寸法",
 	"bs-distributionconnector-videodropletinspector-dimension-help": "動画の大きさを指定するために、「横幅 x 高さ」のフォーマット（単位はピクセル）が使用できます。高さを指定しない場合、横幅から自動的に計算されます。高さを指定する場合は、「x」を使用してください。例えば、横幅480、高さ320を指定する場合、480・480x320・x320などと表記できます。",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "配置",
-	"bs-distributionconnector-videodropletinspector-alignent-help": "動画を左、中央または右に寄せて配置します",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "左寄せ",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "中央寄せ",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "右寄せ",
