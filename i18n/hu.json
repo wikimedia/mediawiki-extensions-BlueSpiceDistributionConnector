@@ -123,7 +123,7 @@
 	"bs-distributionconnector-videodropletinspector-dimension-label": "Méret",
 	"bs-distributionconnector-videodropletinspector-dimension-help": "A video méretezéséhez megadhatod pixelben a szélességet és magasságot. Amennyiben nem adsz meg magasságot, automaikusan képződik az érték, szélesség alapján. A magasságot \"x-szel\" adhatod meg. Példa: 480, 480x320,x320 - 480-as szélességhez és 320-as magassághoz",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "Igazítás",
-	"bs-distributionconnector-videodropletinspector-alignent-help": "Video balra, középre vagy jobbra igazítása",
+	"bs-distributionconnector-videodropletinspector-alignment-help": "Video balra, középre vagy jobbra igazítása",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "balra",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "középre",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "jobbra",

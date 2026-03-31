@@ -155,7 +155,7 @@
 	"bs-distributionconnector-videodropletinspector-dimension-label": "Velikost",
 	"bs-distributionconnector-videodropletinspector-dimension-help": "Za nastavitev velikosti videa lahko uporabite format »širina × višina« v pikslih. Če višina ni navedena, bo izračunana samodejno iz širine. Če želite določiti višino, morate to označiti z »x«. Zgledi: 480, 480x320, x320 – za širino 480 in višino 320",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "Poravnava",
-	"bs-distributionconnector-videodropletinspector-alignent-help": "Poravnava videa levo, usredinjeno ali desno",
+	"bs-distributionconnector-videodropletinspector-alignment-help": "Poravnava videa levo, usredinjeno ali desno",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "levo",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "usredinjeno",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "desno",

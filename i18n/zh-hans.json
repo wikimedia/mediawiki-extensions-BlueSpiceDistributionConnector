@@ -200,7 +200,7 @@
 	"bs-distributionconnector-videodropletinspector-dimension-label": "尺寸",
 	"bs-distributionconnector-videodropletinspector-dimension-help": "要设置视频的尺寸，您可以使用“宽度x高度”（以像素为单位）的格式。如果未提供高度，则将根据宽度自动计算。如果您想设置高度，则必须使用“x”指示。\n示例：480、480x320、x320会设置宽度为 480，高度为 320",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "对齐",
-	"bs-distributionconnector-videodropletinspector-alignent-help": "将视频左对齐、居中或右对齐",
+	"bs-distributionconnector-videodropletinspector-alignment-help": "将视频左对齐、居中或右对齐",
 	"bs-distributionconnector-videodropletinspector-alignment-inline": "行内",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "左",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "居中的",
