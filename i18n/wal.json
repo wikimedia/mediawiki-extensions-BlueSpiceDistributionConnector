@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ella Lachow"
+			"Ella Lachow",
+			"Malaalaa"
 		]
 	},
 	"bs-distributionconnector-pref-eventbus-enableeventbus-key-all": "Ubbaa",
 	"droplets-create-input-name": "Sinttaa medha",
 	"droplets-circled-number-description": "Irzzuwan laamettiya meran payduwa wotta",
-	"droplets-video-name": "Viiduwaa",
+	"droplets-video-name": "Viiduwa",
 	"droplets-buttonlink-format-blue": "salo meraa",
 	"droplets-buttonlink-format-neutral": "boottaa",
 	"droplets-buttonlink-format-red": "zo\"o"

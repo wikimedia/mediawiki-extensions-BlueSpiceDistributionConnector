@@ -215,5 +215,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "Hide only category prefix",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "Show number of entries",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Select namespaces",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Content for CSS style tag"
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Content for CSS style tag",
+	"bs-distributionconnector-videodropletinspector-alignment-help": "Align the video to the left, centered or to the right"
 }
