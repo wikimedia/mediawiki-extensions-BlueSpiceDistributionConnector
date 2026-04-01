@@ -247,5 +247,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "Alleen categorievoorvoegsel verbergen",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "Aantal vermeldingen weergeven",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Naamruimten selecteren",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Inhoud voor CSS-stijltag"
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Inhoud voor CSS-stijltag",
+	"bs-distributionconnector-videodropletinspector-alignment-help": "Lijn de video links, gecentreerd of rechts uit"
 }

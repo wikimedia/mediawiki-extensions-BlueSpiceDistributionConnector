@@ -242,5 +242,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "僅隱藏分類前綴",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "顯示項目數",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "選擇命名空間",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "CSS 樣式標籤內容"
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "CSS 樣式標籤內容",
+	"bs-distributionconnector-videodropletinspector-alignment-help": "將影片向左對齊、居中或向右對齊"
 }

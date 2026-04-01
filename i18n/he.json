@@ -232,5 +232,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-never-label": "לעולם לא להסתיר",
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-auto-label": "להסתיר באופן אוטומטי",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "להציג את מספר הרשומות",
-	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "בחירת מרחבי שמות"
+	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "בחירת מרחבי שמות",
+	"bs-distributionconnector-videodropletinspector-alignment-help": "ליישר את הסרטון לשמאל, למרכז או לימין"
 }

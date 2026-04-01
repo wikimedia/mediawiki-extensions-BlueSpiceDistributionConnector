@@ -236,5 +236,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "Celar solmente le prefixo de categoria",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "Monstrar numero de entratas",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Selige spatios de nomines",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Contento pro le etiquetta de stilo CSS"
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Contento pro le etiquetta de stilo CSS",
+	"bs-distributionconnector-videodropletinspector-alignment-help": "Alinear le video al sinistra, al centro o al dextra"
 }
