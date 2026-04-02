@@ -87,5 +87,8 @@
 	"bs-distributionconnector-videodropletinspector-alignment-right": "десно",
 	"bs-distributionconnector-videodropletinspector-container-label": "Оквир",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Омогућује аутоматско пријављивање на вики",
-	"bs-distributionconnector-videodropletinspector-alignment-inline": "инлајн"
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "инлајн",
+	"bs-distributionconnector-droplets-subpages-namespace-label": "Именски простор странице",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-cat-label": "Категорије",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-pages-label": "Странице"
 }

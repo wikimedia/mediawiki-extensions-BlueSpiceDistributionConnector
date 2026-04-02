@@ -121,5 +121,6 @@
 	"action-duplicate": "агӀонан дубликат",
 	"droplets-subpages-parentpage-label": "Да-нана агӀо",
 	"droplets-subpages-cols-label": "БӀогӀамаш дӀахӀиттор",
-	"droplets-create-input-placeholder-label": "Текст-тӀейузург"
+	"droplets-create-input-placeholder-label": "Текст-тӀейузург",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Да-нана агӀо"
 }

@@ -45,5 +45,6 @@
 	"bs-distributionconnector-videodropletinspector-description-label": "Opis",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "Wyrównanie",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Etykieta przycisku",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nazwa wtyczki"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nazwa wtyczki",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Strona nadrzędna"
 }

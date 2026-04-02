@@ -151,5 +151,6 @@
 	"bs-distributionconnector-videodropletinspector-alignment-center": "centrado",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "direita",
 	"bs-distributionconnector-pref-pluggableauth-config-button-label": "Etiqueta do botão",
-	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nome do plug-in"
+	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nome do plug-in",
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Página mãe"
 }

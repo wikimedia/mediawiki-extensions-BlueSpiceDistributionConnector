@@ -73,5 +73,6 @@
 	"bs-distributionconnector-checkpermissions-label-permission": "پرېښولی",
 	"bs-distributionconnector-checkpermissions-label-title": "سرليک",
 	"bs-distributionconnector-checkpermissions-error-invalid-user": "چمتو‌شوی کارن‌نوم ناچله دی",
-	"bs-distributionconnector-checkpermissions-error-invalid-title": "چمتو‌شوی سرليک ناچله دی"
+	"bs-distributionconnector-checkpermissions-error-invalid-title": "چمتو‌شوی سرليک ناچله دی",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-pages-label": "مخونه"
 }
