@@ -166,5 +166,6 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Ali naj se prijava izvede samodejno, ko uporabnik obišče viki?",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Omogoča samodejno prijavo v viki",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Nastavitve skupinske sinhronizacije (JSON)",
-	"bs-distributionconnector-droplets-subpages-parentpage-label": "Nadrejena stran"
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Nadrejena stran",
+	"bs-distributionconnector-videodropletinspector-alignment-help": "Poravnava videa levo, usredinjeno ali desno"
 }

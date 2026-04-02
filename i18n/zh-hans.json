@@ -234,5 +234,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "仅隐藏分类前缀",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "显示项目数",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "选择命名空间",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "CSS样式标签内容"
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "CSS样式标签内容",
+	"bs-distributionconnector-videodropletinspector-alignment-help": "将视频左对齐、居中或右对齐"
 }

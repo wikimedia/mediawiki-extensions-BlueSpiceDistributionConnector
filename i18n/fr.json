@@ -190,5 +190,6 @@
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Paramètres de synchronisation de groupe (JSON)",
 	"action-checkpermissions": "vérifier les autorisations des utilisateurs",
 	"right-checkpermissions": "Vérifiez les autorisations des utilisateurs sur la page spéciale [[Special:Check_Permissions]]",
-	"bs-distributionconnector-droplets-subpages-parentpage-label": "Page parente"
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Page parente",
+	"bs-distributionconnector-videodropletinspector-alignment-help": "Centrer ou cadrer à gauche ou à droite la vidéo"
 }

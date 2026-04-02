@@ -207,5 +207,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "Nur Kategoriepräfix ausblenden",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "Anzahl der Einträge anzeigen",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Namensräume auswählen",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Inhalt für CSS-Style-Tag"
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Inhalt für CSS-Style-Tag",
+	"bs-distributionconnector-videodropletinspector-alignment-help": "{{#FORMAL:Richte|Richten Sie}} das Video links, zentriert oder rechts aus"
 }

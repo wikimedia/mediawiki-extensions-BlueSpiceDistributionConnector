@@ -193,5 +193,6 @@
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "إعدادات مزامنة المجموعة (JSON)",
 	"action-checkpermissions": "التحقق من أذونات المستخدم",
 	"right-checkpermissions": "التحقق من أذونات المستخدم على الصفحة الخاصة [[Special:Check_Permissions]]",
-	"bs-distributionconnector-droplets-subpages-parentpage-label": "الصفحة الأصل"
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "الصفحة الأصل",
+	"bs-distributionconnector-videodropletinspector-alignment-help": "قم بمحاذاة الفيديو إلى اليسار أو الوسط أو اليمين"
 }
