@@ -192,5 +192,6 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin": "ユーザーがウィキにアクセスしたときにログインが自動的に行われる必要がありますか?",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Wiki への自動ログインを有効にします",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "グループ同期設定(JSON)",
-	"bs-distributionconnector-droplets-subpages-parentpage-label": "親ページ"
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "親ページ",
+	"bs-distributionconnector-videodropletinspector-alignment-help": "動画を左、中央または右に寄せて配置します"
 }
