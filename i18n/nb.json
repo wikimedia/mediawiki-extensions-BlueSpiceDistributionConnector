@@ -158,6 +158,7 @@
 	"bs-distributionconnector-videodropletinspector-dimension-label": "Dimensjon",
 	"bs-distributionconnector-videodropletinspector-dimension-help": "For å sette størrelsen til en video kan du bruke formatet «bredde x høyde» i piksler. Om høyden ikke er angitt, blir den automatisk kalkulert ifra bredden. Om du vil sette høyden, kan du indikere det med en «x».\nEksempler: 480, 480x320, x320 – for en bredde på 480 og en høyde på 320",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "Justering",
+	"bs-distributionconnector-videodropletinspector-alignment-help": "Juster videoen til venstre, midten eller til høyre",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "venstre",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "sentrert",
 	"bs-distributionconnector-videodropletinspector-alignment-right": "høyre",
@@ -169,6 +170,5 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Bør innlogging skje automatisk når en bruker besøker wikien?",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Aktiverer automatisk innlogging på wikien",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Gruppesynkroniseringsinnstillinger (JSON)",
-	"bs-distributionconnector-droplets-subpages-parentpage-label": "Forelderside",
-	"bs-distributionconnector-videodropletinspector-alignment-help": "Juster videoen til venstre, midten eller til høyre"
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Forelderside"
 }

@@ -174,6 +174,7 @@
 	"bs-distributionconnector-videodropletinspector-dimension-label": "尺寸",
 	"bs-distributionconnector-videodropletinspector-dimension-help": "要設定影片的大小，您可以使用「寬度 x 高度」（以像素為單位）的格式。如果未提供高度，則會根據寬度來自動計算。如果您要設定高度，則必須加上「x」來表示。\n例如：480、480x320、x320 - 代表寬度為 480 高度為 320",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "對齊方式",
+	"bs-distributionconnector-videodropletinspector-alignment-help": "將影片向左對齊、居中或向右對齊",
 	"bs-distributionconnector-videodropletinspector-alignment-inline": "行內",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "置左",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "置中",
@@ -208,6 +209,5 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "僅隱藏分類前綴",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "顯示項目數",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "選擇命名空間",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "CSS 樣式標籤內容",
-	"bs-distributionconnector-videodropletinspector-alignment-help": "將影片向左對齊、居中或向右對齊"
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "CSS 樣式標籤內容"
 }

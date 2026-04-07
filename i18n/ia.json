@@ -163,6 +163,7 @@
 	"bs-distributionconnector-videodropletinspector-dimension-label": "Dimension",
 	"bs-distributionconnector-videodropletinspector-dimension-help": "Pro definir le dimension del video, tu pote usar le formato \"latitude x altitude\" in pixels. Si le altitude non es fornite, illo se calcula automaticamente a base del latitude. Pro definir le altitude, indica lo con \"x\".\nExemplos: 480, 480x320, x320 - pro un latitude de 480 e un altitude de 320",
 	"bs-distributionconnector-videodropletinspector-alignment-label": "Alineamento",
+	"bs-distributionconnector-videodropletinspector-alignment-help": "Alinear le video al sinistra, al centro o al dextra",
 	"bs-distributionconnector-videodropletinspector-alignment-inline": "integrate",
 	"bs-distributionconnector-videodropletinspector-alignment-left": "sinistra",
 	"bs-distributionconnector-videodropletinspector-alignment-center": "centro",
@@ -197,6 +198,5 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "Celar solmente le prefixo de categoria",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "Monstrar numero de entratas",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Selige spatios de nomines",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Contento pro le etiquetta de stilo CSS",
-	"bs-distributionconnector-videodropletinspector-alignment-help": "Alinear le video al sinistra, al centro o al dextra"
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Contento pro le etiquetta de stilo CSS"
 }
