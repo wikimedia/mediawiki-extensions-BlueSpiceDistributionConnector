@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Tensama0415",
 			"Underbaaar",
 			"Ykhwong",
 			"Yunbj"
@@ -30,7 +31,7 @@
 	"bs-distributionconnector-pref-openidconnect-config-proxy": "프록시 URL",
 	"bs-distributionconnector-pref-openidconnect-config-scope": "범위",
 	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "선호하는 사용자 이름",
-	"bs-distributionconnector-pref-openidconnect-config-authparam": "인증 변수 (JSON)",
+	"bs-distributionconnector-pref-openidconnect-config-authparam": "인증 매개변수 (JSON)",
 	"bs-distributionconnector-pref-openidconnect-config-verifyhost": "호스트 확인",
 	"bs-distributionconnector-pref-openidconnect-config-verifypeer": "피어 확인",
 	"bs-distributionconnector-pref-simplesamlphp-emailattribute": "\"email\" 속성 이름",
