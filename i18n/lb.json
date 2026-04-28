@@ -5,6 +5,7 @@
 			"Volvox"
 		]
 	},
+	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "Preferéierte Benotzernumm",
 	"bs-distributionconnector-workflows-form-groupname": "Grupp",
 	"bs-distributionconnector-workflows-form-instructions": "Instruktiounen",
 	"bs-distributionconnector-workflows-form-username": "Benotzer",
@@ -63,6 +64,5 @@
 	"bs-distributionconnector-ve-categorytreeinspector-mode-all-label": "Alles",
 	"bs-distributionconnector-ve-categorytreeinspector-mode-parents-label": "Iwwerkategorien",
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-auto-label": "Automatesch verstoppen",
-	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Nummraim sichen",
-	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "Preferéierte Benotzernumm"
+	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Nummraim sichen"
 }
