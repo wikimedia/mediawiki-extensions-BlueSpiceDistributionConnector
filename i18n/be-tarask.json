@@ -11,5 +11,6 @@
 	"bs-distributionconnector-workflows-form-instructions": "Інструкцыі",
 	"bs-distributionconnector-workflows-form-label-reviewer": "Рэцэнзэнт",
 	"action-checkpermissions": "праверыць дазволы карыстальніка",
-	"right-checkpermissions": "Праверце дазволы карыстальніка на спэцыяльнай старонцы [[Special:Check_Permissions|Спэцыяльныя:Праверка дазволаў]]"
+	"right-checkpermissions": "Праверце дазволы карыстальніка на спэцыяльнай старонцы [[Special:Check_Permissions|Спэцыяльныя:Праверка дазволаў]]",
+	"droplets-map-name": "Мапа"
 }
