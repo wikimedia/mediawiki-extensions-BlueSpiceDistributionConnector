@@ -144,5 +144,17 @@
 	"droplets-create-input-alignment-left-label": "왼쪽",
 	"droplets-create-input-alignment-right-label": "오른쪽",
 	"droplets-map-name": "지도",
-	"bs-distributionconnector-videodropletinspector-alignment-inline": "인라인"
+	"bs-distributionconnector-videodropletinspector-alignment-inline": "인라인",
+	"bs-distributionconnector-pref-openidconnect-config-clientsecret": "클라이언트 비밀번호",
+	"bs-distributionconnector-workflows-form-head-user": "부서장",
+	"bs-distributionconnector-workflows-form-head-instructions": "부서장을 위한 안내",
+	"bs-distributionconnector-workflows-form-reportrecipient": "보고를 보낼 곳 (유효한 이메일 또는 사용자 이름)",
+	"bs-distributionconnector-pref-eventbus-enableeventbus": "다음 이벤트에 대해 EventBus를 활성화",
+	"bs-distributionconnector-pref-eventbus-enableeventbus-help": "선택된 이벤트에 대해 EventBus를 활성화",
+	"droplets-create-input-alignment-label": "정렬",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-pages-label": "문서",
+	"bs-distributionconnector-ve-categorytreeinspector-hideprefix-label": "이름공간 접두사 숨기기",
+	"bs-distributionconnector-ve-categorytreeinspector-prefix-never-label": "숨기지 않기",
+	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "분류 접두사만 숨기기",
+	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "항목 개수 표시"
 }
