@@ -130,7 +130,7 @@
 	"bs-distributionconnector-ve-categorytreeinspector-mode-cat-label": "분류",
 	"bs-distributionconnector-ve-categorytreeinspector-mode-pages-label": "문서",
 	"bs-distributionconnector-ve-categorytreeinspector-mode-all-label": "모두",
-	"bs-distributionconnector-ve-categorytreeinspector-mode-parents-label": "부모 분류",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-parents-label": "상위 분류",
 	"bs-distributionconnector-ve-categorytreeinspector-hideprefix-label": "이름공간 접두사 숨기기",
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-always-label": "항상 숨기기",
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-never-label": "숨기지 않기",
