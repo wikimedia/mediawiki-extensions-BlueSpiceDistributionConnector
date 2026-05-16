@@ -9,14 +9,14 @@ use MediaWiki\HTMLForm\Field\HTMLTitleTextField;
 use MediaWiki\HTMLForm\Field\HTMLUserTextField;
 use MediaWiki\HTMLForm\OOUIHTMLForm;
 use MediaWiki\Permissions\PermissionManager;
-use MediaWiki\SpecialPage\SpecialPage;
+use MediaWiki\SpecialPage\UnlistedSpecialPage;
 use MediaWiki\Status\Status;
 use MediaWiki\Title\TitleFactory;
 use MediaWiki\User\UserFactory;
 use PermissionsError;
 use StatusValue;
 
-class CheckPermissions extends SpecialPage {
+class CheckPermissions extends UnlistedSpecialPage {
 
 	/**
 	 * @var PermissionManager
@@ -41,10 +41,15 @@ class CheckPermissions extends SpecialPage {
 	public function __construct(
 		PermissionManager $permissionManager, TitleFactory $titleFactory, UserFactory $userFactory
 	) {
-		parent::__construct( 'CheckPermissions', 'checkpermissions', false );
+		parent::__construct( 'CheckPermissions' );
 		$this->permissionManager = $permissionManager;
 		$this->titleFactory = $titleFactory;
 		$this->userFactory = $userFactory;
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'checkpermissions';
 	}
 
 	/**
