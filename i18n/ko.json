@@ -123,7 +123,7 @@
 	"bs-distributionconnector-ve-categorytreeinspector-mode-label": "표시할 문서",
 	"bs-distributionconnector-ve-categorytreeinspector-mode-cat-label": "분류",
 	"bs-distributionconnector-ve-categorytreeinspector-mode-all-label": "모두",
-	"bs-distributionconnector-ve-categorytreeinspector-mode-parents-label": "부모 분류",
+	"bs-distributionconnector-ve-categorytreeinspector-mode-parents-label": "상위 분류",
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-always-label": "항상 숨기기",
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-auto-label": "자동으로 숨기기",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "이름공간 선택",
