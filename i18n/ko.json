@@ -90,6 +90,7 @@
 	"droplets-buttonlink-format-blue": "파란색",
 	"droplets-buttonlink-format-neutral": "흰색",
 	"droplets-buttonlink-format-red": "빨간색",
+	"droplets-create-input-placeholder-label": "자리 표시자 텍스트",
 	"droplets-create-input-alignment-label": "정렬",
 	"droplets-create-input-alignment-left-label": "왼쪽",
 	"droplets-create-input-alignment-right-label": "오른쪽",
