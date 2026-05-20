@@ -3,6 +3,7 @@
 namespace BlueSpice\DistributionConnector;
 
 use BlueSpice\DistributionConnector\SearchBackend\BlueSpiceTitleSearch;
+use MediaWiki\MediaWikiServices;
 
 class Extension extends \BlueSpice\Extension {
 
@@ -21,5 +22,19 @@ class Extension extends \BlueSpice\Extension {
 		}
 
 		$GLOBALS['wgSearchType'] = BlueSpiceTitleSearch::class;
+	}
+
+	public static function onExtensionFunctions() {
+		$edition = MediaWikiServices::getInstance()
+			->getService( 'BlueSpiceEditionProvider' )
+			->getEdition();
+		if ( $edition !== 'galaxy' ) {
+			return;
+		}
+
+		$GLOBALS['wgVisualEditorPluginModules'][] = 'ext.bluespice.distribution.categoryTree.visualEditor';
+		$GLOBALS['wgContentDropletsDroplets']['categorytree'] = [
+			'class' => '\\BlueSpice\\DistributionConnector\\ContentDroplets\\CategoryTreeDroplet',
+		];
 	}
 }
