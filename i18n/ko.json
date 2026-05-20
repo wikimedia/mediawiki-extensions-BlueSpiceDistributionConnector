@@ -156,5 +156,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-hideprefix-label": "이름공간 접두사 숨기기",
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-never-label": "숨기지 않기",
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "분류 접두사만 숨기기",
-	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "항목 개수 표시"
+	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "항목 개수 표시",
+	"droplets-create-input-placeholder-label": "자리 표시자 텍스트"
 }
