@@ -274,6 +274,9 @@
 		"checkpermissions"
 	],
 	"callback": "\\BlueSpice\\DistributionConnector\\Extension::onRegistration",
+	"ExtensionFunctions": [
+		"\\BlueSpice\\DistributionConnector\\Extension::onExtensionFunctions"
+	],
 	"MessagesDirs": {
 		"BlueSpiceDistributionConnector": [
 			"i18n"
