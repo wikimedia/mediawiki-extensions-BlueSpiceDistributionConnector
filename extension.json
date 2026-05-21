@@ -656,5 +656,8 @@
 			"class": "BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\AddVariablesPageProperties"
 		}
 	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
 	"manifest_version": 2
 }
