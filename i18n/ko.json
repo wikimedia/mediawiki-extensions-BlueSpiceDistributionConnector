@@ -186,5 +186,20 @@
 	"bs-distributionconnector-droplets-circled-number-color-help": "모든 16진수 값(예: '#3366cc')은 색상으로 사용될 수 있으며, 'white', 'blue', 'black'과 같은 CSS 색상 설명도 사용될 수 있습니다",
 	"bs-distributionconnector-ve-categorytreeinspector-depth-label": "트리의 레벨 수",
 	"bs-distributionconnector-ve-categorytreeinspector-hideroot-label": "트리의 루트 노드 숨기기",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "CSS 스타일 태그의 내용"
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "CSS 스타일 태그의 내용",
+	"bs-distributionconnector-extension-description": "블루스파이스를 다양한 미디어위키 확장 기능과 연결합니다",
+	"bs-distributionconnector-statistics-report-page-hits-desc": "선택한 기간 및 간격 동안의 문서 조회수",
+	"bs-distributionconnector-statistics-report-page-trends": "문서당 방문 트렌드",
+	"bs-distributionconnector-statistics-report-page-trends-desc": "선택한 기간 및 간격 동안 문서 조회수의 백분율 변화",
+	"bs-distributionconnector-default-user-approval-report-subject": "\"$1\" 문서의 \"사용자 승인\" 워크플로가 완료되었습니다",
+	"bs-distributionconnector-default-user-approval-report-body": "워크플로 세부 정보:\n시작일: $1\n완료일: $2\n문서: $3\n판: $4\n사용자: $5\n지침: $6\n피드백:\n$7\n\n이 이메일은 $8님이 당신을 이 워크플로의 이메일 수신자로 지정했기 때문에 발송되었습니다.",
+	"bs-distributionconnector-default-document-control-report-subject": "\"$1\" 문서의 \"전문가 문서 관리\" 워크플로가 완료되었습니다",
+	"bs-distributionconnector-default-document-control-report-body": "워크플로 세부 정보:\n시작일: $1\n완료일: $2\n문서: $3\n판: $4\n사용자: $5\n검토자: $6\n승인자: $7\n편집자 지침: $8\n검토 지침: $9\n승인 지침: $10\n피드백: \n$11\n\n이 이메일은 $12님이 당신을 이 워크플로의 이메일 수신자로 지정했기 때문에 발송되었습니다.",
+	"bs-distributionconnector-default-user-vote-report-delegated-message": "$1에게 위임됨",
+	"bs-distributionconnector-pref-eventbus-eventservices-help": "RESTful 이벤트 서비스로 상태 변경(편집, 이동, 삭제, 판 가시성 등)을 전파하여 서비스 컨슈머가 미디어위키 콘텐츠의 변경 사항을 추적할 수 있게 하는 확장 기능 \"EventBus\"에 대해 정의된 서비스",
+	"bs-distributionconnector-pref-eventbus-eventservicedefault-help": "이 이벤트 서비스를 모든 이벤트의 기본값으로 사용",
+	"droplets-map-center-label": "초점",
+	"droplets-map-center-label-help": "초점 바늘의 위치를 설정합니다. 팝업용 텍스트도 사용할 수 있습니다. 예: Regensburg ~ My custom text",
+	"droplets-buttonlink-target-label": "대상",
+	"droplets-buttonlink-label-label": "버튼의 텍스트"
 }
