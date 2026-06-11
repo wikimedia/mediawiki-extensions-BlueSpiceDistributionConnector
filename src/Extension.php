@@ -28,7 +28,7 @@ class Extension extends \BlueSpice\Extension {
 		$edition = MediaWikiServices::getInstance()
 			->getService( 'BlueSpiceEditionProvider' )
 			->getEdition();
-		if ( $edition !== 'galaxy' ) {
+		if ( $edition === 'galaxy' ) {
 			return;
 		}
 
