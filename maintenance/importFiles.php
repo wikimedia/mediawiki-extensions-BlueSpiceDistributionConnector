@@ -92,6 +92,9 @@ class ImportFiles extends Maintenance {
 			$contributorEl = $revisionEl->getElementsByTagName( 'contributor' )->item( 0 );
 			$usernameEl = $contributorEl ? $contributorEl->getElementsByTagName( 'username' )->item( 0 ) : null;
 			$contributorUsername = $usernameEl ? $usernameEl->textContent : '';
+			if ( $contributorUsername === '' ) {
+				$contributorUsername = 'BSMaintenance';
+			}
 
 			$commentEl = $revisionEl->getElementsByTagName( 'comment' )->item( 0 );
 			$comment = $commentEl ? $commentEl->textContent : '';
