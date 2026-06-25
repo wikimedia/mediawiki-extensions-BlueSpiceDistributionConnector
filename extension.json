@@ -136,11 +136,6 @@
 				"authentication": "bs-distributionconnector-setting-path-authentication"
 			}
 		},
-		"VisualEditor": {
-			"PluginModules": [
-				"ext.bluespice.distribution.categoryTree.visualEditor"
-			]
-		},
 		"Workflows": {
 			"WorkflowDefinitions": {
 				"user-approval": "BlueSpiceDistributionConnector/workflow/UserApproval.bpmn",
@@ -187,9 +182,6 @@
 			"Droplets": {
 				"gallery": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\GalleryDroplet"
-				},
-				"categorytree": {
-					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\CategoryTreeDroplet"
 				},
 				"circled-number": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\CircledNumberDroplet"
