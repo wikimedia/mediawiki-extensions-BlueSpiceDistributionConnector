@@ -79,6 +79,7 @@ class ImportFiles extends Maintenance {
 			'timestamp' => '',
 			'contributor' => '',
 			'comment' => '',
+			'pageText' => '',
 			'data' => ''
 		];
 		$historicalFileRevisions = [];
@@ -99,6 +100,10 @@ class ImportFiles extends Maintenance {
 			$commentEl = $revisionEl->getElementsByTagName( 'comment' )->item( 0 );
 			$comment = $commentEl ? $commentEl->textContent : '';
 
+			$pageTextEl = $revisionEl->getElementsByTagName( 'text' )->item( 0 );
+			/* if there is no text element, fall back to the comment as description */
+			$pageText = $pageTextEl ? $pageTextEl->textContent : $comment;
+
 			$dataEl = $revisionEl->getElementsByTagName( 'data' )->item( 0 );
 			$data = $dataEl ? $dataEl->textContent : '';
 
@@ -106,7 +111,8 @@ class ImportFiles extends Maintenance {
 				'timestamp' => wfTimestamp( TS_MW, $timestamp ),
 				'contributor' => $contributorUsername,
 				'comment' => $comment,
-				'data' => $this->basePath . $data
+				'pageText' => $pageText,
+				'data' => $this->basePath . $data,
 			];
 
 			$currentTimestamp = new DateTime( $timestamp );
@@ -123,6 +129,7 @@ class ImportFiles extends Maintenance {
 			$this->output( "  Timestamp: " . $latestFileRevision['timestamp'] . "\n" );
 			$this->output( "  Contributor: " . $latestFileRevision['contributor'] . "\n" );
 			$this->output( "  Comment: " . $latestFileRevision['comment'] . "\n" );
+			$this->output( "  Page Text: " . $latestFileRevision['pageText'] . "\n" );
 			$this->output( "  Data: " . $latestFileRevision['data'] . "\n" );
 
 			$this->output( "Historical revisions:\n" );
@@ -177,7 +184,7 @@ class ImportFiles extends Maintenance {
 		$status = $file->upload(
 			$revision['data'],
 			$revision['comment'],
-			$revision['comment'],
+			$revision['pageText'],
 			0,
 			false,
 			$revision['timestamp'],
