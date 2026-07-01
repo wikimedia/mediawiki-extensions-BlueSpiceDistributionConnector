@@ -45,8 +45,9 @@ class MigratePluggableAuthSettings extends Maintenance {
 		$this->output( 'Found settings. Copying to instance ... ' );
 		$newDbw = $this->getServiceContainer()->getConnectionProvider()->getPrimaryDatabase();
 		foreach ( $settings as $name => $value ) {
-			$newDbw->newInsertQueryBuilder()
-				->table( 'bs_settings3' )
+			$newDbw->newReplaceQueryBuilder()
+				->replaceInto( 'bs_settings3' )
+				->uniqueIndexFields( [ 's_name' ] )
 				->row( [
 					's_name' => $name,
 					's_value' => $value
