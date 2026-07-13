@@ -295,7 +295,8 @@
 		"BlueSpice\\DistributionConnector\\": "src/"
 	},
 	"TestAutoloadNamespaces": {
-		"BlueSpice\\DistributionConnector\\Tests\\": "tests/phpunit/"
+		"BlueSpice\\DistributionConnector\\Tests\\Unit\\": "tests/phpunit/unit/",
+		"BlueSpice\\DistributionConnector\\Tests\\Integration\\": "tests/phpunit/integration/"
 	},
 	"SpecialPages": {
 		"CheckPermissions": {

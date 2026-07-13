@@ -1,6 +1,6 @@
 <?php
 
-namespace BlueSpice\DistributionConnector\tests\phpunit\Integration\PDFCreator;
+namespace BlueSpice\DistributionConnector\Tests\Integration\PDFCreator;
 
 use BlueSpice\DistributionConnector\Integration\PDFCreator\Processor\LingoProcessor;
 use DOMDocument;
