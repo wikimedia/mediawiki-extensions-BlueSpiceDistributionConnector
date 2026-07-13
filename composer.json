@@ -15,11 +15,6 @@
 		"mwstake/mediawiki-component-commonwebapis": "~5",
 		"mwstake/mediawiki-component-generictaghandler": "^2.0.0"
 	},
-	"autoload": {
-		"psr-4": {
-			"BlueSpice\\DistributionConnector\\": "src"
-		}
-	},
 	"require-dev": {
 		"mediawiki/mediawiki-codesniffer": "45.0.0",
 		"mediawiki/mediawiki-phan-config": "0.14.0",
@@ -42,6 +37,17 @@
 	},
 	"extra": {
 		"installer-name": "BlueSpiceDistributionConnector"
+	},
+	"autoload": {
+		"psr-4": {
+			"BlueSpice\\DistributionConnector\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"BlueSpice\\DistributionConnector\\Tests\\Unit\\": "tests/phpunit/unit/",
+			"BlueSpice\\DistributionConnector\\Tests\\Integration\\": "tests/phpunit/integration/"
+		}
 	},
 	"config": {
 		"allow-plugins": {
