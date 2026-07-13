@@ -7,7 +7,6 @@ use BlueSpice\Data\Page\Store as PageStore;
 class Store extends PageStore {
 
 	/**
-	 *
 	 * @return Reader
 	 */
 	public function getReader() {

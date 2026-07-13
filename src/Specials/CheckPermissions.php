@@ -48,7 +48,6 @@ class CheckPermissions extends SpecialPage {
 	}
 
 	/**
-	 *
 	 * @param string $subPage
 	 * @return void
 	 * @throws PermissionsError
@@ -83,7 +82,6 @@ class CheckPermissions extends SpecialPage {
 	}
 
 	/**
-	 *
 	 * @param array $formData
 	 * @return StatusValue
 	 */

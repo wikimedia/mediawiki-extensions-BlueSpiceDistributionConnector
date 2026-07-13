@@ -43,7 +43,6 @@ class CategoryTreeDroplet extends TagDroplet {
 	}
 
 	/**
-	 *
 	 * @return string
 	 */
 	protected function getTagName(): string {

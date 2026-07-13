@@ -29,7 +29,6 @@ class EventServiceDefault extends StringSetting implements ISettingPaths, IOverw
 	}
 
 	/**
-	 *
 	 * @return string
 	 */
 	public function getHelpMessageKey() {
@@ -44,7 +43,6 @@ class EventServiceDefault extends StringSetting implements ISettingPaths, IOverw
 	}
 
 	/**
-	 *
 	 * @return string
 	 */
 	public function getGlobalName() {
