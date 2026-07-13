@@ -17,7 +17,6 @@ class AddInviteLink implements BSUserManagerRegisterModules {
 	}
 
 	/**
-	 *
 	 * @return bool
 	 */
 	private function isHidden() {

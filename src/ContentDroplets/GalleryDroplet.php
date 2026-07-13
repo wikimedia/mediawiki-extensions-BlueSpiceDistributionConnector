@@ -9,8 +9,6 @@ use MediaWiki\Message\Message;
 
 class GalleryDroplet extends TagDroplet {
 
-	/**
-	 */
 	public function __construct() {
 	}
 
@@ -50,7 +48,6 @@ class GalleryDroplet extends TagDroplet {
 	}
 
 	/**
-	 *
 	 * @return string
 	 */
 	protected function getTagName(): string {

@@ -37,7 +37,6 @@ class Config extends ArraySetting implements ISettingPaths, IOverwriteGlobal {
 	}
 
 	/**
-	 *
 	 * @return array
 	 */
 	protected function makeFormFieldParams() {

@@ -14,7 +14,6 @@ class AddNewPageLink implements SkinTemplateNavigation__UniversalHook {
 	private $permissionManager = null;
 
 	/**
-	 *
 	 * @param PermissionManager $permissionManager
 	 */
 	public function __construct( PermissionManager $permissionManager ) {

@@ -7,8 +7,6 @@ use MediaWiki\Message\Message;
 
 class CircledNumberDroplet extends TemplateDroplet {
 
-	/**
-	 */
 	public function __construct() {
 	}
 

@@ -10,7 +10,6 @@ use MediaWiki\User\User;
 class AddLoginNotification {
 
 	/**
-	 *
 	 * @param User $user
 	 * @return bool
 	 */

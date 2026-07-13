@@ -10,6 +10,9 @@ use ReflectionException;
 
 class AddEmbedVideoServices extends BeforePageDisplay {
 
+	/**
+	 * @return bool
+	 */
 	protected function skipProcessing() {
 		if ( !ExtensionRegistry::getInstance()->isLoaded( 'EmbedVideo' ) ) {
 			return true;
@@ -18,7 +21,6 @@ class AddEmbedVideoServices extends BeforePageDisplay {
 	}
 
 	/**
-	 *
 	 * @return bool
 	 * @throws ReflectionException
 	 */

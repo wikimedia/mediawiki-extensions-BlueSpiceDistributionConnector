@@ -33,12 +33,39 @@ class BSFetchContents extends Maintenance {
 	public function __construct() {
 		parent::__construct();
 
-		$this->addDescription( 'Fetch default wiki pages (like default templates) from specified wiki page. These wiki pages then will be imported with "update.php"' );
-		$this->addOption( 'source', 'Source page to get list of templates to export from. Example: "MediaWiki:ExportList/BlueSpicePageTemplates"', true, true );
-		$this->addOption( 'target', 'Target location to save list and content of wiki pages. Default: "extensions/BlueSpiceDistributionConnector/data/Content"', true, true );
-		$this->addOption( 'endpoint', 'API endpoint of specified wiki. Example: "https://somewiki/api.php"', true, true );
-		$this->addOption( 'username', 'Name of user, who is able to read content of source wiki page', true, true );
-		$this->addOption( 'password', 'Password of user, who is able to read content of source wiki page', true, true );
+		$this->addDescription(
+			'Fetch default wiki pages (like default templates) from specified wiki page. These wiki pages then will be imported with "update.php"' // phpcs:ignore Generic.Files.LineLength.TooLong
+		);
+		$this->addOption(
+			'source',
+			'Source page to get list of templates to export from. Example: "MediaWiki:ExportList/BlueSpicePageTemplates"', // phpcs:ignore Generic.Files.LineLength.TooLong
+			true,
+			true
+		);
+		$this->addOption(
+			'target',
+			'Target location to save list and content of wiki pages. Default: "extensions/BlueSpiceDistributionConnector/data/Content"', // phpcs:ignore Generic.Files.LineLength.TooLong
+			true,
+			true
+		);
+		$this->addOption(
+			'endpoint',
+			'API endpoint of specified wiki. Example: "https://somewiki/api.php"',
+			true,
+			true
+		);
+		$this->addOption(
+			'username',
+			'Name of user, who is able to read content of source wiki page',
+			true,
+			true
+		);
+		$this->addOption(
+			'password',
+			'Password of user, who is able to read content of source wiki page',
+			true,
+			true
+		);
 	}
 
 	public function execute() {

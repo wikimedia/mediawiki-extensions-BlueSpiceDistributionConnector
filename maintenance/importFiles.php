@@ -228,13 +228,16 @@ class ImportFiles extends Maintenance {
 	}
 
 	/**
-	 *
 	 * @param array $historicalRevisions
 	 * @param string $latestRevisionTimestamp
 	 * @param string $fileTitle
 	 * @return array
 	 */
-	private function calculateArchiveName( array $historicalRevisions, string $latestRevisionTimestamp, string $fileTitle ): array {
+	private function calculateArchiveName(
+		array $historicalRevisions,
+		string $latestRevisionTimestamp,
+		string $fileTitle
+	): array {
 		usort( $historicalRevisions, static function ( $a, $b ) {
 			return (int)$a['timestamp'] < (int)$b['timestamp'];
 		} );
