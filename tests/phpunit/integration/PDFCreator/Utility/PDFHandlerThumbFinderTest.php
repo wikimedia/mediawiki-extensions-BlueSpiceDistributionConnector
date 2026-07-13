@@ -1,6 +1,6 @@
 <?php
 
-namespace BlueSpice\DistributionConnector\tests\phpunit\Integration\PDFCreator\Utility;
+namespace BlueSpice\DistributionConnector\Tests\Integration\PDFCreator\Utility;
 
 use BlueSpice\DistributionConnector\Integration\PDFCreator\Utility\PDFHandlerThumbFinder;
 use DOMDocument;
