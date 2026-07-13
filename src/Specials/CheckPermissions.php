@@ -53,7 +53,6 @@ class CheckPermissions extends UnlistedSpecialPage {
 	}
 
 	/**
-	 *
 	 * @param string $subPage
 	 * @return void
 	 * @throws PermissionsError
@@ -88,7 +87,6 @@ class CheckPermissions extends UnlistedSpecialPage {
 	}
 
 	/**
-	 *
 	 * @param array $formData
 	 * @return StatusValue
 	 */

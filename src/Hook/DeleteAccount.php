@@ -9,13 +9,11 @@ use MediaWiki\User\User;
 
 abstract class DeleteAccount extends Hook {
 	/**
-	 *
 	 * @var User
 	 */
 	protected $oldUser = null;
 
 	/**
-	 *
 	 * @param User &$oldUser
 	 * @return bool
 	 */
@@ -30,7 +28,6 @@ abstract class DeleteAccount extends Hook {
 	}
 
 	/**
-	 *
 	 * @param IContextSource $context
 	 * @param Config $config
 	 * @param User &$oldUser

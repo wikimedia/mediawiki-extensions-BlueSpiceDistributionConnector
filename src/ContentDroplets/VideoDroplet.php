@@ -7,8 +7,6 @@ use MediaWiki\Message\Message;
 
 class VideoDroplet extends GenericDroplet {
 
-	/**
-	 */
 	public function __construct() {
 	}
 

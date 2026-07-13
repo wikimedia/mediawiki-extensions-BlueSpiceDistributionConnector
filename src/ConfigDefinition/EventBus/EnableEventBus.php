@@ -30,7 +30,6 @@ class EnableEventBus extends ArraySetting implements ISettingPaths, IOverwriteGl
 	}
 
 	/**
-	 *
 	 * @return HTMLSelectField
 	 */
 	public function getHtmlFormField() {
@@ -38,7 +37,6 @@ class EnableEventBus extends ArraySetting implements ISettingPaths, IOverwriteGl
 	}
 
 	/**
-	 *
 	 * @return array
 	 */
 	protected function getOptions() {
@@ -52,7 +50,6 @@ class EnableEventBus extends ArraySetting implements ISettingPaths, IOverwriteGl
 	}
 
 	/**
-	 *
 	 * @return string
 	 */
 	public function getHelpMessageKey() {
@@ -67,7 +64,6 @@ class EnableEventBus extends ArraySetting implements ISettingPaths, IOverwriteGl
 	}
 
 	/**
-	 *
 	 * @return string
 	 */
 	public function getGlobalName() {

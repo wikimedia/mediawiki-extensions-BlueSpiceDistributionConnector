@@ -42,7 +42,12 @@ class PDFHandlerImageFinder {
 	 * @param UrlUtils $urlUtils
 	 * @param RepoGroup $repoGroup
 	 */
-	public function __construct( Config $config, TitleFactory $titleFactory, UrlUtils $urlUtils, RepoGroup $repoGroup ) {
+	public function __construct(
+		Config $config,
+		TitleFactory $titleFactory,
+		UrlUtils $urlUtils,
+		RepoGroup $repoGroup
+	) {
 		$this->config = $config;
 		$this->titleFactory = $titleFactory;
 		$this->urlUtils = $urlUtils;

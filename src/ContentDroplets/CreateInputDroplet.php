@@ -7,8 +7,6 @@ use MediaWiki\Message\Message;
 
 class CreateInputDroplet extends TemplateDroplet {
 
-	/**
-	 */
 	public function __construct() {
 	}
 

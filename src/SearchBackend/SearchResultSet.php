@@ -9,7 +9,6 @@ class SearchResultSet extends \SearchResultSet {
 	protected $results = [];
 
 	/**
-	 *
 	 * @return int
 	 */
 	public function numRows() {
@@ -17,7 +16,6 @@ class SearchResultSet extends \SearchResultSet {
 	}
 
 	/**
-	 *
 	 * @return int
 	 */
 	public function getTotalHits() {
@@ -25,7 +23,6 @@ class SearchResultSet extends \SearchResultSet {
 	}
 
 	/**
-	 *
 	 * @return \SearchResult|false
 	 */
 	public function next() {
@@ -43,7 +40,6 @@ class SearchResultSet extends \SearchResultSet {
 	}
 
 	/**
-	 *
 	 * @param \SearchResult $searchResult
 	 */
 	public function add( $searchResult ) {
