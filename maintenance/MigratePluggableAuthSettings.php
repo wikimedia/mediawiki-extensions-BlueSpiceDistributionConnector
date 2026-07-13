@@ -28,7 +28,9 @@ class MigratePluggableAuthSettings extends Maintenance {
 		$res = $dbr->newSelectQueryBuilder()
 			->table( 'bs_settings3' )
 			->fields( [ 's_name', 's_value' ] )
-			->where( [ 's_name' => [ 'DistributionConnectorPluggableAuthConfig', 'DistributionConnectorEnableAutoLogin' ] ] )
+			->where( [
+				's_name' => [ 'DistributionConnectorPluggableAuthConfig', 'DistributionConnectorEnableAutoLogin' ]
+			] )
 			->caller( __METHOD__ )
 			->fetchResultSet();
 

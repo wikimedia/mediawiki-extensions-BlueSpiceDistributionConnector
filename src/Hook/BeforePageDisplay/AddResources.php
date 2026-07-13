@@ -7,7 +7,6 @@ use BlueSpice\Hook\BeforePageDisplay;
 class AddResources extends BeforePageDisplay {
 
 	/**
-	 *
 	 * @return bool
 	 */
 	protected function doProcess() {

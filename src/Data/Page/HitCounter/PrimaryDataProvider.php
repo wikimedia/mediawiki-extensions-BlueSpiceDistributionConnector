@@ -10,13 +10,11 @@ use MWStake\MediaWiki\Component\DataStore\ReaderParams;
 class PrimaryDataProvider extends PageDataProvider {
 
 	/**
-	 *
 	 * @var ReaderParams
 	 */
 	protected $readerParams = null;
 
 	/**
-	 *
 	 * @return array
 	 */
 	protected function getTableNames() {
@@ -24,7 +22,6 @@ class PrimaryDataProvider extends PageDataProvider {
 	}
 
 	/**
-	 *
 	 * @param \stdClass $row
 	 */
 	protected function appendRowToData( \stdClass $row ) {
@@ -56,7 +53,6 @@ class PrimaryDataProvider extends PageDataProvider {
 	}
 
 	/**
-	 *
 	 * @return array
 	 */
 	protected function getDefaultConds() {
@@ -64,7 +60,6 @@ class PrimaryDataProvider extends PageDataProvider {
 	}
 
 	/**
-	 *
 	 * @param ReaderParams $params
 	 * @return array
 	 */

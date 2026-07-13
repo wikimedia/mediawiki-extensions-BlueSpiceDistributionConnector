@@ -8,13 +8,11 @@ use MediaWiki\Context\IContextSource;
 
 abstract class UserMergeAccountFields extends Hook {
 	/**
-	 *
 	 * @var array
 	 */
 	protected $updateFields = null;
 
 	/**
-	 *
 	 * @param array &$updateFields
 	 * @return bool
 	 */
@@ -29,7 +27,6 @@ abstract class UserMergeAccountFields extends Hook {
 	}
 
 	/**
-	 *
 	 * @param IContextSource $context
 	 * @param Config $config
 	 * @param array &$updateFields

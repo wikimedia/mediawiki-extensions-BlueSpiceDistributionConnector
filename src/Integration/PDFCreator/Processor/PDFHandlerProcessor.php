@@ -58,7 +58,9 @@ class PDFHandlerProcessor extends ImageProcessor {
 		?ExportContext $context = null, string $module = '', $params = []
 	): void {
 		// Find PDFHandler images
-		$imageFinder = new PDFHandlerImageFinder( $this->config, $this->titleFactory, $this->urlUtils, $this->repoGroup );
+		$imageFinder = new PDFHandlerImageFinder(
+			$this->config, $this->titleFactory, $this->urlUtils, $this->repoGroup
+		);
 		$pdfImages = $imageFinder->execute( $pages, $images );
 
 		/** @var WikiFileResource */
@@ -68,7 +70,9 @@ class PDFHandlerProcessor extends ImageProcessor {
 		}
 
 		// Find PDFHandler thumbs
-		$thumbFinder = new PDFHandlerThumbFinder( $this->config, $this->titleFactory, $this->urlUtils, $this->repoGroup );
+		$thumbFinder = new PDFHandlerThumbFinder(
+			$this->config, $this->titleFactory, $this->urlUtils, $this->repoGroup
+		);
 		$pdfThumbs = $thumbFinder->execute( $pages, $images );
 
 		/** @var WikiFileResource */

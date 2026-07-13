@@ -38,7 +38,6 @@ class EventServices extends ArraySetting implements ISettingPaths, IOverwriteGlo
 	}
 
 	/**
-	 *
 	 * @return array
 	 */
 	protected function makeFormFieldParams() {
@@ -73,7 +72,6 @@ class EventServices extends ArraySetting implements ISettingPaths, IOverwriteGlo
 	}
 
 	/**
-	 *
 	 * @return string
 	 */
 	public function getHelpMessageKey() {
@@ -88,7 +86,6 @@ class EventServices extends ArraySetting implements ISettingPaths, IOverwriteGlo
 	}
 
 	/**
-	 *
 	 * @return string
 	 */
 	public function getGlobalName() {

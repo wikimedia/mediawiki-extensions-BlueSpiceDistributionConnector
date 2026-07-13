@@ -9,19 +9,16 @@ use MediaWiki\User\User;
 
 abstract class MergeAccountFromTo extends Hook {
 	/**
-	 *
 	 * @var User
 	 */
 	protected $oldUser = null;
 
 	/**
-	 *
 	 * @var User
 	 */
 	protected $newUser = null;
 
 	/**
-	 *
 	 * @param User &$oldUser
 	 * @param User &$newUser
 	 * @return bool
@@ -38,7 +35,6 @@ abstract class MergeAccountFromTo extends Hook {
 	}
 
 	/**
-	 *
 	 * @param IContextSource $context
 	 * @param Config $config
 	 * @param User &$oldUser

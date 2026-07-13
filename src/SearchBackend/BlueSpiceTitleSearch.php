@@ -55,7 +55,6 @@ class BlueSpiceTitleSearch extends SearchEngine {
 	}
 
 	/**
-	 *
 	 * @param string $term
 	 * @return SearchResultSet
 	 */
@@ -108,7 +107,6 @@ class BlueSpiceTitleSearch extends SearchEngine {
 	}
 
 	/**
-	 *
 	 * @param string $search
 	 * @return \SearchSuggestionSet
 	 */
@@ -134,7 +132,6 @@ class BlueSpiceTitleSearch extends SearchEngine {
 	}
 
 	/**
-	 *
 	 * @param int $id
 	 * @param string $title
 	 * @param string $text
@@ -144,7 +141,6 @@ class BlueSpiceTitleSearch extends SearchEngine {
 	}
 
 	/**
-	 *
 	 * @param int $id
 	 * @param string $title
 	 */
@@ -153,7 +149,6 @@ class BlueSpiceTitleSearch extends SearchEngine {
 	}
 
 	/**
-	 *
 	 * @param int $id
 	 * @param string $title
 	 */
