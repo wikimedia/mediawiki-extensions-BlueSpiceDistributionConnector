@@ -59,6 +59,10 @@ class MigratePluggableAuthSettings extends Maintenance {
 
 			$this->output( "Copied '$name'." );
 		}
+
+		$cache = $this->getServiceContainer()->getMainWANObjectCache();
+		$key = $cache->makeKey( 'BlueSpiceFoundation', 'bs_settings3' );
+		$cache->delete( $key );
 	}
 
 }
