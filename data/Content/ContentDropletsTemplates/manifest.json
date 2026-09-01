@@ -129,16 +129,22 @@
 		"lang": "en",
 		"target_title": "Template:CreateInput",
 		"content_path": "/pages/Template/CreateInput.wiki",
-		"sha1": "4540292b3454554b4d36dc65b0bcce16254e4645",
-		"old_sha1": []
+		"sha1": "61662a93260b25f564fdd18f42b79fd3e211664f",
+		"old_sha1": [
+			"4540292b3454554b4d36dc65b0bcce16254e4645",
+			"1104b99352826f7c4a4d8cb5cfa30a3196fc7823",
+			"c431157c20ae0ec5d29897649e6cfb3b8130702a"
+		]
 	},
 	"Template:CreateInput DE": {
 		"lang": "de",
 		"target_title": "Template:CreateInput",
 		"content_path": "/pages/Template/CreateInput.DE.wiki",
-		"sha1": "1104b99352826f7c4a4d8cb5cfa30a3196fc7823",
+		"sha1": "c431157c20ae0ec5d29897649e6cfb3b8130702a",
 		"old_sha1": [
-			"4540292b3454554b4d36dc65b0bcce16254e4645"
+			"4540292b3454554b4d36dc65b0bcce16254e4645",
+			"1104b99352826f7c4a4d8cb5cfa30a3196fc7823",
+			"61662a93260b25f564fdd18f42b79fd3e211664f"
 		]
 	}
 }

@@ -1,0 +1,57 @@
+@bs-create-input-control-radius: 6px;
+@bs-create-input-control-gradient: linear-gradient( 180deg, rgba( 255, 255, 255, 0.14 ) 0%, rgba( 0, 0, 0, 0.08 ) 100% );
+@bs-create-input-control-wash-dark: linear-gradient( rgba( 0, 0, 0, 0.18 ), rgba( 0, 0, 0, 0.18 ) );
+
+.mw-inputbox-centered {
+	&.mw-inputbox-centered {
+		margin: 0;
+		text-align: initial;
+	}
+
+	form.createbox {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: flex-start;
+		gap: 0.5rem;
+		margin: 0;
+		line-height: normal;
+
+		.cdx-text-input,
+		.bs-create-input-field {
+			flex: 1 1 12rem;
+			min-width: 0;
+		}
+
+		.bs-create-input-field {
+			margin-top: 0;
+
+			.oo-ui-textInputWidget {
+				max-width: none;
+			}
+		}
+
+		.mw-inputbox-createbox,
+		.oo-ui-textInputWidget .oo-ui-inputWidget-input,
+		.cdx-button {
+			border-radius: @bs-create-input-control-radius;
+		}
+
+		.mw-inputbox-createbox[ size ] {
+			/* stylelint-disable-next-line declaration-no-important -- beats ext.inputBox.styles' own "width: auto !important" for the "size" attribute */
+			width: 100% !important;
+		}
+
+		.cdx-button--action-progressive.cdx-button--weight-primary {
+			background-image: @bs-create-input-control-gradient;
+
+			&:active {
+				background-image: @bs-create-input-control-wash-dark, @bs-create-input-control-gradient;
+			}
+		}
+
+		&:invalid .cdx-button {
+			background-image: none;
+		}
+	}
+}
