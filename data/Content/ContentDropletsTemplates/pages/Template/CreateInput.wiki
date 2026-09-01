@@ -1,11 +1,13 @@
-<div style="float:{{{alignment|}}}">
+<div class="bs-create-input"{{#if:{{{alignment|}}}| style="float:{{{alignment}}}"}}>
 {{#tag:inputbox |
 type=create
 useve=true
 break=no
 buttonlabel={{{buttonlabel|Create}}}
+default={{{default|}}}
 preload={{{preload|}}}
 placeholder={{{placeholder|Enter page name}}}
 prefix={{{prefix|}}}
+arialabel={{{arialabel|}}}
 }}
 </div>

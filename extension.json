@@ -509,6 +509,7 @@
 			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddEmbedVideoServices::callback"
 		],
 		"OutputPageBodyAttributes": "\\BlueSpice\\DistributionConnector\\Hook\\OutputPageBodyAttributes\\InitRcFilters::onOutputPageBodyAttributes",
+		"OutputPageParserOutput": "addCreateInputResources",
 		"LoadExtensionSchemaUpdates": [
 			"BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\AddTemplateUserPageStandardContent::callback",
 			"migrate-pluggable-auth-config",
@@ -528,6 +529,9 @@
 	"HookHandlers": {
 		"user-manager": {
 			"class": "\\BlueSpice\\DistributionConnector\\Hook\\AddInviteLink"
+		},
+		"addCreateInputResources": {
+			"class": "\\BlueSpice\\DistributionConnector\\HookHandler\\AddCreateInputResources"
 		},
 		"migrate-pluggable-auth-config": {
 			"class": "\\BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\MigratePluggableAuthConfig"

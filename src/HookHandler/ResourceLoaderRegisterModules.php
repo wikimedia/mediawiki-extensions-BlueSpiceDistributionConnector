@@ -46,6 +46,35 @@ class ResourceLoaderRegisterModules implements ResourceLoaderRegisterModulesHook
 			] );
 		}
 
+		if ( $this->extensionRegistry->isLoaded( 'InputBox' ) ) {
+			$rl->register( [
+				'ext.bluespice.distribution.inputbox.createEnhance.styles' => [
+					'localBasePath' => $localBasePath,
+					'remoteExtPath' => $remoteExtPath,
+					'styles' => [
+						'stylesheets/bluespice.inputbox.createEnhance.less',
+					],
+				],
+				'ext.bluespice.distribution.inputbox.createEnhance' => [
+					'localBasePath' => $localBasePath,
+					'remoteExtPath' => $remoteExtPath,
+					'scripts' => [
+						'inputbox/createEnhance.js',
+					],
+					'dependencies' => [
+						'mediawiki.api',
+						'mediawiki.Title',
+						'mediawiki.widgets',
+						'oojs-ui-core',
+						'ext.oOJSPlus.widgets',
+					],
+					'messages' => [
+						'bs-distributionconnector-create-input-exists',
+					],
+				],
+			] );
+		}
+
 		if ( $this->extensionRegistry->isLoaded( 'ContentDroplets' ) ) {
 			$rl->register( [
 				'ext.bluespice.distribution.droplet.subpages' => [

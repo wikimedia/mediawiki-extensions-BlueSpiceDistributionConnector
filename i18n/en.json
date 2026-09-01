@@ -131,6 +131,7 @@
 	"droplets-create-input-alignment-center-label": "center",
 	"droplets-create-input-name": "Create page",
 	"droplets-create-input-desc": "Form field for predefined page creation",
+	"bs-distributionconnector-create-input-exists": "This page already exists. Choose a different name to create a new page.",
 	"droplets-pdf-link-page-label": "Page to export",
 	"droplets-pdf-link-template-label": "PDF template",
 	"droplets-pdf-link-link-label": "Link label",

@@ -139,6 +139,7 @@
 	"droplets-create-input-alignment-center-label": "Label for option in dropdown",
 	"droplets-create-input-name": "Title of droplet for template create input",
 	"droplets-create-input-desc": "Description of droplet for template create input",
+	"bs-distributionconnector-create-input-exists": "Warning shown below the field of a \"create page\" input box when the entered page name is already taken. The create button is disabled while it shows.",
 	"droplets-pdf-link-page-label": "Label for text input to insert page for export",
 	"droplets-pdf-link-template-label": "Label for text input to insert template name",
 	"droplets-pdf-link-link-label": "Label for text input to insert label of link",
