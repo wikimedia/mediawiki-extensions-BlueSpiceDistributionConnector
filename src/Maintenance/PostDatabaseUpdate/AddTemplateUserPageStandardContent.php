@@ -10,6 +10,8 @@ use MediaWiki\Revision\SlotRecord;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
 
+require_once dirname( __DIR__, 5 ) . "/maintenance/Maintenance.php";
+
 class AddTemplateUserPageStandardContent extends LoggedUpdateMaintenance {
 
 	/**
@@ -55,3 +57,6 @@ class AddTemplateUserPageStandardContent extends LoggedUpdateMaintenance {
 		return 'bs-cloudclient-add-empty-template-userpage-standard-content';
 	}
 }
+
+$maintClass = AddTemplateUserPageStandardContent::class;
+require_once RUN_MAINTENANCE_IF_MAIN;
