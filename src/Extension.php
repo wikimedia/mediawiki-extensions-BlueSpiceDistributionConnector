@@ -44,5 +44,8 @@ class Extension extends \BlueSpice\Extension {
 				'class' => '\\SimpleTasks\\ContentDroplets\\TaskReportDroplet',
 			];
 		}
+		$GLOBALS['wgContentDropletsDroplets']['subpages'] = [
+			'class' => '\\BlueSpice\\DistributionConnector\\ContentDroplets\\SubpagesDroplet',
+		];
 	}
 }
