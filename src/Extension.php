@@ -4,6 +4,7 @@ namespace BlueSpice\DistributionConnector;
 
 use BlueSpice\DistributionConnector\SearchBackend\BlueSpiceTitleSearch;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Registration\ExtensionRegistry;
 
 class Extension extends \BlueSpice\Extension {
 
@@ -36,5 +37,12 @@ class Extension extends \BlueSpice\Extension {
 		$GLOBALS['wgContentDropletsDroplets']['categorytree'] = [
 			'class' => '\\BlueSpice\\DistributionConnector\\ContentDroplets\\CategoryTreeDroplet',
 		];
+
+		if ( ExtensionRegistry::getInstance()->isLoaded( 'SimpleTasks' ) ) {
+			$GLOBALS['wgVisualEditorPluginModules'][] = 'ext.simpletasks.taskreport.nodes';
+			$GLOBALS['wgContentDropletsDroplets']['taskreport'] = [
+				'class' => '\\SimpleTasks\\ContentDroplets\\TaskReportDroplet',
+			];
+		}
 	}
 }
