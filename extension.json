@@ -186,9 +186,6 @@
 				"circled-number": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\CircledNumberDroplet"
 				},
-				"subpages": {
-					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\SubpagesDroplet"
-				},
 				"map": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\MapDroplet"
 				},
