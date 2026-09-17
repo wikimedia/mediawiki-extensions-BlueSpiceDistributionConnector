@@ -61,7 +61,7 @@ class CheckPermissions extends UnlistedSpecialPage {
 		$this->checkPermissions();
 		$this->setHeaders();
 		$out = $this->getOutput();
-		$out->setPageTitle( $this->msg( 'bs-distributionconnector-checkpermissions' ) );
+		$out->setPageTitleMsg( $this->msg( 'bs-distributionconnector-checkpermissions' ) );
 		$options = [];
 		foreach ( $this->permissionManager->getAllPermissions() as $var ) {
 			$options[$var] = $var;
