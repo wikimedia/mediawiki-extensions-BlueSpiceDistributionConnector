@@ -3,14 +3,14 @@
 		"lang": "en",
 		"target_title": "MediaWiki:FooterLinks",
 		"content_path": "/FooterLinks.wiki",
-		"sha1": "34613c61373de54709bc1e154dee3d181019cd44",
-		"old_sha1": []
+		"sha1": "68f36cf11524c5062bb0a4f0aaa0ba467671bea7",
+		"old_sha1": [ "34613c61373de54709bc1e154dee3d181019cd44" ]
 	},
 	"MediaWiki:FooterLinks DE": {
 		"lang": "de",
 		"target_title": "MediaWiki:FooterLinks",
 		"content_path": "/FooterLinks.DE.wiki",
-		"sha1": "6bbf78b9a70337857655036ea77eff6e44a05af8",
-		"old_sha1": []
+		"sha1": "9c9cd19efa1283cd003cdced776cbd0b8efa926b",
+		"old_sha1": [ "6bbf78b9a70337857655036ea77eff6e44a05af8" ]
 	}
 }

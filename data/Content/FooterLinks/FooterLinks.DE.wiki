@@ -1,5 +1,5 @@
-* Site:Datenschutz|Datenschutz
-* Site:Nutzungsbedingungen|Nutzungsbedingungen
+* Special:PrivacyPages/PrivacyPolicy|Datenschutz
+* Special:PrivacyPages/TermsOfServices|Nutzungsbedingungen
 * Site:Haftungsausschluss|Haftungsausschluss
 * Site:Impressum|Impressum
 * Site:Über|Über
