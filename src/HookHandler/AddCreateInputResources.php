@@ -19,7 +19,7 @@ class AddCreateInputResources implements OutputPageParserOutputHook {
 		if ( !$parserOutput->hasText() ) {
 			return;
 		}
-		if ( strpos( $parserOutput->getRawText(), self::MARKER ) === false ) {
+		if ( strpos( $parserOutput->getContentHolderText(), self::MARKER ) === false ) {
 			return;
 		}
 		$out->addModuleStyles( [ self::STYLE_MODULE ] );
