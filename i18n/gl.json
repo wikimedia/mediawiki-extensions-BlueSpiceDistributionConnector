@@ -198,5 +198,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "Agochar só o prefixo da categoría",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "Mostrar o número de entradas",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Seleccionar os espazos de nomes",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Contido para a etiqueta de estilo CSS"
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Contido para a etiqueta de estilo CSS",
+	"bs-distributionconnector-create-input-exists": "Esta páxina xa existe. Escolle un nome diferente para crear unha páxina nova."
 }

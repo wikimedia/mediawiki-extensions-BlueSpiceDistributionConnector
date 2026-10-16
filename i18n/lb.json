@@ -64,5 +64,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-mode-all-label": "Alles",
 	"bs-distributionconnector-ve-categorytreeinspector-mode-parents-label": "Iwwerkategorien",
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-auto-label": "Automatesch verstoppen",
-	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Nummraim sichen"
+	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Nummraim sichen",
+	"bs-distributionconnector-create-input-exists": "Dës Säit gëtt et schonn. Wielt en aneren Numm, fir eng nei Säit unzeleeën."
 }
