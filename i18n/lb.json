@@ -19,7 +19,7 @@
 	"bs-distributionconnector-workflows-form-feedback": "Gitt Äre Feedback an...",
 	"bs-distributionconnector-workflows-form-group-instructions": "Instruktioune fir de Grupp",
 	"bs-distributionconnector-workflows-form-label-editor": "Editeur",
-	"bs-distributionconnector-workflows-form-instructions-reviewer": "Instruktioune fir deen deen et nokuckt",
+	"bs-distributionconnector-workflows-form-instructions-reviewer": "Instruktioune fir deen, deen et nokuckt",
 	"bs-distributionconnector-workflows-form-label-approver": "Zoustëmmer",
 	"bs-distributionconnector-statistics-report-page-hits": "Besicher pro Säit",
 	"bs-sandbox": "Sandkaul",
@@ -68,5 +68,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-mode-parents-label": "Iwwerkategorien",
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-auto-label": "Automatesch verstoppen",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Nummraim sichen",
-	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "Preferéierte Benotzernumm"
+	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "Preferéierte Benotzernumm",
+	"bs-distributionconnector-create-input-exists": "Dës Säit gëtt et schonn. Wielt en aneren Numm, fir eng nei Säit unzeleeën."
 }
