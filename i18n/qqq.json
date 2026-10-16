@@ -209,5 +209,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "Label for option in dropdown",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "Label for checkbox input widget",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Label for input widget",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Label for input widget"
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Label for input widget",
+	"bs-distributionconnector-create-input-exists": "Warning shown below the field of a \"create page\" input box when the entered page name is already taken. The create button is disabled while it shows."
 }
