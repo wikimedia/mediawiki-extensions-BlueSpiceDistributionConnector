@@ -41,6 +41,7 @@ function enhance( $form ) {
 	if ( $input.length !== 1 || namespaceId === null ) {
 		return;
 	}
+	$form.attr( 'target', '_blank' );
 
 	const widget = new OOJSPlus.ui.widget.TitleInputWidget( {
 		namespaces: [ namespaceId ],
@@ -48,6 +49,7 @@ function enhance( $form ) {
 		// Only existing pages are offered: the field names a page that does not exist yet, so a
 		// suggestion is never the thing being created.
 		mustExist: true,
+		$overlay: true,
 		placeholder: $input.attr( 'placeholder' ),
 		required: true
 	} );
