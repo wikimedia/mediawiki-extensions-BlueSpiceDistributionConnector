@@ -19,6 +19,13 @@
 		return false;
 	};
 
+	bs.distributionConnector.object.CreateInputDroplet.prototype.getForm = function ( data ) {
+		if ( ![ 'left', 'right' ].includes( data.alignment ) ) {
+			data.alignment = '';
+		}
+		return bs.distributionConnector.object.CreateInputDroplet.parent.prototype.getForm.call( this, data );
+	};
+
 	bs.distributionConnector.object.CreateInputDroplet.prototype.getFormItems = function () {
 		return [
 			{

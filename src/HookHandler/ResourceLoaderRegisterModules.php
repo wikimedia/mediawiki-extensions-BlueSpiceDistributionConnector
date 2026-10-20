@@ -130,6 +130,7 @@ class ResourceLoaderRegisterModules implements ResourceLoaderRegisterModulesHook
 					],
 					'styles' => [
 						'stylesheets/bluespice.contentdroplets.createInput.css',
+						'stylesheets/bluespice.inputbox.createEnhance.less',
 					],
 					'messages' => [
 						'droplets-create-input-button-label',

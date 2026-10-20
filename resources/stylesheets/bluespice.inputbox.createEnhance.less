@@ -1,6 +1,7 @@
 @bs-create-input-control-radius: 6px;
 @bs-create-input-control-gradient: linear-gradient( 180deg, rgba( 255, 255, 255, 0.14 ) 0%, rgba( 0, 0, 0, 0.08 ) 100% );
 @bs-create-input-control-wash-dark: linear-gradient( rgba( 0, 0, 0, 0.18 ), rgba( 0, 0, 0, 0.18 ) );
+@bs-create-input-width: 30rem;
 
 .mw-inputbox-centered {
 	&.mw-inputbox-centered {
@@ -11,16 +12,23 @@
 	form.createbox {
 		display: flex;
 		flex-wrap: wrap;
-		align-items: center;
+		align-items: flex-start;
 		justify-content: flex-start;
 		gap: 0.5rem;
-		margin: 0;
+		box-sizing: border-box;
+		width: @bs-create-input-width;
+		max-width: 100%;
+		margin: 0 auto;
 		line-height: normal;
 
 		.cdx-text-input,
 		.bs-create-input-field {
 			flex: 1 1 12rem;
 			min-width: 0;
+		}
+
+		.cdx-button {
+			flex: none;
 		}
 
 		.bs-create-input-field {
