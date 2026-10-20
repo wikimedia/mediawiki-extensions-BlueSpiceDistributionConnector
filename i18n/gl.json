@@ -129,6 +129,7 @@
 	"droplets-create-input-alignment-center-label": "centro",
 	"droplets-create-input-name": "Crear unha páxina",
 	"droplets-create-input-desc": "Campo de formulario para a creación de páxinas predefinidas",
+	"bs-distributionconnector-create-input-exists": "Esta páxina xa existe. Escolle un nome diferente para crear unha páxina nova.",
 	"droplets-pdf-link-page-label": "Páxina para exportar",
 	"droplets-pdf-link-template-label": "Modelo de PDF",
 	"droplets-pdf-link-link-label": "Texto da ligazón",
@@ -198,6 +199,5 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "Agochar só o prefixo da categoría",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "Mostrar o número de entradas",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Seleccionar os espazos de nomes",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Contido para a etiqueta de estilo CSS",
-	"bs-distributionconnector-create-input-exists": "Esta páxina xa existe. Escolle un nome diferente para crear unha páxina nova."
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Contido para a etiqueta de estilo CSS"
 }
