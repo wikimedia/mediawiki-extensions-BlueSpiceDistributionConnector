@@ -224,5 +224,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "Alleen categorievoorvoegsel verbergen",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "Aantal vermeldingen weergeven",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Naamruimten selecteren",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Inhoud voor CSS-stijltag"
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Inhoud voor CSS-stijltag",
+	"bs-distributionconnector-create-input-exists": "Deze pagina bestaat al. Kies een andere naam om een nieuwe pagina aan te maken."
 }
