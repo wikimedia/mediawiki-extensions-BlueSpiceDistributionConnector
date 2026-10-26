@@ -8,10 +8,10 @@ use DOMNodeList;
 use DOMXPath;
 use MediaWiki\Config\Config;
 use MediaWiki\Extension\PDFCreator\Utility\WikiFileResource;
+use MediaWiki\FileRepo\RepoGroup;
 use MediaWiki\Title\Title;
 use MediaWiki\Title\TitleFactory;
 use MediaWiki\Utils\UrlUtils;
-use RepoGroup;
 
 class PDFHandlerImageFinder {
 

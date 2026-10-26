@@ -5,11 +5,11 @@ namespace BlueSpice\DistributionConnector\Tests\Integration\PDFCreator\Utility;
 use BlueSpice\DistributionConnector\Integration\PDFCreator\Utility\PDFHandlerThumbFinder;
 use DOMDocument;
 use MediaWiki\Extension\PDFCreator\Utility\ExportPage;
+use MediaWiki\FileRepo\RepoGroup;
 use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\TitleFactory;
 use MediaWikiLangTestCase;
-use RepoGroup;
 
 /**
  * @covers BlueSpice\DistributionConnector\Integration\PDFCreator\Utility\PDFHandlerThumbFinder
