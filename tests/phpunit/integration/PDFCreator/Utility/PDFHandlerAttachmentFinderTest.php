@@ -7,13 +7,13 @@ use DOMDocument;
 use File;
 use MediaWiki\Extension\PDFCreator\Utility\ExportPage;
 use MediaWiki\Extension\PDFCreator\Utility\WikiFileResource;
+use MediaWiki\FileRepo\RepoGroup;
 use MediaWiki\MainConfigNames;
 use MediaWiki\Title\Title;
 use MediaWiki\Title\TitleFactory;
 use MediaWiki\Utils\UrlUtils;
 use MediaWikiLangTestCase;
 use PHPUnit\Framework\MockObject\MockObject;
-use RepoGroup;
 
 /**
  * @covers BlueSpice\DistributionConnector\Integration\PDFCreator\Utility\PDFHandlerAttachmentFinder
