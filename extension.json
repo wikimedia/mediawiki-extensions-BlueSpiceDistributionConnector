@@ -183,8 +183,14 @@
 				"gallery": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\GalleryDroplet"
 				},
+				"categorytree": {
+					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\CategoryTreeDroplet"
+				},
 				"circled-number": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\CircledNumberDroplet"
+				},
+				"subpages": {
+					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\SubpagesDroplet"
 				},
 				"map": {
 					"class": "\\BlueSpice\\DistributionConnector\\ContentDroplets\\MapDroplet"
@@ -263,9 +269,6 @@
 		"checkpermissions"
 	],
 	"callback": "\\BlueSpice\\DistributionConnector\\Extension::onRegistration",
-	"ExtensionFunctions": [
-		"\\BlueSpice\\DistributionConnector\\Extension::onExtensionFunctions"
-	],
 	"MessagesDirs": {
 		"BlueSpiceDistributionConnector": [
 			"i18n"
