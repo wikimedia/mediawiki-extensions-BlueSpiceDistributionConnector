@@ -5,7 +5,7 @@ namespace BlueSpice\DistributionConnector\Maintenance\PostDatabaseUpdate;
 use MediaWiki\Content\WikitextContent;
 use MediaWiki\Maintenance\LoggedUpdateMaintenance;
 use MediaWiki\MediaWikiServices;
-use WikiPage;
+use MediaWiki\Page\WikiPage;
 
 require_once dirname( __DIR__, 5 ) . "/maintenance/Maintenance.php";
 
