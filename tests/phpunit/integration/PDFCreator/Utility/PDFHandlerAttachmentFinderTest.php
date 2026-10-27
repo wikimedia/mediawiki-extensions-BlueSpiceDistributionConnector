@@ -4,9 +4,9 @@ namespace BlueSpice\DistributionConnector\Tests\Integration\PDFCreator\Utility;
 
 use BlueSpice\DistributionConnector\Integration\PDFCreator\Utility\PDFHandlerAttachmentFinder;
 use DOMDocument;
-use File;
 use MediaWiki\Extension\PDFCreator\Utility\ExportPage;
 use MediaWiki\Extension\PDFCreator\Utility\WikiFileResource;
+use MediaWiki\FileRepo\File\File;
 use MediaWiki\FileRepo\RepoGroup;
 use MediaWiki\MainConfigNames;
 use MediaWiki\Title\Title;
