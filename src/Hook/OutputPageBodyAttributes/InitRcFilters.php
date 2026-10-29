@@ -3,7 +3,7 @@
 namespace BlueSpice\DistributionConnector\Hook\OutputPageBodyAttributes;
 
 use MediaWiki\Output\OutputPage;
-use Skin;
+use MediaWiki\Skin\Skin;
 
 class InitRcFilters {
 
