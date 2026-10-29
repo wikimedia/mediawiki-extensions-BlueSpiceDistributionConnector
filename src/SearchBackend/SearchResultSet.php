@@ -2,6 +2,8 @@
 
 namespace BlueSpice\DistributionConnector\SearchBackend;
 
+use MediaWiki\Search\SearchResult;
+
 class SearchResultSet extends \SearchResultSet {
 	/** @var int */
 	public $index = -1;
@@ -23,7 +25,7 @@ class SearchResultSet extends \SearchResultSet {
 	}
 
 	/**
-	 * @return \SearchResult|false
+	 * @return SearchResult|false
 	 */
 	public function next() {
 		$this->index++;
@@ -40,7 +42,7 @@ class SearchResultSet extends \SearchResultSet {
 	}
 
 	/**
-	 * @param \SearchResult $searchResult
+	 * @param SearchResult $searchResult
 	 */
 	public function add( $searchResult ) {
 		$this->results[] = $searchResult;
