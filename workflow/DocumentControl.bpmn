@@ -22,13 +22,13 @@
 				</wf:formModule>
 				<wf:initializer>true</wf:initializer>
 			</bpmn:extensionElements>
-			<bpmn:property name="usernameEditor" validation="existing-user">{{ROOTPAGENAME:{{#show:{{FULLPAGENAME}}|?QM Editor|link=none}}}}</bpmn:property>
+			<bpmn:property name="usernameEditor" validation="existing-user"></bpmn:property>
 			<bpmn:property name="instructionsEditor"/>
-			<bpmn:property name="usernameReviewer" validation="existing-user">{{ROOTPAGENAME:{{#show:{{FULLPAGENAME}}|?QM Reviewer|link=none}}}}</bpmn:property>
+			<bpmn:property name="usernameReviewer" validation="existing-user"></bpmn:property>
 			<bpmn:property name="instructionsReviewer"/>
-			<bpmn:property name="usernameApprover" validation="existing-user,valid-reviewer">{{ROOTPAGENAME:{{#show:{{FULLPAGENAME}}|?QM Approver|link=none}}}}</bpmn:property>
+			<bpmn:property name="usernameApprover" validation="existing-user,valid-reviewer"></bpmn:property>
 			<bpmn:property name="instructionsApprover" />
-			<bpmn:property name="reportrecipient" validation="email-recipient">{{#show:{{#if:{{NAMESPACE}}|{{NAMESPACE}}:|}}{{MediaWiki:mainpage}}|?Report mail|link=none|default={{#if:{{NAMESPACE}}|{{NAMESPACE}}-|}}report@{{SERVERNAME}}}}</bpmn:property>
+			<bpmn:property name="reportrecipient" validation="email-recipient"></bpmn:property>
 			<bpmn:property name="due_date">{{#time:YmdHis|now + 7days}}</bpmn:property>
 			<bpmn:incoming>FromTheStartToCollectData</bpmn:incoming>
 			<bpmn:outgoing>FromCollectDataToCheckoutPage_1</bpmn:outgoing>
