@@ -1,6 +1,9 @@
-<noinclude>Inspired by https://www.mediawiki.org/wiki/Template:Clickable_button_2
-</noinclude><includeonly>{{#ifeq:{{#switch: {{{external}}}|yes|ja=yes}} |yes|<span class="plainlinks">[{{{target}}} <span role="button" class="mw-ui-button {{#switch: {{{format}}}|blue|blau=mw-ui-progressive|red|rot=mw-ui-destructive|}}">{{{label}}}</span>]</span>|[[{{{target}}}|<span role="button" class="mw-ui-button {{#switch: {{{format}}}|blue|blau=mw-ui-progressive|red|rot=mw-ui-destructive|}}">{{{label}}}</span>]]}}</includeonly>
-<noinclude>
+<includeonly>{{#if:{{#switch:{{{external|}}}|yes|ja|1=1}}{{#switch:{{lc:{{padleft:|7|{{{target|}}}}}}}|http://=1}}{{#switch:{{lc:{{padleft:|8|{{{target|}}}}}}}|https://=1}}|<span class="plainlinks">[{{{target}}} <span class="bs-buttonlink cdx-button cdx-button--fake-button cdx-button--fake-button--enabled {{#switch:{{{format|}}}|blue|blau=cdx-button--action-progressive cdx-button--weight-primary|red|rot=cdx-button--action-destructive cdx-button--weight-primary}}">{{{label}}}</span>]</span>|[[{{{target}}}|<span class="bs-buttonlink cdx-button cdx-button--fake-button cdx-button--fake-button--enabled {{#switch:{{{format|}}}|blue|blau=cdx-button--action-progressive cdx-button--weight-primary|red|rot=cdx-button--action-destructive cdx-button--weight-primary}}">{{{label}}}</span>]]}}</includeonly><noinclude>
+This template is used by the content droplet "Button". Changes to it affect every page that uses the droplet.
+
+Parameters: target = page name or URL, label = text on the button, format = background color (blue, red or neutral), external = yes for external links that do not start with http:// or https://, e.g. mailto:. Links that start with http:// or https:// are detected automatically.
+
+Inspired by https://www.mediawiki.org/wiki/Template:Clickable_button_2
 <templatedata>
 {
 	"params": {
@@ -10,8 +13,8 @@
 				"de": "Ist dies ein externer Link?"
 			},
 			"description": {
-				"en": "Link needs to start with http:// or https://",
-				"de": "Ein externer Link beginnt mit http:// oder https://"
+				"en": "Links that start with http:// or https:// are detected automatically. Only needed for other external links, e.g. mailto:",
+				"de": "Links, die mit http:// oder https:// beginnen, werden automatisch erkannt. Nur für andere externe Links nötig, z. B. mailto:"
 			},
 			"example": {
 				"en": "no, yes",
@@ -21,38 +24,46 @@
 				"en": "no",
 				"de": "nein"
 			},
-			"type": "boolean",
-			"suggested": true
+			"type": "boolean"
 		},
 		"target": {
 			"label": {
 				"en": "Link target",
 				"de": "Zielseite"
 			},
+			"description": {
+				"en": "Page name or URL",
+				"de": "Seitenname oder URL"
+			},
 			"required": true
 		},
 		"label": {
 			"label": {
-				"en": "Label ",
+				"en": "Label",
 				"de": "Bezeichnung"
 			},
 			"required": true
 		},
 		"format": {
 			"label": {
-				"en": "Background color (leave empty for white)",
-				"de": "Hintergrundfarbe (für weiß leer lassen)"
+				"en": "Background color",
+				"de": "Hintergrundfarbe"
 			},
-			"example": {
-				"en": "blue, red",
-				"de": "rot, blau"
+			"description": {
+				"en": "blue, red or neutral (white). Empty or other values show a neutral button.",
+				"de": "blau, rot oder neutral (weiß). Leer oder andere Werte ergeben einen neutralen Button."
 			},
+			"suggestedvalues": [
+				"blue",
+				"red",
+				"neutral"
+			],
 			"suggested": true
 		}
 	},
 	"description": {
-		"en": "Styles a text link as button",
-		"de": "Formatiert einen Textlink als Button."
+		"en": "Styles a link as a button. Used by the content droplet \"Button\".",
+		"de": "Formatiert einen Link als Button. Wird vom Content-Droplet „Schaltfläche“ verwendet."
 	}
 }
 </templatedata>

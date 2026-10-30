@@ -440,6 +440,13 @@
 				"droplets-map-center-label-help"
 			]
 		},
+		"ext.bluespice.distribution.buttonlink.styles": {
+			"class": "MediaWiki\\ResourceLoader\\CodexModule",
+			"codexComponents": [
+				"CdxButton"
+			],
+			"codexStyleOnly": true
+		},
 		"ext.bluespice.distribution.object.buttonlink": {
 			"scripts": [
 				"object/ButtonLinkDroplet.js"
@@ -451,7 +458,6 @@
 				"oojs-ui"
 			],
 			"messages": [
-				"droplets-buttonlink-external-label",
 				"droplets-buttonlink-target-label",
 				"droplets-buttonlink-label-label",
 				"droplets-buttonlink-format-label",
@@ -512,7 +518,10 @@
 			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddEmbedVideoServices::callback"
 		],
 		"OutputPageBodyAttributes": "\\BlueSpice\\DistributionConnector\\Hook\\OutputPageBodyAttributes\\InitRcFilters::onOutputPageBodyAttributes",
-		"OutputPageParserOutput": "addCreateInputResources",
+		"OutputPageParserOutput": [
+			"addCreateInputResources",
+			"addButtonLinkResources"
+		],
 		"LoadExtensionSchemaUpdates": [
 			"BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\AddTemplateUserPageStandardContent::callback",
 			"migrate-pluggable-auth-config",
@@ -535,6 +544,9 @@
 		},
 		"addCreateInputResources": {
 			"class": "\\BlueSpice\\DistributionConnector\\HookHandler\\AddCreateInputResources"
+		},
+		"addButtonLinkResources": {
+			"class": "\\BlueSpice\\DistributionConnector\\HookHandler\\AddButtonLinkResources"
 		},
 		"migrate-pluggable-auth-config": {
 			"class": "\\BlueSpice\\DistributionConnector\\Hook\\LoadExtensionSchemaUpdates\\MigratePluggableAuthConfig"

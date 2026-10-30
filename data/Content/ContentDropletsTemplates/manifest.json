@@ -59,18 +59,20 @@
 		"description": "Customisable button with adjustable action",
 		"target_title": "Template:ButtonLink",
 		"content_path": "/pages/Template/ButtonLink.wiki",
-		"sha1": "0b08ad7cc9a772eccaa0843df349a6a8145255fd",
+		"sha1": "3b4da74fd6ae23092634d05850f46d141770d4b6",
 		"old_sha1": [
-			"6ee813ca07b1e5438c758f279593d6454a889e97"
+			"6ee813ca07b1e5438c758f279593d6454a889e97",
+			"0b08ad7cc9a772eccaa0843df349a6a8145255fd"
 		]
 	},
 	"Template:ButtonLink DE": {
 		"lang": "de",
 		"target_title": "Template:ButtonLink",
-		"content_path": "/pages/Template/ButtonLink.wiki",
-		"sha1": "0b08ad7cc9a772eccaa0843df349a6a8145255fd",
+		"content_path": "/pages/Template/ButtonLink.DE.wiki",
+		"sha1": "d74f03bf49355a3cebffe73069c51e5a7b7aa31c",
 		"old_sha1": [
-			"6ee813ca07b1e5438c758f279593d6454a889e97"
+			"6ee813ca07b1e5438c758f279593d6454a889e97",
+			"0b08ad7cc9a772eccaa0843df349a6a8145255fd"
 		]
 	},
 	"Template:PDFLink": {
