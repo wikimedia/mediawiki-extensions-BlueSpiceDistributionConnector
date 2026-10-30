@@ -22,12 +22,6 @@
 	bs.distributionConnector.object.ButtonLinkDroplet.prototype.getFormItems = function () {
 		return [
 			{
-				name: 'external',
-				label: mw.message( 'droplets-buttonlink-external-label' ).text(),
-				type: 'checkbox',
-				labelAlign: 'inline'
-			},
-			{
 				name: 'target',
 				label: mw.message( 'droplets-buttonlink-target-label' ).text(),
 				type: 'text'
@@ -61,26 +55,17 @@
 
 	bs.distributionConnector.object.ButtonLinkDroplet.prototype.modifyFormDataBeforeSubmission =
 	function ( dataPromise ) {
-		// Convert true/false from checkbox control, to yes/no expected by the ButtonLink template
+		// Set "external" from the target, so links with any URL protocol (e.g. mailto:) work
 		const dfd = $.Deferred();
+		const urlProtocols = new RegExp( '^(' + mw.config.get( 'wgUrlProtocols' ) + ')', 'i' );
 		dataPromise.done( ( data ) => {
-			data.external = data.external ? 'yes' : 'no';
+			data.external = urlProtocols.test( ( data.target || '' ).trim() ) ? 'yes' : 'no';
 			dfd.resolve( data );
 		} ).fail( function () {
 			dfd.reject( arguments );
 		} );
 
 		return dfd.promise();
-	};
-
-	bs.distributionConnector.object.ButtonLinkDroplet.prototype.getForm = function ( data ) {
-		// convert yes/no to true and false for checkbox control
-		if ( data.external === 'no' ) {
-			data.external = false;
-		} else {
-			data.external = true;
-		}
-		return bs.distributionConnector.object.ButtonLinkDroplet.parent.prototype.getForm.call( this, data );
 	};
 
 	ext.contentdroplets.registry.register( 'buttonlink', bs.distributionConnector.object.ButtonLinkDroplet );

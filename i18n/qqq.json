@@ -117,7 +117,6 @@
 	"droplets-map-center-label-help": "Help message for focus input field",
 	"droplets-map-center-map-label": "Label for condition input field",
 	"droplets-map-center-map-label-help": "Help message for condition input field",
-	"droplets-buttonlink-external-label": "Label for input field to set if internal link or not",
 	"droplets-buttonlink-target-label": "Label for input field to set target of button link",
 	"droplets-buttonlink-label-label": "Label for input field to insert text for button",
 	"droplets-buttonlink-format-label": "Label for input field to set background color",
