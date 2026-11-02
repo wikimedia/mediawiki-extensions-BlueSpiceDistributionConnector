@@ -3,6 +3,7 @@
 namespace BlueSpice\DistributionConnector\SearchBackend;
 
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Search\ISearchResultSet;
 use MediaWiki\Search\RevisionSearchResult;
 use MediaWiki\Search\SearchSuggestionSet;
 use MediaWiki\Status\Status;
@@ -39,7 +40,7 @@ class BlueSpiceTitleSearch extends SearchEngine {
 	/**
 	 * @param string $term
 	 *
-	 * @return \ISearchResultSet|Status|null
+	 * @return ISearchResultSet|Status|null
 	 */
 	public function searchText( $term ) {
 		return $this->fallbackSearchEngine->searchText( $term );
