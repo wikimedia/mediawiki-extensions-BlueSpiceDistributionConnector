@@ -2,6 +2,7 @@
 
 namespace BlueSpice\DistributionConnector\Hook;
 
+use MediaWiki\Exception\PermissionsError;
 use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\SpecialPage\SpecialPageFactory;
 use MWStake\MediaWiki\Component\CommonUserInterface\Component\RestrictedTextLink;
@@ -37,7 +38,7 @@ class AddGlobalAction implements MWStakeCommonUIRegisterSkinSlotComponents {
 		// If not, do not register the link
 		try {
 			$special->checkPermissions();
-		} catch ( \PermissionsError $e ) {
+		} catch ( PermissionsError $e ) {
 			return;
 		}
 
