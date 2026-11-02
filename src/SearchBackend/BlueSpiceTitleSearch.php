@@ -3,6 +3,7 @@
 namespace BlueSpice\DistributionConnector\SearchBackend;
 
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Search\SearchSuggestionSet;
 use MediaWiki\Status\Status;
 use MediaWiki\Title\TitleFactory;
 use MWStake\MediaWiki\Component\CommonWebAPIs\Data\TitleQueryStore\Store;
@@ -108,11 +109,11 @@ class BlueSpiceTitleSearch extends SearchEngine {
 
 	/**
 	 * @param string $search
-	 * @return \SearchSuggestionSet
+	 * @return SearchSuggestionSet
 	 */
 	protected function completionSearchBackend( $search ) {
 		[ $results, $total ] = $this->search( trim( $search ), true );
-		return \SearchSuggestionSet::fromTitles( $this->titlesFromResults( $results ) );
+		return SearchSuggestionSet::fromTitles( $this->titlesFromResults( $results ) );
 	}
 
 	/**
