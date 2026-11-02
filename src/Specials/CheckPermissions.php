@@ -3,6 +3,7 @@
 namespace BlueSpice\DistributionConnector\Specials;
 
 use InvalidArgumentException;
+use MediaWiki\Exception\PermissionsError;
 use MediaWiki\Html\Html;
 use MediaWiki\HTMLForm\Field\HTMLSelectField;
 use MediaWiki\HTMLForm\Field\HTMLTitleTextField;
@@ -13,7 +14,6 @@ use MediaWiki\SpecialPage\UnlistedSpecialPage;
 use MediaWiki\Status\Status;
 use MediaWiki\Title\TitleFactory;
 use MediaWiki\User\UserFactory;
-use PermissionsError;
 use StatusValue;
 
 class CheckPermissions extends UnlistedSpecialPage {
