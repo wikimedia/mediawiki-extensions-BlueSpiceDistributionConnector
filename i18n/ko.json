@@ -209,5 +209,6 @@
 	"droplets-map-center-label": "초점",
 	"droplets-map-center-label-help": "초점 바늘의 위치를 설정합니다. 팝업용 텍스트도 사용할 수 있습니다. 예: Regensburg ~ My custom text",
 	"droplets-buttonlink-target-label": "대상",
-	"droplets-buttonlink-label-label": "버튼의 텍스트"
+	"droplets-buttonlink-label-label": "버튼의 텍스트",
+	"bs-distributionconnector-create-input-exists": "이 문서는 이미 존재합니다. 새 문서를 만들려면 다른 이름을 선택하세요."
 }
