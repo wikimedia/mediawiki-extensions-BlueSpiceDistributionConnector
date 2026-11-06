@@ -118,7 +118,6 @@
 	"droplets-map-center-label-help": "設定焦點指針的位置，也可以是彈出文字。例如：雷根斯堡〜我的自訂文字",
 	"droplets-map-center-map-label": "地圖中心",
 	"droplets-map-center-map-label-help": "位於地圖中心的位置。例如：德國雷根斯堡",
-	"droplets-buttonlink-external-label": "外部連結",
 	"droplets-buttonlink-target-label": "目標",
 	"droplets-buttonlink-label-label": "按鈕文字",
 	"droplets-buttonlink-format-label": "背景顏色",

@@ -145,7 +145,6 @@
 	"droplets-map-center-label-help": "设置焦点指针的位置，也可以设置弹出文本。例如：雷根斯堡 ~ 我的自定义文本",
 	"droplets-map-center-map-label": "地图中心",
 	"droplets-map-center-map-label-help": "地图中心的位置。例如：德国雷根斯堡",
-	"droplets-buttonlink-external-label": "外部链接",
 	"droplets-buttonlink-target-label": "目标",
 	"droplets-buttonlink-label-label": "按钮上的文字",
 	"droplets-buttonlink-format-label": "背景颜色",

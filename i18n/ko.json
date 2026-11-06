@@ -110,7 +110,6 @@
 	"droplets-map-center-label-help": "초점 바늘의 위치를 설정합니다. 팝업용 텍스트도 사용할 수 있습니다. 예: Regensburg ~ My custom text",
 	"droplets-map-center-map-label": "지도의 중앙",
 	"droplets-map-center-map-label-help": "지도 중앙에 위치한 곳입니다. 예를 들어: 독일 레겐스부르크",
-	"droplets-buttonlink-external-label": "외부 링크",
 	"droplets-buttonlink-target-label": "대상",
 	"droplets-buttonlink-label-label": "버튼의 텍스트",
 	"droplets-buttonlink-format-label": "배경색",
