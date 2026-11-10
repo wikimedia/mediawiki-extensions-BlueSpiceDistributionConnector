@@ -132,6 +132,7 @@
 	"droplets-create-input-alignment-center-label": "가운데",
 	"droplets-create-input-name": "문서 만들기",
 	"droplets-create-input-desc": "사전 정의된 문서 생성을 위한 양식 필드",
+	"bs-distributionconnector-create-input-exists": "이 문서는 이미 존재합니다. 새 문서를 만들려면 다른 이름을 선택하세요.",
 	"droplets-pdf-link-page-label": "내보낼 문서",
 	"droplets-pdf-link-template-label": "PDF 틀",
 	"droplets-pdf-link-link-label": "링크 레이블",
@@ -201,6 +202,5 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "분류 접두사만 숨기기",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "항목 개수 표시",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "이름공간 선택",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "CSS 스타일 태그의 내용",
-	"bs-distributionconnector-create-input-exists": "이 문서는 이미 존재합니다. 새 문서를 만들려면 다른 이름을 선택하세요."
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "CSS 스타일 태그의 내용"
 }
