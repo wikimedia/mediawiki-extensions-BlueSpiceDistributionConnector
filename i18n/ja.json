@@ -118,7 +118,6 @@
 	"droplets-map-center-label-help": "フォーカス位置を設定し、ポップアップのテキストも可能です。例: レーゲンスブルク～私のカスタムテキスト",
 	"droplets-map-center-map-label": "地図の中心",
 	"droplets-map-center-map-label-help": "地図の中心にある場所。例: レーゲンスブルク、ドイツ",
-	"droplets-buttonlink-external-label": "外部リンク",
 	"droplets-buttonlink-target-label": "対象",
 	"droplets-buttonlink-label-label": "ボタン上のテキスト",
 	"droplets-buttonlink-format-label": "背景色",

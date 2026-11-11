@@ -120,7 +120,6 @@
 	"droplets-map-center-label-help": "Définir l’emplacement visé par l’épingle, facultativement suivi d’un texte pour la fenêtre contextuelle. Par exemple : Ratisbonne ~ Mon texte personnalisé",
 	"droplets-map-center-map-label": "Centre de la carte",
 	"droplets-map-center-map-label-help": "Emplacement qui est au centre de la carte. Par exemple : Ratisbonne, Allemagne",
-	"droplets-buttonlink-external-label": "Lien externe",
 	"droplets-buttonlink-target-label": "Cible",
 	"droplets-buttonlink-label-label": "Texte sur le bouton",
 	"droplets-buttonlink-format-label": "Couleur d’arrière-plan",
