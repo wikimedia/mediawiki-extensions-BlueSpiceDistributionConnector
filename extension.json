@@ -34,7 +34,11 @@
 				"DistributionConnectorEnableAutoLogin": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\PluggableAuth\\EnableAutoLogin::getInstance",
 				"DistributionConnectorEventBusEnableEventBus": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\EventBus\\EnableEventBus::getInstance",
 				"DistributionConnectorEventBusEventServices": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\EventBus\\EventServices::getInstance",
-				"DistributionConnectorEventBusEventServiceDefault": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\EventBus\\EventServiceDefault::getInstance"
+				"DistributionConnectorEventBusEventServiceDefault": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\EventBus\\EventServiceDefault::getInstance",
+				"SubscriptionKey": "\\BlueSpice\\DistributionConnector\\ConfigDefinition\\SubscriptionKey::getInstance"
+			},
+			"JSConfigVars": {
+				"BlueSpiceUserLimit": "\\BlueSpice\\DistributionConnector\\JSConfigVariable\\UserLimit::factory"
 			},
 			"PermissionRegistry": {
 				"dpl_param_delete_rules": {
@@ -248,6 +252,20 @@
 				}
 			}
 		},
+		"BlueSpiceInstanceStatus": {
+			"InstanceStatusProvider": {
+				"numberofusers": {
+					"class": "\\BlueSpice\\DistributionConnector\\InstanceStatusProvider\\NumberOfUsers",
+					"services": [ "BlueSpiceUserCounter" ]
+				}
+			},
+			"ApiInstanceStatusProvider": {
+				"numberofusers": {
+					"class": "\\BlueSpice\\DistributionConnector\\InstanceStatusProvider\\NumberOfUsers",
+					"services": [ "BlueSpiceUserCounter" ]
+				}
+			}
+		},
 		"BlueSpiceWikiFarm": {
 			"PostInstanceCreationCommandFactories": {
 				"migratePluggableAuthSettings": "BlueSpice\\DistributionConnector\\Integration\\WikiFarm\\PluggableAuthMigrationCommand::factory"
@@ -390,6 +408,15 @@
 				"bs-distributionconnector-invite-signup-dialog-text"
 			]
 		},
+		"ext.bluespice.distribution.usermanager.userlimit": {
+			"scripts": [
+				"usermanager/bluespice.distribution.userlimit.js"
+			],
+			"dependencies": [
+				"ext.bluespice",
+				"oojs-ui"
+			]
+		},
 		"ext.bluespice.distribution.video.visualEditor": {
 			"scripts": [
 				"ve/ve.ce.VideoDropletNode.js",
@@ -510,13 +537,26 @@
 			"value": "eventbus",
 			"descriptionmsg": "bs-distributionconnector-pref-eventbus-eventservicedefault",
 			"public": true
+		},
+		"UserLimitWhitelist": {
+			"value": [
+				"BSMaintenance", "WikiSysop", "MediaWiki default", "DynamicPageList3 extension",
+				"Mediawiki default", "Maintenance script", "BlueSpice default"
+			],
+			"description": "Contains user names that do not count towards the user limit"
+		},
+		"SubscriptionKey": {
+			"value": null,
+			"description": "Subscription key for BlueSpice edition"
 		}
 	},
 	"Hooks": {
 		"BeforePageDisplay": [
 			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddResources::callback",
-			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddEmbedVideoServices::callback"
+			"\\BlueSpice\\DistributionConnector\\Hook\\BeforePageDisplay\\AddEmbedVideoServices::callback",
+			"applyUserQuota"
 		],
+		"UnblockUser": "applyUserQuota",
 		"OutputPageBodyAttributes": "\\BlueSpice\\DistributionConnector\\Hook\\OutputPageBodyAttributes\\InitRcFilters::onOutputPageBodyAttributes",
 		"OutputPageParserOutput": [
 			"addCreateInputResources",
@@ -576,6 +616,19 @@
 			"services": [
 				"ExtensionRegistry"
 			]
+		},
+		"applyUserQuota": {
+			"class": "\\BlueSpice\\DistributionConnector\\HookHandler\\ApplyUserQuota",
+			"services": [ "BlueSpiceUserCounter" ]
+		}
+	},
+	"AuthManagerAutoConfig": {
+		"preauth": {
+			"UserLimitedAuthenticationProvider": {
+				"class": "BlueSpice\\DistributionConnector\\UserLimitedAuthenticationProvider",
+				"services": [ "BlueSpiceUserCounter" ],
+				"sort": 25
+			}
 		}
 	},
 	"ServiceWiringFiles": [
