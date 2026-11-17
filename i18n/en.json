@@ -202,5 +202,12 @@
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "Show number of entries",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Select namespaces",
 	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Content for CSS style tag",
-	"bs-distributionconnector-create-input-exists": "This page already exists. Choose a different name to create a new page."
+	"bs-distributionconnector-create-input-exists": "This page already exists. Choose a different name to create a new page.",
+	"bs-pro-distribution-instance-status-number-of-users-unknown": "There {{PLURAL:$1|is '''$1''' registered active user|are '''$1''' registered active users}}. No known limit set.",
+	"bs-pro-distribution-instance-status-number-of-users-unlimited": "There {{PLURAL:$1|is '''$1''' registered active user|are '''$1''' registered active users}}. The number of users is unlimited.",
+	"bs-pro-distribution-instance-status-number-of-users-limited": "There {{PLURAL:$1|is '''$1''' registered active user|are '''$1''' registered active users}} ($3%). The number of users is limited to $2.",
+	"bs-pro-distribution-instance-status-user-quota-label": "User quota",
+	"bs-pro-distribution-instance-status-number-of-users-limited-full": "There {{PLURAL:$1|is '''$1''' registered active user|are '''$1''' registered active users}}. Maximum number of users is reached! Please contact the BlueSpice team to increase the number of allowed users or disable some of the existing users in order to be able to create new users.",
+	"bs-pro-distribution-createaccount-fail-max-accounts-exceed": "The maximum number of accounts has been exceeded",
+	"bs-pro-distribution-config-license-key": "BlueSpice subscription key"
 }
