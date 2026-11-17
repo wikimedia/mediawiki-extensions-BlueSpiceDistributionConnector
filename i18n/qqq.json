@@ -210,5 +210,12 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "Label for option in dropdown",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "Label for checkbox input widget",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Label for input widget",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Label for input widget"
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Label for input widget",
+	"bs-pro-distribution-instance-status-number-of-users-unknown": "Value for the instance status user quota when limit is unknown.\n$1 - current number of active users",
+	"bs-pro-distribution-instance-status-number-of-users-unlimited": "Value for the instance status user quota when limit is set to unlimited.\n$1 - current number of active user",
+	"bs-pro-distribution-instance-status-number-of-users-limited": "Value for the instance status user quota when limit is set to valid number.\n$1 - current number of active user\n$2 - limit\n$3 - percent of user limit used",
+	"bs-pro-distribution-instance-status-user-quota-label": "Label for the instance status field",
+	"bs-pro-distribution-instance-status-number-of-users-limited-full": "Value for the instance status user quota when limit is reached.\n$1 - current number of active users",
+	"bs-pro-distribution-createaccount-fail-max-accounts-exceed": "Information text that the maximum number of accounts has been exceeded",
+	"bs-pro-distribution-config-license-key": "Label for configuration variable"
 }
