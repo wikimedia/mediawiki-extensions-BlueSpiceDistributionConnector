@@ -210,5 +210,12 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "Alleen categorievoorvoegsel verbergen",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "Aantal vermeldingen weergeven",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Naamruimten selecteren",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Inhoud voor CSS-stijltag"
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Inhoud voor CSS-stijltag",
+	"bs-pro-distribution-instance-status-number-of-users-unknown": "Er {{PLURAL:$1|is '''$1''' geregistreerde actieve gebruiker|zijn '''$1''' geregistreerde actieve gebruikers}}. Er is voor zover bekend geen beperking ingesteld.",
+	"bs-pro-distribution-instance-status-number-of-users-unlimited": "Er {{PLURAL:$1|is '''$1''' geregistreerde actieve gebruiker|zijn '''$1''' geregistreerde actieve gebruikers}}. Het aantal gebruikers is onbeperkt.",
+	"bs-pro-distribution-instance-status-number-of-users-limited": "Er {{PLURAL:$1|is '''$1''' geregistreerde actieve gebruiker|zijn '''$1''' geregistreerde actieve gebruikers}} ($3%). Het aantal gebruikers is beperkt tot $2.",
+	"bs-pro-distribution-instance-status-user-quota-label": "Gebruikersquotum",
+	"bs-pro-distribution-instance-status-number-of-users-limited-full": "Er {{PLURAL:$1|is '''$1''' geregistreerde actieve gebruiker|zijn '''$1''' geregistreerde actieve gebruikers}}. Het maximumaantal gebruikers is bereikt! Neem contact op met het BlueSpice-team om het aantal toegestane gebruikers te verhogen of schakel een aantal van de bestaande gebruikers uit om nieuwe gebruikers te kunnen aanmaken.",
+	"bs-pro-distribution-createaccount-fail-max-accounts-exceed": "Het maximumaantal accounts is overschreden",
+	"bs-pro-distribution-config-license-key": "BlueSpice-abonnementssleutel"
 }

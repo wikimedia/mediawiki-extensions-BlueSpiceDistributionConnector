@@ -201,5 +201,12 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "분류 접두사만 숨기기",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "항목 개수 표시",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "이름공간 선택",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "CSS 스타일 태그의 내용"
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "CSS 스타일 태그의 내용",
+	"bs-pro-distribution-instance-status-number-of-users-unknown": "{{PLURAL:$1|등록된 활성 사용자가}} '''$1명''' 있습니다. 알려진 제한은 없습니다.",
+	"bs-pro-distribution-instance-status-number-of-users-unlimited": "{{PLURAL:$1|등록된 활성 사용자가}} '''$1명''' 있습니다. 사용자 수 제한은 무제한입니다.",
+	"bs-pro-distribution-instance-status-number-of-users-limited": "{{PLURAL:$1|등록된 활성 사용자가}} '''$1명''' 있습니다 ($3%). 사용자 수 제한은 $2명입니다.",
+	"bs-pro-distribution-instance-status-user-quota-label": "사용자 할당량",
+	"bs-pro-distribution-instance-status-number-of-users-limited-full": "{{PLURAL:$1|등록된 활성 사용자가}} '''$1명''' 있습니다. 최대 사용자 수에 도달했습니다! 새 사용자를 생성하려면 블루스파이스 팀에 문의하여 허용된 사용자 수를 늘리거나 기존 사용자 중 일부를 비활성화하세요.",
+	"bs-pro-distribution-createaccount-fail-max-accounts-exceed": "최대 계정 수를 초과했습니다",
+	"bs-pro-distribution-config-license-key": "블루스파이스 구독 키"
 }

@@ -169,5 +169,11 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Bør innlogging skje automatisk når en bruker besøker wikien?",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Aktiverer automatisk innlogging på wikien",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Gruppesynkroniseringsinnstillinger (JSON)",
-	"bs-distributionconnector-droplets-subpages-parentpage-label": "Forelderside"
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Forelderside",
+	"bs-pro-distribution-instance-status-number-of-users-unknown": "Det er '''$1''' {{PLURAL:$1|registrert aktiv bruker|registrerte aktive brukere}}. Ingen kjent grense er satt.",
+	"bs-pro-distribution-instance-status-number-of-users-unlimited": "Det er '''$1''' {{PLURAL:$1|registrert aktiv bruker|registrerte aktive brukere}}. Antall brukere er ubegrenset.",
+	"bs-pro-distribution-instance-status-number-of-users-limited": "Det er '''$1''' {{PLURAL:$1|registrert aktiv bruker|registrerte aktive brukere}} ($3 %). Antall brukere er begrenset til $2.",
+	"bs-pro-distribution-instance-status-user-quota-label": "Brukerkvote",
+	"bs-pro-distribution-instance-status-number-of-users-limited-full": "Det er '''$1''' {{PLURAL:$1|registrert aktiv bruker|registrerte aktive brukere}}. Maksimalt antall brukere er nådd! Kontakt BlueSpice-teamet for å øke antall tillatte brukere, eller deaktiver noen eksisterende brukere for å kunne opprette nye kontoer",
+	"bs-pro-distribution-createaccount-fail-max-accounts-exceed": "Maksimalt antall kontoer er overskredet"
 }
