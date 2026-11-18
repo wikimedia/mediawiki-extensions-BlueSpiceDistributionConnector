@@ -209,5 +209,12 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "Nur Kategoriepräfix ausblenden",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "Anzahl der Einträge anzeigen",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Namensräume auswählen",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Inhalt für CSS-Style-Tag"
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Inhalt für CSS-Style-Tag",
+	"bs-pro-distribution-instance-status-number-of-users-unknown": "Es {{PLURAL:$1|ist '''$1''' aktiver|sind '''$1''' aktive}} Nutzer registriert. Es existiert kein bekanntes Limit.",
+	"bs-pro-distribution-instance-status-number-of-users-unlimited": "Es {{PLURAL:$1|ist '''$1''' aktiver|sind '''$1''' aktive}} Nutzer registriert. Die Anzahl der Nutzer ist unbegrenzt.",
+	"bs-pro-distribution-instance-status-number-of-users-limited": "Es {{PLURAL:$1|ist '''$1''' aktiver|sind '''$1''' aktive}} Nutzer registriert ($3%). Die Anzahl der Nutzer ist auf $2 begrenzt.",
+	"bs-pro-distribution-instance-status-user-quota-label": "Nutzerkontingent",
+	"bs-pro-distribution-instance-status-number-of-users-limited-full": "Es {{PLURAL:$1|ist '''$1''' aktiver|sind '''$1''' aktive}} Nutzer registriert. Die maximale Anzahl wurde erreicht! Bitte {{#FORMAL:kontaktiere|kontaktieren Sie}} das Team von BlueSpice, um das Nutzerlimit zu erhöhen, oder {{#FORMAL:deaktiviere|deaktivieren Sie}} einige Nutzer, um neue Nutzer hinzufügen zu können.",
+	"bs-pro-distribution-createaccount-fail-max-accounts-exceed": "Die maximale Anzahl an Benutzern wurde überschritten",
+	"bs-pro-distribution-config-license-key": "BlueSpice-Subskriptionsschlüssel"
 }
