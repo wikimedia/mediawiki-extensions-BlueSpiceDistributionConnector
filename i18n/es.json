@@ -193,5 +193,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "Ocultar solo el prefijo de categoría",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "Mostrar número de entradas",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Seleccionar espacios de nombres",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Contenido para la etiqueta de estilo CSS"
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Contenido para la etiqueta de estilo CSS",
+	"bs-pro-distribution-instance-status-user-quota-label": "Cuota de usario"
 }

@@ -208,5 +208,12 @@
 	"bs-distributionconnector-statistics-report-page-trends-desc": "النسبة المئوية لتطور مشاهدات الصفحة خلال الفترة والفاصل الزمني المحددين",
 	"bs-distributionconnector-statistics-report-page-hits-relation-desc": "عدد مرات مشاهدة الصفحة في الفترة والفاصل الزمني المحددين بالنسبة إلى العدد الإجمالي للمشاهدات",
 	"bs-distributionconnector-videodropletinspector-alignment-help": "قم بمحاذاة الفيديو إلى اليسار أو الوسط أو اليمين",
-	"bs-distributionconnector-droplets-subpages-parentpage-label": "الصفحة الأصل"
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "الصفحة الأصل",
+	"bs-pro-distribution-instance-status-number-of-users-unknown": "هناك {{PLURAL:$1| هو '' ' $1 ' '' مستخدم نشط مسجل | هم '' ' $1 ' '' مستخدمون نشطون مسجلون}}. لم يتم تعيين حد معروف.",
+	"bs-pro-distribution-instance-status-number-of-users-unlimited": "هناك {{PLURAL:$1| هو '' ' $1 ' '' مستخدم نشط مسجل | هم '' ' $1 ' '' مستخدمون نشطون مسجلون}}. عدد المستخدمين غير محدود.",
+	"bs-pro-distribution-instance-status-number-of-users-limited": "هناك {{PLURAL:$1| هو '' ' $1 ' '' مستخدم نشط مسجل | هم '' ' $1 ' '' مستخدمون نشطون مسجلون}} ( $3 ٪). عدد المستخدمين محدود بـ $2 .",
+	"bs-pro-distribution-instance-status-user-quota-label": "حصة المستخدم",
+	"bs-pro-distribution-instance-status-number-of-users-limited-full": "هناك {{PLURAL:$1| هو '''$1''' مستخدم نشط مسجل|هم '''$1''' مستخدمون نشطون مسجلون}}. تم الوصول إلى الحد الأقصى لعدد المستخدمين! يرجى الاتصال بفريق BlueSpice لزيادة عدد المستخدمين المسموح لهم أو تعطيل بعض المستخدمين الحاليين حتى تتمكن من إنشاء مستخدمين جدد.",
+	"bs-pro-distribution-createaccount-fail-max-accounts-exceed": "تم تجاوز الحد الأقصى لعدد الحسابات",
+	"bs-pro-distribution-config-license-key": "مفتاح اشتراك BlueSpice"
 }
