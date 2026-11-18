@@ -167,5 +167,6 @@
 	"bs-distributionconnector-pref-pluggableauth-config-plugin": "Nome do plugin",
 	"bs-distributionconnector-droplets-subpages-parentpage-label": "Página mãe",
 	"bs-distributionconnector-videodropletinspector-title-label": "Título",
-	"bs-distributionconnector-videodropletinspector-cover-label": "Capa"
+	"bs-distributionconnector-videodropletinspector-cover-label": "Capa",
+	"bs-pro-distribution-createaccount-fail-max-accounts-exceed": "O número máximo de contas foi ultrapassado"
 }

@@ -213,5 +213,12 @@
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Seleccionar os espazos de nomes",
 	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Contido para a etiqueta de estilo CSS",
 	"bs-distributionconnector-videodropletinspector-alignment-help": "Centra o vídeo ou alíñao á esquerda ou á dereita",
-	"bs-distributionconnector-create-input-exists": "Esta páxina xa existe. Escolle un nome diferente para crear unha páxina nova."
+	"bs-distributionconnector-create-input-exists": "Esta páxina xa existe. Escolle un nome diferente para crear unha páxina nova.",
+	"bs-pro-distribution-instance-status-number-of-users-unknown": "Hai '''$1''' {{PLURAL:$1|usuario activo rexistrado|usuarios activos rexistrados}}. Non se coñece ningún límite establecido.",
+	"bs-pro-distribution-instance-status-number-of-users-unlimited": "Hai '''$1''' {{PLURAL:$1|usuario activo rexistrado|usuarios activos rexistrados}}. O número de usuarios é ilimitado.",
+	"bs-pro-distribution-instance-status-number-of-users-limited": "Hai '''$1''' {{PLURAL:$1|usuario activo rexistrado|usuarios activos rexistrados}} ($3 %). O número de usuarios está limitado a $2.",
+	"bs-pro-distribution-instance-status-user-quota-label": "Cota de usuario",
+	"bs-pro-distribution-instance-status-number-of-users-limited-full": "Hai '''$1''' {{PLURAL:$1|usuario activo rexistrado|usuarios activos rexistrados}}. Acadouse o número máximo de usuarios! Ponte en contacto co equipo de BlueSpice para aumentar o número de usuarios permitidos ou desactivar algúns dos usuarios existentes para poder crear usuarios novos.",
+	"bs-pro-distribution-createaccount-fail-max-accounts-exceed": "Superouse o número máximo de contas",
+	"bs-pro-distribution-config-license-key": "Clave de subscrición de BlueSpice"
 }

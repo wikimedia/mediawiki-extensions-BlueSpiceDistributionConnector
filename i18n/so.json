@@ -4,5 +4,12 @@
 			"AhmedG612"
 		]
 	},
-	"bs-distributionconnector-create-input-exists": "Boggan horay ayuu u jiray. Dooro magac kale si aad u abuurto bog cusub."
+	"bs-distributionconnector-create-input-exists": "Boggan horay ayuu u jiray. Dooro magac kale si aad u abuurto bog cusub.",
+	"bs-pro-distribution-instance-status-number-of-users-unknown": "Waxaa jira {{PLURAL:$1|'''$1''' isticmaale firfircoon oo diiwaangashan|'''$1''' isticmaalayaal firfircoon oo diiwaangashan}}. Ma jiro xad la yaqaan oo la dejiyay.",
+	"bs-pro-distribution-instance-status-number-of-users-unlimited": "Waxaa jira {{PLURAL:$1|'''$1''' isticmaale firfircoon oo diiwaangashan|'''$1''' isticmaalayaal firfircoon oo diiwaangashan}}. Tirada isticmaalayaasha waa aan xad lahayn.",
+	"bs-pro-distribution-instance-status-number-of-users-limited": "Waxaa jira {{PLURAL:$1|'''$1''' isticmaale firfircoon oo diiwaangashan|'''$1''' isticmaalayaal firfircoon oo diiwaangashan}} ($3%). Tirada isticmaalayaasha waxaa lagu xaddiday $2.",
+	"bs-pro-distribution-instance-status-user-quota-label": "Akoonka isticmaalaha",
+	"bs-pro-distribution-instance-status-number-of-users-limited-full": "Waxaa jira {{PLURAL:$1|'''$1''' isticmaale firfircoon oo diiwaangashan|'''$1''' isticmaalayaal firfircoon oo diiwaangashan}}. Tirada ugu badan ee isticmaalayaasha waa la gaadhay! Fadlan la xiriir kooxda BlueSpice si loo kordhiyo tirada isticmaalayaasha la oggol yahay ama loo joojiyo qaar ka mid ah isticmaalayaasha jira si ay suurtagal u noqoto abuurista isticmaalayaal cusub.",
+	"bs-pro-distribution-createaccount-fail-max-accounts-exceed": "Tirada ugu badan ee akoonnada waa la dhaafay",
+	"bs-pro-distribution-config-license-key": "Furaha rukhsadda BlueSpice"
 }

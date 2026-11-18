@@ -151,5 +151,7 @@
 	"action-checkpermissions": "felhasználói jogosultságok ellenőrzése",
 	"right-checkpermissions": "Felhasználói jogosultságok ellenőrzése a [[Special:Check_Permissions]] speciális oldalon",
 	"bs-distributionconnector-droplets-subpages-parentpage-label": "Szülőlap",
-	"bs-distributionconnector-videodropletinspector-alignment-help": "Video balra, középre vagy jobbra igazítása"
+	"bs-distributionconnector-videodropletinspector-alignment-help": "Video balra, középre vagy jobbra igazítása",
+	"bs-pro-distribution-createaccount-fail-max-accounts-exceed": "Túllépted a maximális fiókszámot",
+	"bs-pro-distribution-config-license-key": "BlueSpice licenckulcs"
 }

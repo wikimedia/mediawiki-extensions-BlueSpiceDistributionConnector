@@ -52,5 +52,6 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "Dölj endast kategoriprefix",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "Visa antal poster",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Välj namnrymder",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Innehåll för CSS-stiltagg"
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Innehåll för CSS-stiltagg",
+	"bs-pro-distribution-config-license-key": "BlueSpice-prenumerationsnyckel"
 }
