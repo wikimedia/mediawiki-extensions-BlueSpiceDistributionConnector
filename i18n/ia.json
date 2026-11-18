@@ -198,5 +198,12 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "Celar solmente le prefixo de categoria",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "Monstrar numero de entratas",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "Selige spatios de nomines",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Contento pro le etiquetta de stilo CSS"
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "Contento pro le etiquetta de stilo CSS",
+	"bs-pro-distribution-instance-status-number-of-users-unknown": "Il ha '''$1''' usator{{PLURAL:$1||es}} registrate active. Necun limite cognoscite es definite.",
+	"bs-pro-distribution-instance-status-number-of-users-unlimited": "Il ha '''$1''' usator{{PLURAL:$1||es}} registrate active. Le numero de usatores es illimitate.",
+	"bs-pro-distribution-instance-status-number-of-users-limited": "Il ha '''$1''' usator{{PLURAL:$1||es}} registrate active ($3%). Le numero de usatores es limitate a $2.",
+	"bs-pro-distribution-instance-status-user-quota-label": "Quota de usatores",
+	"bs-pro-distribution-instance-status-number-of-users-limited-full": "Il ha '''$1''' usator{{PLURAL:$1||es}} registrate active. Le numero maxime de usatores es attingite! Per favor contacta le equipa de BlueSpice pro augmentar le numero de usatores permittite, o disactiva alcunes del usatores existente pro poter crear nove usatores.",
+	"bs-pro-distribution-createaccount-fail-max-accounts-exceed": "Le numero maxime de contos ha essite excedite",
+	"bs-pro-distribution-config-license-key": "Clave de abonamento BlueSpice"
 }

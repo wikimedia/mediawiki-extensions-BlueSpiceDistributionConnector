@@ -32,6 +32,7 @@
 			"Vikarna",
 			"VulpesVulpes825",
 			"Xiplus",
+			"Xyb",
 			"Yining Chen",
 			"Zhang8569",
 			"列维劳德",
@@ -237,5 +238,12 @@
 	"bs-distributionconnector-ve-categorytreeinspector-prefix-categories-label": "仅隐藏分类前缀",
 	"bs-distributionconnector-ve-categorytreeinspector-showcount-label": "显示项目数",
 	"bs-distributionconnector-ve-categorytreeinspector-namespaces-label": "选择命名空间",
-	"bs-distributionconnector-ve-categorytreeinspector-style-label": "CSS样式标签内容"
+	"bs-distributionconnector-ve-categorytreeinspector-style-label": "CSS样式标签内容",
+	"bs-pro-distribution-instance-status-number-of-users-unknown": "{{PLURAL:$1|已注册的活跃用户有'''$1'''个}}。未设置已知的限制。",
+	"bs-pro-distribution-instance-status-number-of-users-unlimited": "有{{PLURAL:$1|'''$1'''}}位已注册的活跃用户。用户数量不受限制。",
+	"bs-pro-distribution-instance-status-number-of-users-limited": "有{{PLURAL:$1|'''$1'''}} 位已注册的活跃用户（$3）。用户数量限制为$2。",
+	"bs-pro-distribution-instance-status-user-quota-label": "用户配额",
+	"bs-pro-distribution-instance-status-number-of-users-limited-full": "有{{PLURAL:$1|'''$1'''}} 位已注册的活跃用户。已达到最多用户数量！请联系BlueSpice团队来增加允许的用户数量，或是停用一些现有用户，以便创建新的用户。",
+	"bs-pro-distribution-createaccount-fail-max-accounts-exceed": "已超过最多账号数量",
+	"bs-pro-distribution-config-license-key": "BlueSpice订阅密钥"
 }

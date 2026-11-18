@@ -167,5 +167,12 @@
 	"bs-distributionconnector-pref-pluggableauth-enableautologin": "Ali naj se prijava izvede samodejno, ko uporabnik obišče viki?",
 	"bs-distributionconnector-pref-pluggableauth-enableautologin-help": "Omogoča samodejno prijavo v viki",
 	"bs-distributionconnector-pref-pluggableauth-config-groupsync-object": "Nastavitve skupinske sinhronizacije (JSON)",
-	"bs-distributionconnector-droplets-subpages-parentpage-label": "Nadrejena stran"
+	"bs-distributionconnector-droplets-subpages-parentpage-label": "Nadrejena stran",
+	"bs-pro-distribution-instance-status-number-of-users-unknown": "Trenutno {{PLURAL:$1|je '''$1''' registriran aktivni uporabnik|sta '''$1''' registrirana aktivna uporabnika|so '''$1''' aktivni registrirani uporabniki|je '''$1''' registriranih uporabnikov}}. Ni znane nastavljene omejitve.",
+	"bs-pro-distribution-instance-status-number-of-users-unlimited": "Trenutno {{PLURAL:$1|je '''$1''' registriran aktivni uporabnik|sta '''$1''' registrirana aktivna uporabnika|so '''$1''' aktivni registrirani uporabniki|je '''$1''' registriranih uporabnikov}}. Število uporabnikov je neomejeno.",
+	"bs-pro-distribution-instance-status-number-of-users-limited": "Trenutno {{PLURAL:$1|je '''$1''' registriran aktivni uporabnik|sta '''$1''' registrirana aktivna uporabnika|so '''$1''' aktivni registrirani uporabniki|je '''$1''' registriranih uporabnikov}} ($3%). Število uporabnikov je oomejeno na $2.",
+	"bs-pro-distribution-instance-status-user-quota-label": "Kvota uporabnikov",
+	"bs-pro-distribution-instance-status-number-of-users-limited-full": "Trenutno {{PLURAL:$1|je '''$1''' registriran aktivni uporabnik|sta '''$1''' registrirana aktivna uporabnika|so '''$1''' aktivni registrirani uporabniki|je '''$1''' registriranih uporabnikov}}. Doseženo je bilo največje število uporabnikov! Kontaktirajte ekipo BlueSpice, da povečate število dovoljenih uporabnikov, ali onemogočite nekatere obstoječe uporabnike, da lahko ustvarite nove uporabnike.",
+	"bs-pro-distribution-createaccount-fail-max-accounts-exceed": "Preseženo je bilo največje število računov",
+	"bs-pro-distribution-config-license-key": "Prijavni ključ BlueSpice"
 }
